@@ -15,7 +15,7 @@ export default {
     },
     sounds: { 0: 'Sesler' },
     leaderboard: { 0: 'Sıralama' },
-    extend: { 0: 'Çoktan aza | Azdan çoğa' },
+    extend: { 0: 'Genişlet | Daralt' },
     skin: {
       0: 'Bu skin içinde diğer skinlerden elemntler barındırıyor',
       1: 'Daha fazla bilgi için buraya tıklayın'
@@ -36,7 +36,7 @@ export default {
     0: 'Oluşturan',
     1: 'Bu versiyonu oluşturmakta emeği geçenlerin listesi',
     2: 'Burada kimse yok',
-    3: 'Typing in a player\'s name will show you the results of the osu search.',
+    3: 'Bir oyuncunun ismini yazmak osu search sonuçlarını gösterir.',
     4: 'Editör',
     5: 'Roller',
     6: 'Versiyonlar'
@@ -86,7 +86,7 @@ export default {
     5: 'Rastgele',
     6: 'Tüm skinler',
     7: 'Çerçeve Oranı',
-    8: 'All skins | osu skins',
+    8: 'Tüm skinler | osu skinleri',
     9: 'Skin | Skins | Skins',
     10: '{name} tarafıdan yapılan skinler | All skins from',
     11: 'Ara'
@@ -116,8 +116,8 @@ export default {
     22: 'İndirilenler',
     23: 'En kısa zamanda indirmeye açılacak',
     24: '{amount} saniye kaldı',
-    25: 'You\'re not one of us',
-    26: 'Look like you\'re not author or editor of this skin'
+    25: 'Bizden biri değişsin',
+    26: 'Görünüşe göre bu skinin yaratıcısı ya da editörü değilsin'
   },
   drag: {
     0: 'Buraya tıklayın',
@@ -156,14 +156,14 @@ export default {
     0: 'Boş',
     1: 'Ne yazık ki burada bir şey bulamadık yine de diğer sayafalara göz atmak isteyebilirsin',
     2: 'Ne yazık ki burada hiçbir şey yok',
-    3: 'Unauthorized',
-    4: 'You need to be logged in to edit this skin.',
-    5: 'You need to be logged in to add new skin.'
+    3: 'Yetkiniz yok',
+    4: 'Bu skini editleyebilmek için giriş yapman gerek.',
+    5: 'Yeni skin ekleyebilmek için giriş yapmış olmalısın.'
   },
   meta: {
     title: {
       0: 'Ana sayfa',
-      1: 'Gamemodes, aspect ratios osu skins',
+      1: 'Oyun modları, çerçeve oranları osu skinleri',
       2: 'Populer osu skinleri',
       3: 'Osu skinleri arayın',
       4: 'Etiketlerin listesi, {name}',
@@ -190,7 +190,7 @@ export default {
     keywords: { 0: 'osu, osu!, osu skins, std skins, ctb skins, mania skins, taiko skins, mrekk osu skins,Rafis osu skins,FlyingTuna osu skins,Vaxei osu skins,Cookiezi osu skins,Varvalian osu skins,RyuK osu skins,WhiteCat osu skins,_RyuK osu skins,BeasttrollMC osu skins,Genshin Impact osu skins,Mathi osu skins,WubWoofWolf osu skins,Merami osu skins,xootynator osu skins,Gayzmcgee osu skins,[Karcher] osu skins,Bubbleman osu skins,ChomikBox osu skins,NSFW osu skins,Lifeline osu skins,Hatsune Miku osu skins,Azerite osu skins,Umbre osu skins,404 AimNotFound osu skins,-Nikstrim osu skins,bloo osu skins,Shigetora osu skins,Badeu osu skins,FunOrange osu skins,worst hr player osu skins,Tekkito osu skins,ninerik osu skins,azr8 osu skins,idke osu skins,Andros osu skins,Zylice osu skins,Rektygon osu skins,Komori osu skins,anime osu skins,cyperdark osu skins,Red_Pixel osu skins,Utami osu skins,Arknights osu skins,Karthy osu skins,Paraqeet osu skins,aetrna osu skins,Spare osu skins,-GN osu skins,Mastasz osu skins,Seouless osu skins,haga1115 osu skins,shimon osu skins,fieryrage osu skins,Ekoro osu skins,Firebat92 osu skins,_Shield osu skins,-Roaz- osu skins,- Dark - osu skins,atturbo555 osu skins,Aristia osu skins,_Aiko__ osu skins,z x c osu skins,eternum osu skins,talala osu skins,NyanPotato osu skins,Arnold24x24 osu skins,Alumetri osu skins,im a fancy lad osu skins,jordanlr7 osu skins,Woey osu skins,khz osu skins,rrtyui osu skins,kieg osu skins,Rupertion osu skins,FGSky osu skins,Aireu osu skins,Neko God osu skins,Apostol osu skins,Abyssal osu skins,dokidokilolixx osu skins,Mlaw osu skins,Ponytail osu skins,Reedkatt osu skins,Zestiny osu skins,Apraxia osu skins,Binfy osu skins,Rohulk osu skins,-PloX osu skins,DuyKhang-sama osu skins,BronyPH osu skins,Intercambing osu skins,Xeltol osu skins,Valorant osu skins,Akolibed osu skins,hololive osu skins,kablaze osu skins,tokyo ghoul osu skins,Trail Mix osu skins,Dereban osu skins' }
   },
   buttons: {
-    0: 'Login',
+    0: 'Giriş',
     1: 'Ana sayfa',
     profile_osu: 'osu! Profili',
     new_skin: 'Yeni skin',
@@ -210,7 +210,7 @@ export default {
       1: 'Mixer',
       2: 'Animasyonlar',
       3: 'Resimler',
-      4: 'Collab'
+      4: 'Katılımcı'
     }
   },
   tooltips: {
