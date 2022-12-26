@@ -2,10 +2,11 @@ export default {
   hello: 'asd',
 
   title: {
-    home: 'Ana Sayfa',
+    home: 'Ana',
+    page: 'Sayfa',
     guest: 'Giriş Yapın',
     lists: {
-      0: 'Lists',
+      0: 'Listeler',
     },
     tags: {
       0: 'Etiketler',
@@ -19,7 +20,7 @@ export default {
       0: 'Sesler',
     },
     leaderboard: {
-      0: 'Leaderboards',
+      0: 'Sıralama',
     },
     extend: {
       0: 'Çoktan aza | Azdan çoğa',
@@ -34,8 +35,8 @@ export default {
 
 
   changelogs: {
-    0: 'Changelog',
-    1: 'Güncel versiyondaki yapılan tüm düzeltmelerin listesi',
+    0: 'Güncelleme geçmişi',
+    1: 'Güncel versiyondaki yapılan tüm değişikliklerin listesi',
     2: 'Burada hiçbir şey yok',
     3: 'Ama skinin bu versiyonuna yaptığınız değişiklikleri ekleyebilirsiniz',
     4: 'Gruplandırılmamış',
@@ -49,53 +50,56 @@ export default {
     0: 'Oluşturan',
     1: 'Bu versiyonu oluşturmakta emeği geçenlerin listesi',
     2: 'Burada kimse yok',
+    // English: I'm not sure what it meant by 'osu search' But the correct translation would be:
+    // Türkçe: 'Osu search'den neyin kastedildiğini anlamadım ama doğru çeviri şöyle olurdu:
+    // 'Bir oyuncunun ismini yazmak osu search sonucunu gösterir.
     3: 'Typing in a player\'s name will show you the results of the osu search.',
-    4: 'Editor',
+    4: 'Editör',
     5: 'Roller',
-    6: 'Versions',
+    6: 'Versiyonlar',
   },
 
   tags: {
     0: 'Etiketler',
     1: 'Bu skinle bağlantılı tüm etiketlerin listesi',
-    2: 'Burası baya bi boş gözüküyor.',
+    2: 'Burası bayağı bi boş gözüküyor.',
     3: 'Yeni etiketler bulmak için yukarıdaki alanı kullanın',
   },
 
   videos: {
-    0: 'Videos',
+    0: 'Videolar',
     1: 'Bu skin için sergilenen tüm videoların listesi',
-    2: 'Zero showcases',
-    3: 'Youtubedan alın ya da kendinizinkini oluşturun',
+    2: 'Sergilenecek video yok',
+    3: 'YouTube\'da arayın ya da kendi video\'nuzu oluşturun',
   },
 
   sources: {
-    0: 'Özellik',
+    0: 'Özellikler',
     1: 'Skinde kullanılan tüm assetlerin ve toolların listesi',
-    2: 'Kinda empty here',
+    2: 'Burası bir tık boş kalmış',
     3: 'Eğer diğer skinlerden asset ya da resim kullandıysanız, yukarıdaki kutucuğa eklediğinizden emin olun',
     4: 'Gruplandırılmamış',
   },
 
 
   checks: {
-    0: 'All',
+    0: 'Hepsi',
     1: 'Metadata',
     2: 'Hightlight',
 
-    4: 'En az bir oluşturan ekleyin',
+    4: 'Skini oluşturan en az bir kişi ekleyin',
     5: 'Birkaç etiket ekleyin',
     6: 'Skinin boyutu belirtilmemiş',
     7: 'En az bir oyun modu seçin',
-    8: 'Dosya türü seçin (SD ya da HD)',
-    9: 'En az bir ekran oranı seçin',
-    10: 'No screenshots provided',
+    8: 'Görsel çözünürlüğü seçin (SD ya da HD)',
+    9: 'En az bir çerçeve oranı seçin',
+    10: 'Ekran görüntüsü sağlanamıyor',
     11: 'En az bir oynanış görüntüsü ekleyin',
     12: 'Skin linki belirtilmemiş',
 
-    20: 'Looking pretty good',
+    20: 'Gayet iyi görünüyor',
     21: 'İyi haber! Hiçbir problem kalmadı',
-    22: 'Check list',
+    22: 'Kontrol listesi',
   },
 
   skins: {
@@ -109,33 +113,35 @@ export default {
     7: 'Çerçeve Oranı',
     8: 'All skins | osu skins',
     9: 'Skin | Skins | Skins',
-    10: '{name} tarafından yapıldı | All skins from',
-    11: 'Search',
+    // English: I'm not sure what use has the second column here.
+    // Türkçe: 2. kolonda ne amaçlanıyor bi fikrim yok.
+    10: '{name} tarafıdan yapılan skinler | All skins from',
+    11: 'Ara',
   },
 
   skin: {
-    0: 'Edit',
-    1: 'Extra',
+    0: 'Düzenle',
+    1: 'Ekstra',
     2: 'HD',
     3: 'FullHD',
     4: 'Animasyon',
-    5: 'Screenshots',
+    5: 'Ekran görüntüleri',
     6: 'Sadece Gameplay',
     7: 'İndirme linki | skini indir',
 
-    8: 'Forum post |osu! Forum',
-    9: 'Reddit post',
+    8: 'Forum postu |osu! Forum',
+    9: 'Reddit postu',
 
-    10: 'Creators',
+    10: 'Oluşturanlar',
     11: 'Etiketler',
-    13: 'Videos',
+    13: 'Videolar',
 
-    14: 'New Version | Manage versions',
-    15: 'Güncelle | Submit',
+    14: 'Yeni versiyon | Versiyonları düzenle',
+    15: 'Güncelle | Gönder',
 
-    16: 'Gamemodes',
+    16: 'Oyun modları',
     17: 'Skinin adı',
-    18: 'Version | Versions',
+    18: 'Versiyon | Versiyonlar',
     19: 'Boyut',
     20: 'Metadata',
 
@@ -147,7 +153,7 @@ export default {
 
   drag: {
     0: 'Buraya tıklayın',
-    1: 'Resimleri buraya sürükle ya da bırak',
+    1: 'ya da resimleri buraya sürükleyin ve bırakın',
   },
 
   footer: {
@@ -158,10 +164,11 @@ export default {
   credits: {
     0: 'Chibi',
     1: 'Resimler',
-    2: 'Icons',
-    3: 'All icons are taken from {name}',
-    4: 'Flags',
-    5: 'All flag images are from {name}'
+    2: 'İkonlar',
+    3: 'Bütün ikonlar {name}\'den alındı',
+    // English: If flags are not meant to be country flags revert both of these.
+    4: 'Bayraklar',
+    5: 'Bütün bayrak görselleri {name}\'den alındı'
   },
 
   search: {
@@ -174,7 +181,7 @@ export default {
     7: 'Hiçbir şey bulunamadı',
     8: 'Başka kriterde arama yapmayı deneyin',
     9: 'Arama bekleniyor',
-    10: 'Arama kriterinizi seçin ya da sadece skin başlığını, yapımcısını, ya da etiketini yazın',
+    10: 'Arama kriterinizi seçin ya da sadece skin adını, yapımcısını ya da etiketini yazın',
   },
 
   tabs: {
@@ -185,7 +192,7 @@ export default {
 
   undefined: {
     0: 'Boş',
-    1: 'Ne yazık ki burada hiçbir şey yok, diğer sayfalara göz atabilirsin',
+    1: 'Ne yazık ki burada bir şey bulamadık yine de diğer sayafalara göz atmak isteyebilirsin',
     2: 'Ne yazık ki burada hiçbir şey yok',
   },
 
@@ -215,27 +222,29 @@ export default {
       0: 'Ana sayfa',
       1: 'Gamemodes, aspect ratios osu skins',
       2: 'Populer osu skinleri',
-      3: 'Search osu skins',
-      4: '«{name}» tags list',
+      3: 'Osu skinleri arayın',
+      4: 'Etiketlerin listesi, {name}',
       5: '{name} v{version} osu skin',
       6: 'Credits',
       7: 'osu skins',
       8: '{name} search osu skins',
-      9: 'Diğer osu skinlerinden ilham alın',
+      9: 'Kendinizi diğer osu skinleriyle etkileyin',
       10: '{name} created osu skins',
     },
     description: {
       // 0: 'Get the best osu skins at our site, with a huge library to choose from! We have skins for different gamemodes and aspect ratios, and even feature top players and anime themes. Boost your gameplay with our high-quality skins.',
-      0: 'Get the best osu! skins at our site! Our huge library has skins for all gamemodes, aspect ratios, and even top players. Plus, we have a special section for anime fans. Improve your gameplay with the perfect skin. #osuskins #osugame #anime',
-      1: '{views} views. An osu skin for {modes}, his weight is {size}, created by {creators}. Supports {ratios}',
-      2: 'Find the perfect osu! skin with our advanced search feature. Browse through our huge library, filtered by gamemode, aspect ratio, and more. Or, check out skins used by top players',
-      3: 'Discover a variety of game modes and aspect ratios on our site. Choose from standard mode, catch the beat, mania, and taiko. Find the perfect fit for your gaming preferences.',
-      4: 'Find the perfect osu skin from top players on our site. Browse our collection of popular skins and customize your gameplay. Discover a wide range of styles and themes to suit your preferences.',
-      5: 'List of existed tags for osu skins.',
+      // 0: 'Devasa kütüphanemizi kullanarak en iyi osu skinlerini edinin! Farklı oyun modları, çerçeve oranlarına göre ve hatta top playerlara ve anime temalarına yönelik skinlerimiz var. Oyununuzu yüksek kalite skinlerimizle bir üst kademeye çıkarın!',
+      0: 'Sitemizden en iyi osu! skinlerini edinin! Devasa kütüphanemizde tüm oyunmodlarına, çerçeve oranlarına hatta top playerlara ilişkin skinler bulabilirsin. Artı olarak anime fanlarına yönelik bi bölümümüz daha var. Mükemmel skininle birlikte oyununu bir adım ileri taşı. #osuskins #osugame #anime',
+      1: '{views} görüntülenme. {modes} yönelik bir osu skini , his weight is {size}, {creators} tarafından yaratıldı. Şu çerçeve oranlarını destekler: {ratios}',
+      2: 'Gelişmiş arama özelliğimiz sayesinde mükemmel osu! skinini bulun. Devasa kütüphanemizi oyun modlarına, çerçeve oranlarına ve daha fazlasıyla filtereleyek tarayın. Ya da top playerlar tarafından kullanılan skinlere göz atın',
+      3: 'Sitemizde çeşitli oyun modları ve çerçeve oranlarını keşfedin. Osu! standart, catch the beat, mania ve taiko arasından istediğinizi seçin. Oyun tercihinize en iyi uyanı bulun.',
+      4: 'Sitemizde top playerlardan mükemmel skininizi keşfedin. Popüler skin koleksiyonumuza göz atın ve oyununuzu kişiselleştirin. Tercihlerinize uyacak yönde koca bi yelpaze stil ve temaları keşfedin.',
+      5: 'osu skinleri için etiketlerin bir listesi.',
+      // not sure how these 3 lines implemented in the website.
       6: '{name} osu skins collection!, free downloading',
-      7: 'A huge amount of osu skins for a {name}, download for free!',
+      7: 'A huge amount of osu skins for {name}, download for free!',
       8: 'All osu skins created by {name}',
-      9: 'Find inspiration for your next osu! skin at our site. Browse through a diverse collection of skins and discover new techniques and ideas. Get inspired and create your own unique skins.',
+      9: 'Sitemizde bir sonraki osu! skininin için ilham kaynağı bul. Çeşitli koleksiyonumuza göz atın ve yeni teknikler, fikirler edinin. İlham alarak kendinize özgün skinler yaratın.',
     },
     keywords: {
       0: 'osu, osu!, osu skins, std skins, ctb skins, mania skins, taiko skins, mrekk osu skins,Rafis osu skins,FlyingTuna osu skins,Vaxei osu skins,Cookiezi osu skins,Varvalian osu skins,RyuK osu skins,WhiteCat osu skins,_RyuK osu skins,BeasttrollMC osu skins,Genshin Impact osu skins,Mathi osu skins,WubWoofWolf osu skins,Merami osu skins,xootynator osu skins,Gayzmcgee osu skins,[Karcher] osu skins,Bubbleman osu skins,ChomikBox osu skins,NSFW osu skins,Lifeline osu skins,Hatsune Miku osu skins,Azerite osu skins,Umbre osu skins,404 AimNotFound osu skins,-Nikstrim osu skins,bloo osu skins,Shigetora osu skins,Badeu osu skins,FunOrange osu skins,worst hr player osu skins,Tekkito osu skins,ninerik osu skins,azr8 osu skins,idke osu skins,Andros osu skins,Zylice osu skins,Rektygon osu skins,Komori osu skins,anime osu skins,cyperdark osu skins,Red_Pixel osu skins,Utami osu skins,Arknights osu skins,Karthy osu skins,Paraqeet osu skins,aetrna osu skins,Spare osu skins,-GN osu skins,Mastasz osu skins,Seouless osu skins,haga1115 osu skins,shimon osu skins,fieryrage osu skins,Ekoro osu skins,Firebat92 osu skins,_Shield osu skins,-Roaz- osu skins,- Dark - osu skins,atturbo555 osu skins,Aristia osu skins,_Aiko__ osu skins,z x c osu skins,eternum osu skins,talala osu skins,NyanPotato osu skins,Arnold24x24 osu skins,Alumetri osu skins,im a fancy lad osu skins,jordanlr7 osu skins,Woey osu skins,khz osu skins,rrtyui osu skins,kieg osu skins,Rupertion osu skins,FGSky osu skins,Aireu osu skins,Neko God osu skins,Apostol osu skins,Abyssal osu skins,dokidokilolixx osu skins,Mlaw osu skins,Ponytail osu skins,Reedkatt osu skins,Zestiny osu skins,Apraxia osu skins,Binfy osu skins,Rohulk osu skins,-PloX osu skins,DuyKhang-sama osu skins,BronyPH osu skins,Intercambing osu skins,Xeltol osu skins,Valorant osu skins,Akolibed osu skins,hololive osu skins,kablaze osu skins,tokyo ghoul osu skins,Trail Mix osu skins,Dereban osu skins'
@@ -243,7 +252,7 @@ export default {
   },
 
   buttons: {
-    profile_osu: 'osu! Profile',
+    profile_osu: 'osu! Profili',
     new_skin: 'Yeni skin',
     notifications: 'Bildirimler',
     settings: 'Ayarlar',
@@ -260,7 +269,7 @@ export default {
 
   user: {
     roles: {
-      0: 'Oluşturan',
+      0: 'Yaratıcı',
       1: 'Mixer',
       2: 'Animasyonlar',
       3: 'Resimler',
@@ -271,29 +280,32 @@ export default {
   tooltips: {
     0: '{amount} Görüntülenme',
     1: 'Sonuçları yeniden yükle',
-    2: 'Descending | Ascending',
+    // I expect this to be to toggle between sort options. Also it is possible to remove 'Aşağı doğru' and as it is.
+    // Yukarı ve aşağı yönde artan azalan şeklinde sıralama olduğunu tahmin ediyorum. Formata uymuyorsa "Aşağı doğru" silinebilir.
+    2: 'Aşağı doğru artan | Azalan',
     3: '{amount} Beğeni',
     4: 'Etiket eklemek için ctrl+enter basın',
     5: 'Edit version',
-    6: '{s}Giriş yapın{p}, Bu skini değerlendirmek için',
-    7: 'No short description',
-    8: 'No url',
+    6: 'Sikini değerlendirmek için {s}Giriş yapın{p}',
+    7: 'Kısa açıklama bulunamadı',
+    8: 'Url bulunamadı',
   },
 
   lists: {
     screens: {
+      //  Reverted the changes back to original in sake of the skinners. It could be difficult to navigate in local osu skin folder if they are not expreienced. 
       0: 'Welcome',
       1: 'Ane menü',
       2: 'Song select',
       3: 'Mode menu',
-      4: 'Modlar',
+      4: 'Mods',
       5: 'Countdown',
       6: 'Gameplay',
       7: 'Spinner',
       8: 'Section Pass',
       9: 'Section Fail',
-      10: 'Durdurma Ekranı',
-      11: 'Fail Ekranı',
+      10: 'Pause Screen',
+      11: 'Fail Screen',
       12: 'Result screen',
       13: 'Skip',
       14: 'Banner',
@@ -318,12 +330,12 @@ export default {
     2: 'Değiştirildi',
     3: 'Silindi',
 
-    4: 'Art',
+    4: 'Resim',
     5: 'Font',
     6: 'Artist',
     7: 'Skin element',
     8: 'Audio/Sfx',
-    9: 'Tools',
+    9: 'Toollar',
 
 
 
@@ -331,13 +343,13 @@ export default {
     likes: 'Beğeni',
     size_range: 'Boyut seçin',
     date_range: 'Tarih aralığı seçin',
-    ratio: 'Ekran oranı seçin | ratio',
+    ratio: 'Çerçeve oranı seçin | ratio',
   },
 
   placeholders: {
     0: 'Rol seçin',
     1: 'Versiyon seçin',
-    2: 'Type text...',
+    2: 'Yazı yazın...',
     3: 'Boyut seçin',
     4: 'Tarih aralığı seçin',
     5: 'Yıl',
@@ -346,10 +358,10 @@ export default {
     8: 'Kategorileri seçin',
     9: 'Oyun modları',
     10: 'Tür seçin',
-    11: 'youtube bağlantısını yapıştırın',
+    11: 'YouTube bağlantısını yapıştırın',
     12: 'Açıklama ve url. yazın Format description:url',
     13: 'Select extra',
-    14: 'Paste a link',
-    15: 'Skin başlığı, yapımcısı, ya da etiket',
+    14: 'Link yapıştırın',
+    15: 'Skinin adı, yaratıcısı ya da etiketi',
   }
 };
