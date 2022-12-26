@@ -1,20 +1,20 @@
 export default {
   hello: 'asd',
   title: {
-    home: 'Home',
-    page: 'page',
-    guest: 'Log in',
-    lists: { 0: 'Lists' },
+    home: 'Trang chủ',
+    page: 'Trang',
+    guest: 'Đăng nhập',
+    lists: { 0: 'Danh sách' },
     tags: {
-      0: 'Tags',
-      1: '{amount} tags for category {name}'
+      0: 'Các Tag',
+      1: '{amount} các tag của thể loại {name}'
     },
     ideas: {
-      0: 'Inspiration',
+      0: 'Cảm Hứng',
       1: '«{amount}»'
     },
-    sounds: { 0: 'Sounds' },
-    leaderboard: { 0: 'Leaderboards' },
+    sounds: { 0: 'Âm thanh' },
+    leaderboard: { 0: 'Bảng xếp hạng' },
     extend: { 0: 'More | Less' },
     skin: {
       0: 'This skin contains elements from other skins',
@@ -22,33 +22,33 @@ export default {
     }
   },
   changelogs: {
-    0: 'Changelog',
+    0: 'Nhật ký thay đổi',
     1: 'List of all the revisions done in the current version',
-    2: 'Nothing here',
+    2: 'Không có gì ở đây',
     3: 'But you can add the changes you made to this version of the skin',
-    4: 'Not grouped',
-    5: 'New',
-    6: 'Fixes',
-    7: 'Changes',
+    4: 'Chưa nhóm',
+    5: 'Mới',
+    6: 'Sửa lỗi',
+    7: 'Thay đổi',
     8: 'Removals'
   },
   creators: {
-    0: 'Creators',
+    0: 'Tác giả',
     1: 'List all creators who were involved in making this version',
     2: 'No one is here',
     3: 'Typing in a player\'s name will show you the results of the osu search.',
-    4: 'Editor',
+    4: 'Trình chỉnh sửa',
     5: 'Roles',
     6: 'Versions'
   },
   tags: {
-    0: 'Tags',
+    0: 'Các Tag',
     1: 'List of all the tags related to this skin',
     2: 'It seems pretty empty here.',
     3: 'Use the field above to find new tags'
   },
   videos: {
-    0: 'Videos',
+    0: 'Video',
     1: 'List of all the video showcases for this skin',
     2: 'No showcases',
     3: 'Search for some on YouTube or create your own showcase'
@@ -58,7 +58,7 @@ export default {
     1: 'List of all used assets or tools in this version of the skin',
     2: 'Kinda empty here',
     3: 'If you have used assets from other skins, or arts, be sure to add them in the box above',
-    4: 'Not grouped'
+    4: 'Chưa nhóm'
   },
   checks: {
     0: 'All',
@@ -67,7 +67,7 @@ export default {
     4: 'Add at least one skin creator',
     5: 'Add a couple of tags',
     6: 'Size of the skin not specified',
-    7: 'Select at least one gamemode',
+    7: 'Chọn ít nhất một chế độ chơi',
     8: 'Select image resolution (SD or HD)',
     9: 'Select at least one aspect ratio',
     10: 'No screenshots provided',
@@ -102,9 +102,9 @@ export default {
     7: 'Download link | Download skin',
     8: 'Forum post |osu! Forum',
     9: 'Reddit post',
-    10: 'Creators',
-    11: 'Tags',
-    13: 'Videos',
+    10: 'Tác giả',
+    11: 'Các Tag',
+    13: 'Video',
     14: 'New Version | Manage versions',
     15: 'Update | Submit',
     16: 'Gamemodes',
@@ -249,7 +249,7 @@ export default {
     }
   },
   select: {
-    0: 'New',
+    0: 'Mới',
     1: 'Fixed',
     2: 'Changed',
     3: 'Removed',
