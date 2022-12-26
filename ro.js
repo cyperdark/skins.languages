@@ -2,7 +2,7 @@ export default {
   hello: 'asd',
   title: {
     home: 'Pagina principală',
-    page: 'page',
+    page: 'pagină',
     guest: 'Conectează-te',
     lists: { 0: 'Liste' },
     tags: {
@@ -28,9 +28,9 @@ export default {
     3: 'Dar poți adăuga modificările pe care le-ai făcut acestei versiuni a skin-ului',
     4: 'Nu sunt grupate',
     5: 'Nou',
-    6: 'Corecții',
+    6: 'rezolvări',
     7: 'Modificări',
-    8: 'Eliminări'
+    8: 'desființări'
   },
   creators: {
     0: 'Creatori',
@@ -43,7 +43,7 @@ export default {
   },
   tags: {
     0: 'Etichete',
-    1: 'Lista tuturor etichetelor aferente acestui skin',
+    1: 'Listă cu toate etichetele legate de acest skin',
     2: 'Pare cam pustiu pe aici.',
     3: 'Folosește-te de caseta de mai sus pentru a găsi etichete noi'
   },
@@ -66,7 +66,7 @@ export default {
     2: 'Hightlight',
     4: 'Adaugă cel puțin un creator al skin-ului',
     5: 'Adaugă câteva etichete',
-    6: 'Dificultatea skin-ului nespecificată',
+    6: 'Mărimea skin-ului',
     7: 'Selectează cel puțin un mod de joc',
     8: 'Selectează tipul fișierului (SD sau HD)',
     9: 'Selectează cel puțin un aspect ratio',
@@ -89,7 +89,7 @@ export default {
     8: 'Toate skin-urile | skin-uri osu',
     9: 'Skin | Skin-uri | Skin-uri',
     10: 'Skin-uri osu realizate de {name} | Toate skin-urile de la',
-    11: 'Cautare'
+    11: 'căutare'
   },
   skin: {
     0: 'Edit',
@@ -116,8 +116,8 @@ export default {
     22: 'Descărcări',
     23: 'Descărcarea va fi valabilă in curând',
     24: '{amount} secunde rămase',
-    25: 'You\'re not one of us',
-    26: 'Look like you\'re not author or editor of this skin'
+    25: 'Nu ești unul dintre noi',
+    26: 'Se pare că nu ești autorul sau editorul acestui skin'
   },
   drag: {
     0: 'Apasă aici',
@@ -143,22 +143,22 @@ export default {
     4: 'Dimensiune',
     5: 'Dată',
     7: 'Nu am găsit nimic',
-    8: 'Încearcă să schimbi cripteriile de căutare',
+    8: 'Încearcă să schimbi criteriile de căutare',
     9: 'În așteptarea unei solicitări',
     10: 'Selectează criteriile căutării sau scrie titlul, autorul sau etichetele skin-ului'
   },
   tabs: {
-    0: 'Cautare',
+    0: 'căutare',
     1: 'Edit',
     2: 'Listă'
   },
   undefined: {
     0: 'Gol',
-    1: 'Din păcate nu am găsit nimic aici, dar poți să te uiți la celelalte pagini',
+    1: 'Din păcate nu am găsit nimic aici, dar poți să te uiți pe celelalte pagini',
     2: 'Din păcate nu am găsit nimic aici',
-    3: 'Unauthorized',
-    4: 'You need to be logged in to edit this skin.',
-    5: 'You need to be logged in to add new skin.'
+    3: 'Neautorizat',
+    4: 'Trebuie să fi conectat pentru a edita acest skin.',
+    5: 'Trebuie să fi conectat pentru a adăuga un nou skin.'
   },
   meta: {
     title: {
@@ -190,7 +190,7 @@ export default {
     keywords: { 0: 'osu, osu!, osu skins, std skins, ctb skins, mania skins, taiko skins, mrekk osu skins,Rafis osu skins,FlyingTuna osu skins,Vaxei osu skins,Cookiezi osu skins,Varvalian osu skins,RyuK osu skins,WhiteCat osu skins,_RyuK osu skins,BeasttrollMC osu skins,Genshin Impact osu skins,Mathi osu skins,WubWoofWolf osu skins,Merami osu skins,xootynator osu skins,Gayzmcgee osu skins,[Karcher] osu skins,Bubbleman osu skins,ChomikBox osu skins,NSFW osu skins,Lifeline osu skins,Hatsune Miku osu skins,Azerite osu skins,Umbre osu skins,404 AimNotFound osu skins,-Nikstrim osu skins,bloo osu skins,Shigetora osu skins,Badeu osu skins,FunOrange osu skins,worst hr player osu skins,Tekkito osu skins,ninerik osu skins,azr8 osu skins,idke osu skins,Andros osu skins,Zylice osu skins,Rektygon osu skins,Komori osu skins,anime osu skins,cyperdark osu skins,Red_Pixel osu skins,Utami osu skins,Arknights osu skins,Karthy osu skins,Paraqeet osu skins,aetrna osu skins,Spare osu skins,-GN osu skins,Mastasz osu skins,Seouless osu skins,haga1115 osu skins,shimon osu skins,fieryrage osu skins,Ekoro osu skins,Firebat92 osu skins,_Shield osu skins,-Roaz- osu skins,- Dark - osu skins,atturbo555 osu skins,Aristia osu skins,_Aiko__ osu skins,z x c osu skins,eternum osu skins,talala osu skins,NyanPotato osu skins,Arnold24x24 osu skins,Alumetri osu skins,im a fancy lad osu skins,jordanlr7 osu skins,Woey osu skins,khz osu skins,rrtyui osu skins,kieg osu skins,Rupertion osu skins,FGSky osu skins,Aireu osu skins,Neko God osu skins,Apostol osu skins,Abyssal osu skins,dokidokilolixx osu skins,Mlaw osu skins,Ponytail osu skins,Reedkatt osu skins,Zestiny osu skins,Apraxia osu skins,Binfy osu skins,Rohulk osu skins,-PloX osu skins,DuyKhang-sama osu skins,BronyPH osu skins,Intercambing osu skins,Xeltol osu skins,Valorant osu skins,Akolibed osu skins,hololive osu skins,kablaze osu skins,tokyo ghoul osu skins,Trail Mix osu skins,Dereban osu skins' }
   },
   buttons: {
-    0: 'Login',
+    0: 'Conectează-te',
     1: 'Home page',
     profile_osu: 'Profilul de osu!',
     new_skin: 'Skin nou',
