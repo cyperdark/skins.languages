@@ -3,7 +3,7 @@ export default {
 
   title: {
     home: 'Inicio',
-    page: 'Pagina',
+    page: 'Página',
     guest: 'Iniciar sesión',
     lists: {
       0: 'Listas',
@@ -36,9 +36,9 @@ export default {
 
   changelogs: {
     0: 'Lista de cambios',
-    1: 'Lista de todas las revisiones hechas en la version actual',
-    2: 'Nada por aqui',
-    3: 'Pero puedes agregar los cambios que realizaste en esta version de la skin',
+    1: 'Lista de todas las revisiones hechas en la versión actual',
+    2: 'Nada por aquí',
+    3: 'Pero puedes agregar los cambios que realizaste en esta versión de la skin',
     4: 'No agrupado',
     5: 'Nuevo',
     6: 'Arreglos',
@@ -50,7 +50,7 @@ export default {
     0: 'Creadores',
     1: 'Lista de todos los creadores que participaron en la creación de esta versión',
     2: 'No hay nadie aquí',
-    3: 'Escribe el nombre de un jugador que te mostrara los resultados de busqueda de osu',
+    3: 'Escribiendo el nombre de un jugador te mostrará los resultados de búsqueda de osu',
     4: 'Editor',
     5: 'Roles',
     6: 'Versiones',
@@ -59,22 +59,22 @@ export default {
   tags: {
     0: 'Etiquetas',
     1: 'Lista de todas las etiquetas relacionadas con esta skin',
-    2: 'Parece bastante vacio aqui.',
+    2: 'Parece bastante vacío aquí.',
     3: 'Utiliza el campo de arriba para encontrar etiquetas nuevas',
   },
 
   videos: {
-    0: 'Videos',
-    1: 'Lista de todos los videos de demostración para esta skin',
-    2: 'No hay videos de demostración',
-    3: 'Busca un video en youtube o crea tu propio video demostrativo',
+    0: 'Vídeos',
+    1: 'Lista de todos los vídeos de demostración para esta skin',
+    2: 'No hay vídeos de demostración',
+    3: 'Busca un vídeo en YouTube o crea tu propio vídeo demostrativo',
   },
 
   sources: {
     0: 'Atribución',
     1: 'Lista de todas las cosas o herramientas utilizadas en esta skin',
-    2: 'Un poco vacio aqui...',
-    3: 'Si utilizaste cosas de otras skins, artes, por favor agregalas en el campo de arriba',
+    2: 'Un poco vacío aquí...',
+    3: 'Si utilizaste cosas de otras skins o artes, por favor agrégalas en el campo de arriba',
     4: 'No agrupado',
   },
 
@@ -89,7 +89,7 @@ export default {
     6: 'Tamaño de la skin no especificado',
     7: 'Selecciona al menos un modo de juego',
     8: 'Selecciona una resolución de imagen (SD o HD)',
-    9: 'Selecciona al menos una relacion de aspecto (Ejemplo: 4:3, 16:9, 21:9...)',
+    9: 'Selecciona al menos una relación de aspecto (Ejemplo: 4:3, 16:9, 21:9...)',
     10: 'No se agregaron capturas de pantalla',
     11: 'Agrega al menos una captura de pantalla del gameplay',
     12: 'Enlace de la skin no especificado',
@@ -129,7 +129,7 @@ export default {
 
     10: 'Creadores',
     11: 'Etiquetas',
-    13: 'Videos',
+    13: 'Vídeos',
 
     14: 'Nueva versión | Administrar versiones',
     15: 'Actualizar | Enviar',
@@ -142,40 +142,40 @@ export default {
 
     21: 'Clasificación',
     22: 'Descargas',
-    23: 'La descarga estara disponible pronto',
+    23: 'La descarga estará disponible pronto',
     24: 'Quedan {amount} segundos',
   },
 
   drag: {
-    0: 'Click aqui',
-    1: 'o arrastra y suelta imagenes aquí',
+    0: 'Click aquí',
+    1: 'o arrastra y suelta imágenes aquí',
   },
 
   footer: {
     0: 'Hecho por cyperdark',
-    1: 'Creditos',
+    1: 'Créditos',
   },
 
   credits: {
     0: 'Chibi',
     1: 'Artes',
     2: 'Iconos',
-    3: 'Todos los íconos están tomados de {name}',
+    3: 'Todos los iconos están tomados de {name}',
     4: 'Banderas',
-    5: 'Todas las imagenes de las banderas son de {name}'
+    5: 'Todas las imágenes de las banderas son de {name}'
   },
 
   search: {
     0: 'Buscador de skins',
     1: 'Vistas',
-    2: 'Titulo',
+    2: 'Título',
     3: 'Clasificación',
     4: 'Tamaño',
     5: 'Fecha',
-    7: 'No se encontro nada',
-    8: 'Intenta con diferentes filtros de busqueda',
+    7: 'No se encontró nada',
+    8: 'Intenta con diferentes filtros de búsqueda',
     9: 'Pendiente',
-    10: 'Seleccione los filtros de búsqueda o simplemente escriba el titulo de la skin, el autor o la etiqueta',
+    10: 'Seleccione los filtros de búsqueda o simplemente escriba el título de la skin, el autor o la etiqueta',
   },
 
   tabs: {
@@ -185,9 +185,9 @@ export default {
   },
 
   undefined: {
-    0: 'Vacio',
-    1: 'Lamentablemente no hay nada aqui, de todos modos puedes mirar otras paginas',
-    2: 'Lamentablemente no hay nada aqui',
+    0: 'Vacío',
+    1: 'Lamentablemente no hay nada aquí, de todos modos puedes mirar otras páginas',
+    2: 'Lamentablemente no hay nada aquí',
   },
 
 
@@ -214,27 +214,27 @@ export default {
   meta: {
     title: {
       0: 'Página de inicio',
-      1: 'Modos de juego, relacion de aspecto de las skins de osu',
+      1: 'Modos de juego, relación de aspecto de las skins de osu',
       2: 'Skins populares de osu',
       3: 'Busca skins de osu',
       4: 'Lista de las etiquetas, {name}',
       5: '{name} v{version} osu skin',
-      6: 'Creditos',
+      6: 'Créditos',
       7: 'skins de osu',
       8: '{name} buscar skins de osu',
       9: 'Inspirado en otras skins de osu',
       10: '{name} skins de osu creadas',
     },
     description: {
-      // 0: 'Consigue las mejores skins de osu en nuestra página, con una amplia librería de donde escoger! Tenemos skins para los diferentes modos de juego y relaciones de aspecto, e incluso contando con aquellas usadas por los mejores jugadores y temas de anime. Mejora tu gameplay con nuestras skins de alta calidad.',
-      0: 'Consigue las mejores skins de osu! en nuestra página! Nuestra amplia librería cuenta con skins para todos los modos de juego, relaciones de aspecto e incluso con aquellas usadas por los mejores jugadores. Ademas, tenemos una sección especial para los fans del anime. Mejora tu gameplay con la skin perfecta. #osuskins #osugame #anime',
+      // 0: '¡Consigue las mejores skins de osu en nuestra página, con una amplia librería de dónde escoger! Tenemos skins para los diferentes modos de juego y relaciones de aspecto, e incluso contando con aquellas usadas por los mejores jugadores y temas de anime. Mejora tu gameplay con nuestras skins de alta calidad.',
+      0: '¡Consigue las mejores skins de osu! en nuestra página! Nuestra amplia librería cuenta con skins para todos los modos de juego, relaciones de aspecto e incluso con aquellas usadas por los mejores jugadores. Además, tenemos una sección especial para los fans del anime. Mejora tu gameplay con la skin perfecta. #osuskins #osugame #anime',
       1: '{views} vistas. Una skin de osu para {modes}, con un tamaño de {size}, creada por {creators}. Soporta {ratios}',
-      2: 'Encuentra la skin de osu! perfecta con nuestra función de busqueda avanzada. Busca entre nuestra amplia librería, filtrada por modo de juego, relación de aspecto, y más. O mira las skins usadas por los mejores jugadores.',
+      2: 'Encuentra la skin de osu! perfecta con nuestra función de búsqueda avanzada. Busca entre nuestra amplia librería, filtrada por modo de juego, relación de aspecto, y más. O mira las skins usadas por los mejores jugadores.',
       3: 'Descubre entre una amplia variedad de modos de juego y relaciones de aspecto en nuestra página. Escoge entre standard, catch the beat, mania, y taiko. Encuentra aquella que se ajuste mejor a tus preferencias al jugar.',
-      4: 'Encuentra la skin de osu perfecta utilizada por los mejores jugadores en nuestra página. Checa nuestra colección de skins populares y personaliza tu juego. Descubre una amplia variedad de estilos y temas que encajen con tus preferencias.',
+      4: 'Encuentra la skin de osu perfecta utilizada por los mejores jugadores en nuestra página. Navega por nuestra colección de skins populares y personaliza tu juego. Descubre una amplia variedad de estilos y temas que encajen con tus preferencias.',
       5: 'Lista de las etiquetas existentes para skins de osu.',
       6: '{name} colección de skins de osu!, descarga gratuita',
-      7: 'Una gran cantidad de skins de osu para {name}, descarga gratuita!',
+      7: 'Una gran cantidad de skins de osu para {name}, ¡descarga gratuita!',
       8: 'All osu skins created by {name}',
       9: 'Todas las skins de osu creadas por {name}',
       9: 'Encuentra inspiración para tu próxima skin de osu! en nuestra página. Navega entre una diversa colección de skins y descubre nuevas técnicas e ideas. Inspírate para crear tu propia skin.',
@@ -250,7 +250,7 @@ export default {
     notifications: 'Notificaciones',
     settings: 'Configuraciones',
     logout: 'Cerrar sesión',
-    load_more: 'Cargar mas',
+    load_more: 'Cargar más',
     copy_short: 'Copiar enlace corto',
     copied: 'Copiado',
     reddit_link: 'Reddit',
