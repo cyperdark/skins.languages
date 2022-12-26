@@ -144,6 +144,9 @@ export default {
     22: 'Downloads',
     23: 'Download will be available soon',
     24: '{amount} seconds left',
+
+    25: 'You\'re not one of us',
+    26: 'Look like you\'re not author or editor of this skin',
   },
 
   drag: {
@@ -188,27 +191,11 @@ export default {
     0: 'Empty',
     1: 'Unfortunately there is nothing here, anyway you can look at other pages',
     2: 'Unfortunately there is nothing here',
+
+    3: 'Unauthorized',
+    4: 'You need to be logged in to edit this skin.',
+    5: 'You need to be logged in to add new skin.',
   },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
   meta: {
@@ -244,6 +231,9 @@ export default {
   },
 
   buttons: {
+    0: 'Login',
+    1: 'Home page',
+
     profile_osu: 'osu! Profile',
     new_skin: 'New skin',
     notifications: 'Notifications',
