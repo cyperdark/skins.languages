@@ -40,9 +40,9 @@ export default {
     3: 'Dar poți adăuga modificările pe care le-ai făcut acestei versiuni a skin-ului', // EN: But you can add the changes you made to this version of the skin
     4: 'Nu sunt grupate', // EN: Not grouped
     5: 'Nou', // EN: New
-    6: 'Corecții', // EN: Fixes
+    6: 'rezolvări', // EN: Fixes
     7: 'Modificări', // EN: Changes
-    8: 'Eliminări', // EN: Removes
+    8: 'desființări', // EN: Removes
   },
 
   creators: {
@@ -57,7 +57,7 @@ export default {
 
   tags: {
     0: 'Etichete', // EN: Tags
-    1: 'Lista tuturor etichetelor aferente acestui skin', // EN: List of all tags related to this skin
+    1: 'Listă cu toate etichetele legate de acest skin', // EN: List of all tags related to this skin
     2: 'Pare cam pustiu pe aici.', // EN: It seems pretty empty here.
     3: 'Folosește-te de caseta de mai sus pentru a găsi etichete noi', // EN: Use the field above to find new tags
   },
@@ -85,7 +85,7 @@ export default {
 
     4: 'Adaugă cel puțin un creator al skin-ului', // EN: Add at least one skin creator
     5: 'Adaugă câteva etichete', // EN: Add a couple of tags
-    6: 'Dificultatea skin-ului nespecificată', // EN: Weight of skin not specified
+    6: 'Mărimea skin-ului', // EN: Weight of skin not specified
     7: 'Selectează cel puțin un mod de joc', // EN: Select at least one gamemode
     8: 'Selectează tipul fișierului (SD sau HD)', // EN: Select file type (SD or HD)
     9: 'Selectează cel puțin un aspect ratio', // EN: Select at least one aspect ratio
@@ -110,7 +110,7 @@ export default {
     8: 'Toate skin-urile | skin-uri osu', // EN: All skins | osu skins
     9: 'Skin | Skin-uri | Skin-uri', // EN: Skin | Skins | Skins
     10: 'Skin-uri osu realizate de {name} | Toate skin-urile de la', // EN: osu Skins by {name} | All skins from
-    11: 'Cautare', // EN: Search
+    11: 'căutare', // EN: Search
   },
 
   skin: {
@@ -137,7 +137,7 @@ export default {
     17: 'Numele skin-ului', // EN: Name of the skin
     18: 'Versiune | Versiuni', // EN: Version | Versions
     19: 'Dimensiune', // EN: Size
-    20: 'Metadata', // EN: Metadata*
+    20: 'metadate', // EN: Metadata*
 
     21: 'Rating', // EN: Rating*
     22: 'Descărcări', // EN: Downloads
@@ -172,7 +172,7 @@ export default {
     4: 'Dimensiune', // EN: Size
     5: 'Dată', // EN: Date
     7: 'Nu am găsit nimic', // EN: Nothing founded ?
-    8: 'Încearcă să schimbi cripteriile de căutare', // EN: Try setting different search criteria
+    8: 'Încearcă să schimbi criteriile de căutare', // EN: Try setting different search criteria
     9: 'În așteptarea unei solicitări', // EN: Pending a query
     10: 'Selectează criteriile căutării sau scrie titlul, autorul sau etichetele skin-ului', // EN: Select the search criteria or just write the skin title, the author, or the tag
   },
@@ -185,7 +185,7 @@ export default {
 
   undefined: {
     0: 'Gol', // EN: Empty
-    1: 'Din păcate nu am găsit nimic aici, dar poți să te uiți la celelalte pagini', // EN: Unfortunately there is nothing here, anyway you can look at other pages
+    1: 'Din păcate nu am găsit nimic aici, dar poți să te uiți pe celelalte pagini', // EN: Unfortunately there is nothing here, anyway you can look at other pages
     2: 'Din păcate nu am găsit nimic aici', // EN: Unfortunately there is nothing here
   },
 
