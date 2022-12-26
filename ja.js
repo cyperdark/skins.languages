@@ -1,34 +1,34 @@
 export default {
   hello: 'asd',
   title: {
-    home: 'Home',
-    page: 'page',
-    guest: 'Log in',
-    lists: { 0: 'Lists' },
+    home: '家',
+    page: 'ページ',
+    guest: 'ログイン',
+    lists: { 0: 'リスト' },
     tags: {
-      0: 'Tags',
-      1: '{amount} tags for category {name}'
+      0: 'タグ',
+      1: 'カテゴリ {name} の {amount} タグ'
     },
     ideas: {
-      0: 'Inspiration',
+      0: 'インスピレーション',
       1: '«{amount}»'
     },
-    sounds: { 0: 'Sounds' },
-    leaderboard: { 0: 'Leaderboards' },
-    extend: { 0: 'More | Less' },
+    sounds: { 0: '音' },
+    leaderboard: { 0: 'リーダーボード' },
+    extend: { 0: 'もっと見る | すくない' },
     skin: {
       0: 'This skin contains elements from other skins',
-      1: 'Click here for more information'
+      1: '詳細情報を見るには、ここをクリックします'
     }
   },
   changelogs: {
-    0: 'Changelog',
+    0: '変更ログ',
     1: 'List of all the revisions done in the current version',
-    2: 'Nothing here',
+    2: 'ここには何も',
     3: 'But you can add the changes you made to this version of the skin',
     4: 'Not grouped',
     5: 'New',
-    6: 'Fixes',
+    6: '修正',
     7: 'Changes',
     8: 'Removals'
   },
@@ -42,13 +42,13 @@ export default {
     6: 'Versions'
   },
   tags: {
-    0: 'Tags',
+    0: 'タグ',
     1: 'List of all the tags related to this skin',
     2: 'It seems pretty empty here.',
     3: 'Use the field above to find new tags'
   },
   videos: {
-    0: 'Videos',
+    0: '動画',
     1: 'List of all the video showcases for this skin',
     2: 'No showcases',
     3: 'Search for some on YouTube or create your own showcase'
@@ -56,7 +56,7 @@ export default {
   sources: {
     0: 'Attribution',
     1: 'List of all used assets or tools in this version of the skin',
-    2: 'Kinda empty here',
+    2: 'ここはちょっと空いてる',
     3: 'If you have used assets from other skins, or arts, be sure to add them in the box above',
     4: 'Not grouped'
   },
@@ -103,8 +103,8 @@ export default {
     8: 'Forum post |osu! Forum',
     9: 'Reddit post',
     10: 'Creators',
-    11: 'Tags',
-    13: 'Videos',
+    11: 'タグ',
+    13: '動画',
     14: 'New Version | Manage versions',
     15: 'Update | Submit',
     16: 'Gamemodes',
