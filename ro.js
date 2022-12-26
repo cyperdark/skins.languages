@@ -174,7 +174,7 @@ export default {
     7: 'Nu am găsit nimic', // EN: Nothing founded ?
     8: 'Încearcă să schimbi cripteriile de căutare', // EN: Try setting different search criteria
     9: 'În așteptarea unei solicitări', // EN: Pending a query
-    10: 'Selectează cripteriile căutării sau scrie titlul, autorul sau etichetele skin-ului', // EN: Select the search criteria or just write the skin title, the author, or the tag
+    10: 'Selectează criteriile căutării sau scrie titlul, autorul sau etichetele skin-ului', // EN: Select the search criteria or just write the skin title, the author, or the tag
   },
 
   tabs: {
