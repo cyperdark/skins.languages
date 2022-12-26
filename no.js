@@ -1,5 +1,5 @@
 export default {
-  hello: 'asd',
+  hello: 'hei',
   title: {
     home: 'Home',
     page: 'page',
