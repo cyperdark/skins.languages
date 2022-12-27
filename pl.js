@@ -1,39 +1,26 @@
 export default {
   hello: 'asd',
-
   title: {
     home: 'Główna',
     page: 'Strona',
     guest: 'Zaloguj się',
-    lists: {
-      0: 'Listy',
-    },
+    lists: { 0: 'Listy' },
     tags: {
       0: 'Tagi',
-      1: '{amount} tagów dla kategorii {name}',
+      1: '{amount} tagów dla kategorii {name}'
     },
     ideas: {
       0: 'Inspiracje',
-      1: '«{amount}»',
+      1: '«{amount}»'
     },
-    sounds: {
-      0: 'Efekty dzwiękowe',
-    },
-    leaderboard: {
-      0: 'Ranking',
-    },
-    extend: {
-      0: 'Rozwiń | Schowaj',
-    },
-
+    sounds: { 0: 'Efekty dzwiękowe' },
+    leaderboard: { 0: 'Ranking' },
+    extend: { 0: 'Rozwiń | Schowaj' },
     skin: {
       0: 'Ten skin posiada elementy z innych skinów',
-      1: 'Kliknij tutaj po więcej informacji',
-    },
-
+      1: 'Kliknij tutaj po więcej informacji'
+    }
   },
-
-
   changelogs: {
     0: 'Changelog',
     1: 'Lista zmian w najnowszej wersji',
@@ -43,9 +30,8 @@ export default {
     5: 'Nowe',
     6: 'Naprawione błędy',
     7: 'Zmiany',
-    8: 'Usunięte',
+    8: 'Usunięte'
   },
-
   creators: {
     0: 'Twórcy',
     1: 'Lista twórców którzy pracowali przy tej wersji',
@@ -53,37 +39,31 @@ export default {
     3: 'Wpisanie nazwy gracza pokaże ci wynyki z wyszukiwania na stronie osu.',
     4: 'Edytor',
     5: 'Role',
-    6: 'Wersje',
+    6: 'Wersje'
   },
-
   tags: {
     0: 'Tagi',
     1: 'Lista wszystkich tagów opisujących tego skina',
     2: 'Troszkę tu pusto.',
-    3: 'Użyj pola powyżej aby znaleźć nowe tagi',
+    3: 'Użyj pola powyżej aby znaleźć nowe tagi'
   },
-
   videos: {
     0: 'Wideo',
     1: 'Lista wszystkich wideoprezentacji',
     2: 'Brak wideoprezentacji',
-    3: 'Poszukaj ich w serwise YouTube, lub stwórz własną',
+    3: 'Poszukaj ich w serwise YouTube, lub stwórz własną'
   },
-
   sources: {
     0: 'Atrybucja',
     1: 'Lista wszystkich elementów lub narzędzi użytych w tej wersji skina',
     2: 'Troszkę tu pusto',
     3: 'Jeżeli zostały użyte elementy, lub arty, upewnij się, że zostały one dodane w polu powyżej',
-    4: 'Brak grupowania',
+    4: 'Brak grupowania'
   },
-
-
   checks: {
     0: 'Wszystkie',
     1: 'Metadata',
     2: 'Hightlight',
-
     4: 'Dodaj przynajmniej jednego twórcę',
     5: 'Dodaj kilka tagów',
     6: 'Nie podano wagi skina',
@@ -93,12 +73,10 @@ export default {
     10: 'Nie dodano screenshotów',
     11: 'Dodaj przynajmniej jeden screenshot z gameplay\'u',
     12: 'Nie podano linka do skina',
-
     20: 'Wszystko w normie',
     21: 'Naprawiono każdy błąd, wszystko jest w normie',
-    22: 'Check list',
+    22: 'Check list'
   },
-
   skins: {
     0: 'Skiny',
     1: 'Popularne',
@@ -111,9 +89,8 @@ export default {
     8: 'Wszystkie skiny | osu skiny',
     9: 'Skin | Skiny | Skiny',
     10: 'osu Skiny od {name} | Wszystkie skiny od',
-    11: 'Szukaj',
+    11: 'Szukaj'
   },
-
   skin: {
     0: 'Edytuj',
     1: 'Dodatki',
@@ -123,39 +100,33 @@ export default {
     5: 'Screenshoty',
     6: 'Tylko gameplay',
     7: 'Link do pobrania | Pobierz skin',
-
     8: 'Post na forum |osu! Forum',
     9: 'Post na Reddicie',
-
-    10: 'Autorzy',
+    10: 'Twórcy',
     11: 'Tagi',
     13: 'Wideo',
-
     14: 'Nowa wersja | Edytuj Wersje',
     15: 'Zaktualizuj | Wyslij',
-
     16: 'Tryby gry',
     17: 'Nazwa skina',
     18: 'Wersja | Wersje',
     19: 'Wielkość',
     20: 'Metadata',
-
     21: 'Ocena',
     22: 'Pobrania',
     23: 'Możliwość pobrania będzie dostępna wkrótce',
     24: 'zostało {amount} sekund',
+    25: 'Nie jesteś jednym z nas',
+    26: 'Wygląda na to, że nie jesteś autorem tego skina, bądź nie masz permisji do jego edytowania'
   },
-
   drag: {
     0: 'Kliknij',
-    1: 'lub przeciągnij zdjęcia tutaj',
+    1: 'lub przeciągnij zdjęcia tutaj'
   },
-
   footer: {
     0: 'Made by cyperdark',
-    1: 'Credits',
+    1: 'Credits'
   },
-
   credits: {
     0: 'Chibi',
     1: 'Arty',
@@ -164,7 +135,6 @@ export default {
     4: 'Flagi',
     5: 'Wszystkie flagi pochodzą z {name}'
   },
-
   search: {
     0: 'Wyszukiwarka skinów',
     1: 'Wyświetlenia',
@@ -175,42 +145,21 @@ export default {
     7: 'Nic nie znaleziono',
     8: 'Spróbuj ustawić inne kryteria wyszukiwania',
     9: 'Czekam na zapytanie',
-    10: 'Wybierz kryteria wyszukiwania, lub wpisz nazwę skina, autora, lub tag',
+    10: 'Wybierz kryteria wyszukiwania, lub wpisz nazwę skina, autora, lub tag'
   },
-
   tabs: {
     0: 'Szukaj',
     1: 'Edytuj',
-    2: 'Lista',
+    2: 'Lista'
   },
-
   undefined: {
     0: 'Pusto',
     1: 'Niestety nic tu nie ma, ale możesz obejrzeć inne strony',
     2: 'Niestety ale nic tu nie ma',
+    3: 'Błąd uwierzytelnienia',
+    4: 'Musisz być zalogowany, aby edytować ten skin.',
+    5: 'Musisz się zalogować, aby dodać nowy skin.'
   },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   meta: {
     title: {
       0: 'Home page',
@@ -223,10 +172,10 @@ export default {
       7: 'osu skins',
       8: '{name} search osu skins',
       9: 'Inspire yourself from other osu skins',
-      10: '{name} created osu skins',
+      10: '{name} created osu skins'
     },
     description: {
-      //0: 'Najlepsze skiny do osu! tylko u nas, z ogromną biblioteką wyborów! Mamy skiny dla wszystkich trybów gry, proporcji ekranu, oraz selekcję skinów od topowych graczy i dla fanów anime. Podnieś poziom swojej rozgrywki z naszymi wysokiej jakości skinami.',
+      // 0: 'Get the best osu skins at our site, with a huge library to choose from! We have skins for different gamemodes and aspect ratios, and even feature top players and anime themes. Boost your gameplay with our high-quality skins.',
       0: 'Najlepsze skiny do osu! tylko u nas! W naszej ogromnej bibliotece znajdziesz skiny dla wszystkich trybów gry, proporcji ekranu, a nawet skiny używane przez topowych graczy. Posiadamy również sekcję dla fanów anime. Udoskonal swoją rozgrywkę z idealnym dla ciebie skinem. #osuskins #osugame #anime',
       1: '{views} wyświetleń. Skin osu! dla {modes}, o wadze {size}, stworzony przez {creators}. Wspiera {ratios}',
       2: 'Znajdź swój perfekcyjny skin do osu! dzieki naszej zaawansowanej wyszukiwarce. Zajrzyj też do ogromnej biblioteki, sortowanej przez tryb gry, proporcji ekranu, i więcej. Sprawdź też skiny używane przez topowych graczy',
@@ -236,14 +185,13 @@ export default {
       6: 'Kolekcja skinów osu {name}!, darmowe pobieranie',
       7: 'Ogromna ilość skinów od {name}, pobierz za darmo!',
       8: 'Wszystkie skiny stworzone przez {name}',
-      9: 'Znajdź inspirację na swój najnowszy skin u nas. Przejrzyj różnorodną kolekcję skinów i odkryj nowe techniki i pomysły. Zainspiruj się i stwórz jedyne w swoim rodzaju skiny.',
+      9: 'Znajdź inspirację na swój najnowszy skin u nas. Przejrzyj różnorodną kolekcję skinów i odkryj nowe techniki i pomysły. Zainspiruj się i stwórz jedyne w swoim rodzaju skiny.'
     },
-    keywords: {
-      0: 'osu, osu!, osu skins, std skins, ctb skins, mania skins, taiko skins, mrekk osu skins,Rafis osu skins,FlyingTuna osu skins,Vaxei osu skins,Cookiezi osu skins,Varvalian osu skins,RyuK osu skins,WhiteCat osu skins,_RyuK osu skins,BeasttrollMC osu skins,Genshin Impact osu skins,Mathi osu skins,WubWoofWolf osu skins,Merami osu skins,xootynator osu skins,Gayzmcgee osu skins,[Karcher] osu skins,Bubbleman osu skins,ChomikBox osu skins,NSFW osu skins,Lifeline osu skins,Hatsune Miku osu skins,Azerite osu skins,Umbre osu skins,404 AimNotFound osu skins,-Nikstrim osu skins,bloo osu skins,Shigetora osu skins,Badeu osu skins,FunOrange osu skins,worst hr player osu skins,Tekkito osu skins,ninerik osu skins,azr8 osu skins,idke osu skins,Andros osu skins,Zylice osu skins,Rektygon osu skins,Komori osu skins,anime osu skins,cyperdark osu skins,Red_Pixel osu skins,Utami osu skins,Arknights osu skins,Karthy osu skins,Paraqeet osu skins,aetrna osu skins,Spare osu skins,-GN osu skins,Mastasz osu skins,Seouless osu skins,haga1115 osu skins,shimon osu skins,fieryrage osu skins,Ekoro osu skins,Firebat92 osu skins,_Shield osu skins,-Roaz- osu skins,- Dark - osu skins,atturbo555 osu skins,Aristia osu skins,_Aiko__ osu skins,z x c osu skins,eternum osu skins,talala osu skins,NyanPotato osu skins,Arnold24x24 osu skins,Alumetri osu skins,im a fancy lad osu skins,jordanlr7 osu skins,Woey osu skins,khz osu skins,rrtyui osu skins,kieg osu skins,Rupertion osu skins,FGSky osu skins,Aireu osu skins,Neko God osu skins,Apostol osu skins,Abyssal osu skins,dokidokilolixx osu skins,Mlaw osu skins,Ponytail osu skins,Reedkatt osu skins,Zestiny osu skins,Apraxia osu skins,Binfy osu skins,Rohulk osu skins,-PloX osu skins,DuyKhang-sama osu skins,BronyPH osu skins,Intercambing osu skins,Xeltol osu skins,Valorant osu skins,Akolibed osu skins,hololive osu skins,kablaze osu skins,tokyo ghoul osu skins,Trail Mix osu skins,Dereban osu skins'
-    },
+    keywords: { 0: 'osu, osu!, osu skins, std skins, ctb skins, mania skins, taiko skins, mrekk osu skins,Rafis osu skins,FlyingTuna osu skins,Vaxei osu skins,Cookiezi osu skins,Varvalian osu skins,RyuK osu skins,WhiteCat osu skins,_RyuK osu skins,BeasttrollMC osu skins,Genshin Impact osu skins,Mathi osu skins,WubWoofWolf osu skins,Merami osu skins,xootynator osu skins,Gayzmcgee osu skins,[Karcher] osu skins,Bubbleman osu skins,ChomikBox osu skins,NSFW osu skins,Lifeline osu skins,Hatsune Miku osu skins,Azerite osu skins,Umbre osu skins,404 AimNotFound osu skins,-Nikstrim osu skins,bloo osu skins,Shigetora osu skins,Badeu osu skins,FunOrange osu skins,worst hr player osu skins,Tekkito osu skins,ninerik osu skins,azr8 osu skins,idke osu skins,Andros osu skins,Zylice osu skins,Rektygon osu skins,Komori osu skins,anime osu skins,cyperdark osu skins,Red_Pixel osu skins,Utami osu skins,Arknights osu skins,Karthy osu skins,Paraqeet osu skins,aetrna osu skins,Spare osu skins,-GN osu skins,Mastasz osu skins,Seouless osu skins,haga1115 osu skins,shimon osu skins,fieryrage osu skins,Ekoro osu skins,Firebat92 osu skins,_Shield osu skins,-Roaz- osu skins,- Dark - osu skins,atturbo555 osu skins,Aristia osu skins,_Aiko__ osu skins,z x c osu skins,eternum osu skins,talala osu skins,NyanPotato osu skins,Arnold24x24 osu skins,Alumetri osu skins,im a fancy lad osu skins,jordanlr7 osu skins,Woey osu skins,khz osu skins,rrtyui osu skins,kieg osu skins,Rupertion osu skins,FGSky osu skins,Aireu osu skins,Neko God osu skins,Apostol osu skins,Abyssal osu skins,dokidokilolixx osu skins,Mlaw osu skins,Ponytail osu skins,Reedkatt osu skins,Zestiny osu skins,Apraxia osu skins,Binfy osu skins,Rohulk osu skins,-PloX osu skins,DuyKhang-sama osu skins,BronyPH osu skins,Intercambing osu skins,Xeltol osu skins,Valorant osu skins,Akolibed osu skins,hololive osu skins,kablaze osu skins,tokyo ghoul osu skins,Trail Mix osu skins,Dereban osu skins' }
   },
-
   buttons: {
+    0: 'Zaloguj się',
+    1: 'Home page',
     profile_osu: 'Profil osu!',
     new_skin: 'Nowy skin',
     notifications: 'Powiadomienia',
@@ -254,21 +202,17 @@ export default {
     copied: 'Skopiowano',
     reddit_link: 'Reddit',
     osu_forum_link: 'Forum osu!',
-    skin_return: 'Powrót do skina',
+    skin_return: 'Powrót do skina'
   },
-
-
-
   user: {
     roles: {
       0: 'Autor',
       1: 'Mixer',
       2: 'Animacje',
       3: 'Arty',
-      4: 'Kolaboracja',
+      4: 'Kolaboracja'
     }
   },
-
   tooltips: {
     0: '{amount} wyświetleń',
     1: 'Odśwież wyniki',
@@ -278,9 +222,8 @@ export default {
     5: 'Edytuj wersję',
     6: '{s}Zaloguj się{p}, aby oceniś ten skin',
     7: 'Brak krótkiego opisu',
-    8: 'Brak linka',
+    8: 'Brak linka'
   },
-
   lists: {
     screens: {
       0: 'Welcome',
@@ -297,44 +240,31 @@ export default {
       11: 'Fail Screen',
       12: 'Result screen',
       13: 'Skip',
-      14: 'Banner',
+      14: 'Banner'
     },
     cats: {
       0: 'NSFW',
       1: 'Furry',
-      2: 'Mix',
+      2: 'Mix'
     }
   },
-
-
-
-
-
-
-
-
   select: {
-    0: 'Dodano',
+    0: 'Nowe',
     1: 'Naprawiono',
     2: 'Zmieniono',
     3: 'Usunięto',
-
     4: 'Art',
     5: 'Czcionka',
     6: 'Artysta',
     7: 'Element skina',
     8: 'Audio/Efekty Dźwiękowe',
     9: 'Narzędzia',
-
-
-
     views: 'Wyświetlenia',
     likes: 'Polubienia',
     size_range: 'Wybierz rozmiar',
     date_range: 'Wybierz zakres dat',
-    ratio: 'Wybierz proporcje ekranu | proporcje ekranu',
+    ratio: 'Wybierz proporcje ekranu | proporcje ekranu'
   },
-
   placeholders: {
     0: 'Wybierz role',
     1: 'Wybierz wersje',
@@ -351,6 +281,6 @@ export default {
     12: 'Wpisz opis oraz link. Format opis:link',
     13: 'Wybierz dodatki',
     14: 'Wklej link',
-    15: 'Tytuł, autor, lub tag',
+    15: 'Tytuł, autor, lub tag'
   }
 };

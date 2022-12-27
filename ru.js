@@ -1,39 +1,26 @@
 export default {
   hello: 'asd',
-
   title: {
     home: 'Главная',
     page: 'страница',
     guest: 'Войти',
-    lists: {
-      0: 'Списки',
-    },
+    lists: { 0: 'Списки' },
     tags: {
       0: 'Теги',
-      1: '{amount} тегов категории {name}',
+      1: '{amount} тегов категории {name}'
     },
     ideas: {
       0: 'Хочу идеи',
-      1: '«{amount}»',
+      1: '«{amount}»'
     },
-    sounds: {
-      0: 'Звуки',
-    },
-    leaderboard: {
-      0: 'Таблица лидеров',
-    },
-    extend: {
-      0: 'Больше | Скрыть',
-    },
-
+    sounds: { 0: 'Звуки' },
+    leaderboard: { 0: 'Таблица лидеров' },
+    extend: { 0: 'Больше | Скрыть' },
     skin: {
       0: 'Данный скин содержит элементы из других скинов',
-      1: 'Нажмите здесь, для дополнительной информации',
-    },
-
+      1: 'Нажмите здесь, для дополнительной информации'
+    }
   },
-
-
   changelogs: {
     0: 'Спикок изменения',
     1: 'Список всех изменений, сделанных в текущей версии',
@@ -43,9 +30,8 @@ export default {
     5: 'Новое',
     6: 'Исправления',
     7: 'Изменения',
-    8: 'Удалено',
+    8: 'Удалено'
   },
-
   creators: {
     0: 'Создатели',
     1: 'Список всех создателей, которые участвовали в создании этой версии',
@@ -53,38 +39,31 @@ export default {
     3: 'Введите имя игрока, чтобы увидеть результаты поиска из осу',
     4: 'Редактор',
     5: 'Роли',
-    6: 'Версии',
+    6: 'Версии'
   },
-
   tags: {
     0: 'Теги',
     1: 'Список всех тегов, связанных с этим скином',
     2: 'Что-то пустовато',
-    3: 'Используйте поле выше, чтобы найти новые теги',
+    3: 'Используйте поле выше, чтобы найти новые теги'
   },
-
   videos: {
     0: 'Видео',
     1: 'Список всех видео-обзоров для этого скина',
     2: 'Пока что нету ниодного обзора',
-    3: 'Вы можете поискать их на YouTube или сделать свой собственный и добавить сюда',
+    3: 'Вы можете поискать их на YouTube или сделать свой собственный и добавить сюда'
   },
-
   sources: {
     0: 'Список ресурсов',
     1: 'Список всех используемых элементов или инструментов в данной версии',
     2: 'Что-то пустовато',
     3: 'Укажите ссылки на элементы/ресурсы которые вы использовали в данной версии скина',
-    4: 'Без группы',
+    4: 'Без группы'
   },
-
-
   checks: {
     0: 'Все',
     1: 'Метаданные',
     2: 'Показать',
-
-    3: 'Укажите название скина',
     4: 'Добавьте хотя бы одного создателя скина',
     5: 'Добавьте пару тегов',
     6: 'Не указан вес скина',
@@ -94,27 +73,24 @@ export default {
     10: 'Отсутствуют скриншоты',
     11: 'Добавьте хотя бы один скриншот геймплея',
     12: 'Ссылка на скин не указана',
-
     20: 'Неплохо',
-    21: 'Вы исправили все проблемы, которых припятствовали добавления/обновлению скина',
-    22: 'Список проблем',
+    21: 'Вы исправили все проблемы, которых припятствовали добавления/обновлению скина. Хорошая работа, шеф!',
+    22: 'Список проблем'
   },
-
   skins: {
     0: 'Скины',
     1: 'Популярные',
     2: 'std | ctb',
     3: 'mania | taiko',
     4: 'Новые',
-    5: 'Рандом',
+    5: 'Случайные',
     6: 'Все скины',
     7: 'Соотношение сторон',
     8: 'Все скины | скины',
     9: 'Скин | Скина | Скинов',
     10: 'Скины от {name} | Все скины от {name}',
-    11: 'Поиск',
+    11: 'Поиск'
   },
-
   skin: {
     0: 'Редактировать',
     1: 'Extra',
@@ -124,39 +100,33 @@ export default {
     5: 'Скриншоты',
     6: 'Только гемплей',
     7: 'Ссылка на скачивание | Скачать скин',
-
     8: 'Пост на форуме | осу форум',
     9: 'Пост на реддите',
-
     10: 'Создатели',
     11: 'Теги',
     13: 'Видео',
-
     14: 'Новая версия | Управление версиями',
     15: 'Обновить | Добавить',
-
     16: 'Режимы',
     17: 'Название скина',
     18: 'Версия | Версии',
     19: 'Вес',
     20: 'Метаданные',
-
     21: 'Рейтинг',
     22: 'Скачиваний',
     23: 'Скачивание будет скоро доступно',
     24: 'Осталось {amount} секунд',
+    25: 'Ты не один из нас',
+    26: 'Похоже у вас нету прав на редактирование данного скина'
   },
-
   drag: {
     0: 'Нажмите',
-    1: 'или перетащите картинки',
+    1: 'или перетащите скриншоты сюда'
   },
-
   footer: {
     0: 'Made by cyperdark',
-    1: 'Исп. материалы',
+    1: 'Исп. материалы'
   },
-
   credits: {
     0: 'Чибики',
     1: 'Арты',
@@ -165,7 +135,6 @@ export default {
     4: 'Флаги',
     5: 'Все изображения флагов взяты из {name}'
   },
-
   search: {
     0: 'Поиск скинов',
     1: 'Просмотры',
@@ -176,73 +145,53 @@ export default {
     7: 'Ничего не найдено',
     8: 'Попробуй выставить другие критерии поиска',
     9: 'Ожидаем запроса',
-    10: 'Выберите критерии или просто напишите название скина, имя автора, или тег',
+    10: 'Выберите критерии или просто напишите название скина, имя автора, или тег'
   },
-
   tabs: {
     0: 'Поиск',
-    1: 'Редактирование',
-    2: 'Список',
+    1: 'Редактировать',
+    2: 'Список'
   },
-
   undefined: {
     0: 'Ничего нету',
     1: 'На данной странице ничего нету, попробуйте посмотреть другую',
     2: 'К сожалению тут ничего нету',
+    3: 'Похоже вы не в аккаунте',
+    4: 'Вам нужно зайти в свой аккаунт, чтобы отредактировать скин.',
+    5: 'Вам нужно зайти в свой аккаунт, чтобы добавить скин.'
   },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   meta: {
     title: {
       0: 'Главная страница',
-      1: 'Категории osu скинов',
-      2: 'Популярные osu скины',
+      1: 'Категории осу скинов',
+      2: 'Популярные осу скины',
       3: 'Поиск osu скинов',
-      4: '«{name}» теги',
-      5: "{name} v{version} осу скин",
-      6: "Credits",
-      7: "осу скины",
-      8: "{name} поиск osu скинов",
-      9: "Вдохновление",
-      10: '{name} созданные осу скины',
+      4: 'Список тегов, «{name}»',
+      5: '{name} v{version} осу скин',
+      6: 'Исп. материалы',
+      7: 'осу скины',
+      8: '{name} поиск осу скинов',
+      9: 'Вдохновление',
+      10: '{name} созданные осу скины'
     },
     description: {
-      0: 'Download skins for free. A large amount of skins for every mode, for different aspect ratios of monitors; skins on different themes, specific details of each skin',
-      1: 'Views: {views}   Creators: {creators}.   Skin size: {size}, Aspect ratio: {ratios}, Modes: {modes}',
-      2: 'Search osu skins by players, authors, tags, anime, aspect ratio, size and more!',
-      3: 'Osu skins std, catch the beat, mania, taiko. For different aspect ratio\'s',
-      4: 'Popular osu skis from top players, best skin authors sorted by views and likes!',
-      5: 'List of existed tags for skins.',
-      6: '{name} osu skins collection!, free downloading',
-      7: 'A huge amount of osu skins for a {name}, download for free!',
-      8: 'All osu skins created by {name} author',
+      // 0: 'Get the best osu skins at our site, with a huge library to choose from! We have skins for different gamemodes and aspect ratios, and even feature top players and anime themes. Boost your gameplay with our high-quality skins.',
+      0: 'Найдите лучшие скины для осу на нашем сайте! Наша огромная библиотека содержит скины для всех режимов игры, соотношений сторон и даже скины топовых игроков. Кроме того, у нас есть специальный раздел для любителей аниме',
+      1: '{views} просмотров. Осу скин для {modes}, вес: {size}, созданный: {creators}. Поддерживает {ratios} соотношения сторон',
+      2: 'Найдите идеальный осу скин с помощью нашей расширенной функции поиска. Просмотрите нашу огромную библиотеку, отфильтрованную по игровому режиму, соотношению сторон и многое другое. Или, проверьте скины, используемые топ-игроками.',
+      3: 'На нашем сайте вы найдете разнообразные скины для различных режимов игры и соотношений сторон. Выберите из standard, catch the beat, mania и taiko режимов. Найдите идеальное соответствие вашим предпочтениям в игре.',
+      4: 'Найдите идеальный осу скин от топовых игроков на нашем сайте. Просматривайте нашу коллекцию популярных скинов и настраивайте свою игру. Откройте для себя широкий выбор стилей и тем, чтобы удовлетворить ваши предпочтения.',
+      5: 'Список всех тегов, для осу скинов.',
+      6: '{name} коллекция осу скинов, бесплатное скачивание',
+      7: 'Огромное количество осу скинов для {name}, скачайте бесплатно!',
+      8: 'Все скины созданные {name}',
+      9: 'Найдите вдохновение для своего следующего осу скина на нашем сайте. Просматривайте разнообразную коллекцию скинов и откройте для себя новые техники и идеи. Получите вдохновение и создайте свои уникальные скины.'
     },
-    keywords: {
-      0: 'osu, osu!, osu skins, std skins, ctb skins, mania skins, taiko skins, mrekk osu skins,Rafis osu skins,FlyingTuna osu skins,Vaxei osu skins,Cookiezi osu skins,Varvalian osu skins,RyuK osu skins,WhiteCat osu skins,_RyuK osu skins,BeasttrollMC osu skins,Genshin Impact osu skins,Mathi osu skins,WubWoofWolf osu skins,Merami osu skins,xootynator osu skins,Gayzmcgee osu skins,[Karcher] osu skins,Bubbleman osu skins,ChomikBox osu skins,NSFW osu skins,Lifeline osu skins,Hatsune Miku osu skins,Azerite osu skins,Umbre osu skins,404 AimNotFound osu skins,-Nikstrim osu skins,bloo osu skins,Shigetora osu skins,Badeu osu skins,FunOrange osu skins,worst hr player osu skins,Tekkito osu skins,ninerik osu skins,azr8 osu skins,idke osu skins,Andros osu skins,Zylice osu skins,Rektygon osu skins,Komori osu skins,anime osu skins,cyperdark osu skins,Red_Pixel osu skins,Utami osu skins,Arknights osu skins,Karthy osu skins,Paraqeet osu skins,aetrna osu skins,Spare osu skins,-GN osu skins,Mastasz osu skins,Seouless osu skins,haga1115 osu skins,shimon osu skins,fieryrage osu skins,Ekoro osu skins,Firebat92 osu skins,_Shield osu skins,-Roaz- osu skins,- Dark - osu skins,atturbo555 osu skins,Aristia osu skins,_Aiko__ osu skins,z x c osu skins,eternum osu skins,talala osu skins,NyanPotato osu skins,Arnold24x24 osu skins,Alumetri osu skins,im a fancy lad osu skins,jordanlr7 osu skins,Woey osu skins,khz osu skins,rrtyui osu skins,kieg osu skins,Rupertion osu skins,FGSky osu skins,Aireu osu skins,Neko God osu skins,Apostol osu skins,Abyssal osu skins,dokidokilolixx osu skins,Mlaw osu skins,Ponytail osu skins,Reedkatt osu skins,Zestiny osu skins,Apraxia osu skins,Binfy osu skins,Rohulk osu skins,-PloX osu skins,DuyKhang-sama osu skins,BronyPH osu skins,Intercambing osu skins,Xeltol osu skins,Valorant osu skins,Akolibed osu skins,hololive osu skins,kablaze osu skins,tokyo ghoul osu skins,Trail Mix osu skins,Dereban osu skins'
-    },
+    keywords: { 0: 'osu, osu!, osu skins, std skins, ctb skins, mania skins, taiko skins, mrekk osu skins,Rafis osu skins,FlyingTuna osu skins,Vaxei osu skins,Cookiezi osu skins,Varvalian osu skins,RyuK osu skins,WhiteCat osu skins,_RyuK osu skins,BeasttrollMC osu skins,Genshin Impact osu skins,Mathi osu skins,WubWoofWolf osu skins,Merami osu skins,xootynator osu skins,Gayzmcgee osu skins,[Karcher] osu skins,Bubbleman osu skins,ChomikBox osu skins,NSFW osu skins,Lifeline osu skins,Hatsune Miku osu skins,Azerite osu skins,Umbre osu skins,404 AimNotFound osu skins,-Nikstrim osu skins,bloo osu skins,Shigetora osu skins,Badeu osu skins,FunOrange osu skins,worst hr player osu skins,Tekkito osu skins,ninerik osu skins,azr8 osu skins,idke osu skins,Andros osu skins,Zylice osu skins,Rektygon osu skins,Komori osu skins,anime osu skins,cyperdark osu skins,Red_Pixel osu skins,Utami osu skins,Arknights osu skins,Karthy osu skins,Paraqeet osu skins,aetrna osu skins,Spare osu skins,-GN osu skins,Mastasz osu skins,Seouless osu skins,haga1115 osu skins,shimon osu skins,fieryrage osu skins,Ekoro osu skins,Firebat92 osu skins,_Shield osu skins,-Roaz- osu skins,- Dark - osu skins,atturbo555 osu skins,Aristia osu skins,_Aiko__ osu skins,z x c osu skins,eternum osu skins,talala osu skins,NyanPotato osu skins,Arnold24x24 osu skins,Alumetri osu skins,im a fancy lad osu skins,jordanlr7 osu skins,Woey osu skins,khz osu skins,rrtyui osu skins,kieg osu skins,Rupertion osu skins,FGSky osu skins,Aireu osu skins,Neko God osu skins,Apostol osu skins,Abyssal osu skins,dokidokilolixx osu skins,Mlaw osu skins,Ponytail osu skins,Reedkatt osu skins,Zestiny osu skins,Apraxia osu skins,Binfy osu skins,Rohulk osu skins,-PloX osu skins,DuyKhang-sama osu skins,BronyPH osu skins,Intercambing osu skins,Xeltol osu skins,Valorant osu skins,Akolibed osu skins,hololive osu skins,kablaze osu skins,tokyo ghoul osu skins,Trail Mix osu skins,Dereban osu skins' }
   },
-
   buttons: {
+    0: 'Войти',
+    1: 'Главная страница',
     profile_osu: 'osu! Профиль',
     new_skin: 'Новый скин',
     notifications: 'Уведомления',
@@ -253,87 +202,69 @@ export default {
     copied: 'Скопированно',
     reddit_link: 'Реддит',
     osu_forum_link: 'osu! Форум',
-    skin_return: 'Назад к скину',
+    skin_return: 'Назад к скину'
   },
-
-
-
   user: {
     roles: {
-      0: 'Creator',
+      0: 'Создатель',
       1: 'Mixer',
-      2: 'Animations',
-      3: 'Arts',
-      4: 'Collab',
+      2: 'Анимации',
+      3: 'Арты',
+      4: 'Коллаб'
     }
   },
-
   tooltips: {
-    0: '{amount} просмотров',
+    0: 'Просмотров: {amount}',
     1: 'Обновить',
     2: 'По убыванию | По возрастанию',
-    3: '{amount} лайков',
-    4: 'Нажмите ctrl+enter чтобы добавить новый тег',
+    3: 'Лайков: {amount}',
+    4: 'Нажмите ctrl+enter, чтобы добавить новый тег',
     5: 'Редактировать версию',
-    6: '{s}Войти{p}, чтобы оценить скин',
+    6: '{s}Войдите{p}, чтобы оценить скин',
     7: 'Нету короткого описания',
-    8: 'Нету ссылки',
+    8: 'Нету ссылки'
   },
-
   lists: {
     screens: {
-      0: 'Welcome',
-      1: 'Main menu',
-      2: 'Song select',
-      3: 'Mode menu',
-      4: 'Mods',
-      5: 'Countdown',
-      6: 'Gameplay',
-      7: 'Spinner',
+      0: 'Экран приветствия',
+      1: 'Главное меню',
+      2: 'Экран выбора карт',
+      3: 'Меню режимов',
+      4: 'Моды',
+      5: 'Меню обратного отсчета',
+      6: 'Геймплей',
+      7: 'Спиннер',
       8: 'Section Pass',
       9: 'Section Fail',
-      10: 'Pause Screen',
-      11: 'Fail Screen',
-      12: 'Result screen',
-      13: 'Skip',
-      14: 'Banner',
+      10: 'Меню паузы',
+      11: 'Меню фейла',
+      12: 'Экран результата',
+      13: 'Экран пропуска',
+      14: 'Баннер'
     },
     cats: {
       0: 'NSFW',
       1: 'Furry',
-      2: 'Mixed',
+      2: 'Mixed'
     }
   },
-
-
-
-
-
-
-
-
   select: {
     0: 'Новое',
     1: 'Исправленно',
     2: 'Изменено',
     3: 'Удалено',
-
     4: 'Арт',
     5: 'Шрифт',
     6: 'Артист',
     7: 'Элемент скина',
     8: 'Аудио/саунд',
     9: 'Программа',
-
-
-
-    views: "Просмотры",
-    likes: "Лайки",
+    views: 'Просмотры',
+    likes: 'Лайки',
     size_range: 'Вес скина',
     date_range: 'Диапазон дат',
-    ratio: 'Соотношение сторон | соотношение',
+    ratio: 'Соотношение сторон | соотношение'
   },
-
   placeholders: {
     0: 'Выберите роли',
     1: 'Выберите версии',
@@ -348,8 +279,8 @@ export default {
     10: 'Выберите тип',
     11: 'Вставьте ссылку на youtube видео',
     12: 'Введите описание и ссылку. Пример: описание:ссылка',
-    13: 'Выберите дополнительные',
+    13: 'Выберите дополнительное',
     14: 'Вставить ссылку',
-    15: 'Название скина, имя автора, или тег',
+    15: 'Название скина, имя автора, или тег'
   }
 };

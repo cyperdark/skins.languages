@@ -1,228 +1,178 @@
 export default {
   hello: 'asd',
-
   title: {
-    home: 'Pagina principală', // EN: Home page
-    guest: 'Conectează-te', // EN: Log in
-    lists: {
-      0: 'Liste', // EN: Lists
-    },
+    home: 'Pagina principală',
+    page: 'pagină',
+    guest: 'Conectează-te',
+    lists: { 0: 'Liste' },
     tags: {
-      0: 'Etichete', // EN: Tags
-      1: '{amount} etichete pentru categoria {name}', // EN: {amount} tags for category {name}
+      0: 'Etichete',
+      1: '{amount} etichete pentru categoria {name}'
     },
     ideas: {
-      0: 'Inspirație', // EN: Inspiration
-      1: '«{amount}»',
+      0: 'Inspirație',
+      1: '«{amount}»'
     },
-    sounds: {
-      0: 'Sunete', // EN: Sounds
-    },
-    leaderboard: {
-      0: 'Clasamente', // EN: Leaderboards
-    },
-    extend: {
-      0: 'Mai mult | Mai puțin', // EN: More | Less
-    },
-
+    sounds: { 0: 'Sunete' },
+    leaderboard: { 0: 'Clasamente' },
+    extend: { 0: 'Mai mult | Mai puțin' },
     skin: {
-      0: 'Acest skin conține elemente din alte skin-uri', // EN: This skin contains elements from other skins
-      1: 'Apasă aici pentru mai multe informații', // EN: Click here for more information
-    },
-
+      0: 'Acest skin conține elemente din alte skin-uri',
+      1: 'Apasă aici pentru mai multe informații'
+    }
   },
-
-
   changelogs: {
-    0: 'Jurnal de Modificări', // EN: Changelog
-    1: 'Lista tuturor reviziilor efectuate în versiunea curentă', // EN: List of all the revisions done in the current version
-    2: 'Nimic aici', // EN: Nothing here
-    3: 'Dar poți adăuga modificările pe care le-ai făcut acestei versiuni a skin-ului', // EN: But you can add the changes you made to this version of the skin
-    4: 'Nu sunt grupate', // EN: Not grouped
-    5: 'Nou', // EN: New
-    6: 'rezolvări', // EN: Fixes
-    7: 'Modificări', // EN: Changes
-    8: 'desființări', // EN: Removes
+    0: 'Jurnal de Modificări',
+    1: 'Lista tuturor reviziilor efectuate în versiunea curentă',
+    2: 'Nimic aici',
+    3: 'Dar poți adăuga modificările pe care le-ai făcut acestei versiuni a skin-ului',
+    4: 'Nu sunt grupate',
+    5: 'Nou',
+    6: 'rezolvări',
+    7: 'Modificări',
+    8: 'desființări'
   },
-
   creators: {
-    0: 'Creatori', // EN: Creators
-    1: 'Mentionează toți creatorii care au fost implicați in crearea acestei versiuni', // EN: List all creators who were involved in making this version
-    2: 'Nu e nimeni aici', // EN: No one is here
-    3: 'Tastarea numelui unui jucător va afișa rezultatele de pe osu.', // EN: Typing in a player\'s name will show you the results of the osu search.
-    4: 'Editor', // EN: Editor*
-    5: 'Roluri', // EN: Roles
-    6: 'Versiuni', // EN: Versions
+    0: 'Creatori',
+    1: 'Mentionează toți creatorii care au fost implicați in crearea acestei versiuni',
+    2: 'Nu e nimeni aici',
+    3: 'Tastarea numelui unui jucător va afișa rezultatele de pe osu.',
+    4: 'Editor',
+    5: 'Roluri',
+    6: 'Versiuni'
   },
-
   tags: {
-    0: 'Etichete', // EN: Tags
-    1: 'Listă cu toate etichetele legate de acest skin', // EN: List of all tags related to this skin
-    2: 'Pare cam pustiu pe aici.', // EN: It seems pretty empty here.
-    3: 'Folosește-te de caseta de mai sus pentru a găsi etichete noi', // EN: Use the field above to find new tags
+    0: 'Etichete',
+    1: 'Listă cu toate etichetele legate de acest skin',
+    2: 'Pare cam pustiu pe aici.',
+    3: 'Folosește-te de caseta de mai sus pentru a găsi etichete noi'
   },
-
   videos: {
-    0: 'Videoclipuri', // EN: Videos
-    1: 'Lista tuturor prezentărilor video a acestui skin', // EN: List of all video showcases for this skin
-    2: 'Zero prezentări', // EN: Zero showcases
-    3: 'Caută câteva pe YouTube sau crează-ți propia prezentare',// EN: Search for some on YouTube or create your own showcase
+    0: 'Videoclipuri',
+    1: 'Lista tuturor prezentărilor video a acestui skin',
+    2: 'Zero prezentări',
+    3: 'Caută câteva pe YouTube sau crează-ți propia prezentare'
   },
-
   sources: {
-    0: 'Atribuții', // EN: Attribution
-    1: 'Lista tuturor materialelor sau instrumentelor folosite în această versiune a skin-ului', // EN: List of all used assets or tools in the version of the skin
-    2: 'Cam pustiu pe aici', // EN: Kinda empty here
-    3: 'Dacă ai folosit materiale din alte skin-uri sau creații, nu uita să le adaugi în caseta de mai sus', // EN: If you have used assets from other skins or arts, be sure to add them in the box above
-    4: 'Nu sunt grupate', // EN: Not grouped
+    0: 'Atribuții',
+    1: 'Lista tuturor materialelor sau instrumentelor folosite în această versiune a skin-ului',
+    2: 'Cam pustiu pe aici',
+    3: 'Dacă ai folosit materiale din alte skin-uri sau creații, nu uita să le adaugi în caseta de mai sus',
+    4: 'Nu sunt grupate'
   },
-
-
   checks: {
-    0: 'Toate', // EN: All
-    1: 'Metadata', // EN: Metadata*
-    2: 'Hightlight', // EN: Hightlight
-
-    4: 'Adaugă cel puțin un creator al skin-ului', // EN: Add at least one skin creator
-    5: 'Adaugă câteva etichete', // EN: Add a couple of tags
-    6: 'Mărimea skin-ului', // EN: Weight of skin not specified
-    7: 'Selectează cel puțin un mod de joc', // EN: Select at least one gamemode
-    8: 'Selectează tipul fișierului (SD sau HD)', // EN: Select file type (SD or HD)
-    9: 'Selectează cel puțin un aspect ratio', // EN: Select at least one aspect ratio
-    10: 'Nici o captură de ecran furnizată', // EN: No screenshots provided
-    11: 'Adaugă cel puțin o captură de ecran a unui mod de joc', // EN: Add at least one gameplay screenshot
-    12: 'Link spre skin nespecificat', // EN: Link to skin not specified 
-
-    20: 'Arată destul de bine', // EN: Looking pretty good
-    21: 'Fiecare problema a fost corectată, ceea ce este destul de bine', // EN: Every single issue was fixed, which is pretty good
-    22: 'Listă de verificare', // EN: Check list
+    0: 'Toate',
+    1: 'Metadata',
+    2: 'Hightlight',
+    4: 'Adaugă cel puțin un creator al skin-ului',
+    5: 'Adaugă câteva etichete',
+    6: 'Mărimea skin-ului',
+    7: 'Selectează cel puțin un mod de joc',
+    8: 'Selectează tipul fișierului (SD sau HD)',
+    9: 'Selectează cel puțin un aspect ratio',
+    10: 'Nici o captură de ecran furnizată',
+    11: 'Adaugă cel puțin o captură de ecran a unui mod de joc',
+    12: 'Link spre skin nespecificat',
+    20: 'Arată destul de bine',
+    21: 'Fiecare problema a fost corectată, ceea ce este destul de bine',
+    22: 'Listă de verificare'
   },
-
   skins: {
-    0: 'Skin-uri', // EN: Skins
-    1: 'Populare', // EN: Popular
-    2: 'std | ctb', // EN: std | ctb*
-    3: 'mania | taiko', // EN: mania | taiko*
-    4: 'Recente', // EN: Recent
-    5: 'Aleatoriu', // EN: Random
-    6: 'Toate skin-urile', // EN: All skins
-    7: 'Aspect ratio', // EN: Aspect ratio*
-    8: 'Toate skin-urile | skin-uri osu', // EN: All skins | osu skins
-    9: 'Skin | Skin-uri | Skin-uri', // EN: Skin | Skins | Skins
-    10: 'Skin-uri osu realizate de {name} | Toate skin-urile de la', // EN: osu Skins by {name} | All skins from
-    11: 'căutare', // EN: Search
+    0: 'Skin-uri',
+    1: 'Populare',
+    2: 'std | ctb',
+    3: 'mania | taiko',
+    4: 'Recente',
+    5: 'Aleatoriu',
+    6: 'Toate skin-urile',
+    7: 'Aspect ratio',
+    8: 'Toate skin-urile | skin-uri osu',
+    9: 'Skin | Skin-uri | Skin-uri',
+    10: 'Skin-uri osu realizate de {name} | Toate skin-urile de la',
+    11: 'căutare'
   },
-
   skin: {
-    0: 'Edit', // EN: Edit*
-    1: 'Extra', // EN: Extra*
-    2: 'HD', // EN: HD*
-    3: 'FullHD', // EN: FullHD* 
-    4: 'Animații', // EN: Animation
-    5: 'Capturi de ecran', // EN: Screenshots
-    6: 'Doar gameplay', // EN: Gameplay only
-    7: 'Link de descărcare | Descarcă skin-ul', // EN: Download link | Download skin
-
-    8: 'Postarea de pe forum | Forum osu!', // EN: Forum post |osu! Forum
-    9: 'Postare Reddit', // EN: Reddit post
-
-    10: 'Creatori', // EN: Creators
-    11: 'Etichete', // EN: Tags
-    13: 'Videoclipuri', // EN: Videos
-
-    14: 'Versiune nouă | Gestionează versiunile', // EN: New Version | Manage versions
-    15: 'Actualizează | Trimite', // EN: Update | Submit
-
-    16: 'Moduri de joc', // EN: Gamemodes
-    17: 'Numele skin-ului', // EN: Name of the skin
-    18: 'Versiune | Versiuni', // EN: Version | Versions
-    19: 'Dimensiune', // EN: Size
-    20: 'metadate', // EN: Metadata*
-
-    21: 'Rating', // EN: Rating*
-    22: 'Descărcări', // EN: Downloads
-    23: 'Descărcarea va fi valabilă in curând', // EN: Download will be available soon
-    24: '{amount} secunde rămase', // EN: {amount} seconds left
+    0: 'Edit',
+    1: 'Extra',
+    2: 'HD',
+    3: 'FullHD',
+    4: 'Animații',
+    5: 'Capturi de ecran',
+    6: 'Doar gameplay',
+    7: 'Link de descărcare | Descarcă skin-ul',
+    8: 'Postarea de pe forum | Forum osu!',
+    9: 'Postare Reddit',
+    10: 'Creatori',
+    11: 'Etichete',
+    13: 'Videoclipuri',
+    14: 'Versiune nouă | Gestionează versiunile',
+    15: 'Actualizează | Trimite',
+    16: 'Moduri de joc',
+    17: 'Numele skin-ului',
+    18: 'Versiune | Versiuni',
+    19: 'Dimensiune',
+    20: 'Metadata',
+    21: 'Rating',
+    22: 'Descărcări',
+    23: 'Descărcarea va fi valabilă in curând',
+    24: '{amount} secunde rămase',
+    25: 'Nu ești unul dintre noi',
+    26: 'Se pare că nu ești autorul sau editorul acestui skin'
   },
-
   drag: {
-    0: 'Apasă aici', // EN: Click here
-    1: 'sau trage și plasează imaginile', // EN: or drag & drop images
+    0: 'Apasă aici',
+    1: 'sau trage și plasează imaginile'
   },
-
   footer: {
-    0: 'Creat de cyperdark', // EN: Made by cyperdark
-    1: 'Credite', // EN: Credits
+    0: 'Creat de cyperdark',
+    1: 'Credite'
   },
-
   credits: {
-    0: 'Chibi', // EN: Chibi*
-    1: 'Opere', // EN: Arts
-    2: 'Pictograme', // EN: Icons
-    3: 'Toate pictogramele sunt luate de pe {name}', // EN: All icons are taken from {name}
-    4: 'Steaguri', // EN: Flags
-    5: 'Toate steagurile sunt luate de pe {name}' // EN: All flag images are from {name}
+    0: 'Chibi',
+    1: 'Opere',
+    2: 'Pictograme',
+    3: 'Toate pictogramele sunt luate de pe {name}',
+    4: 'Steaguri',
+    5: 'Toate steagurile sunt luate de pe {name}'
   },
-
   search: {
-    0: 'Căutarea unui skin', // EN: Skin search
-    1: 'Vizualizări', // EN: Views
-    2: 'Titlu', // EN: Title
-    3: 'Rating', // EN: Rating*
-    4: 'Dimensiune', // EN: Size
-    5: 'Dată', // EN: Date
-    7: 'Nu am găsit nimic', // EN: Nothing founded ?
-    8: 'Încearcă să schimbi criteriile de căutare', // EN: Try setting different search criteria
-    9: 'În așteptarea unei solicitări', // EN: Pending a query
-    10: 'Selectează criteriile căutării sau scrie titlul, autorul sau etichetele skin-ului', // EN: Select the search criteria or just write the skin title, the author, or the tag
+    0: 'Căutarea unui skin',
+    1: 'Vizualizări',
+    2: 'Titlu',
+    3: 'Rating',
+    4: 'Dimensiune',
+    5: 'Dată',
+    7: 'Nu am găsit nimic',
+    8: 'Încearcă să schimbi criteriile de căutare',
+    9: 'În așteptarea unei solicitări',
+    10: 'Selectează criteriile căutării sau scrie titlul, autorul sau etichetele skin-ului'
   },
-
   tabs: {
-    0: 'Căutare', // EN: Search
-    1: 'Editare', // EN: Edit
-    2: 'Listă', // EN: List
+    0: 'căutare',
+    1: 'Edit',
+    2: 'Listă'
   },
-
   undefined: {
-    0: 'Gol', // EN: Empty
-    1: 'Din păcate nu am găsit nimic aici, dar poți să te uiți pe celelalte pagini', // EN: Unfortunately there is nothing here, anyway you can look at other pages
-    2: 'Din păcate nu am găsit nimic aici', // EN: Unfortunately there is nothing here
+    0: 'Gol',
+    1: 'Din păcate nu am găsit nimic aici, dar poți să te uiți pe celelalte pagini',
+    2: 'Din păcate nu am găsit nimic aici',
+    3: 'Neautorizat',
+    4: 'Trebuie să fi conectat pentru a edita acest skin.',
+    5: 'Trebuie să fi conectat pentru a adăuga un nou skin.'
   },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   meta: {
     title: {
-      0: 'Home page', // EN: 
-      1: 'Gamemodes, aspect ratios osu skins', // EN: 
-      2: 'Popular osu skins', // EN: 
-      3: 'Search osu skins', // EN: 
-      4: '«{name}» tags list', // EN: 
-      5: '{name} v{version} osu skin', // EN: 
-      6: 'Credits', // EN: 
-      7: 'osu skins', // EN: 
-      8: '{name} search osu skins', // EN: 
-      9: 'Inspire yourself from other osu skins', // EN: 
-      10: '{name} created osu skins', // EN: 
+      0: 'Home page',
+      1: 'Gamemodes, aspect ratios osu skins',
+      2: 'Popular osu skins',
+      3: 'Search osu skins',
+      4: '«{name}» tags list',
+      5: '{name} v{version} osu skin',
+      6: 'Credite',
+      7: 'osu skins',
+      8: '{name} search osu skins',
+      9: 'Inspire yourself from other osu skins',
+      10: '{name} created osu skins'
     },
     description: {
       // 0: 'Get the best osu skins at our site, with a huge library to choose from! We have skins for different gamemodes and aspect ratios, and even feature top players and anime themes. Boost your gameplay with our high-quality skins.',
@@ -235,123 +185,102 @@ export default {
       6: '{name} osu skins collection!, free downloading',
       7: 'A huge amount of osu skins for a {name}, download for free!',
       8: 'All osu skins created by {name}',
-      9: 'Find inspiration for your next osu! skin at our site. Browse through a diverse collection of skins and discover new techniques and ideas. Get inspired and create your own unique skins.',
+      9: 'Find inspiration for your next osu! skin at our site. Browse through a diverse collection of skins and discover new techniques and ideas. Get inspired and create your own unique skins.'
     },
-    // ^ Didn't change whole category cuz it sounds cringe in Romanian so let it be. (Looks like the description that shows on google search so it's better to leave it as it is.)
-    keywords: {
-      0: 'osu, osu!, osu skins, std skins, ctb skins, mania skins, taiko skins, mrekk osu skins,Rafis osu skins,FlyingTuna osu skins,Vaxei osu skins,Cookiezi osu skins,Varvalian osu skins,RyuK osu skins,WhiteCat osu skins,_RyuK osu skins,BeasttrollMC osu skins,Genshin Impact osu skins,Mathi osu skins,WubWoofWolf osu skins,Merami osu skins,xootynator osu skins,Gayzmcgee osu skins,[Karcher] osu skins,Bubbleman osu skins,ChomikBox osu skins,NSFW osu skins,Lifeline osu skins,Hatsune Miku osu skins,Azerite osu skins,Umbre osu skins,404 AimNotFound osu skins,-Nikstrim osu skins,bloo osu skins,Shigetora osu skins,Badeu osu skins,FunOrange osu skins,worst hr player osu skins,Tekkito osu skins,ninerik osu skins,azr8 osu skins,idke osu skins,Andros osu skins,Zylice osu skins,Rektygon osu skins,Komori osu skins,anime osu skins,cyperdark osu skins,Red_Pixel osu skins,Utami osu skins,Arknights osu skins,Karthy osu skins,Paraqeet osu skins,aetrna osu skins,Spare osu skins,-GN osu skins,Mastasz osu skins,Seouless osu skins,haga1115 osu skins,shimon osu skins,fieryrage osu skins,Ekoro osu skins,Firebat92 osu skins,_Shield osu skins,-Roaz- osu skins,- Dark - osu skins,atturbo555 osu skins,Aristia osu skins,_Aiko__ osu skins,z x c osu skins,eternum osu skins,talala osu skins,NyanPotato osu skins,Arnold24x24 osu skins,Alumetri osu skins,im a fancy lad osu skins,jordanlr7 osu skins,Woey osu skins,khz osu skins,rrtyui osu skins,kieg osu skins,Rupertion osu skins,FGSky osu skins,Aireu osu skins,Neko God osu skins,Apostol osu skins,Abyssal osu skins,dokidokilolixx osu skins,Mlaw osu skins,Ponytail osu skins,Reedkatt osu skins,Zestiny osu skins,Apraxia osu skins,Binfy osu skins,Rohulk osu skins,-PloX osu skins,DuyKhang-sama osu skins,BronyPH osu skins,Intercambing osu skins,Xeltol osu skins,Valorant osu skins,Akolibed osu skins,hololive osu skins,kablaze osu skins,tokyo ghoul osu skins,Trail Mix osu skins,Dereban osu skins'
-      // ^ Didn't change this cuz usually people search these terms in English
-    },
+    keywords: { 0: 'osu, osu!, osu skins, std skins, ctb skins, mania skins, taiko skins, mrekk osu skins,Rafis osu skins,FlyingTuna osu skins,Vaxei osu skins,Cookiezi osu skins,Varvalian osu skins,RyuK osu skins,WhiteCat osu skins,_RyuK osu skins,BeasttrollMC osu skins,Genshin Impact osu skins,Mathi osu skins,WubWoofWolf osu skins,Merami osu skins,xootynator osu skins,Gayzmcgee osu skins,[Karcher] osu skins,Bubbleman osu skins,ChomikBox osu skins,NSFW osu skins,Lifeline osu skins,Hatsune Miku osu skins,Azerite osu skins,Umbre osu skins,404 AimNotFound osu skins,-Nikstrim osu skins,bloo osu skins,Shigetora osu skins,Badeu osu skins,FunOrange osu skins,worst hr player osu skins,Tekkito osu skins,ninerik osu skins,azr8 osu skins,idke osu skins,Andros osu skins,Zylice osu skins,Rektygon osu skins,Komori osu skins,anime osu skins,cyperdark osu skins,Red_Pixel osu skins,Utami osu skins,Arknights osu skins,Karthy osu skins,Paraqeet osu skins,aetrna osu skins,Spare osu skins,-GN osu skins,Mastasz osu skins,Seouless osu skins,haga1115 osu skins,shimon osu skins,fieryrage osu skins,Ekoro osu skins,Firebat92 osu skins,_Shield osu skins,-Roaz- osu skins,- Dark - osu skins,atturbo555 osu skins,Aristia osu skins,_Aiko__ osu skins,z x c osu skins,eternum osu skins,talala osu skins,NyanPotato osu skins,Arnold24x24 osu skins,Alumetri osu skins,im a fancy lad osu skins,jordanlr7 osu skins,Woey osu skins,khz osu skins,rrtyui osu skins,kieg osu skins,Rupertion osu skins,FGSky osu skins,Aireu osu skins,Neko God osu skins,Apostol osu skins,Abyssal osu skins,dokidokilolixx osu skins,Mlaw osu skins,Ponytail osu skins,Reedkatt osu skins,Zestiny osu skins,Apraxia osu skins,Binfy osu skins,Rohulk osu skins,-PloX osu skins,DuyKhang-sama osu skins,BronyPH osu skins,Intercambing osu skins,Xeltol osu skins,Valorant osu skins,Akolibed osu skins,hololive osu skins,kablaze osu skins,tokyo ghoul osu skins,Trail Mix osu skins,Dereban osu skins' }
   },
-
   buttons: {
-    profile_osu: 'Profilul de osu!', // EN: osu! Profile
-    new_skin: 'Skin nou', // EN: New skin
-    notifications: 'Notificări', // EN: Notifications
-    settings: 'Setări', // EN: Settings
-    logout: 'Deconectează-te', // EN: Logout
-    load_more: 'Încarcă mai multe', // EN: Load more
-    copy_short: 'Copiază link prescurtat', // EN: Copy short link
-    copied: 'Copiat', // EN: Copied
-    reddit_link: 'Reddit', // EN: Reddit*
-    osu_forum_link: 'Forum osu!', // EN: osu! Forum
-    skin_return: 'Înapoi la skin', // EN: Back to skin
+    0: 'Conectează-te',
+    1: 'Home page',
+    profile_osu: 'Profilul de osu!',
+    new_skin: 'Skin nou',
+    notifications: 'Notificări',
+    settings: 'Setări',
+    logout: 'Deconectează-te',
+    load_more: 'Încarcă mai multe',
+    copy_short: 'Copiază link prescurtat',
+    copied: 'Copiat',
+    reddit_link: 'Reddit',
+    osu_forum_link: 'Forum osu!',
+    skin_return: 'Înapoi la skin'
   },
-
-
-
   user: {
     roles: {
-      0: 'Creator', // EN: Creator*
-      1: 'Mixer', // EN: Mixer*
-      2: 'Animații', // EN: Animations
-      3: 'Artă', // EN: Arts
-      4: 'Collab', // EN: Collab*
+      0: 'Creator',
+      1: 'Mixer',
+      2: 'Animații',
+      3: 'Opere',
+      4: 'Collab'
     }
   },
-
   tooltips: {
-    0: '{amount} vizualizări', // EN: {amount} views
-    1: 'Reîmprospătează rezultatele', // EN: Refresh results
-    2: 'Descrescător | Crescător', // EN: Descending | Ascending
-    3: '{amount} aprecieri', // EN: {amount} likes
-    4: 'Apasă ctrl+enter pentru a adăuga o etichetă', // EN: Press ctrl+enter to add a tag
-    5: 'Modifică versiunea', // EN: Edit version
-    6: '{s}Conectează-te{p}, pentru a putea evalua acest skin', // EN: {s}Log in{p}, to be able to rate this skin
-    7: 'Nici o descriere scurtă', // EN: No short description
-    8: 'Nici un url', // EN: No url
+    0: '{amount} vizualizări',
+    1: 'Reîmprospătează rezultatele',
+    2: 'Descrescător | Crescător',
+    3: '{amount} aprecieri',
+    4: 'Apasă ctrl+enter pentru a adăuga o etichetă',
+    5: 'Modifică versiunea',
+    6: '{s}Conectează-te{p}, pentru a putea evalua acest skin',
+    7: 'Nici o descriere scurtă',
+    8: 'Nici un url'
   },
-
   lists: {
     screens: {
-      0: 'Bine ai venit', // EN: Welcome
-      1: 'Meniu principal', // EN: Main menu
-      2: 'Selectare piesă', // EN: Song select
-      3: 'Meniu moduri de joc', // EN: Mode menu
-      4: 'Mod-uri', // EN: Mods
-      5: 'Numărătoarea inversă', // EN: Countdown
-      6: 'Gameplay', // EN: Gameplay* (couldn't something equivalent that will sound good and also make sense *sorry*)
-      7: 'Spinner', // EN: Spinner*
-      8: 'Secțiune trecută', // EN: Section Pass
-      9: 'Secțiune eșuată', // EN: Section Fail
-      10: 'Ecranul de pauză', // EN: Pause Screen
-      11: 'Ecranul de eșec', // EN: Fail Screen
-      12: 'Ecranul cu rezultate', // EN: Result screen
-      13: 'Skip', // EN: Skip*
-      14: 'Banner', // EN: Banner*
+      0: 'Bine ai venit',
+      1: 'Meniu principal',
+      2: 'Selectare piesă',
+      3: 'Meniu moduri de joc',
+      4: 'Mod-uri',
+      5: 'Numărătoarea inversă',
+      6: 'Gameplay',
+      7: 'Spinner',
+      8: 'Secțiune trecută',
+      9: 'Secțiune eșuată',
+      10: 'Ecranul de pauză',
+      11: 'Ecranul de eșec',
+      12: 'Ecranul cu rezultate',
+      13: 'Skip',
+      14: 'Banner'
     },
     cats: {
-      0: 'NSFW', // EN: NSFW*
-      1: 'Furry', // EN: Furry*
-      2: 'Mixt', // EN: Mixed
+      0: 'NSFW',
+      1: 'Furry',
+      2: 'Mixt'
     }
   },
-
-
-
-
-
-
-
-
   select: {
-    0: 'Nou', // EN: New
-    1: 'Corectat', // EN: Fixed
-    2: 'Modificat', // EN: Changed
-    3: 'Eliminat', // EN: Removed
-
-    4: 'Artă', // EN: Art
-    5: 'Font', // EN: Font*
-    6: 'Artist', // EN: Artist*
-    7: 'Elementul/Elementele skin-ului', // EN: Skin element
-    8: 'Audio/Sfx', // EN: Audio/Sfx*
-    9: 'Instrumente', // EN: Tools
-
-
-
-    views: 'Vizualizări', // EN: Views
-    likes: 'Aprecieri', // EN: Likes
-    size_range: 'Selectați dimensiunea', // EN: Select size
-    date_range: 'Selectați un interval de timp', // EN: Select a date range
-    ratio: 'Selectați un aspect ratio | ratio', // EN: Select aspect ratio | ratio
+    0: 'Nou',
+    1: 'Corectat',
+    2: 'Modificat',
+    3: 'Eliminat',
+    4: 'Artă',
+    5: 'Font',
+    6: 'Artist',
+    7: 'Elementul/Elementele skin-ului',
+    8: 'Audio/Sfx',
+    9: 'Instrumente',
+    views: 'Vizualizări',
+    likes: 'Aprecieri',
+    size_range: 'Selectați dimensiunea',
+    date_range: 'Selectați un interval de timp',
+    ratio: 'Selectați un aspect ratio | ratio'
   },
-
   placeholders: {
-    0: 'Alege rolurile', // EN: Choose roles
-    1: 'Alege versiunile', // EN: Choose versions
-    2: 'Tastează text...', // EN: Type text...
-    3: 'Selectează dimensiunea', // EN: Select size
-    4: 'Selectează intervalul de timp', // EN: Select date range
-    5: 'An', // EN: Year
-    6: 'Lună', // EN: Month
-    7: 'Selectează aspect ratio', // EN: Select aspect ratio
-    8: 'Selectează categoriile', // EN: Select categories
-    9: 'Moduri de joc', // EN: Gamemodes
-    10: 'Selectează tipul', // EN: Select type
-    11: 'Atașează un link de YouTube', // EN: Paste a youtube link
-    12: 'Tastează descrierea și url-ul. Format descriere:url', // EN: Type description and url. Format description:url
-    13: 'Selectează extra', // EN: Select extra
-    14: 'Atașează un link', // EN: Paste a link
-    15: 'Titlul, autorul sau eticheta skin-ului', // EN: Skin title, author, or tag
+    0: 'Alege rolurile',
+    1: 'Alege versiunile',
+    2: 'Tastează text...',
+    3: 'Selectați dimensiunea',
+    4: 'Selectează intervalul de timp',
+    5: 'An',
+    6: 'Lună',
+    7: 'Selectează aspect ratio',
+    8: 'Selectează categoriile',
+    9: 'Moduri de joc',
+    10: 'Selectează tipul',
+    11: 'Atașează un link de YouTube',
+    12: 'Tastează descrierea și url-ul. Format descriere:url',
+    13: 'Selectează extra',
+    14: 'Atașează un link',
+    15: 'Titlul, autorul sau eticheta skin-ului'
   }
 };

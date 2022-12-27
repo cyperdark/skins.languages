@@ -1,75 +1,75 @@
 export default {
   hello: 'asd',
   title: {
-    home: 'Home',
-    page: 'page',
-    guest: 'Log in',
-    lists: { 0: 'Lists' },
+    home: 'Головна',
+    page: 'сторінка',
+    guest: 'Ввійти',
+    lists: { 0: 'Списки' },
     tags: {
-      0: 'Tags',
-      1: '{amount} tags for category {name}'
+      0: 'Теги',
+      1: 'В категорії {name} є {amount} тегів'
     },
     ideas: {
-      0: 'Inspiration',
+      0: 'Натхнення',
       1: '«{amount}»'
     },
-    sounds: { 0: 'Sounds' },
-    leaderboard: { 0: 'Leaderboards' },
-    extend: { 0: 'More | Less' },
+    sounds: { 0: 'Звуки' },
+    leaderboard: { 0: 'Таблиці Лідерів' },
+    extend: { 0: 'Розгорнути | Згорнути' },
     skin: {
-      0: 'This skin contains elements from other skins',
-      1: 'Click here for more information'
+      0: 'Цей скін містить елементи з інших скінів',
+      1: 'Натисни для отримання інформації'
     }
   },
   changelogs: {
-    0: 'Changelog',
-    1: 'List of all the revisions done in the current version',
-    2: 'Nothing here',
-    3: 'But you can add the changes you made to this version of the skin',
-    4: 'Not grouped',
-    5: 'New',
-    6: 'Fixes',
-    7: 'Changes',
-    8: 'Removals'
+    0: 'Список змін',
+    1: 'Перелік усіх змін, зроблених у поточній версії',
+    2: 'Тут пусто',
+    3: 'Але ти можеш додати зміни, зроблені в цій версії',
+    4: 'Не згруповано',
+    5: 'Нове',
+    6: 'Виправлення',
+    7: 'Зміни',
+    8: 'Видалено'
   },
   creators: {
-    0: 'Creators',
-    1: 'List all creators who were involved in making this version',
-    2: 'No one is here',
+    0: 'Творці',
+    1: 'Перелічи всіх творців долучених до створення цієї версії',
+    2: 'Тут нікого',
     3: 'Typing in a player\'s name will show you the results of the osu search.',
-    4: 'Editor',
-    5: 'Roles',
-    6: 'Versions'
+    4: 'Редактор',
+    5: 'Ролі',
+    6: 'Версії'
   },
   tags: {
-    0: 'Tags',
-    1: 'List of all the tags related to this skin',
-    2: 'It seems pretty empty here.',
-    3: 'Use the field above to find new tags'
+    0: 'Теги',
+    1: 'Список усіх тегів, пов’язаних із цим скіном',
+    2: 'Тут досить порожньо.',
+    3: 'Використовуй поле вище, щоб знайти нові теги'
   },
   videos: {
-    0: 'Videos',
-    1: 'List of all the video showcases for this skin',
-    2: 'No showcases',
-    3: 'Search for some on YouTube or create your own showcase'
+    0: 'Відео',
+    1: 'Список усіх відеооглядів цього скіна',
+    2: 'Оглядів нема',
+    3: 'Спробуй знайти щось на YouTube або створи власний огляд'
   },
   sources: {
     0: 'Attribution',
-    1: 'List of all used assets or tools in this version of the skin',
-    2: 'Kinda empty here',
-    3: 'If you have used assets from other skins, or arts, be sure to add them in the box above',
-    4: 'Not grouped'
+    1: 'Список усіх використаних елементів або інструментів у версії скіна',
+    2: 'Трохи порожньо',
+    3: 'Якщо ти використовуєш елементи з артів або інших скінів, обов’язково додай посилання на них у поле вище',
+    4: 'Не згруповано'
   },
   checks: {
-    0: 'All',
-    1: 'Metadata',
-    2: 'Highlight',
-    4: 'Add at least one skin creator',
-    5: 'Add a couple of tags',
-    6: 'Size of the skin not specified',
-    7: 'Select at least one gamemode',
-    8: 'Select image resolution (SD or HD)',
-    9: 'Select at least one aspect ratio',
+    0: 'Всі',
+    1: 'Метадані',
+    2: 'Показати',
+    4: 'Додай щонайменш одного творця',
+    5: 'Додай кілька тегів',
+    6: 'Не вказано вагу скіна',
+    7: 'Обери хоча б один режим гри',
+    8: 'Обери тип файлів (SD або HD)',
+    9: 'Вибери принаймні одне співвідношення сторін',
     10: 'No screenshots provided',
     11: 'Add at least one gameplay screenshot',
     12: 'Link to the skin not specified',
@@ -78,46 +78,46 @@ export default {
     22: 'Checklist'
   },
   skins: {
-    0: 'Skins',
-    1: 'Popular',
+    0: 'Скіни',
+    1: 'Популярні',
     2: 'std | ctb',
     3: 'mania | taiko',
-    4: 'Recent',
-    5: 'Random',
-    6: 'All skins',
-    7: 'Aspect ratio',
-    8: 'All skins | osu skins',
-    9: 'Skin | Skins | Skins',
-    10: 'osu Skins by {name} | All skins from',
-    11: 'Search'
+    4: 'Нові',
+    5: 'Випадкові',
+    6: 'Всі скіни',
+    7: 'Пропорції',
+    8: 'Всі скіни | osu skins',
+    9: 'Скін | Скіни | Скінів',
+    10: 'Скіни від {name} | Всі скіни від {name}',
+    11: 'Пошук'
   },
   skin: {
-    0: 'Edit',
+    0: 'Редагувати',
     1: 'Extra',
     2: 'HD',
     3: 'FullHD',
-    4: 'Animation',
-    5: 'Screenshots',
-    6: 'Gameplay only',
-    7: 'Download link | Download skin',
-    8: 'Forum post |osu! Forum',
-    9: 'Reddit post',
-    10: 'Creators',
-    11: 'Tags',
-    13: 'Videos',
-    14: 'New Version | Manage versions',
-    15: 'Update | Submit',
-    16: 'Gamemodes',
-    17: 'Name of the skin',
-    18: 'Version | Versions',
+    4: 'Анімація',
+    5: 'Знімки екрану',
+    6: 'Тільки геймплей',
+    7: 'Посилання для завантаження | Завантажити скін',
+    8: 'Допис на форумі | osu! Форум',
+    9: 'Пост на Reddit',
+    10: 'Творці',
+    11: 'Теги',
+    13: 'Відео',
+    14: 'Нова версія | Керувати версіями',
+    15: 'Оновити | Надіслати',
+    16: 'Режими гри',
+    17: 'Назва скіна',
+    18: 'Версія | Версії',
     19: 'Size',
-    20: 'Metadata',
+    20: 'Метадані',
     21: 'Rating',
     22: 'Downloads',
     23: 'Download will be available soon',
     24: '{amount} seconds left',
     25: 'You\'re not one of us',
-    26: 'Seems like you\'re not an author or editor of this skin'
+    26: 'Look like you\'re not author or editor of this skin'
   },
   drag: {
     0: 'Click here',
@@ -130,7 +130,7 @@ export default {
   credits: {
     0: 'Chibi',
     1: 'Arts',
-    2: 'Icons',
+    2: 'Іконки',
     3: 'All icons are taken from {name}',
     4: 'Flags',
     5: 'All flag images are from {name}'
@@ -148,8 +148,8 @@ export default {
     10: 'Select the search filters or just write the skin title, the author or the tag'
   },
   tabs: {
-    0: 'Search',
-    1: 'Edit',
+    0: 'Пошук',
+    1: 'Редагувати',
     2: 'List'
   },
   undefined: {
@@ -179,7 +179,7 @@ export default {
       0: 'Get the best osu! skins at our site! Our huge library has skins for all gamemodes, aspect ratios and even top players. Plus, we have a special section for anime fans. Improve your gameplay with the perfect skin. #osuskins #osugame #anime',
       1: '{views} views. An osu skin for {modes}, the size is {size}, created by {creators}. Supports {ratios}',
       2: 'Find the perfect osu! skin with our advanced search feature. Browse through our huge library, filtered by gamemode, aspect ratio, and more. Or, check out skins used by top players.',
-      3: 'Discover a variety of skins for different game modes and aspect ratios on our site. Choose from standard, catch the beat, mania, and taiko modes. Find the perfect fit for your gaming preferences.',
+      3: 'Discover a variety of game modes and aspect ratios on our site. Choose from standard, catch the beat, mania, and taiko modes. Find the perfect fit for your gaming preferences.',
       4: 'Find the perfect osu skin from top players on our site. Browse our collection of popular skins and customize your gameplay. Discover a wide range of styles and themes to suit your preferences.',
       5: 'List of existing tags for osu skins.',
       6: '{name} osu skins collection!, free downloading',
@@ -206,23 +206,23 @@ export default {
   },
   user: {
     roles: {
-      0: 'Creator',
-      1: 'Mixer',
-      2: 'Animations',
+      0: 'Розробник',
+      1: 'Міксер',
+      2: 'Анімації',
       3: 'Arts',
-      4: 'Collab'
+      4: 'Колаб'
     }
   },
   tooltips: {
-    0: '{amount} views',
-    1: 'Refresh results',
-    2: 'Descending | Ascending',
-    3: '{amount} likes',
-    4: 'Press ctrl+enter to add a tag',
+    0: '{amount} переглядів',
+    1: 'Оновити результати',
+    2: 'За спаданням | За зростанням',
+    3: '{amount} лайків',
+    4: 'Натисніть ctrl+enter, щоб додати тег',
     5: 'Edit version',
     6: '{s}Log in{p}, to be able to rate this skin',
     7: 'No short description',
-    8: 'No url'
+    8: 'Немає URL'
   },
   lists: {
     screens: {
@@ -249,7 +249,7 @@ export default {
     }
   },
   select: {
-    0: 'New',
+    0: 'Нове',
     1: 'Fixed',
     2: 'Changed',
     3: 'Removed',
@@ -270,14 +270,14 @@ export default {
     1: 'Choose versions',
     2: 'Type text...',
     3: 'Select size',
-    4: 'Select date range',
-    5: 'Year',
-    6: 'Month',
-    7: 'Select aspect ratio',
-    8: 'Select categories',
-    9: 'Gamemodes',
-    10: 'Select type',
-    11: 'Paste a YouTube link',
+    4: 'Діапазон дат',
+    5: 'Рік',
+    6: 'Місяць',
+    7: 'Виберіть співвідношення сторін',
+    8: 'Вибрати категорії',
+    9: 'Режими гри',
+    10: 'Виберіть тип',
+    11: 'Вставте посилання на YouTube',
     12: 'Type description and url. Format description:url',
     13: 'Select extra',
     14: 'Paste a link',

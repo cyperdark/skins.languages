@@ -117,7 +117,7 @@ export default {
     23: 'Download will be available soon',
     24: '{amount} seconds left',
     25: 'You\'re not one of us',
-    26: 'Seems like you\'re not an author or editor of this skin'
+    26: 'Look like you\'re not author or editor of this skin'
   },
   drag: {
     0: 'Click here',
@@ -179,7 +179,7 @@ export default {
       0: 'Get the best osu! skins at our site! Our huge library has skins for all gamemodes, aspect ratios and even top players. Plus, we have a special section for anime fans. Improve your gameplay with the perfect skin. #osuskins #osugame #anime',
       1: '{views} views. An osu skin for {modes}, the size is {size}, created by {creators}. Supports {ratios}',
       2: 'Find the perfect osu! skin with our advanced search feature. Browse through our huge library, filtered by gamemode, aspect ratio, and more. Or, check out skins used by top players.',
-      3: 'Discover a variety of skins for different game modes and aspect ratios on our site. Choose from standard, catch the beat, mania, and taiko modes. Find the perfect fit for your gaming preferences.',
+      3: 'Discover a variety of game modes and aspect ratios on our site. Choose from standard, catch the beat, mania, and taiko modes. Find the perfect fit for your gaming preferences.',
       4: 'Find the perfect osu skin from top players on our site. Browse our collection of popular skins and customize your gameplay. Discover a wide range of styles and themes to suit your preferences.',
       5: 'List of existing tags for osu skins.',
       6: '{name} osu skins collection!, free downloading',

@@ -1,31 +1,31 @@
 export default {
   hello: 'asd',
   title: {
-    home: 'Home',
-    page: 'page',
-    guest: 'Log in',
-    lists: { 0: 'Lists' },
+    home: 'Halaman utama',
+    page: 'halaman',
+    guest: 'Masuk',
+    lists: { 0: 'Daftar' },
     tags: {
-      0: 'Tags',
-      1: '{amount} tags for category {name}'
+      0: 'Label',
+      1: 'Ada {amount} skin yang cocok dengan label {name}'
     },
     ideas: {
-      0: 'Inspiration',
+      0: 'Inspirasi',
       1: '«{amount}»'
     },
-    sounds: { 0: 'Sounds' },
-    leaderboard: { 0: 'Leaderboards' },
-    extend: { 0: 'More | Less' },
+    sounds: { 0: 'Suara' },
+    leaderboard: { 0: 'Papan Peringkat' },
+    extend: { 0: 'Selebihnya | Lebih Sedikit' },
     skin: {
-      0: 'This skin contains elements from other skins',
-      1: 'Click here for more information'
+      0: 'Skin ini mengandul beberapa konten yang bersumber dari skin lain',
+      1: 'Ketuk disini untuk informasi lebih lanjut'
     }
   },
   changelogs: {
-    0: 'Changelog',
-    1: 'List of all the revisions done in the current version',
-    2: 'Nothing here',
-    3: 'But you can add the changes you made to this version of the skin',
+    0: 'Catatan Perubahan',
+    1: 'Daftar perubahan di versi saat ini',
+    2: 'Riwayat kosong',
+    3: 'Kamu bisa menambahkan perubahan yang kamu buat di skin ini',
     4: 'Not grouped',
     5: 'New',
     6: 'Fixes',
@@ -42,7 +42,7 @@ export default {
     6: 'Versions'
   },
   tags: {
-    0: 'Tags',
+    0: 'Label',
     1: 'List of all the tags related to this skin',
     2: 'It seems pretty empty here.',
     3: 'Use the field above to find new tags'
@@ -103,7 +103,7 @@ export default {
     8: 'Forum post |osu! Forum',
     9: 'Reddit post',
     10: 'Creators',
-    11: 'Tags',
+    11: 'Label',
     13: 'Videos',
     14: 'New Version | Manage versions',
     15: 'Update | Submit',
@@ -117,7 +117,7 @@ export default {
     23: 'Download will be available soon',
     24: '{amount} seconds left',
     25: 'You\'re not one of us',
-    26: 'Seems like you\'re not an author or editor of this skin'
+    26: 'Look like you\'re not author or editor of this skin'
   },
   drag: {
     0: 'Click here',
@@ -179,7 +179,7 @@ export default {
       0: 'Get the best osu! skins at our site! Our huge library has skins for all gamemodes, aspect ratios and even top players. Plus, we have a special section for anime fans. Improve your gameplay with the perfect skin. #osuskins #osugame #anime',
       1: '{views} views. An osu skin for {modes}, the size is {size}, created by {creators}. Supports {ratios}',
       2: 'Find the perfect osu! skin with our advanced search feature. Browse through our huge library, filtered by gamemode, aspect ratio, and more. Or, check out skins used by top players.',
-      3: 'Discover a variety of skins for different game modes and aspect ratios on our site. Choose from standard, catch the beat, mania, and taiko modes. Find the perfect fit for your gaming preferences.',
+      3: 'Discover a variety of game modes and aspect ratios on our site. Choose from standard, catch the beat, mania, and taiko modes. Find the perfect fit for your gaming preferences.',
       4: 'Find the perfect osu skin from top players on our site. Browse our collection of popular skins and customize your gameplay. Discover a wide range of styles and themes to suit your preferences.',
       5: 'List of existing tags for osu skins.',
       6: '{name} osu skins collection!, free downloading',
