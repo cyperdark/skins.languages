@@ -15,10 +15,10 @@ export default {
     },
     sounds: { 0: 'Âm thanh' },
     leaderboard: { 0: 'Bảng xếp hạng' },
-    extend: { 0: 'More | Less' },
+    extend: { 0: 'Hiển thị thêm | Hiển thị ít hơn' },
     skin: {
-      0: 'This skin contains elements from other skins',
-      1: 'Click here for more information'
+      0: 'Skin này chứa yếu tố từ skin khác',
+      1: 'Nhấp vào đây để biết thêm thông tin'
     }
   },
   changelogs: {
@@ -35,11 +35,11 @@ export default {
   creators: {
     0: 'Tác giả',
     1: 'List all creators who were involved in making this version',
-    2: 'No one is here',
-    3: 'Typing in a player\'s name will show you the results of the osu search.',
+    2: 'Không có ai ở đây',
+    3: 'Nhập tên người chơi ở đây sẽ cho bạn thấy kết quả của osu search.',
     4: 'Trình chỉnh sửa',
-    5: 'Roles',
-    6: 'Versions'
+    5: 'Vai trò',
+    6: 'Phiên bản'
   },
   tags: {
     0: 'Các Tag',
@@ -93,39 +93,39 @@ export default {
   },
   skin: {
     0: 'Edit',
-    1: 'Extra',
+    1: 'Bổ sung',
     2: 'HD',
-    3: 'FullHD',
-    4: 'Animation',
-    5: 'Screenshots',
-    6: 'Gameplay only',
+    3: 'Full HD',
+    4: 'Hoạt ảnh',
+    5: 'Ảnh chụp màn hình',
+    6: 'Chỉ gameplay',
     7: 'Download link | Download skin',
-    8: 'Forum post |osu! Forum',
-    9: 'Reddit post',
+    8: 'Bài viết diễn đàn | diễn đàn osu!',
+    9: 'Bài viết Reddit',
     10: 'Tác giả',
     11: 'Các Tag',
     13: 'Video',
-    14: 'New Version | Manage versions',
-    15: 'Update | Submit',
-    16: 'Gamemodes',
-    17: 'Name of the skin',
-    18: 'Version | Versions',
-    19: 'Size',
+    14: 'Phiên bản mới | Quản lí phiên bản',
+    15: 'Cập nhật | Xác nhận',
+    16: 'Chế độ chơi',
+    17: 'Tên skin',
+    18: 'Phiên bản | Các phiên bản',
+    19: 'Kích thước',
     20: 'Metadata',
-    21: 'Rating',
-    22: 'Downloads',
-    23: 'Download will be available soon',
-    24: '{amount} seconds left',
+    21: 'Đánh giá',
+    22: 'Lượt tải xuống',
+    23: 'Tải xuống sẽ sớm khả dụng',
+    24: 'Còn {amount} giây',
     25: 'You\'re not one of us',
-    26: 'Look like you\'re not author or editor of this skin'
+    26: 'Seems like you\'re not an author or editor of this skin'
   },
   drag: {
-    0: 'Click here',
-    1: 'or drag & drop images here'
+    0: 'Nhấn vào đây',
+    1: 'hoặc kéo thả ảnh vào đây'
   },
   footer: {
-    0: 'Made by cyperdark',
-    1: 'Credits'
+    0: 'Làm bởi ck',
+    1: 'Những người đóng góp'
   },
   credits: {
     0: 'Chibi',
@@ -139,8 +139,8 @@ export default {
     0: 'Skin search',
     1: 'Views',
     2: 'Title',
-    3: 'Rating',
-    4: 'Size',
+    3: 'Đánh giá',
+    4: 'Kích thước',
     5: 'Date',
     7: 'Nothing found',
     8: 'Try setting different search filters',
@@ -162,13 +162,13 @@ export default {
   },
   meta: {
     title: {
-      0: 'Home page',
-      1: 'Gamemodes, aspect ratios osu skins',
-      2: 'Popular osu skins',
-      3: 'Search osu skins',
-      4: 'List of tags, {name}',
+      0: 'Trang chủ',
+      1: 'Chế độ chơi, tỉ lệ của osu skin',
+      2: 'Skin osu phổ biến',
+      3: 'Tìm kiếm osu skin',
+      4: 'Danh sách tag, {name}',
       5: '{name} v{version} osu skin',
-      6: 'Credits',
+      6: 'Những người đóng góp',
       7: 'osu skins',
       8: '{name} search osu skins',
       9: 'Inspire yourself from other osu skins',
@@ -179,7 +179,7 @@ export default {
       0: 'Get the best osu! skins at our site! Our huge library has skins for all gamemodes, aspect ratios and even top players. Plus, we have a special section for anime fans. Improve your gameplay with the perfect skin. #osuskins #osugame #anime',
       1: '{views} views. An osu skin for {modes}, the size is {size}, created by {creators}. Supports {ratios}',
       2: 'Find the perfect osu! skin with our advanced search feature. Browse through our huge library, filtered by gamemode, aspect ratio, and more. Or, check out skins used by top players.',
-      3: 'Discover a variety of game modes and aspect ratios on our site. Choose from standard, catch the beat, mania, and taiko modes. Find the perfect fit for your gaming preferences.',
+      3: 'Discover a variety of skins for different game modes and aspect ratios on our site. Choose from standard, catch the beat, mania, and taiko modes. Find the perfect fit for your gaming preferences.',
       4: 'Find the perfect osu skin from top players on our site. Browse our collection of popular skins and customize your gameplay. Discover a wide range of styles and themes to suit your preferences.',
       5: 'List of existing tags for osu skins.',
       6: '{name} osu skins collection!, free downloading',
@@ -191,8 +191,8 @@ export default {
   },
   buttons: {
     0: 'Login',
-    1: 'Home page',
-    profile_osu: 'osu! Profile',
+    1: 'Trang chủ',
+    profile_osu: 'Trang cá nhân osu!',
     new_skin: 'New skin',
     notifications: 'Notifications',
     settings: 'Settings',
@@ -275,7 +275,7 @@ export default {
     6: 'Month',
     7: 'Select aspect ratio',
     8: 'Select categories',
-    9: 'Gamemodes',
+    9: 'Chế độ chơi',
     10: 'Select type',
     11: 'Paste a YouTube link',
     12: 'Type description and url. Format description:url',
