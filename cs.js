@@ -1,5 +1,5 @@
 export default {
-  hello: 'asd',
+  hello: 'ahoj',
   title: {
     home: 'Domovská stránka',
     page: 'page',
@@ -113,11 +113,11 @@ export default {
     19: 'Velikost',
     20: 'Metadata',
     21: 'Hodnocení',
-    22: 'Stáhnutí',
+    22: 'Počet stáhnutí',
     23: 'Stahování bude brzy dostupné',
     24: '{amount} sekund zbývá',
-    25: 'You\'re not one of us',
-    26: 'Look like you\'re not author or editor of this skin'
+    25: 'Nejsi jeden z nás',
+    26: 'Zdá se, že nejsti autorem ani editorem tohoto skinu'
   },
   drag: {
     0: 'Klikněte zde',
@@ -150,15 +150,15 @@ export default {
   tabs: {
     0: 'Hledat',
     1: 'Upravit',
-    2: 'List'
+    2: 'Seznam'
   },
   undefined: {
     0: 'Prázdno',
     1: 'Bohužel zde nic není, můžete se podívat na ostatní stránky',
     2: 'Bohužel zde nic není',
-    3: 'Unauthorized',
-    4: 'You need to be logged in to edit this skin.',
-    5: 'You need to be logged in to add new skin.'
+    3: 'Neoprávněný',
+    4: 'Pro úpravu tohoto skinu musíte být přihlášeni.',
+    5: 'Pro přidání nového skinu musíte být přihlášeni.'
   },
   meta: {
     title: {
@@ -179,7 +179,7 @@ export default {
       0: 'Stáhněte si osu! skiny na našich stránkách! Naše velká knihovna ma skiny pro všechny herní módy, poměry stran, a dokonce i skiny od nejlepších hráčů. Taky máme speciální sekci pro fanoušky anime. Zlepšete svoje hraní s perfektním skinem. #osuskins #osugame #anime',
       1: '{views} zobrazení. Osu! skin pro {modes}, velikost {size}, vytvořeno {creators}. Podporuje {ratios}',
       2: 'Najděte si perfektní osu! skin s naším pokročilým vyhledávacím systémem. Projděte si naší obrovskou knihovnou, rozdělené na herní módy, poměry stran, atd. Nebo můžete zkusit se podívat na skiny od nejlepších hráčů',
-      3: 'Je zde obrovká rozmanitost herních módů a poměrů stran na našich stránkách. Vyberte si ze osu!std, osu!ctb , osu!mania, a osu!taiko. Najděte perfektní fit pro vaše herní preference.',
+      3: 'Objevte na našem webu různé skiny pro různé herní režimy a poměry stran. Vyberte si ze standard, catch the beat, mánia a taiko. Najděte perfektní řešení pro vaše herní preference.',
       4: 'Najděte perfektní osu skin od nejlepších hráčů na našich stránkách. Projděte naší kolecí populárních skinů a přizpůsobte svůj herní styl. Najdete zde široký rozsah stylů a témat který vyhoví vašim preferencím.',
       5: 'List všch existujících označení pro osu skiny.',
       6: '{name} osu skiny kolekce!, neplacené stahování',
@@ -190,7 +190,7 @@ export default {
     keywords: { 0: 'osu, osu!, osu skiny, std skiny, ctb skiny, mania skiny, taiko skiny, mrekk osu skiny, Rafis osu skiny, FlyingTuna osu skiny, Vaxei osu skiny, Cookiezi osu skiny, Varvalian osu skiny, RyuK osu skiny, WhiteCat osu skiny, _RyuK osu skiny, BeasttrollMC osu skiny, Genshin Impact osu skiny, Mathi osu skiny, WubWoofWolf osu skiny, Merami osu skiny, xootynator osu skiny, Gayzmcgee osu skiny, [Karcher] osu skiny, Bubbleman osu skiny, ChomikBox osu skiny, NSFW osu skiny, Lifeline osu skiny, Hatsune Miku osu skiny, Azerite osu skiny, Umbre osu skiny, 404 AimNotFound osu skiny, -Nikstrim osu skiny, bloo osu skiny, Shigetora osu skiny, Badeu osu skiny, FunOrange osu skiny, worst hr player osu skiny, Tekkito osu skiny, ninerik osu skiny, azr8 osu skiny, idke osu skiny, Andros osu skiny, Zylice osu skiny, Rektygon osu skiny, Komori osu skiny, anime osu skiny, cyperdark osu skiny, Red_Pixel osu skiny, Utami osu skiny, Arknights osu skiny, Karthy osu skiny, Paraqeet osu skiny, aetrna osu skiny, Spare osu skiny, -GN osu skiny, Mastasz osu skiny, Seouless osu skiny, haga1115 osu skiny, shimon osu skiny, fieryrage osu skiny, Ekoro osu skiny, Firebat92 osu skiny, _Shield osu skiny, -Roaz- osu skiny, - Dark - osu skiny, atturbo555 osu skiny, Aristia osu skiny, _Aiko__ osu skiny, z x c osu skiny, eternum osu skiny, talala osu skiny, NyanPotato osu skiny, Arnold24x24 osu skiny, Alumetri osu skiny, im a fancy lad osu skiny, jordanlr7 osu skiny, Woey osu skiny, khz osu skiny, rrtyui osu skiny, kieg osu skiny, Rupertion osu skiny, FGSky osu skiny, Aireu osu skiny, Neko God osu skiny, Apostol osu skiny, Abyssal osu skiny, dokidokilolixx osu skiny, Mlaw osu skiny, Ponytail osu skiny, Reedkatt osu skiny, Zestiny osu skiny, Apraxia osu skiny, Binfy osu skiny, Rohulk osu skiny, -PloX osu skiny, DuyKhang-sama osu skiny, BronyPH osu skiny, Intercambing osu skiny, Xeltol osu skiny, Valorant osu skiny, Akolibed osu skiny, hololive osu skiny, kablaze osu skiny, tokyo ghoul osu skiny,Trail Mix osu skiny,Dereban osu skiny' }
   },
   buttons: {
-    0: 'Login',
+    0: 'Přihlásit se',
     1: 'Domovská stránka',
     profile_osu: 'osu! Profil',
     new_skin: 'Nový skin',
