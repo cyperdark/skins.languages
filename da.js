@@ -1,41 +1,41 @@
 export default {
-  hello: 'asd',
+  hello: 'hej',
   title: {
-    home: 'Home',
-    page: 'page',
-    guest: 'Log in',
-    lists: { 0: 'Lists' },
+    home: 'Hjem',
+    page: 'side',
+    guest: 'Log på',
+    lists: { 0: 'Lister' },
     tags: {
       0: 'Tags',
-      1: '{amount} tags for category {name}'
+      1: '{amount} tags for kategori {name}'
     },
     ideas: {
       0: 'Inspiration',
-      1: '«{amount}»'
+      1: '{amount}'
     },
-    sounds: { 0: 'Sounds' },
+    sounds: { 0: 'Lyde' },
     leaderboard: { 0: 'Leaderboards' },
-    extend: { 0: 'More | Less' },
+    extend: { 0: 'Mere | Mindre' },
     skin: {
-      0: 'This skin contains elements from other skins',
-      1: 'Click here for more information'
+      0: 'Denne skin indeholder elementer fra andre skins',
+      1: 'Klik her for mere information'
     }
   },
   changelogs: {
-    0: 'Changelog',
-    1: 'List of all the revisions done in the current version',
-    2: 'Nothing here',
-    3: 'But you can add the changes you made to this version of the skin',
-    4: 'Not grouped',
-    5: 'New',
-    6: 'Fixes',
-    7: 'Changes',
-    8: 'Removals'
+    0: 'Ændringslog',
+    1: 'Liste over alle revisioner udført i den aktuelle version',
+    2: 'Intet her',
+    3: 'Men du kan tilføje de ændringer, du har foretaget til denne version af huden',
+    4: 'Ikke Grupperet',
+    5: 'Ny',
+    6: 'Rettelser',
+    7: 'Ændringer',
+    8: 'Fjernelser'
   },
   creators: {
-    0: 'Creators',
-    1: 'List all creators who were involved in making this version',
-    2: 'No one is here',
+    0: 'Skabere',
+    1: 'List alle ophavsmænd, der var involveret i at lave denne version',
+    2: 'Intet er her',
     3: 'Typing in a player\'s name will show you the results of the osu search.',
     4: 'Editor',
     5: 'Roles',
@@ -58,7 +58,7 @@ export default {
     1: 'List of all used assets or tools in this version of the skin',
     2: 'Kinda empty here',
     3: 'If you have used assets from other skins, or arts, be sure to add them in the box above',
-    4: 'Not grouped'
+    4: 'Ikke Grupperet'
   },
   checks: {
     0: 'All',
@@ -102,7 +102,7 @@ export default {
     7: 'Download link | Download skin',
     8: 'Forum post |osu! Forum',
     9: 'Reddit post',
-    10: 'Creators',
+    10: 'Skabere',
     11: 'Tags',
     13: 'Videos',
     14: 'New Version | Manage versions',
@@ -117,7 +117,7 @@ export default {
     23: 'Download will be available soon',
     24: '{amount} seconds left',
     25: 'You\'re not one of us',
-    26: 'Look like you\'re not author or editor of this skin'
+    26: 'Seems like you\'re not an author or editor of this skin'
   },
   drag: {
     0: 'Click here',
@@ -179,7 +179,7 @@ export default {
       0: 'Get the best osu! skins at our site! Our huge library has skins for all gamemodes, aspect ratios and even top players. Plus, we have a special section for anime fans. Improve your gameplay with the perfect skin. #osuskins #osugame #anime',
       1: '{views} views. An osu skin for {modes}, the size is {size}, created by {creators}. Supports {ratios}',
       2: 'Find the perfect osu! skin with our advanced search feature. Browse through our huge library, filtered by gamemode, aspect ratio, and more. Or, check out skins used by top players.',
-      3: 'Discover a variety of game modes and aspect ratios on our site. Choose from standard, catch the beat, mania, and taiko modes. Find the perfect fit for your gaming preferences.',
+      3: 'Discover a variety of skins for different game modes and aspect ratios on our site. Choose from standard, catch the beat, mania, and taiko modes. Find the perfect fit for your gaming preferences.',
       4: 'Find the perfect osu skin from top players on our site. Browse our collection of popular skins and customize your gameplay. Discover a wide range of styles and themes to suit your preferences.',
       5: 'List of existing tags for osu skins.',
       6: '{name} osu skins collection!, free downloading',
@@ -249,7 +249,7 @@ export default {
     }
   },
   select: {
-    0: 'New',
+    0: 'Ny',
     1: 'Fixed',
     2: 'Changed',
     3: 'Removed',
