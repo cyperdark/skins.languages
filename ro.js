@@ -1,5 +1,5 @@
 export default {
-  hello: 'asd',
+  hello: 'salut',
   title: {
     home: 'Pagina principală',
     page: 'pagină',
@@ -28,13 +28,13 @@ export default {
     3: 'Dar poți adăuga modificările pe care le-ai făcut acestei versiuni a skin-ului',
     4: 'Nu sunt grupate',
     5: 'Nou',
-    6: 'rezolvări',
+    6: 'Probleme rezolvate',
     7: 'Modificări',
-    8: 'desființări'
+    8: 'Desființări'
   },
   creators: {
     0: 'Creatori',
-    1: 'Mentionează toți creatorii care au fost implicați in crearea acestei versiuni',
+    1: 'Menționează toți creatorii care au fost implicați in crearea acestei versiuni',
     2: 'Nu e nimeni aici',
     3: 'Tastarea numelui unui jucător va afișa rezultatele de pe osu.',
     4: 'Editor',
@@ -44,14 +44,14 @@ export default {
   tags: {
     0: 'Etichete',
     1: 'Listă cu toate etichetele legate de acest skin',
-    2: 'Pare cam pustiu pe aici.',
+    2: 'Pare cam gol aici.',
     3: 'Folosește-te de caseta de mai sus pentru a găsi etichete noi'
   },
   videos: {
     0: 'Videoclipuri',
     1: 'Lista tuturor prezentărilor video a acestui skin',
     2: 'Zero prezentări',
-    3: 'Caută câteva pe YouTube sau crează-ți propia prezentare'
+    3: 'Caută câteva pe YouTube sau creează-ți propria prezentare'
   },
   sources: {
     0: 'Atribuții',
@@ -66,7 +66,7 @@ export default {
     2: 'Hightlight',
     4: 'Adaugă cel puțin un creator al skin-ului',
     5: 'Adaugă câteva etichete',
-    6: 'Mărimea skin-ului',
+    6: 'Mărimea skin-ului nespecificată',
     7: 'Selectează cel puțin un mod de joc',
     8: 'Selectează tipul fișierului (SD sau HD)',
     9: 'Selectează cel puțin un aspect ratio',
@@ -87,9 +87,9 @@ export default {
     6: 'Toate skin-urile',
     7: 'Aspect ratio',
     8: 'Toate skin-urile | skin-uri osu',
-    9: 'Skin | Skin-uri | Skin-uri',
+    9: 'Skin-ul | Skin-ului | Skin-urilor',
     10: 'Skin-uri osu realizate de {name} | Toate skin-urile de la',
-    11: 'căutare'
+    11: 'Căutare'
   },
   skin: {
     0: 'Edit',
@@ -117,7 +117,7 @@ export default {
     23: 'Descărcarea va fi valabilă in curând',
     24: '{amount} secunde rămase',
     25: 'Nu ești unul dintre noi',
-    26: 'Se pare că nu ești autorul sau editorul acestui skin'
+    26: 'Pare că nu ești un autor sau editor al acestui skin'
   },
   drag: {
     0: 'Apasă aici',
@@ -148,7 +148,7 @@ export default {
     10: 'Selectează criteriile căutării sau scrie titlul, autorul sau etichetele skin-ului'
   },
   tabs: {
-    0: 'căutare',
+    0: 'Căutare',
     1: 'Edit',
     2: 'Listă'
   },
@@ -162,36 +162,36 @@ export default {
   },
   meta: {
     title: {
-      0: 'Home page',
+      0: 'Pagină principală',
       1: 'Gamemodes, aspect ratios osu skins',
-      2: 'Popular osu skins',
-      3: 'Search osu skins',
-      4: '«{name}» tags list',
-      5: '{name} v{version} osu skin',
+      2: 'Skin-uri osu populare',
+      3: 'Caută skin-uri osu',
+      4: 'Lista de etichete, {name}',
+      5: 'Skin-ul de osu {name} v{version}',
       6: 'Credite',
-      7: 'osu skins',
+      7: 'skin-uri osu',
       8: '{name} search osu skins',
-      9: 'Inspire yourself from other osu skins',
-      10: '{name} created osu skins'
+      9: 'Inspiră-te din alte skin-uri osu',
+      10: '{name} a creat skin-uri osu'
     },
     description: {
       // 0: 'Get the best osu skins at our site, with a huge library to choose from! We have skins for different gamemodes and aspect ratios, and even feature top players and anime themes. Boost your gameplay with our high-quality skins.',
-      0: 'Get the best osu! skins at our site! Our huge library has skins for all gamemodes, aspect ratios, and even top players. Plus, we have a special section for anime fans. Improve your gameplay with the perfect skin. #osuskins #osugame #anime',
-      1: '{views} views. An osu skin for {modes}, his weight is {size}, created by {creators}. Supports {ratios}',
-      2: 'Find the perfect osu! skin with our advanced search feature. Browse through our huge library, filtered by gamemode, aspect ratio, and more. Or, check out skins used by top players',
-      3: 'Discover a variety of game modes and aspect ratios on our site. Choose from standard mode, catch the beat, mania, and taiko. Find the perfect fit for your gaming preferences.',
-      4: 'Find the perfect osu skin from top players on our site. Browse our collection of popular skins and customize your gameplay. Discover a wide range of styles and themes to suit your preferences.',
+      0: 'Obține cele mai bune skin-uri de osu pe site-ul nostru! Librăria noastră imensă conține skin-uri pentru toate modurile de joc, aspect ratio-urile și pana și skin-uri ale jucătorilor de top. Plus, avem o secțiune specială pentru fanii anime-urilor. îmbunătăţeşte-ți gameplay-ul cu skin-ul perfect. #osuskins #osugame #anime',
+      1: '{views} vizualizări. Un skin de osu pentru {modes}, cu mărimea de {size}, creat de {creators}. Compatibil cu ratio-urile {ratios}',
+      2: 'Găsește skin-ul perfect de osu! cu funcția noastră de căutare avansată. Navighează librăria noastră imensă cu filtre de aspect ratio, mod de joc și multe altele. Sau găsește skin-urile folosite de playeri de top.',
+      3: 'Descoperă o varietate de skin-uri pentru moduri de joc și aspect ratio-uri diferite pe site-ul nostru. Alege din modurile de joc standard, catch the beat, mania si taiko. Găsește cel mai bun skin pentru preferințele tare.',
+      4: 'Găsește skin-ul de osu! folosit de playeri de top perfect pentru tine pe site-ul nostru. Răsfoiește prin colecția noastră de skin-uri populare și personalizează-ți gameplay-ul tău. Descoperă o gamă largă de stiluri si teme care să-ti facă pe plac.',
       5: 'List of existed tags for osu skins.',
-      6: '{name} osu skins collection!, free downloading',
-      7: 'A huge amount of osu skins for a {name}, download for free!',
-      8: 'All osu skins created by {name}',
-      9: 'Find inspiration for your next osu! skin at our site. Browse through a diverse collection of skins and discover new techniques and ideas. Get inspired and create your own unique skins.'
+      6: 'Colecția {name} de osu! skin-uri! Descărcare gratuită',
+      7: 'O mulțime de skin-uri osu! pentru {name}, descarcă gratuit!',
+      8: 'Toate skin-urile de osu create de {name}',
+      9: 'Găsește inspirație pentru următorul tau skin de osu! pe site-ul nostru. Navighează printr-o colecție diversă de skin-uri și descoperă noi tehnici și idei. Inspiră-te si creează-ți propriile skin-uri unice.'
     },
     keywords: { 0: 'osu, osu!, osu skins, std skins, ctb skins, mania skins, taiko skins, mrekk osu skins,Rafis osu skins,FlyingTuna osu skins,Vaxei osu skins,Cookiezi osu skins,Varvalian osu skins,RyuK osu skins,WhiteCat osu skins,_RyuK osu skins,BeasttrollMC osu skins,Genshin Impact osu skins,Mathi osu skins,WubWoofWolf osu skins,Merami osu skins,xootynator osu skins,Gayzmcgee osu skins,[Karcher] osu skins,Bubbleman osu skins,ChomikBox osu skins,NSFW osu skins,Lifeline osu skins,Hatsune Miku osu skins,Azerite osu skins,Umbre osu skins,404 AimNotFound osu skins,-Nikstrim osu skins,bloo osu skins,Shigetora osu skins,Badeu osu skins,FunOrange osu skins,worst hr player osu skins,Tekkito osu skins,ninerik osu skins,azr8 osu skins,idke osu skins,Andros osu skins,Zylice osu skins,Rektygon osu skins,Komori osu skins,anime osu skins,cyperdark osu skins,Red_Pixel osu skins,Utami osu skins,Arknights osu skins,Karthy osu skins,Paraqeet osu skins,aetrna osu skins,Spare osu skins,-GN osu skins,Mastasz osu skins,Seouless osu skins,haga1115 osu skins,shimon osu skins,fieryrage osu skins,Ekoro osu skins,Firebat92 osu skins,_Shield osu skins,-Roaz- osu skins,- Dark - osu skins,atturbo555 osu skins,Aristia osu skins,_Aiko__ osu skins,z x c osu skins,eternum osu skins,talala osu skins,NyanPotato osu skins,Arnold24x24 osu skins,Alumetri osu skins,im a fancy lad osu skins,jordanlr7 osu skins,Woey osu skins,khz osu skins,rrtyui osu skins,kieg osu skins,Rupertion osu skins,FGSky osu skins,Aireu osu skins,Neko God osu skins,Apostol osu skins,Abyssal osu skins,dokidokilolixx osu skins,Mlaw osu skins,Ponytail osu skins,Reedkatt osu skins,Zestiny osu skins,Apraxia osu skins,Binfy osu skins,Rohulk osu skins,-PloX osu skins,DuyKhang-sama osu skins,BronyPH osu skins,Intercambing osu skins,Xeltol osu skins,Valorant osu skins,Akolibed osu skins,hololive osu skins,kablaze osu skins,tokyo ghoul osu skins,Trail Mix osu skins,Dereban osu skins' }
   },
   buttons: {
     0: 'Conectează-te',
-    1: 'Home page',
+    1: 'Pagină principală',
     profile_osu: 'Profilul de osu!',
     new_skin: 'Skin nou',
     notifications: 'Notificări',
