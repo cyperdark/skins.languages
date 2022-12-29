@@ -133,7 +133,10 @@ export default {
     2: 'Icons',
     3: 'All icons are taken from {name}',
     4: 'Flags',
-    5: 'All flag images are from {name}'
+    5: 'All flag images are from {name}',
+    6: 'Localisation',
+    7: 'Anyone? [{lang}]',
+    8: 'Seems like, cpol forget to add them. {text}'
   },
   search: {
     0: 'Skin search',

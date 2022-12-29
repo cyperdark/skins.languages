@@ -1,8 +1,8 @@
 export default {
   hello: 'ahoj',
   title: {
-    home: 'Domovská stránka',
-    page: 'page',
+    home: 'Domovská',
+    page: 'stránka',
     guest: 'Prihlásenie',
     lists: { 0: 'Zoznamy' },
     tags: {
