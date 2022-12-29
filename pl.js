@@ -179,7 +179,7 @@ export default {
       0: 'Najlepsze skiny do osu! tylko u nas! W naszej ogromnej bibliotece znajdziesz skiny dla wszystkich trybów gry, proporcji ekranu, a nawet skiny używane przez topowych graczy. Posiadamy również sekcję dla fanów anime. Udoskonal swoją rozgrywkę z idealnym dla ciebie skinem. #osuskins #osugame #anime',
       1: '{views} wyświetleń. Skin osu! dla {modes}, o wadze {size}, stworzony przez {creators}. Wspiera {ratios}',
       2: 'Znajdź swój perfekcyjny skin do osu! dzieki naszej zaawansowanej wyszukiwarce. Zajrzyj też do ogromnej biblioteki, sortowanej przez tryb gry, proporcji ekranu, i więcej. Sprawdź też skiny używane przez topowych graczy',
-      3: 'Odkryj różnorodność trybów gry i proporcji ekranu u nas. Wybierz pomiędzy standardem, catch the beat, manią, i taiko. Odkryj idealne dopasowanie pod swoje preferencje.',
+      3: 'Odkryj tysiące różnych skinów dla różnych trybów gry i proporcji ekranu u nas. Wybierz pomiędzy standardem, catch the beat, manią, i taiko. Odkryj idealne dopasowanie pod swoje preferencje.',
       4: 'Znajdź swój perfekcyjny skin od topowych graczy u nas. Przejrzyj naszą kolekcję popularnych skinów i dostosuj swój gameplay. Odkryj szeroką gamę styli i motywów dla swoich preferencji',
       5: 'Lista istniejących tagów dla skinów.',
       6: 'Kolekcja skinów osu {name}!, darmowe pobieranie',

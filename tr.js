@@ -3,14 +3,14 @@ export default {
   title: {
     home: 'Ana',
     page: 'Sayfa',
-    guest: 'Giriş Yapın',
+    guest: 'Giriş',
     lists: { 0: 'Listeler' },
     tags: {
       0: 'Etiketler',
       1: '{name} kategorisi için {amount} sonuç bulundu'
     },
     ideas: {
-      0: 'Keşfedin',
+      0: 'İlham',
       1: '«{amount}»'
     },
     sounds: { 0: 'Sesler' },
@@ -33,7 +33,7 @@ export default {
     8: 'Silinenler'
   },
   creators: {
-    0: 'Oluşturan',
+    0: 'Yaratıcılar',
     1: 'Bu versiyonu oluşturmakta emeği geçenlerin listesi',
     2: 'Burada kimse yok',
     3: 'Bir oyuncunun ismini yazmak osu search sonuçlarını gösterir.',
@@ -102,7 +102,7 @@ export default {
     7: 'İndirme linki | skini indir',
     8: 'Forum postu |osu! Forum',
     9: 'Reddit postu',
-    10: 'Oluşturan',
+    10: 'Yaratıcılar',
     11: 'Etiketler',
     13: 'Videolar',
     14: 'Yeni versiyon | Versiyonları düzenle',
@@ -113,7 +113,7 @@ export default {
     19: 'Boyut',
     20: 'Metadata',
     21: 'Rating',
-    22: 'İndirilenler',
+    22: 'İndirmeler',
     23: 'En kısa zamanda indirmeye açılacak',
     24: '{amount} saniye kaldı',
     25: 'Bizden biri değişsin',
@@ -150,7 +150,7 @@ export default {
   tabs: {
     0: 'Ara',
     1: 'Düzenle',
-    2: 'List'
+    2: 'Liste'
   },
   undefined: {
     0: 'Boş',
@@ -179,8 +179,8 @@ export default {
       0: 'Sitemizden en iyi osu! skinlerini edinin! Devasa kütüphanemizde tüm oyunmodlarına, çerçeve oranlarına hatta top playerlara ilişkin skinler bulabilirsin. Artı olarak anime fanlarına yönelik bi bölümümüz daha var. Mükemmel skininle birlikte oyununu bir adım ileri taşı. #osuskins #osugame #anime',
       1: '{views} görüntülenme. {modes} yönelik bir osu skini , his weight is {size}, {creators} tarafından yaratıldı. Şu çerçeve oranlarını destekler: {ratios}',
       2: 'Gelişmiş arama özelliğimiz sayesinde mükemmel osu! skinini bulun. Devasa kütüphanemizi oyun modlarına, çerçeve oranlarına ve daha fazlasıyla filtereleyek tarayın. Ya da top playerlar tarafından kullanılan skinlere göz atın',
-      3: 'Sitemizde çeşitli oyun modları ve çerçeve oranlarını keşfedin. Osu! standart, catch the beat, mania ve taiko arasından istediğinizi seçin. Oyun tercihinize en iyi uyanı bulun.',
-      4: 'Sitemizde top playerlardan mükemmel skininizi keşfedin. Popüler skin koleksiyonumuza göz atın ve oyununuzu kişiselleştirin. Tercihlerinize uyacak yönde koca bi yelpaze stil ve temaları keşfedin.',
+      3: 'Sitemizde farklı oyun modları ve çerçeve oranları için çeşitli skinler keşfedin. Standart, catch the beat, mania ve taiko modlarından istediğinizi seçin ve oyun tercihlerinize en uygun olanı bulun.',
+      4: 'Sitemizde en iyi oyuncuların da kullandığı mükemmel skininizi bulun. Popüler skin koleksiyonumuza göz atın ve oyununuzu kişiselleştirin. Çok çeşitli stil ve temalardan tercihlerinize uygun olanları keşfedin.',
       5: 'osu skinleri için etiketlerin bir listesi.',
       6: '{name} osu skins collection!, free downloading',
       7: 'A huge amount of osu skins for {name}, download for free!',

@@ -1,5 +1,5 @@
 export default {
-  hello: 'asd',
+  hello: 'Hello',
   title: {
     home: 'Home',
     page: 'page',
@@ -36,7 +36,7 @@ export default {
     0: 'Creators',
     1: 'List all creators who were involved in making this version',
     2: 'No one is here',
-    3: 'Typing in a player\'s name will show you the results of the osu search.',
+    3: 'Searching for a player\'s name will display a list of profiles.',
     4: 'Editor',
     5: 'Roles',
     6: 'Versions'
@@ -100,7 +100,7 @@ export default {
     5: 'Screenshots',
     6: 'Gameplay only',
     7: 'Download link | Download skin',
-    8: 'Forum post |osu! Forum',
+    8: 'Forum post | osu! Forum',
     9: 'Reddit post',
     10: 'Creators',
     11: 'Tags',
@@ -158,7 +158,7 @@ export default {
     2: 'Unfortunately there is nothing here',
     3: 'Unauthorized',
     4: 'You need to be logged in to edit this skin.',
-    5: 'You need to be logged in to add new skin.'
+    5: 'You need to be logged in to add a new skin.'
   },
   meta: {
     title: {
@@ -171,7 +171,7 @@ export default {
       6: 'Credits',
       7: 'osu skins',
       8: '{name} search osu skins',
-      9: 'Inspire yourself from other osu skins',
+      9: 'Get inspiration from other osu skins',
       10: '{name} created osu skins'
     },
     description: {

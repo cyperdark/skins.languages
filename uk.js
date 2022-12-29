@@ -36,7 +36,7 @@ export default {
     0: 'Творці',
     1: 'Перелічи всіх творців долучених до створення цієї версії',
     2: 'Тут нікого',
-    3: 'Typing in a player\'s name will show you the results of the osu search.',
+    3: 'Введення імені гравця покаже вам результати пошуку зі сторінки osu.',
     4: 'Редактор',
     5: 'Ролі',
     6: 'Версії'
@@ -70,12 +70,12 @@ export default {
     7: 'Обери хоча б один режим гри',
     8: 'Обери тип файлів (SD або HD)',
     9: 'Вибери принаймні одне співвідношення сторін',
-    10: 'No screenshots provided',
-    11: 'Add at least one gameplay screenshot',
-    12: 'Link to the skin not specified',
+    10: 'Жодного знімку екрану не завантажено',
+    11: 'Додай принаймні один знімок геймплею',
+    12: 'Не вказано посилання на скін',
     20: 'Looking pretty good',
-    21: 'Every issue was fixed. Good job',
-    22: 'Checklist'
+    21: 'Кожна проблема була виправлена. Добре зроблено',
+    22: 'Контрольний перелік'
   },
   skins: {
     0: 'Скіни',
@@ -93,7 +93,7 @@ export default {
   },
   skin: {
     0: 'Редагувати',
-    1: 'Extra',
+    1: 'Додатково',
     2: 'HD',
     3: 'FullHD',
     4: 'Анімація',
@@ -110,18 +110,18 @@ export default {
     16: 'Режими гри',
     17: 'Назва скіна',
     18: 'Версія | Версії',
-    19: 'Size',
+    19: 'Розмір',
     20: 'Метадані',
-    21: 'Rating',
-    22: 'Downloads',
-    23: 'Download will be available soon',
-    24: '{amount} seconds left',
-    25: 'You\'re not one of us',
-    26: 'Look like you\'re not author or editor of this skin'
+    21: 'Рейтинг',
+    22: 'Завантаження',
+    23: 'Завантаження буде доступне найближчим часом',
+    24: 'Залишилось {amount} секунд',
+    25: 'Ти не один з нас',
+    26: 'Схоже, ви не є автором або редактором цього скіна'
   },
   drag: {
-    0: 'Click here',
-    1: 'or drag & drop images here'
+    0: 'Натисніть тут',
+    1: 'або перетягніть зображення сюди'
   },
   footer: {
     0: 'Made by cyperdark',
@@ -129,44 +129,44 @@ export default {
   },
   credits: {
     0: 'Chibi',
-    1: 'Arts',
+    1: 'Малюнки',
     2: 'Іконки',
-    3: 'All icons are taken from {name}',
-    4: 'Flags',
-    5: 'All flag images are from {name}'
+    3: 'Всі іконки беруться з {name}',
+    4: 'Прапори',
+    5: 'Всі зображення прапорів беруться з {name}'
   },
   search: {
-    0: 'Skin search',
-    1: 'Views',
-    2: 'Title',
-    3: 'Rating',
-    4: 'Size',
-    5: 'Date',
-    7: 'Nothing found',
-    8: 'Try setting different search filters',
-    9: 'Pending a query',
-    10: 'Select the search filters or just write the skin title, the author or the tag'
+    0: 'Пошук скіну',
+    1: 'Перегляди',
+    2: 'Назва',
+    3: 'Рейтинг',
+    4: 'Розмір',
+    5: 'Дата',
+    7: 'Нічого не знайдено',
+    8: 'Спробуйте налаштувати інші фільтри пошуку',
+    9: 'Очікується запит',
+    10: 'Виберіть пошукові фільтри або просто напишіть назву скіну, автора або тег'
   },
   tabs: {
     0: 'Пошук',
     1: 'Редагувати',
-    2: 'List'
+    2: 'Перелік'
   },
   undefined: {
-    0: 'Empty',
-    1: 'Unfortunately there is nothing here, anyway you can look at other pages',
-    2: 'Unfortunately there is nothing here',
-    3: 'Unauthorized',
-    4: 'You need to be logged in to edit this skin.',
-    5: 'You need to be logged in to add new skin.'
+    0: 'Порожньо',
+    1: 'На жаль, тут нічого немає, але ви можете поглянути інші сторінки',
+    2: 'На жаль, тут нічого немає',
+    3: 'Неавторизовано',
+    4: 'Ви повинні увійти в систему, щоб редагувати цей скін.',
+    5: 'Ви повинні увійти, щоб додати новий скін.'
   },
   meta: {
     title: {
-      0: 'Home page',
+      0: 'Домашня сторінка',
       1: 'Gamemodes, aspect ratios osu skins',
-      2: 'Popular osu skins',
-      3: 'Search osu skins',
-      4: 'List of tags, {name}',
+      2: 'Популярні скіни osu',
+      3: 'Пошук скінів osu',
+      4: 'Список тегів, {name}',
       5: '{name} v{version} osu skin',
       6: 'Credits',
       7: 'osu skins',
@@ -176,10 +176,10 @@ export default {
     },
     description: {
       // 0: 'Get the best osu skins at our site, with a huge library to choose from! We have skins for different gamemodes and aspect ratios, and even feature top players and anime themes. Boost your gameplay with our high-quality skins.',
-      0: 'Get the best osu! skins at our site! Our huge library has skins for all gamemodes, aspect ratios and even top players. Plus, we have a special section for anime fans. Improve your gameplay with the perfect skin. #osuskins #osugame #anime',
-      1: '{views} views. An osu skin for {modes}, the size is {size}, created by {creators}. Supports {ratios}',
-      2: 'Find the perfect osu! skin with our advanced search feature. Browse through our huge library, filtered by gamemode, aspect ratio, and more. Or, check out skins used by top players.',
-      3: 'Discover a variety of game modes and aspect ratios on our site. Choose from standard, catch the beat, mania, and taiko modes. Find the perfect fit for your gaming preferences.',
+      0: 'Отримайте найкращі osu! скіни на нашому сайті! У нашій величезній бібліотеці є скіни для усіх режимів гри, співвідношення сторін і навіть кращих гравців. До того ж, у нас є спеціальний розділ для аніме шанувальників. Покращуйте свою гру з ідеальним скіном. #osuskins #osugame #anime',
+      1: '{views} Переглядів. Розмір скіну для {modes} дорівнює\n {size} створений {creators}. Підтримує {ratios}',
+      2: 'Знайдіть ідеальний osu! скін з нашою розширеною функцією пошуку. Переглядайте нашу величезну бібліотеку, відфільтровану через режими гри, співвідношення сторін і багато іншого. Або перегляньте скіни, які використовуються найкращими гравцями.',
+      3: 'Відкрийте для себе різноманітні скіни для різних режимів гри та співвідношень сторін на нашому сайті. Вибирайте зі стандарту, ctb, mania та taiko режимів. Знайдіть ідеальний скін для вашого стилю гри.',
       4: 'Find the perfect osu skin from top players on our site. Browse our collection of popular skins and customize your gameplay. Discover a wide range of styles and themes to suit your preferences.',
       5: 'List of existing tags for osu skins.',
       6: '{name} osu skins collection!, free downloading',
@@ -191,7 +191,7 @@ export default {
   },
   buttons: {
     0: 'Login',
-    1: 'Home page',
+    1: 'Домашня сторінка',
     profile_osu: 'osu! Profile',
     new_skin: 'New skin',
     notifications: 'Notifications',
@@ -209,7 +209,7 @@ export default {
       0: 'Розробник',
       1: 'Міксер',
       2: 'Анімації',
-      3: 'Arts',
+      3: 'Малюнки',
       4: 'Колаб'
     }
   },
@@ -259,7 +259,7 @@ export default {
     7: 'Skin element',
     8: 'Audio/Sfx',
     9: 'Tools',
-    views: 'Views',
+    views: 'Перегляди',
     likes: 'Likes',
     size_range: 'Select size',
     date_range: 'Select a date range',

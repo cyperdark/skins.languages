@@ -116,15 +116,15 @@ export default {
     22: 'التحميلات',
     23: 'سيتوفر التحميل قريبا',
     24: '{amount} ثواني متبقية',
-    25: 'You\'re not one of us',
-    26: 'Look like you\'re not author or editor of this skin'
+    25: 'لست واحد منا',
+    26: 'يبدو أنك لست مؤلفا أو معدلا لهذا الزي'
   },
   drag: {
-    0: 'إضغط هنا',
-    1: 'جر و اسقط الصور هنا'
+    0: 'اُنقر هنا',
+    1: 'أو اسحب و اسقط الصور هنا'
   },
   footer: {
-    0: 'cyberdark صناعة',
+    0: 'صناعة cyberdark',
     1: 'اعتمادات'
   },
   credits: {
@@ -156,9 +156,9 @@ export default {
     0: 'فارغ',
     1: 'لسوء الحظ لا يوجد شيء هنا، لكن بإمكانك النظر في صفحات أخرى',
     2: 'لسوء الحظ لا يوجد شيء هنا',
-    3: 'Unauthorized',
-    4: 'You need to be logged in to edit this skin.',
-    5: 'You need to be logged in to add new skin.'
+    3: 'غير مسموح',
+    4: 'يجب عليك تسجيل الدخول لتعديل هذا الزي.',
+    5: 'يجب عليك تسجيل الدخول لإضافة زي جديد.'
   },
   meta: {
     title: {
@@ -190,7 +190,7 @@ export default {
     keywords: { 0: 'osu, osu!, osu skins, std skins, ctb skins, mania skins, taiko skins, mrekk osu skins,Rafis osu skins,FlyingTuna osu skins,Vaxei osu skins,Cookiezi osu skins,Varvalian osu skins,RyuK osu skins,WhiteCat osu skins,_RyuK osu skins,BeasttrollMC osu skins,Genshin Impact osu skins,Mathi osu skins,WubWoofWolf osu skins,Merami osu skins,xootynator osu skins,Gayzmcgee osu skins,[Karcher] osu skins,Bubbleman osu skins,ChomikBox osu skins,NSFW osu skins,Lifeline osu skins,Hatsune Miku osu skins,Azerite osu skins,Umbre osu skins,404 AimNotFound osu skins,-Nikstrim osu skins,bloo osu skins,Shigetora osu skins,Badeu osu skins,FunOrange osu skins,worst hr player osu skins,Tekkito osu skins,ninerik osu skins,azr8 osu skins,idke osu skins,Andros osu skins,Zylice osu skins,Rektygon osu skins,Komori osu skins,anime osu skins,cyperdark osu skins,Red_Pixel osu skins,Utami osu skins,Arknights osu skins,Karthy osu skins,Paraqeet osu skins,aetrna osu skins,Spare osu skins,-GN osu skins,Mastasz osu skins,Seouless osu skins,haga1115 osu skins,shimon osu skins,fieryrage osu skins,Ekoro osu skins,Firebat92 osu skins,_Shield osu skins,-Roaz- osu skins,- Dark - osu skins,atturbo555 osu skins,Aristia osu skins,_Aiko__ osu skins,z x c osu skins,eternum osu skins,talala osu skins,NyanPotato osu skins,Arnold24x24 osu skins,Alumetri osu skins,im a fancy lad osu skins,jordanlr7 osu skins,Woey osu skins,khz osu skins,rrtyui osu skins,kieg osu skins,Rupertion osu skins,FGSky osu skins,Aireu osu skins,Neko God osu skins,Apostol osu skins,Abyssal osu skins,dokidokilolixx osu skins,Mlaw osu skins,Ponytail osu skins,Reedkatt osu skins,Zestiny osu skins,Apraxia osu skins,Binfy osu skins,Rohulk osu skins,-PloX osu skins,DuyKhang-sama osu skins,BronyPH osu skins,Intercambing osu skins,Xeltol osu skins,Valorant osu skins,Akolibed osu skins,hololive osu skins,kablaze osu skins,tokyo ghoul osu skins,Trail Mix osu skins,Dereban osu skins' }
   },
   buttons: {
-    0: 'Login',
+    0: 'تسجيل الدخول',
     1: 'الصفخة الرئيسية',
     profile_osu: 'osu! حساب',
     new_skin: 'زي جديد',

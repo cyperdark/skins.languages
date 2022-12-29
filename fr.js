@@ -116,8 +116,8 @@ export default {
     22: 'Téléchargements',
     23: 'Le Téléchargement sera disponible bientôt',
     24: '{amount} secondes restantes',
-    25: 'You\'re not one of us',
-    26: 'Look like you\'re not author or editor of this skin'
+    25: 'Vous n\'êtes pas l\'un d\'entre nous',
+    26: 'On dirait que vous n\'êtes pas un créateur ou un éditeur de ce skin'
   },
   drag: {
     0: 'Cliquez ici',
@@ -156,9 +156,9 @@ export default {
     0: 'Vide',
     1: 'Malheureusement, il n\'y a rien ici, mais vous pouvez chercher d\'autres pages',
     2: 'Malheureusement, il n\'y a rien ici',
-    3: 'Unauthorized',
-    4: 'You need to be logged in to edit this skin.',
-    5: 'You need to be logged in to add new skin.'
+    3: 'Non autorisé',
+    4: 'Vous devez vous connecter pour éditer ce skin.',
+    5: 'Vous devez vous connecter pour ajouter un nouveau skin.'
   },
   meta: {
     title: {
@@ -179,7 +179,7 @@ export default {
       0: 'Trouvez les meilleurs skins d\'osu! sur notre site ! Notre gigantesque librairie possède des skins pour tous les modes de jeu, formats d\'image, et même ceux des top players. En plus, nous avons une section spéciale pour les fans d\'animé. Améliorez votre gameplay avec le meilleur skin.#osuskins #osugame #anime',
       1: '{views} vues. Un skin osu pour {modes}, sa taille est de {size}, créé par {creators}. Supporte le {ratios}',
       2: 'Trouvez le skin osu! parfait avec notre fonctionnalité de recherche avancée. Naviguez dans notre gigantesque librarie, filtrée par mode de jeu, format d\'image et plus. Ou regardez nos skins utilisés par des top players',
-      3: 'Découvrez une variété de modes de jeux et de formats d\'image sur notre site. Choisissez entre standard, catch the beat, manie et taiko. Trouvez l\'ajustement parfait pour vos préférences vidéo-ludiques.',
+      3: 'Découvrez une variété de skins pour différents modes de jeux et de formats d\\\'image sur notre site. Choisissez entre standard, catch the beat, mania et taiko. Trouvez l\'ajustement parfait pour vos préférences vidéo-ludiques.',
       4: 'Trouvez le skin osu parfait des top players sur notre site. Naviguez dans notre collection de skins populaires et customisez votre gameplay. découvrez un large panel de styles et de thèmes qui conviendront à vos préférences',
       5: 'Liste des tags existants pour les skins osu.',
       6: '{name} collection de skin osu!, Téléchargement gratuit',
@@ -190,7 +190,7 @@ export default {
     keywords: { 0: 'osu, osu!, osu skins, std skins, ctb skins, mania skins, taiko skins, mrekk osu skins,Rafis osu skins,FlyingTuna osu skins,Vaxei osu skins,Cookiezi osu skins,Varvalian osu skins,RyuK osu skins,WhiteCat osu skins,_RyuK osu skins,BeasttrollMC osu skins,Genshin Impact osu skins,Mathi osu skins,WubWoofWolf osu skins,Merami osu skins,xootynator osu skins,Gayzmcgee osu skins,[Karcher] osu skins,Bubbleman osu skins,ChomikBox osu skins,NSFW osu skins,Lifeline osu skins,Hatsune Miku osu skins,Azerite osu skins,Umbre osu skins,404 AimNotFound osu skins,-Nikstrim osu skins,bloo osu skins,Shigetora osu skins,Badeu osu skins,FunOrange osu skins,worst hr player osu skins,Tekkito osu skins,ninerik osu skins,azr8 osu skins,idke osu skins,Andros osu skins,Zylice osu skins,Rektygon osu skins,Komori osu skins,anime osu skins,cyperdark osu skins,Red_Pixel osu skins,Utami osu skins,Arknights osu skins,Karthy osu skins,Paraqeet osu skins,aetrna osu skins,Spare osu skins,-GN osu skins,Mastasz osu skins,Seouless osu skins,haga1115 osu skins,shimon osu skins,fieryrage osu skins,Ekoro osu skins,Firebat92 osu skins,_Shield osu skins,-Roaz- osu skins,- Dark - osu skins,atturbo555 osu skins,Aristia osu skins,_Aiko__ osu skins,z x c osu skins,eternum osu skins,talala osu skins,NyanPotato osu skins,Arnold24x24 osu skins,Alumetri osu skins,im a fancy lad osu skins,jordanlr7 osu skins,Woey osu skins,khz osu skins,rrtyui osu skins,kieg osu skins,Rupertion osu skins,FGSky osu skins,Aireu osu skins,Neko God osu skins,Apostol osu skins,Abyssal osu skins,dokidokilolixx osu skins,Mlaw osu skins,Ponytail osu skins,Reedkatt osu skins,Zestiny osu skins,Apraxia osu skins,Binfy osu skins,Rohulk osu skins,-PloX osu skins,DuyKhang-sama osu skins,BronyPH osu skins,Intercambing osu skins,Xeltol osu skins,Valorant osu skins,Akolibed osu skins,hololive osu skins,kablaze osu skins,tokyo ghoul osu skins,Trail Mix osu skins,Dereban osu skins' }
   },
   buttons: {
-    0: 'Login',
+    0: 'Se connecter',
     1: 'Page d\'accueil',
     profile_osu: 'Profil osu! ',
     new_skin: 'Nouveau skin',
