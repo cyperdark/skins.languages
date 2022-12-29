@@ -179,7 +179,7 @@ export default {
       0: 'Pak de beste osu! skins van onze website! Ons grote aanbod heeft skins voor alle gamemodes, aspect ratio’s  en we hebben zelfs skins van de beste spelers. Maar dan heb je anime sectie nog niet gezien. Speel beter met onze hoge skins van hoge kwaliteit. #osuskins #osugame #anime',
       1: '{views} weergaven. Een osu skin voor {modes}, de grootte is {size}, gemaakt door {creators}. Ondersteunt {ratios}',
       2: 'Vind de perfecte osu! skin met onze geavanceerd zoek mechanisme. Verdwaal in onze gigantische bibliotheek, gefilterd op gamemode, aspect ratio en meer, of neem een kijkje bij skins die de beste spelers gebruiken.',
-      3: 'Ontdek een diverse hoeveelheid skins voor elke gamemode en aspect ratio op onze site. Kies uit standaard, catch the beat, mania of taiko en vindt wat het beste past bij jou.',
+      3: 'Ontdek veel verschillende skins voor elke gamemode en aspect ratio op onze site. Kies uit standaard, catch the beat, mania of taiko en vindt wat het beste past bij jou.',
       4: 'Vindt de perfecte osu skin van de beste spelers op onze site. Verdwaal in onze collectie van populaire skins en verander ze naar jouw voorkeuren. Ga op avontuur in een diverse selectie  van stijlen en thema’s om voor jouw de perfecte skin te vinden.',
       5: 'Lijst van bestaande tags voor osu skins.',
       6: '{name} osu skin collectie!, gratis om te downloaden',
