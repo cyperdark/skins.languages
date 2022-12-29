@@ -78,7 +78,7 @@ export default {
     22: 'Lista de verificación'
   },
   skins: {
-    0: 'Skins',
+    0: 'Pieles',
     1: 'Popular',
     2: 'std | ctb',
     3: 'mania | taiko',
@@ -112,12 +112,12 @@ export default {
     18: 'Versión | Versiones',
     19: 'Tamaño',
     20: 'Metadata',
-    21: 'Clasificación',
+    21: 'Valoración',
     22: 'Descargas',
     23: 'La descarga estará disponible pronto',
     24: 'Quedan {amount} segundos',
-    25: 'No estás uno de nosotros',
-    26: 'Parece que no eres autor o editor de este skin'
+    25: 'No eres uno de nosotros',
+    26: 'Parece que no eres el autor o editor de esta skin'
   },
   drag: {
     0: 'Click aquí',
@@ -129,9 +129,9 @@ export default {
   },
   credits: {
     0: 'Chibi',
-    1: 'Artes',
+    1: 'Arte',
     2: 'Iconos',
-    3: 'Todos los iconos están tomados de {name}',
+    3: 'Todos los íconos han sido tomados de {name}',
     4: 'Banderas',
     5: 'Todas las imágenes de las banderas son de {name}'
   },
@@ -139,11 +139,11 @@ export default {
     0: 'Buscador de skins',
     1: 'Vistas',
     2: 'Título',
-    3: 'Clasificación',
+    3: 'Valoración',
     4: 'Tamaño',
     5: 'Fecha',
     7: 'No se encontró nada',
-    8: 'Intenta con diferentes filtros de búsqueda',
+    8: 'Intenta utilizar diferentes filtros de búsqueda',
     9: 'Pendiente',
     10: 'Seleccione los filtros de búsqueda o simplemente escriba el título de la skin, el autor o la etiqueta'
   },
@@ -157,7 +157,7 @@ export default {
     1: 'Lamentablemente no hay nada aquí, de todos modos puedes mirar otras páginas',
     2: 'Lamentablemente no hay nada aquí',
     3: 'No autorizado',
-    4: 'Debes iniciar sesión para editar esta piel.',
+    4: 'Debes iniciar sesión para editar esta skin.',
     5: 'Debes iniciar sesión para agregar una nueva piel.'
   },
   meta: {
@@ -170,8 +170,8 @@ export default {
       5: '{name} v{version} osu skin',
       6: 'Créditos',
       7: 'skins de osu',
-      8: '{name} buscar skins de osu',
-      9: 'Inspirado en otras skins de osu',
+      8: '{name} buscador de skins de osu',
+      9: 'Inspírate de otras skins de osu',
       10: '{name} skins de osu creadas'
     },
     description: {
@@ -179,12 +179,12 @@ export default {
       0: '¡Consigue las mejores skins de osu! en nuestra página! Nuestra amplia librería cuenta con skins para todos los modos de juego, relaciones de aspecto e incluso con aquellas usadas por los mejores jugadores. Además, tenemos una sección especial para los fans del anime. Mejora tu gameplay con la skin perfecta. #osuskins #osugame #anime',
       1: '{views} vistas. Una skin de osu para {modes}, con un tamaño de {size}, creada por {creators}. Soporta {ratios}',
       2: 'Encuentra la skin de osu! perfecta con nuestra función de búsqueda avanzada. Busca entre nuestra amplia librería, filtrada por modo de juego, relación de aspecto, y más. O mira las skins usadas por los mejores jugadores.',
-      3: 'Descubre entre una amplia variedad de modos de juego y relaciones de aspecto en nuestra página. Escoge entre standard, catch the beat, mania, y taiko. Encuentra aquella que se ajuste mejor a tus preferencias al jugar.',
+      3: 'Descubra entre una amplia variedad de skins para diferentes modos de juego y relaciones de aspecto en nuestra página. Escoja entre standard, catch the beat, mania, y taiko. Encuentra aquella que se ajuste mejor a tus preferencias al jugar.',
       4: 'Encuentra la skin de osu perfecta utilizada por los mejores jugadores en nuestra página. Navega por nuestra colección de skins populares y personaliza tu juego. Descubre una amplia variedad de estilos y temas que encajen con tus preferencias.',
       5: 'Lista de las etiquetas existentes para skins de osu.',
-      6: '{name} colección de skins de osu!, descarga gratuita',
+      6: 'Colección de skins de {name}, descarga gratuita',
       7: 'Una gran cantidad de skins de osu para {name}, ¡descarga gratuita!',
-      8: 'Todas pieles creadas por {name}',
+      8: 'Todas las skins creadas por {name}',
       9: 'Encuentra inspiración para tu próxima skin de osu! en nuestra página. Navega entre una diversa colección de skins y descubre nuevas técnicas e ideas. Inspírate para crear tu propia skin.'
     },
     keywords: { 0: 'osu, osu!, osu skins, std skins, ctb skins, mania skins, taiko skins, mrekk osu skins,Rafis osu skins,FlyingTuna osu skins,Vaxei osu skins,Cookiezi osu skins,Varvalian osu skins,RyuK osu skins,WhiteCat osu skins,_RyuK osu skins,BeasttrollMC osu skins,Genshin Impact osu skins,Mathi osu skins,WubWoofWolf osu skins,Merami osu skins,xootynator osu skins,Gayzmcgee osu skins,[Karcher] osu skins,Bubbleman osu skins,ChomikBox osu skins,NSFW osu skins,Lifeline osu skins,Hatsune Miku osu skins,Azerite osu skins,Umbre osu skins,404 AimNotFound osu skins,-Nikstrim osu skins,bloo osu skins,Shigetora osu skins,Badeu osu skins,FunOrange osu skins,worst hr player osu skins,Tekkito osu skins,ninerik osu skins,azr8 osu skins,idke osu skins,Andros osu skins,Zylice osu skins,Rektygon osu skins,Komori osu skins,anime osu skins,cyperdark osu skins,Red_Pixel osu skins,Utami osu skins,Arknights osu skins,Karthy osu skins,Paraqeet osu skins,aetrna osu skins,Spare osu skins,-GN osu skins,Mastasz osu skins,Seouless osu skins,haga1115 osu skins,shimon osu skins,fieryrage osu skins,Ekoro osu skins,Firebat92 osu skins,_Shield osu skins,-Roaz- osu skins,- Dark - osu skins,atturbo555 osu skins,Aristia osu skins,_Aiko__ osu skins,z x c osu skins,eternum osu skins,talala osu skins,NyanPotato osu skins,Arnold24x24 osu skins,Alumetri osu skins,im a fancy lad osu skins,jordanlr7 osu skins,Woey osu skins,khz osu skins,rrtyui osu skins,kieg osu skins,Rupertion osu skins,FGSky osu skins,Aireu osu skins,Neko God osu skins,Apostol osu skins,Abyssal osu skins,dokidokilolixx osu skins,Mlaw osu skins,Ponytail osu skins,Reedkatt osu skins,Zestiny osu skins,Apraxia osu skins,Binfy osu skins,Rohulk osu skins,-PloX osu skins,DuyKhang-sama osu skins,BronyPH osu skins,Intercambing osu skins,Xeltol osu skins,Valorant osu skins,Akolibed osu skins,hololive osu skins,kablaze osu skins,tokyo ghoul osu skins,Trail Mix osu skins,Dereban osu skins' }
@@ -195,7 +195,7 @@ export default {
     profile_osu: 'Perfil de osu!',
     new_skin: 'Nueva skin',
     notifications: 'Notificaciones',
-    settings: 'Configuraciones',
+    settings: 'Ajustes',
     logout: 'Cerrar sesión',
     load_more: 'Cargar más',
     copy_short: 'Copiar enlace corto',
@@ -209,7 +209,7 @@ export default {
       0: 'Creador',
       1: 'Mezclador',
       2: 'Animaciones',
-      3: 'Artes',
+      3: 'Arte',
       4: 'Colaboración'
     }
   },
@@ -220,7 +220,7 @@ export default {
     3: '{amount} me gusta',
     4: 'Presione Ctrl+Enter para agregar una etiqueta',
     5: 'Editar versión',
-    6: '{s}Inicia sesión{p}, para poder clasificar esta skin',
+    6: '{s}Inicia sesión{p}, para poder valorar esta skin',
     7: 'Sin descripción corta',
     8: 'Sin enlace'
   },
@@ -229,12 +229,12 @@ export default {
       0: 'Bienvenido',
       1: 'Menú principal',
       2: 'Selección de canción',
-      3: 'Modo menú',
+      3: 'Menú de modos',
       4: 'Mods',
       5: 'Cuenta regresiva',
       6: 'Gameplay',
       7: 'Ruleta',
-      8: 'Sección Pasada',
+      8: 'Sección aprobada',
       9: 'Sección Fallada',
       10: 'Pantalla de pausa',
       11: 'Pantalla de fallo',
@@ -268,7 +268,7 @@ export default {
   placeholders: {
     0: 'Elige roles',
     1: 'Elige versiones',
-    2: 'Escribiendo...',
+    2: 'Escribir...',
     3: 'Seleccionar tamaño',
     4: 'Seleccionar rango de fechas',
     5: 'Año',
