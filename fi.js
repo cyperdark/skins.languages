@@ -117,7 +117,7 @@ export default {
     23: 'Lataus on valmiina pian',
     24: '{amount} sekunteja jäljellä',
     25: 'Sinä et ole yksi meistä',
-    26: 'Näyttää siltä, että et ole tämän skinin tekijä tai muokkaaja'
+    26: 'Seems like you\'re not an author or editor of this skin'
   },
   drag: {
     0: 'Paina tästä',
@@ -179,7 +179,7 @@ export default {
       0: 'Hanki parhaat osu skinit sivumme suuresta valikoimasta! Meillä on skinejä eri pelimodeille ja kuvasuhteille, sekä jopa top pelaajille. Lisäksi, meillä on erityinen osasto animefaneille. Paranna peliäsi täydellisellä skinillä. #osuskins #osugame #anime',
       1: '{views} näyttökertaa. {modes} osu skini, jonka koko on {size}, tekijänä on {creators}. Tukee {ratios}',
       2: 'Löydä täydellinen osu! skini meidän edistyneellä hakukoneella. Selaa meidän jättimäisen valikoiman läpi, joka on suodatettu pelimodella, kuvasuhteella, ja monella muulla. Tai, katso top pelaajien käyttämiä skinejä.',
-      3: 'Löydä lukuisia pelimodeja ja kuvasuhteita sivultamme. Valitse standard, catch the beat, mania ja taiko modesta. Löydä täydellinen tyyli sinun pelaamismieltymyksille.',
+      3: 'Discover a variety of skins for different game modes and aspect ratios on our site. Choose from standard, catch the beat, mania, and taiko modes. Find the perfect fit for your gaming preferences.',
       4: 'Löydä täydellinen osu skini top pelaajilta sivultamme. Selaa meidän suosittujen skinien kokoelmasta ja muokkaa pelitapasi. Löydä suuri määrä tyylejä ja teemoja mieltymyksillesi.',
       5: 'Olemassa olevien tägien ja osu skinien luettelo.',
       6: '{name} osu skini kokoelma!, ilmainen lataus.',
