@@ -117,7 +117,7 @@ export default {
     23: 'Der Download ist gleich für dich vorhanden!',
     24: 'noch {amount} Sekunden',
     25: 'Du bist keiner von uns.',
-    26: 'Sieht so aus, als wärst du nicht der Autor oder Editor dieses Skins.'
+    26: 'Anscheinend bist du nicht der Autor oder Herausgeber von diesem Skin'
   },
   drag: {
     0: 'Klicke hier',
@@ -179,8 +179,8 @@ export default {
       0: 'Bekomme die besten osu! Skins auf unserer Seite! Unsere größte Bibliothek hat Skins für alle Spielmodi, Seitenverhältnisse und sogar von den besten osu! Spielern. Zudem haben wir auch einen extra Abschnitt für Anime-Liebhaber. Verbessere dein Gameplay mit dem perfekten Skin. #osuskins #osugame #anime',
       1: '{views} Views. Ein osu! Skin für {modes}, die Dateigröße beträgt {size}, erstellt von {creators}. Unterstützt {ratios}',
       2: 'Finde den perfekten osu! Skin mit unserem erweiterten Suchfeature. Durchsuche unsere große Bibliothek, gefiltert nach Spielmodi, Seitenverhältnis, und vielem mehr. Oder schaue dir die Skins von den besten osu! Spielern an.',
-      3: 'Entdecke eine Vielfalt von Spielmodi und Seitenverhältnissen auf unserer Seite. Entscheide dich zwischen dem Standard Modi, Catch the Beat, Mania und Taiko. Finde den perfekten Skin für deine Spielpräferenzen.',
-      4: 'Finde den perfekten osu! Skin von den besten osu! Spielern auf unserer Seite. Durchsuche unsere Kollektion von bekannten Skins and verändere dein Gameplay. Entdecke eine große Reichweite von Styles und Themes nach deinen Wünschen!',
+      3: 'Entdecke eine Vielfalt von Skins für verschiedene Spielmodis und Seitenverhältnissen auf unserer Seite. Wähle zwischen Standart, Catch the beat, mania und taiko Modus aus. Finde deinen perfekten fit für deine gaming präferenzen.',
+      4: 'Finde den perfekten osu! Skin von den besten osu! Spielern auf unserer Seite. Durchsuche unsere Kollektion von bekannten Skins und verändere dein Gameplay. Entdecke eine große Reichweite von Styles und Themes nach deinen Wünschen.',
       5: 'Liste von existenten Stichwörtern für osu! Skins.',
       6: '{name} osu! Skinkollektion, kostenloser Download',
       7: 'Eine große Menge an osu! Skins für {name}, lade sie kostenlos herunter!',
