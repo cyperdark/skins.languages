@@ -7,7 +7,7 @@ export default {
     lists: { 0: 'Liste' },
     tags: {
       0: 'Tags',
-      1: '{amount} tags for category {name}'
+      1: '{amount} tag per la categoria {name}'
     },
     ideas: {
       0: 'Ispirazioni',
@@ -117,7 +117,7 @@ export default {
     23: 'Il download sarà disponibile presto',
     24: '{quantità} secondi rimanenti',
     25: 'Non sei uno di noi',
-    26: 'Sembra che tu non sia autore o editor di questa skin'
+    26: 'Sembra che tu non sia l\'autore o un editor di questa skin'
   },
   drag: {
     0: 'Clicca qui',
@@ -179,7 +179,7 @@ export default {
       0: 'Ottieni le migliori skin di osu! sul nostro sito! La nostra vasta libreria ha skin per tutte le modalità di gioco, proporzioni e persino per i migliori giocatori. Inoltre, abbiamo una sezione speciale per i fan degli anime. Migliora il tuo gameplay con la skin perfetta. #osuskins #osugame #anime',
       1: '{views} visualizzazioni. Una skin osu per {modes}, il suo peso è {size}, creata da {creators}. Supporta {ratios}',
       2: 'Trova la skin perfetta con la nostra funzione di ricerca avanzata. Sfoglia la nostra vasta libreria, filtrata per modalità di gioco, proporzioni e altro. Oppure dai un\'occhiata alle skin utilizzate dai migliori giocatori',
-      3: 'Scopri una varietà di modalità di gioco e proporzioni sul nostro sito. Scegli tra la modalità standard, prendi il ritmo, mania e taiko. Trova la soluzione perfetta per le tue preferenze di gioco.',
+      3: 'Scopri una varietà di skin per diverse modalità di gioco e proporzioni dello schermo sul nostro sito. Scegli fra standard, catch the beat, mania e taiko. Trova la soluzione perfetta per le tue preferenze di gioco.',
       4: 'Trova la skin osu perfetta dai migliori giocatori sul nostro sito. Sfoglia la nostra raccolta di skin popolari e personalizza il tuo gameplay. Scopri una vasta gamma di stili e temi per soddisfare le tue preferenze.',
       5: 'Elenco dei tag esistenti per le skin osu.',
       6: '{name} collezione di skin osu!, download gratuito',
