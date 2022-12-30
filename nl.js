@@ -1,5 +1,5 @@
 export default {
-  hello: 'Hallo',
+  hello: 'Hello',
   title: {
     home: 'Startpagina',
     page: 'pagina',
@@ -36,7 +36,7 @@ export default {
     0: 'Auteurs',
     1: 'Lijst van alle auteurs die hielpen met het maken van deze versie',
     2: 'Er is niemand is hier',
-    3: 'Het typen van de naam van een speler zal je de resultaten van een osu-zoekopdracht laten zien.',
+    3: 'Searching for a player\'s name will display a list of profiles.',
     4: 'Editor',
     5: 'Rollen',
     6: 'Versies'
@@ -100,7 +100,7 @@ export default {
     5: 'Schermopnames',
     6: 'Alleen van tijdens het spelen',
     7: 'Download link | Download skin',
-    8: 'Forum post |osu! Forum',
+    8: 'Forum post | osu! Forum',
     9: 'Reddit post',
     10: 'Auteurs',
     11: 'Categorieën',
@@ -133,7 +133,10 @@ export default {
     2: 'Icoontjes',
     3: 'Alle icoontjes zijn genomen van {name}',
     4: 'Vlaggen',
-    5: 'Alle vlaggen zijn genomen van {name}'
+    5: 'Alle vlaggen zijn genomen van {name}',
+    6: 'Localisation',
+    7: 'Anyone? [{lang}]',
+    8: 'Seems like, cpol forget to add them. {text}'
   },
   search: {
     0: 'Zoek naar skin',
@@ -158,7 +161,7 @@ export default {
     2: 'Helaas pindakaas, er is hier niks',
     3: 'Niet geautoriseerd',
     4: 'Je moet ingelogd zijn om deze skin te veranderen.',
-    5: 'Je moet ingelogd zijn om een nieuwe skin toe te voegen.'
+    5: 'You need to be logged in to add a new skin.'
   },
   meta: {
     title: {
@@ -171,7 +174,7 @@ export default {
       6: 'Dank aan',
       7: 'osu skins',
       8: '{name} zoek osu skins',
-      9: 'Inspireer jezelf door andere osu skins',
+      9: 'Get inspiration from other osu skins',
       10: '{name} maakte osu skins'
     },
     description: {
