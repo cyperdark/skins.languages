@@ -1,5 +1,5 @@
 export default {
-  hello: 'asd',
+  hello: 'Hello',
   title: {
     home: 'Головна',
     page: 'сторінка',
@@ -36,7 +36,7 @@ export default {
     0: 'Творці',
     1: 'Перелічи всіх творців долучених до створення цієї версії',
     2: 'Тут нікого',
-    3: 'Введення імені гравця покаже вам результати пошуку зі сторінки osu.',
+    3: 'Searching for a player\'s name will display a list of profiles.',
     4: 'Редактор',
     5: 'Ролі',
     6: 'Версії'
@@ -100,7 +100,7 @@ export default {
     5: 'Знімки екрану',
     6: 'Тільки геймплей',
     7: 'Посилання для завантаження | Завантажити скін',
-    8: 'Допис на форумі | osu! Форум',
+    8: 'Forum post | osu! Forum',
     9: 'Пост на Reddit',
     10: 'Творці',
     11: 'Теги',
@@ -133,7 +133,10 @@ export default {
     2: 'Іконки',
     3: 'Всі іконки беруться з {name}',
     4: 'Прапори',
-    5: 'Всі зображення прапорів беруться з {name}'
+    5: 'Всі зображення прапорів беруться з {name}',
+    6: 'Localisation',
+    7: 'Anyone? [{lang}]',
+    8: 'Seems like, cpol forget to add them. {text}'
   },
   search: {
     0: 'Пошук скіну',
@@ -158,7 +161,7 @@ export default {
     2: 'На жаль, тут нічого немає',
     3: 'Неавторизовано',
     4: 'Ви повинні увійти в систему, щоб редагувати цей скін.',
-    5: 'Ви повинні увійти, щоб додати новий скін.'
+    5: 'You need to be logged in to add a new skin.'
   },
   meta: {
     title: {
@@ -171,7 +174,7 @@ export default {
       6: 'Credits',
       7: 'osu skins',
       8: '{name} search osu skins',
-      9: 'Inspire yourself from other osu skins',
+      9: 'Get inspiration from other osu skins',
       10: '{name} created osu skins'
     },
     description: {
