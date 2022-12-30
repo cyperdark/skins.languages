@@ -1,13 +1,13 @@
 export default {
-  hello: 'asd',
+  hello: 'Hei',
   title: {
-    home: 'Kotisivu',
+    home: 'Koti',
     page: 'sivu',
     guest: 'Kirjaudu Sisään',
     lists: { 0: 'Luettelot' },
     tags: {
       0: 'Tägit',
-      1: '{amount} tägiä per kategoria {name}'
+      1: '{amount} tägiä kategoriassa {name}'
     },
     ideas: {
       0: 'Inspiraatio',
@@ -36,7 +36,7 @@ export default {
     0: 'Tekijät',
     1: 'Luettelo kaikista tekijöistä jotka olivat mukana tämän version tekemisessä',
     2: 'Tällä ei ole ketään',
-    3: 'Kirjoittamalla pelaajan nimen näet osu haun tulokset.',
+    3: 'Pelaajan nimen etsiminen näyttää luettelon profiileista.',
     4: 'Muokkaaja',
     5: 'Roolit',
     6: 'Versiot'
@@ -54,10 +54,10 @@ export default {
     3: 'Voit etsiä niitä YouTubesta tai tehdä oman esittelysi'
   },
   sources: {
-    0: 'Attribution',
+    0: 'Attribuutio',
     1: 'Luettelo käytetyistä muiden skinejen omaisuuksista tai työkaluista tässä versiossa',
     2: 'Vähän tyhjää täällä',
-    3: 'Jos olet käyttänyt muiden skinien omaisuuksia tai taidetta, muista lisätä ne ylläolevaan laatikkoon',
+    3: 'Jos olet käyttänyt elementtejä muista skineistä, varmista että lisäät ne ylläolevaan laatikkoon',
     4: 'Ei ryhmitelty'
   },
   checks: {
@@ -100,7 +100,7 @@ export default {
     5: 'Kuvakaappaukset',
     6: 'Vain pelialue',
     7: 'Lataa linkki | Lataa skini',
-    8: 'Foorumi päivitys |osu! Foorumi',
+    8: 'Foorumi päivitys | osu! Foorumi',
     9: 'Reddit päivitys',
     10: 'Tekijät',
     11: 'Tägit',
@@ -117,7 +117,7 @@ export default {
     23: 'Lataus on valmiina pian',
     24: '{amount} sekunteja jäljellä',
     25: 'Sinä et ole yksi meistä',
-    26: 'Seems like you\'re not an author or editor of this skin'
+    26: 'Näyttää siltä, että et ole tämän skinin tekijä tai muokkaaja'
   },
   drag: {
     0: 'Paina tästä',
@@ -133,7 +133,10 @@ export default {
     2: 'Kuvakkeet',
     3: 'Kaikki kuvakkeet ovat sivulta {name}',
     4: 'Liput',
-    5: 'Kaikki lippukuvakkeet ovat lähteestä {name}'
+    5: 'Kaikki lippukuvakkeet ovat lähteestä {name}',
+    6: 'Localisation',
+    7: 'Eikö kukaan? [{lang}]',
+    8: 'Näyttää siltä, että cpol unohti lisätä ne. {text}'
   },
   search: {
     0: 'Skini haku',
@@ -156,9 +159,9 @@ export default {
     0: 'Tyhjä',
     1: 'Valitettavasti täällä ei ole mitään, voit etsiä eri sivuja',
     2: 'Valitettavasti täällä ei ole mitään',
-    3: 'Unauthorized',
+    3: 'Ei sallittu',
     4: 'Sinun täytyy olla kirjautuneena sisään muokataksesi tätä skiniä.',
-    5: 'Sinun täytyy olla kirjautuneena sisään lisätäksesi uuden skinin.'
+    5: 'Sinun täytyy olla kirjautuneena lisätäksesi uuden skinin.'
   },
   meta: {
     title: {
@@ -171,7 +174,7 @@ export default {
       6: 'Kiitokset',
       7: 'osu skinit',
       8: '{name} hae osu skinejä',
-      9: 'Inspiroi itseäsi muista osu skineistä',
+      9: 'Hanki inspiraatiota muista osu skineistä',
       10: '{name} tehtyjä osu skinejä'
     },
     description: {
@@ -179,7 +182,7 @@ export default {
       0: 'Hanki parhaat osu skinit sivumme suuresta valikoimasta! Meillä on skinejä eri pelimodeille ja kuvasuhteille, sekä jopa top pelaajille. Lisäksi, meillä on erityinen osasto animefaneille. Paranna peliäsi täydellisellä skinillä. #osuskins #osugame #anime',
       1: '{views} näyttökertaa. {modes} osu skini, jonka koko on {size}, tekijänä on {creators}. Tukee {ratios}',
       2: 'Löydä täydellinen osu! skini meidän edistyneellä hakukoneella. Selaa meidän jättimäisen valikoiman läpi, joka on suodatettu pelimodella, kuvasuhteella, ja monella muulla. Tai, katso top pelaajien käyttämiä skinejä.',
-      3: 'Discover a variety of skins for different game modes and aspect ratios on our site. Choose from standard, catch the beat, mania, and taiko modes. Find the perfect fit for your gaming preferences.',
+      3: 'Löydä lukuisia skinejä eri pelimodeille ja kuvasuhteille sivultamme. Valitse standard, catch the beat, mania ja taiko modeista. Löydä täidellinen tyyli sinun pelaamismieltymyksille.',
       4: 'Löydä täydellinen osu skini top pelaajilta sivultamme. Selaa meidän suosittujen skinien kokoelmasta ja muokkaa pelitapasi. Löydä suuri määrä tyylejä ja teemoja mieltymyksillesi.',
       5: 'Olemassa olevien tägien ja osu skinien luettelo.',
       6: '{name} osu skini kokoelma!, ilmainen lataus.',
