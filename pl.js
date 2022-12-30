@@ -1,5 +1,5 @@
 export default {
-  hello: 'asd',
+  hello: 'Hello',
   title: {
     home: 'Główna',
     page: 'Strona',
@@ -36,7 +36,7 @@ export default {
     0: 'Twórcy',
     1: 'Lista twórców którzy pracowali przy tej wersji',
     2: 'Nikogo tu nie ma',
-    3: 'Wpisanie nazwy gracza pokaże ci wynyki z wyszukiwania na stronie osu.',
+    3: 'Wpisanie nazwy gracza ukaże listę profili.',
     4: 'Edytor',
     5: 'Role',
     6: 'Wersje'
@@ -100,7 +100,7 @@ export default {
     5: 'Screenshoty',
     6: 'Tylko gameplay',
     7: 'Link do pobrania | Pobierz skin',
-    8: 'Post na forum |osu! Forum',
+    8: 'Post na forum | osu! Forum',
     9: 'Post na Reddicie',
     10: 'Twórcy',
     11: 'Tagi',
@@ -133,7 +133,10 @@ export default {
     2: 'Ikony',
     3: 'Wszystkie ikony pochodzą z {name}',
     4: 'Flagi',
-    5: 'Wszystkie flagi pochodzą z {name}'
+    5: 'Wszystkie flagi pochodzą z {name}',
+    6: 'Lokalizacja',
+    7: 'Ktokolwiek? [{lang}]',
+    8: 'Wygląda na to, że cpol zapomniał o ich dodaniu. {text}'
   },
   search: {
     0: 'Wyszukiwarka skinów',
@@ -171,7 +174,7 @@ export default {
       6: 'Credits',
       7: 'osu skins',
       8: '{name} search osu skins',
-      9: 'Inspire yourself from other osu skins',
+      9: 'Zainspiruj się innymi skinami',
       10: '{name} created osu skins'
     },
     description: {
