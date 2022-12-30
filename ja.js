@@ -1,5 +1,5 @@
 export default {
-  hello: 'Hello',
+  hello: 'こんにちは',
   title: {
     home: 'ホーム',
     page: 'ページ',
@@ -36,7 +36,7 @@ export default {
     0: 'クリエイター',
     1: 'このバージョンの作成に携わったすべてのクリエイターを一覧表示する',
     2: '誰もいません。',
-    3: 'Searching for a player\'s name will display a list of profiles.',
+    3: 'プレイヤー名を検索すると、プロフィールのリストが表示されます。',
     4: '編集者',
     5: '役割',
     6: 'バージョン'
@@ -134,9 +134,9 @@ export default {
     3: 'アイコンはすべて{name} から引用しています。',
     4: 'フラグ',
     5: 'フラッグ画像はすべて{name} のものです',
-    6: 'Localisation',
-    7: 'Anyone? [{lang}]',
-    8: 'Seems like, cpol forget to add them. {text}'
+    6: '翻訳',
+    7: '誰かいませんか？[{lang}]',
+    8: 'cpolが追加し忘れているようです。{text}'
   },
   search: {
     0: 'スキン検索',
@@ -161,7 +161,7 @@ export default {
     2: '残念ながらここには何もありません',
     3: '権限がありません',
     4: 'このスキンを編集するにはログインする必要があります',
-    5: 'You need to be logged in to add a new skin.'
+    5: '新しいスキンを追加するにはログインする必要があります。'
   },
   meta: {
     title: {
@@ -174,7 +174,7 @@ export default {
       6: 'クレジット',
       7: 'osu スキン',
       8: '{name} 検索 osu スキン',
-      9: 'Get inspiration from other osu skins',
+      9: '他のosuスキンからインスピレーションを得る',
       10: '{name} が作成したスキン'
     },
     description: {
