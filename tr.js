@@ -1,5 +1,5 @@
 export default {
-  hello: 'asd',
+  hello: 'Merhaba',
   title: {
     home: 'Ana',
     page: 'Sayfa',
@@ -36,7 +36,7 @@ export default {
     0: 'Yaratıcılar',
     1: 'Bu versiyonu oluşturmakta emeği geçenlerin listesi',
     2: 'Burada kimse yok',
-    3: 'Bir oyuncunun ismini yazmak osu search sonuçlarını gösterir.',
+    3: 'Bir oyuncunun ismini aratmak bir profil listesi görütüler.',
     4: 'Editör',
     5: 'Roller',
     6: 'Versiyonlar'
@@ -100,7 +100,7 @@ export default {
     5: 'Ekran görüntüleri',
     6: 'Sadece Gameplay',
     7: 'İndirme linki | skini indir',
-    8: 'Forum postu |osu! Forum',
+    8: 'Forum post | osu! Forum',
     9: 'Reddit postu',
     10: 'Yaratıcılar',
     11: 'Etiketler',
@@ -133,7 +133,10 @@ export default {
     2: 'İkonlar',
     3: 'Bütün ikonlar {name}\'den alındı',
     4: 'Bayraklar',
-    5: 'Bütün bayrak görselleri {name}\'den alındı'
+    5: 'Bütün bayrak görselleri {name}\'den alındı',
+    6: 'Yerelleştirme',
+    7: 'Herhangi birisi? [{lang}]',
+    8: 'Görünüşe göre, cpol onları eklemeyi unutmuş. {text}'
   },
   search: {
     0: 'Skin aratın',
@@ -158,7 +161,7 @@ export default {
     2: 'Ne yazık ki burada hiçbir şey yok',
     3: 'Yetkiniz yok',
     4: 'Bu skini editleyebilmek için giriş yapman gerek.',
-    5: 'Yeni skin ekleyebilmek için giriş yapmış olmalısın.'
+    5: 'Yeni bir skin eklemek için giriş yapmanız gerekiyor.'
   },
   meta: {
     title: {
@@ -171,7 +174,7 @@ export default {
       6: 'Credits',
       7: 'osu skins',
       8: '{name} search osu skins',
-      9: 'Kendinizi diğer osu skinleriyle etkileyin',
+      9: 'Diğer osu skinlerinden ilham alın',
       10: '{name} created osu skins'
     },
     description: {
