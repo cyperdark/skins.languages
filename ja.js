@@ -1,5 +1,5 @@
 export default {
-  hello: 'こんにちは',
+  hello: 'Hello',
   title: {
     home: 'ホーム',
     page: 'ページ',
@@ -36,7 +36,7 @@ export default {
     0: 'クリエイター',
     1: 'このバージョンの作成に携わったすべてのクリエイターを一覧表示する',
     2: '誰もいません。',
-    3: 'プレイヤーの名前を検索すると、プロフィールのリストが表示されます。',
+    3: 'Searching for a player\'s name will display a list of profiles.',
     4: '編集者',
     5: '役割',
     6: 'バージョン'
@@ -100,7 +100,7 @@ export default {
     5: 'スクリーンショット',
     6: 'ゲームプレイのみ',
     7: 'ダウンロードリンク | スキンをダウンロード',
-    8: 'フォーラムの投稿 | osu! フォーラム',
+    8: 'Forum post | osu! Forum',
     9: 'Redditの投稿',
     10: 'クリエイター',
     11: 'タグ',
@@ -133,7 +133,10 @@ export default {
     2: 'アイコン',
     3: 'アイコンはすべて{name} から引用しています。',
     4: 'フラグ',
-    5: 'フラッグ画像はすべて{name} のものです'
+    5: 'フラッグ画像はすべて{name} のものです',
+    6: 'Localisation',
+    7: 'Anyone? [{lang}]',
+    8: 'Seems like, cpol forget to add them. {text}'
   },
   search: {
     0: 'スキン検索',
@@ -158,7 +161,7 @@ export default {
     2: '残念ながらここには何もありません',
     3: '権限がありません',
     4: 'このスキンを編集するにはログインする必要があります',
-    5: '新しいスキンを追加するにはログインする必要があります'
+    5: 'You need to be logged in to add a new skin.'
   },
   meta: {
     title: {
@@ -171,7 +174,7 @@ export default {
       6: 'クレジット',
       7: 'osu スキン',
       8: '{name} 検索 osu スキン',
-      9: '他のosuスキンから自分をインスパイアする',
+      9: 'Get inspiration from other osu skins',
       10: '{name} が作成したスキン'
     },
     description: {
