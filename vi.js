@@ -1,5 +1,5 @@
 export default {
-  hello: 'Hello',
+  hello: 'Xin chào',
   title: {
     home: 'Trang chủ',
     page: 'Trang',
@@ -148,7 +148,7 @@ export default {
     7: 'Không thấy gì cả',
     8: 'Hãy thử điều chỉnh cách chọn lọc khác',
     9: 'Đang chờ xử lý',
-    10: 'Hãy chọn các filter tìm kiếm hoặc chỉ cần ghi tên, tác giả hat các tag của skin'
+    10: 'Hãy chọn các filter tìm kiếm hoặc chỉ cần ghi tên, tác giả hay các tag của skin'
   },
   tabs: {
     0: 'Tìm kiếm',
@@ -156,12 +156,12 @@ export default {
     2: 'Danh sách'
   },
   undefined: {
-    0: 'Empty',
-    1: 'Unfortunately there is nothing here, anyway you can look at other pages',
-    2: 'Unfortunately there is nothing here',
-    3: 'Unauthorized',
-    4: 'You need to be logged in to edit this skin.',
-    5: 'You need to be logged in to add a new skin.'
+    0: 'Trống',
+    1: 'Đáng tiếc là không có gì ở đây, thay vào đó bạn có thế xem các trang khác',
+    2: 'Đáng tiếc là không có gì ở đây',
+    3: 'Không thể truy cập',
+    4: 'Bạn cần đăng nhập để chỉnh sửa skin này.',
+    5: 'Bạn cần đăng nhập để thêm skin mới.'
   },
   meta: {
     title: {
@@ -172,77 +172,77 @@ export default {
       4: 'Danh sách tag, {name}',
       5: '{name} v{version} osu skin',
       6: 'Những người đóng góp',
-      7: 'osu skins',
-      8: '{name} search osu skins',
-      9: 'Get inspiration from other osu skins',
-      10: '{name} created osu skins'
+      7: 'skin osu',
+      8: '{name} tìm kiếm skin osu',
+      9: 'Lấy cảm hứng từ các skin osu khác',
+      10: '{name} đã tạo skin osu'
     },
     description: {
       // 0: 'Get the best osu skins at our site, with a huge library to choose from! We have skins for different gamemodes and aspect ratios, and even feature top players and anime themes. Boost your gameplay with our high-quality skins.',
-      0: 'Get the best osu! skins at our site! Our huge library has skins for all gamemodes, aspect ratios and even top players. Plus, we have a special section for anime fans. Improve your gameplay with the perfect skin. #osuskins #osugame #anime',
-      1: '{views} views. An osu skin for {modes}, the size is {size}, created by {creators}. Supports {ratios}',
-      2: 'Find the perfect osu! skin with our advanced search feature. Browse through our huge library, filtered by gamemode, aspect ratio, and more. Or, check out skins used by top players.',
-      3: 'Discover a variety of skins for different game modes and aspect ratios on our site. Choose from standard, catch the beat, mania, and taiko modes. Find the perfect fit for your gaming preferences.',
-      4: 'Find the perfect osu skin from top players on our site. Browse our collection of popular skins and customize your gameplay. Discover a wide range of styles and themes to suit your preferences.',
-      5: 'List of existing tags for osu skins.',
-      6: '{name} osu skins collection!, free downloading',
-      7: 'A huge amount of osu skins for {name}, download for free!',
-      8: 'All osu skins created by {name}',
-      9: 'Find inspiration for your next osu! skin at our site. Browse through a diverse collection of skins and discover new techniques and ideas. Get inspired and create your own unique skins.'
+      0: 'Tảỉ về những skin osu! tốt nhất từ trang của chúng tôi! Thư viện to lớn của chúng tôi có skin cho mọi chế độ chơi, tỷ lệ khung hình và cả kể cả những top player. Thêm vào đó, chúng tôi có một khu đặc biệt dành cho các fan anime. Cả thiện gameplay với một skin hoàn hảo. #osuskins #osugame #anime',
+      1: '{views} lượt xem. Một skin osu cho {modes}, kích thước là {size}, được tạo bởi {creators}. Hỗ trợ {ratios}',
+      2: 'Tìm những skin osu! hoàn hảo với tính năng tìm kiếm đã được cải thiện của chúng tôi. Tìm qua cả thư viện khổng lồ, lọc qua chế độ chơi, tỷ lệ khung hình, và hơn thế nữa. Hoặc, ghé qua các skin được sử dụng bởi các top player.',
+      3: 'Khám phá các thể loại skin cho các chế độ khác nhau và các tỷ lệ khung hình trên trang của chúng tôi. Chọn từ standard, catch the beat, mania đến taiko. Tìm cho bản thân những gì phù hợp nhất với sở thích của bạn.',
+      4: 'Tìm skin osu hoàn hảo từ các top player trên trang của chúng tôi. Lướt qua bộ sưu tầm những skin nổi tiếng và tùy chỉnh gameplay của bạn. Khám phá một loạt các phong cách và chủ đề phù hợp với sở thích của bạn.',
+      5: 'Danh sách các tag tồn tại cho skin osu.',
+      6: 'Bộ sưu tầm skin {name}!, tải miễn phí',
+      7: 'Một lượng lớn skin osu cho {name}, tải miễn phí!',
+      8: 'Tất cả skin được tạo bơi {name}',
+      9: 'Tìm các nguồn cảm hứng cho skin osu! tiếp theo của bạn ở trang của chúng tôi. Điểm qua một bộ sưu tầm skin đa dạng và khám phá các kỹ thuật và ý tưởng mới. Lấy cảm hứng và tạo cho bản thân những skin độc đáo.'
     },
     keywords: { 0: 'osu, osu!, osu skins, std skins, ctb skins, mania skins, taiko skins, mrekk osu skins,Rafis osu skins,FlyingTuna osu skins,Vaxei osu skins,Cookiezi osu skins,Varvalian osu skins,RyuK osu skins,WhiteCat osu skins,_RyuK osu skins,BeasttrollMC osu skins,Genshin Impact osu skins,Mathi osu skins,WubWoofWolf osu skins,Merami osu skins,xootynator osu skins,Gayzmcgee osu skins,[Karcher] osu skins,Bubbleman osu skins,ChomikBox osu skins,NSFW osu skins,Lifeline osu skins,Hatsune Miku osu skins,Azerite osu skins,Umbre osu skins,404 AimNotFound osu skins,-Nikstrim osu skins,bloo osu skins,Shigetora osu skins,Badeu osu skins,FunOrange osu skins,worst hr player osu skins,Tekkito osu skins,ninerik osu skins,azr8 osu skins,idke osu skins,Andros osu skins,Zylice osu skins,Rektygon osu skins,Komori osu skins,anime osu skins,cyperdark osu skins,Red_Pixel osu skins,Utami osu skins,Arknights osu skins,Karthy osu skins,Paraqeet osu skins,aetrna osu skins,Spare osu skins,-GN osu skins,Mastasz osu skins,Seouless osu skins,haga1115 osu skins,shimon osu skins,fieryrage osu skins,Ekoro osu skins,Firebat92 osu skins,_Shield osu skins,-Roaz- osu skins,- Dark - osu skins,atturbo555 osu skins,Aristia osu skins,_Aiko__ osu skins,z x c osu skins,eternum osu skins,talala osu skins,NyanPotato osu skins,Arnold24x24 osu skins,Alumetri osu skins,im a fancy lad osu skins,jordanlr7 osu skins,Woey osu skins,khz osu skins,rrtyui osu skins,kieg osu skins,Rupertion osu skins,FGSky osu skins,Aireu osu skins,Neko God osu skins,Apostol osu skins,Abyssal osu skins,dokidokilolixx osu skins,Mlaw osu skins,Ponytail osu skins,Reedkatt osu skins,Zestiny osu skins,Apraxia osu skins,Binfy osu skins,Rohulk osu skins,-PloX osu skins,DuyKhang-sama osu skins,BronyPH osu skins,Intercambing osu skins,Xeltol osu skins,Valorant osu skins,Akolibed osu skins,hololive osu skins,kablaze osu skins,tokyo ghoul osu skins,Trail Mix osu skins,Dereban osu skins' }
   },
   buttons: {
-    0: 'Login',
+    0: 'Đăng nhập',
     1: 'Trang chủ',
     profile_osu: 'Trang cá nhân osu!',
-    new_skin: 'New skin',
-    notifications: 'Notifications',
-    settings: 'Settings',
-    logout: 'Log out',
-    load_more: 'Load more',
-    copy_short: 'Copy short link',
-    copied: 'Copied',
+    new_skin: 'Skin mới',
+    notifications: 'Thông báo',
+    settings: 'Cài đặt',
+    logout: 'Đăng xuất',
+    load_more: 'Tải thêm',
+    copy_short: 'Sao chép liên kết ngắn',
+    copied: 'Đã sao chép',
     reddit_link: 'Reddit',
     osu_forum_link: 'osu! Forum',
-    skin_return: 'Back to skin'
+    skin_return: 'Quay trở lại skin'
   },
   user: {
     roles: {
-      0: 'Creator',
+      0: 'Tác giả',
       1: 'Mixer',
-      2: 'Animations',
+      2: 'Hoạt họa',
       3: 'Tranh vẽ',
       4: 'Collab'
     }
   },
   tooltips: {
-    0: '{amount} views',
-    1: 'Refresh results',
-    2: 'Descending | Ascending',
-    3: '{amount} likes',
-    4: 'Press ctrl+enter to add a tag',
-    5: 'Edit version',
-    6: '{s}Log in{p}, to be able to rate this skin',
-    7: 'No short description',
-    8: 'No url'
+    0: '{amount} lượt xem',
+    1: 'Đang tải lại kết quả',
+    2: 'Giảm | Tăng',
+    3: '{amount} lượt thích',
+    4: 'Nhấn ctrl+enter để thêm tag',
+    5: 'Chỉnh sửa phiên bản',
+    6: '{s}Đăng nhập{p}, để có thể đánh giá skin này',
+    7: 'Không có mô tả ngắn',
+    8: 'Không có url'
   },
   lists: {
     screens: {
       0: 'Welcome',
-      1: 'Main menu',
-      2: 'Song select',
-      3: 'Mode menu',
-      4: 'Mods',
-      5: 'Countdown',
+      1: 'Dao diện chính',
+      2: 'Chọn bài hát',
+      3: 'Dao diện mod',
+      4: 'Mod',
+      5: 'Đếm ngược',
       6: 'Gameplay',
       7: 'Spinner',
-      8: 'Section Pass',
+      8: 'Secton Pass',
       9: 'Section Fail',
-      10: 'Pause Screen',
-      11: 'Fail Screen',
-      12: 'Result screen',
-      13: 'Skip',
+      10: 'Màn hình tạm dừng',
+      11: 'Màn hình Fail',
+      12: 'Màn hình kết quả',
+      13: 'Bỏ qua',
       14: 'Banner'
     },
     cats: {
@@ -253,37 +253,37 @@ export default {
   },
   select: {
     0: 'Mới',
-    1: 'Fixed',
-    2: 'Changed',
-    3: 'Removed',
-    4: 'Art',
-    5: 'Font',
-    6: 'Artist',
-    7: 'Skin element',
-    8: 'Audio/Sfx',
-    9: 'Tools',
+    1: 'Sửa đổi',
+    2: 'Thay đổi',
+    3: 'Xóa bỏ',
+    4: 'Tranh vẽ',
+    5: 'Phông chữ',
+    6: 'Họa sĩ',
+    7: 'Yếu tố skin',
+    8: 'Âm thanh/Sfx',
+    9: 'Công cụ',
     views: 'Lượt xem',
-    likes: 'Likes',
-    size_range: 'Select size',
-    date_range: 'Select a date range',
-    ratio: 'Select aspect ratio | ratio'
+    likes: 'Thích',
+    size_range: 'Chọn kích cỡ',
+    date_range: 'Chon mốc thời gian',
+    ratio: 'Chọn tỷ lệ khung hình | tỷ lệ'
   },
   placeholders: {
-    0: 'Choose roles',
-    1: 'Choose versions',
-    2: 'Type text...',
-    3: 'Select size',
-    4: 'Select date range',
-    5: 'Year',
-    6: 'Month',
-    7: 'Select aspect ratio',
-    8: 'Select categories',
+    0: 'Chọn role',
+    1: 'Chọn phiên bản',
+    2: 'Nhập văn bản...',
+    3: 'Chọn kích cỡ',
+    4: 'Chọn mốc thời gian',
+    5: 'Năm',
+    6: 'Tháng',
+    7: 'Chọn tỷ lệ khung hình',
+    8: 'Chọn danh mục',
     9: 'Chế độ chơi',
-    10: 'Select type',
-    11: 'Paste a YouTube link',
-    12: 'Type description and url. Format description:url',
-    13: 'Select extra',
-    14: 'Paste a link',
-    15: 'Skin title, author, or tag'
+    10: 'Chọn thể loại',
+    11: 'Dán một liên kết YouTube',
+    12: 'Nhập mô tả và url. Định dạng mô tả:url',
+    13: 'Chọn thêm',
+    14: 'Dán một liên kết',
+    15: 'Tiêu đề skin, tác giả, hoặc tag'
   }
 };
