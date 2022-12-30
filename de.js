@@ -1,5 +1,5 @@
 export default {
-  hello: 'Hallo!',
+  hello: 'Hello',
   title: {
     home: 'Startseite',
     page: 'Seite',
@@ -36,7 +36,7 @@ export default {
     0: 'Ersteller',
     1: 'Liste alle Ersteller die an dieser Versionen mitgearbeitet haben.',
     2: 'Keiner ist hier...',
-    3: 'Wenn du den Namen eines Spielers eingibst, wirst du hier die Ergebnisse der osu! Suche finden.',
+    3: 'Searching for a player\'s name will display a list of profiles.',
     4: 'Editor/in',
     5: 'Rollen',
     6: 'Versionen'
@@ -100,7 +100,7 @@ export default {
     5: 'Bildschirmfotos',
     6: 'Nur Gameplay',
     7: 'Download Link | Skin downloaden',
-    8: 'Forumsbeitrag | osu! Forum',
+    8: 'Forum post | osu! Forum',
     9: 'Redditbeitrag',
     10: 'Ersteller',
     11: 'Stichworte',
@@ -125,7 +125,7 @@ export default {
   },
   footer: {
     0: 'Erstellt von cyperdark',
-    1: 'Anerkennung an:'
+    1: 'Anerkennung an'
   },
   credits: {
     0: 'Chibi',
@@ -133,7 +133,10 @@ export default {
     2: 'Symbole',
     3: 'Alle Symbole wurden von {name} genommen.',
     4: 'Flaggen',
-    5: 'Alle Bilder der Flaggen sind von {name}.'
+    5: 'Alle Bilder der Flaggen sind von {name}.',
+    6: 'Localisation',
+    7: 'Anyone? [{lang}]',
+    8: 'Seems like, cpol forget to add them. {text}'
   },
   search: {
     0: 'Skin-Suche',
@@ -158,7 +161,7 @@ export default {
     2: 'Leider ist diese Seite leer.',
     3: 'Nicht autorisiert!',
     4: 'Du musst angemeldet sein, um diesen Skin zu editieren.',
-    5: 'Du musst eingeloggt sein, um einen neuen Skin hinzuzufügen.'
+    5: 'You need to be logged in to add a new skin.'
   },
   meta: {
     title: {
@@ -168,10 +171,10 @@ export default {
       3: 'Suche nach osu! Skins',
       4: '«{name}» Stichwörterliste',
       5: '{name} v{version} osu! Skin',
-      6: 'Anerkennung an:',
+      6: 'Anerkennung an',
       7: 'osu! Skins',
       8: 'Suche nach {name} osu! Skins',
-      9: 'Inspiriere dich von anderen osu! Skins',
+      9: 'Get inspiration from other osu skins',
       10: '{name} hat osu! Skins erstellt.'
     },
     description: {
