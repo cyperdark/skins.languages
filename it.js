@@ -1,5 +1,5 @@
 export default {
-  hello: 'Ciao',
+  hello: 'Hello',
   title: {
     home: 'Pagina',
     page: 'iniziale',
@@ -36,7 +36,7 @@ export default {
     0: 'Creatori',
     1: 'Lista tutti i creatori che si sono impegnati nel fare questa versione',
     2: 'Nessuno è qui',
-    3: 'Scrivendo un giocatore\'s nome ti mostrerà i risultati della ricerca di osu.',
+    3: 'Searching for a player\'s name will display a list of profiles.',
     4: 'Editor',
     5: 'Ruoli',
     6: 'Versioni'
@@ -133,11 +133,14 @@ export default {
     2: 'Icone',
     3: 'Tutte le icone sono state prese da {nome}',
     4: 'Bandiere',
-    5: 'Tutte le immagini delle bandiere sono da {nome}'
+    5: 'Tutte le immagini delle bandiere sono da {nome}',
+    6: 'Localisation',
+    7: 'Anyone? [{lang}]',
+    8: 'Seems like, cpol forget to add them. {text}'
   },
   search: {
     0: 'Ricerca skin',
-    1: 'Visializzazioni',
+    1: 'Visualizzazioni',
     2: 'Titolo',
     3: 'Valutazione',
     4: 'Peso',
@@ -158,7 +161,7 @@ export default {
     2: 'Purtroppo non c\'è niente qui',
     3: 'Non Autorizzato',
     4: 'Devi aver eseguito l\'accesso per modificare questa skin.',
-    5: 'Devi aver eseguito l\'accesso per aggiungere una nuova skin.'
+    5: 'You need to be logged in to add a new skin.'
   },
   meta: {
     title: {
@@ -171,7 +174,7 @@ export default {
       6: 'Crediti',
       7: 'osu skins',
       8: '{name} cerca osu skins',
-      9: 'Ispirati ad altre skin osu',
+      9: 'Get inspiration from other osu skins',
       10: '{name} ha creato la skin'
     },
     description: {
@@ -259,7 +262,7 @@ export default {
     7: 'Elementi della skin',
     8: 'Audio/Effetti',
     9: 'Strumenti',
-    views: 'Visializzazioni',
+    views: 'Visualizzazioni',
     likes: 'Mi piace',
     size_range: 'Seleziona peso',
     date_range: 'Seleziona una data',
