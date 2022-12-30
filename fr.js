@@ -1,5 +1,5 @@
 export default {
-  hello: 'Bonjour',
+  hello: 'Salut',
   title: {
     home: 'Accueil',
     page: 'Page',
@@ -36,7 +36,7 @@ export default {
     0: 'Créateurs',
     1: 'Liste de tous les créateurs impliqués dans la création de cette version',
     2: 'Il n\'y a personne ici',
-    3: 'Ecrire le nom d\'un joueur vous montrera les résultats de la recherche osu.',
+    3: 'Chercher le nom d\'un joueur affichera une liste de profils.',
     4: 'Editeur',
     5: 'Rôles',
     6: 'Versions'
@@ -133,7 +133,10 @@ export default {
     2: 'Icones',
     3: 'Toutes les icônes proviennent de {name}',
     4: 'Drapeaux',
-    5: 'Tous les drapeaux proviennent de {name}'
+    5: 'Tous les drapeaux proviennent de {name}',
+    6: 'Traductions',
+    7: 'Quelqu\'un ? [{lang}]',
+    8: 'On dirait que cpol a oublié de le(s) rajouter. {text}'
   },
   search: {
     0: 'Rechercher un skin',
@@ -171,7 +174,7 @@ export default {
       6: 'Crédits',
       7: 'skins osu',
       8: '{name} recherche de skin osu',
-      9: 'nspirez vous d\'autres skins osu',
+      9: 'Inspirez-vous des autres skins osu',
       10: 'Skins faits par {name}'
     },
     description: {
