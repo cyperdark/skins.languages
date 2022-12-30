@@ -1,5 +1,5 @@
 export default {
-  hello: 'hei',
+  hello: 'Hello',
   title: {
     home: 'Hjem',
     page: 'Side',
@@ -36,7 +36,7 @@ export default {
     0: 'Skapere',
     1: 'Legg til en liste med alle skapere eller med de som er involvert i å skape denne versjonen',
     2: 'Ingen er her',
-    3: 'Ved å skrive inn Typing in a player\'s name will show you the results of the osu search.',
+    3: 'Searching for a player\'s name will display a list of profiles.',
     4: 'Redaktør',
     5: 'Roller',
     6: 'Versjoner'
@@ -100,7 +100,7 @@ export default {
     5: 'Skjermbilde',
     6: 'Bare spill',
     7: 'Nedlastings lenke | Last ned skin',
-    8: 'Forum post |osu! Forum',
+    8: 'Forum post | osu! Forum',
     9: 'Reddit post',
     10: 'Skapere',
     11: 'Tags',
@@ -133,7 +133,10 @@ export default {
     2: 'Iconer',
     3: 'Alle iconer er tatt fra {name}',
     4: 'Flagg',
-    5: 'Alle flagg bilder er fra {name}'
+    5: 'Alle flagg bilder er fra {name}',
+    6: 'Localisation',
+    7: 'Anyone? [{lang}]',
+    8: 'Seems like, cpol forget to add them. {text}'
   },
   search: {
     0: 'Skin søk',
@@ -158,7 +161,7 @@ export default {
     2: 'Her var det dessverre ingenting',
     3: 'Ikke autorisert',
     4: 'Du må være innlogget for å redigere dette skinnet.',
-    5: 'Du må være innlogget for å legge til et nytt skin.'
+    5: 'You need to be logged in to add a new skin.'
   },
   meta: {
     title: {
@@ -171,7 +174,7 @@ export default {
       6: 'Kreditt',
       7: 'osu skins',
       8: '{name} søk osu skins',
-      9: 'Inspirer deg selv fra andre osu skins',
+      9: 'Get inspiration from other osu skins',
       10: '{name} laget osu skins'
     },
     description: {

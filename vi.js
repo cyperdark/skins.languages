@@ -1,5 +1,5 @@
 export default {
-  hello: 'asd',
+  hello: 'Hello',
   title: {
     home: 'Trang chủ',
     page: 'Trang',
@@ -23,84 +23,84 @@ export default {
   },
   changelogs: {
     0: 'Nhật ký thay đổi',
-    1: 'List of all the revisions done in the current version',
+    1: 'Danh sách tất cả những sửa đổi ở phiên bản hiện tại',
     2: 'Không có gì ở đây',
-    3: 'But you can add the changes you made to this version of the skin',
+    3: 'Nhưng bạn có thể thêm vào những thay đổi đã hoàn thành đối với phiên bản của skin này',
     4: 'Chưa nhóm',
     5: 'Mới',
     6: 'Sửa lỗi',
     7: 'Thay đổi',
-    8: 'Removals'
+    8: 'Xoá'
   },
   creators: {
     0: 'Tác giả',
-    1: 'List all creators who were involved in making this version',
+    1: 'Liệt kê mọi tác giả có liên quan đến việc hoàn thành skin này',
     2: 'Không có ai ở đây',
-    3: 'Nhập tên người chơi ở đây sẽ cho bạn thấy kết quả của osu search.',
+    3: 'Tìm kiếm tên của người chơi sẽ hiển thị một danh sách các trang các nhân.',
     4: 'Trình chỉnh sửa',
     5: 'Vai trò',
     6: 'Phiên bản'
   },
   tags: {
     0: 'Các Tag',
-    1: 'List of all the tags related to this skin',
-    2: 'It seems pretty empty here.',
-    3: 'Use the field above to find new tags'
+    1: 'Danh sách tất cả các tag liên quan đến skin này',
+    2: 'Có vẻ như không có gì ở đây.',
+    3: 'Sử dụng ô trống bên trên để tìm các tag mới'
   },
   videos: {
     0: 'Video',
-    1: 'List of all the video showcases for this skin',
-    2: 'No showcases',
-    3: 'Search for some on YouTube or create your own showcase'
+    1: 'Danh sách tất cả các video xem trước cho skin này',
+    2: 'Không có xem trước',
+    3: 'Tìm một vài video xem trước trên YouTube hoặc tự tạo'
   },
   sources: {
-    0: 'Attribution',
-    1: 'List of all used assets or tools in this version of the skin',
-    2: 'Kinda empty here',
-    3: 'If you have used assets from other skins, or arts, be sure to add them in the box above',
+    0: 'Góp ý',
+    1: 'Danh sách tất cả các asset hoặc tool trong phiên bản skin này',
+    2: 'Khá là trống ở đây',
+    3: 'Nếu bạn đã sử dụng asset hay tranh vẽ từ các skin khác, hãy nhớ thêm chúng vào hộp bên dưới',
     4: 'Chưa nhóm'
   },
   checks: {
-    0: 'All',
+    0: 'Tất cả',
     1: 'Metadata',
-    2: 'Highlight',
-    4: 'Add at least one skin creator',
-    5: 'Add a couple of tags',
-    6: 'Size of the skin not specified',
+    2: 'Tâm điểm',
+    4: 'Thêm vào ít nhất một tác giả tạo skin',
+    5: 'Thêm một số tag',
+    6: 'Kích thước skin không xác định',
     7: 'Chọn ít nhất một chế độ chơi',
-    8: 'Select image resolution (SD or HD)',
-    9: 'Select at least one aspect ratio',
-    10: 'No screenshots provided',
-    11: 'Add at least one gameplay screenshot',
-    12: 'Link to the skin not specified',
-    20: 'Looking pretty good',
-    21: 'Every issue was fixed. Good job',
-    22: 'Checklist'
+    8: 'Chọn độ phân giải hình ảnh (SD hoặc HD)',
+    9: 'Chọn ít nhất một tỷ lệ khung hình',
+    10: 'Ảnh chụp màn hình không khả dụng',
+    11: 'Thêm vào ít nhất một ảnh chụp màn hình gameplay',
+    12: 'Liên kết skin không khả dụng',
+    20: 'Trông có vẻ khá ổn',
+    21: 'Mọi vấn đề đều đã được giải quyết. Tốt lắm',
+    22: 'Danh mục'
   },
   skins: {
-    0: 'Skins',
-    1: 'Popular',
+    0: 'Skin',
+    1: 'Phổ biến',
     2: 'std | ctb',
     3: 'mania | taiko',
-    4: 'Recent',
-    5: 'Random',
-    6: 'All skins',
-    7: 'Aspect ratio',
-    8: 'All skins | osu skins',
-    9: 'Skin | Skins | Skins',
-    10: 'osu Skins by {name} | All skins from',
-    11: 'Search'
+    4: 'Gần đây',
+    5: 'Ngẫu nhiên',
+    6: 'Tất cả skin',
+    7: 'Tỷ lệ khung hình',
+    8: 'Tất cả skin | các skin osu!',
+    9: 'Skin | Skin | Skin',
+    10: 'Skin osu! bởi {name} | Tất cả các skin từ',
+    11: 'Tìm kiếm'
   },
   skin: {
-    0: 'Edit',
+    0: 'Chỉnh sửa',
     1: 'Bổ sung',
     2: 'HD',
     3: 'Full HD',
     4: 'Hoạt ảnh',
     5: 'Ảnh chụp màn hình',
     6: 'Chỉ gameplay',
-    7: 'Download link | Download skin',
-    8: 'Bài viết diễn đàn | diễn đàn osu!',
+    7: 'Tải skin | Tải skin',
+    8: 'Bài viết Forum | osu! Forum',
     9: 'Bài viết Reddit',
     10: 'Tác giả',
     11: 'Các Tag',
@@ -116,8 +116,8 @@ export default {
     22: 'Lượt tải xuống',
     23: 'Tải xuống sẽ sớm khả dụng',
     24: 'Còn {amount} giây',
-    25: 'You\'re not one of us',
-    26: 'Seems like you\'re not an author or editor of this skin'
+    25: 'Bạn không phải một trong số chúng tôi',
+    26: 'Có vẻ như bạn không phải là tác giả hay người chỉnh sửa skin này'
   },
   drag: {
     0: 'Nhấn vào đây',
@@ -129,28 +129,31 @@ export default {
   },
   credits: {
     0: 'Chibi',
-    1: 'Arts',
-    2: 'Icons',
-    3: 'All icons are taken from {name}',
-    4: 'Flags',
-    5: 'All flag images are from {name}'
+    1: 'Tranh vẽ',
+    2: 'Icon',
+    3: 'Mọi icon được lấy từ {name}',
+    4: 'Cờ',
+    5: 'Mọi hình ảnh cờ được lấy từ {name}',
+    6: 'Localisation',
+    7: 'Có ai không? [{lang}]',
+    8: 'Có vẻ như cpol quên thêm chúng vào. {text}'
   },
   search: {
-    0: 'Skin search',
-    1: 'Views',
-    2: 'Title',
+    0: 'Tìm kiếm skin',
+    1: 'Lượt xem',
+    2: 'Tiêu đề',
     3: 'Đánh giá',
     4: 'Kích thước',
-    5: 'Date',
-    7: 'Nothing found',
-    8: 'Try setting different search filters',
-    9: 'Pending a query',
-    10: 'Select the search filters or just write the skin title, the author or the tag'
+    5: 'Ngày tháng',
+    7: 'Không thấy gì cả',
+    8: 'Hãy thử điều chỉnh cách chọn lọc khác',
+    9: 'Đang chờ xử lý',
+    10: 'Hãy chọn các filter tìm kiếm hoặc chỉ cần ghi tên, tác giả hat các tag của skin'
   },
   tabs: {
-    0: 'Search',
-    1: 'Edit',
-    2: 'List'
+    0: 'Tìm kiếm',
+    1: 'Chỉnh sửa',
+    2: 'Danh sách'
   },
   undefined: {
     0: 'Empty',
@@ -158,7 +161,7 @@ export default {
     2: 'Unfortunately there is nothing here',
     3: 'Unauthorized',
     4: 'You need to be logged in to edit this skin.',
-    5: 'You need to be logged in to add new skin.'
+    5: 'You need to be logged in to add a new skin.'
   },
   meta: {
     title: {
@@ -171,7 +174,7 @@ export default {
       6: 'Những người đóng góp',
       7: 'osu skins',
       8: '{name} search osu skins',
-      9: 'Inspire yourself from other osu skins',
+      9: 'Get inspiration from other osu skins',
       10: '{name} created osu skins'
     },
     description: {
@@ -209,7 +212,7 @@ export default {
       0: 'Creator',
       1: 'Mixer',
       2: 'Animations',
-      3: 'Arts',
+      3: 'Tranh vẽ',
       4: 'Collab'
     }
   },
@@ -259,7 +262,7 @@ export default {
     7: 'Skin element',
     8: 'Audio/Sfx',
     9: 'Tools',
-    views: 'Views',
+    views: 'Lượt xem',
     likes: 'Likes',
     size_range: 'Select size',
     date_range: 'Select a date range',

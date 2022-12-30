@@ -1,5 +1,5 @@
 export default {
-  hello: 'asd',
+  hello: 'Hello',
   title: {
     home: 'Mājaslapa',
     page: 'lapa',
@@ -36,7 +36,7 @@ export default {
     0: 'Veidotāji',
     1: 'Kreditē visus, kuri bija iesaistīti šīs versijas izveidē',
     2: 'Neviena šeit nav',
-    3: 'Ierakstot spēlētāja vārdu, tev parādīsies osu meklēšanas rezultāti.',
+    3: 'Searching for a player\'s name will display a list of profiles.',
     4: 'Rediģētājs',
     5: 'Lomas',
     6: 'Versijas'
@@ -100,7 +100,7 @@ export default {
     5: 'Ekrānuzņēmumi',
     6: 'Tikai gameplay',
     7: 'Lejupielādes saite | Lejupielādēt skinu',
-    8: 'Foruma ziņa | osu! Forums',
+    8: 'Forum post | osu! Forum',
     9: 'Reddit post',
     10: 'Veidotāji',
     11: 'Tagi',
@@ -133,7 +133,10 @@ export default {
     2: 'Ikonas',
     3: 'Visas ikonas ir ņemtas no {name}',
     4: 'Karogi',
-    5: 'Visas karogu bildes ir no {name}'
+    5: 'Visas karogu bildes ir no {name}',
+    6: 'Localisation',
+    7: 'Anyone? [{lang}]',
+    8: 'Seems like, cpol forget to add them. {text}'
   },
   search: {
     0: 'Meklēt skinu',
@@ -158,7 +161,7 @@ export default {
     2: 'Diemžēl šeit nekā nav',
     3: 'Neautorizēts',
     4: 'Tev vajag pieslēgties, lai rediģētu šo skinu.',
-    5: 'Tev vajag pieslēgties, lai pievienotu jaunu skinu.'
+    5: 'You need to be logged in to add a new skin.'
   },
   meta: {
     title: {
@@ -171,7 +174,7 @@ export default {
       6: 'Izmantotie materiāli',
       7: 'osu skini',
       8: '{name} meklēt osu skinus',
-      9: 'Iedvesma',
+      9: 'Get inspiration from other osu skins',
       10: '{name} veidoja osu skinus'
     },
     description: {

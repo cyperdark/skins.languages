@@ -36,7 +36,7 @@ export default {
     0: 'Pembuat',
     1: 'Daftar orang yang terlibat membuat versi ini',
     2: 'Tidak ada siapapun disini',
-    3: 'Mengetik nama pemain akan menunjukan hasil dari pencarian.',
+    3: 'Mencari nama pemain akan menampilkan daftar profil.',
     4: 'Editor',
     5: 'Peran',
     6: 'Versi'
@@ -75,7 +75,7 @@ export default {
     12: 'Tidak ada link untuk skinnya',
     20: 'Cukup baik',
     21: 'Semua masalah sudah diperbaiki. Kerja Bagus!',
-    22: 'Checklist'
+    22: 'Daftar cek'
   },
   skins: {
     0: 'Skin',
@@ -132,12 +132,15 @@ export default {
     1: 'Art',
     2: 'Ikon',
     3: 'Semua ikon diambil dari {name}',
-    4: 'Flags',
-    5: 'All flag images are from {name}'
+    4: 'Bendera',
+    5: 'Semua gambar bendera diambil dari {name}',
+    6: 'Lokalisasi',
+    7: 'Seseorang? [{lang}]',
+    8: 'Sepertinya, cpol lupa menambahkan mereka. {text}'
   },
   search: {
     0: 'Cari Skin',
-    1: 'Views',
+    1: 'Dilihat',
     2: 'Judul',
     3: 'Penilaian',
     4: 'Ukuran',
@@ -157,7 +160,7 @@ export default {
     1: 'Sayangnya halaman ini kosong, kamu bisa melihat halaman lainnya',
     2: 'Sayangnya tidak ada apa-apa disini',
     3: 'Tidak diizinkan',
-    4: 'Kamu perlu masuk unruk meng-edit skin ini.',
+    4: 'Kamu perlu masuk untuk meng-edit skin ini.',
     5: 'Kamu perlu masuk unruk menambahkan skin baru.'
   },
   meta: {
@@ -171,7 +174,7 @@ export default {
       6: 'Credit',
       7: 'skin - skin osu!',
       8: 'Pencarian skin osu! {name}',
-      9: 'Ambil inspirasi dari skin osu! yang lain',
+      9: 'Dapatkan inspirasi dari skin lain',
       10: '{name} membuat skin osu!'
     },
     description: {
@@ -202,7 +205,7 @@ export default {
     copied: 'Disalin',
     reddit_link: 'Reddit',
     osu_forum_link: 'Forum osu!',
-    skin_return: 'Kembali ke skin '
+    skin_return: 'Kembali ke skin'
   },
   user: {
     roles: {
@@ -214,7 +217,7 @@ export default {
     }
   },
   tooltips: {
-    0: '{amount} views',
+    0: '{amount} kali dilihat',
     1: 'Refresh hasil',
     2: 'Turun | Naik',
     3: '{amount} suka',
@@ -236,40 +239,40 @@ export default {
       7: 'Spinner',
       8: 'Section Pass',
       9: 'Section Fail',
-      10: 'Pause Screen',
-      11: 'Fail Screen',
-      12: 'Result screen',
-      13: 'Skip',
+      10: 'Layar Jeda',
+      11: 'Layar Gagal',
+      12: 'Layar Hasil',
+      13: 'Lewati',
       14: 'Banner'
     },
     cats: {
       0: 'NSFW',
       1: 'Furry',
-      2: 'Mixed'
+      2: 'Campuran'
     }
   },
   select: {
     0: 'Baru',
-    1: 'Fixed',
-    2: 'Changed',
-    3: 'Removed',
+    1: 'Perbaikan',
+    2: 'Perubahan',
+    3: 'Dihapus',
     4: 'Art',
     5: 'Font',
-    6: 'Artist',
-    7: 'Skin element',
-    8: 'Audio/Sfx',
-    9: 'Tools',
-    views: 'Views',
-    likes: 'Likes',
-    size_range: 'Select size',
-    date_range: 'Select a date range',
-    ratio: 'Select aspect ratio | ratio'
+    6: 'Artis',
+    7: 'Elemen skin',
+    8: 'Audio/SFX',
+    9: 'Alat',
+    views: 'Dilihat',
+    likes: 'Suka',
+    size_range: 'Pilih ukuran',
+    date_range: 'Pilih rentang tanggal',
+    ratio: 'Pilih aspek rasio | rasio'
   },
   placeholders: {
-    0: 'Choose roles',
-    1: 'Choose versions',
-    2: 'Type text...',
-    3: 'Select size',
+    0: 'Pilih peran',
+    1: 'Pilih versi',
+    2: 'Tulis teks...',
+    3: 'Pilih ukuran',
     4: 'Pilih rentang tanggal',
     5: 'Tahun',
     6: 'Bulan',
@@ -278,9 +281,9 @@ export default {
     9: 'Gamemode',
     10: 'Pilih tipe',
     11: 'Tempel link YouTube',
-    12: 'Type description and url. Format description:url',
-    13: 'Select extra',
-    14: 'Paste a link',
+    12: 'Tulis deskripsi dan URL. Format: deskripsi:URL',
+    13: 'Pilih ekstra',
+    14: 'Tempel link',
     15: 'Judul, pembuat, atau label skin'
   }
 };

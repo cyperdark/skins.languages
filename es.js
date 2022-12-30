@@ -1,5 +1,5 @@
 export default {
-  hello: 'asd',
+  hello: 'Hola',
   title: {
     home: 'Inicio',
     page: 'Página',
@@ -36,7 +36,7 @@ export default {
     0: 'Creadores',
     1: 'Lista de todos los creadores que participaron en la creación de esta versión',
     2: 'No hay nadie aquí',
-    3: 'Escribiendo el nombre de un jugador te mostrará los resultados de búsqueda de osu',
+    3: 'Buscar el nickname de un jugador mostrará una lista de perfiles.',
     4: 'Editor',
     5: 'Roles',
     6: 'Versiones'
@@ -78,7 +78,7 @@ export default {
     22: 'Lista de verificación'
   },
   skins: {
-    0: 'Pieles',
+    0: 'Skins',
     1: 'Popular',
     2: 'std | ctb',
     3: 'mania | taiko',
@@ -100,7 +100,7 @@ export default {
     5: 'Captura de pantalla',
     6: 'Solo gameplay',
     7: 'Link de descarga | Descarga la skin',
-    8: 'Publicación en el foto | Foro de osu!',
+    8: 'Post en el foro | Foro de osu!',
     9: 'Publicación de Reddit',
     10: 'Creadores',
     11: 'Etiquetas',
@@ -133,7 +133,10 @@ export default {
     2: 'Iconos',
     3: 'Todos los íconos han sido tomados de {name}',
     4: 'Banderas',
-    5: 'Todas las imágenes de las banderas son de {name}'
+    5: 'Todas las imágenes de las banderas son de {name}',
+    6: 'Localización',
+    7: '¿Alguien? [{lang}]',
+    8: 'Parece que cpol se olvidó de añadirlos. {text}'
   },
   search: {
     0: 'Buscador de skins',
@@ -158,7 +161,7 @@ export default {
     2: 'Lamentablemente no hay nada aquí',
     3: 'No autorizado',
     4: 'Debes iniciar sesión para editar esta skin.',
-    5: 'Debes iniciar sesión para agregar una nueva piel.'
+    5: 'Debes iniciar sesión para agregar una nueva skin.'
   },
   meta: {
     title: {
@@ -171,7 +174,7 @@ export default {
       6: 'Créditos',
       7: 'skins de osu',
       8: '{name} buscador de skins de osu',
-      9: 'Inspírate de otras skins de osu',
+      9: 'Inspirate de otras skins de osu!',
       10: '{name} skins de osu creadas'
     },
     description: {

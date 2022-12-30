@@ -1,5 +1,5 @@
 export default {
-  hello: 'hej',
+  hello: 'Hello',
   title: {
     home: 'Hjem',
     page: 'side',
@@ -36,7 +36,7 @@ export default {
     0: 'Skabere',
     1: 'List alle ophavsmænd, der var involveret i at lave denne version',
     2: 'Intet er her',
-    3: 'Typing in a player\'s name will show you the results of the osu search.',
+    3: 'Searching for a player\'s name will display a list of profiles.',
     4: 'Editor',
     5: 'Roles',
     6: 'Versions'
@@ -100,7 +100,7 @@ export default {
     5: 'Screenshots',
     6: 'Gameplay only',
     7: 'Download link | Download skin',
-    8: 'Forum post |osu! Forum',
+    8: 'Forum post | osu! Forum',
     9: 'Reddit post',
     10: 'Skabere',
     11: 'Tags',
@@ -133,7 +133,10 @@ export default {
     2: 'Icons',
     3: 'All icons are taken from {name}',
     4: 'Flags',
-    5: 'All flag images are from {name}'
+    5: 'All flag images are from {name}',
+    6: 'Localisation',
+    7: 'Anyone? [{lang}]',
+    8: 'Seems like, cpol forget to add them. {text}'
   },
   search: {
     0: 'Skin search',
@@ -158,7 +161,7 @@ export default {
     2: 'Unfortunately there is nothing here',
     3: 'Unauthorized',
     4: 'You need to be logged in to edit this skin.',
-    5: 'You need to be logged in to add new skin.'
+    5: 'You need to be logged in to add a new skin.'
   },
   meta: {
     title: {
@@ -171,7 +174,7 @@ export default {
       6: 'Credits',
       7: 'osu skins',
       8: '{name} search osu skins',
-      9: 'Inspire yourself from other osu skins',
+      9: 'Get inspiration from other osu skins',
       10: '{name} created osu skins'
     },
     description: {

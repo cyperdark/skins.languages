@@ -1,5 +1,5 @@
 export default {
-  hello: 'asd',
+  hello: 'Olá',
   title: {
     home: 'Página Inicial',
     page: 'página',
@@ -36,7 +36,7 @@ export default {
     0: 'Criadores',
     1: 'Liste todos os criadores que estavam envolvidos na criação desta versão',
     2: 'Não há ninguém aqui',
-    3: 'Digitar o nickname de um jogador irá lhe mostrar os resultados da pesquisa do osu.',
+    3: 'Procurar o nome de um jogador exibirá uma lista de perfis.',
     4: 'Editor',
     5: 'Funções',
     6: 'Versões'
@@ -133,7 +133,10 @@ export default {
     2: 'Ícones',
     3: 'Todos os icones foram providenciados por {name}',
     4: 'Bandeiras',
-    5: 'Todas as imagens das bandeiras são de {name}'
+    5: 'Todas as imagens das bandeiras são de {name}',
+    6: 'Localização',
+    7: 'Alguém?[{lang}]',
+    8: 'Parece que o cpol esqueceu de adicioná-los. {text}'
   },
   search: {
     0: 'Buscar skin',
@@ -171,7 +174,7 @@ export default {
       6: 'Créditos',
       7: 'osu skins',
       8: '{name} procure por skins de osu',
-      9: 'Crie inspiração a partir de outras skins de osu',
+      9: 'Consiga inspiração com outras skins de osu!',
       10: '{name} criou skins de osu'
     },
     description: {

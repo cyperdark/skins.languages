@@ -1,8 +1,8 @@
 export default {
-  hello: 'ahoj',
+  hello: 'Hello',
   title: {
-    home: 'Domovská',
-    page: 'stránka',
+    home: 'Domovská stránka',
+    page: 'page',
     guest: 'Prihlásenie',
     lists: { 0: 'Zoznamy' },
     tags: {
@@ -36,7 +36,7 @@ export default {
     0: 'Vývojári',
     1: 'Zoznam všetkých vývojárov ktorí boli zapojení vo vývoji tejto verzie',
     2: 'Nikto tu nieje',
-    3: 'Napísanie hráčov ho mena vám ukáže výsledky osu vyhľadávania.',
+    3: 'Searching for a player\'s name will display a list of profiles.',
     4: 'Editor',
     5: 'Role',
     6: 'Verzie'
@@ -100,7 +100,7 @@ export default {
     5: 'Screenshots',
     6: 'Iba hrateľnosť',
     7: 'Link na stiahnutie | stahovací link',
-    8: 'Príspevok na fóre |osu! Fórum',
+    8: 'Forum post | osu! Forum',
     9: 'Reddit príspevok',
     10: 'Vývojári',
     11: 'Tags',
@@ -133,7 +133,10 @@ export default {
     2: 'Ikony',
     3: 'Všetky ikony sú prevzaté z {name}',
     4: 'Vlajky',
-    5: 'Všetke obrázky vlajok sú od {name}'
+    5: 'Všetke obrázky vlajok sú od {name}',
+    6: 'Localisation',
+    7: 'Anyone? [{lang}]',
+    8: 'Seems like, cpol forget to add them. {text}'
   },
   search: {
     0: 'Vyhľadať skin',
@@ -158,7 +161,7 @@ export default {
     2: 'Bohužiaľ tu nič nie je',
     3: 'Neoprávnené',
     4: 'Ak chcete upraviť tento skin, musíte byť prihlásený.',
-    5: 'Musíte byt prihlásený ak chcete pridať novy skin.'
+    5: 'You need to be logged in to add a new skin.'
   },
   meta: {
     title: {
@@ -171,7 +174,7 @@ export default {
       6: 'Kredit',
       7: 'osu skiny',
       8: '{name} vyhľadaj osu skiny',
-      9: 'Inšpirujte sa inými osu skinmi',
+      9: 'Get inspiration from other osu skins',
       10: '{name} výrobca osu skinou'
     },
     description: {

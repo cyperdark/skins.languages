@@ -1,5 +1,5 @@
 export default {
-  hello: 'asd',
+  hello: 'Hello',
   title: {
     home: 'Αρχική',
     page: 'σελίδα',
@@ -36,7 +36,7 @@ export default {
     0: 'Δημιουργοί',
     1: 'Λίστα όλων των δημιουργών που συμμετείχαν στη δημιουργία αυτής της έκδοσης',
     2: 'Κανένας δεν είναι εδώ',
-    3: 'Η πληκτρολόγηση ονόματος ενός παίκτη σας δείχνει τα αποτελέσματα αναζήτησης στο osu.',
+    3: 'Searching for a player\'s name will display a list of profiles.',
     4: 'Επεξεργαστής',
     5: 'Ρόλοι',
     6: 'Εκδόσεις'
@@ -100,7 +100,7 @@ export default {
     5: 'Στιγμιότυπα',
     6: 'Μόνο gameplay',
     7: 'Σύνδεσμος λήψης | Λήψη του skin',
-    8: 'Ανάρτηση στα forum | osu! Forum',
+    8: 'Forum post | osu! Forum',
     9: 'Ανάρτηση Reddit',
     10: 'Δημιουργοί',
     11: 'Ετικέτες',
@@ -133,7 +133,10 @@ export default {
     2: 'Εικονίδια',
     3: 'Όλα τα εικονίδια έχουν ληφθεί από το {name}',
     4: 'Σημαίες',
-    5: 'Όλες οι εικόνες των σημαιών είναι από το {name}'
+    5: 'Όλες οι εικόνες των σημαιών είναι από το {name}',
+    6: 'Localisation',
+    7: 'Anyone? [{lang}]',
+    8: 'Seems like, cpol forget to add them. {text}'
   },
   search: {
     0: 'Αναζήτηση skin',
@@ -158,7 +161,7 @@ export default {
     2: 'Δυστυχώς, δεν υπάρχει τίποτα εδώ',
     3: 'Μη εξουσιοδοτημένο',
     4: 'Πρέπει να είστε συνδεδεμένος για να τροποποιήσετε το skin.',
-    5: 'Πρέπει να είστε συνδεδεμένος για να προσθέσετε νέο skin.'
+    5: 'You need to be logged in to add a new skin.'
   },
   meta: {
     title: {
@@ -171,7 +174,7 @@ export default {
       6: 'Ευχαριστίες',
       7: 'osu skins',
       8: '{name} αναζήτηση osu skins',
-      9: 'Εμπνευστείτε από άλλα osu skins',
+      9: 'Get inspiration from other osu skins',
       10: '{name} δημιουργημένα osu skins'
     },
     description: {

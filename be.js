@@ -1,28 +1,28 @@
 export default {
-  hello: 'asd',
+  hello: 'Прывітанне',
   title: {
-    home: 'Home',
-    page: 'page',
-    guest: 'Log in',
-    lists: { 0: 'Lists' },
+    home: 'Галоўная',
+    page: 'старонка',
+    guest: 'Увайсці',
+    lists: { 0: 'Спісы' },
     tags: {
-      0: 'Tags',
-      1: '{amount} tags for category {name}'
+      0: 'Тэгі',
+      1: '{amount} тэгаў для катэгорыі {name}'
     },
     ideas: {
-      0: 'Inspiration',
+      0: 'Натхненне',
       1: '«{amount}»'
     },
-    sounds: { 0: 'Sounds' },
-    leaderboard: { 0: 'Leaderboards' },
-    extend: { 0: 'More | Less' },
+    sounds: { 0: 'Гукі' },
+    leaderboard: { 0: 'Дошка лідараў' },
+    extend: { 0: 'Больш | Менш' },
     skin: {
-      0: 'This skin contains elements from other skins',
-      1: 'Click here for more information'
+      0: 'Гэты скін утрымоўвае элементы з іншых скіноў',
+      1: 'Націсніце для падрабязнасцей'
     }
   },
   changelogs: {
-    0: 'Changelog',
+    0: 'Спіс змяненняў',
     1: 'List of all the revisions done in the current version',
     2: 'Nothing here',
     3: 'But you can add the changes you made to this version of the skin',
@@ -36,13 +36,13 @@ export default {
     0: 'Creators',
     1: 'List all creators who were involved in making this version',
     2: 'No one is here',
-    3: 'Typing in a player\'s name will show you the results of the osu search.',
+    3: 'Searching for a player\'s name will display a list of profiles.',
     4: 'Editor',
     5: 'Roles',
     6: 'Versions'
   },
   tags: {
-    0: 'Tags',
+    0: 'Тэгі',
     1: 'List of all the tags related to this skin',
     2: 'It seems pretty empty here.',
     3: 'Use the field above to find new tags'
@@ -100,10 +100,10 @@ export default {
     5: 'Screenshots',
     6: 'Gameplay only',
     7: 'Download link | Download skin',
-    8: 'Forum post |osu! Forum',
+    8: 'Forum post | osu! Forum',
     9: 'Reddit post',
     10: 'Creators',
-    11: 'Tags',
+    11: 'Тэгі',
     13: 'Videos',
     14: 'New Version | Manage versions',
     15: 'Update | Submit',
@@ -133,7 +133,10 @@ export default {
     2: 'Icons',
     3: 'All icons are taken from {name}',
     4: 'Flags',
-    5: 'All flag images are from {name}'
+    5: 'All flag images are from {name}',
+    6: 'Localisation',
+    7: 'Anyone? [{lang}]',
+    8: 'Seems like, cpol forget to add them. {text}'
   },
   search: {
     0: 'Skin search',
@@ -158,7 +161,7 @@ export default {
     2: 'Unfortunately there is nothing here',
     3: 'Unauthorized',
     4: 'You need to be logged in to edit this skin.',
-    5: 'You need to be logged in to add new skin.'
+    5: 'You need to be logged in to add a new skin.'
   },
   meta: {
     title: {
@@ -171,7 +174,7 @@ export default {
       6: 'Credits',
       7: 'osu skins',
       8: '{name} search osu skins',
-      9: 'Inspire yourself from other osu skins',
+      9: 'Get inspiration from other osu skins',
       10: '{name} created osu skins'
     },
     description: {
