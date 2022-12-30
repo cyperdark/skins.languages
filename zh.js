@@ -1,177 +1,180 @@
 export default {
-  hello: 'asd',
+  hello: 'Hello',
   title: {
-    home: '首頁',
-    page: '頁',
-    guest: '登入',
-    lists: { 0: '清單' },
+    home: '主页',
+    page: '页',
+    guest: '登录',
+    lists: { 0: 'Lists' },
     tags: {
-      0: '標籤',
-      1: '{name} 有 {amount} 個標籤'
+      0: '标签',
+      1: '{amount} tags for category {name}'
     },
     ideas: {
-      0: '素材參考',
+      0: 'Inspiration',
       1: '«{amount}»'
     },
     sounds: { 0: '音效' },
     leaderboard: { 0: '排行榜' },
     extend: { 0: '更多 | 更少' },
     skin: {
-      0: '這個skin有源於其他skin的素材',
-      1: '點擊這裡以瞭解詳情'
+      0: '此皮肤包含来自其他皮肤的元素',
+      1: '点击这里获取更多信息'
     }
   },
   changelogs: {
-    0: '更新日誌',
-    1: '列出所有對於目前版本的改動',
-    2: '這裡什麼都沒有',
-    3: '但是你可以自行添加你對這版本skin的改動',
-    4: '未分類',
-    5: '新',
-    6: '修復',
-    7: '改動',
+    0: '更新日志',
+    1: '当前版本完成的所有修订列表',
+    2: '这里什么也没有',
+    3: '但您可以添加您对此版本的皮肤所作的更改',
+    4: '未分组',
+    5: '新增',
+    6: '已修复',
+    7: '更改',
     8: '移除'
   },
   creators: {
-    0: '創作者',
-    1: '列出所有參與此版本的創作者',
-    2: '人...呢?',
-    3: '搜尋玩家的名子會顯示相關的個人介面',
-    4: '編輯者',
-    5: '身分',
+    0: '作者',
+    1: '列出所有参与此版本制作的创作者',
+    2: '这里没有人',
+    3: 'Searching for a player\'s name will display a list of profiles.',
+    4: '编辑者',
+    5: '角色',
     6: '版本'
   },
   tags: {
-    0: '標籤',
-    1: '列出所有有關這個skin的標籤',
-    2: '空空如也',
-    3: '利用上面的區塊來找尋新標籤'
+    0: '标签',
+    1: '与此皮肤相关的所有标签列表',
+    2: '这里似乎什么也没有',
+    3: '使用上面的字段查找新标签'
   },
   videos: {
-    0: '影片',
-    1: '列出所有展示這個skin的影片',
-    2: '沒有showcase',
-    3: 'Youtube上尋找或者創建自己的showcase'
+    0: '视频',
+    1: '此皮肤的所有的演示视频列表',
+    2: '没有演示视频',
+    3: '在 YouTube 上搜索或创建您自己的演示视频'
   },
   sources: {
-    0: '來源',
-    1: '列出當前版本skin的所用過的資源和工具',
-    2: '啪 什麼都沒有',
-    3: '如果你用了來自其他skin的資源, 請確定你有將它們加進上面的欄位',
-    4: '未分類'
+    0: '属性',
+    1: '在此版本的皮肤中所有使用过的资源或工具列表',
+    2: '此处什么也没有',
+    3: '如果您使用了来自其他皮肤的资源或艺术作品，请务必将其添加到上面的框中',
+    4: '未分组'
   },
   checks: {
-    0: '所有',
-    1: '內容',
-    2: 'Highlight',
-    4: '請添加至少一個創作者',
-    5: '請添加一些標籤',
-    6: '未標明skin的大小',
-    7: '請選擇至少一種遊戲模式',
-    8: '請選擇圖片解析度(SD 或 HD)',
-    9: '請選擇至少一種長寬比',
-    10: '無任何截圖',
-    11: '添加至少一張遊戲畫面的截圖',
-    12: '未標明skin的下載連結',
-    20: '看起來很棒極了',
-    21: '所有的問題都被解決了 :thumbsup:',
-    22: '檢查'
+    0: '全部',
+    1: '元数据',
+    2: '高光',
+    4: '添加至少一个皮肤作者',
+    5: '添加多个标签',
+    6: '皮肤大小未指定',
+    7: '选择至少一个游戏模式',
+    8: '选择图像分辨率(SD 或 HD)',
+    9: '选择至少一个宽高比',
+    10: '未提供截图',
+    11: '添加至少一张游戏截图',
+    12: '皮肤链接未指定',
+    20: '看起来非常棒',
+    21: '每个问题都已解决，干得好',
+    22: '检查清单'
   },
   skins: {
-    0: 'Skins',
-    1: '熱門度',
-    2: 'std | ctb',
-    3: 'mania | taiko',
-    4: '最新的',
-    5: '隨機',
-    6: '所有skin',
-    7: '長寬比',
-    8: '所有 skin | osu skin',
+    0: '皮肤',
+    1: '热门',
+    2: '戳泡泡 | 接水果',
+    3: '下落式 | 太鼓',
+    4: '最新',
+    5: '随机',
+    6: '所有皮肤',
+    7: '宽高比',
+    8: '所有皮肤 | osu! 皮肤',
     9: 'Skin | Skins | Skins',
-    10: '{name} 創建的 osu Skins | 所有的skin源自於',
-    11: '搜尋'
+    10: 'osu Skins by {name} | All skins from',
+    11: '搜索'
   },
   skin: {
-    0: '編輯',
-    1: '額外資訊',
+    0: '编辑',
+    1: '更多',
     2: 'HD',
     3: 'FullHD',
-    4: '動畫',
-    5: '截圖',
-    6: '僅限遊玩',
-    7: '下載連結 | 下載skin',
-    8: '論壇貼文 | osu! 論壇',
-    9: 'Reddit 貼文',
-    10: '創作者',
-    11: '標籤',
-    13: '影片',
+    4: '动画',
+    5: '截图',
+    6: 'Gameplay only',
+    7: '下载链接 | 下载皮肤',
+    8: 'Forum post | osu! Forum',
+    9: 'Reddit 帖子',
+    10: '作者',
+    11: '标签',
+    13: '视频',
     14: '新版本 | 管理版本',
     15: '更新 | 提交',
-    16: '遊戲模式',
-    17: 'skin的名子',
-    18: '版本 | 版本',
+    16: '游戏模式',
+    17: '皮肤名称',
+    18: 'Version | Versions',
     19: '尺寸',
-    20: '內容',
-    21: '評分',
-    22: '下載數',
-    23: '很快就會開始你的下載',
-    24: '剩 {amount} 秒',
-    25: '你不是我們之一',
-    26: '看起來你好像不是此skin的作者或編輯者'
+    20: '元数据',
+    21: '评分',
+    22: '下载',
+    23: '下载即将可用',
+    24: '剩余 {amount} 秒',
+    25: '您不是我们的成员',
+    26: '看起来您不是此皮肤的作者或编辑者'
   },
   drag: {
-    0: '點擊此處',
-    1: '或拖放圖片至此'
+    0: '点击这里',
+    1: '或者拖放图像到这里'
   },
   footer: {
-    0: 'Made by cyperdark',
-    1: 'Credits'
+    0: '由cyperdark制作',
+    1: '版权'
   },
   credits: {
     0: 'Chibi',
-    1: '美術',
-    2: '圖示',
-    3: '所有的圖示都源自於 {name}',
-    4: '旗幟',
-    5: '所有的旗幟都源自於 {name}'
+    1: '艺术品',
+    2: '图标',
+    3: '所有图标来自 {name}',
+    4: '旗帜',
+    5: '所有旗帜图像都来自 {name}',
+    6: 'Localisation',
+    7: 'Anyone? [{lang}]',
+    8: 'Seems like, cpol forget to add them. {text}'
   },
   search: {
-    0: '搜尋skin',
-    1: '觀看數',
-    2: '標題',
-    3: '評分',
+    0: '皮肤查询',
+    1: '视图',
+    2: '标题',
+    3: '评分',
     4: '尺寸',
-    5: '添加日期',
-    7: '無搜尋結果',
-    8: '試試以其他的過濾方式搜尋',
-    9: '看起來遇到了一些問題',
-    10: '選擇過濾方式或輸入skin名、作者、或標籤來搜尋'
+    5: '日期',
+    7: '未找到任何内容',
+    8: '请尝试设置不同的搜索过滤器',
+    9: '待查询中',
+    10: '使用搜索过滤器或只写入皮肤标题、作者或标签'
   },
   tabs: {
-    0: '搜尋',
-    1: '編輯',
-    2: '清單'
+    0: '搜索',
+    1: '编辑',
+    2: 'List'
   },
   undefined: {
     0: '空',
-    1: '這裡什麼都沒有 你可以看看其他頁面 ',
-    2: '這裡什麼都沒有',
-    3: '未授權',
-    4: '必須登入後才能編輯此skin',
-    5: '必須登入後才能創建新skin'
+    1: '很不幸，这里没有任何东西，您可以查看其他页面',
+    2: '很不幸，这里没有任何内容',
+    3: '无权限',
+    4: '你需要登录才能编辑此皮肤。',
+    5: 'You need to be logged in to add a new skin.'
   },
   meta: {
     title: {
-      0: '首頁',
-      1: '遊戲模式, 長寬比 osu skins',
-      2: '最熱門的skin',
-      3: '搜尋osu skin',
-      4: 'List of tags, {name}',
+      0: '主页',
+      1: 'Gamemodes, aspect ratios osu skins',
+      2: '热门的 osu! 皮肤',
+      3: '搜索 osu! 皮肤',
+      4: '标签列表， {name}',
       5: '{name} v{version} osu skin',
-      6: 'Credits',
-      7: 'osu skins',
+      6: '版权',
+      7: 'osu! 皮肤',
       8: '{name} search osu skins',
-      9: 'Inspire yourself from other osu skins',
+      9: 'Get inspiration from other osu skins',
       10: '{name} created osu skins'
     },
     description: {
@@ -184,14 +187,14 @@ export default {
       5: 'List of existing tags for osu skins.',
       6: '{name} osu skins collection!, free downloading',
       7: 'A huge amount of osu skins for {name}, download for free!',
-      8: 'All osu skins created by {name}',
+      8: '所有由 {name} 创建的 osu! 皮肤',
       9: 'Find inspiration for your next osu! skin at our site. Browse through a diverse collection of skins and discover new techniques and ideas. Get inspired and create your own unique skins.'
     },
     keywords: { 0: 'osu, osu!, osu skins, std skins, ctb skins, mania skins, taiko skins, mrekk osu skins,Rafis osu skins,FlyingTuna osu skins,Vaxei osu skins,Cookiezi osu skins,Varvalian osu skins,RyuK osu skins,WhiteCat osu skins,_RyuK osu skins,BeasttrollMC osu skins,Genshin Impact osu skins,Mathi osu skins,WubWoofWolf osu skins,Merami osu skins,xootynator osu skins,Gayzmcgee osu skins,[Karcher] osu skins,Bubbleman osu skins,ChomikBox osu skins,NSFW osu skins,Lifeline osu skins,Hatsune Miku osu skins,Azerite osu skins,Umbre osu skins,404 AimNotFound osu skins,-Nikstrim osu skins,bloo osu skins,Shigetora osu skins,Badeu osu skins,FunOrange osu skins,worst hr player osu skins,Tekkito osu skins,ninerik osu skins,azr8 osu skins,idke osu skins,Andros osu skins,Zylice osu skins,Rektygon osu skins,Komori osu skins,anime osu skins,cyperdark osu skins,Red_Pixel osu skins,Utami osu skins,Arknights osu skins,Karthy osu skins,Paraqeet osu skins,aetrna osu skins,Spare osu skins,-GN osu skins,Mastasz osu skins,Seouless osu skins,haga1115 osu skins,shimon osu skins,fieryrage osu skins,Ekoro osu skins,Firebat92 osu skins,_Shield osu skins,-Roaz- osu skins,- Dark - osu skins,atturbo555 osu skins,Aristia osu skins,_Aiko__ osu skins,z x c osu skins,eternum osu skins,talala osu skins,NyanPotato osu skins,Arnold24x24 osu skins,Alumetri osu skins,im a fancy lad osu skins,jordanlr7 osu skins,Woey osu skins,khz osu skins,rrtyui osu skins,kieg osu skins,Rupertion osu skins,FGSky osu skins,Aireu osu skins,Neko God osu skins,Apostol osu skins,Abyssal osu skins,dokidokilolixx osu skins,Mlaw osu skins,Ponytail osu skins,Reedkatt osu skins,Zestiny osu skins,Apraxia osu skins,Binfy osu skins,Rohulk osu skins,-PloX osu skins,DuyKhang-sama osu skins,BronyPH osu skins,Intercambing osu skins,Xeltol osu skins,Valorant osu skins,Akolibed osu skins,hololive osu skins,kablaze osu skins,tokyo ghoul osu skins,Trail Mix osu skins,Dereban osu skins' }
   },
   buttons: {
     0: 'Login',
-    1: '首頁',
+    1: '主页',
     profile_osu: 'osu! Profile',
     new_skin: 'New skin',
     notifications: 'Notifications',
@@ -209,7 +212,7 @@ export default {
       0: 'Creator',
       1: 'Mixer',
       2: 'Animations',
-      3: '美術',
+      3: '艺术品',
       4: 'Collab'
     }
   },
@@ -244,12 +247,12 @@ export default {
     },
     cats: {
       0: 'NSFW',
-      1: 'Furry',
+      1: '福瑞',
       2: 'Mixed'
     }
   },
   select: {
-    0: '新',
+    0: '新增',
     1: 'Fixed',
     2: 'Changed',
     3: 'Removed',
@@ -259,11 +262,11 @@ export default {
     7: 'Skin element',
     8: 'Audio/Sfx',
     9: 'Tools',
-    views: '觀看數',
+    views: '视图',
     likes: 'Likes',
     size_range: 'Select size',
     date_range: 'Select a date range',
-    ratio: '選擇長寬比 | 長寬比'
+    ratio: 'Select aspect ratio | ratio'
   },
   placeholders: {
     0: 'Choose roles',
@@ -273,9 +276,9 @@ export default {
     4: 'Select date range',
     5: 'Year',
     6: 'Month',
-    7: '選擇長寬比',
+    7: 'Select aspect ratio',
     8: 'Select categories',
-    9: '遊戲模式',
+    9: '游戏模式',
     10: 'Select type',
     11: 'Paste a YouTube link',
     12: 'Type description and url. Format description:url',
