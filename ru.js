@@ -135,8 +135,8 @@ export default {
     4: 'Флаги',
     5: 'Все изображения флагов взяты из {name}',
     6: 'Localisation',
-    7: 'Anyone? [{lang}]',
-    8: 'Seems like, cpol forget to add them. {text}'
+    7: 'Кто-нибудь? [{lang}]',
+    8: 'Похоже, что cpol забыл добавить их. {text}'
   },
   search: {
     0: 'Поиск скинов',
