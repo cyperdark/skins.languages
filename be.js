@@ -23,53 +23,53 @@ export default {
   },
   changelogs: {
     0: 'Спіс змяненняў',
-    1: 'List of all the revisions done in the current version',
-    2: 'Nothing here',
-    3: 'But you can add the changes you made to this version of the skin',
-    4: 'Not grouped',
-    5: 'New',
-    6: 'Fixes',
-    7: 'Changes',
-    8: 'Removals'
+    1: 'Спіс усіх змяненняў, зробленых у цяперашняй версіі',
+    2: 'Тут нічога няма',
+    3: 'Але ж вам магчыма дадаць змяненні, якія вы зрабілі да гэтай версіі скіна',
+    4: 'Не групавана',
+    5: 'Новае',
+    6: 'Выпраўлення',
+    7: 'Змяненні',
+    8: 'Выдалена'
   },
   creators: {
-    0: 'Creators',
-    1: 'List all creators who were involved in making this version',
-    2: 'No one is here',
-    3: 'Searching for a player\'s name will display a list of profiles.',
-    4: 'Editor',
-    5: 'Roles',
-    6: 'Versions'
+    0: 'Стваральнікі',
+    1: 'Спіс усіх стваральнікаў, хто ўдзельнічаў у стварэнні цяперашняй версіі',
+    2: 'Тут нікога няма',
+    3: 'Пошук імені гульца выклікае спіс профіляў.',
+    4: 'Рэдактар​​',
+    5: 'Ролі',
+    6: 'Версіі'
   },
   tags: {
     0: 'Тэгі',
-    1: 'List of all the tags related to this skin',
-    2: 'It seems pretty empty here.',
-    3: 'Use the field above to find new tags'
+    1: 'Спіс усіх тэгаў, якія адносяцца да гэтага скіна',
+    2: 'Выглядае вельмі пуста.',
+    3: 'Карыстайцеся полем зверху для пошуку новых тэгаў'
   },
   videos: {
-    0: 'Videos',
-    1: 'List of all the video showcases for this skin',
-    2: 'No showcases',
-    3: 'Search for some on YouTube or create your own showcase'
+    0: 'Відэа',
+    1: 'Спіс усіх відэа прадстаўленняў скіна',
+    2: 'Няма відэа прадстаўленняў',
+    3: 'Пашукайце відэа прадстаўленне на YouTube ці зрабіце сваё'
   },
   sources: {
-    0: 'Attribution',
-    1: 'List of all used assets or tools in this version of the skin',
-    2: 'Kinda empty here',
-    3: 'If you have used assets from other skins, or arts, be sure to add them in the box above',
-    4: 'Not grouped'
+    0: 'Атрыбуты',
+    1: 'Спіс усіх скарыстаных асэтаў ці інструмантаў у гэтай версіі скіна',
+    2: 'Тут троху пуста',
+    3: 'Калі вы карысталіся асэтамі ці малюнкамі з другіх скіноў, пераканайцеся, што дабавілі іх у спіс вышэй',
+    4: 'Не групавана'
   },
   checks: {
-    0: 'All',
-    1: 'Metadata',
-    2: 'Highlight',
-    4: 'Add at least one skin creator',
-    5: 'Add a couple of tags',
-    6: 'Size of the skin not specified',
-    7: 'Select at least one gamemode',
-    8: 'Select image resolution (SD or HD)',
-    9: 'Select at least one aspect ratio',
+    0: 'Усё',
+    1: 'Метаданыя',
+    2: 'Вылучыць тэкст',
+    4: 'Дадайце як менш аднаго стваральніка скіна',
+    5: 'Дадайце троху тэгаў',
+    6: 'Памер скіна не вызначаны',
+    7: 'Выберыце як менш адзін рэжым гульні',
+    8: 'Выберыце распазнаванне відарысаў (SD ці HD)',
+    9: 'Выберыце як менш адно суаднясенне бакоў',
     10: 'No screenshots provided',
     11: 'Add at least one gameplay screenshot',
     12: 'Link to the skin not specified',
@@ -78,7 +78,7 @@ export default {
     22: 'Checklist'
   },
   skins: {
-    0: 'Skins',
+    0: 'Скіны',
     1: 'Popular',
     2: 'std | ctb',
     3: 'mania | taiko',
@@ -102,16 +102,16 @@ export default {
     7: 'Download link | Download skin',
     8: 'Forum post | osu! Forum',
     9: 'Reddit post',
-    10: 'Creators',
+    10: 'Стваральнікі',
     11: 'Тэгі',
-    13: 'Videos',
+    13: 'Відэа',
     14: 'New Version | Manage versions',
     15: 'Update | Submit',
     16: 'Gamemodes',
     17: 'Name of the skin',
     18: 'Version | Versions',
     19: 'Size',
-    20: 'Metadata',
+    20: 'Метаданыя',
     21: 'Rating',
     22: 'Downloads',
     23: 'Download will be available soon',
@@ -124,7 +124,7 @@ export default {
     1: 'or drag & drop images here'
   },
   footer: {
-    0: 'Made by cyperdark',
+    0: 'Зроблена cyperdark',
     1: 'Credits'
   },
   credits: {
@@ -140,11 +140,11 @@ export default {
   },
   search: {
     0: 'Skin search',
-    1: 'Views',
-    2: 'Title',
+    1: 'Праглядаў',
+    2: 'Назва',
     3: 'Rating',
     4: 'Size',
-    5: 'Date',
+    5: 'Дата',
     7: 'Nothing found',
     8: 'Try setting different search filters',
     9: 'Pending a query',
@@ -153,10 +153,10 @@ export default {
   tabs: {
     0: 'Search',
     1: 'Edit',
-    2: 'List'
+    2: 'Спіс'
   },
   undefined: {
-    0: 'Empty',
+    0: 'Пуста',
     1: 'Unfortunately there is nothing here, anyway you can look at other pages',
     2: 'Unfortunately there is nothing here',
     3: 'Unauthorized',
@@ -165,7 +165,7 @@ export default {
   },
   meta: {
     title: {
-      0: 'Home page',
+      0: 'Хатняя старонка',
       1: 'Gamemodes, aspect ratios osu skins',
       2: 'Popular osu skins',
       3: 'Search osu skins',
@@ -194,22 +194,22 @@ export default {
   },
   buttons: {
     0: 'Login',
-    1: 'Home page',
+    1: 'Хатняя старонка',
     profile_osu: 'osu! Profile',
     new_skin: 'New skin',
     notifications: 'Notifications',
     settings: 'Settings',
-    logout: 'Log out',
+    logout: 'Выйсці',
     load_more: 'Load more',
     copy_short: 'Copy short link',
     copied: 'Copied',
     reddit_link: 'Reddit',
-    osu_forum_link: 'osu! Forum',
+    osu_forum_link: 'osu! Форум',
     skin_return: 'Back to skin'
   },
   user: {
     roles: {
-      0: 'Creator',
+      0: 'Стваральнік',
       1: 'Mixer',
       2: 'Animations',
       3: 'Arts',
@@ -246,13 +246,13 @@ export default {
       14: 'Banner'
     },
     cats: {
-      0: 'NSFW',
+      0: 'Небяспечны для працы/NSFW',
       1: 'Furry',
       2: 'Mixed'
     }
   },
   select: {
-    0: 'New',
+    0: 'Новае',
     1: 'Fixed',
     2: 'Changed',
     3: 'Removed',
@@ -262,7 +262,7 @@ export default {
     7: 'Skin element',
     8: 'Audio/Sfx',
     9: 'Tools',
-    views: 'Views',
+    views: 'Праглядаў',
     likes: 'Likes',
     size_range: 'Select size',
     date_range: 'Select a date range',
@@ -274,8 +274,8 @@ export default {
     2: 'Type text...',
     3: 'Select size',
     4: 'Select date range',
-    5: 'Year',
-    6: 'Month',
+    5: 'Год',
+    6: 'Месяц',
     7: 'Select aspect ratio',
     8: 'Select categories',
     9: 'Gamemodes',
