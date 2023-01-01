@@ -173,7 +173,7 @@ export default {
       5: 'Skinul de osu {name} v{version}',
       6: 'Credite',
       7: 'skinuri de osu',
-      8: '{name} search osu skins',
+      8: '{name} caută skinuri osu',
       9: 'Inspiră-te de la alte skinuri de osu',
       10: '{name} a creat skinuri de osu'
     },

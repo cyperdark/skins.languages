@@ -1,5 +1,5 @@
 export default {
-  hello: 'Hello',
+  hello: 'Benvenuto',
   title: {
     home: 'Pagina',
     page: 'iniziale',
@@ -14,7 +14,7 @@ export default {
       1: '«{amount}»'
     },
     sounds: { 0: 'Suoni' },
-    leaderboard: { 0: 'Leaderboards' },
+    leaderboard: { 0: 'Classifiche' },
     extend: { 0: 'Di più | Di meno' },
     skin: {
       0: 'Questa skin contiene elementi da altre skin',
@@ -36,7 +36,7 @@ export default {
     0: 'Creatori',
     1: 'Lista tutti i creatori che si sono impegnati nel fare questa versione',
     2: 'Nessuno è qui',
-    3: 'Searching for a player\'s name will display a list of profiles.',
+    3: 'Cercare il nome di un player mostrerà una lista di profili.',
     4: 'Editor',
     5: 'Ruoli',
     6: 'Versioni'
@@ -100,12 +100,12 @@ export default {
     5: 'Screenshots',
     6: 'Solo gameplay',
     7: 'Link download | Scarica skin',
-    8: 'Forum post | osu! Forum',
+    8: 'Post forum | Forum di osu!',
     9: 'Reddit post',
     10: 'Creatori',
     11: 'Tags',
     13: 'Video',
-    14: 'Nuova Version | Gestisci le versioni',
+    14: 'Nuova Versione | Gestisci le versioni',
     15: 'Aggiorna | Invia',
     16: 'Modalità',
     17: 'Nome della skin',
@@ -134,9 +134,9 @@ export default {
     3: 'Tutte le icone sono state prese da {nome}',
     4: 'Bandiere',
     5: 'Tutte le immagini delle bandiere sono da {nome}',
-    6: 'Localisation',
-    7: 'Anyone? [{lang}]',
-    8: 'Seems like, cpol forget to add them. {text}'
+    6: 'Localizzazione',
+    7: 'C\'è qualcuno?',
+    8: 'Sembra che cpol si sia dimenticato di aggiungerli.'
   },
   search: {
     0: 'Ricerca skin',
@@ -161,7 +161,7 @@ export default {
     2: 'Purtroppo non c\'è niente qui',
     3: 'Non Autorizzato',
     4: 'Devi aver eseguito l\'accesso per modificare questa skin.',
-    5: 'You need to be logged in to add a new skin.'
+    5: 'Devi aver eseguito l\'accesso per aggiungere una nuova skin.'
   },
   meta: {
     title: {
@@ -174,7 +174,7 @@ export default {
       6: 'Crediti',
       7: 'osu skins',
       8: '{name} cerca osu skins',
-      9: 'Get inspiration from other osu skins',
+      9: 'Prendi ispirazione da altre skin',
       10: '{name} ha creato la skin'
     },
     description: {
@@ -221,7 +221,7 @@ export default {
     1: 'Ricarica risultati',
     2: 'Discendente | Ascendente',
     3: '{amount} mi piace',
-    4: 'Premi ctrl+enter pre aggiungere una tag',
+    4: 'Premi ctrl+enter per aggiungere una tag',
     5: 'Modifica versione',
     6: '{s}Log in{p}, per essere in grado di votare questa skin',
     7: 'Non c\'è una descrizione corta',

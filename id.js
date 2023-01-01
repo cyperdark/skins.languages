@@ -98,7 +98,7 @@ export default {
     3: 'FullHD',
     4: 'Animasi',
     5: 'Screenshot',
-    6: 'Hanya gamplay',
+    6: 'Hanya gameplay',
     7: 'Link unduh | Unduh skin',
     8: 'Pos forum | Forum osu!',
     9: 'Pos Reddit',

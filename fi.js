@@ -35,7 +35,7 @@ export default {
   creators: {
     0: 'Tekijät',
     1: 'Luettelo kaikista tekijöistä jotka olivat mukana tämän version tekemisessä',
-    2: 'Tällä ei ole ketään',
+    2: 'Täällä ei ole ketään',
     3: 'Pelaajan nimen etsiminen näyttää luettelon profiileista.',
     4: 'Muokkaaja',
     5: 'Roolit',
@@ -107,21 +107,21 @@ export default {
     13: 'Videot',
     14: 'Uusi Versio | Hallitse Versioita',
     15: 'Päivitä | Lähetä',
-    16: 'Pelimodet',
+    16: 'Pelimuodot',
     17: 'Skinin Nimi',
     18: 'Versio | Versiot',
     19: 'Koko',
     20: 'Metadata',
     21: 'Arvosana',
     22: 'Lataukset',
-    23: 'Lataus on valmiina pian',
+    23: 'Lataaminen on saatavilla pian',
     24: '{amount} sekunteja jäljellä',
     25: 'Sinä et ole yksi meistä',
     26: 'Näyttää siltä, että et ole tämän skinin tekijä tai muokkaaja'
   },
   drag: {
     0: 'Paina tästä',
-    1: 'tai vedä ja pudota kuvia'
+    1: 'tai vedä ja pudota kuvia tähän'
   },
   footer: {
     0: 'Tekijä: cyperdark',
@@ -134,13 +134,13 @@ export default {
     3: 'Kaikki kuvakkeet ovat sivulta {name}',
     4: 'Liput',
     5: 'Kaikki lippukuvakkeet ovat lähteestä {name}',
-    6: 'Localisation',
+    6: 'Lokalisointi',
     7: 'Eikö kukaan? [{lang}]',
     8: 'Näyttää siltä, että cpol unohti lisätä ne. {text}'
   },
   search: {
     0: 'Skini haku',
-    1: 'Näyttökerrat',
+    1: 'Katselukerrat',
     2: 'Otsikko',
     3: 'Arvosana',
     4: 'Koko',
@@ -217,13 +217,13 @@ export default {
     }
   },
   tooltips: {
-    0: '{amount} näyttökertaa',
+    0: '{amount} katselukertaa',
     1: 'Päivitä tulokset',
     2: 'Laskeva | Nouseva',
     3: '{amount} tykkäystä',
-    4: 'Paina ctrl+enter jos haluat lisätä tägin',
-    5: 'Muokkaa versio',
-    6: '{s}Kirjaudu sisään{p}, jotta voit arvostella tämän skinin',
+    4: 'Paina ctrl+enter lisätäksesi tägin',
+    5: 'Muokkaa versiota',
+    6: '{s}Kirjaudu sisään{p} arvostellaksesi tämän skinin',
     7: 'Ei lyhyttä kuvausta',
     8: 'Ei url-osoitetta'
   },
@@ -262,7 +262,7 @@ export default {
     7: 'Skinin tiedosto',
     8: 'Ääni/Sfx',
     9: 'Työkalut',
-    views: 'Näyttökerrat',
+    views: 'Katselukerrat',
     likes: 'Tykkäykset',
     size_range: 'Valitse koko',
     date_range: 'Valitse ajanjakso',
@@ -278,7 +278,7 @@ export default {
     6: 'Kuukausi',
     7: 'Valitse kuvasuhde',
     8: 'Valitse kategoriat',
-    9: 'Pelimodet',
+    9: 'Pelimuodot',
     10: 'Valitse tyyppi',
     11: 'Liitä youtube-linkki',
     12: 'Kirjoita kuvaus ja url formaattina: description:url',
