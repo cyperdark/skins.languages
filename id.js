@@ -17,7 +17,7 @@ export default {
     leaderboard: { 0: 'Papan Peringkat' },
     extend: { 0: 'Selebihnya | Lebih sedikit' },
     skin: {
-      0: 'Skin ini mengandul beberapa konten yang bersumber dari skin lain',
+      0: 'Skin ini mengandung beberapa konten yang bersumber dari skin lain',
       1: 'Ketuk di sini untuk informasi lebih lanjut'
     }
   },
@@ -26,7 +26,7 @@ export default {
     1: 'Daftar perubahan di versi saat ini',
     2: 'Riwayat kosong',
     3: 'Kamu bisa menambahkan perubahan yang kamu buat di skin ini',
-    4: 'Tidak Teroganisir',
+    4: 'Tidak Terorganisir',
     5: 'Baru',
     6: 'Perbaikan',
     7: 'Perubahan',
@@ -58,7 +58,7 @@ export default {
     1: 'Daftar aset dan alat yang digunakan pada versi skin ini',
     2: 'Sepertinya tidak ada apa-apa',
     3: 'Jika kamu menggunakan aset dari skin lain, atau art, beritahukan di dalam box tersebut',
-    4: 'Tidak Teroganisir'
+    4: 'Tidak Terorganisir'
   },
   checks: {
     0: 'Semua',
@@ -101,7 +101,7 @@ export default {
     6: 'Hanya gameplay',
     7: 'Link unduh | Unduh skin',
     8: 'Pos forum | Forum osu!',
-    9: 'Pos Reddit',
+    9: 'Postingan Reddit',
     10: 'Pembuat',
     11: 'Label',
     13: 'Video',
@@ -161,7 +161,7 @@ export default {
     2: 'Sayangnya tidak ada apa-apa disini',
     3: 'Tidak diizinkan',
     4: 'Kamu perlu masuk untuk meng-edit skin ini.',
-    5: 'Kamu perlu masuk unruk menambahkan skin baru.'
+    5: 'Kamu perlu masuk untuk menambahkan skin baru.'
   },
   meta: {
     title: {
