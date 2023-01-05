@@ -129,7 +129,7 @@ export default {
   },
   credits: {
     0: 'Chibi',
-    1: 'Oeuvres',
+    1: 'Œuvres',
     2: 'Icones',
     3: 'Toutes les icônes proviennent de {name}',
     4: 'Drapeaux',
@@ -212,7 +212,7 @@ export default {
       0: 'Créateur',
       1: 'Mixeur',
       2: 'Animations',
-      3: 'Oeuvres',
+      3: 'Œuvres',
       4: 'Collab'
     }
   },
