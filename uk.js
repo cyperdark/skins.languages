@@ -1,5 +1,5 @@
 export default {
-  hello: 'Hello',
+  hello: 'Вітання',
   title: {
     home: 'Головна',
     page: 'сторінка',
@@ -36,7 +36,7 @@ export default {
     0: 'Творці',
     1: 'Перелічи всіх творців долучених до створення цієї версії',
     2: 'Тут нікого',
-    3: 'Searching for a player\'s name will display a list of profiles.',
+    3: 'Під час пошуку за іменем гравця відобразиться список профілів.',
     4: 'Редактор',
     5: 'Ролі',
     6: 'Версії'
@@ -54,9 +54,9 @@ export default {
     3: 'Спробуй знайти щось на YouTube або створи власний огляд'
   },
   sources: {
-    0: 'Attribution',
+    0: 'Список ресурсів',
     1: 'Список усіх використаних елементів або інструментів у версії скіна',
-    2: 'Трохи порожньо',
+    2: 'Тут якось порожньо',
     3: 'Якщо ти використовуєш елементи з артів або інших скінів, обов’язково додай посилання на них у поле вище',
     4: 'Не згруповано'
   },
@@ -73,7 +73,7 @@ export default {
     10: 'Жодного знімку екрану не завантажено',
     11: 'Додай принаймні один знімок геймплею',
     12: 'Не вказано посилання на скін',
-    20: 'Looking pretty good',
+    20: 'Непогано',
     21: 'Кожна проблема була виправлена. Добре зроблено',
     22: 'Контрольний перелік'
   },
@@ -100,7 +100,7 @@ export default {
     5: 'Знімки екрану',
     6: 'Тільки геймплей',
     7: 'Посилання для завантаження | Завантажити скін',
-    8: 'Forum post | osu! Forum',
+    8: 'Пост на форумі | Форум osu!',
     9: 'Пост на Reddit',
     10: 'Творці',
     11: 'Теги',
@@ -124,7 +124,7 @@ export default {
     1: 'або перетягніть зображення сюди'
   },
   footer: {
-    0: 'Made by cyperdark',
+    0: 'Зроблено cyperdark',
     1: 'Credits'
   },
   credits: {
@@ -134,9 +134,9 @@ export default {
     3: 'Всі іконки беруться з {name}',
     4: 'Прапори',
     5: 'Всі зображення прапорів беруться з {name}',
-    6: 'Localisation',
-    7: 'Anyone? [{lang}]',
-    8: 'Seems like, cpol forget to add them. {text}'
+    6: 'Локалізація',
+    7: 'Хтось? [{lang}]',
+    8: 'Схоже, cpol забув їх додати. {text}'
   },
   search: {
     0: 'Пошук скіну',
@@ -161,21 +161,21 @@ export default {
     2: 'На жаль, тут нічого немає',
     3: 'Неавторизовано',
     4: 'Ви повинні увійти в систему, щоб редагувати цей скін.',
-    5: 'You need to be logged in to add a new skin.'
+    5: 'Ви повинні увійти в систему, щоб додати новий скін.'
   },
   meta: {
     title: {
       0: 'Домашня сторінка',
-      1: 'Gamemodes, aspect ratios osu skins',
+      1: 'Ігрові режими, співвідношення сторін osu, скіни',
       2: 'Популярні скіни osu',
       3: 'Пошук скінів osu',
       4: 'Список тегів, {name}',
-      5: '{name} v{version} osu skin',
+      5: 'Скін {name} v{version} osu',
       6: 'Credits',
-      7: 'osu skins',
-      8: '{name} search osu skins',
+      7: 'Скіни osu',
+      8: '{name} пошук скінів osu',
       9: 'Get inspiration from other osu skins',
-      10: '{name} created osu skins'
+      10: '{name} створив скіни osu'
     },
     description: {
       // 0: 'Get the best osu skins at our site, with a huge library to choose from! We have skins for different gamemodes and aspect ratios, and even feature top players and anime themes. Boost your gameplay with our high-quality skins.',
@@ -190,22 +190,22 @@ export default {
       8: 'All osu skins created by {name}',
       9: 'Find inspiration for your next osu! skin at our site. Browse through a diverse collection of skins and discover new techniques and ideas. Get inspired and create your own unique skins.'
     },
-    keywords: { 0: 'osu, osu!, osu skins, std skins, ctb skins, mania skins, taiko skins, mrekk osu skins,Rafis osu skins,FlyingTuna osu skins,Vaxei osu skins,Cookiezi osu skins,Varvalian osu skins,RyuK osu skins,WhiteCat osu skins,_RyuK osu skins,BeasttrollMC osu skins,Genshin Impact osu skins,Mathi osu skins,WubWoofWolf osu skins,Merami osu skins,xootynator osu skins,Gayzmcgee osu skins,[Karcher] osu skins,Bubbleman osu skins,ChomikBox osu skins,NSFW osu skins,Lifeline osu skins,Hatsune Miku osu skins,Azerite osu skins,Umbre osu skins,404 AimNotFound osu skins,-Nikstrim osu skins,bloo osu skins,Shigetora osu skins,Badeu osu skins,FunOrange osu skins,worst hr player osu skins,Tekkito osu skins,ninerik osu skins,azr8 osu skins,idke osu skins,Andros osu skins,Zylice osu skins,Rektygon osu skins,Komori osu skins,anime osu skins,cyperdark osu skins,Red_Pixel osu skins,Utami osu skins,Arknights osu skins,Karthy osu skins,Paraqeet osu skins,aetrna osu skins,Spare osu skins,-GN osu skins,Mastasz osu skins,Seouless osu skins,haga1115 osu skins,shimon osu skins,fieryrage osu skins,Ekoro osu skins,Firebat92 osu skins,_Shield osu skins,-Roaz- osu skins,- Dark - osu skins,atturbo555 osu skins,Aristia osu skins,_Aiko__ osu skins,z x c osu skins,eternum osu skins,talala osu skins,NyanPotato osu skins,Arnold24x24 osu skins,Alumetri osu skins,im a fancy lad osu skins,jordanlr7 osu skins,Woey osu skins,khz osu skins,rrtyui osu skins,kieg osu skins,Rupertion osu skins,FGSky osu skins,Aireu osu skins,Neko God osu skins,Apostol osu skins,Abyssal osu skins,dokidokilolixx osu skins,Mlaw osu skins,Ponytail osu skins,Reedkatt osu skins,Zestiny osu skins,Apraxia osu skins,Binfy osu skins,Rohulk osu skins,-PloX osu skins,DuyKhang-sama osu skins,BronyPH osu skins,Intercambing osu skins,Xeltol osu skins,Valorant osu skins,Akolibed osu skins,hololive osu skins,kablaze osu skins,tokyo ghoul osu skins,Trail Mix osu skins,Dereban osu skins' }
+    keywords: { 0: 'osu, osu!, osu скіни, std скіни, ctb скіни, mania скіни, taiko скіни, mrekk osu скіни,Rafis osu скіни,FlyingTuna osu скіни,Vaxei osu скіни,Cookiezi osu скіни,Varvalian osu скіни,RyuK osu скіни,WhiteCat osu скіни,_RyuK osu скіни,BeasttrollMC osu скіни,Genshin Impact osu скіни,Mathi osu скіни,WubWoofWolf osu скіни,Merami osu скіни,xootynator osu скіни,Gayzmcgee osu скіни,[Karcher] osu скіни,Bubbleman osu скіни,ChomikBox osu скіни,NSFW osu скіни,Lifeline osu скіни,Hatsune Miku osu скіни,Azerite osu скіни,Umbre osu скіни,404 AimNotFound osu скіни,-Nikstrim osu скіни,bloo osu скіни,Shigetora osu скіни,Badeu osu скіни,FunOrange osu скіни,worst hr player osu скіни,Tekkito osu скіни,ninerik osu скіни,azr8 osu скіни,idke osu скіни,Andros osu скіни,Zylice osu скіни,Rektygon osu скіни,Komori osu скіни,anime osu скіни,cyperdark osu скіни,Red_Pixel osu скіни,Utami osu скіни,Arknights osu скіни,Karthy osu скіни,Paraqeet osu скіни,aetrna osu скіни,Spare osu скіни,-GN osu скіни,Mastasz osu скіни,Seouless osu скіни,haga1115 osu скіни,shimon osu скіни,fieryrage osu скіни,Ekoro osu скіни,Firebat92 osu скіни,_Shield osu скіни,-Roaz- osu скіни,- Dark - osu скіни,atturbo555 osu скіни,Aristia osu скіни,_Aiko__ osu скіни,z x c osu скіни,eternum osu скіни,talala osu скіни,NyanPotato osu скіни,Arnold24x24 osu скіни,Alumetri osu скіни,im a fancy lad osu скіни,jordanlr7 osu скіни,Woey osu скіни,khz osu скіни,rrtyui osu скіни,kieg osu скіни,Rupertion osu скіни,FGSky osu скіни,Aireu osu скіни,Neko God osu скіни,Apostol osu скіни,Abyssal osu скіни,dokidokilolixx osu скіни,Mlaw osu скіни,Ponytail osu скіни,Reedkatt osu скіни,Zestiny osu скіни,Apraxia osu скіни,Binfy osu скіни,Rohulk osu скіни,-PloX osu скіни,DuyKhang-sama osu скіни,BronyPH osu скіни,Intercambing osu скіни,Xeltol osu скіни,Valorant osu скіни,Akolibed osu скіни,hololive osu скіни,kablaze osu скіни,tokyo ghoul osu скіни,Trail Mix osu скіни,Dereban osu скіни' }
   },
   buttons: {
-    0: 'Login',
+    0: 'Увійти',
     1: 'Домашня сторінка',
-    profile_osu: 'osu! Profile',
-    new_skin: 'New skin',
-    notifications: 'Notifications',
-    settings: 'Settings',
-    logout: 'Log out',
-    load_more: 'Load more',
-    copy_short: 'Copy short link',
-    copied: 'Copied',
+    profile_osu: 'Профіль osu!',
+    new_skin: 'Новий скін',
+    notifications: 'Сповіщення',
+    settings: 'Налаштування',
+    logout: 'Вийти',
+    load_more: 'Завантажити більше',
+    copy_short: 'Копіювати посилання',
+    copied: 'Скопійовано',
     reddit_link: 'Reddit',
-    osu_forum_link: 'osu! Forum',
-    skin_return: 'Back to skin'
+    osu_forum_link: 'Форум osu!',
+    skin_return: 'Назад до скіна'
   },
   user: {
     roles: {
@@ -222,28 +222,28 @@ export default {
     2: 'За спаданням | За зростанням',
     3: '{amount} лайків',
     4: 'Натисніть ctrl+enter, щоб додати тег',
-    5: 'Edit version',
-    6: '{s}Log in{p}, to be able to rate this skin',
-    7: 'No short description',
+    5: 'Редагувати версію',
+    6: '{s}Увійдіть{p}, щоб мати можливість оцінити цей скін',
+    7: 'Немає опису',
     8: 'Немає URL'
   },
   lists: {
     screens: {
-      0: 'Welcome',
-      1: 'Main menu',
-      2: 'Song select',
-      3: 'Mode menu',
-      4: 'Mods',
-      5: 'Countdown',
-      6: 'Gameplay',
-      7: 'Spinner',
+      0: 'Екран привітання',
+      1: 'Головне меню',
+      2: 'Екран вибору мап',
+      3: 'Меню режимів',
+      4: 'Модифікації',
+      5: 'Меню зворотного відліку',
+      6: 'Ігролад',
+      7: 'Спінер',
       8: 'Section Pass',
       9: 'Section Fail',
-      10: 'Pause Screen',
-      11: 'Fail Screen',
-      12: 'Result screen',
-      13: 'Skip',
-      14: 'Banner'
+      10: 'Екран паузи',
+      11: 'Екран поразки',
+      12: 'Екран результату',
+      13: 'Пропустити',
+      14: 'Банер'
     },
     cats: {
       0: 'NSFW',
@@ -253,26 +253,26 @@ export default {
   },
   select: {
     0: 'Нове',
-    1: 'Fixed',
-    2: 'Changed',
-    3: 'Removed',
-    4: 'Art',
-    5: 'Font',
-    6: 'Artist',
-    7: 'Skin element',
-    8: 'Audio/Sfx',
-    9: 'Tools',
+    1: 'Виправлено',
+    2: 'Змінено',
+    3: 'Видалено',
+    4: 'Арт',
+    5: 'Шрифт',
+    6: 'Автор',
+    7: 'Елемент скіна',
+    8: 'Аудіо/Ефекти',
+    9: 'Інструменти',
     views: 'Перегляди',
-    likes: 'Likes',
-    size_range: 'Select size',
-    date_range: 'Select a date range',
-    ratio: 'Select aspect ratio | ratio'
+    likes: 'Вподобайки',
+    size_range: 'Розмір скіна',
+    date_range: 'Діапазон дат',
+    ratio: 'Співвідношення сторін | співвідношення'
   },
   placeholders: {
-    0: 'Choose roles',
-    1: 'Choose versions',
-    2: 'Type text...',
-    3: 'Select size',
+    0: 'Виберіть ролі',
+    1: 'Виберіть версії',
+    2: 'Введіть текст...',
+    3: 'Розмір скіна',
     4: 'Діапазон дат',
     5: 'Рік',
     6: 'Місяць',
@@ -281,9 +281,9 @@ export default {
     9: 'Режими гри',
     10: 'Виберіть тип',
     11: 'Вставте посилання на YouTube',
-    12: 'Type description and url. Format description:url',
-    13: 'Select extra',
-    14: 'Paste a link',
-    15: 'Skin title, author, or tag'
+    12: 'Введіть опис і посилання. Приклад опису: посилання',
+    13: 'Вибрати додатково',
+    14: 'Вставити посилання',
+    15: 'Назва скіна, ім\'я автора або тег'
   }
 };
