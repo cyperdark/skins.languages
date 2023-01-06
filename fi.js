@@ -1,9 +1,7 @@
 export default {
-  hello: 'Hei',
   title: {
     home: 'Koti',
-    page: 'sivu',
-    guest: 'Kirjaudu Sisään',
+    login: 'Log in',
     lists: { 0: 'Luettelot' },
     tags: {
       0: 'Tägit',
@@ -117,7 +115,8 @@ export default {
     23: 'Lataaminen on saatavilla pian',
     24: '{amount} sekunteja jäljellä',
     25: 'Sinä et ole yksi meistä',
-    26: 'Näyttää siltä, että et ole tämän skinin tekijä tai muokkaaja'
+    26: 'Näyttää siltä, että et ole tämän skinin tekijä tai muokkaaja',
+    27: 'Skin by'
   },
   drag: {
     0: 'Paina tästä',
@@ -148,7 +147,9 @@ export default {
     7: 'Mitään ei löytynyt',
     8: 'Yritä erilaisia hakuasetuksia',
     9: 'Odotetaan hakua',
-    10: 'Valitse hakusuodattimet tai kirjoita skinin nimi, tekijä tai tägi'
+    10: 'Valitse hakusuodattimet tai kirjoita skinin nimi, tekijä tai tägi',
+    11: 'Lataukset',
+    12: 'Name'
   },
   tabs: {
     0: 'Haku',
@@ -165,7 +166,7 @@ export default {
   },
   meta: {
     title: {
-      0: 'Kotisivu',
+      0: 'Discover osu skins',
       1: 'Pelimodet, kuvasuhteet osu skinit',
       2: 'Suositut osu skinit',
       3: 'Hae osu skinejä',
@@ -178,7 +179,6 @@ export default {
       10: '{name} tehtyjä osu skinejä'
     },
     description: {
-      // 0: 'Get the best osu skins at our site, with a huge library to choose from! We have skins for different gamemodes and aspect ratios, and even feature top players and anime themes. Boost your gameplay with our high-quality skins.',
       0: 'Hanki parhaat osu skinit sivumme suuresta valikoimasta! Meillä on skinejä eri pelimodeille ja kuvasuhteille, sekä jopa top pelaajille. Lisäksi, meillä on erityinen osasto animefaneille. Paranna peliäsi täydellisellä skinillä. #osuskins #osugame #anime',
       1: '{views} näyttökertaa. {modes} osu skini, jonka koko on {size}, tekijänä on {creators}. Tukee {ratios}',
       2: 'Löydä täydellinen osu! skini meidän edistyneellä hakukoneella. Selaa meidän jättimäisen valikoiman läpi, joka on suodatettu pelimodella, kuvasuhteella, ja monella muulla. Tai, katso top pelaajien käyttämiä skinejä.',
@@ -217,15 +217,16 @@ export default {
     }
   },
   tooltips: {
-    0: '{amount} katselukertaa',
+    0: 'Views: {amount}',
     1: 'Päivitä tulokset',
     2: 'Laskeva | Nouseva',
-    3: '{amount} tykkäystä',
+    3: 'Likes: {likes} / Dislikes: {dislikes}',
     4: 'Paina ctrl+enter lisätäksesi tägin',
     5: 'Muokkaa versiota',
     6: '{s}Kirjaudu sisään{p} arvostellaksesi tämän skinin',
     7: 'Ei lyhyttä kuvausta',
-    8: 'Ei url-osoitetta'
+    8: 'Ei url-osoitetta',
+    9: 'Downloads: {amount}'
   },
   lists: {
     screens: {
@@ -264,6 +265,8 @@ export default {
     9: 'Työkalut',
     views: 'Katselukerrat',
     likes: 'Tykkäykset',
+    dislikes: 'Dislikes',
+    downloads: 'Lataukset',
     size_range: 'Valitse koko',
     date_range: 'Valitse ajanjakso',
     ratio: 'Valitse kuvasuhde | suhde'
@@ -285,5 +288,13 @@ export default {
     13: 'Valitse lisät',
     14: 'Liitä linkki',
     15: 'Skinin otsikko, tekijä, tai tägi'
+  },
+  contribute: { 0: 'Contribute' },
+  nsfw: {
+    0: 'Warning!',
+    1: 'This skin contains sensitive or adult content',
+    2: 'This skin contains sensitive or adult content that some users may find disturbing',
+    3: ' Alright',
+    4: ' bye o/'
   }
 };
