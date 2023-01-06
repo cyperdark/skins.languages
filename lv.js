@@ -1,9 +1,7 @@
 export default {
-  hello: 'Hello',
   title: {
     home: 'Mājaslapa',
-    page: 'lapa',
-    guest: 'Pieslēgties',
+    login: 'Log in',
     lists: { 0: 'Saraksti' },
     tags: {
       0: 'Tagi',
@@ -117,7 +115,8 @@ export default {
     23: 'Lejupielāde drīzumā būs pieejama',
     24: 'Atlikušas {amount} sekundes',
     25: 'Tu neesi viens no mums',
-    26: 'Šķiet, ka tu neesi šī skina veidotājs vai rediģētājs'
+    26: 'Šķiet, ka tu neesi šī skina veidotājs vai rediģētājs',
+    27: 'Skin by'
   },
   drag: {
     0: 'Klikšķini šeit',
@@ -148,7 +147,9 @@ export default {
     7: 'Nekas nav atrasts',
     8: 'Izmēģini citus meklēšanas kritērijus',
     9: 'Gaida pieprasījumu',
-    10: 'Izvēlies meklēsanas kritērijus vai vienkārši ieraksti skina nosaukumu, autoru vai tagu'
+    10: 'Izvēlies meklēsanas kritērijus vai vienkārši ieraksti skina nosaukumu, autoru vai tagu',
+    11: 'Lejupielādes',
+    12: 'Name'
   },
   tabs: {
     0: 'Meklēt',
@@ -165,7 +166,7 @@ export default {
   },
   meta: {
     title: {
-      0: 'Galvenā lapa',
+      0: 'Discover osu skins',
       1: 'Osu skinu kategorijas',
       2: 'Populārie osu skini',
       3: 'Meklēt osu skinus',
@@ -178,7 +179,6 @@ export default {
       10: '{name} veidoja osu skinus'
     },
     description: {
-      // 0: 'Get the best osu skins at our site, with a huge library to choose from! We have skins for different gamemodes and aspect ratios, and even feature top players and anime themes. Boost your gameplay with our high-quality skins.',
       0: 'Dabū labākos osu! skinus mūsu saitē! Mūzu milzīgajā klāstā ir skini visiem spēļu režīmiem, visām malu attiecībām un pat top spēlētājiem. Un, mums ir īpaša sadaļa anime faniem. Uzlabo savu gameplay ar perfekto skinu. #osuskins #osugame #anime',
       1: '{views} skatījumi. Osu skins priekš {modes}, lielums ir {size}, veidoja {creators}. Atbalsta {ratios}',
       2: 'Atrodi perfekto osu! skinu ar mūsu attīstīto meklēšanas funkciju. Pārlūko mūsu milzīgo klāstu, filtrējot ar spēles režīmu, malas attiecību un vairāk. Vai apskati kādus skinus izmanto top spēlētāji.',
@@ -217,15 +217,16 @@ export default {
     }
   },
   tooltips: {
-    0: '{amount} skatījumi',
+    0: 'Views: {amount}',
     1: 'Atsvaidzini rezultātus',
     2: 'Dilstoši | Augoši',
-    3: 'Patīk: {amount}',
+    3: 'Likes: {likes} / Dislikes: {dislikes}',
     4: 'Spied ctrl+enter, lai pievienotu tagu',
     5: 'Rediģēt versiju',
     6: '{s}Jāpieslēdzas{p}, lai varētu novērtēt šo skinu',
     7: 'Nav īsā apraksta',
-    8: 'Nav saites'
+    8: 'Nav saites',
+    9: 'Downloads: {amount}'
   },
   lists: {
     screens: {
@@ -264,6 +265,8 @@ export default {
     9: 'Instrumenti',
     views: 'Skatījumi',
     likes: 'Patīk',
+    dislikes: 'Dislikes',
+    downloads: 'Lejupielādes',
     size_range: 'Skina izmērs',
     date_range: 'Datuma diapazons',
     ratio: 'Malu attiecība | attiecība'
@@ -285,5 +288,13 @@ export default {
     13: 'Izvēlies vairāk',
     14: 'Ielīmē saiti',
     15: 'Skina nosaukums, veidotājs vai tags'
+  },
+  contribute: { 0: 'Contribute' },
+  nsfw: {
+    0: 'Warning!',
+    1: 'This skin contains sensitive or adult content',
+    2: 'This skin contains sensitive or adult content that some users may find disturbing',
+    3: ' Alright',
+    4: ' bye o/'
   }
 };
