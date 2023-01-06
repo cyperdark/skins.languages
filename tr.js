@@ -1,9 +1,7 @@
 export default {
-  hello: 'Merhaba',
   title: {
     home: 'Ana',
-    page: 'Sayfa',
-    guest: 'Giriş',
+    login: 'Log in',
     lists: { 0: 'Listeler' },
     tags: {
       0: 'Etiketler',
@@ -117,7 +115,8 @@ export default {
     23: 'En kısa zamanda indirmeye açılacak',
     24: '{amount} saniye kaldı',
     25: 'Bizden biri değişsin',
-    26: 'Görünüşe göre bu skinin yaratıcısı ya da editörü değilsin'
+    26: 'Görünüşe göre bu skinin yaratıcısı ya da editörü değilsin',
+    27: 'Skin by'
   },
   drag: {
     0: 'Buraya tıklayın',
@@ -148,7 +147,9 @@ export default {
     7: 'Hiçbir şey bulunamadı',
     8: 'Başka kriterde arama yapmayı deneyin',
     9: 'Arama bekleniyor',
-    10: 'Arama kriterinizi seçin ya da sadece skin adını, yapımcısını ya da etiketini yazın'
+    10: 'Arama kriterinizi seçin ya da sadece skin adını, yapımcısını ya da etiketini yazın',
+    11: 'İndirmeler',
+    12: 'Name'
   },
   tabs: {
     0: 'Ara',
@@ -165,7 +166,7 @@ export default {
   },
   meta: {
     title: {
-      0: 'Ana sayfa',
+      0: 'Discover osu skins',
       1: 'Oyun modları, çerçeve oranları osu skinleri',
       2: 'Populer osu skinleri',
       3: 'Osu skinleri arayın',
@@ -178,7 +179,6 @@ export default {
       10: '{name} created osu skins'
     },
     description: {
-      // 0: 'Get the best osu skins at our site, with a huge library to choose from! We have skins for different gamemodes and aspect ratios, and even feature top players and anime themes. Boost your gameplay with our high-quality skins.',
       0: 'Sitemizden en iyi osu! skinlerini edinin! Devasa kütüphanemizde tüm oyunmodlarına, çerçeve oranlarına hatta top playerlara ilişkin skinler bulabilirsin. Artı olarak anime fanlarına yönelik bi bölümümüz daha var. Mükemmel skininle birlikte oyununu bir adım ileri taşı. #osuskins #osugame #anime',
       1: '{views} görüntülenme. {modes} yönelik bir osu skini , his weight is {size}, {creators} tarafından yaratıldı. Şu çerçeve oranlarını destekler: {ratios}',
       2: 'Gelişmiş arama özelliğimiz sayesinde mükemmel osu! skinini bulun. Devasa kütüphanemizi oyun modlarına, çerçeve oranlarına ve daha fazlasıyla filtereleyek tarayın. Ya da top playerlar tarafından kullanılan skinlere göz atın',
@@ -217,15 +217,16 @@ export default {
     }
   },
   tooltips: {
-    0: '{amount} Görüntülenme',
+    0: 'Views: {amount}',
     1: 'Sonuçları yeniden yükle',
     2: 'Aşağı doğru artan | Azalan',
-    3: '{amount} Beğeni',
+    3: 'Likes: {likes} / Dislikes: {dislikes}',
     4: 'Etiket eklemek için ctrl+enter basın',
     5: 'Edit version',
     6: 'Sikini değerlendirmek için {s}Giriş yapın{p}',
     7: 'Kısa açıklama bulunamadı',
-    8: 'Url bulunamadı'
+    8: 'Url bulunamadı',
+    9: 'Downloads: {amount}'
   },
   lists: {
     screens: {
@@ -264,6 +265,8 @@ export default {
     9: 'Toollar',
     views: 'Görüntülenme',
     likes: 'Beğeni',
+    dislikes: 'Dislikes',
+    downloads: 'İndirmeler',
     size_range: 'Boyut seçin',
     date_range: 'Tarih aralığı seçin',
     ratio: 'Çerçeve oranı seçin | ratio'
@@ -285,5 +288,13 @@ export default {
     13: 'Select extra',
     14: 'Link yapıştırın',
     15: 'Skinin adı, yaratıcısı ya da etiketi'
+  },
+  contribute: { 0: 'Contribute' },
+  nsfw: {
+    0: 'Warning!',
+    1: 'This skin contains sensitive or adult content',
+    2: 'This skin contains sensitive or adult content that some users may find disturbing',
+    3: ' Alright',
+    4: ' bye o/'
   }
 };
