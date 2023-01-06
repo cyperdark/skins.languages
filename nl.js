@@ -1,9 +1,7 @@
 export default {
-  hello: 'Hello',
   title: {
     home: 'Startpagina',
-    page: 'pagina',
-    guest: 'Inloggen',
+    login: 'Log in',
     lists: { 0: 'Lijsten' },
     tags: {
       0: 'Categorieën',
@@ -117,7 +115,8 @@ export default {
     23: 'Download komt er binnenkort aan',
     24: '{amount} seconden over',
     25: 'Jij hoort niet bij ons',
-    26: 'Het ziet ernaar uit dat je niet de auteur of editor van deze skin bent'
+    26: 'Het ziet ernaar uit dat je niet de auteur of editor van deze skin bent',
+    27: 'Skin by'
   },
   drag: {
     0: 'Klik hier',
@@ -148,7 +147,9 @@ export default {
     7: 'Niks gevonden',
     8: 'Probeer andere zoek criteria',
     9: 'We wachten op je zoekopdracht',
-    10: 'Selecteer de zoek criteria of type gewoon de titel, auteur of tag van de skin'
+    10: 'Selecteer de zoek criteria of type gewoon de titel, auteur of tag van de skin',
+    11: 'Downloads',
+    12: 'Name'
   },
   tabs: {
     0: 'Zoek',
@@ -165,7 +166,7 @@ export default {
   },
   meta: {
     title: {
-      0: 'Thuispagina',
+      0: 'Discover osu skins',
       1: 'Gamemodes, aspect ratio\'s van de skins',
       2: 'Populaire osu skins',
       3: 'Zoek osu skins',
@@ -178,7 +179,6 @@ export default {
       10: '{name} maakte osu skins'
     },
     description: {
-      // 0: 'Get the best osu skins at our site, with a huge library to choose from! We have skins for different gamemodes and aspect ratios, and even feature top players and anime themes. Boost your gameplay with our high-quality skins.',
       0: 'Pak de beste osu! skins van onze website! Ons grote aanbod heeft skins voor alle gamemodes, aspect ratio’s  en we hebben zelfs skins van de beste spelers. Maar dan heb je anime sectie nog niet gezien. Speel beter met onze hoge skins van hoge kwaliteit. #osuskins #osugame #anime',
       1: '{views} weergaven. Een osu skin voor {modes}, de grootte is {size}, gemaakt door {creators}. Ondersteunt {ratios}',
       2: 'Vind de perfecte osu! skin met onze geavanceerd zoek mechanisme. Verdwaal in onze gigantische bibliotheek, gefilterd op gamemode, aspect ratio en meer, of neem een kijkje bij skins die de beste spelers gebruiken.',
@@ -217,15 +217,16 @@ export default {
     }
   },
   tooltips: {
-    0: '{amount} weergaven',
+    0: 'Views: {amount}',
     1: 'Herlaad resultaten',
     2: 'Aflopend | Oplopend',
-    3: '{amount} duimpies',
+    3: 'Likes: {likes} / Dislikes: {dislikes}',
     4: 'Druk op ctrl+enter om een tag toe te voegen',
     5: 'Bewerk versie',
     6: '{s}Log in{p}, om deze skin een beoordeling te kunnen geven',
     7: 'Geen korte beschrijving',
-    8: 'Geen url'
+    8: 'Geen url',
+    9: 'Downloads: {amount}'
   },
   lists: {
     screens: {
@@ -264,6 +265,8 @@ export default {
     9: 'Hulpmiddelen',
     views: 'Weergaven',
     likes: 'Duimpies',
+    dislikes: 'Dislikes',
+    downloads: 'Downloads',
     size_range: 'Selecteer grootte',
     date_range: 'Selecteer een tijdsperiode',
     ratio: 'Selecteer een aspect ratio | ratio'
@@ -285,5 +288,13 @@ export default {
     13: 'Selecteer extra',
     14: 'Plak een link',
     15: 'Skin titel, auteur of tag'
+  },
+  contribute: { 0: 'Contribute' },
+  nsfw: {
+    0: 'Warning!',
+    1: 'This skin contains sensitive or adult content',
+    2: 'This skin contains sensitive or adult content that some users may find disturbing',
+    3: ' Alright',
+    4: ' bye o/'
   }
 };
