@@ -1,5 +1,5 @@
 export default {
-  hello: 'Hello',
+  hello: 'Salut',
   title: {
     home: 'Pagina principală',
     page: 'pagină',
@@ -136,7 +136,7 @@ export default {
     5: 'Toate steagurile sunt luate de pe {name}',
     6: 'Localizare',
     7: 'Cineva? {lang}]',
-    8: 'Se pare că cpol uită să le adauge. {text}'
+    8: 'Se pare că cpol a uitat să adauge persoane. {text}'
   },
   search: {
     0: 'Căutarea unui skin',
@@ -173,7 +173,7 @@ export default {
       5: 'Skinul de osu {name} v{version}',
       6: 'Credite',
       7: 'skinuri de osu',
-      8: '{name} caută skinuri osu',
+      8: 'caută skinuri osu {name}',
       9: 'Inspiră-te de la alte skinuri de osu',
       10: '{name} a creat skinuri de osu'
     },
