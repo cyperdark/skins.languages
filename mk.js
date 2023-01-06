@@ -1,9 +1,7 @@
 export default {
-  hello: 'Hello',
   title: {
     home: 'Почетна',
-    page: 'страница',
-    guest: 'Најава',
+    login: 'Log in',
     lists: { 0: 'Листи' },
     tags: {
       0: 'Тагови',
@@ -117,7 +115,8 @@ export default {
     23: 'Слегнувањето ќе биде достапно скоро',
     24: '{amount} секунди преостанати',
     25: 'Ти не си еден од нас',
-    26: 'Изгледа дека не сте автор на овој скин'
+    26: 'Изгледа дека не сте автор на овој скин',
+    27: 'Skin by'
   },
   drag: {
     0: 'Кликнете овде',
@@ -148,7 +147,9 @@ export default {
     7: 'Ништо не е пронајдено',
     8: 'Пробајте да наместите други пребарувачки филтери',
     9: 'Чекање на пребарување',
-    10: 'Изберете ги пребарувачките филтери или само напишете име на скинот, авторот или таг'
+    10: 'Изберете ги пребарувачките филтери или само напишете име на скинот, авторот или таг',
+    11: 'Слегнувања',
+    12: 'Name'
   },
   tabs: {
     0: 'Пребарувај',
@@ -165,7 +166,7 @@ export default {
   },
   meta: {
     title: {
-      0: 'Почетна',
+      0: 'Discover osu skins',
       1: 'Гејм-модови, соодноси osu скинови',
       2: 'Популарни osu скинови',
       3: 'Пребарувај osu скинови',
@@ -178,7 +179,6 @@ export default {
       10: '{name} направиле osu скинови'
     },
     description: {
-      // 0: 'Get the best osu skins at our site, with a huge library to choose from! We have skins for different gamemodes and aspect ratios, and even feature top players and anime themes. Boost your gameplay with our high-quality skins.',
       0: 'Добијте ги најдобрите osu! скинови на нашиот сајт! Нашата голема галерија има скинови за сите гејм-модови, соодноси и скинови на топ играчи. Плус, ја имаме специјалната секција за фанови на аниме. Подобрете си го гејмплејот со перфектниот скин. #osuskins #osugame #anime',
       1: '{views} прегледи. osu скин за {modes}, големината е {size}, создадено од {creators}. Подршка {ratios}',
       2: 'Најдете го перфектиниот osu! скин со нашиот подобар пребарувач. Пребарувајте во нашата голема галерија, филтрирана по гејм-модови, соодноси, и повеќе. Или, погледнете ги скиновите користени од топ играчи.',
@@ -217,15 +217,16 @@ export default {
     }
   },
   tooltips: {
-    0: '{amount} прегледи',
+    0: 'Views: {amount}',
     1: 'Рефреширај резултати',
     2: 'Намалувачки | Накачувачки',
-    3: '{amount} лајкови',
+    3: 'Likes: {likes} / Dislikes: {dislikes}',
     4: 'Претиснете ctrl+enter за да додадете тагови',
     5: 'Измени верзија',
     6: '{s}Најава{p}, за да можете да го отцените скинот',
     7: 'Нема кратка дескрипција',
-    8: 'Нема URL'
+    8: 'Нема URL',
+    9: 'Downloads: {amount}'
   },
   lists: {
     screens: {
@@ -264,6 +265,8 @@ export default {
     9: 'Алатки',
     views: 'Прегледи',
     likes: 'Лајкови',
+    dislikes: 'Dislikes',
+    downloads: 'Слегнувања',
     size_range: 'Избери величина',
     date_range: 'Избери одредена дата',
     ratio: 'Избери сооднос | размер'
@@ -285,5 +288,13 @@ export default {
     13: 'Избери екстра',
     14: 'Пејстирај линк',
     15: 'Име на скин, автор, или таг'
+  },
+  contribute: { 0: 'Contribute' },
+  nsfw: {
+    0: 'Warning!',
+    1: 'This skin contains sensitive or adult content',
+    2: 'This skin contains sensitive or adult content that some users may find disturbing',
+    3: ' Alright',
+    4: ' bye o/'
   }
 };
