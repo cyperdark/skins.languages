@@ -1,9 +1,7 @@
 export default {
-  hello: 'Hello',
   title: {
     home: 'Startseite',
-    page: 'Seite',
-    guest: 'Anmelden',
+    login: 'Log in',
     lists: { 0: 'Listen' },
     tags: {
       0: 'Stichworte',
@@ -117,7 +115,8 @@ export default {
     23: 'Der Download ist gleich für dich vorhanden!',
     24: 'noch {amount} Sekunden',
     25: 'Du bist keiner von uns.',
-    26: 'Anscheinend bist du nicht der Autor oder Herausgeber von diesem Skin'
+    26: 'Anscheinend bist du nicht der Autor oder Herausgeber von diesem Skin',
+    27: 'Skin by'
   },
   drag: {
     0: 'Klicke hier',
@@ -148,7 +147,9 @@ export default {
     7: 'Nichts gefunden.',
     8: 'Versuche, ein anderes Suchkriterium zu benutzen.',
     9: 'Abfrage anstehend.',
-    10: 'Wähle das Suchkriterium, oder gib einfach den Skintitel, den Autor oder ein Stichwort ein.'
+    10: 'Wähle das Suchkriterium, oder gib einfach den Skintitel, den Autor oder ein Stichwort ein.',
+    11: 'Downloads',
+    12: 'Name'
   },
   tabs: {
     0: 'Suche',
@@ -165,7 +166,7 @@ export default {
   },
   meta: {
     title: {
-      0: 'Startseite',
+      0: 'Discover osu skins',
       1: 'Spielmodi, Seitenverhältnisse von osu! Skins',
       2: 'Beliebte osu! Skins',
       3: 'Suche nach osu! Skins',
@@ -178,7 +179,6 @@ export default {
       10: '{name} hat osu! Skins erstellt.'
     },
     description: {
-      // 0: 'Get the best osu skins at our site, with a huge library to choose from! We have skins for different gamemodes and aspect ratios, and even feature top players and anime themes. Boost your gameplay with our high-quality skins.',
       0: 'Bekomme die besten osu! Skins auf unserer Seite! Unsere größte Bibliothek hat Skins für alle Spielmodi, Seitenverhältnisse und sogar von den besten osu! Spielern. Zudem haben wir auch einen extra Abschnitt für Anime-Liebhaber. Verbessere dein Gameplay mit dem perfekten Skin. #osuskins #osugame #anime',
       1: '{views} Views. Ein osu! Skin für {modes}, die Dateigröße beträgt {size}, erstellt von {creators}. Unterstützt {ratios}',
       2: 'Finde den perfekten osu! Skin mit unserem erweiterten Suchfeature. Durchsuche unsere große Bibliothek, gefiltert nach Spielmodi, Seitenverhältnis, und vielem mehr. Oder schaue dir die Skins von den besten osu! Spielern an.',
@@ -217,15 +217,16 @@ export default {
     }
   },
   tooltips: {
-    0: '{amount} Aufrufe',
+    0: 'Views: {amount}',
     1: 'Ergebnisse aktualisieren',
     2: 'Absteigend | Aufsteigend',
-    3: '{amount} Likes',
+    3: 'Likes: {likes} / Dislikes: {dislikes}',
     4: 'Drücke Strg+Enter um ein Stichwort hinzuzufügen.',
     5: 'Bearbeite die Version',
     6: '{s}Melde dich an{p}, um diesen Skin zu bewerten.',
     7: 'Keine kurze Beschreibung.',
-    8: 'Keine URL'
+    8: 'Keine URL',
+    9: 'Downloads: {amount}'
   },
   lists: {
     screens: {
@@ -264,6 +265,8 @@ export default {
     9: 'Werkzeuge',
     views: 'Aufrufe',
     likes: 'Likes',
+    dislikes: 'Dislikes',
+    downloads: 'Downloads',
     size_range: 'Dateigröße auswählen',
     date_range: 'Zeitraum auswählen',
     ratio: 'Wähle das Seitenverhältnis aus'
@@ -285,5 +288,13 @@ export default {
     13: 'Extras auswählen',
     14: 'Link einfügen',
     15: 'Skintitel, Autor, oder Tag'
+  },
+  contribute: { 0: 'Contribute' },
+  nsfw: {
+    0: 'Warning!',
+    1: 'This skin contains sensitive or adult content',
+    2: 'This skin contains sensitive or adult content that some users may find disturbing',
+    3: ' Alright',
+    4: ' bye o/'
   }
 };
