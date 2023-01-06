@@ -1,9 +1,7 @@
 export default {
-  hello: 'Hello',
   title: {
     home: 'Domovská stránka',
-    page: 'page',
-    guest: 'Přihlášení',
+    login: 'Log in',
     lists: { 0: 'Seznamy' },
     tags: {
       0: 'Označení',
@@ -117,7 +115,8 @@ export default {
     23: 'Stahování bude brzy dostupné',
     24: '{amount} sekund zbývá',
     25: 'Nejsi jeden z nás',
-    26: 'Zdá se, že nejsti autorem ani editorem tohoto skinu'
+    26: 'Zdá se, že nejsti autorem ani editorem tohoto skinu',
+    27: 'Skin by'
   },
   drag: {
     0: 'Klikněte zde',
@@ -148,7 +147,9 @@ export default {
     7: 'Nic nebylo nalezeno',
     8: 'Zkuste zadat jiné vyhledávací kritéria',
     9: 'Čekání na dotaz',
-    10: 'Vyberte vyhledávací kritéria nebo prostě zadejte název skinu, autora, nebo označení'
+    10: 'Vyberte vyhledávací kritéria nebo prostě zadejte název skinu, autora, nebo označení',
+    11: 'Počet stáhnutí',
+    12: 'Name'
   },
   tabs: {
     0: 'Hledat',
@@ -165,7 +166,7 @@ export default {
   },
   meta: {
     title: {
-      0: 'Domovská stránka',
+      0: 'Discover osu skins',
       1: 'Herní módy, poměry stran osu skinů',
       2: 'Populární osu skiny',
       3: 'Hledat osu skiny',
@@ -178,7 +179,6 @@ export default {
       10: '{name} vyrobil osu skiny'
     },
     description: {
-      // 0: 'Get the best osu skins at our site, with a huge library to choose from! We have skins for different gamemodes and aspect ratios, and even feature top players and anime themes. Boost your gameplay with our high-quality skins.',
       0: 'Stáhněte si osu! skiny na našich stránkách! Naše velká knihovna ma skiny pro všechny herní módy, poměry stran, a dokonce i skiny od nejlepších hráčů. Taky máme speciální sekci pro fanoušky anime. Zlepšete svoje hraní s perfektním skinem. #osuskins #osugame #anime',
       1: '{views} zobrazení. Osu! skin pro {modes}, velikost {size}, vytvořeno {creators}. Podporuje {ratios}',
       2: 'Najděte si perfektní osu! skin s naším pokročilým vyhledávacím systémem. Projděte si naší obrovskou knihovnou, rozdělené na herní módy, poměry stran, atd. Nebo můžete zkusit se podívat na skiny od nejlepších hráčů',
@@ -217,15 +217,16 @@ export default {
     }
   },
   tooltips: {
-    0: '{amount} zobrazení',
+    0: 'Views: {amount}',
     1: 'obnovit výsledky',
     2: 'Klesající | Stoupající',
-    3: '{amount} oblíbených',
+    3: 'Likes: {likes} / Dislikes: {dislikes}',
     4: 'Zmáčkněte ctrl+enter pro přidání označení',
     5: 'Upravit verzi',
     6: '{s}Přihlaste se{p}, abyste mohli ohodnotit tento skin',
     7: 'Žádný krátký popis ',
-    8: 'Žádné URL'
+    8: 'Žádné URL',
+    9: 'Downloads: {amount}'
   },
   lists: {
     screens: {
@@ -264,6 +265,8 @@ export default {
     9: 'Nástroje',
     views: 'Zobrazení',
     likes: 'Oblíbené',
+    dislikes: 'Dislikes',
+    downloads: 'Počet stáhnutí',
     size_range: 'Vyber velikost',
     date_range: 'Vyber časové období',
     ratio: 'Vyber poměr stran | poměr'
@@ -285,5 +288,13 @@ export default {
     13: 'Vyber extra',
     14: 'Vložte link',
     15: 'Název skinu, autor, nebo označení'
+  },
+  contribute: { 0: 'Contribute' },
+  nsfw: {
+    0: 'Warning!',
+    1: 'This skin contains sensitive or adult content',
+    2: 'This skin contains sensitive or adult content that some users may find disturbing',
+    3: ' Alright',
+    4: ' bye o/'
   }
 };
