@@ -1,9 +1,7 @@
 export default {
-  hello: 'Salut',
   title: {
     home: 'Accueil',
-    page: 'Page',
-    guest: 'Se Connecter',
+    login: 'Log in',
     lists: { 0: 'Listes' },
     tags: {
       0: 'Tags',
@@ -117,7 +115,8 @@ export default {
     23: 'Le Téléchargement sera disponible bientôt',
     24: '{amount} secondes restantes',
     25: 'Vous n\'êtes pas l\'un d\'entre nous',
-    26: 'On dirait que vous n\'êtes pas un créateur ou un éditeur de ce skin'
+    26: 'On dirait que vous n\'êtes pas un créateur ou un éditeur de ce skin',
+    27: 'Skin by'
   },
   drag: {
     0: 'Cliquez ici',
@@ -148,7 +147,9 @@ export default {
     7: 'Rien n\'a été trouvé',
     8: 'Essayez d\'utiliser d\'autres critères de recherche',
     9: 'en attente d\'une requête',
-    10: 'Sélectionnez le critère de recherche ou écrivez juste le titre, l\'auteur ou le tag'
+    10: 'Sélectionnez le critère de recherche ou écrivez juste le titre, l\'auteur ou le tag',
+    11: 'Téléchargements',
+    12: 'Name'
   },
   tabs: {
     0: 'Rechercher',
@@ -165,7 +166,7 @@ export default {
   },
   meta: {
     title: {
-      0: 'Page d\'accueil',
+      0: 'Discover osu skins',
       1: 'Skins spécifiques à des modes de jeu ou formats d\'image ',
       2: 'Skins osu populaires',
       3: 'Rechercher des skins osu',
@@ -178,7 +179,6 @@ export default {
       10: 'Skins faits par {name}'
     },
     description: {
-      // 0: 'Get the best osu skins at our site, with a huge library to choose from! We have skins for different gamemodes and aspect ratios, and even feature top players and anime themes. Boost your gameplay with our high-quality skins.',
       0: 'Trouvez les meilleurs skins d\'osu! sur notre site ! Notre gigantesque librairie possède des skins pour tous les modes de jeu, formats d\'image, et même ceux des top players. En plus, nous avons une section spéciale pour les fans d\'animé. Améliorez votre gameplay avec le meilleur skin.#osuskins #osugame #anime',
       1: '{views} vues. Un skin osu pour {modes}, sa taille est de {size}, créé par {creators}. Supporte le {ratios}',
       2: 'Trouvez le skin osu! parfait avec notre fonctionnalité de recherche avancée. Naviguez dans notre gigantesque librarie, filtrée par mode de jeu, format d\'image et plus. Ou regardez nos skins utilisés par des top players',
@@ -217,15 +217,16 @@ export default {
     }
   },
   tooltips: {
-    0: '{amount} vues',
+    0: 'Views: {amount}',
     1: 'Rafraîchir les résultats',
     2: 'Décroissant | Croissant',
-    3: '{amount} j\'aime',
+    3: 'Likes: {likes} / Dislikes: {dislikes}',
     4: 'Appuyez sur ctrl+entrée pour ajouter un tag',
     5: 'Editer la version',
     6: '{s}Connectez vous{p}, Pour pouvoir noter ce skin',
     7: 'Pas de desctiption courte',
-    8: 'pas d\'url'
+    8: 'pas d\'url',
+    9: 'Downloads: {amount}'
   },
   lists: {
     screens: {
@@ -264,6 +265,8 @@ export default {
     9: 'Outils',
     views: 'Vues',
     likes: 'J\'aime',
+    dislikes: 'Dislikes',
+    downloads: 'Téléchargements',
     size_range: 'Sélectionnez la taille',
     date_range: 'Sélectionnez la plage de dates',
     ratio: 'Sélectionnez un format d\'image | Format dimage'
@@ -285,5 +288,13 @@ export default {
     13: 'Sélectionnez des suppléments',
     14: 'Copiez un lien',
     15: 'Titre du skin, auteur ou tag'
+  },
+  contribute: { 0: 'Contribute' },
+  nsfw: {
+    0: 'Warning!',
+    1: 'This skin contains sensitive or adult content',
+    2: 'This skin contains sensitive or adult content that some users may find disturbing',
+    3: ' Alright',
+    4: ' bye o/'
   }
 };
