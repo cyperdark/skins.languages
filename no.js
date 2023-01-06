@@ -1,9 +1,7 @@
 export default {
-  hello: 'Hello',
   title: {
     home: 'Hjem',
-    page: 'Side',
-    guest: 'Logg inn',
+    login: 'Log in',
     lists: { 0: 'Lister' },
     tags: {
       0: 'Tags',
@@ -117,7 +115,8 @@ export default {
     23: 'Nedlasting er snart tilgjengelig',
     24: '{amount} sekunder igjen',
     25: 'Du er ikke en av oss',
-    26: 'Ser ut som at du ikke er forfatter eller editor av dette skinnet'
+    26: 'Ser ut som at du ikke er forfatter eller editor av dette skinnet',
+    27: 'Skin by'
   },
   drag: {
     0: 'Trykk her',
@@ -148,7 +147,9 @@ export default {
     7: 'Ingenting funnet',
     8: 'Prøv å bruk et annet søkefilter',
     9: 'Venter godkjenning',
-    10: 'Velg søkefilter eller skriv tittelten til skinnet, skaper av skin eller en tag'
+    10: 'Velg søkefilter eller skriv tittelten til skinnet, skaper av skin eller en tag',
+    11: 'Nedlasting',
+    12: 'Name'
   },
   tabs: {
     0: 'Søk',
@@ -165,7 +166,7 @@ export default {
   },
   meta: {
     title: {
-      0: 'Hjemmeside',
+      0: 'Discover osu skins',
       1: 'Spillmodus, aspect ratios osu skins',
       2: 'Populære osu skins',
       3: 'Søk osu skins',
@@ -178,7 +179,6 @@ export default {
       10: '{name} laget osu skins'
     },
     description: {
-      // 0: 'Get the best osu skins at our site, with a huge library to choose from! We have skins for different gamemodes and aspect ratios, and even feature top players and anime themes. Boost your gameplay with our high-quality skins.',
       0: 'Få de beste osu! skins på vår nettside! Vårt store lager med skins for alle spillmoduser, størrelsesformat og spillere i toppen. Plus, vi har en spesiell seksjon for anime fans. Forbedre spillingen din med det perfekte skinnet. #osuskins #osugame #anime',
       1: '{views} visninger. Et osu skin for {modes}, filstørrelsen er {size}, laget av {creators}, Støtter {ratios}',
       2: 'Finn det perfekte osu! skinnet med våres avanserte søk funksjon. Bla gjennom våre mange sider, filtrer etter spillmodus, størrelsesforhold med mer. Eller, sjekk ut skins som andre spillere i toppen bruker.',
@@ -217,15 +217,16 @@ export default {
     }
   },
   tooltips: {
-    0: '{amount} visninger',
+    0: 'Views: {amount}',
     1: 'Oppdater resultat',
     2: 'Synkende | Økende',
-    3: '{amount} liker',
+    3: 'Likes: {likes} / Dislikes: {dislikes}',
     4: 'Press ctrl+enter for å legge til en tagg',
     5: 'Rediger versjon',
     6: '{s}Logg inn{p}, for å legge igjen en vurdering om dette skinnet',
     7: 'Ingen liten beskrivelse',
-    8: 'Ingen link'
+    8: 'Ingen link',
+    9: 'Downloads: {amount}'
   },
   lists: {
     screens: {
@@ -264,6 +265,8 @@ export default {
     9: 'Verktøy',
     views: 'Visninger',
     likes: 'Liker',
+    dislikes: 'Dislikes',
+    downloads: 'Nedlasting',
     size_range: 'Velg størrelse',
     date_range: 'Velg en dato',
     ratio: 'Velg størrelsesformat | format'
@@ -285,5 +288,13 @@ export default {
     13: 'Velg ekstra',
     14: 'Lim inn lenke',
     15: 'Skin tittel, skaper, eller tag'
+  },
+  contribute: { 0: 'Contribute' },
+  nsfw: {
+    0: 'Warning!',
+    1: 'This skin contains sensitive or adult content',
+    2: 'This skin contains sensitive or adult content that some users may find disturbing',
+    3: ' Alright',
+    4: ' bye o/'
   }
 };
