@@ -1,7 +1,7 @@
 export default {
   title: {
     home: 'Pagina',
-    login: 'Log in',
+    login: 'Accedi',
     lists: { 0: 'Liste' },
     tags: {
       0: 'Tags',
@@ -116,7 +116,7 @@ export default {
     24: '{quantità} secondi rimanenti',
     25: 'Non sei uno di noi',
     26: 'Sembra che tu non sia l\'autore o un editor di questa skin',
-    27: 'Skin by'
+    27: 'Skin di'
   },
   drag: {
     0: 'Clicca qui',
@@ -149,7 +149,7 @@ export default {
     9: 'In attesa di una domanda',
     10: 'Seleziona i criteri di ricerca o scrivi semplicemente il titolo della skin, l\'autore o il tag',
     11: 'Downloads',
-    12: 'Name'
+    12: 'Nome'
   },
   tabs: {
     0: 'Cerca',
@@ -166,7 +166,7 @@ export default {
   },
   meta: {
     title: {
-      0: 'Discover osu skins',
+      0: 'Scopri le skin di osu',
       1: 'Modalità di gioco, proporzioni osu skin',
       2: 'Osu skin popolari',
       3: 'Cerca osu skins',
@@ -217,16 +217,16 @@ export default {
     }
   },
   tooltips: {
-    0: 'Views: {amount}',
+    0: 'Visualizzazioni: {amount}',
     1: 'Ricarica risultati',
     2: 'Discendente | Ascendente',
-    3: 'Likes: {likes} / Dislikes: {dislikes}',
+    3: 'Mi piace: {likes} / Non mi piace: {dislikes}',
     4: 'Premi ctrl+enter per aggiungere una tag',
     5: 'Modifica versione',
     6: '{s}Log in{p}, per essere in grado di votare questa skin',
     7: 'Non c\'è una descrizione corta',
     8: 'Senza url',
-    9: 'Downloads: {amount}'
+    9: 'Download: {amount}'
   },
   lists: {
     screens: {
@@ -265,7 +265,7 @@ export default {
     9: 'Strumenti',
     views: 'Visualizzazioni',
     likes: 'Mi piace',
-    dislikes: 'Dislikes',
+    dislikes: 'Non mi piace',
     downloads: 'Downloads',
     size_range: 'Seleziona peso',
     date_range: 'Seleziona una data',
@@ -273,7 +273,7 @@ export default {
   },
   placeholders: {
     0: 'Scegli ruoli',
-    1: 'Scegli verisoni',
+    1: 'Scegli versioni',
     2: 'Scrivi testo...',
     3: 'Seleziona peso',
     4: 'Seleziona una data',
@@ -289,12 +289,12 @@ export default {
     14: 'Incolla un link',
     15: 'Titolo della skin, autore, o tag'
   },
-  contribute: { 0: 'Contribute' },
+  contribute: { 0: 'Contribuire' },
   nsfw: {
-    0: 'Warning!',
-    1: 'This skin contains sensitive or adult content',
-    2: 'This skin contains sensitive or adult content that some users may find disturbing',
-    3: ' Alright',
-    4: ' bye o/'
+    0: 'Attenzione!',
+    1: 'Questa skin contiene contenuti sensibili o per adulti',
+    2: 'Questa skin contiene contenuti sensibili o per adulti che alcuni utenti possono trovare disturbanti',
+    3: 'D\'accordo',
+    4: 'ciao o/'
   }
 };
