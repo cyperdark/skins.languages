@@ -1,7 +1,7 @@
 export default {
   title: {
     home: 'Domovská stránka',
-    login: 'Log in',
+    login: 'Přihlásit se',
     lists: { 0: 'Seznamy' },
     tags: {
       0: 'Označení',
@@ -34,7 +34,7 @@ export default {
     0: 'Vývojáři',
     1: 'Seznam všech vývojářů kteří byli zapojení ve vývoji této verze',
     2: 'Nikdo zde není',
-    3: 'Searching for a player\'s name will display a list of profiles.',
+    3: 'Hledání jména hráče zobrazí seznam profilů.',
     4: 'Editor',
     5: 'Role',
     6: 'Verze'
@@ -98,7 +98,7 @@ export default {
     5: 'Snímky obrazovky',
     6: 'Hraní',
     7: 'Stáhnout odkaz | Stáhnout skin',
-    8: 'Forum post | osu! Forum',
+    8: 'Příspěvek na fórech | osu! fóra',
     9: 'Příspěvek na Redditu',
     10: 'Vývojáři',
     11: 'Označení',
@@ -116,7 +116,7 @@ export default {
     24: '{amount} sekund zbývá',
     25: 'Nejsi jeden z nás',
     26: 'Zdá se, že nejsti autorem ani editorem tohoto skinu',
-    27: 'Skin by'
+    27: 'Skin od'
   },
   drag: {
     0: 'Klikněte zde',
@@ -133,9 +133,9 @@ export default {
     3: 'Všechny ikony jsou od {name}',
     4: 'Vlajky',
     5: 'Všechny vlajky jsou od {name}',
-    6: 'Localisation',
-    7: 'Anyone? [{lang}]',
-    8: 'Seems like, cpol forget to add them. {text}'
+    6: 'Lokalizace',
+    7: 'Je tu někdo?{lang}',
+    8: 'Vypadá to, že cpol je zapomněl přidat {text}'
   },
   search: {
     0: 'Hledat skiny',
@@ -149,7 +149,7 @@ export default {
     9: 'Čekání na dotaz',
     10: 'Vyberte vyhledávací kritéria nebo prostě zadejte název skinu, autora, nebo označení',
     11: 'Počet stáhnutí',
-    12: 'Name'
+    12: 'Jméno'
   },
   tabs: {
     0: 'Hledat',
@@ -162,11 +162,11 @@ export default {
     2: 'Bohužel zde nic není',
     3: 'Neoprávněný',
     4: 'Pro úpravu tohoto skinu musíte být přihlášeni.',
-    5: 'You need to be logged in to add a new skin.'
+    5: 'Musíte být přihlášený pro přidání nového skinu.'
   },
   meta: {
     title: {
-      0: 'Discover osu skins',
+      0: 'Objevovat osu skiny',
       1: 'Herní módy, poměry stran osu skinů',
       2: 'Populární osu skiny',
       3: 'Hledat osu skiny',
@@ -175,7 +175,7 @@ export default {
       6: 'Poděkování',
       7: 'osu skiny',
       8: '{name} hledat osu skiny',
-      9: 'Get inspiration from other osu skins',
+      9: 'Získejte inspiraci z jiných osu skinů',
       10: '{name} vyrobil osu skiny'
     },
     description: {
@@ -217,16 +217,16 @@ export default {
     }
   },
   tooltips: {
-    0: 'Views: {amount}',
+    0: 'Zobrazení: {amount}',
     1: 'obnovit výsledky',
     2: 'Klesající | Stoupající',
-    3: 'Likes: {likes} / Dislikes: {dislikes}',
+    3: 'Líbí se: {likes} / Nelíbí se: {dislikes}',
     4: 'Zmáčkněte ctrl+enter pro přidání označení',
     5: 'Upravit verzi',
     6: '{s}Přihlaste se{p}, abyste mohli ohodnotit tento skin',
     7: 'Žádný krátký popis ',
     8: 'Žádné URL',
-    9: 'Downloads: {amount}'
+    9: 'Stažení: {amount}'
   },
   lists: {
     screens: {
@@ -265,7 +265,7 @@ export default {
     9: 'Nástroje',
     views: 'Zobrazení',
     likes: 'Oblíbené',
-    dislikes: 'Dislikes',
+    dislikes: 'Neoblíbené',
     downloads: 'Počet stáhnutí',
     size_range: 'Vyber velikost',
     date_range: 'Vyber časové období',
@@ -289,12 +289,12 @@ export default {
     14: 'Vložte link',
     15: 'Název skinu, autor, nebo označení'
   },
-  contribute: { 0: 'Contribute' },
+  contribute: { 0: 'Zapojte se' },
   nsfw: {
-    0: 'Warning!',
-    1: 'This skin contains sensitive or adult content',
-    2: 'This skin contains sensitive or adult content that some users may find disturbing',
-    3: ' Alright',
-    4: ' bye o/'
+    0: 'Upozornění!',
+    1: 'Tento skin obshauje citlivý obsah nebo obsah pro dospělé',
+    2: 'Tento skin obsahuje citlivý obsah nebo obsah pro dospělé, který může připadat některým uživatelům znepokojivě',
+    3: ' Dobře',
+    4: ' měj se o/'
   }
 };
