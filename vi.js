@@ -1,7 +1,7 @@
 export default {
   title: {
     home: 'Trang chủ',
-    login: 'Log in',
+    login: 'Đăng nhập',
     lists: { 0: 'Danh sách' },
     tags: {
       0: 'Các Tag',
@@ -116,7 +116,7 @@ export default {
     24: 'Còn {amount} giây',
     25: 'Bạn không phải một trong số chúng tôi',
     26: 'Có vẻ như bạn không phải là tác giả hay người chỉnh sửa skin này',
-    27: 'Skin by'
+    27: 'Skin tạo bởi'
   },
   drag: {
     0: 'Nhấn vào đây',
@@ -149,7 +149,7 @@ export default {
     9: 'Đang chờ xử lý',
     10: 'Hãy chọn các filter tìm kiếm hoặc chỉ cần ghi tên, tác giả hay các tag của skin',
     11: 'Lượt tải xuống',
-    12: 'Name'
+    12: 'Tên'
   },
   tabs: {
     0: 'Tìm kiếm',
@@ -166,7 +166,7 @@ export default {
   },
   meta: {
     title: {
-      0: 'Discover osu skins',
+      0: 'Khám phá các skin osu',
       1: 'Chế độ chơi, tỉ lệ của osu skin',
       2: 'Skin osu phổ biến',
       3: 'Tìm kiếm osu skin',
@@ -217,16 +217,16 @@ export default {
     }
   },
   tooltips: {
-    0: 'Views: {amount}',
+    0: 'Lượt xem: {amount}',
     1: 'Đang tải lại kết quả',
     2: 'Giảm | Tăng',
-    3: 'Likes: {likes} / Dislikes: {dislikes}',
+    3: 'Lượt thích: {likes} / Không thích: {dislikes}',
     4: 'Nhấn ctrl+enter để thêm tag',
     5: 'Chỉnh sửa phiên bản',
     6: '{s}Đăng nhập{p}, để có thể đánh giá skin này',
     7: 'Không có mô tả ngắn',
     8: 'Không có url',
-    9: 'Downloads: {amount}'
+    9: 'Lượt tải: {amount}'
   },
   lists: {
     screens: {
@@ -265,7 +265,7 @@ export default {
     9: 'Công cụ',
     views: 'Lượt xem',
     likes: 'Thích',
-    dislikes: 'Dislikes',
+    dislikes: 'Không thích',
     downloads: 'Lượt tải xuống',
     size_range: 'Chọn kích cỡ',
     date_range: 'Chon mốc thời gian',
@@ -289,12 +289,12 @@ export default {
     14: 'Dán một liên kết',
     15: 'Tiêu đề skin, tác giả, hoặc tag'
   },
-  contribute: { 0: 'Contribute' },
+  contribute: { 0: 'Đóng góp' },
   nsfw: {
-    0: 'Warning!',
-    1: 'This skin contains sensitive or adult content',
-    2: 'This skin contains sensitive or adult content that some users may find disturbing',
-    3: ' Alright',
-    4: ' bye o/'
+    0: 'Cảnh báo!',
+    1: 'Skin có chứa các nội dung nhạy cảm hoặc người lớn',
+    2: 'Skin có chứa các nội dung nhạy cảm hoặc người lớn có thể gây khó chịu cho một số người dùng',
+    3: ' Được',
+    4: ' tạm biệt o/'
   }
 };
