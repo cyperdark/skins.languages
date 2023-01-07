@@ -289,12 +289,14 @@ export default {
     14: 'Paste a link',
     15: 'Skin title, author, or tag'
   },
-  contribute: { 0: 'Contribute' },
+  contribute: {
+    0: 'Contribute'
+  },
   nsfw: {
     0: 'Warning!',
     1: 'This skin contains sensitive or adult content',
     2: 'This skin contains sensitive or adult content that some users may find disturbing',
     3: ' Alright',
-    4: ' bye o/'
-  }
+    4: ' bye o/',
+  },
 };
