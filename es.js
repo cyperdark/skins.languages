@@ -116,7 +116,7 @@ export default {
     24: 'Quedan {amount} segundos',
     25: 'No eres uno de nosotros',
     26: 'Parece que no eres el autor o editor de esta skin',
-    27: 'Skin by'
+    27: 'Skin hecha por'
   },
   drag: {
     0: 'Click aquí',
@@ -149,7 +149,7 @@ export default {
     9: 'Pendiente',
     10: 'Seleccione los filtros de búsqueda o simplemente escriba el título de la skin, el autor o la etiqueta',
     11: 'Descargas',
-    12: 'Name'
+    12: 'Nombre'
   },
   tabs: {
     0: 'Buscar',
@@ -166,7 +166,7 @@ export default {
   },
   meta: {
     title: {
-      0: 'Discover osu skins',
+      0: 'Descubre skins de osu',
       1: 'Modos de juego, relación de aspecto de las skins de osu',
       2: 'Skins populares de osu',
       3: 'Busca skins de osu',
@@ -217,16 +217,16 @@ export default {
     }
   },
   tooltips: {
-    0: 'Views: {amount}',
+    0: 'Vistas: {amount}',
     1: 'Actualizar los resultados',
     2: 'Descendente | Ascendente',
-    3: 'Likes: {likes} / Dislikes: {dislikes}',
+    3: 'Me gusta: {likes} / No me gusta: {dislikes}',
     4: 'Presione Ctrl+Enter para agregar una etiqueta',
     5: 'Editar versión',
     6: '{s}Inicia sesión{p}, para poder valorar esta skin',
     7: 'Sin descripción corta',
     8: 'Sin enlace',
-    9: 'Downloads: {amount}'
+    9: 'Descargas: {amount}'
   },
   lists: {
     screens: {
@@ -265,7 +265,7 @@ export default {
     9: 'Herramientas',
     views: 'Vistas',
     likes: 'Me gusta',
-    dislikes: 'Dislikes',
+    dislikes: 'No me gusta',
     downloads: 'Descargas',
     size_range: 'Seleccionar tamaño',
     date_range: 'Seleccione un rango de fechas',
@@ -289,12 +289,12 @@ export default {
     14: 'Pegar un enlace',
     15: 'Título de la skin, autor o etiqueta'
   },
-  contribute: { 0: 'Contribute' },
+  contribute: { 0: 'Contribuir' },
   nsfw: {
-    0: 'Warning!',
-    1: 'This skin contains sensitive or adult content',
-    2: 'This skin contains sensitive or adult content that some users may find disturbing',
-    3: ' Alright',
+    0: '¡Advertencia!',
+    1: 'Esta skin contiene elementos sensibles o contenido adulto',
+    2: 'Esta skin contiene elementos sensibles o contenido adulto que algunos usuarios pueden encontrar inquietante',
+    3: ' Entrar',
     4: ' bye o/'
   }
 };
