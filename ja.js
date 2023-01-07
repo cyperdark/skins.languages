@@ -1,7 +1,7 @@
 export default {
   title: {
     home: 'ホーム',
-    login: 'Log in',
+    login: 'ログイン',
     lists: { 0: 'リスト' },
     tags: {
       0: 'タグ',
@@ -116,7 +116,7 @@ export default {
     24: '残り{amount} 秒',
     25: 'あなたは私たちの仲間ではありません',
     26: 'あなたは、このスキンの作成者や編集者ではないようです。',
-    27: 'Skin by'
+    27: 'スキン by'
   },
   drag: {
     0: 'ここをクリック',
@@ -166,7 +166,7 @@ export default {
   },
   meta: {
     title: {
-      0: 'Discover osu skins',
+      0: 'osuスキンを見つける',
       1: 'ゲームモード、アスペクト比、osuスキン',
       2: '人気のosuスキン',
       3: 'osu スキンを検索',
@@ -217,7 +217,7 @@ export default {
     }
   },
   tooltips: {
-    0: 'Views: {amount}',
+    0: 'ビュー数: {amount}',
     1: '結果を更新',
     2: '降順｜昇順',
     3: 'Likes: {likes} / Dislikes: {dislikes}',
@@ -226,7 +226,7 @@ export default {
     6: '{s}ログイン{p}して、このスキンを評価してください',
     7: '短い説明文はありません',
     8: 'URL がありません',
-    9: 'Downloads: {amount}'
+    9: 'ダウンロード数: {amount}'
   },
   lists: {
     screens: {
@@ -289,12 +289,12 @@ export default {
     14: 'リンクを貼り付け',
     15: 'スキンのタイトル、作者、またはタグ'
   },
-  contribute: { 0: 'Contribute' },
+  contribute: { 0: '貢献する' },
   nsfw: {
-    0: 'Warning!',
-    1: 'This skin contains sensitive or adult content',
-    2: 'This skin contains sensitive or adult content that some users may find disturbing',
-    3: ' Alright',
+    0: '警告！！',
+    1: 'このスキンにはセンシティブまたはアダルトなコンテンツが含まれています',
+    2: 'このスキンには、一部のユーザーが不快に感じる可能性があるセンシティブまたはアダルトなコンテンツが含まれています',
+    3: ' 了解',
     4: ' bye o/'
   }
 };
