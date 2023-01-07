@@ -1,7 +1,7 @@
 export default {
   title: {
     home: 'Koti',
-    login: 'Log in',
+    login: 'Kirjaudu sisään',
     lists: { 0: 'Luettelot' },
     tags: {
       0: 'Tägit',
@@ -116,7 +116,7 @@ export default {
     24: '{amount} sekunteja jäljellä',
     25: 'Sinä et ole yksi meistä',
     26: 'Näyttää siltä, että et ole tämän skinin tekijä tai muokkaaja',
-    27: 'Skin by'
+    27: 'Skinin on tehnyt'
   },
   drag: {
     0: 'Paina tästä',
@@ -149,7 +149,7 @@ export default {
     9: 'Odotetaan hakua',
     10: 'Valitse hakusuodattimet tai kirjoita skinin nimi, tekijä tai tägi',
     11: 'Lataukset',
-    12: 'Name'
+    12: 'Nimi'
   },
   tabs: {
     0: 'Haku',
@@ -166,7 +166,7 @@ export default {
   },
   meta: {
     title: {
-      0: 'Discover osu skins',
+      0: 'Löydä osu skinejä',
       1: 'Pelimodet, kuvasuhteet osu skinit',
       2: 'Suositut osu skinit',
       3: 'Hae osu skinejä',
@@ -217,16 +217,16 @@ export default {
     }
   },
   tooltips: {
-    0: 'Views: {amount}',
+    0: 'Katselukerrat: {amount}',
     1: 'Päivitä tulokset',
     2: 'Laskeva | Nouseva',
-    3: 'Likes: {likes} / Dislikes: {dislikes}',
+    3: 'Tykkäykset: {likes} / Disliket: {dislikes}',
     4: 'Paina ctrl+enter lisätäksesi tägin',
     5: 'Muokkaa versiota',
     6: '{s}Kirjaudu sisään{p} arvostellaksesi tämän skinin',
     7: 'Ei lyhyttä kuvausta',
     8: 'Ei url-osoitetta',
-    9: 'Downloads: {amount}'
+    9: 'Lataukset: {amount}'
   },
   lists: {
     screens: {
@@ -265,7 +265,7 @@ export default {
     9: 'Työkalut',
     views: 'Katselukerrat',
     likes: 'Tykkäykset',
-    dislikes: 'Dislikes',
+    dislikes: 'Disliket',
     downloads: 'Lataukset',
     size_range: 'Valitse koko',
     date_range: 'Valitse ajanjakso',
@@ -289,12 +289,12 @@ export default {
     14: 'Liitä linkki',
     15: 'Skinin otsikko, tekijä, tai tägi'
   },
-  contribute: { 0: 'Contribute' },
+  contribute: { 0: 'Osallistu' },
   nsfw: {
-    0: 'Warning!',
-    1: 'This skin contains sensitive or adult content',
-    2: 'This skin contains sensitive or adult content that some users may find disturbing',
-    3: ' Alright',
-    4: ' bye o/'
+    0: 'Varoitus!',
+    1: 'Tämä skini sisältää herkkää tai aikuisille tarkoitettua sisältöä',
+    2: 'Tämä skini sisältää herkkää tai aikuisille tarkoitettua sisältöä, jota jotkut käyttäjät voivat pitää häiritsevänä',
+    3: 'Selvä',
+    4: 'Heippa o/'
   }
 };
