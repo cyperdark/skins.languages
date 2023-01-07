@@ -1,7 +1,7 @@
 export default {
   title: {
     home: 'Halaman utama',
-    login: 'Log in',
+    login: 'Masuk',
     lists: { 0: 'Daftar' },
     tags: {
       0: 'Label',
@@ -116,7 +116,7 @@ export default {
     24: '{amount} detik tersisa',
     25: 'Kamu bukan salah satu dari kami',
     26: 'Sepertinya kamu bukan pembuat ataupun editor dari skin ini',
-    27: 'Skin by'
+    27: 'Skin oleh'
   },
   drag: {
     0: 'Klik disini',
@@ -149,7 +149,7 @@ export default {
     9: 'Menunggu pencarian',
     10: 'Pakai search filter atau tulis saja judul skin, pembuat, atau labelnya',
     11: 'Unduh',
-    12: 'Name'
+    12: 'Nama'
   },
   tabs: {
     0: 'Cari',
@@ -166,7 +166,7 @@ export default {
   },
   meta: {
     title: {
-      0: 'Discover osu skins',
+      0: 'Temukan skin osu',
       1: 'Mode permainan, aspek rasio dari skin osu',
       2: 'osu! skin yang populer',
       3: 'Cari skin osu!',
@@ -217,16 +217,16 @@ export default {
     }
   },
   tooltips: {
-    0: 'Views: {amount}',
+    0: 'Dilihat: {amount}',
     1: 'Refresh hasil',
     2: 'Turun | Naik',
-    3: 'Likes: {likes} / Dislikes: {dislikes}',
+    3: 'Suka: {likes} / Tidak suka: {dislikes}',
     4: 'Tekan ctrl+enter untuk menambahkan label',
     5: 'Edit versi',
     6: '{s}Masuk{p}, agar bisa menilai skin ini',
     7: 'Tidak ada deskripsi singkat',
     8: 'Tidak ada URL',
-    9: 'Downloads: {amount}'
+    9: 'Unduh: {amount}'
   },
   lists: {
     screens: {
@@ -265,7 +265,7 @@ export default {
     9: 'Alat',
     views: 'Dilihat',
     likes: 'Suka',
-    dislikes: 'Dislikes',
+    dislikes: 'Tidak suka',
     downloads: 'Unduh',
     size_range: 'Pilih ukuran',
     date_range: 'Pilih rentang tanggal',
@@ -289,12 +289,12 @@ export default {
     14: 'Tempel link',
     15: 'Judul, pembuat, atau label skin'
   },
-  contribute: { 0: 'Contribute' },
+  contribute: { 0: 'Kontribusi' },
   nsfw: {
-    0: 'Warning!',
-    1: 'This skin contains sensitive or adult content',
-    2: 'This skin contains sensitive or adult content that some users may find disturbing',
-    3: ' Alright',
-    4: ' bye o/'
+    0: 'Peringatan!',
+    1: 'Terdapat konten sensitif atau dewasa pada skin ini',
+    2: 'Terdapat konten sensitif atau dewasa pada skin ini yang mungkin mengganggu sebagian orang',
+    3: 'Baiklah',
+    4: 'dadah o/'
   }
 };
