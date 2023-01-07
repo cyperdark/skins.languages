@@ -1,7 +1,7 @@
 export default {
   title: {
     home: 'Accueil',
-    login: 'Log in',
+    login: 'Connexion',
     lists: { 0: 'Listes' },
     tags: {
       0: 'Tags',
