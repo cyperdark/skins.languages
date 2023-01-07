@@ -1,7 +1,7 @@
 export default {
   title: {
     home: 'Główna',
-    login: 'Log in',
+    login: 'Zaloguj się',
     lists: { 0: 'Listy' },
     tags: {
       0: 'Tagi',
@@ -116,7 +116,7 @@ export default {
     24: 'zostało {amount} sekund',
     25: 'Nie jesteś jednym z nas',
     26: 'Wygląda na to, że nie jesteś autorem tego skina, bądź nie masz permisji do jego edytowania',
-    27: 'Skin by'
+    27: 'Skin od'
   },
   drag: {
     0: 'Kliknij',
@@ -149,7 +149,7 @@ export default {
     9: 'Czekam na zapytanie',
     10: 'Wybierz kryteria wyszukiwania, lub wpisz nazwę skina, autora, lub tag',
     11: 'Pobrania',
-    12: 'Name'
+    12: 'Nazwa'
   },
   tabs: {
     0: 'Szukaj',
@@ -166,17 +166,17 @@ export default {
   },
   meta: {
     title: {
-      0: 'Discover osu skins',
+      0: 'Odkryj skiny do osu',
       1: 'Gamemodes, aspect ratios osu skins',
       2: 'Popular osu skins',
-      3: 'Search osu skins',
+      3: 'Wyszukaj skiny do osu',
       4: '«{name}» tags list',
-      5: '{name} v{version} osu skin',
+      5: '{name} v{version} skin do osu',
       6: 'Credits',
-      7: 'osu skins',
+      7: 'skiny do osu',
       8: '{name} search osu skins',
       9: 'Zainspiruj się innymi skinami',
-      10: '{name} created osu skins'
+      10: '{name} stworzył/a skiny do osu'
     },
     description: {
       0: 'Najlepsze skiny do osu! tylko u nas! W naszej ogromnej bibliotece znajdziesz skiny dla wszystkich trybów gry, proporcji ekranu, a nawet skiny używane przez topowych graczy. Posiadamy również sekcję dla fanów anime. Udoskonal swoją rozgrywkę z idealnym dla ciebie skinem. #osuskins #osugame #anime',
@@ -217,16 +217,16 @@ export default {
     }
   },
   tooltips: {
-    0: 'Views: {amount}',
+    0: 'Wyświetlenia: {amount}',
     1: 'Odśwież wyniki',
     2: 'Malejąco | Rosnąco',
-    3: 'Likes: {likes} / Dislikes: {dislikes}',
+    3: 'Lubię to: {likes} / Nie lubię tego: {dislikes}',
     4: 'Naciśnij ctrl+enter aby dodać tag',
     5: 'Edytuj wersję',
     6: '{s}Zaloguj się{p}, aby oceniś ten skin',
     7: 'Brak krótkiego opisu',
     8: 'Brak linka',
-    9: 'Downloads: {amount}'
+    9: 'Pobrania: {amount}'
   },
   lists: {
     screens: {
@@ -265,7 +265,7 @@ export default {
     9: 'Narzędzia',
     views: 'Wyświetlenia',
     likes: 'Polubienia',
-    dislikes: 'Dislikes',
+    dislikes: 'Nie lubię tego',
     downloads: 'Pobrania',
     size_range: 'Wybierz rozmiar',
     date_range: 'Wybierz zakres dat',
@@ -289,12 +289,12 @@ export default {
     14: 'Wklej link',
     15: 'Tytuł, autor, lub tag'
   },
-  contribute: { 0: 'Contribute' },
+  contribute: { 0: 'Współtwórz' },
   nsfw: {
-    0: 'Warning!',
-    1: 'This skin contains sensitive or adult content',
-    2: 'This skin contains sensitive or adult content that some users may find disturbing',
-    3: ' Alright',
-    4: ' bye o/'
+    0: 'Uwaga!',
+    1: 'Ten skin zawiera treści wrażliwe lub dla dorosłych',
+    2: 'Ten skin zawiera treści wrażliwe lub dla dorosłych, które niektórzy użytkownicy mogą uznać za niepokojące',
+    3: ' W porządku',
+    4: ' na razie o/'
   }
 };
