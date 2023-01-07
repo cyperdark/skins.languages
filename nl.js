@@ -1,7 +1,7 @@
 export default {
   title: {
     home: 'Startpagina',
-    login: 'Log in',
+    login: 'Inloggen',
     lists: { 0: 'Lijsten' },
     tags: {
       0: 'Categorieën',
@@ -34,7 +34,7 @@ export default {
     0: 'Auteurs',
     1: 'Lijst van alle auteurs die hielpen met het maken van deze versie',
     2: 'Er is niemand is hier',
-    3: 'Searching for a player\'s name will display a list of profiles.',
+    3: 'Zoeken naar een spelers naam zal een lijst van profielen laten zien.',
     4: 'Editor',
     5: 'Rollen',
     6: 'Versies'
@@ -98,7 +98,7 @@ export default {
     5: 'Schermopnames',
     6: 'Alleen van tijdens het spelen',
     7: 'Download link | Download skin',
-    8: 'Forum post | osu! Forum',
+    8: 'Forum berichten | osu! Forum',
     9: 'Reddit post',
     10: 'Auteurs',
     11: 'Categorieën',
@@ -116,7 +116,7 @@ export default {
     24: '{amount} seconden over',
     25: 'Jij hoort niet bij ons',
     26: 'Het ziet ernaar uit dat je niet de auteur of editor van deze skin bent',
-    27: 'Skin by'
+    27: 'Skin door'
   },
   drag: {
     0: 'Klik hier',
@@ -133,9 +133,9 @@ export default {
     3: 'Alle icoontjes zijn genomen van {name}',
     4: 'Vlaggen',
     5: 'Alle vlaggen zijn genomen van {name}',
-    6: 'Localisation',
-    7: 'Anyone? [{lang}]',
-    8: 'Seems like, cpol forget to add them. {text}'
+    6: 'Vertalingen',
+    7: 'Iemand? [{lang}]',
+    8: 'Het ziet ernaar uit dat cpol ze is vergeten toe te voegen. {text}'
   },
   search: {
     0: 'Zoek naar skin',
@@ -149,7 +149,7 @@ export default {
     9: 'We wachten op je zoekopdracht',
     10: 'Selecteer de zoek criteria of type gewoon de titel, auteur of tag van de skin',
     11: 'Downloads',
-    12: 'Name'
+    12: 'Naam'
   },
   tabs: {
     0: 'Zoek',
@@ -162,11 +162,11 @@ export default {
     2: 'Helaas pindakaas, er is hier niks',
     3: 'Niet geautoriseerd',
     4: 'Je moet ingelogd zijn om deze skin te veranderen.',
-    5: 'You need to be logged in to add a new skin.'
+    5: 'Je moet ingelogd zijn om een nieuwe skin toe te voegen.'
   },
   meta: {
     title: {
-      0: 'Discover osu skins',
+      0: 'Ontdek osu skins',
       1: 'Gamemodes, aspect ratio\'s van de skins',
       2: 'Populaire osu skins',
       3: 'Zoek osu skins',
@@ -175,7 +175,7 @@ export default {
       6: 'Dank aan',
       7: 'osu skins',
       8: '{name} zoek osu skins',
-      9: 'Get inspiration from other osu skins',
+      9: 'Krijg inspiratie van andere osu skins',
       10: '{name} maakte osu skins'
     },
     description: {
@@ -217,16 +217,16 @@ export default {
     }
   },
   tooltips: {
-    0: 'Views: {amount}',
+    0: 'Weergaven: {amount}',
     1: 'Herlaad resultaten',
     2: 'Aflopend | Oplopend',
-    3: 'Likes: {likes} / Dislikes: {dislikes}',
+    3: 'Duimpies: {likes} / Duimpies omlaag: {dislikes}',
     4: 'Druk op ctrl+enter om een tag toe te voegen',
     5: 'Bewerk versie',
     6: '{s}Log in{p}, om deze skin een beoordeling te kunnen geven',
     7: 'Geen korte beschrijving',
     8: 'Geen url',
-    9: 'Downloads: {amount}'
+    9: 'Keren gedownload: {amount}'
   },
   lists: {
     screens: {
@@ -265,7 +265,7 @@ export default {
     9: 'Hulpmiddelen',
     views: 'Weergaven',
     likes: 'Duimpies',
-    dislikes: 'Dislikes',
+    dislikes: 'Duimpies omlaag',
     downloads: 'Downloads',
     size_range: 'Selecteer grootte',
     date_range: 'Selecteer een tijdsperiode',
@@ -289,12 +289,12 @@ export default {
     14: 'Plak een link',
     15: 'Skin titel, auteur of tag'
   },
-  contribute: { 0: 'Contribute' },
+  contribute: { 0: 'Draag je steentje bij' },
   nsfw: {
-    0: 'Warning!',
-    1: 'This skin contains sensitive or adult content',
-    2: 'This skin contains sensitive or adult content that some users may find disturbing',
-    3: ' Alright',
-    4: ' bye o/'
+    0: 'Pas op!',
+    1: 'Deze skin bevat gevoelige of volwassen onderdelen',
+    2: 'Deze skin bevat gevoelige of volwassen onderdelen die sommige gebruikers schokkend kunnen vinden',
+    3: 'Oké',
+    4: 'later o/'
   }
 };
