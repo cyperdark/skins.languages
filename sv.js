@@ -1,9 +1,7 @@
 export default {
-  hello: 'Hello',
   title: {
     home: 'Startsida',
-    page: 'sida',
-    guest: 'Logga in',
+    login: 'Log in',
     lists: { 0: 'Listor' },
     tags: {
       0: 'Taggar',
@@ -117,7 +115,8 @@ export default {
     23: 'Nedladdningen kommer vara tillgänglig snart',
     24: '{amount} sekunder kvar',
     25: 'Du är inte en av oss',
-    26: 'Verkar som om du inte är en författare eller redaktör för detta skinn'
+    26: 'Verkar som om du inte är en författare eller redaktör för detta skinn',
+    27: 'Skin by'
   },
   drag: {
     0: 'Klicka här',
@@ -148,7 +147,9 @@ export default {
     7: 'Ingenting hittat',
     8: 'Prova att ange olika sökfilter',
     9: 'Väntar på en sökning',
-    10: 'Välj sökfilter eller skriv bara skintiteln, författaren eller taggen'
+    10: 'Välj sökfilter eller skriv bara skintiteln, författaren eller taggen',
+    11: 'Nedladdningar',
+    12: 'Name'
   },
   tabs: {
     0: 'Sök efter',
@@ -165,7 +166,7 @@ export default {
   },
   meta: {
     title: {
-      0: 'Startsida',
+      0: 'Discover osu skins',
       1: 'Spellägen, bildförhållanden osu skins',
       2: 'Populära osu skins',
       3: 'Sök efter osu skins',
@@ -178,7 +179,6 @@ export default {
       10: '{name} skapade osu skins'
     },
     description: {
-      // 0: 'Get the best osu skins at our site, with a huge library to choose from! We have skins for different gamemodes and aspect ratios, and even feature top players and anime themes. Boost your gameplay with our high-quality skins.',
       0: 'Få det bästa osu! skinnen på våran sida! Vårat stora urval innehåller skinn för alla spellägen, bildförhållanden, och även toppspelare. Plus, vi har även en special avdelning för anime fans. Förbättra ditt gameplay med det perfekta skinnet. #osuskins #osugame #anime',
       1: '{views} visningar. Ett osu skin för {modes}, storleken är {size}, skapad av {creators}. Stödjer {ratios}',
       2: 'Hitta det perfekta osu! skinnet med våran avancerade sökfunktion. Bläddra genom vårat enorma urval, filtrerat på spelläge, bildförhållande, och mer. Eller, titta på skins använda av toppspelare.',
@@ -217,15 +217,16 @@ export default {
     }
   },
   tooltips: {
-    0: '{amount} visningar',
+    0: 'Views: {amount}',
     1: 'Uppdatera resultat',
     2: 'Ner | Upp',
-    3: '{amount} likes',
+    3: 'Likes: {likes} / Dislikes: {dislikes}',
     4: 'Tryck på ctrl+enter för att lägga till en tag',
     5: 'Redigera version',
     6: '{s}Logga in{p}, för att kunna betygsätta det här skinnet',
     7: 'Ingen kort beskrivning',
-    8: 'Ingen url'
+    8: 'Ingen url',
+    9: 'Downloads: {amount}'
   },
   lists: {
     screens: {
@@ -264,6 +265,8 @@ export default {
     9: 'Verktyg',
     views: 'Visningar',
     likes: 'Likes',
+    dislikes: 'Dislikes',
+    downloads: 'Nedladdningar',
     size_range: 'Välj storlek',
     date_range: 'Välj ett datumspann',
     ratio: 'Välj bildförhållande | förhållande'
@@ -285,5 +288,13 @@ export default {
     13: 'Välj extra',
     14: 'Klistra in en länk',
     15: 'Skin titel, skapare eller tag'
+  },
+  contribute: { 0: 'Contribute' },
+  nsfw: {
+    0: 'Warning!',
+    1: 'This skin contains sensitive or adult content',
+    2: 'This skin contains sensitive or adult content that some users may find disturbing',
+    3: ' Alright',
+    4: ' bye o/'
   }
 };

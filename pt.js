@@ -1,9 +1,7 @@
 export default {
-  hello: 'Olá',
   title: {
     home: 'Página Inicial',
-    page: 'página',
-    guest: 'Entrar',
+    login: 'Entrar',
     lists: { 0: 'Listas' },
     tags: {
       0: 'Tags',
@@ -117,7 +115,8 @@ export default {
     23: 'O download estará disponível em breve',
     24: '{amount} segundos restantes',
     25: 'Você não é um de nós',
-    26: 'Parece que você não é o autor ou um editor desta skin'
+    26: 'Parece que você não é o autor ou um editor desta skin',
+    27: 'Skin de'
   },
   drag: {
     0: 'Clique aqui',
@@ -148,7 +147,9 @@ export default {
     7: 'Nada foi encontrado',
     8: 'Tente definir diferente filtros de pesquisa',
     9: 'Esperando a busca',
-    10: 'Selecione os filtros de pesquisa ou apenas escreva o nome da skin, o autor ou a tag'
+    10: 'Selecione os filtros de pesquisa ou apenas escreva o nome da skin, o autor ou a tag',
+    11: 'Downloads',
+    12: 'Nome'
   },
   tabs: {
     0: 'Buscar',
@@ -165,7 +166,7 @@ export default {
   },
   meta: {
     title: {
-      0: 'Página inicial',
+      0: 'Descubra novas skins de osu',
       1: 'Modos de jogo, resolução skins osu',
       2: 'Skins populares de osu',
       3: 'Procure por skins de osu',
@@ -178,7 +179,6 @@ export default {
       10: '{name} criou skins de osu'
     },
     description: {
-      // 0: 'Get the best osu skins at our site, with a huge library to choose from! We have skins for different gamemodes and aspect ratios, and even feature top players and anime themes. Boost your gameplay with our high-quality skins.',
       0: 'Encontre as melhores skins de osu! em nosso site! Nossa grande coleção de skins para todos os modos de jogo, resoluções e até mesmo dos melhores jogadores. Além disso, nós possuímos uma seção especial aosfãs de anime. Melhore sua gameplay com a skin perfeita. #osuskins #osugame #anime',
       1: '{views} views. Uma skin para {modes}, O tamanho é {size}, criado por {creators}. Suporta {ratios}',
       2: 'Encontre a skin perfeita com nossa busca avançada. Navegue por nossa grande coleção,filtrada por modo de jogo,proporção, e muito mais. Ou, observe as skins usadas por top players.',
@@ -217,15 +217,16 @@ export default {
     }
   },
   tooltips: {
-    0: '{amount} visualizações',
+    0: 'Views:{amount}',
     1: 'Atualizar resultados',
     2: 'Descendente | Ascendente',
-    3: '{amount} curtidas',
+    3: 'Curtidas: {likes} / Não Curtiram: {dislikes}',
     4: 'Pressione Ctrl+Enter para adicionar uma tag',
     5: 'Editar versão',
     6: '{s}Entre{p}, para poder avaliar esta skin',
     7: 'Sem resumo',
-    8: 'Sem url'
+    8: 'Sem url',
+    9: 'Downloads: {amount}'
   },
   lists: {
     screens: {
@@ -264,6 +265,8 @@ export default {
     9: 'Ferramentas',
     views: 'Visualizações',
     likes: 'Curtidas',
+    dislikes: 'Dislikes',
+    downloads: 'Downloads',
     size_range: 'Selecionar tamanho',
     date_range: 'Selecionar período',
     ratio: 'Selecionar resolução | resolução'
@@ -285,5 +288,13 @@ export default {
     13: 'Selecionar extra',
     14: 'Cole um link',
     15: 'Título da skin, autor ou tag'
+  },
+  contribute: { 0: 'Contribua' },
+  nsfw: {
+    0: 'Cuidado!',
+    1: 'Essa skin contém conteúdos considerados sensíveis ou conteúdo adulto',
+    2: 'Essa skin contém conteúdo sensível o adulto que alguns usuários consideram perturbador',
+    3: 'Tudo bem',
+    4: ' Tchau!'
   }
 };

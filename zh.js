@@ -1,9 +1,7 @@
 export default {
-  hello: '您好',
   title: {
     home: '首頁',
-    page: '頁',
-    guest: '登入',
+    login: '登入',
     lists: { 0: '清單' },
     tags: {
       0: '標籤',
@@ -117,7 +115,8 @@ export default {
     23: '很快就會開始你的下載',
     24: '剩 {amount} 秒',
     25: '你不是我們之一',
-    26: '看起來你好像不是此skin的作者或編輯者'
+    26: '看起來你好像不是此skin的作者或編輯者',
+    27: 'Skin by'
   },
   drag: {
     0: '點擊此處',
@@ -148,7 +147,9 @@ export default {
     7: '無搜尋結果',
     8: '試試以其他的過濾方式搜尋',
     9: '看起來遇到了一些問題',
-    10: '選擇過濾方式或輸入skin名、作者、或標籤來搜尋'
+    10: '選擇過濾方式或輸入skin名、作者、或標籤來搜尋',
+    11: '下載數',
+    12: '名子'
   },
   tabs: {
     0: '搜尋',
@@ -165,7 +166,7 @@ export default {
   },
   meta: {
     title: {
-      0: '首頁',
+      0: '搜索skins',
       1: '遊戲模式, 長寬比 osu skins',
       2: '最熱門的skin',
       3: '搜尋osu skin',
@@ -178,7 +179,6 @@ export default {
       10: '{name} 創建了osu skin'
     },
     description: {
-      // 0: 'Get the best osu skins at our site, with a huge library to choose from! We have skins for different gamemodes and aspect ratios, and even feature top players and anime themes. Boost your gameplay with our high-quality skins.',
       0: '你可以在這網站找到最適合你的skin, 我們龐大的資料庫有所有遊戲模式,長寬比甚至是各個大佬的skin. 另外也有以動漫分類的skin. 一個好的skin是你變強的開始. #osuskins #osugame #動漫',
       1: '觀看數 {views}. {modes} 適用, 長寬比 {size}, 由 {creators} 所創建. 另外支持 {ratios}',
       2: '利用我們最好的搜尋功能來在這龐大的資料庫中找你對應你遊戲模式, 長寬比或各個大佬的skin',
@@ -217,15 +217,16 @@ export default {
     }
   },
   tooltips: {
-    0: '觀看數 {amount}',
+    0: '點擊量: {amount}',
     1: '重新整理結果',
     2: '降序 | 升序',
-    3: '{amount} 個喜歡',
+    3: '喜歡: {likes} / 不喜歡: {dislikes}',
     4: '按下 ctrl+enter 以新增標籤',
     5: '編輯版本',
     6: '{s}登入{p}以評價此skin',
     7: '沒有描述',
-    8: '沒有連結'
+    8: '沒有連結',
+    9: '下載量: {amount}'
   },
   lists: {
     screens: {
@@ -264,6 +265,8 @@ export default {
     9: '工具',
     views: '觀看數',
     likes: '喜歡',
+    dislikes: '不喜歡',
+    downloads: '下載數',
     size_range: '檔案大小',
     date_range: '創建日期',
     ratio: '長寬比 | 長寬比'
@@ -285,5 +288,13 @@ export default {
     13: '選擇額外的',
     14: '貼上連結',
     15: '透過skin名稱, 作者或標籤以搜尋'
+  },
+  contribute: { 0: '貢獻' },
+  nsfw: {
+    0: '警告!',
+    1: '這個skin包含敏感或成人內容',
+    2: '此skin包含一些可能會讓人感到不安的敏感或成人內容',
+    3: ' 好吧',
+    4: ' 掰掰 o7'
   }
 };

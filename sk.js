@@ -1,9 +1,7 @@
 export default {
-  hello: 'Hello',
   title: {
     home: 'Domovská stránka',
-    page: 'page',
-    guest: 'Prihlásenie',
+    login: 'Log in',
     lists: { 0: 'Zoznamy' },
     tags: {
       0: 'Tags',
@@ -117,7 +115,8 @@ export default {
     23: 'Stiahnutie bude k dispozícii čoskoro',
     24: '{amount} Zostávajúce sekundy',
     25: 'Niesi jeden z nás',
-    26: 'Zdá sa, že nie ste autorom ani editorom tohto skinu'
+    26: 'Zdá sa, že nie ste autorom ani editorom tohto skinu',
+    27: 'Skin by'
   },
   drag: {
     0: 'Klikni tu',
@@ -148,7 +147,9 @@ export default {
     7: 'Nič sa nenašlo',
     8: 'Skúste nastaviť iné filtre vyhľadávania',
     9: 'Čaká sa na dotaz',
-    10: 'Vyberte vyhľadávacie filtre alebo napíšte názov skinu, autora alebo značku'
+    10: 'Vyberte vyhľadávacie filtre alebo napíšte názov skinu, autora alebo značku',
+    11: 'Stiahnutie',
+    12: 'Name'
   },
   tabs: {
     0: 'Hľadať',
@@ -165,7 +166,7 @@ export default {
   },
   meta: {
     title: {
-      0: 'Domovská stránka',
+      0: 'Discover osu skins',
       1: 'Herné režimy, pomery strán osu skinov',
       2: 'Populárne osu skiny',
       3: 'Vyhľadajte osu skiny',
@@ -178,7 +179,6 @@ export default {
       10: '{name} výrobca osu skinou'
     },
     description: {
-      // 0: 'Get the best osu skins at our site, with a huge library to choose from! We have skins for different gamemodes and aspect ratios, and even feature top players and anime themes. Boost your gameplay with our high-quality skins.',
       0: 'Získajte najlepšie osu! skiny na našej stránke! Naša obrovská knižnica má skiny pre všetke herné režimy, pomery strán a dokonca aj pre špičkových hráčov. Navyše máme špeciálnu sekciu pre fanúšikov anime. Zlepšite svoju hru s dokonalým vzhľadom. #osuskins #osugame #anime',
       1: '{views} Zobrazenia. osu skin pre {modes}, veľkosť je {size}, vytvoril {creators}. Podporuje {ratios}',
       2: 'Nájdite dokonali osu! skin s našou funkciou rozšíreného vyhľadávania. Pozrite si našu obrovskú knižnicu filtrovanú podľa herného režimu, pomeru strán a ďalších. Alebo si pozrite skiny používané špičkovými hráčmi.',
@@ -217,15 +217,16 @@ export default {
     }
   },
   tooltips: {
-    0: '{amount} zobrazenie',
+    0: 'Views: {amount}',
     1: 'Obnoviť výsledky',
     2: 'Klesajúci | Stúpajúci',
-    3: '{amount} obľúbených',
+    3: 'Likes: {likes} / Dislikes: {dislikes}',
     4: 'Stlačte ctrl+enter pre pridanie označenia',
     5: 'Upraviť verziu',
     6: '{s}Prihláste sa{p}, aby ste mohli ohodnotiť tento skin',
     7: 'Žiadny krátky popis',
-    8: 'Žiadne URL'
+    8: 'Žiadne URL',
+    9: 'Downloads: {amount}'
   },
   lists: {
     screens: {
@@ -264,6 +265,8 @@ export default {
     9: 'Nástroje',
     views: 'Pozretia',
     likes: 'Obľúbene',
+    dislikes: 'Dislikes',
+    downloads: 'Stiahnutie',
     size_range: 'Vyber velikosti',
     date_range: 'Vyber časového obdobia',
     ratio: 'Vyber pomer stran | pomer'
@@ -285,5 +288,13 @@ export default {
     13: 'Výber extra',
     14: 'Vložte link',
     15: 'Názov skinu, autora, alebo označenie'
+  },
+  contribute: { 0: 'Contribute' },
+  nsfw: {
+    0: 'Warning!',
+    1: 'This skin contains sensitive or adult content',
+    2: 'This skin contains sensitive or adult content that some users may find disturbing',
+    3: ' Alright',
+    4: ' bye o/'
   }
 };

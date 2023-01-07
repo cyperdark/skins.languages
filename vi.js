@@ -1,9 +1,7 @@
 export default {
-  hello: 'Xin chào',
   title: {
     home: 'Trang chủ',
-    page: 'Trang',
-    guest: 'Đăng nhập',
+    login: 'Đăng nhập',
     lists: { 0: 'Danh sách' },
     tags: {
       0: 'Các Tag',
@@ -117,7 +115,8 @@ export default {
     23: 'Tải xuống sẽ sớm khả dụng',
     24: 'Còn {amount} giây',
     25: 'Bạn không phải một trong số chúng tôi',
-    26: 'Có vẻ như bạn không phải là tác giả hay người chỉnh sửa skin này'
+    26: 'Có vẻ như bạn không phải là tác giả hay người chỉnh sửa skin này',
+    27: 'Skin tạo bởi'
   },
   drag: {
     0: 'Nhấn vào đây',
@@ -148,7 +147,9 @@ export default {
     7: 'Không thấy gì cả',
     8: 'Hãy thử điều chỉnh cách chọn lọc khác',
     9: 'Đang chờ xử lý',
-    10: 'Hãy chọn các filter tìm kiếm hoặc chỉ cần ghi tên, tác giả hay các tag của skin'
+    10: 'Hãy chọn các filter tìm kiếm hoặc chỉ cần ghi tên, tác giả hay các tag của skin',
+    11: 'Lượt tải xuống',
+    12: 'Tên'
   },
   tabs: {
     0: 'Tìm kiếm',
@@ -165,7 +166,7 @@ export default {
   },
   meta: {
     title: {
-      0: 'Trang chủ',
+      0: 'Khám phá các skin osu',
       1: 'Chế độ chơi, tỉ lệ của osu skin',
       2: 'Skin osu phổ biến',
       3: 'Tìm kiếm osu skin',
@@ -178,7 +179,6 @@ export default {
       10: '{name} đã tạo skin osu'
     },
     description: {
-      // 0: 'Get the best osu skins at our site, with a huge library to choose from! We have skins for different gamemodes and aspect ratios, and even feature top players and anime themes. Boost your gameplay with our high-quality skins.',
       0: 'Tảỉ về những skin osu! tốt nhất từ trang của chúng tôi! Thư viện to lớn của chúng tôi có skin cho mọi chế độ chơi, tỷ lệ khung hình và cả kể cả những top player. Thêm vào đó, chúng tôi có một khu đặc biệt dành cho các fan anime. Cả thiện gameplay với một skin hoàn hảo. #osuskins #osugame #anime',
       1: '{views} lượt xem. Một skin osu cho {modes}, kích thước là {size}, được tạo bởi {creators}. Hỗ trợ {ratios}',
       2: 'Tìm những skin osu! hoàn hảo với tính năng tìm kiếm đã được cải thiện của chúng tôi. Tìm qua cả thư viện khổng lồ, lọc qua chế độ chơi, tỷ lệ khung hình, và hơn thế nữa. Hoặc, ghé qua các skin được sử dụng bởi các top player.',
@@ -217,15 +217,16 @@ export default {
     }
   },
   tooltips: {
-    0: '{amount} lượt xem',
+    0: 'Lượt xem: {amount}',
     1: 'Đang tải lại kết quả',
     2: 'Giảm | Tăng',
-    3: '{amount} lượt thích',
+    3: 'Lượt thích: {likes} / Không thích: {dislikes}',
     4: 'Nhấn ctrl+enter để thêm tag',
     5: 'Chỉnh sửa phiên bản',
     6: '{s}Đăng nhập{p}, để có thể đánh giá skin này',
     7: 'Không có mô tả ngắn',
-    8: 'Không có url'
+    8: 'Không có url',
+    9: 'Lượt tải: {amount}'
   },
   lists: {
     screens: {
@@ -264,6 +265,8 @@ export default {
     9: 'Công cụ',
     views: 'Lượt xem',
     likes: 'Thích',
+    dislikes: 'Không thích',
+    downloads: 'Lượt tải xuống',
     size_range: 'Chọn kích cỡ',
     date_range: 'Chon mốc thời gian',
     ratio: 'Chọn tỷ lệ khung hình | tỷ lệ'
@@ -285,5 +288,13 @@ export default {
     13: 'Chọn thêm',
     14: 'Dán một liên kết',
     15: 'Tiêu đề skin, tác giả, hoặc tag'
+  },
+  contribute: { 0: 'Đóng góp' },
+  nsfw: {
+    0: 'Cảnh báo!',
+    1: 'Skin có chứa các nội dung nhạy cảm hoặc người lớn',
+    2: 'Skin có chứa các nội dung nhạy cảm hoặc người lớn có thể gây khó chịu cho một số người dùng',
+    3: ' Được',
+    4: ' tạm biệt o/'
   }
 };

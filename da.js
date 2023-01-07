@@ -1,9 +1,7 @@
 export default {
-  hello: 'Hello',
   title: {
     home: 'Hjem',
-    page: 'side',
-    guest: 'Log på',
+    login: 'Log in',
     lists: { 0: 'Lister' },
     tags: {
       0: 'Tags',
@@ -117,7 +115,8 @@ export default {
     23: 'Download will be available soon',
     24: '{amount} seconds left',
     25: 'You\'re not one of us',
-    26: 'Seems like you\'re not an author or editor of this skin'
+    26: 'Seems like you\'re not an author or editor of this skin',
+    27: 'Skin by'
   },
   drag: {
     0: 'Click here',
@@ -148,7 +147,9 @@ export default {
     7: 'Nothing found',
     8: 'Try setting different search filters',
     9: 'Pending a query',
-    10: 'Select the search filters or just write the skin title, the author or the tag'
+    10: 'Select the search filters or just write the skin title, the author or the tag',
+    11: 'Downloads',
+    12: 'Name'
   },
   tabs: {
     0: 'Search',
@@ -165,7 +166,7 @@ export default {
   },
   meta: {
     title: {
-      0: 'Home page',
+      0: 'Discover osu skins',
       1: 'Gamemodes, aspect ratios osu skins',
       2: 'Popular osu skins',
       3: 'Search osu skins',
@@ -178,7 +179,6 @@ export default {
       10: '{name} created osu skins'
     },
     description: {
-      // 0: 'Get the best osu skins at our site, with a huge library to choose from! We have skins for different gamemodes and aspect ratios, and even feature top players and anime themes. Boost your gameplay with our high-quality skins.',
       0: 'Get the best osu! skins at our site! Our huge library has skins for all gamemodes, aspect ratios and even top players. Plus, we have a special section for anime fans. Improve your gameplay with the perfect skin. #osuskins #osugame #anime',
       1: '{views} views. An osu skin for {modes}, the size is {size}, created by {creators}. Supports {ratios}',
       2: 'Find the perfect osu! skin with our advanced search feature. Browse through our huge library, filtered by gamemode, aspect ratio, and more. Or, check out skins used by top players.',
@@ -217,15 +217,16 @@ export default {
     }
   },
   tooltips: {
-    0: '{amount} views',
+    0: 'Views: {amount}',
     1: 'Refresh results',
     2: 'Descending | Ascending',
-    3: '{amount} likes',
+    3: 'Likes: {likes} / Dislikes: {dislikes}',
     4: 'Press ctrl+enter to add a tag',
     5: 'Edit version',
     6: '{s}Log in{p}, to be able to rate this skin',
     7: 'No short description',
-    8: 'No url'
+    8: 'No url',
+    9: 'Downloads: {amount}'
   },
   lists: {
     screens: {
@@ -264,6 +265,8 @@ export default {
     9: 'Tools',
     views: 'Views',
     likes: 'Likes',
+    dislikes: 'Dislikes',
+    downloads: 'Downloads',
     size_range: 'Select size',
     date_range: 'Select a date range',
     ratio: 'Select aspect ratio | ratio'
@@ -285,5 +288,13 @@ export default {
     13: 'Select extra',
     14: 'Paste a link',
     15: 'Skin title, author, or tag'
+  },
+  contribute: { 0: 'Contribute' },
+  nsfw: {
+    0: 'Warning!',
+    1: 'This skin contains sensitive or adult content',
+    2: 'This skin contains sensitive or adult content that some users may find disturbing',
+    3: ' Alright',
+    4: ' bye o/'
   }
 };

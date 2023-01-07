@@ -1,9 +1,7 @@
 export default {
-  hello: 'مرحبًا',
   title: {
     home: 'الصفحة الرئيسية',
-    page: 'صفحة',
-    guest: 'تسجيل الدخول',
+    login: 'Log in',
     lists: { 0: 'القوائم' },
     tags: {
       0: 'الأوسمة',
@@ -117,7 +115,8 @@ export default {
     23: 'سيتوفر التحميل قريبا',
     24: '{amount} ثواني متبقية',
     25: 'لست واحد منا',
-    26: 'يبدو أنك لست مؤلفا أو معدلا لهذا الزي'
+    26: 'يبدو أنك لست مؤلفا أو معدلا لهذا الزي',
+    27: 'Skin by'
   },
   drag: {
     0: 'اُنقر هنا',
@@ -148,7 +147,9 @@ export default {
     7: 'لا نتائج',
     8: 'حاول اختيار معيار بحث مختلف',
     9: 'تتم معالجة الاستفسار',
-    10: 'اختر معيار البحث أو اكتب فقط عنوان الزي، المبتكر أو الوسم'
+    10: 'اختر معيار البحث أو اكتب فقط عنوان الزي، المبتكر أو الوسم',
+    11: 'التحميلات',
+    12: 'Name'
   },
   tabs: {
     0: 'بحث',
@@ -165,7 +166,7 @@ export default {
   },
   meta: {
     title: {
-      0: 'الصفخة الرئيسية',
+      0: 'Discover osu skins',
       1: 'أنماط اللعب، نسب باعية لأزياء اللعبة',
       2: 'أزياء اللعبة المحبوبة',
       3: 'البحث عن أزياء اللعبة',
@@ -178,7 +179,6 @@ export default {
       10: '{name} صمم أزياء اللعبة'
     },
     description: {
-      // 0: 'Get the best osu skins at our site, with a huge library to choose from! We have skins for different gamemodes and aspect ratios, and even feature top players and anime themes. Boost your gameplay with our high-quality skins.',
       0: 'جد أفضل أزياء اوسو في موقعنا! مكتبتنا تحتوي على أزياء من أجل جميع أنماط اللعب، النسب الباعية، و أفضل اللاعبين. إضافة إلى دلك لدينا جزء خاص لمعجبي الأنمي. حسن لعبك بإيجاد الزي المثالي.',
       1: 'مشاهدة {views}. زي osu خاص ب {modes}، حجمه {size}، مصنوع من طرف {creators}.  يدعم {ratios}',
       2: 'جد الزي المثالي بفضل ميزة البحث المتقدمة. تصفح مكتبتنا الواسعة، مصنفة حسب أنماط اللعب، النسب الباعية، و أكثر. أو بإمكانك رؤية  أزياء مستعملة من قبل افضل اللاعبين.',
@@ -217,15 +217,16 @@ export default {
     }
   },
   tooltips: {
-    0: '{amount} مشاهدة',
+    0: 'Views: {amount}',
     1: 'تحديث النتائج',
     2: 'متنازلة | متصاعدة',
-    3: '{amount} إعجابات',
+    3: 'Likes: {likes} / Dislikes: {dislikes}',
     4: 'ctrl+enter لإضافة وسم اضغط على',
     5: 'تعديل الإصدار',
     6: '{s}سجل الدخول{p} ,لتقييم هذا الزي',
     7: 'لا يوجد وصف مختصر',
-    8: 'لا يوجد رابط'
+    8: 'لا يوجد رابط',
+    9: 'Downloads: {amount}'
   },
   lists: {
     screens: {
@@ -264,6 +265,8 @@ export default {
     9: 'أدوات',
     views: 'مشاهدات',
     likes: 'إعجابات',
+    dislikes: 'Dislikes',
+    downloads: 'التحميلات',
     size_range: 'اختر الحجم',
     date_range: 'اختر مجال تاريخي',
     ratio: 'اختر نسبة باعية | نسبة'
@@ -285,5 +288,13 @@ export default {
     13: 'اختر ميزات إضافية',
     14: 'ألصق رابط',
     15: 'عنوان الزي، مبتكر أو وسم'
+  },
+  contribute: { 0: 'Contribute' },
+  nsfw: {
+    0: 'Warning!',
+    1: 'This skin contains sensitive or adult content',
+    2: 'This skin contains sensitive or adult content that some users may find disturbing',
+    3: ' Alright',
+    4: ' bye o/'
   }
 };

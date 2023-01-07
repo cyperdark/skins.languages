@@ -1,9 +1,7 @@
 export default {
-  hello: 'Hello',
   title: {
     home: 'Mājaslapa',
-    page: 'lapa',
-    guest: 'Pieslēgties',
+    login: 'Pieslēgties',
     lists: { 0: 'Saraksti' },
     tags: {
       0: 'Tagi',
@@ -36,7 +34,7 @@ export default {
     0: 'Veidotāji',
     1: 'Kreditē visus, kuri bija iesaistīti šīs versijas izveidē',
     2: 'Neviena šeit nav',
-    3: 'Searching for a player\'s name will display a list of profiles.',
+    3: 'Ierakstot spēlētāja vārdu, parādīsies profilu saraksts.',
     4: 'Rediģētājs',
     5: 'Lomas',
     6: 'Versijas'
@@ -100,7 +98,7 @@ export default {
     5: 'Ekrānuzņēmumi',
     6: 'Tikai gameplay',
     7: 'Lejupielādes saite | Lejupielādēt skinu',
-    8: 'Forum post | osu! Forum',
+    8: 'Foruma post | osu! Forums',
     9: 'Reddit post',
     10: 'Veidotāji',
     11: 'Tagi',
@@ -117,7 +115,8 @@ export default {
     23: 'Lejupielāde drīzumā būs pieejama',
     24: 'Atlikušas {amount} sekundes',
     25: 'Tu neesi viens no mums',
-    26: 'Šķiet, ka tu neesi šī skina veidotājs vai rediģētājs'
+    26: 'Šķiet, ka tu neesi šī skina veidotājs vai rediģētājs',
+    27: 'Skinu veidoja'
   },
   drag: {
     0: 'Klikšķini šeit',
@@ -134,9 +133,9 @@ export default {
     3: 'Visas ikonas ir ņemtas no {name}',
     4: 'Karogi',
     5: 'Visas karogu bildes ir no {name}',
-    6: 'Localisation',
-    7: 'Anyone? [{lang}]',
-    8: 'Seems like, cpol forget to add them. {text}'
+    6: 'Tulkošana',
+    7: 'Neviens? [{lang}]',
+    8: 'Šķiet, ka cpol aizmirsa viņus pievienot. {text}'
   },
   search: {
     0: 'Meklēt skinu',
@@ -148,7 +147,9 @@ export default {
     7: 'Nekas nav atrasts',
     8: 'Izmēģini citus meklēšanas kritērijus',
     9: 'Gaida pieprasījumu',
-    10: 'Izvēlies meklēsanas kritērijus vai vienkārši ieraksti skina nosaukumu, autoru vai tagu'
+    10: 'Izvēlies meklēsanas kritērijus vai vienkārši ieraksti skina nosaukumu, autoru vai tagu',
+    11: 'Lejupielādes',
+    12: 'Nosaukums'
   },
   tabs: {
     0: 'Meklēt',
@@ -161,11 +162,11 @@ export default {
     2: 'Diemžēl šeit nekā nav',
     3: 'Neautorizēts',
     4: 'Tev vajag pieslēgties, lai rediģētu šo skinu.',
-    5: 'You need to be logged in to add a new skin.'
+    5: 'Tev jāpieslēdzas, lai pievienotu jaunu skinu.'
   },
   meta: {
     title: {
-      0: 'Galvenā lapa',
+      0: 'Atklāj osu skinus',
       1: 'Osu skinu kategorijas',
       2: 'Populārie osu skini',
       3: 'Meklēt osu skinus',
@@ -174,11 +175,10 @@ export default {
       6: 'Izmantotie materiāli',
       7: 'osu skini',
       8: '{name} meklēt osu skinus',
-      9: 'Get inspiration from other osu skins',
+      9: 'Iedvesmojies no citiem osu skiniem',
       10: '{name} veidoja osu skinus'
     },
     description: {
-      // 0: 'Get the best osu skins at our site, with a huge library to choose from! We have skins for different gamemodes and aspect ratios, and even feature top players and anime themes. Boost your gameplay with our high-quality skins.',
       0: 'Dabū labākos osu! skinus mūsu saitē! Mūzu milzīgajā klāstā ir skini visiem spēļu režīmiem, visām malu attiecībām un pat top spēlētājiem. Un, mums ir īpaša sadaļa anime faniem. Uzlabo savu gameplay ar perfekto skinu. #osuskins #osugame #anime',
       1: '{views} skatījumi. Osu skins priekš {modes}, lielums ir {size}, veidoja {creators}. Atbalsta {ratios}',
       2: 'Atrodi perfekto osu! skinu ar mūsu attīstīto meklēšanas funkciju. Pārlūko mūsu milzīgo klāstu, filtrējot ar spēles režīmu, malas attiecību un vairāk. Vai apskati kādus skinus izmanto top spēlētāji.',
@@ -217,15 +217,16 @@ export default {
     }
   },
   tooltips: {
-    0: '{amount} skatījumi',
+    0: 'Skatījumi: {amount}',
     1: 'Atsvaidzini rezultātus',
     2: 'Dilstoši | Augoši',
-    3: 'Patīk: {amount}',
+    3: 'Patīk: {likes} / Nepatīk: {dislikes}',
     4: 'Spied ctrl+enter, lai pievienotu tagu',
     5: 'Rediģēt versiju',
     6: '{s}Jāpieslēdzas{p}, lai varētu novērtēt šo skinu',
     7: 'Nav īsā apraksta',
-    8: 'Nav saites'
+    8: 'Nav saites',
+    9: 'Lejupielādes: {amount}'
   },
   lists: {
     screens: {
@@ -264,6 +265,8 @@ export default {
     9: 'Instrumenti',
     views: 'Skatījumi',
     likes: 'Patīk',
+    dislikes: 'Nepatīk',
+    downloads: 'Lejupielādes',
     size_range: 'Skina izmērs',
     date_range: 'Datuma diapazons',
     ratio: 'Malu attiecība | attiecība'
@@ -285,5 +288,13 @@ export default {
     13: 'Izvēlies vairāk',
     14: 'Ielīmē saiti',
     15: 'Skina nosaukums, veidotājs vai tags'
+  },
+  contribute: { 0: 'Izpalīdzēt' },
+  nsfw: {
+    0: 'Brīdinājums!',
+    1: 'Šis skins satur aizskarošu vai nepiemērotu saturu',
+    2: 'Šis skins satur aizskarošu vai nepiemērotu saturu, kas dažiem lietotājiem varētu likties satraucošs',
+    3: ' Labi',
+    4: ' atā o/'
   }
 };

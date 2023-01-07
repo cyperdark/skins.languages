@@ -1,9 +1,7 @@
 export default {
-  hello: 'Γεια σας',
   title: {
     home: 'Αρχική',
-    page: 'σελίδα',
-    guest: 'Σύνδεση',
+    login: 'Log in',
     lists: { 0: 'Λίστες' },
     tags: {
       0: 'Ετικέτες',
@@ -117,7 +115,8 @@ export default {
     23: 'Η λήψη θα είναι διαθέσιμη σύντομα',
     24: 'Απομένουν {amount} δευτερόλεπτα',
     25: 'Δεν είσαι ένας από εμάς',
-    26: 'Φαίνεται πως δεν είστε δημιουργός ή επεξεργαστής του skin'
+    26: 'Φαίνεται πως δεν είστε δημιουργός ή επεξεργαστής του skin',
+    27: 'Skin by'
   },
   drag: {
     0: 'Κάντε κλικ εδώ',
@@ -148,7 +147,9 @@ export default {
     7: 'Δε βρέθηκε τίποτα',
     8: 'Δοκιμάστε να ορίσετε διαφορετικά φίλτρα αναζήτησης',
     9: 'Εκκρεμεί ένα αίτημα',
-    10: 'Επιλέξτε τα φίλτρα αναζήτησης ή απλά γράψτε τον τίτλο του skin, τον συγγραφέα ή την ετικέτα'
+    10: 'Επιλέξτε τα φίλτρα αναζήτησης ή απλά γράψτε τον τίτλο του skin, τον συγγραφέα ή την ετικέτα',
+    11: 'Λήψεις',
+    12: 'Name'
   },
   tabs: {
     0: 'Αναζήτηση',
@@ -165,7 +166,7 @@ export default {
   },
   meta: {
     title: {
-      0: 'Αρχική σελίδα',
+      0: 'Discover osu skins',
       1: 'Τρόποι παιχνιδιού, αναλογία διαστάσεων, osu skins',
       2: 'Δημοφιλή osu skins',
       3: 'Αναζητήστε osu skins',
@@ -178,7 +179,6 @@ export default {
       10: '{name} δημιουργημένα osu skins'
     },
     description: {
-      // 0: 'Get the best osu skins at our site, with a huge library to choose from! We have skins for different gamemodes and aspect ratios, and even feature top players and anime themes. Boost your gameplay with our high-quality skins.',
       0: 'Αποκτήστε τα καλύτερα osu! skins στο site μας! Η τεράστια συλλογή μας έχει skins για όλους τους τρόπους παιχνιδιού, αναλογίες διαστάσεων και ακόμα και για τους κορυφαίους παίκτες. Ακόμη, έχουμε ένα ειδικό τμήμα για τους anime fans. Βελτιώστε το παιχνίδι σας με το τέλειο skin. #osuskins #osugame #anime',
       1: '{views} προβολές. Ένα osu skin για {modes}, με μέγεθος {size}, δημιουργήθηκε από {creators}. Υποστηρίζει {ratios}',
       2: 'Βρείτε το τέλειο osu! skin με τη προηγμένη μας αναζήτηση. Περιηγηθείτε στην τεράστια συλλογή μας, με φίλτρα gamemode, αναλογίας διαστάσεων και πολλά άλλα. Ή, δείτε τα skins που χρησιμοποιούνται από κορυφαίους παίκτες.',
@@ -217,15 +217,16 @@ export default {
     }
   },
   tooltips: {
-    0: '{amount} προβολές',
+    0: 'Views: {amount}',
     1: 'Ανανέωση αποτελεσμάτων',
     2: 'Φθίνουσα | Αύξουσα',
-    3: '{amount} "μου αρέσει"',
+    3: 'Likes: {likes} / Dislikes: {dislikes}',
     4: 'Πατήστε ctrl+enter για να προσθέσετε μια ετικέτα',
     5: 'Επεξεργασία έκδοσης',
     6: '{s}Συνδεθείτε{p}, για να μπορέσετε να αξιολογήσετε το skin',
     7: 'Χωρίς σύντομη περιγραφή',
-    8: 'Χωρίς διεύθυνση url'
+    8: 'Χωρίς διεύθυνση url',
+    9: 'Downloads: {amount}'
   },
   lists: {
     screens: {
@@ -264,6 +265,8 @@ export default {
     9: 'Εργαλεία',
     views: 'Προβολές',
     likes: '"Μου Αρέσει"',
+    dislikes: 'Dislikes',
+    downloads: 'Λήψεις',
     size_range: 'Επιλογή μεγέθους',
     date_range: 'Επιλογή εύρους ημερομηνιών',
     ratio: 'Επιλογή αναλογίας διαστάσεων | αναλογία'
@@ -285,5 +288,13 @@ export default {
     13: 'Επιλογή επιπλέον',
     14: 'Επικόλληση συνδέσμου',
     15: 'Τίτλος skin, δημιουργός, ή ετικέτα'
+  },
+  contribute: { 0: 'Contribute' },
+  nsfw: {
+    0: 'Warning!',
+    1: 'This skin contains sensitive or adult content',
+    2: 'This skin contains sensitive or adult content that some users may find disturbing',
+    3: ' Alright',
+    4: ' bye o/'
   }
 };

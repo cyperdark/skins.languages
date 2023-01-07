@@ -1,9 +1,7 @@
 export default {
-  hello: 'Szia',
   title: {
     home: 'Főoldal',
-    page: '⠀',
-    guest: 'Bejelentkezés',
+    login: 'Log in',
     lists: { 0: 'Listák' },
     tags: {
       0: 'Címkék',
@@ -117,7 +115,8 @@ export default {
     23: 'A letöltés elérhető lesz késöbb',
     24: '{amount} másodperc maradt',
     25: 'Te nem vagy egyikünk sem',
-    26: 'Úgy látszik nem te vagy a készítője vagy szerkesztője ennek a skinnek'
+    26: 'Úgy látszik nem te vagy a készítője vagy szerkesztője ennek a skinnek',
+    27: 'Skin by'
   },
   drag: {
     0: 'Kattints ide',
@@ -148,7 +147,9 @@ export default {
     7: 'Nincs találat',
     8: 'Próbálj meg másik kereső filtert beállítani',
     9: 'Lekérdezés függőben',
-    10: 'Válasszál ki keresési szűrőket, vagy írd be a skin címét, a készítőt vagy egy címkét'
+    10: 'Válasszál ki keresési szűrőket, vagy írd be a skin címét, a készítőt vagy egy címkét',
+    11: 'Letöltések',
+    12: 'Name'
   },
   tabs: {
     0: 'Keresés',
@@ -165,7 +166,7 @@ export default {
   },
   meta: {
     title: {
-      0: 'Főoldal',
+      0: 'Discover osu skins',
       1: 'Játékmódok, osu skin képarányai',
       2: 'Népszerű osu skin-ek',
       3: 'Keressél osu skin-eket',
@@ -178,7 +179,6 @@ export default {
       10: '{name} létre hozott osu skin-eket'
     },
     description: {
-      // 0: 'Get the best osu skins at our site, with a huge library to choose from! We have skins for different gamemodes and aspect ratios, and even feature top players and anime themes. Boost your gameplay with our high-quality skins.',
       0: 'Szerezd meg a legjobb osu! skineket az oldalunkon! A hatalmas választékunkban találhatsz skin-eket minden játékmódhoz és képarányhoz, emellett a legjobb játékosok skin-jeit is letöltheted. Továbbá van egy külön részünk anime rajongók számára. Emeld új szintre a játék elményedet a neked tökéletes skin-nel. #osuskins #osugame #anime',
       1: '{views} Megtekintések. {modes} módhoz egy osu! skin, a fájl mérete {size}, {creators} által készített. Támogatja {ratios}',
       2: 'Találd meg a tökéletes osu! skin-t a legújabb keresési funkcióinkkal. Böngésszél hatalmas választékkal bíró könyvtárunkban játékmód, képarány és egyebek szerint szűrve. Vagy nézd meg a legjobb játékosok által használt skin-eket.',
@@ -217,15 +217,16 @@ export default {
     }
   },
   tooltips: {
-    0: '{amount} megtekintés',
+    0: 'Views: {amount}',
     1: 'Találatok frissítése',
     2: 'Csökkenő | Növekvő',
-    3: '{amount} like',
+    3: 'Likes: {likes} / Dislikes: {dislikes}',
     4: 'Nyomj ctrl+enter-t egy címke hozzáadásához',
     5: 'Verzió szerkesztése',
     6: '{s}Jelentkezz be{p}, hogy értékelni tudd a skint',
     7: 'Nincs rövid leírás',
-    8: 'Nincs url'
+    8: 'Nincs url',
+    9: 'Downloads: {amount}'
   },
   lists: {
     screens: {
@@ -264,6 +265,8 @@ export default {
     9: 'Eszközök',
     views: 'Megtekintés',
     likes: 'Kedvelés',
+    dislikes: 'Dislikes',
+    downloads: 'Letöltések',
     size_range: 'Válasszad ki a fájl méretét',
     date_range: 'Válasszál dátumtartományt',
     ratio: 'Válasszál képarányt | arány'
@@ -285,5 +288,13 @@ export default {
     13: 'Extra választása',
     14: 'Link beillesztése',
     15: 'Skin cím, készítő vagy tag'
+  },
+  contribute: { 0: 'Contribute' },
+  nsfw: {
+    0: 'Warning!',
+    1: 'This skin contains sensitive or adult content',
+    2: 'This skin contains sensitive or adult content that some users may find disturbing',
+    3: ' Alright',
+    4: ' bye o/'
   }
 };

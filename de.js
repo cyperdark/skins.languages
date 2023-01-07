@@ -1,9 +1,7 @@
 export default {
-  hello: 'Hello',
   title: {
     home: 'Startseite',
-    page: 'Seite',
-    guest: 'Anmelden',
+    login: 'Anmelden',
     lists: { 0: 'Listen' },
     tags: {
       0: 'Stichworte',
@@ -36,7 +34,7 @@ export default {
     0: 'Ersteller',
     1: 'Liste alle Ersteller die an dieser Versionen mitgearbeitet haben.',
     2: 'Keiner ist hier...',
-    3: 'Searching for a player\'s name will display a list of profiles.',
+    3: 'Wenn du nach dem Namen eines Spielers suchst, wird dir eine Liste von Profilen angezeigt.',
     4: 'Editor/in',
     5: 'Rollen',
     6: 'Versionen'
@@ -100,7 +98,7 @@ export default {
     5: 'Bildschirmfotos',
     6: 'Nur Gameplay',
     7: 'Download Link | Skin downloaden',
-    8: 'Forum post | osu! Forum',
+    8: 'Forenbeitrag | osu! Forum',
     9: 'Redditbeitrag',
     10: 'Ersteller',
     11: 'Stichworte',
@@ -117,7 +115,8 @@ export default {
     23: 'Der Download ist gleich für dich vorhanden!',
     24: 'noch {amount} Sekunden',
     25: 'Du bist keiner von uns.',
-    26: 'Anscheinend bist du nicht der Autor oder Herausgeber von diesem Skin'
+    26: 'Anscheinend bist du nicht der Autor oder Herausgeber von diesem Skin',
+    27: 'Skin von '
   },
   drag: {
     0: 'Klicke hier',
@@ -134,9 +133,9 @@ export default {
     3: 'Alle Symbole wurden von {name} genommen.',
     4: 'Flaggen',
     5: 'Alle Bilder der Flaggen sind von {name}.',
-    6: 'Localisation',
-    7: 'Anyone? [{lang}]',
-    8: 'Seems like, cpol forget to add them. {text}'
+    6: 'Lokalisierung',
+    7: 'Irgendwer? [{lang}]',
+    8: 'Sieht so aus, als hätte cpol vergessen, sie hinzuzufügen. {text}'
   },
   search: {
     0: 'Skin-Suche',
@@ -148,7 +147,9 @@ export default {
     7: 'Nichts gefunden.',
     8: 'Versuche, ein anderes Suchkriterium zu benutzen.',
     9: 'Abfrage anstehend.',
-    10: 'Wähle das Suchkriterium, oder gib einfach den Skintitel, den Autor oder ein Stichwort ein.'
+    10: 'Wähle das Suchkriterium, oder gib einfach den Skintitel, den Autor oder ein Stichwort ein.',
+    11: 'Downloads',
+    12: 'Name'
   },
   tabs: {
     0: 'Suche',
@@ -161,11 +162,11 @@ export default {
     2: 'Leider ist diese Seite leer.',
     3: 'Nicht autorisiert!',
     4: 'Du musst angemeldet sein, um diesen Skin zu editieren.',
-    5: 'You need to be logged in to add a new skin.'
+    5: 'Du musst eingeloggt sein, um einen neuen Skin hinzuzufügen.'
   },
   meta: {
     title: {
-      0: 'Startseite',
+      0: 'Entdecke osu! Skins',
       1: 'Spielmodi, Seitenverhältnisse von osu! Skins',
       2: 'Beliebte osu! Skins',
       3: 'Suche nach osu! Skins',
@@ -174,15 +175,14 @@ export default {
       6: 'Anerkennung an',
       7: 'osu! Skins',
       8: 'Suche nach {name} osu! Skins',
-      9: 'Get inspiration from other osu skins',
+      9: 'Bekomme Inspiration von anderen osu! Skins',
       10: '{name} hat osu! Skins erstellt.'
     },
     description: {
-      // 0: 'Get the best osu skins at our site, with a huge library to choose from! We have skins for different gamemodes and aspect ratios, and even feature top players and anime themes. Boost your gameplay with our high-quality skins.',
       0: 'Bekomme die besten osu! Skins auf unserer Seite! Unsere größte Bibliothek hat Skins für alle Spielmodi, Seitenverhältnisse und sogar von den besten osu! Spielern. Zudem haben wir auch einen extra Abschnitt für Anime-Liebhaber. Verbessere dein Gameplay mit dem perfekten Skin. #osuskins #osugame #anime',
       1: '{views} Views. Ein osu! Skin für {modes}, die Dateigröße beträgt {size}, erstellt von {creators}. Unterstützt {ratios}',
       2: 'Finde den perfekten osu! Skin mit unserem erweiterten Suchfeature. Durchsuche unsere große Bibliothek, gefiltert nach Spielmodi, Seitenverhältnis, und vielem mehr. Oder schaue dir die Skins von den besten osu! Spielern an.',
-      3: 'Entdecke eine Vielfalt von Skins für verschiedene Spielmodis und Seitenverhältnissen auf unserer Seite. Wähle zwischen Standart, Catch the beat, mania und taiko Modus aus. Finde deinen perfekten fit für deine gaming präferenzen.',
+      3: 'Entdecke eine Vielfalt von Skins für verschiedene Spielmodis und Seitenverhältnissen auf unserer Seite. Wähle zwischen dem Standard-, Catch the Beat-, Mania- und Taiko-Modus aus. Finde den perfekten Fit für deine Gamingpräferenzen.',
       4: 'Finde den perfekten osu! Skin von den besten osu! Spielern auf unserer Seite. Durchsuche unsere Kollektion von bekannten Skins und verändere dein Gameplay. Entdecke eine große Reichweite von Styles und Themes nach deinen Wünschen.',
       5: 'Liste von existenten Stichwörtern für osu! Skins.',
       6: '{name} osu! Skinkollektion, kostenloser Download',
@@ -217,15 +217,16 @@ export default {
     }
   },
   tooltips: {
-    0: '{amount} Aufrufe',
+    0: 'Aufrufe: {amount}',
     1: 'Ergebnisse aktualisieren',
     2: 'Absteigend | Aufsteigend',
-    3: '{amount} Likes',
+    3: 'Likes: {likes} / Dislikes {dislikes}',
     4: 'Drücke Strg+Enter um ein Stichwort hinzuzufügen.',
     5: 'Bearbeite die Version',
     6: '{s}Melde dich an{p}, um diesen Skin zu bewerten.',
     7: 'Keine kurze Beschreibung.',
-    8: 'Keine URL'
+    8: 'Keine URL',
+    9: 'Downloads: {amount}'
   },
   lists: {
     screens: {
@@ -264,6 +265,8 @@ export default {
     9: 'Werkzeuge',
     views: 'Aufrufe',
     likes: 'Likes',
+    dislikes: 'Dislikes',
+    downloads: 'Downloads',
     size_range: 'Dateigröße auswählen',
     date_range: 'Zeitraum auswählen',
     ratio: 'Wähle das Seitenverhältnis aus'
@@ -285,5 +288,13 @@ export default {
     13: 'Extras auswählen',
     14: 'Link einfügen',
     15: 'Skintitel, Autor, oder Tag'
+  },
+  contribute: { 0: 'Beitragen' },
+  nsfw: {
+    0: 'Achtung!',
+    1: 'Dieser Skin enthält empfindliche oder Inhalte für Erwachsene.',
+    2: 'Dieser Skin enthält empfindliche oder Inhalte für Erwachsene, die einige Benutzer verstören könnten.',
+    3: 'In Ordnung.',
+    4: 'Tschüss o/'
   }
 };

@@ -1,9 +1,7 @@
 export default {
-  hello: 'Salut',
   title: {
     home: 'Pagina principală',
-    page: 'pagină',
-    guest: 'Conectează-te',
+    login: 'Conectează-te',
     lists: { 0: 'Liste' },
     tags: {
       0: 'Etichete',
@@ -117,7 +115,8 @@ export default {
     23: 'Descărcarea va fi valabilă in curând',
     24: '{amount} secunde rămase',
     25: 'Nu ești unul dintre noi',
-    26: 'Pare că nu ești un autor sau editor al acestui skin'
+    26: 'Pare că nu ești un autor sau editor al acestui skin',
+    27: 'Skin creat de'
   },
   drag: {
     0: 'Apasă aici',
@@ -135,7 +134,7 @@ export default {
     4: 'Steaguri',
     5: 'Toate steagurile sunt luate de pe {name}',
     6: 'Localizare',
-    7: 'Cineva? {lang}]',
+    7: 'Cineva? [{lang}]',
     8: 'Se pare că cpol a uitat să adauge persoane. {text}'
   },
   search: {
@@ -148,7 +147,9 @@ export default {
     7: 'Nu am găsit nimic',
     8: 'Încearcă să schimbi criteriile de căutare',
     9: 'În așteptarea unei solicitări',
-    10: 'Selectează criteriile căutării sau scrie titlul, autorul sau etichetele skin-ului'
+    10: 'Selectează criteriile căutării sau scrie titlul, autorul sau etichetele skin-ului',
+    11: 'Descărcări',
+    12: 'Nume'
   },
   tabs: {
     0: 'Căutare',
@@ -165,7 +166,7 @@ export default {
   },
   meta: {
     title: {
-      0: 'Pagină principală',
+      0: 'Descoperă skinuri de osu',
       1: 'Gamemodes, aspect ratios osu skins',
       2: 'Skinuri de osu populare',
       3: 'Caută skinuri de osu',
@@ -178,7 +179,6 @@ export default {
       10: '{name} a creat skinuri de osu'
     },
     description: {
-      // 0: 'Get the best osu skins at our site, with a huge library to choose from! We have skins for different gamemodes and aspect ratios, and even feature top players and anime themes. Boost your gameplay with our high-quality skins.',
       0: 'Obține cele mai bune skin-uri de osu pe site-ul nostru! Librăria noastră imensă conține skin-uri pentru toate modurile de joc, aspect ratio-urile și pana și skinuri ale jucătorilor de top. Plus, avem o secțiune specială pentru fanii anime-urilor. îmbunătăţeşte-ți gameplay-ul cu skin-ul perfect. #osuskins #osugame #anime',
       1: '{views} vizualizări. Un skin de osu pentru {modes}, cu mărimea de {size}, creat de {creators}. Compatibil cu ratio-urile {ratios}',
       2: 'Găsește skinul de osu! perfect cu ajutorul funcției noastre de căutare avansată. Răsfoiește biblioteca noastră imensă, filtrată după modul de joc, aspect ratio și multe altele. Sau aruncați o privire la skinurile folosite de jucătorii de top.',
@@ -217,15 +217,16 @@ export default {
     }
   },
   tooltips: {
-    0: '{amount} vizualizări',
+    0: 'Vizualizări: {amount}',
     1: 'Reîmprospătează rezultatele',
     2: 'Descrescător | Crescător',
-    3: '{amount} aprecieri',
+    3: 'Like-uri: {likes} / Dislike-uri: {dislikes}',
     4: 'Apasă ctrl+enter pentru a adăuga o etichetă',
     5: 'Modifică versiunea',
     6: '{s}Conectează-te{p}, pentru a putea evalua acest skin',
     7: 'Nici o descriere scurtă',
-    8: 'Nici un url'
+    8: 'Nici un url',
+    9: 'Descărcări: {amount}'
   },
   lists: {
     screens: {
@@ -263,7 +264,9 @@ export default {
     8: 'Audio/Sfx',
     9: 'Instrumente',
     views: 'Vizualizări',
-    likes: 'Aprecieri',
+    likes: 'Like-uri',
+    dislikes: 'Dislike-uri',
+    downloads: 'Descărcări',
     size_range: 'Selectați dimensiunea',
     date_range: 'Selectați un interval de timp',
     ratio: 'Selectați un aspect ratio | ratio'
@@ -285,5 +288,13 @@ export default {
     13: 'Selectează extra',
     14: 'Atașează un link',
     15: 'Titlul, autorul sau eticheta skinului'
+  },
+  contribute: { 0: 'Contribuie' },
+  nsfw: {
+    0: 'Atenție!',
+    1: 'Acest skin conţine conţinut sensibil sau pentru adulţi',
+    2: 'Acest skin conține conținut sensibil sau pentru adulți pe care unii utilizatori îl pot considera deranjant',
+    3: 'În regulă',
+    4: 'Pa o/'
   }
 };

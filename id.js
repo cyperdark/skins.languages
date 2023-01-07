@@ -1,9 +1,7 @@
 export default {
-  hello: 'Halo',
   title: {
     home: 'Halaman utama',
-    page: 'halaman',
-    guest: 'Masuk',
+    login: 'Masuk',
     lists: { 0: 'Daftar' },
     tags: {
       0: 'Label',
@@ -117,7 +115,8 @@ export default {
     23: 'Unduhan akan segera tersedia',
     24: '{amount} detik tersisa',
     25: 'Kamu bukan salah satu dari kami',
-    26: 'Sepertinya kamu bukan pembuat ataupun editor dari skin ini'
+    26: 'Sepertinya kamu bukan pembuat ataupun editor dari skin ini',
+    27: 'Skin oleh'
   },
   drag: {
     0: 'Klik disini',
@@ -148,7 +147,9 @@ export default {
     7: 'Tidak menemukan apapun',
     8: 'Coba pakai search filter yang berbeda',
     9: 'Menunggu pencarian',
-    10: 'Pakai search filter atau tulis saja judul skin, pembuat, atau labelnya'
+    10: 'Pakai search filter atau tulis saja judul skin, pembuat, atau labelnya',
+    11: 'Unduh',
+    12: 'Nama'
   },
   tabs: {
     0: 'Cari',
@@ -165,7 +166,7 @@ export default {
   },
   meta: {
     title: {
-      0: 'Halaman utama',
+      0: 'Temukan skin osu',
       1: 'Mode permainan, aspek rasio dari skin osu',
       2: 'osu! skin yang populer',
       3: 'Cari skin osu!',
@@ -178,7 +179,6 @@ export default {
       10: '{name} membuat skin osu!'
     },
     description: {
-      // 0: 'Get the best osu skins at our site, with a huge library to choose from! We have skins for different gamemodes and aspect ratios, and even feature top players and anime themes. Boost your gameplay with our high-quality skins.',
       0: 'Dapatkan skin osu! terbaik di website kami! Kami menyediakan berbagai skin untuk berbagai macam mode, aspek rasio, dan dari player ternama. Oh ya! Kami juga menyediakan khusus bagi user yang menyukai anime untuk mencari skin yang mengandung karakter atau anime. Kembangkan pengalaman bermain osu! mu dengan skin terbaik!! #osuskins #osugame #anime',
       1: 'Dilihat {views} kali, Skin ini bisa digunakan untuk mode {modes}, Ukuran skin ini adalah {size}, Dibuat oleh {creators}. Bisa digunakan untuk rasio layar {ratios}',
       2: 'Temukan skin osu! terbaik dengan menggunakan fitur pencarian kami. Kami menyediakan berbagai skin yang bisa dicari sesuai mode, aspek rasio layar, dan yain lain - lain. Kami juga menyediakan skin populer yang digunakan oleh pemain ternama.',
@@ -217,15 +217,16 @@ export default {
     }
   },
   tooltips: {
-    0: '{amount} kali dilihat',
+    0: 'Dilihat: {amount}',
     1: 'Refresh hasil',
     2: 'Turun | Naik',
-    3: '{amount} suka',
+    3: 'Suka: {likes} / Tidak suka: {dislikes}',
     4: 'Tekan ctrl+enter untuk menambahkan label',
     5: 'Edit versi',
     6: '{s}Masuk{p}, agar bisa menilai skin ini',
     7: 'Tidak ada deskripsi singkat',
-    8: 'Tidak ada URL'
+    8: 'Tidak ada URL',
+    9: 'Unduh: {amount}'
   },
   lists: {
     screens: {
@@ -264,6 +265,8 @@ export default {
     9: 'Alat',
     views: 'Dilihat',
     likes: 'Suka',
+    dislikes: 'Tidak suka',
+    downloads: 'Unduh',
     size_range: 'Pilih ukuran',
     date_range: 'Pilih rentang tanggal',
     ratio: 'Pilih aspek rasio | rasio'
@@ -285,5 +288,13 @@ export default {
     13: 'Pilih ekstra',
     14: 'Tempel link',
     15: 'Judul, pembuat, atau label skin'
+  },
+  contribute: { 0: 'Kontribusi' },
+  nsfw: {
+    0: 'Peringatan!',
+    1: 'Terdapat konten sensitif atau dewasa pada skin ini',
+    2: 'Terdapat konten sensitif atau dewasa pada skin ini yang mungkin mengganggu sebagian orang',
+    3: 'Baiklah',
+    4: 'dadah o/'
   }
 };

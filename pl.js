@@ -1,9 +1,7 @@
 export default {
-  hello: 'Hello',
   title: {
     home: 'Główna',
-    page: 'Strona',
-    guest: 'Zaloguj się',
+    login: 'Zaloguj się',
     lists: { 0: 'Listy' },
     tags: {
       0: 'Tagi',
@@ -117,7 +115,8 @@ export default {
     23: 'Możliwość pobrania będzie dostępna wkrótce',
     24: 'zostało {amount} sekund',
     25: 'Nie jesteś jednym z nas',
-    26: 'Wygląda na to, że nie jesteś autorem tego skina, bądź nie masz permisji do jego edytowania'
+    26: 'Wygląda na to, że nie jesteś autorem tego skina, bądź nie masz permisji do jego edytowania',
+    27: 'Skin od'
   },
   drag: {
     0: 'Kliknij',
@@ -148,7 +147,9 @@ export default {
     7: 'Nic nie znaleziono',
     8: 'Spróbuj ustawić inne kryteria wyszukiwania',
     9: 'Czekam na zapytanie',
-    10: 'Wybierz kryteria wyszukiwania, lub wpisz nazwę skina, autora, lub tag'
+    10: 'Wybierz kryteria wyszukiwania, lub wpisz nazwę skina, autora, lub tag',
+    11: 'Pobrania',
+    12: 'Nazwa'
   },
   tabs: {
     0: 'Szukaj',
@@ -165,20 +166,19 @@ export default {
   },
   meta: {
     title: {
-      0: 'Home page',
+      0: 'Odkryj skiny do osu',
       1: 'Gamemodes, aspect ratios osu skins',
       2: 'Popular osu skins',
-      3: 'Search osu skins',
+      3: 'Wyszukaj skiny do osu',
       4: '«{name}» tags list',
-      5: '{name} v{version} osu skin',
+      5: '{name} v{version} skin do osu',
       6: 'Credits',
-      7: 'osu skins',
+      7: 'skiny do osu',
       8: '{name} search osu skins',
       9: 'Zainspiruj się innymi skinami',
-      10: '{name} created osu skins'
+      10: '{name} stworzył/a skiny do osu'
     },
     description: {
-      // 0: 'Get the best osu skins at our site, with a huge library to choose from! We have skins for different gamemodes and aspect ratios, and even feature top players and anime themes. Boost your gameplay with our high-quality skins.',
       0: 'Najlepsze skiny do osu! tylko u nas! W naszej ogromnej bibliotece znajdziesz skiny dla wszystkich trybów gry, proporcji ekranu, a nawet skiny używane przez topowych graczy. Posiadamy również sekcję dla fanów anime. Udoskonal swoją rozgrywkę z idealnym dla ciebie skinem. #osuskins #osugame #anime',
       1: '{views} wyświetleń. Skin osu! dla {modes}, o wadze {size}, stworzony przez {creators}. Wspiera {ratios}',
       2: 'Znajdź swój perfekcyjny skin do osu! dzieki naszej zaawansowanej wyszukiwarce. Zajrzyj też do ogromnej biblioteki, sortowanej przez tryb gry, proporcji ekranu, i więcej. Sprawdź też skiny używane przez topowych graczy',
@@ -217,15 +217,16 @@ export default {
     }
   },
   tooltips: {
-    0: '{amount} wyświetleń',
+    0: 'Wyświetlenia: {amount}',
     1: 'Odśwież wyniki',
     2: 'Malejąco | Rosnąco',
-    3: '{amount} polubień',
+    3: 'Lubię to: {likes} / Nie lubię tego: {dislikes}',
     4: 'Naciśnij ctrl+enter aby dodać tag',
     5: 'Edytuj wersję',
     6: '{s}Zaloguj się{p}, aby oceniś ten skin',
     7: 'Brak krótkiego opisu',
-    8: 'Brak linka'
+    8: 'Brak linka',
+    9: 'Pobrania: {amount}'
   },
   lists: {
     screens: {
@@ -264,6 +265,8 @@ export default {
     9: 'Narzędzia',
     views: 'Wyświetlenia',
     likes: 'Polubienia',
+    dislikes: 'Nie lubię tego',
+    downloads: 'Pobrania',
     size_range: 'Wybierz rozmiar',
     date_range: 'Wybierz zakres dat',
     ratio: 'Wybierz proporcje ekranu | proporcje ekranu'
@@ -285,5 +288,13 @@ export default {
     13: 'Wybierz dodatki',
     14: 'Wklej link',
     15: 'Tytuł, autor, lub tag'
+  },
+  contribute: { 0: 'Współtwórz' },
+  nsfw: {
+    0: 'Uwaga!',
+    1: 'Ten skin zawiera treści wrażliwe lub dla dorosłych',
+    2: 'Ten skin zawiera treści wrażliwe lub dla dorosłych, które niektórzy użytkownicy mogą uznać za niepokojące',
+    3: ' W porządku',
+    4: ' na razie o/'
   }
 };
