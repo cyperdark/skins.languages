@@ -289,7 +289,7 @@ export default {
     14: 'Incolla un link',
     15: 'Titolo della skin, autore, o tag'
   },
-  contribute: { 0: 'Contribuire' },
+  contribute: { 0: 'Contribuisci' },
   nsfw: {
     0: 'Attenzione!',
     1: 'Questa skin contiene contenuti sensibili o per adulti',
