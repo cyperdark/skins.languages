@@ -1,6 +1,6 @@
 export default {
   title: {
-    home: 'Home',
+    home: 'Homeepage',
     login: 'Log in',
     lists: { 0: 'Lists' },
     tags: {

@@ -1,7 +1,7 @@
 export default {
   title: {
     home: 'Ana',
-    login: 'Log in',
+    login: 'Giriş yap',
     lists: { 0: 'Listeler' },
     tags: {
       0: 'Etiketler',
@@ -116,7 +116,7 @@ export default {
     24: '{amount} saniye kaldı',
     25: 'Bizden biri değişsin',
     26: 'Görünüşe göre bu skinin yaratıcısı ya da editörü değilsin',
-    27: 'Skin by'
+    27: 'Skini oluşturan'
   },
   drag: {
     0: 'Buraya tıklayın',
@@ -132,7 +132,7 @@ export default {
     2: 'İkonlar',
     3: 'Bütün ikonlar {name}\'den alındı',
     4: 'Bayraklar',
-    5: 'Bütün bayrak görselleri {name}\'den alındı',
+    5: 'Bütün bayrak görselleri {name}\'dan alındı',
     6: 'Yerelleştirme',
     7: 'Herhangi birisi? [{lang}]',
     8: 'Görünüşe göre, cpol onları eklemeyi unutmuş. {text}'
@@ -149,7 +149,7 @@ export default {
     9: 'Arama bekleniyor',
     10: 'Arama kriterinizi seçin ya da sadece skin adını, yapımcısını ya da etiketini yazın',
     11: 'İndirmeler',
-    12: 'Name'
+    12: 'İsim'
   },
   tabs: {
     0: 'Ara',
@@ -166,7 +166,7 @@ export default {
   },
   meta: {
     title: {
-      0: 'Discover osu skins',
+      0: 'osu skinlerini keşfet',
       1: 'Oyun modları, çerçeve oranları osu skinleri',
       2: 'Populer osu skinleri',
       3: 'Osu skinleri arayın',
@@ -217,16 +217,16 @@ export default {
     }
   },
   tooltips: {
-    0: 'Views: {amount}',
+    0: 'Görüntülenme: {amount}',
     1: 'Sonuçları yeniden yükle',
     2: 'Aşağı doğru artan | Azalan',
-    3: 'Likes: {likes} / Dislikes: {dislikes}',
+    3: 'Beğeni: {likes} / Beğenmeme: {dislikes}',
     4: 'Etiket eklemek için ctrl+enter basın',
     5: 'Edit version',
     6: 'Sikini değerlendirmek için {s}Giriş yapın{p}',
     7: 'Kısa açıklama bulunamadı',
     8: 'Url bulunamadı',
-    9: 'Downloads: {amount}'
+    9: 'İndirmeler: {amount}'
   },
   lists: {
     screens: {
@@ -265,7 +265,7 @@ export default {
     9: 'Toollar',
     views: 'Görüntülenme',
     likes: 'Beğeni',
-    dislikes: 'Dislikes',
+    dislikes: 'Beğenmeme',
     downloads: 'İndirmeler',
     size_range: 'Boyut seçin',
     date_range: 'Tarih aralığı seçin',
@@ -289,12 +289,12 @@ export default {
     14: 'Link yapıştırın',
     15: 'Skinin adı, yaratıcısı ya da etiketi'
   },
-  contribute: { 0: 'Contribute' },
+  contribute: { 0: 'Katkıda bulunun' },
   nsfw: {
-    0: 'Warning!',
-    1: 'This skin contains sensitive or adult content',
-    2: 'This skin contains sensitive or adult content that some users may find disturbing',
-    3: ' Alright',
-    4: ' bye o/'
+    0: 'Uyarı!',
+    1: 'Bu skin hassas veya yetişkinlere yönelik içerik barındırıyor',
+    2: 'Bu skin rahatsız olabileceğiniz hassas veya yetişkinlere yönelik içerik barındırıyor',
+    3: 'Anladım',
+    4: 'güle güle o/'
   }
 };

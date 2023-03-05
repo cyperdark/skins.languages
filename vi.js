@@ -5,7 +5,7 @@ export default {
     lists: { 0: 'Danh sách' },
     tags: {
       0: 'Các Tag',
-      1: '{amount} các tag của thể loại {name}'
+      1: '{amount} tag của nhóm {name}'
     },
     ideas: {
       0: 'Cảm Hứng',
@@ -84,7 +84,7 @@ export default {
     5: 'Ngẫu nhiên',
     6: 'Tất cả skin',
     7: 'Tỷ lệ khung hình',
-    8: 'Tất cả skin | các skin osu!',
+    8: 'Tất cả skin | skin',
     9: 'Skin | Skin | Skin',
     10: 'Skin osu! bởi {name} | Tất cả các skin từ',
     11: 'Tìm kiếm'
@@ -187,7 +187,7 @@ export default {
       5: 'Danh sách các tag tồn tại cho skin osu.',
       6: 'Bộ sưu tầm skin {name}!, tải miễn phí',
       7: 'Một lượng lớn skin osu cho {name}, tải miễn phí!',
-      8: 'Tất cả skin được tạo bơi {name}',
+      8: 'Tất cả skin được tạo bởi {name}',
       9: 'Tìm các nguồn cảm hứng cho skin osu! tiếp theo của bạn ở trang của chúng tôi. Điểm qua một bộ sưu tầm skin đa dạng và khám phá các kỹ thuật và ý tưởng mới. Lấy cảm hứng và tạo cho bản thân những skin độc đáo.'
     },
     keywords: { 0: 'osu, osu!, osu skins, std skins, ctb skins, mania skins, taiko skins, mrekk osu skins,Rafis osu skins,FlyingTuna osu skins,Vaxei osu skins,Cookiezi osu skins,Varvalian osu skins,RyuK osu skins,WhiteCat osu skins,_RyuK osu skins,BeasttrollMC osu skins,Genshin Impact osu skins,Mathi osu skins,WubWoofWolf osu skins,Merami osu skins,xootynator osu skins,Gayzmcgee osu skins,[Karcher] osu skins,Bubbleman osu skins,ChomikBox osu skins,NSFW osu skins,Lifeline osu skins,Hatsune Miku osu skins,Azerite osu skins,Umbre osu skins,404 AimNotFound osu skins,-Nikstrim osu skins,bloo osu skins,Shigetora osu skins,Badeu osu skins,FunOrange osu skins,worst hr player osu skins,Tekkito osu skins,ninerik osu skins,azr8 osu skins,idke osu skins,Andros osu skins,Zylice osu skins,Rektygon osu skins,Komori osu skins,anime osu skins,cyperdark osu skins,Red_Pixel osu skins,Utami osu skins,Arknights osu skins,Karthy osu skins,Paraqeet osu skins,aetrna osu skins,Spare osu skins,-GN osu skins,Mastasz osu skins,Seouless osu skins,haga1115 osu skins,shimon osu skins,fieryrage osu skins,Ekoro osu skins,Firebat92 osu skins,_Shield osu skins,-Roaz- osu skins,- Dark - osu skins,atturbo555 osu skins,Aristia osu skins,_Aiko__ osu skins,z x c osu skins,eternum osu skins,talala osu skins,NyanPotato osu skins,Arnold24x24 osu skins,Alumetri osu skins,im a fancy lad osu skins,jordanlr7 osu skins,Woey osu skins,khz osu skins,rrtyui osu skins,kieg osu skins,Rupertion osu skins,FGSky osu skins,Aireu osu skins,Neko God osu skins,Apostol osu skins,Abyssal osu skins,dokidokilolixx osu skins,Mlaw osu skins,Ponytail osu skins,Reedkatt osu skins,Zestiny osu skins,Apraxia osu skins,Binfy osu skins,Rohulk osu skins,-PloX osu skins,DuyKhang-sama osu skins,BronyPH osu skins,Intercambing osu skins,Xeltol osu skins,Valorant osu skins,Akolibed osu skins,hololive osu skins,kablaze osu skins,tokyo ghoul osu skins,Trail Mix osu skins,Dereban osu skins' }

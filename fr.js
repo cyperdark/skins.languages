@@ -116,7 +116,7 @@ export default {
     24: '{amount} secondes restantes',
     25: 'Vous n\'êtes pas l\'un d\'entre nous',
     26: 'On dirait que vous n\'êtes pas un créateur ou un éditeur de ce skin',
-    27: 'Skin by'
+    27: 'Skin fait par'
   },
   drag: {
     0: 'Cliquez ici',
@@ -149,7 +149,7 @@ export default {
     9: 'en attente d\'une requête',
     10: 'Sélectionnez le critère de recherche ou écrivez juste le titre, l\'auteur ou le tag',
     11: 'Téléchargements',
-    12: 'Name'
+    12: 'Nom'
   },
   tabs: {
     0: 'Rechercher',
@@ -166,7 +166,7 @@ export default {
   },
   meta: {
     title: {
-      0: 'Discover osu skins',
+      0: 'Découvrez des skins osu',
       1: 'Skins spécifiques à des modes de jeu ou formats d\'image ',
       2: 'Skins osu populaires',
       3: 'Rechercher des skins osu',
@@ -217,16 +217,16 @@ export default {
     }
   },
   tooltips: {
-    0: 'Views: {amount}',
+    0: 'Vues : {amount}',
     1: 'Rafraîchir les résultats',
     2: 'Décroissant | Croissant',
-    3: 'Likes: {likes} / Dislikes: {dislikes}',
+    3: 'J\'aime : {likes} / Je n\'aime pas : {dislikes}',
     4: 'Appuyez sur ctrl+entrée pour ajouter un tag',
     5: 'Editer la version',
     6: '{s}Connectez vous{p}, Pour pouvoir noter ce skin',
     7: 'Pas de desctiption courte',
     8: 'pas d\'url',
-    9: 'Downloads: {amount}'
+    9: 'Téléchargements : {amount}'
   },
   lists: {
     screens: {
@@ -265,7 +265,7 @@ export default {
     9: 'Outils',
     views: 'Vues',
     likes: 'J\'aime',
-    dislikes: 'Dislikes',
+    dislikes: 'Je n\'aime pas',
     downloads: 'Téléchargements',
     size_range: 'Sélectionnez la taille',
     date_range: 'Sélectionnez la plage de dates',
@@ -289,12 +289,12 @@ export default {
     14: 'Copiez un lien',
     15: 'Titre du skin, auteur ou tag'
   },
-  contribute: { 0: 'Contribute' },
+  contribute: { 0: 'Contribuer' },
   nsfw: {
-    0: 'Warning!',
-    1: 'This skin contains sensitive or adult content',
-    2: 'This skin contains sensitive or adult content that some users may find disturbing',
-    3: ' Alright',
+    0: 'Attention !',
+    1: 'Ce skin contient du contenu sensible ou pour adultes',
+    2: 'Ce skin contient du contenu sensible ou pour adultes qui peuvent déranger certains utilisateurs',
+    3: ' Ça marche',
     4: ' bye o/'
   }
 };

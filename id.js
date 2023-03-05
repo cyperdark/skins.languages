@@ -218,7 +218,7 @@ export default {
   },
   tooltips: {
     0: 'Dilihat: {amount}',
-    1: 'Refresh hasil',
+    1: 'Perbarui Hasil',
     2: 'Turun | Naik',
     3: 'Suka: {likes} / Tidak suka: {dislikes}',
     4: 'Tekan ctrl+enter untuk menambahkan label',
