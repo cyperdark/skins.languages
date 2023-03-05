@@ -113,7 +113,7 @@ export default {
     21: 'Valutazione',
     22: 'Downloads',
     23: 'Il download sarà disponibile presto',
-    24: '{quantità} secondi rimanenti',
+    24: '{amount} secondi rimanenti',
     25: 'Non sei uno di noi',
     26: 'Sembra che tu non sia l\'autore o un editor di questa skin',
     27: 'Skin di'
