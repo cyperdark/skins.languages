@@ -1,7 +1,7 @@
 export default {
   title: {
     home: 'الصفحة الرئيسية',
-    login: 'Log in',
+    login: 'تسجيل الدخول',
     lists: { 0: 'القوائم' },
     tags: {
       0: 'الأوسمة',
