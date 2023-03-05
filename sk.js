@@ -1,10 +1,10 @@
 export default {
   title: {
     home: 'Domovská stránka',
-    login: 'Log in',
+    login: 'Prihlásiť sa tu',
     lists: { 0: 'Zoznamy' },
     tags: {
-      0: 'Tags',
+      0: 'Štítky',
       1: '{amount} Značky pre kategóriu {name}'
     },
     ideas: {
@@ -34,13 +34,13 @@ export default {
     0: 'Vývojári',
     1: 'Zoznam všetkých vývojárov ktorí boli zapojení vo vývoji tejto verzie',
     2: 'Nikto tu nieje',
-    3: 'Searching for a player\'s name will display a list of profiles.',
+    3: 'Hľadanie hráčskeho mena zobrazí list profilov.',
     4: 'Editor',
     5: 'Role',
     6: 'Verzie'
   },
   tags: {
-    0: 'Tags',
+    0: 'Štítky',
     1: 'List všetkých značiek súvisiacich s týmto skinom',
     2: 'Tu to vyzerá prázdno.',
     3: 'Použite horne pole pre nájdenie nových značok'
@@ -98,10 +98,10 @@ export default {
     5: 'Screenshots',
     6: 'Iba hrateľnosť',
     7: 'Link na stiahnutie | stahovací link',
-    8: 'Forum post | osu! Forum',
+    8: 'Skupinové zdieľania | osu! Skupina',
     9: 'Reddit príspevok',
     10: 'Vývojári',
-    11: 'Tags',
+    11: 'Štítky',
     13: 'Videa',
     14: 'Nová Verzia | Spravovacia verzia',
     15: 'Aktualizovať | Nahrať',
@@ -116,7 +116,7 @@ export default {
     24: '{amount} Zostávajúce sekundy',
     25: 'Niesi jeden z nás',
     26: 'Zdá sa, že nie ste autorom ani editorom tohto skinu',
-    27: 'Skin by'
+    27: 'Skin urobený od'
   },
   drag: {
     0: 'Klikni tu',
@@ -133,9 +133,9 @@ export default {
     3: 'Všetky ikony sú prevzaté z {name}',
     4: 'Vlajky',
     5: 'Všetke obrázky vlajok sú od {name}',
-    6: 'Localisation',
-    7: 'Anyone? [{lang}]',
-    8: 'Seems like, cpol forget to add them. {text}'
+    6: 'Lokalizácia',
+    7: 'Niekto? [{lang}]',
+    8: 'Zdá sa, že cpol zabudol ich pridať. {text}'
   },
   search: {
     0: 'Vyhľadať skin',
@@ -149,7 +149,7 @@ export default {
     9: 'Čaká sa na dotaz',
     10: 'Vyberte vyhľadávacie filtre alebo napíšte názov skinu, autora alebo značku',
     11: 'Stiahnutie',
-    12: 'Name'
+    12: 'Meno/Názov'
   },
   tabs: {
     0: 'Hľadať',
@@ -162,11 +162,11 @@ export default {
     2: 'Bohužiaľ tu nič nie je',
     3: 'Neoprávnené',
     4: 'Ak chcete upraviť tento skin, musíte byť prihlásený.',
-    5: 'You need to be logged in to add a new skin.'
+    5: 'Musíš byť prihlásený na to, aby si pridal nový skin.'
   },
   meta: {
     title: {
-      0: 'Discover osu skins',
+      0: 'Nájdi osu! skiny',
       1: 'Herné režimy, pomery strán osu skinov',
       2: 'Populárne osu skiny',
       3: 'Vyhľadajte osu skiny',
@@ -175,7 +175,7 @@ export default {
       6: 'Kredit',
       7: 'osu skiny',
       8: '{name} vyhľadaj osu skiny',
-      9: 'Get inspiration from other osu skins',
+      9: 'Získaj inšpiráciu z ostatných osu! skinov',
       10: '{name} výrobca osu skinou'
     },
     description: {
@@ -209,7 +209,7 @@ export default {
   },
   user: {
     roles: {
-      0: 'Kreator',
+      0: 'Tvorca',
       1: 'Mixer',
       2: 'Animácie',
       3: 'Umenie',
@@ -217,16 +217,16 @@ export default {
     }
   },
   tooltips: {
-    0: 'Views: {amount}',
+    0: 'Zobrazenia: {amount}',
     1: 'Obnoviť výsledky',
     2: 'Klesajúci | Stúpajúci',
-    3: 'Likes: {likes} / Dislikes: {dislikes}',
+    3: 'Obľúbene: {likes} / Zlé: {dislikes}',
     4: 'Stlačte ctrl+enter pre pridanie označenia',
     5: 'Upraviť verziu',
     6: '{s}Prihláste sa{p}, aby ste mohli ohodnotiť tento skin',
     7: 'Žiadny krátky popis',
     8: 'Žiadne URL',
-    9: 'Downloads: {amount}'
+    9: 'Stiahnuté bolo: {amount}'
   },
   lists: {
     screens: {
@@ -249,7 +249,7 @@ export default {
     cats: {
       0: 'NSFW',
       1: 'Furry',
-      2: 'Mixed'
+      2: 'Zmiešané'
     }
   },
   select: {
@@ -265,7 +265,7 @@ export default {
     9: 'Nástroje',
     views: 'Pozretia',
     likes: 'Obľúbene',
-    dislikes: 'Dislikes',
+    dislikes: 'Zlé',
     downloads: 'Stiahnutie',
     size_range: 'Vyber velikosti',
     date_range: 'Vyber časového obdobia',
@@ -289,12 +289,12 @@ export default {
     14: 'Vložte link',
     15: 'Názov skinu, autora, alebo označenie'
   },
-  contribute: { 0: 'Contribute' },
+  contribute: { 0: 'Prispievanie' },
   nsfw: {
-    0: 'Warning!',
-    1: 'This skin contains sensitive or adult content',
-    2: 'This skin contains sensitive or adult content that some users may find disturbing',
-    3: ' Alright',
-    4: ' bye o/'
+    0: 'Varovanie!',
+    1: 'Tento skin obsahuje senzitívny obsah alebo kontent 18+',
+    2: 'Tento skin obsahuje senzitívny obsah alebo kontent 18+, ktorý môžu nejaký ľudia nájsť hnusné',
+    3: 'Vphode',
+    4: 'čau o/'
   }
 };
