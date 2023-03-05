@@ -112,7 +112,7 @@ export default {
     20: 'メタデータ',
     21: '評価',
     22: 'ダウンロード',
-    23: 'ダウンロードは近日公開予定',
+    23: 'ダウンロードはまもなく可能になります',
     24: '残り{amount} 秒',
     25: 'あなたは私たちの仲間ではありません',
     26: 'あなたは、このスキンの作成者や編集者ではないようです。',
@@ -149,7 +149,7 @@ export default {
     9: '保留中のクエリ',
     10: '検索フィルタを選択するか、スキンのタイトル、作成者、またはタグを入力してください',
     11: 'ダウンロード',
-    12: 'Name'
+    12: '名前'
   },
   tabs: {
     0: '検索',
@@ -188,7 +188,7 @@ export default {
       6: '{name} osuスキンコレクション！, 無料ダウンロード',
       7: '{name} 用のosuスキンがたくさん、無料でダウンロードできます。',
       8: '{name} によって作成されたすべてのosuスキン。',
-      9: 'osu！のスキンは、私たちのサイトでインスピレーションを得ることができます。多様なスキンのコレクションを閲覧して、新しいテクニックやアイデアを発見してください。インスピレーションを得て、自分だけのスキンを作りましょう。'
+      9: '当サイトで次のosu! スキンのインスピレーションを身につけよう！多彩なスキンコレクションを見て、新しいテクニックやアイデアを見つけることができます。インスピレーションを受けて、自分だけのosu!スキンを作りましょう。'
     },
     keywords: { 0: 'osu, osu!, osu skins, std skins, ctb skins, mania skins, taiko skins, mrekk osu skins,Rafis osu skins,FlyingTuna osu skins,Vaxei osu skins,Cookiezi osu skins,Varvalian osu skins,RyuK osu skins,WhiteCat osu skins,_RyuK osu skins,BeasttrollMC osu skins,Genshin Impact osu skins,Mathi osu skins,WubWoofWolf osu skins,Merami osu skins,xootynator osu skins,Gayzmcgee osu skins,[Karcher] osu skins,Bubbleman osu skins,ChomikBox osu skins,NSFW osu skins,Lifeline osu skins,Hatsune Miku osu skins,Azerite osu skins,Umbre osu skins,404 AimNotFound osu skins,-Nikstrim osu skins,bloo osu skins,Shigetora osu skins,Badeu osu skins,FunOrange osu skins,worst hr player osu skins,Tekkito osu skins,ninerik osu skins,azr8 osu skins,idke osu skins,Andros osu skins,Zylice osu skins,Rektygon osu skins,Komori osu skins,anime osu skins,cyperdark osu skins,Red_Pixel osu skins,Utami osu skins,Arknights osu skins,Karthy osu skins,Paraqeet osu skins,aetrna osu skins,Spare osu skins,-GN osu skins,Mastasz osu skins,Seouless osu skins,haga1115 osu skins,shimon osu skins,fieryrage osu skins,Ekoro osu skins,Firebat92 osu skins,_Shield osu skins,-Roaz- osu skins,- Dark - osu skins,atturbo555 osu skins,Aristia osu skins,_Aiko__ osu skins,z x c osu skins,eternum osu skins,talala osu skins,NyanPotato osu skins,Arnold24x24 osu skins,Alumetri osu skins,im a fancy lad osu skins,jordanlr7 osu skins,Woey osu skins,khz osu skins,rrtyui osu skins,kieg osu skins,Rupertion osu skins,FGSky osu skins,Aireu osu skins,Neko God osu skins,Apostol osu skins,Abyssal osu skins,dokidokilolixx osu skins,Mlaw osu skins,Ponytail osu skins,Reedkatt osu skins,Zestiny osu skins,Apraxia osu skins,Binfy osu skins,Rohulk osu skins,-PloX osu skins,DuyKhang-sama osu skins,BronyPH osu skins,Intercambing osu skins,Xeltol osu skins,Valorant osu skins,Akolibed osu skins,hololive osu skins,kablaze osu skins,tokyo ghoul osu skins,Trail Mix osu skins,Dereban osu skins' }
   },
@@ -220,7 +220,7 @@ export default {
     0: 'ビュー数: {amount}',
     1: '結果を更新',
     2: '降順｜昇順',
-    3: 'Likes: {likes} / Dislikes: {dislikes}',
+    3: 'いいね: {likes} / よくないね: {dislikes}',
     4: 'Ctrl+enterでタグを追加',
     5: 'バージョンを編集',
     6: '{s}ログイン{p}して、このスキンを評価してください',
@@ -264,8 +264,8 @@ export default {
     8: 'オーディオ/Sfx',
     9: 'ツール',
     views: 'ビュー',
-    likes: 'いいね',
-    dislikes: 'Dislikes',
+    likes: '高評価',
+    dislikes: '低評価',
     downloads: 'ダウンロード',
     size_range: 'サイズ選択',
     date_range: '日付範囲を選択',
@@ -295,6 +295,6 @@ export default {
     1: 'このスキンにはセンシティブまたはアダルトなコンテンツが含まれています',
     2: 'このスキンには、一部のユーザーが不快に感じる可能性があるセンシティブまたはアダルトなコンテンツが含まれています',
     3: ' 了解',
-    4: ' bye o/'
+    4: ' さよなら o/'
   }
 };
