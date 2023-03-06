@@ -33,7 +33,7 @@ export default {
     8: 'Pembuangan'
   },
   ideas: {
-    0: 'Nothing founded',
+    0: 'Tiada apa-apa dijumpai',
     1: 'Screenshots of «{type}» were not uploaded to the site'
   },
   creators: {
