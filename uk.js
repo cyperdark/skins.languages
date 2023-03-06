@@ -5,7 +5,8 @@ export default {
     lists: { 0: 'Списки' },
     tags: {
       0: 'Теги',
-      1: 'В категорії {name} є {amount} тегів'
+      1: 'В категорії {name} є {amount} тегів',
+      2: 'Search tags'
     },
     ideas: {
       0: 'Натхнення',
@@ -17,7 +18,8 @@ export default {
     skin: {
       0: 'Цей скін містить елементи з інших скінів',
       1: 'Натисни для отримання інформації'
-    }
+    },
+    tools: 'Інструменти'
   },
   changelogs: {
     0: 'Список змін',
@@ -29,6 +31,10 @@ export default {
     6: 'Виправлення',
     7: 'Зміни',
     8: 'Видалено'
+  },
+  ideas: {
+    0: 'Nothing founed',
+    1: 'Screenshots of «{type}» were not uploaded to the site'
   },
   creators: {
     0: 'Творці',
@@ -43,7 +49,10 @@ export default {
     0: 'Теги',
     1: 'Список усіх тегів, пов’язаних із цим скіном',
     2: 'Тут досить порожньо.',
-    3: 'Використовуй поле вище, щоб знайти нові теги'
+    3: 'Використовуй поле вище, щоб знайти нові теги',
+    4: 'Tags not found',
+    5: 'Try searching for something else',
+    6: 'Пошук'
   },
   videos: {
     0: 'Відео',
@@ -62,6 +71,7 @@ export default {
     0: 'Всі',
     1: 'Метадані',
     2: 'Показати',
+    3: 'Name of the skin not specified',
     4: 'Додай щонайменш одного творця',
     5: 'Додай кілька тегів',
     6: 'Не вказано вагу скіна',
@@ -73,7 +83,8 @@ export default {
     12: 'Не вказано посилання на скін',
     20: 'Непогано',
     21: 'Кожна проблема була виправлена. Добре зроблено',
-    22: 'Контрольний перелік'
+    22: 'Контрольний перелік',
+    23: 'Add at least one public version'
   },
   skins: {
     0: 'Скіни',
@@ -87,7 +98,9 @@ export default {
     8: 'Всі скіни | osu skins',
     9: 'Скін | Скіни | Скінів',
     10: 'Скіни від {name} | Всі скіни від {name}',
-    11: 'Пошук'
+    11: 'Пошук',
+    12: '{name} skins',
+    13: 'Explore skins'
   },
   skin: {
     0: 'Редагувати',
@@ -116,7 +129,10 @@ export default {
     24: 'Залишилось {amount} секунд',
     25: 'Ти не один з нас',
     26: 'Схоже, ви не є автором або редактором цього скіна',
-    27: 'Skin by'
+    27: 'Skin by',
+    28: 'No tags',
+    29: 'No videos',
+    30: 'No creators'
   },
   drag: {
     0: 'Натисніть тут',
@@ -149,7 +165,13 @@ export default {
     9: 'Очікується запит',
     10: 'Виберіть пошукові фільтри або просто напишіть назву скіну, автора або тег',
     11: 'Завантаження',
-    12: 'Name'
+    12: 'Name',
+    13: {
+      0: 'Скіни',
+      1: 'Теги',
+      2: 'Users',
+      3: 'Списки'
+    }
   },
   tabs: {
     0: 'Пошук',
@@ -176,7 +198,9 @@ export default {
       7: 'Скіни osu',
       8: '{name} пошук скінів osu',
       9: 'Get inspiration from other osu skins',
-      10: '{name} створив скіни osu'
+      10: '{name} створив скіни osu',
+      11: 'Search tags',
+      12: '{name} found tags'
     },
     description: {
       0: 'Отримайте найкращі osu! скіни на нашому сайті! У нашій величезній бібліотеці є скіни для усіх режимів гри, співвідношення сторін і навіть кращих гравців. До того ж, у нас є спеціальний розділ для аніме шанувальників. Покращуйте свою гру з ідеальним скіном. #osuskins #osugame #anime',
@@ -188,9 +212,9 @@ export default {
       6: '{name} osu skins collection!, free downloading',
       7: 'A huge amount of osu skins for {name}, download for free!',
       8: 'All osu skins created by {name}',
-      9: 'Find inspiration for your next osu! skin at our site. Browse through a diverse collection of skins and discover new techniques and ideas. Get inspired and create your own unique skins.'
-    },
-    keywords: { 0: 'osu, osu!, osu скіни, std скіни, ctb скіни, mania скіни, taiko скіни, mrekk osu скіни,Rafis osu скіни,FlyingTuna osu скіни,Vaxei osu скіни,Cookiezi osu скіни,Varvalian osu скіни,RyuK osu скіни,WhiteCat osu скіни,_RyuK osu скіни,BeasttrollMC osu скіни,Genshin Impact osu скіни,Mathi osu скіни,WubWoofWolf osu скіни,Merami osu скіни,xootynator osu скіни,Gayzmcgee osu скіни,[Karcher] osu скіни,Bubbleman osu скіни,ChomikBox osu скіни,NSFW osu скіни,Lifeline osu скіни,Hatsune Miku osu скіни,Azerite osu скіни,Umbre osu скіни,404 AimNotFound osu скіни,-Nikstrim osu скіни,bloo osu скіни,Shigetora osu скіни,Badeu osu скіни,FunOrange osu скіни,worst hr player osu скіни,Tekkito osu скіни,ninerik osu скіни,azr8 osu скіни,idke osu скіни,Andros osu скіни,Zylice osu скіни,Rektygon osu скіни,Komori osu скіни,anime osu скіни,cyperdark osu скіни,Red_Pixel osu скіни,Utami osu скіни,Arknights osu скіни,Karthy osu скіни,Paraqeet osu скіни,aetrna osu скіни,Spare osu скіни,-GN osu скіни,Mastasz osu скіни,Seouless osu скіни,haga1115 osu скіни,shimon osu скіни,fieryrage osu скіни,Ekoro osu скіни,Firebat92 osu скіни,_Shield osu скіни,-Roaz- osu скіни,- Dark - osu скіни,atturbo555 osu скіни,Aristia osu скіни,_Aiko__ osu скіни,z x c osu скіни,eternum osu скіни,talala osu скіни,NyanPotato osu скіни,Arnold24x24 osu скіни,Alumetri osu скіни,im a fancy lad osu скіни,jordanlr7 osu скіни,Woey osu скіни,khz osu скіни,rrtyui osu скіни,kieg osu скіни,Rupertion osu скіни,FGSky osu скіни,Aireu osu скіни,Neko God osu скіни,Apostol osu скіни,Abyssal osu скіни,dokidokilolixx osu скіни,Mlaw osu скіни,Ponytail osu скіни,Reedkatt osu скіни,Zestiny osu скіни,Apraxia osu скіни,Binfy osu скіни,Rohulk osu скіни,-PloX osu скіни,DuyKhang-sama osu скіни,BronyPH osu скіни,Intercambing osu скіни,Xeltol osu скіни,Valorant osu скіни,Akolibed osu скіни,hololive osu скіни,kablaze osu скіни,tokyo ghoul osu скіни,Trail Mix osu скіни,Dereban osu скіни' }
+      9: 'Find inspiration for your next osu! skin at our site. Browse through a diverse collection of skins and discover new techniques and ideas. Get inspired and create your own unique skins.',
+      10: 'Search for tags among all the tags on the site.'
+    }
   },
   buttons: {
     0: 'Увійти',
@@ -287,14 +311,81 @@ export default {
     12: 'Введіть опис і посилання. Приклад опису: посилання',
     13: 'Вибрати додатково',
     14: 'Вставити посилання',
-    15: 'Назва скіна, ім\'я автора або тег'
+    15: 'Назва скіна, ім\'я автора або тег',
+    16: 'Select category',
+    17: 'Type name of the tag'
   },
   contribute: { 0: 'Contribute' },
   nsfw: {
     0: 'Warning!',
     1: 'This skin contains sensitive or adult content',
     2: 'This skin contains sensitive or adult content that some users may find disturbing',
-    3: ' Alright',
-    4: ' bye o/'
+    3: 'Alright',
+    4: 'bye o/'
+  },
+  removed: {
+    0: 'Version unavailable',
+    1: 'Author of the skin decided to remove this version from the site.',
+    2: 'Switch to available version'
+  },
+  notify: {
+    0: 'Issues not fixed',
+    1: 'Not all required fields was field',
+    2: 'Show',
+    3: 'Not found',
+    4: 'Banner not found (Currently, the first screenshot is being used as the banner)',
+    5: 'No changes',
+    6: 'No changes were found',
+    7: 'ID not found',
+    8: 'ID of the video not found, try another link (At the moment only YouTube is supported)',
+    9: 'Oops',
+    10: 'Looks like you\'re user session is expired, open new page and log into your account (Don\'t worry, everything is saved automatically)',
+    11: 'Exists',
+    12: 'This video has already been added',
+    13: 'Exists',
+    14: 'This tag has already been added',
+    15: 'Not found',
+    16: 'You cannot delete a deleted tag',
+    17: 'Added',
+    18: 'You have successfully added a new tag',
+    19: 'OOps',
+    20: 'This creator was already added',
+    21: 'EZ',
+    22: 'New creater has been added',
+    23: 'HUH',
+    24: 'Impossible to remove a deleted creator',
+    25: 'Exists',
+    26: 'Same change with this type has been added earlier',
+    27: 'Warning',
+    28: 'Same url with this type has been added earlier',
+    29: 'Warning',
+    30: 'You forget to add a description for a url. Example: Description:url',
+    31: 'Warning',
+    32: 'You forget to add a url for description. Example: Description:url',
+    33: 'Restored',
+    34: 'Version {name} has been restored',
+    35: 'Deleted',
+    36: 'Version {name} has been deleted',
+    37: 'Error',
+    38: 'Seems like server thinks you\'re the bot',
+    39: 'Looks like you\'re user session is expired, open new page and log into your account (Don\'t worry, everything is saved automatically)',
+    40: 'Mismatched credentials (re:login in account. Don\'t worry, everything is saved automatically)',
+    41: 'Unknown error',
+    42: 'You cannot edit inexistent skin',
+    43: 'Seems like you don\'t have permissions to edit this skin',
+    44: 'You cannot submit this version as it is the same as the previous one',
+    45: 'Those changes has been sent already on moderation',
+    46: 'Success',
+    47: 'New changes have been submitted for moderation',
+    48: 'Changes have been updated in moderation',
+    49: 'Odd link',
+    50: 'This link cannot be used as a download link',
+    51: 'Submitted to moderation'
+  },
+  restricted_view: {
+    0: 'Неавторизовано',
+    1: 'Please login in account',
+    2: 'Restricted view',
+    3: 'This page is not out, yet.'
   }
 };
