@@ -380,10 +380,10 @@ export default {
     28: 'Same url with this type has been added earlier',
 
     29: 'Warning',
-    30: 'You forget to add a description for a url. Example: Description:url',
+    30: 'You forgot to add a description for a url. Example: Description:url',
 
     31: 'Warning',
-    32: 'You forget to add a url for description. Example: Description:url',
+    32: 'You forgot to add a url for description. Example: Description:url',
 
     33: 'Restored',
     34: 'Version {name} has been restored',
