@@ -6,7 +6,7 @@ export default {
     tags: {
       0: 'Теги',
       1: '{amount} тегов категории {name}',
-      2: 'Search tags'
+      2: 'Поиск по тегам'
     },
     ideas: {
       0: 'Хочу идеи',
@@ -33,7 +33,7 @@ export default {
     8: 'Удалено'
   },
   ideas: {
-    0: 'Nothing founed',
+    0: 'Nothing founded',
     1: 'Screenshots of «{type}» were not uploaded to the site'
   },
   creators: {
@@ -199,7 +199,7 @@ export default {
       8: '{name} поиск осу скинов',
       9: 'Получите вдохновение от других осу скинов',
       10: '{name} созданные осу скины',
-      11: 'Search tags',
+      11: 'Поиск по тегам',
       12: '{name} found tags'
     },
     description: {
