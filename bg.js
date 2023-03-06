@@ -5,7 +5,8 @@ export default {
     lists: { 0: 'Списъци' },
     tags: {
       0: 'Ключови Думи',
-      1: '{amount} ключови думи  за категория {name}'
+      1: '{amount} ключови думи  за категория {name}',
+      2: 'Search tags'
     },
     ideas: {
       0: 'Вдъхновение',
@@ -17,7 +18,8 @@ export default {
     skin: {
       0: 'Този облик съдържа елементи от други облици',
       1: 'Кликни тук за повече информация'
-    }
+    },
+    tools: 'Инструменти'
   },
   changelogs: {
     0: 'Списък с промени',
@@ -29,6 +31,10 @@ export default {
     6: 'Поправено',
     7: 'Променено',
     8: 'Премахнато'
+  },
+  ideas: {
+    0: 'Nothing founed',
+    1: 'Screenshots of «{type}» were not uploaded to the site'
   },
   creators: {
     0: 'Създатели',
@@ -43,7 +49,10 @@ export default {
     0: 'Ключови Думи',
     1: 'Списък с всички ключови думи свързани с този облик',
     2: 'Изглежда доста празно тук.',
-    3: 'Използвайте полето горе, за да намерите нови ключови думи.'
+    3: 'Използвайте полето горе, за да намерите нови ключови думи.',
+    4: 'Tags not found',
+    5: 'Try searching for something else',
+    6: 'Търсене'
   },
   videos: {
     0: 'Видеа',
@@ -62,6 +71,7 @@ export default {
     0: 'Всички',
     1: 'Метаданни',
     2: 'Отличителни черти',
+    3: 'Name of the skin not specified',
     4: 'Добавете поне един съдател на облика',
     5: 'Добавете няколко ключови думи',
     6: 'Тежестта на облика не е специфицирана',
@@ -73,7 +83,8 @@ export default {
     12: 'Връзка за облика не е специфициран',
     20: 'Доста добре изглежда',
     21: 'Всяка една грешка е оправена, което е доста добре',
-    22: 'Списък за проверка'
+    22: 'Списък за проверка',
+    23: 'Add at least one public version'
   },
   skins: {
     0: 'Облици',
@@ -87,7 +98,9 @@ export default {
     8: 'Вскички облици | osu облици',
     9: 'Облик | Облици | Облици',
     10: 'osu облици от {name} | Всички облици от',
-    11: 'Търсене'
+    11: 'Търсене',
+    12: '{name} skins',
+    13: 'Explore skins'
   },
   skin: {
     0: 'Редактиран',
@@ -116,7 +129,10 @@ export default {
     24: 'Остават {amount} секунди',
     25: 'Ти не си един от нас',
     26: 'Изглежда че ти не си един от създателите или редакторите на този облик',
-    27: 'Облик от'
+    27: 'Облик от',
+    28: 'No tags',
+    29: 'No videos',
+    30: 'No creators'
   },
   drag: {
     0: 'Кликнете тук',
@@ -149,7 +165,13 @@ export default {
     9: 'Чакане на заявка',
     10: 'Изберете критерия за търсене или просто напишете заглавието на облика, на създателя, или просто ключовите думи',
     11: 'Изгеляния',
-    12: 'Име'
+    12: 'Име',
+    13: {
+      0: 'Облици',
+      1: 'Ключови Думи',
+      2: 'Users',
+      3: 'Списъци'
+    }
   },
   tabs: {
     0: 'Търсене',
@@ -176,7 +198,9 @@ export default {
       7: 'osu облици',
       8: '{name} трърси osu облици',
       9: 'Почерпете вдъхновение от други osu облици',
-      10: '{name} създадени osu облици'
+      10: '{name} създадени osu облици',
+      11: 'Search tags',
+      12: '{name} found tags'
     },
     description: {
       0: 'Намерете най-добрите osu! облици на нашия сайт! Нашия огромен каталог е изпълнен с облици за всички игрови режими, съотношение на резолюцията и дори най-добрите играчи. И още, имаме специална секция за anime феновете. Подобри всоята игра с префектния osu облик за теб. #osuskins #osugame #anime',
@@ -188,9 +212,9 @@ export default {
       6: '{name} osu колкция с облици!, безплатно изтегляне',
       7: 'Огромен брой osu облици за {name}, изтеглете безплатно!',
       8: 'Всички osu облици създадени от {name}',
-      9: 'Намерете вдъхновение за вашите osu! облици на нашия.Открийте нови техники и идеи с помощта на нашата голяма колекция на osu облици. Вдъхновете се и създайте вашия собствен osu облик.'
-    },
-    keywords: { 0: 'osu, osu!, osu skins, std skins, ctb skins, mania skins, taiko skins, mrekk osu skins,Rafis osu skins,FlyingTuna osu skins,Vaxei osu skins,Cookiezi osu skins,Varvalian osu skins,RyuK osu skins,WhiteCat osu skins,_RyuK osu skins,BeasttrollMC osu skins,Genshin Impact osu skins,Mathi osu skins,WubWoofWolf osu skins,Merami osu skins,xootynator osu skins,Gayzmcgee osu skins,[Karcher] osu skins,Bubbleman osu skins,ChomikBox osu skins,NSFW osu skins,Lifeline osu skins,Hatsune Miku osu skins,Azerite osu skins,Umbre osu skins,404 AimNotFound osu skins,-Nikstrim osu skins,bloo osu skins,Shigetora osu skins,Badeu osu skins,FunOrange osu skins,worst hr player osu skins,Tekkito osu skins,ninerik osu skins,azr8 osu skins,idke osu skins,Andros osu skins,Zylice osu skins,Rektygon osu skins,Komori osu skins,anime osu skins,cyperdark osu skins,Red_Pixel osu skins,Utami osu skins,Arknights osu skins,Karthy osu skins,Paraqeet osu skins,aetrna osu skins,Spare osu skins,-GN osu skins,Mastasz osu skins,Seouless osu skins,haga1115 osu skins,shimon osu skins,fieryrage osu skins,Ekoro osu skins,Firebat92 osu skins,_Shield osu skins,-Roaz- osu skins,- Dark - osu skins,atturbo555 osu skins,Aristia osu skins,_Aiko__ osu skins,z x c osu skins,eternum osu skins,talala osu skins,NyanPotato osu skins,Arnold24x24 osu skins,Alumetri osu skins,im a fancy lad osu skins,jordanlr7 osu skins,Woey osu skins,khz osu skins,rrtyui osu skins,kieg osu skins,Rupertion osu skins,FGSky osu skins,Aireu osu skins,Neko God osu skins,Apostol osu skins,Abyssal osu skins,dokidokilolixx osu skins,Mlaw osu skins,Ponytail osu skins,Reedkatt osu skins,Zestiny osu skins,Apraxia osu skins,Binfy osu skins,Rohulk osu skins,-PloX osu skins,DuyKhang-sama osu skins,BronyPH osu skins,Intercambing osu skins,Xeltol osu skins,Valorant osu skins,Akolibed osu skins,hololive osu skins,kablaze osu skins,tokyo ghoul osu skins,Trail Mix osu skins,Dereban osu skins' }
+      9: 'Намерете вдъхновение за вашите osu! облици на нашия.Открийте нови техники и идеи с помощта на нашата голяма колекция на osu облици. Вдъхновете се и създайте вашия собствен osu облик.',
+      10: 'Search for tags among all the tags on the site.'
+    }
   },
   buttons: {
     0: 'Login',
@@ -287,14 +311,81 @@ export default {
     12: 'Напишете описание и връзка. Описание на формарта:връзка',
     13: 'Изберете екстра',
     14: 'Поставете връзка',
-    15: 'Заглавие на облика, създател, или ключова дума'
+    15: 'Заглавие на облика, създател, или ключова дума',
+    16: 'Select category',
+    17: 'Type name of the tag'
   },
   contribute: { 0: 'Допринасяне' },
   nsfw: {
     0: 'Внимание!',
     1: 'Този облик има съдаржание предназначено за възрастни',
     2: 'Този облик съдържа деликатно съдържание или съдържание за възрастни, което някои потребители може да намерят за смущаващо',
-    3: ' Добре',
-    4: ' чао о/'
+    3: 'Alright',
+    4: 'bye o/'
+  },
+  removed: {
+    0: 'Version unavailable',
+    1: 'Author of the skin decided to remove this version from the site.',
+    2: 'Switch to available version'
+  },
+  notify: {
+    0: 'Issues not fixed',
+    1: 'Not all required fields was field',
+    2: 'Show',
+    3: 'Not found',
+    4: 'Banner not found (Currently, the first screenshot is being used as the banner)',
+    5: 'No changes',
+    6: 'No changes were found',
+    7: 'ID not found',
+    8: 'ID of the video not found, try another link (At the moment only YouTube is supported)',
+    9: 'Oops',
+    10: 'Looks like you\'re user session is expired, open new page and log into your account (Don\'t worry, everything is saved automatically)',
+    11: 'Exists',
+    12: 'This video has already been added',
+    13: 'Exists',
+    14: 'This tag has already been added',
+    15: 'Not found',
+    16: 'You cannot delete a deleted tag',
+    17: 'Added',
+    18: 'You have successfully added a new tag',
+    19: 'OOps',
+    20: 'This creator was already added',
+    21: 'EZ',
+    22: 'New creater has been added',
+    23: 'HUH',
+    24: 'Impossible to remove a deleted creator',
+    25: 'Exists',
+    26: 'Same change with this type has been added earlier',
+    27: 'Warning',
+    28: 'Same url with this type has been added earlier',
+    29: 'Warning',
+    30: 'You forget to add a description for a url. Example: Description:url',
+    31: 'Warning',
+    32: 'You forget to add a url for description. Example: Description:url',
+    33: 'Restored',
+    34: 'Version {name} has been restored',
+    35: 'Deleted',
+    36: 'Version {name} has been deleted',
+    37: 'Error',
+    38: 'Seems like server thinks you\'re the bot',
+    39: 'Looks like you\'re user session is expired, open new page and log into your account (Don\'t worry, everything is saved automatically)',
+    40: 'Mismatched credentials (re:login in account. Don\'t worry, everything is saved automatically)',
+    41: 'Unknown error',
+    42: 'You cannot edit inexistent skin',
+    43: 'Seems like you don\'t have permissions to edit this skin',
+    44: 'You cannot submit this version as it is the same as the previous one',
+    45: 'Those changes has been sent already on moderation',
+    46: 'Success',
+    47: 'New changes have been submitted for moderation',
+    48: 'Changes have been updated in moderation',
+    49: 'Odd link',
+    50: 'This link cannot be used as a download link',
+    51: 'Submitted to moderation'
+  },
+  restricted_view: {
+    0: 'Неразрешено',
+    1: 'Please login in account',
+    2: 'Restricted view',
+    3: 'This page is not out, yet.'
   }
 };
