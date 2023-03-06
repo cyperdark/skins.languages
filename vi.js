@@ -5,7 +5,8 @@ export default {
     lists: { 0: 'Danh sách' },
     tags: {
       0: 'Các Tag',
-      1: '{amount} tag của nhóm {name}'
+      1: '{amount} tag của nhóm {name}',
+      2: 'Search tags'
     },
     ideas: {
       0: 'Cảm Hứng',
@@ -17,7 +18,8 @@ export default {
     skin: {
       0: 'Skin này chứa yếu tố từ skin khác',
       1: 'Nhấp vào đây để biết thêm thông tin'
-    }
+    },
+    tools: 'Công cụ'
   },
   changelogs: {
     0: 'Nhật ký thay đổi',
@@ -29,6 +31,10 @@ export default {
     6: 'Sửa lỗi',
     7: 'Thay đổi',
     8: 'Xoá'
+  },
+  ideas: {
+    0: 'Nothing founed',
+    1: 'Screenshots of «{type}» were not uploaded to the site'
   },
   creators: {
     0: 'Tác giả',
@@ -43,7 +49,10 @@ export default {
     0: 'Các Tag',
     1: 'Danh sách tất cả các tag liên quan đến skin này',
     2: 'Có vẻ như không có gì ở đây.',
-    3: 'Sử dụng ô trống bên trên để tìm các tag mới'
+    3: 'Sử dụng ô trống bên trên để tìm các tag mới',
+    4: 'Tags not found',
+    5: 'Try searching for something else',
+    6: 'Tìm kiếm'
   },
   videos: {
     0: 'Video',
@@ -62,6 +71,7 @@ export default {
     0: 'Tất cả',
     1: 'Metadata',
     2: 'Tâm điểm',
+    3: 'Name of the skin not specified',
     4: 'Thêm vào ít nhất một tác giả tạo skin',
     5: 'Thêm một số tag',
     6: 'Kích thước skin không xác định',
@@ -73,7 +83,8 @@ export default {
     12: 'Liên kết skin không khả dụng',
     20: 'Trông có vẻ khá ổn',
     21: 'Mọi vấn đề đều đã được giải quyết. Tốt lắm',
-    22: 'Danh mục'
+    22: 'Danh mục',
+    23: 'Add at least one public version'
   },
   skins: {
     0: 'Skin',
@@ -87,7 +98,9 @@ export default {
     8: 'Tất cả skin | skin',
     9: 'Skin | Skin | Skin',
     10: 'Skin osu! bởi {name} | Tất cả các skin từ',
-    11: 'Tìm kiếm'
+    11: 'Tìm kiếm',
+    12: '{name} skins',
+    13: 'Explore skins'
   },
   skin: {
     0: 'Chỉnh sửa',
@@ -116,7 +129,10 @@ export default {
     24: 'Còn {amount} giây',
     25: 'Bạn không phải một trong số chúng tôi',
     26: 'Có vẻ như bạn không phải là tác giả hay người chỉnh sửa skin này',
-    27: 'Skin tạo bởi'
+    27: 'Skin tạo bởi',
+    28: 'No tags',
+    29: 'No videos',
+    30: 'No creators'
   },
   drag: {
     0: 'Nhấn vào đây',
@@ -149,7 +165,13 @@ export default {
     9: 'Đang chờ xử lý',
     10: 'Hãy chọn các filter tìm kiếm hoặc chỉ cần ghi tên, tác giả hay các tag của skin',
     11: 'Lượt tải xuống',
-    12: 'Tên'
+    12: 'Tên',
+    13: {
+      0: 'Skin',
+      1: 'Các Tag',
+      2: 'Users',
+      3: 'Danh sách'
+    }
   },
   tabs: {
     0: 'Tìm kiếm',
@@ -176,7 +198,9 @@ export default {
       7: 'skin osu',
       8: '{name} tìm kiếm skin osu',
       9: 'Lấy cảm hứng từ các skin osu khác',
-      10: '{name} đã tạo skin osu'
+      10: '{name} đã tạo skin osu',
+      11: 'Search tags',
+      12: '{name} found tags'
     },
     description: {
       0: 'Tảỉ về những skin osu! tốt nhất từ trang của chúng tôi! Thư viện to lớn của chúng tôi có skin cho mọi chế độ chơi, tỷ lệ khung hình và cả kể cả những top player. Thêm vào đó, chúng tôi có một khu đặc biệt dành cho các fan anime. Cả thiện gameplay với một skin hoàn hảo. #osuskins #osugame #anime',
@@ -188,9 +212,9 @@ export default {
       6: 'Bộ sưu tầm skin {name}!, tải miễn phí',
       7: 'Một lượng lớn skin osu cho {name}, tải miễn phí!',
       8: 'Tất cả skin được tạo bởi {name}',
-      9: 'Tìm các nguồn cảm hứng cho skin osu! tiếp theo của bạn ở trang của chúng tôi. Điểm qua một bộ sưu tầm skin đa dạng và khám phá các kỹ thuật và ý tưởng mới. Lấy cảm hứng và tạo cho bản thân những skin độc đáo.'
-    },
-    keywords: { 0: 'osu, osu!, osu skins, std skins, ctb skins, mania skins, taiko skins, mrekk osu skins,Rafis osu skins,FlyingTuna osu skins,Vaxei osu skins,Cookiezi osu skins,Varvalian osu skins,RyuK osu skins,WhiteCat osu skins,_RyuK osu skins,BeasttrollMC osu skins,Genshin Impact osu skins,Mathi osu skins,WubWoofWolf osu skins,Merami osu skins,xootynator osu skins,Gayzmcgee osu skins,[Karcher] osu skins,Bubbleman osu skins,ChomikBox osu skins,NSFW osu skins,Lifeline osu skins,Hatsune Miku osu skins,Azerite osu skins,Umbre osu skins,404 AimNotFound osu skins,-Nikstrim osu skins,bloo osu skins,Shigetora osu skins,Badeu osu skins,FunOrange osu skins,worst hr player osu skins,Tekkito osu skins,ninerik osu skins,azr8 osu skins,idke osu skins,Andros osu skins,Zylice osu skins,Rektygon osu skins,Komori osu skins,anime osu skins,cyperdark osu skins,Red_Pixel osu skins,Utami osu skins,Arknights osu skins,Karthy osu skins,Paraqeet osu skins,aetrna osu skins,Spare osu skins,-GN osu skins,Mastasz osu skins,Seouless osu skins,haga1115 osu skins,shimon osu skins,fieryrage osu skins,Ekoro osu skins,Firebat92 osu skins,_Shield osu skins,-Roaz- osu skins,- Dark - osu skins,atturbo555 osu skins,Aristia osu skins,_Aiko__ osu skins,z x c osu skins,eternum osu skins,talala osu skins,NyanPotato osu skins,Arnold24x24 osu skins,Alumetri osu skins,im a fancy lad osu skins,jordanlr7 osu skins,Woey osu skins,khz osu skins,rrtyui osu skins,kieg osu skins,Rupertion osu skins,FGSky osu skins,Aireu osu skins,Neko God osu skins,Apostol osu skins,Abyssal osu skins,dokidokilolixx osu skins,Mlaw osu skins,Ponytail osu skins,Reedkatt osu skins,Zestiny osu skins,Apraxia osu skins,Binfy osu skins,Rohulk osu skins,-PloX osu skins,DuyKhang-sama osu skins,BronyPH osu skins,Intercambing osu skins,Xeltol osu skins,Valorant osu skins,Akolibed osu skins,hololive osu skins,kablaze osu skins,tokyo ghoul osu skins,Trail Mix osu skins,Dereban osu skins' }
+      9: 'Tìm các nguồn cảm hứng cho skin osu! tiếp theo của bạn ở trang của chúng tôi. Điểm qua một bộ sưu tầm skin đa dạng và khám phá các kỹ thuật và ý tưởng mới. Lấy cảm hứng và tạo cho bản thân những skin độc đáo.',
+      10: 'Search for tags among all the tags on the site.'
+    }
   },
   buttons: {
     0: 'Đăng nhập',
@@ -287,14 +311,81 @@ export default {
     12: 'Nhập mô tả và url. Định dạng mô tả:url',
     13: 'Chọn thêm',
     14: 'Dán một liên kết',
-    15: 'Tiêu đề skin, tác giả, hoặc tag'
+    15: 'Tiêu đề skin, tác giả, hoặc tag',
+    16: 'Select category',
+    17: 'Type name of the tag'
   },
   contribute: { 0: 'Đóng góp' },
   nsfw: {
     0: 'Cảnh báo!',
     1: 'Skin có chứa các nội dung nhạy cảm hoặc người lớn',
     2: 'Skin có chứa các nội dung nhạy cảm hoặc người lớn có thể gây khó chịu cho một số người dùng',
-    3: ' Được',
-    4: ' tạm biệt o/'
+    3: 'Alright',
+    4: 'bye o/'
+  },
+  removed: {
+    0: 'Version unavailable',
+    1: 'Author of the skin decided to remove this version from the site.',
+    2: 'Switch to available version'
+  },
+  notify: {
+    0: 'Issues not fixed',
+    1: 'Not all required fields was field',
+    2: 'Show',
+    3: 'Not found',
+    4: 'Banner not found (Currently, the first screenshot is being used as the banner)',
+    5: 'No changes',
+    6: 'No changes were found',
+    7: 'ID not found',
+    8: 'ID of the video not found, try another link (At the moment only YouTube is supported)',
+    9: 'Oops',
+    10: 'Looks like you\'re user session is expired, open new page and log into your account (Don\'t worry, everything is saved automatically)',
+    11: 'Exists',
+    12: 'This video has already been added',
+    13: 'Exists',
+    14: 'This tag has already been added',
+    15: 'Not found',
+    16: 'You cannot delete a deleted tag',
+    17: 'Added',
+    18: 'You have successfully added a new tag',
+    19: 'OOps',
+    20: 'This creator was already added',
+    21: 'EZ',
+    22: 'New creater has been added',
+    23: 'HUH',
+    24: 'Impossible to remove a deleted creator',
+    25: 'Exists',
+    26: 'Same change with this type has been added earlier',
+    27: 'Warning',
+    28: 'Same url with this type has been added earlier',
+    29: 'Warning',
+    30: 'You forget to add a description for a url. Example: Description:url',
+    31: 'Warning',
+    32: 'You forget to add a url for description. Example: Description:url',
+    33: 'Restored',
+    34: 'Version {name} has been restored',
+    35: 'Deleted',
+    36: 'Version {name} has been deleted',
+    37: 'Error',
+    38: 'Seems like server thinks you\'re the bot',
+    39: 'Looks like you\'re user session is expired, open new page and log into your account (Don\'t worry, everything is saved automatically)',
+    40: 'Mismatched credentials (re:login in account. Don\'t worry, everything is saved automatically)',
+    41: 'Unknown error',
+    42: 'You cannot edit inexistent skin',
+    43: 'Seems like you don\'t have permissions to edit this skin',
+    44: 'You cannot submit this version as it is the same as the previous one',
+    45: 'Those changes has been sent already on moderation',
+    46: 'Success',
+    47: 'New changes have been submitted for moderation',
+    48: 'Changes have been updated in moderation',
+    49: 'Odd link',
+    50: 'This link cannot be used as a download link',
+    51: 'Submitted to moderation'
+  },
+  restricted_view: {
+    0: 'Không thể truy cập',
+    1: 'Please login in account',
+    2: 'Restricted view',
+    3: 'This page is not out, yet.'
   }
 };
