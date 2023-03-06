@@ -5,7 +5,8 @@ export default {
     lists: { 0: 'Senarai' },
     tags: {
       0: 'Penanda',
-      1: '{amount} penanda untuk kategori {name}'
+      1: '{amount} penanda untuk kategori {name}',
+      2: 'Search tags'
     },
     ideas: {
       0: 'Inspirasi',
@@ -17,7 +18,8 @@ export default {
     skin: {
       0: 'Skin ini mempunyai elemen-elemen daripada skin-skin yang lain',
       1: 'Klik di sini untuk maklumat lanjut'
-    }
+    },
+    tools: 'Alat'
   },
   changelogs: {
     0: 'Log perubahan',
@@ -29,6 +31,10 @@ export default {
     6: 'Pembetulan',
     7: 'Perubahan',
     8: 'Pembuangan'
+  },
+  ideas: {
+    0: 'Nothing founed',
+    1: 'Screenshots of «{type}» were not uploaded to the site'
   },
   creators: {
     0: 'Pembuat',
@@ -43,7 +49,10 @@ export default {
     0: 'Penanda',
     1: 'Senarai semua penanda yang berkait dengan skin ini',
     2: 'Ia kelihatan sunyi di sini.',
-    3: 'Gunakan medan di atas untuk mencari penanda-penanda yang baharu'
+    3: 'Gunakan medan di atas untuk mencari penanda-penanda yang baharu',
+    4: 'Tags not found',
+    5: 'Try searching for something else',
+    6: 'Cari'
   },
   videos: {
     0: 'Video-video',
@@ -62,6 +71,7 @@ export default {
     0: 'Semua',
     1: 'Metadata',
     2: 'Sorotan',
+    3: 'Name of the skin not specified',
     4: 'Menambah sekurang-kurangnya satu pembuat skin',
     5: 'Letakkan beberapa tag',
     6: 'Saiz skin tidak dispesifikasi',
@@ -73,7 +83,8 @@ export default {
     12: 'Pautan bagi skin tidak dispesifikasi',
     20: 'Nampak seperti bagus',
     21: 'Semua masalah telah dibetulkan. Syabas',
-    22: 'Senarai semak'
+    22: 'Senarai semak',
+    23: 'Add at least one public version'
   },
   skins: {
     0: 'Skin-skin',
@@ -87,7 +98,9 @@ export default {
     8: 'Semua skin | skin osu',
     9: 'Skin | Skin | Skin',
     10: 'Skin osu oleh {name} | Semua skin daripada',
-    11: 'Cari'
+    11: 'Cari',
+    12: '{name} skins',
+    13: 'Explore skins'
   },
   skin: {
     0: 'Mengedit',
@@ -116,7 +129,10 @@ export default {
     24: '{amount} saat tinggal',
     25: 'Kamu bukan salah satu dari kami',
     26: 'Kelihatan seperti kamu bukan pembuat atau penyunting skin ini',
-    27: 'Skin oleh'
+    27: 'Skin oleh',
+    28: 'No tags',
+    29: 'No videos',
+    30: 'No creators'
   },
   drag: {
     0: 'Ketik di sini',
@@ -149,7 +165,13 @@ export default {
     9: 'Menunggu pertanyaan',
     10: 'Pilih penapis carian atau hanya tulis tajuk skin, pembuat atau penanda',
     11: 'Muat turun',
-    12: 'Nama'
+    12: 'Nama',
+    13: {
+      0: 'Skin-skin',
+      1: 'Penanda',
+      2: 'Users',
+      3: 'Senarai'
+    }
   },
   tabs: {
     0: 'Cari',
@@ -176,7 +198,9 @@ export default {
       7: 'skin-skin osu',
       8: '{name} mencari skin osu',
       9: 'Dapatkan inspirasi dari skin osu yang lain',
-      10: '{name} membuat skin osu'
+      10: '{name} membuat skin osu',
+      11: 'Search tags',
+      12: '{name} found tags'
     },
     description: {
       0: 'Dapatkan skin osu! yang terbaik dari laman web kami! Kami mempunyai banyak skin untuk semua mod permainan, nisbah aspek dan juga pemain-pemain terbaik. Tambahan, kami juga mempunyai bahagian yang istimewa untuk peminat-peminat anime. Menaik taraf permainan anda dengan skin yang sempurna. #osuskins #osugame #anime',
@@ -188,9 +212,9 @@ export default {
       6: '{name} koleksi skin osu!, muat turun secara percuma',
       7: 'Skin osu yang banyak untuk {name}, muat turun secara percuma!',
       8: 'Semua skin osu dibuat oleh {name}',
-      9: 'Cari inspirasi untuk skin osu! anda yang seterusnya di laman web kami. Semak melalui koleksi skin yang pelbagai dan teroka pelbagai teknik dan idea. Dapatkan inspirasi dan cipta skin anda yang unik.'
-    },
-    keywords: { 0: 'osu, osu!, osu skins, std skins, ctb skins, mania skins, taiko skins, mrekk osu skins,Rafis osu skins,FlyingTuna osu skins,Vaxei osu skins,Cookiezi osu skins,Varvalian osu skins,RyuK osu skins,WhiteCat osu skins,_RyuK osu skins,BeasttrollMC osu skins,Genshin Impact osu skins,Mathi osu skins,WubWoofWolf osu skins,Merami osu skins,xootynator osu skins,Gayzmcgee osu skins,[Karcher] osu skins,Bubbleman osu skins,ChomikBox osu skins,NSFW osu skins,Lifeline osu skins,Hatsune Miku osu skins,Azerite osu skins,Umbre osu skins,404 AimNotFound osu skins,-Nikstrim osu skins,bloo osu skins,Shigetora osu skins,Badeu osu skins,FunOrange osu skins,worst hr player osu skins,Tekkito osu skins,ninerik osu skins,azr8 osu skins,idke osu skins,Andros osu skins,Zylice osu skins,Rektygon osu skins,Komori osu skins,anime osu skins,cyperdark osu skins,Red_Pixel osu skins,Utami osu skins,Arknights osu skins,Karthy osu skins,Paraqeet osu skins,aetrna osu skins,Spare osu skins,-GN osu skins,Mastasz osu skins,Seouless osu skins,haga1115 osu skins,shimon osu skins,fieryrage osu skins,Ekoro osu skins,Firebat92 osu skins,_Shield osu skins,-Roaz- osu skins,- Dark - osu skins,atturbo555 osu skins,Aristia osu skins,_Aiko__ osu skins,z x c osu skins,eternum osu skins,talala osu skins,NyanPotato osu skins,Arnold24x24 osu skins,Alumetri osu skins,im a fancy lad osu skins,jordanlr7 osu skins,Woey osu skins,khz osu skins,rrtyui osu skins,kieg osu skins,Rupertion osu skins,FGSky osu skins,Aireu osu skins,Neko God osu skins,Apostol osu skins,Abyssal osu skins,dokidokilolixx osu skins,Mlaw osu skins,Ponytail osu skins,Reedkatt osu skins,Zestiny osu skins,Apraxia osu skins,Binfy osu skins,Rohulk osu skins,-PloX osu skins,DuyKhang-sama osu skins,BronyPH osu skins,Intercambing osu skins,Xeltol osu skins,Valorant osu skins,Akolibed osu skins,hololive osu skins,kablaze osu skins,tokyo ghoul osu skins,Trail Mix osu skins,Dereban osu skins' }
+      9: 'Cari inspirasi untuk skin osu! anda yang seterusnya di laman web kami. Semak melalui koleksi skin yang pelbagai dan teroka pelbagai teknik dan idea. Dapatkan inspirasi dan cipta skin anda yang unik.',
+      10: 'Search for tags among all the tags on the site.'
+    }
   },
   buttons: {
     0: 'Daftar masuk',
@@ -287,14 +311,81 @@ export default {
     12: 'Taip penerangan dan url. Format penerangan:url',
     13: 'Pilih tambahan',
     14: 'Letakkan pautan',
-    15: 'Tajuk skin, pengarang atau tag'
+    15: 'Tajuk skin, pengarang atau tag',
+    16: 'Select category',
+    17: 'Type name of the tag'
   },
   contribute: { 0: 'Sumbangan' },
   nsfw: {
     0: 'Amaran!',
     1: 'Skin ini mengandungi kandungan sensitif ataupun kandungan dewasa',
     2: 'Skin ini mengandungi kandungan sensitif atau kandungan dewasa yang mungkin tidak disukai oleh sesetengah pengguna',
-    3: ' Baik',
-    4: ' jumpa lagi o/'
+    3: 'Alright',
+    4: 'bye o/'
+  },
+  removed: {
+    0: 'Version unavailable',
+    1: 'Author of the skin decided to remove this version from the site.',
+    2: 'Switch to available version'
+  },
+  notify: {
+    0: 'Issues not fixed',
+    1: 'Not all required fields was field',
+    2: 'Show',
+    3: 'Not found',
+    4: 'Banner not found (Currently, the first screenshot is being used as the banner)',
+    5: 'No changes',
+    6: 'No changes were found',
+    7: 'ID not found',
+    8: 'ID of the video not found, try another link (At the moment only YouTube is supported)',
+    9: 'Oops',
+    10: 'Looks like you\'re user session is expired, open new page and log into your account (Don\'t worry, everything is saved automatically)',
+    11: 'Exists',
+    12: 'This video has already been added',
+    13: 'Exists',
+    14: 'This tag has already been added',
+    15: 'Not found',
+    16: 'You cannot delete a deleted tag',
+    17: 'Added',
+    18: 'You have successfully added a new tag',
+    19: 'OOps',
+    20: 'This creator was already added',
+    21: 'EZ',
+    22: 'New creater has been added',
+    23: 'HUH',
+    24: 'Impossible to remove a deleted creator',
+    25: 'Exists',
+    26: 'Same change with this type has been added earlier',
+    27: 'Warning',
+    28: 'Same url with this type has been added earlier',
+    29: 'Warning',
+    30: 'You forget to add a description for a url. Example: Description:url',
+    31: 'Warning',
+    32: 'You forget to add a url for description. Example: Description:url',
+    33: 'Restored',
+    34: 'Version {name} has been restored',
+    35: 'Deleted',
+    36: 'Version {name} has been deleted',
+    37: 'Error',
+    38: 'Seems like server thinks you\'re the bot',
+    39: 'Looks like you\'re user session is expired, open new page and log into your account (Don\'t worry, everything is saved automatically)',
+    40: 'Mismatched credentials (re:login in account. Don\'t worry, everything is saved automatically)',
+    41: 'Unknown error',
+    42: 'You cannot edit inexistent skin',
+    43: 'Seems like you don\'t have permissions to edit this skin',
+    44: 'You cannot submit this version as it is the same as the previous one',
+    45: 'Those changes has been sent already on moderation',
+    46: 'Success',
+    47: 'New changes have been submitted for moderation',
+    48: 'Changes have been updated in moderation',
+    49: 'Odd link',
+    50: 'This link cannot be used as a download link',
+    51: 'Submitted to moderation'
+  },
+  restricted_view: {
+    0: 'Tiada kebenaran',
+    1: 'Please login in account',
+    2: 'Restricted view',
+    3: 'This page is not out, yet.'
   }
 };
