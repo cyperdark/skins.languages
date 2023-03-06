@@ -315,7 +315,7 @@ export default {
     16: 'Виберіть категорію',
     17: 'Введіть назву тега'
   },
-  contribute: { 0: 'Contribute' },
+  contribute: { 0: 'Зробити свій внесок' },
   nsfw: {
     0: 'Увага!',
     1: 'This skin contains sensitive or adult content',
@@ -351,7 +351,7 @@ export default {
     19: 'OOps',
     20: 'This creator was already added',
     21: 'EZ',
-    22: 'New creater has been added',
+    22: 'New creator has been added',
     23: 'HUH',
     24: 'Impossible to remove a deleted creator',
     25: 'Exists',
