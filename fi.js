@@ -33,7 +33,7 @@ export default {
     8: 'Poistot'
   },
   ideas: {
-    0: 'Nothing founded',
+    0: 'Mitään ei löytynyt',
     1: 'Screenshots of «{type}» were not uploaded to the site'
   },
   creators: {
