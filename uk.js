@@ -84,7 +84,7 @@ export default {
     20: 'Непогано',
     21: 'Кожна проблема була виправлена. Добре зроблено',
     22: 'Контрольний перелік',
-    23: 'Add at least one public version'
+    23: 'Додайте принаймні одну публічну версію'
   },
   skins: {
     0: 'Скіни',
@@ -250,7 +250,7 @@ export default {
     6: '{s}Увійдіть{p}, щоб мати можливість оцінити цей скін',
     7: 'Немає опису',
     8: 'Немає URL',
-    9: 'Downloads: {amount}'
+    9: 'Завантажень: {amount}'
   },
   lists: {
     screens: {
@@ -318,10 +318,10 @@ export default {
   contribute: { 0: 'Зробити свій внесок' },
   nsfw: {
     0: 'Увага!',
-    1: 'This skin contains sensitive or adult content',
-    2: 'This skin contains sensitive or adult content that some users may find disturbing',
+    1: 'Цей скін містить делікатний або дорослий контент',
+    2: 'Цей скін містить делікатний або дорослий контент, який деякі користувачі можуть вважати тривожним',
     3: 'Гаразд',
-    4: 'bye o/'
+    4: 'Бувай o/'
   },
   removed: {
     0: 'Версія недоступна',
@@ -330,12 +330,12 @@ export default {
   },
   notify: {
     0: 'Проблеми не виправлені',
-    1: 'Not all required fields was filled',
+    1: 'Не всі необхідні поля були заповнені',
     2: 'Показати',
     3: 'Не знайдено',
-    4: 'Banner not found (Currently, the first screenshot is being used as the banner)',
-    5: 'No changes',
-    6: 'No changes were found',
+    4: 'Банер не знайдено (на цю мить, перший скріншот використовується як банер)',
+    5: 'Без змін',
+    6: 'Змін не знайдено',
     7: 'ID not found',
     8: 'ID of the video not found, try another link (At the moment only YouTube is supported)',
     9: 'Oops',
@@ -359,15 +359,15 @@ export default {
     27: 'Warning',
     28: 'Same url with this type has been added earlier',
     29: 'Warning',
-    30: 'You forget to add a description for a url. Example: Description:url',
+    30: 'You forgot to add a description for a url. Example: Description:url',
     31: 'Warning',
-    32: 'You forget to add a url for description. Example: Description:url',
+    32: 'You forgot to add a url for description. Example: Description:url',
     33: 'Restored',
     34: 'Version {name} has been restored',
     35: 'Deleted',
     36: 'Version {name} has been deleted',
     37: 'Error',
-    38: 'Seems like server thinks you\'re the bot',
+    38: 'Seems like the server thinks you\'re a bot',
     39: 'Looks like you\'re user session is expired, open new page and log into your account (Don\'t worry, everything is saved automatically)',
     40: 'Mismatched credentials (re:login in account. Don\'t worry, everything is saved automatically)',
     41: 'Unknown error',
