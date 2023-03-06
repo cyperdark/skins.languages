@@ -33,7 +33,7 @@ export default {
     8: 'Αφαιρέσεις'
   },
   ideas: {
-    0: 'Nothing founded',
+    0: 'Δε βρέθηκε τίποτα',
     1: 'Screenshots of «{type}» were not uploaded to the site'
   },
   creators: {
