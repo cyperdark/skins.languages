@@ -1,7 +1,7 @@
 export default {
   title: {
     home: 'Головна',
-    login: 'Log in',
+    login: 'Увійти',
     lists: { 0: 'Списки' },
     tags: {
       0: 'Теги',
@@ -71,7 +71,7 @@ export default {
     0: 'Всі',
     1: 'Метадані',
     2: 'Показати',
-    3: 'Name of the skin not specified',
+    3: 'Не вказано назву скіна',
     4: 'Додай щонайменш одного творця',
     5: 'Додай кілька тегів',
     6: 'Не вказано вагу скіна',
@@ -140,7 +140,7 @@ export default {
   },
   footer: {
     0: 'Зроблено cyperdark',
-    1: 'Credits'
+    1: 'Титри'
   },
   credits: {
     0: 'Chibi',
@@ -165,11 +165,11 @@ export default {
     9: 'Очікується запит',
     10: 'Виберіть пошукові фільтри або просто напишіть назву скіну, автора або тег',
     11: 'Завантаження',
-    12: 'Name',
+    12: 'Назва',
     13: {
       0: 'Скіни',
       1: 'Теги',
-      2: 'Users',
+      2: 'Користувачі',
       3: 'Списки'
     }
   },
@@ -194,10 +194,10 @@ export default {
       3: 'Пошук скінів osu',
       4: 'Список тегів, {name}',
       5: 'Скін {name} v{version} osu',
-      6: 'Credits',
+      6: 'Титри',
       7: 'Скіни osu',
       8: '{name} пошук скінів osu',
-      9: 'Get inspiration from other osu skins',
+      9: 'Отримайте натхнення з інших osu! скінів',
       10: '{name} створив скіни osu',
       11: 'Search tags',
       12: '{name} found tags'
@@ -211,7 +211,7 @@ export default {
       5: 'List of existing tags for osu skins.',
       6: '{name} osu skins collection!, free downloading',
       7: 'A huge amount of osu skins for {name}, download for free!',
-      8: 'All osu skins created by {name}',
+      8: 'Усі osu! скіни, створені {name}',
       9: 'Find inspiration for your next osu! skin at our site. Browse through a diverse collection of skins and discover new techniques and ideas. Get inspired and create your own unique skins.',
       10: 'Search for tags among all the tags on the site.'
     }
@@ -241,7 +241,7 @@ export default {
     }
   },
   tooltips: {
-    0: 'Views: {amount}',
+    0: 'Переглядів: {amount}',
     1: 'Оновити результати',
     2: 'За спаданням | За зростанням',
     3: 'Likes: {likes} / Dislikes: {dislikes}',
@@ -312,27 +312,27 @@ export default {
     13: 'Вибрати додатково',
     14: 'Вставити посилання',
     15: 'Назва скіна, ім\'я автора або тег',
-    16: 'Select category',
-    17: 'Type name of the tag'
+    16: 'Виберіть категорію',
+    17: 'Введіть назву тега'
   },
   contribute: { 0: 'Contribute' },
   nsfw: {
-    0: 'Warning!',
+    0: 'Увага!',
     1: 'This skin contains sensitive or adult content',
     2: 'This skin contains sensitive or adult content that some users may find disturbing',
-    3: 'Alright',
+    3: 'Гаразд',
     4: 'bye o/'
   },
   removed: {
-    0: 'Version unavailable',
-    1: 'Author of the skin decided to remove this version from the site.',
-    2: 'Switch to available version'
+    0: 'Версія недоступна',
+    1: 'Автор скіна вирішив видалити цю версію з сайту.',
+    2: 'Перейти на наявну версію'
   },
   notify: {
-    0: 'Issues not fixed',
-    1: 'Not all required fields was field',
-    2: 'Show',
-    3: 'Not found',
+    0: 'Проблеми не виправлені',
+    1: 'Not all required fields was filled',
+    2: 'Показати',
+    3: 'Не знайдено',
     4: 'Banner not found (Currently, the first screenshot is being used as the banner)',
     5: 'No changes',
     6: 'No changes were found',
@@ -344,7 +344,7 @@ export default {
     12: 'This video has already been added',
     13: 'Exists',
     14: 'This tag has already been added',
-    15: 'Not found',
+    15: 'Не знайдено',
     16: 'You cannot delete a deleted tag',
     17: 'Added',
     18: 'You have successfully added a new tag',
@@ -379,13 +379,13 @@ export default {
     47: 'New changes have been submitted for moderation',
     48: 'Changes have been updated in moderation',
     49: 'Odd link',
-    50: 'This link cannot be used as a download link',
+    50: 'Це посилання не може бути використане як посилання для завантаження',
     51: 'Submitted to moderation'
   },
   restricted_view: {
     0: 'Неавторизовано',
     1: 'Please login in account',
     2: 'Restricted view',
-    3: 'This page is not out, yet.'
+    3: 'Ця сторінка поки що не існує.'
   }
 };
