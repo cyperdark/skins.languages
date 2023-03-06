@@ -33,7 +33,7 @@ export default {
     8: 'Видалено'
   },
   ideas: {
-    0: 'Nothing founded',
+    0: 'Нічого не знайдено',
     1: 'Screenshots of «{type}» were not uploaded to the site'
   },
   creators: {
