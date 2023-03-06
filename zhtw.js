@@ -5,7 +5,8 @@ export default {
     lists: { 0: '清單' },
     tags: {
       0: '標籤',
-      1: '以{name} 字首的有 {amount} 個標籤'
+      1: '以{name} 字首的有 {amount} 個標籤',
+      2: 'Search tags'
     },
     ideas: {
       0: '素材參考',
@@ -17,7 +18,8 @@ export default {
     skin: {
       0: '這個skin有源於其他skin的素材',
       1: '點擊這裡以瞭解詳情'
-    }
+    },
+    tools: '工具'
   },
   changelogs: {
     0: '更新日誌',
@@ -29,6 +31,10 @@ export default {
     6: '修復',
     7: '改動',
     8: '移除'
+  },
+  ideas: {
+    0: 'Nothing founed',
+    1: 'Screenshots of «{type}» were not uploaded to the site'
   },
   creators: {
     0: '創作者',
@@ -43,7 +49,10 @@ export default {
     0: '標籤',
     1: '列出所有有關這個skin的標籤',
     2: '空空如也',
-    3: '利用上面的區塊來找尋新標籤'
+    3: '利用上面的區塊來找尋新標籤',
+    4: 'Tags not found',
+    5: 'Try searching for something else',
+    6: '搜尋'
   },
   videos: {
     0: '影片',
@@ -62,6 +71,7 @@ export default {
     0: '所有',
     1: '內容',
     2: 'Highlight',
+    3: 'Name of the skin not specified',
     4: '請添加至少一個創作者',
     5: '請添加一些標籤',
     6: '未標明skin的大小',
@@ -73,7 +83,8 @@ export default {
     12: '未標明skin的下載連結',
     20: '看起來很棒極了',
     21: '所有的問題都被解決了 :thumbsup:',
-    22: '檢查'
+    22: '檢查',
+    23: 'Add at least one public version'
   },
   skins: {
     0: 'Skins',
@@ -87,7 +98,9 @@ export default {
     8: '所有 skin | osu skin',
     9: 'Skin | Skins | Skins',
     10: '{name} 創建的 osu Skins | 所有的skin源自於',
-    11: '搜尋'
+    11: '搜尋',
+    12: '{name} skins',
+    13: 'Explore skins'
   },
   skin: {
     0: '編輯',
@@ -116,7 +129,10 @@ export default {
     24: '剩 {amount} 秒',
     25: '你不是我們之一',
     26: '看起來你好像不是此skin的作者或編輯者',
-    27: 'Skin by'
+    27: 'Skin by',
+    28: 'No tags',
+    29: 'No videos',
+    30: 'No creators'
   },
   drag: {
     0: '點擊此處',
@@ -149,7 +165,13 @@ export default {
     9: '看起來遇到了一些問題',
     10: '選擇過濾方式或輸入skin名、作者、或標籤來搜尋',
     11: '下載數',
-    12: '名子'
+    12: '名子',
+    13: {
+      0: 'Skins',
+      1: '標籤',
+      2: 'Users',
+      3: '清單'
+    }
   },
   tabs: {
     0: '搜尋',
@@ -176,7 +198,9 @@ export default {
       7: 'osu skins',
       8: '{name} 搜尋到的 osu skin',
       9: '從其他的skin獲得啟發',
-      10: '{name} 創建了osu skin'
+      10: '{name} 創建了osu skin',
+      11: 'Search tags',
+      12: '{name} found tags'
     },
     description: {
       0: '你可以在這網站找到最適合你的skin, 我們龐大的資料庫有所有遊戲模式,長寬比甚至是各個大佬的skin. 另外也有以動漫分類的skin. 一個好的skin是你變強的開始. #osuskins #osugame #動漫',
@@ -188,9 +212,9 @@ export default {
       6: '免費下載 {name} !',
       7: '{name}, 有大量的skin可以免費下載!',
       8: '{name} 所創建的所有skin',
-      9: '在我們的網站上參考不同人製作的skin來製作專屬於你自己的skin'
-    },
-    keywords: { 0: 'osu, osu!, osu skins, std skins, ctb skins, mania skins, taiko skins, mrekk osu skins,Rafis osu skins,FlyingTuna osu skins,Vaxei osu skins,Cookiezi osu skins,Varvalian osu skins,RyuK osu skins,WhiteCat osu skins,_RyuK osu skins,BeasttrollMC osu skins,Genshin Impact osu skins,Mathi osu skins,WubWoofWolf osu skins,Merami osu skins,xootynator osu skins,Gayzmcgee osu skins,[Karcher] osu skins,Bubbleman osu skins,ChomikBox osu skins,NSFW osu skins,Lifeline osu skins,Hatsune Miku osu skins,Azerite osu skins,Umbre osu skins,404 AimNotFound osu skins,-Nikstrim osu skins,bloo osu skins,Shigetora osu skins,Badeu osu skins,FunOrange osu skins,worst hr player osu skins,Tekkito osu skins,ninerik osu skins,azr8 osu skins,idke osu skins,Andros osu skins,Zylice osu skins,Rektygon osu skins,Komori osu skins,anime osu skins,cyperdark osu skins,Red_Pixel osu skins,Utami osu skins,Arknights osu skins,Karthy osu skins,Paraqeet osu skins,aetrna osu skins,Spare osu skins,-GN osu skins,Mastasz osu skins,Seouless osu skins,haga1115 osu skins,shimon osu skins,fieryrage osu skins,Ekoro osu skins,Firebat92 osu skins,_Shield osu skins,-Roaz- osu skins,- Dark - osu skins,atturbo555 osu skins,Aristia osu skins,_Aiko__ osu skins,z x c osu skins,eternum osu skins,talala osu skins,NyanPotato osu skins,Arnold24x24 osu skins,Alumetri osu skins,im a fancy lad osu skins,jordanlr7 osu skins,Woey osu skins,khz osu skins,rrtyui osu skins,kieg osu skins,Rupertion osu skins,FGSky osu skins,Aireu osu skins,Neko God osu skins,Apostol osu skins,Abyssal osu skins,dokidokilolixx osu skins,Mlaw osu skins,Ponytail osu skins,Reedkatt osu skins,Zestiny osu skins,Apraxia osu skins,Binfy osu skins,Rohulk osu skins,-PloX osu skins,DuyKhang-sama osu skins,BronyPH osu skins,Intercambing osu skins,Xeltol osu skins,Valorant osu skins,Akolibed osu skins,hololive osu skins,kablaze osu skins,tokyo ghoul osu skins,Trail Mix osu skins,Dereban osu skins' }
+      9: '在我們的網站上參考不同人製作的skin來製作專屬於你自己的skin',
+      10: 'Search for tags among all the tags on the site.'
+    }
   },
   buttons: {
     0: '登入',
@@ -287,14 +311,81 @@ export default {
     12: '用 敘述:連結 的格式輸入',
     13: '選擇額外的',
     14: '貼上連結',
-    15: '透過skin名稱, 作者或標籤以搜尋'
+    15: '透過skin名稱, 作者或標籤以搜尋',
+    16: 'Select category',
+    17: 'Type name of the tag'
   },
   contribute: { 0: '貢獻' },
   nsfw: {
     0: '警告!',
     1: '這個skin包含敏感或成人內容',
     2: '此skin包含一些可能會讓人感到不安的敏感或成人內容',
-    3: ' 好吧',
-    4: ' 掰掰 o7'
+    3: 'Alright',
+    4: 'bye o/'
+  },
+  removed: {
+    0: 'Version unavailable',
+    1: 'Author of the skin decided to remove this version from the site.',
+    2: 'Switch to available version'
+  },
+  notify: {
+    0: 'Issues not fixed',
+    1: 'Not all required fields was field',
+    2: 'Show',
+    3: 'Not found',
+    4: 'Banner not found (Currently, the first screenshot is being used as the banner)',
+    5: 'No changes',
+    6: 'No changes were found',
+    7: 'ID not found',
+    8: 'ID of the video not found, try another link (At the moment only YouTube is supported)',
+    9: 'Oops',
+    10: 'Looks like you\'re user session is expired, open new page and log into your account (Don\'t worry, everything is saved automatically)',
+    11: 'Exists',
+    12: 'This video has already been added',
+    13: 'Exists',
+    14: 'This tag has already been added',
+    15: 'Not found',
+    16: 'You cannot delete a deleted tag',
+    17: 'Added',
+    18: 'You have successfully added a new tag',
+    19: 'OOps',
+    20: 'This creator was already added',
+    21: 'EZ',
+    22: 'New creater has been added',
+    23: 'HUH',
+    24: 'Impossible to remove a deleted creator',
+    25: 'Exists',
+    26: 'Same change with this type has been added earlier',
+    27: 'Warning',
+    28: 'Same url with this type has been added earlier',
+    29: 'Warning',
+    30: 'You forget to add a description for a url. Example: Description:url',
+    31: 'Warning',
+    32: 'You forget to add a url for description. Example: Description:url',
+    33: 'Restored',
+    34: 'Version {name} has been restored',
+    35: 'Deleted',
+    36: 'Version {name} has been deleted',
+    37: 'Error',
+    38: 'Seems like server thinks you\'re the bot',
+    39: 'Looks like you\'re user session is expired, open new page and log into your account (Don\'t worry, everything is saved automatically)',
+    40: 'Mismatched credentials (re:login in account. Don\'t worry, everything is saved automatically)',
+    41: 'Unknown error',
+    42: 'You cannot edit inexistent skin',
+    43: 'Seems like you don\'t have permissions to edit this skin',
+    44: 'You cannot submit this version as it is the same as the previous one',
+    45: 'Those changes has been sent already on moderation',
+    46: 'Success',
+    47: 'New changes have been submitted for moderation',
+    48: 'Changes have been updated in moderation',
+    49: 'Odd link',
+    50: 'This link cannot be used as a download link',
+    51: 'Submitted to moderation'
+  },
+  restricted_view: {
+    0: '未授權',
+    1: 'Please login in account',
+    2: 'Restricted view',
+    3: 'This page is not out, yet.'
   }
 };
