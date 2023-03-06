@@ -5,7 +5,8 @@ export default {
     lists: { 0: 'القوائم' },
     tags: {
       0: 'الأوسمة',
-      1: '{name} وسوم للفئة {amount}'
+      1: '{name} وسوم للفئة {amount}',
+      2: 'Search tags'
     },
     ideas: {
       0: 'اقتباسات',
@@ -17,7 +18,8 @@ export default {
     skin: {
       0: 'هذا المظهر مستوحٍ عناصرَ من مظاهر أخرى',
       1: 'انقر هنا لمزيد من المعلومات'
-    }
+    },
+    tools: 'أدوات'
   },
   changelogs: {
     0: 'سِجل التغييرات',
@@ -29,6 +31,10 @@ export default {
     6: 'إصلاحات',
     7: 'تغييرات',
     8: 'المحذوفات'
+  },
+  ideas: {
+    0: 'Nothing founed',
+    1: 'Screenshots of «{type}» were not uploaded to the site'
   },
   creators: {
     0: 'المبتكرون',
@@ -43,7 +49,10 @@ export default {
     0: 'الأوسمة',
     1: 'قائمة جميع الوسوم المتعلقة بهذا الزي',
     2: 'يبدو هذا المكان فارغ.',
-    3: 'استعمل الحقل أعلاه لإيجاد وسوم جديدة'
+    3: 'استعمل الحقل أعلاه لإيجاد وسوم جديدة',
+    4: 'Tags not found',
+    5: 'Try searching for something else',
+    6: 'بحث'
   },
   videos: {
     0: 'مقاطع',
@@ -62,6 +71,7 @@ export default {
     0: 'الكل',
     1: 'بيانات فوقية',
     2: 'إبراز',
+    3: 'Name of the skin not specified',
     4: 'ضف مبتكر زي واحد على الأقل',
     5: 'ضف بعض الوسوم',
     6: 'حجم الزي غير محدد',
@@ -73,7 +83,8 @@ export default {
     12: 'عدم توفيير رابط للزي',
     20: 'يبدو جيد',
     21: 'تم إصلاح جميع المشاكل، و هذا جيد',
-    22: 'قائمة المراجعة'
+    22: 'قائمة المراجعة',
+    23: 'Add at least one public version'
   },
   skins: {
     0: 'أزياء',
@@ -87,7 +98,9 @@ export default {
     8: 'جميع الأزياء | أزياء اللعبة',
     9: 'زي | أزياء | أزياء',
     10: 'لأزياء اللعبة من إصدار {name} | أزياء اللعبة من',
-    11: 'بحث'
+    11: 'بحث',
+    12: '{name} skins',
+    13: 'Explore skins'
   },
   skin: {
     0: 'تعديل',
@@ -116,7 +129,10 @@ export default {
     24: '{amount} ثواني متبقية',
     25: 'لست واحد منا',
     26: 'يبدو أنك لست مؤلفا أو معدلا لهذا الزي',
-    27: 'Skin by'
+    27: 'Skin by',
+    28: 'No tags',
+    29: 'No videos',
+    30: 'No creators'
   },
   drag: {
     0: 'اُنقر هنا',
@@ -149,7 +165,13 @@ export default {
     9: 'تتم معالجة الاستفسار',
     10: 'اختر معيار البحث أو اكتب فقط عنوان الزي، المبتكر أو الوسم',
     11: 'التحميلات',
-    12: 'Name'
+    12: 'Name',
+    13: {
+      0: 'أزياء',
+      1: 'الأوسمة',
+      2: 'Users',
+      3: 'القوائم'
+    }
   },
   tabs: {
     0: 'بحث',
@@ -176,7 +198,9 @@ export default {
       7: 'أزياء اللعبة',
       8: '{name} البحث عن أزياء اللعبة',
       9: 'احصل على الإلهام من أزياء osu أخرى',
-      10: '{name} صمم أزياء اللعبة'
+      10: '{name} صمم أزياء اللعبة',
+      11: 'Search tags',
+      12: '{name} found tags'
     },
     description: {
       0: 'جد أفضل أزياء اوسو في موقعنا! مكتبتنا تحتوي على أزياء من أجل جميع أنماط اللعب، النسب الباعية، و أفضل اللاعبين. إضافة إلى دلك لدينا جزء خاص لمعجبي الأنمي. حسن لعبك بإيجاد الزي المثالي.',
@@ -188,9 +212,9 @@ export default {
       6: '{name} حمل مجانا مجموعة الأزياء ل',
       7: '{name} حمل مجانا العديد من الأزياء من أجل',
       8: '{name} جميع الأزياء المصنوعة من',
-      9: 'جد الإلهام لزيك القادم في موقعنا. تصفح العديد من المجموعات و اكتشف طرق و أفكار جديدة. خذ أفكار و ابتكر أزياء مميزة'
-    },
-    keywords: { 0: 'osu, osu!, osu skins, std skins, ctb skins, mania skins, taiko skins, mrekk osu skins,Rafis osu skins,FlyingTuna osu skins,Vaxei osu skins,Cookiezi osu skins,Varvalian osu skins,RyuK osu skins,WhiteCat osu skins,_RyuK osu skins,BeasttrollMC osu skins,Genshin Impact osu skins,Mathi osu skins,WubWoofWolf osu skins,Merami osu skins,xootynator osu skins,Gayzmcgee osu skins,[Karcher] osu skins,Bubbleman osu skins,ChomikBox osu skins,NSFW osu skins,Lifeline osu skins,Hatsune Miku osu skins,Azerite osu skins,Umbre osu skins,404 AimNotFound osu skins,-Nikstrim osu skins,bloo osu skins,Shigetora osu skins,Badeu osu skins,FunOrange osu skins,worst hr player osu skins,Tekkito osu skins,ninerik osu skins,azr8 osu skins,idke osu skins,Andros osu skins,Zylice osu skins,Rektygon osu skins,Komori osu skins,anime osu skins,cyperdark osu skins,Red_Pixel osu skins,Utami osu skins,Arknights osu skins,Karthy osu skins,Paraqeet osu skins,aetrna osu skins,Spare osu skins,-GN osu skins,Mastasz osu skins,Seouless osu skins,haga1115 osu skins,shimon osu skins,fieryrage osu skins,Ekoro osu skins,Firebat92 osu skins,_Shield osu skins,-Roaz- osu skins,- Dark - osu skins,atturbo555 osu skins,Aristia osu skins,_Aiko__ osu skins,z x c osu skins,eternum osu skins,talala osu skins,NyanPotato osu skins,Arnold24x24 osu skins,Alumetri osu skins,im a fancy lad osu skins,jordanlr7 osu skins,Woey osu skins,khz osu skins,rrtyui osu skins,kieg osu skins,Rupertion osu skins,FGSky osu skins,Aireu osu skins,Neko God osu skins,Apostol osu skins,Abyssal osu skins,dokidokilolixx osu skins,Mlaw osu skins,Ponytail osu skins,Reedkatt osu skins,Zestiny osu skins,Apraxia osu skins,Binfy osu skins,Rohulk osu skins,-PloX osu skins,DuyKhang-sama osu skins,BronyPH osu skins,Intercambing osu skins,Xeltol osu skins,Valorant osu skins,Akolibed osu skins,hololive osu skins,kablaze osu skins,tokyo ghoul osu skins,Trail Mix osu skins,Dereban osu skins' }
+      9: 'جد الإلهام لزيك القادم في موقعنا. تصفح العديد من المجموعات و اكتشف طرق و أفكار جديدة. خذ أفكار و ابتكر أزياء مميزة',
+      10: 'Search for tags among all the tags on the site.'
+    }
   },
   buttons: {
     0: 'تسجيل الدخول',
@@ -287,14 +311,81 @@ export default {
     12: 'أكتب تفاصيل و ألحق الرابط. من الشكل تفاصيل:رابط',
     13: 'اختر ميزات إضافية',
     14: 'ألصق رابط',
-    15: 'عنوان الزي، مبتكر أو وسم'
+    15: 'عنوان الزي، مبتكر أو وسم',
+    16: 'Select category',
+    17: 'Type name of the tag'
   },
   contribute: { 0: 'Contribute' },
   nsfw: {
     0: 'Warning!',
     1: 'This skin contains sensitive or adult content',
     2: 'This skin contains sensitive or adult content that some users may find disturbing',
-    3: ' Alright',
-    4: ' bye o/'
+    3: 'Alright',
+    4: 'bye o/'
+  },
+  removed: {
+    0: 'Version unavailable',
+    1: 'Author of the skin decided to remove this version from the site.',
+    2: 'Switch to available version'
+  },
+  notify: {
+    0: 'Issues not fixed',
+    1: 'Not all required fields was field',
+    2: 'Show',
+    3: 'Not found',
+    4: 'Banner not found (Currently, the first screenshot is being used as the banner)',
+    5: 'No changes',
+    6: 'No changes were found',
+    7: 'ID not found',
+    8: 'ID of the video not found, try another link (At the moment only YouTube is supported)',
+    9: 'Oops',
+    10: 'Looks like you\'re user session is expired, open new page and log into your account (Don\'t worry, everything is saved automatically)',
+    11: 'Exists',
+    12: 'This video has already been added',
+    13: 'Exists',
+    14: 'This tag has already been added',
+    15: 'Not found',
+    16: 'You cannot delete a deleted tag',
+    17: 'Added',
+    18: 'You have successfully added a new tag',
+    19: 'OOps',
+    20: 'This creator was already added',
+    21: 'EZ',
+    22: 'New creater has been added',
+    23: 'HUH',
+    24: 'Impossible to remove a deleted creator',
+    25: 'Exists',
+    26: 'Same change with this type has been added earlier',
+    27: 'Warning',
+    28: 'Same url with this type has been added earlier',
+    29: 'Warning',
+    30: 'You forget to add a description for a url. Example: Description:url',
+    31: 'Warning',
+    32: 'You forget to add a url for description. Example: Description:url',
+    33: 'Restored',
+    34: 'Version {name} has been restored',
+    35: 'Deleted',
+    36: 'Version {name} has been deleted',
+    37: 'Error',
+    38: 'Seems like server thinks you\'re the bot',
+    39: 'Looks like you\'re user session is expired, open new page and log into your account (Don\'t worry, everything is saved automatically)',
+    40: 'Mismatched credentials (re:login in account. Don\'t worry, everything is saved automatically)',
+    41: 'Unknown error',
+    42: 'You cannot edit inexistent skin',
+    43: 'Seems like you don\'t have permissions to edit this skin',
+    44: 'You cannot submit this version as it is the same as the previous one',
+    45: 'Those changes has been sent already on moderation',
+    46: 'Success',
+    47: 'New changes have been submitted for moderation',
+    48: 'Changes have been updated in moderation',
+    49: 'Odd link',
+    50: 'This link cannot be used as a download link',
+    51: 'Submitted to moderation'
+  },
+  restricted_view: {
+    0: 'غير مسموح',
+    1: 'Please login in account',
+    2: 'Restricted view',
+    3: 'This page is not out, yet.'
   }
 };
