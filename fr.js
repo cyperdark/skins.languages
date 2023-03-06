@@ -33,7 +33,7 @@ export default {
     8: 'Suppressions'
   },
   ideas: {
-    0: 'Nothing founded',
+    0: 'Rien n\'a été trouvé',
     1: 'Screenshots of «{type}» were not uploaded to the site'
   },
   creators: {
