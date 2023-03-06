@@ -6,7 +6,7 @@ export default {
     tags: {
       0: 'Etiketler',
       1: '{name} kategorisi için {amount} sonuç bulundu',
-      2: 'Search tags'
+      2: 'Etiket arayın'
     },
     ideas: {
       0: 'İlham',
@@ -50,8 +50,8 @@ export default {
     1: 'Bu skinle bağlantılı tüm etiketlerin listesi',
     2: 'Burası bayağı bi boş gözüküyor.',
     3: 'Yeni etiketler bulmak için yukarıdaki alanı kullanın',
-    4: 'Tags not found',
-    5: 'Try searching for something else',
+    4: 'Etiket Bulunamadı',
+    5: 'Başka bir şey aramayı dene',
     6: 'Ara'
   },
   videos: {
@@ -71,7 +71,7 @@ export default {
     0: 'Hepsi',
     1: 'Metadata',
     2: 'Hightlight',
-    3: 'Name of the skin not specified',
+    3: 'Skin ismi belirtilmemiş',
     4: 'Skini oluşturan en az bir kişi ekleyin',
     5: 'Birkaç etiket ekleyin',
     6: 'Skinin boyutu belirtilmemiş',
@@ -84,7 +84,7 @@ export default {
     20: 'Gayet iyi görünüyor',
     21: 'İyi haber! Hiçbir problem kalmadı',
     22: 'Kontrol listesi',
-    23: 'Add at least one public version'
+    23: 'Herkese açık en az bir versiyon ekleyin'
   },
   skins: {
     0: 'Skinler',
@@ -199,7 +199,7 @@ export default {
       8: '{name} search osu skins',
       9: 'Diğer osu skinlerinden ilham alın',
       10: '{name} created osu skins',
-      11: 'Search tags',
+      11: 'Etiket arayın',
       12: '{name} found tags'
     },
     description: {
@@ -312,8 +312,8 @@ export default {
     13: 'Select extra',
     14: 'Link yapıştırın',
     15: 'Skinin adı, yaratıcısı ya da etiketi',
-    16: 'Select category',
-    17: 'Type name of the tag'
+    16: 'Kategori seçin',
+    17: 'Etiketin ismini yazın'
   },
   contribute: { 0: 'Katkıda bulunun' },
   nsfw: {
@@ -324,50 +324,50 @@ export default {
     4: 'bye o/'
   },
   removed: {
-    0: 'Version unavailable',
-    1: 'Author of the skin decided to remove this version from the site.',
-    2: 'Switch to available version'
+    0: 'Sürüm mevcut değil',
+    1: 'Skin yapımcısı bu versiyonu siteden kaldırmaya karar verdi.',
+    2: 'Mevcut versiyona geç'
   },
   notify: {
-    0: 'Issues not fixed',
-    1: 'Not all required fields was filled',
-    2: 'Show',
-    3: 'Not found',
+    0: 'Sorun çözülemedi',
+    1: 'Gerekli olan tüm boşlukları doldurun',
+    2: 'Göster',
+    3: 'Bulunamadı',
     4: 'Banner not found (Currently, the first screenshot is being used as the banner)',
     5: 'No changes',
     6: 'No changes were found',
-    7: 'ID not found',
-    8: 'ID of the video not found, try another link (At the moment only YouTube is supported)',
+    7: 'ID bulunamadı',
+    8: 'Videonun ID\'si bulunamadı, başka bir link deneyin (Sadece YouTube destekleniyor)',
     9: 'Oops',
-    10: 'Looks like your session is expired, open new page and log into your account (Don\'t worry, everything is saved automatically)',
-    11: 'Exists',
-    12: 'This video has already been added',
-    13: 'Exists',
-    14: 'This tag has already been added',
-    15: 'Not found',
+    10: 'Görünüşe göre oturumunuzun süresi doldu, yeni bir sayfa açın ve hesabınıza giriş yapın (Endişelenmeyin, her şey otomatik olarak kaydedildi)',
+    11: 'Mevcut',
+    12: 'Bu video çoktan eklendi',
+    13: 'Mevcut',
+    14: 'Bu etiket çoktan eklendi',
+    15: 'Bulunamadı',
     16: 'You cannot delete a deleted tag',
-    17: 'Added',
-    18: 'You have successfully added a new tag',
+    17: 'Eklendi',
+    18: 'Başarıyla yeni bir etiket eklediniz',
     19: 'OOps',
     20: 'This creator was already added',
     21: 'EZ',
     22: 'New creator has been added',
     23: 'HUH',
     24: 'Impossible to remove a deleted creator',
-    25: 'Exists',
+    25: 'Mevcut',
     26: 'Same change with this type has been added earlier',
     27: 'Warning',
     28: 'Same url with this type has been added earlier',
     29: 'Warning',
-    30: 'You forget to add a description for a url. Example: Description:url',
+    30: 'You forgot to add a description for a url. Example: Description:url',
     31: 'Warning',
-    32: 'You forget to add a url for description. Example: Description:url',
+    32: 'You forgot to add a url for description. Example: Description:url',
     33: 'Restored',
     34: 'Version {name} has been restored',
     35: 'Deleted',
     36: 'Version {name} has been deleted',
     37: 'Error',
-    38: 'Seems like server thinks you\'re the bot',
+    38: 'Seems like the server thinks you\'re a bot',
     39: 'Looks like you\'re user session is expired, open new page and log into your account (Don\'t worry, everything is saved automatically)',
     40: 'Mismatched credentials (re:login in account. Don\'t worry, everything is saved automatically)',
     41: 'Unknown error',
