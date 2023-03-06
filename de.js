@@ -33,7 +33,7 @@ export default {
     8: 'Entfernungen'
   },
   ideas: {
-    0: 'Nothing founded',
+    0: 'Nichts gefunden.',
     1: 'Screenshots of «{type}» were not uploaded to the site'
   },
   creators: {
