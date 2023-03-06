@@ -33,7 +33,7 @@ export default {
     8: 'Tar bort'
   },
   ideas: {
-    0: 'Nothing founded',
+    0: 'Ingenting hittat',
     1: 'Screenshots of «{type}» were not uploaded to the site'
   },
   creators: {
