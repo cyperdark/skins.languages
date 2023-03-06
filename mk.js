@@ -33,7 +33,7 @@ export default {
     8: 'Тргнети работи'
   },
   ideas: {
-    0: 'Nothing founded',
+    0: 'Ништо не е пронајдено',
     1: 'Screenshots of «{type}» were not uploaded to the site'
   },
   creators: {
