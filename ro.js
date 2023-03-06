@@ -6,7 +6,7 @@ export default {
     tags: {
       0: 'Etichete',
       1: '{amount} etichete pentru categoria {name}',
-      2: 'Search tags'
+      2: 'Caută etichete'
     },
     ideas: {
       0: 'Inspirație',
@@ -34,7 +34,7 @@ export default {
   },
   ideas: {
     0: 'Nu am găsit nimic',
-    1: 'Screenshots of «{type}» were not uploaded to the site'
+    1: 'Capturile de ecran din «{type}» nu au fost încărcate pe site'
   },
   creators: {
     0: 'Creatori',
@@ -50,8 +50,8 @@ export default {
     1: 'Listă cu toate etichetele legate de acest skin',
     2: 'Pare cam gol aici.',
     3: 'Folosește-te de caseta de mai sus pentru a găsi etichete noi',
-    4: 'Tags not found',
-    5: 'Try searching for something else',
+    4: 'Etichetele nu au fost găsite',
+    5: 'Încearcă să cauți altceva',
     6: 'Căutare'
   },
   videos: {
@@ -71,7 +71,7 @@ export default {
     0: 'Toate',
     1: 'Metadata',
     2: 'Hightlight',
-    3: 'Name of the skin not specified',
+    3: 'Nume skinului nu este specificat',
     4: 'Adaugă cel puțin un creator al skinului',
     5: 'Adaugă câteva etichete',
     6: 'Mărimea skinului nespecificată',
@@ -84,7 +84,7 @@ export default {
     20: 'Arată destul de bine',
     21: 'Fiecare problema a fost corectată, ceea ce este destul de bine',
     22: 'Listă de verificare',
-    23: 'Add at least one public version'
+    23: 'Adaugă cel puțin o versiune publică'
   },
   skins: {
     0: 'Skinuri',
@@ -99,8 +99,8 @@ export default {
     9: 'Skin | Skinuri | Skinuri',
     10: 'Skinuri osu realizate de {name} | Toate skinurile de la',
     11: 'Căutare',
-    12: '{name} skins',
-    13: 'Explore skins'
+    12: 'Skinuri {name}',
+    13: 'Descoperă skinuri'
   },
   skin: {
     0: 'Edit',
@@ -130,9 +130,9 @@ export default {
     25: 'Nu ești unul dintre noi',
     26: 'Pare că nu ești un autor sau editor al acestui skin',
     27: 'Skin creat de',
-    28: 'No tags',
-    29: 'No videos',
-    30: 'No creators'
+    28: 'Nicio etichetă',
+    29: 'Niciun videoclip',
+    30: 'Niciun creator'
   },
   drag: {
     0: 'Apasă aici',
@@ -169,7 +169,7 @@ export default {
     13: {
       0: 'Skinuri',
       1: 'Etichete',
-      2: 'Users',
+      2: 'Utilizatori',
       3: 'Liste'
     }
   },
@@ -199,8 +199,8 @@ export default {
       8: 'caută skinuri osu {name}',
       9: 'Inspiră-te de la alte skinuri de osu',
       10: '{name} a creat skinuri de osu',
-      11: 'Search tags',
-      12: '{name} found tags'
+      11: 'Caută etichete',
+      12: 'etichete {name} găsite'
     },
     description: {
       0: 'Obține cele mai bune skin-uri de osu pe site-ul nostru! Librăria noastră imensă conține skin-uri pentru toate modurile de joc, aspect ratio-urile și pana și skinuri ale jucătorilor de top. Plus, avem o secțiune specială pentru fanii anime-urilor. îmbunătăţeşte-ți gameplay-ul cu skin-ul perfect. #osuskins #osugame #anime',
@@ -213,7 +213,7 @@ export default {
       7: 'O mulțime de skinuri osu! pentru {name}, descarcă gratuit!',
       8: 'Toate skinurile de osu realizate de {name}',
       9: 'Găsește inspirație pentru următorul tău skin de osu! pe site-ul nostru. Navighează printr-o colecție diversă de skin-uri și descoperă noi tehnici și idei. Inspiră-te si creează-ți propriile skin-uri unice.',
-      10: 'Search for tags among all the tags on the site.'
+      10: 'Caută etichete printre toate etichetele de pe site.'
     }
   },
   buttons: {
@@ -312,62 +312,62 @@ export default {
     13: 'Selectează extra',
     14: 'Atașează un link',
     15: 'Titlul, autorul sau eticheta skinului',
-    16: 'Select category',
-    17: 'Type name of the tag'
+    16: 'Selectează categoria',
+    17: 'Tastează numele etichetei'
   },
   contribute: { 0: 'Contribuie' },
   nsfw: {
     0: 'Atenție!',
     1: 'Acest skin conţine conţinut sensibil sau pentru adulţi',
     2: 'Acest skin conține conținut sensibil sau pentru adulți pe care unii utilizatori îl pot considera deranjant',
-    3: 'Alright',
-    4: 'bye o/'
+    3: 'În regulă',
+    4: 'pa o/'
   },
   removed: {
-    0: 'Version unavailable',
-    1: 'Author of the skin decided to remove this version from the site.',
-    2: 'Switch to available version'
+    0: 'Versiune indisponibilă',
+    1: 'Autorul acestui skin a decis să elimine această versiune de pe site.',
+    2: 'Treceți la versiunea disponibilă'
   },
   notify: {
-    0: 'Issues not fixed',
-    1: 'Not all required fields was filled',
-    2: 'Show',
-    3: 'Not found',
-    4: 'Banner not found (Currently, the first screenshot is being used as the banner)',
-    5: 'No changes',
-    6: 'No changes were found',
-    7: 'ID not found',
-    8: 'ID of the video not found, try another link (At the moment only YouTube is supported)',
-    9: 'Oops',
-    10: 'Looks like your session is expired, open new page and log into your account (Don\'t worry, everything is saved automatically)',
-    11: 'Exists',
-    12: 'This video has already been added',
-    13: 'Exists',
-    14: 'This tag has already been added',
-    15: 'Not found',
-    16: 'You cannot delete a deleted tag',
-    17: 'Added',
-    18: 'You have successfully added a new tag',
-    19: 'OOps',
-    20: 'This creator was already added',
+    0: 'Probleme nerezolvate',
+    1: 'Nu au fost completate toate câmpurile obligatorii',
+    2: 'Arată',
+    3: 'Nu a fost găsit',
+    4: 'Banner-ul nu a fost găsit (În momentul actual, prima captură de ecran este folosită ca banner)',
+    5: 'Nicio modificare',
+    6: 'Nu au fost găsite modificări',
+    7: 'ID-ul nu a fost găsit',
+    8: 'ID-ul videoclipului nu a fost găsit, încercați un alt link (momentan numai YouTube este suportat)',
+    9: 'Ups',
+    10: 'Se pare că sesiunea dvs. a expirat, deschideți o nouă pagină și conectați-vă la contul dvs. (nu vă faceți griji, totul este salvat automat)',
+    11: 'Există',
+    12: 'Acest videoclip a fost deja adăugat',
+    13: 'Există',
+    14: 'Această etichetă a fost deja adăugată',
+    15: 'Nu a fost găsit',
+    16: 'Nu se poate șterge o etichetă ștearsă',
+    17: 'Adăugat',
+    18: 'Ai adăugat cu succes o nouă etichetă',
+    19: 'UUps',
+    20: 'Acest creator a fost deja adăugat',
     21: 'EZ',
-    22: 'New creator has been added',
+    22: 'Un nou creator a fost adăugat',
     23: 'HUH',
-    24: 'Impossible to remove a deleted creator',
-    25: 'Exists',
-    26: 'Same change with this type has been added earlier',
-    27: 'Warning',
-    28: 'Same url with this type has been added earlier',
-    29: 'Warning',
-    30: 'You forget to add a description for a url. Example: Description:url',
-    31: 'Warning',
-    32: 'You forget to add a url for description. Example: Description:url',
-    33: 'Restored',
-    34: 'Version {name} has been restored',
-    35: 'Deleted',
-    36: 'Version {name} has been deleted',
-    37: 'Error',
-    38: 'Seems like server thinks you\'re the bot',
+    24: 'Nu se poate elimina un creator șters',
+    25: 'Există',
+    26: 'Aceeași modificare cu acest tip a fost adăugată mai devreme',
+    27: 'Atenție',
+    28: 'Același Url de acest tip a fost adăugat mai devreme',
+    29: 'Atenție',
+    30: 'You forgot to add a description for a url. Example: Description:url',
+    31: 'Atenție',
+    32: 'You forgot to add a url for description. Example: Description:url',
+    33: 'Restaurat',
+    34: 'Versiunea {name} a fost restaurată',
+    35: 'Ștearsă',
+    36: 'Versiunea {name} a fost ștearsă',
+    37: 'Eroare',
+    38: 'Seems like the server thinks you\'re a bot',
     39: 'Looks like you\'re user session is expired, open new page and log into your account (Don\'t worry, everything is saved automatically)',
     40: 'Mismatched credentials (re:login in account. Don\'t worry, everything is saved automatically)',
     41: 'Unknown error',
@@ -384,7 +384,7 @@ export default {
   },
   restricted_view: {
     0: 'Neautorizat',
-    1: 'Please login in account',
+    1: 'Te rugăm să te conectezi în cont',
     2: 'Restricted view',
     3: 'This page is not out, yet.'
   }
