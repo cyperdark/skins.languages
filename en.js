@@ -368,7 +368,7 @@ export default {
     20: 'This creator was already added',
 
     21: 'EZ',
-    22: 'New creater has been added',
+    22: 'New creator has been added',
 
     23: 'HUH',
     24: 'Impossible to remove a deleted creator',
