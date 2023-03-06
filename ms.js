@@ -84,7 +84,7 @@ export default {
     20: 'Nampak seperti bagus',
     21: 'Semua masalah telah dibetulkan. Syabas',
     22: 'Senarai semak',
-    23: 'Add at least one public version'
+    23: 'Tambah sekurang-kurangnya satu versi awam'
   },
   skins: {
     0: 'Skin-skin',
@@ -100,7 +100,7 @@ export default {
     10: 'Skin osu oleh {name} | Semua skin daripada',
     11: 'Cari',
     12: '{name} skins',
-    13: 'Explore skins'
+    13: 'Meneroka skin lain'
   },
   skin: {
     0: 'Mengedit',
@@ -169,7 +169,7 @@ export default {
     13: {
       0: 'Skin-skin',
       1: 'Penanda',
-      2: 'Users',
+      2: 'Pengguna',
       3: 'Senarai'
     }
   },
@@ -320,8 +320,8 @@ export default {
     0: 'Amaran!',
     1: 'Skin ini mengandungi kandungan sensitif ataupun kandungan dewasa',
     2: 'Skin ini mengandungi kandungan sensitif atau kandungan dewasa yang mungkin tidak disukai oleh sesetengah pengguna',
-    3: 'Alright',
-    4: 'bye o/'
+    3: 'Ok',
+    4: 'jumpa lagi o/'
   },
   removed: {
     0: 'Version unavailable',
@@ -330,7 +330,7 @@ export default {
   },
   notify: {
     0: 'Issues not fixed',
-    1: 'Not all required fields was field',
+    1: 'Not all required fields was filled',
     2: 'Show',
     3: 'Not found',
     4: 'Banner not found (Currently, the first screenshot is being used as the banner)',
@@ -348,7 +348,7 @@ export default {
     16: 'You cannot delete a deleted tag',
     17: 'Added',
     18: 'You have successfully added a new tag',
-    19: 'OOps',
+    19: 'Alamak',
     20: 'This creator was already added',
     21: 'EZ',
     22: 'New creater has been added',
@@ -364,27 +364,27 @@ export default {
     32: 'You forget to add a url for description. Example: Description:url',
     33: 'Restored',
     34: 'Version {name} has been restored',
-    35: 'Deleted',
-    36: 'Version {name} has been deleted',
-    37: 'Error',
-    38: 'Seems like server thinks you\'re the bot',
+    35: 'Dibuang',
+    36: 'Versi {name} telah dibuang',
+    37: 'Ralat',
+    38: 'Nampak macam server fikir kau adalah bot',
     39: 'Looks like you\'re user session is expired, open new page and log into your account (Don\'t worry, everything is saved automatically)',
     40: 'Mismatched credentials (re:login in account. Don\'t worry, everything is saved automatically)',
-    41: 'Unknown error',
+    41: 'Ralat tidak diketahui',
     42: 'You cannot edit inexistent skin',
     43: 'Seems like you don\'t have permissions to edit this skin',
     44: 'You cannot submit this version as it is the same as the previous one',
     45: 'Those changes has been sent already on moderation',
-    46: 'Success',
+    46: 'Berjaya',
     47: 'New changes have been submitted for moderation',
     48: 'Changes have been updated in moderation',
-    49: 'Odd link',
-    50: 'This link cannot be used as a download link',
+    49: 'Link pelik',
+    50: 'Link ini tidak boleh diguna sebagai link muat turun',
     51: 'Submitted to moderation'
   },
   restricted_view: {
     0: 'Tiada kebenaran',
-    1: 'Please login in account',
+    1: 'Sila log masuk dengan akaun',
     2: 'Restricted view',
     3: 'This page is not out, yet.'
   }
