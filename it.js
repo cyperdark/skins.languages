@@ -33,7 +33,7 @@ export default {
     8: 'Eliminazioni'
   },
   ideas: {
-    0: 'Nothing founded',
+    0: 'Trovato niente',
     1: 'Screenshots of «{type}» were not uploaded to the site'
   },
   creators: {
