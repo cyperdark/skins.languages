@@ -33,7 +33,7 @@ export default {
     8: 'Removidos'
   },
   ideas: {
-    0: 'Nothing founded',
+    0: 'No se encontró nada',
     1: 'Screenshots of «{type}» were not uploaded to the site'
   },
   creators: {
