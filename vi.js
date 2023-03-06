@@ -99,8 +99,8 @@ export default {
     9: 'Skin | Skin | Skin',
     10: 'Skin osu! bởi {name} | Tất cả các skin từ',
     11: 'Tìm kiếm',
-    12: '{name} skins',
-    13: 'Explore skins'
+    12: 'skin {name}',
+    13: 'Khám phá các skin'
   },
   skin: {
     0: 'Chỉnh sửa',
@@ -169,7 +169,7 @@ export default {
     13: {
       0: 'Skin',
       1: 'Các Tag',
-      2: 'Users',
+      2: 'Người dùng',
       3: 'Danh sách'
     }
   },
@@ -200,7 +200,7 @@ export default {
       9: 'Lấy cảm hứng từ các skin osu khác',
       10: '{name} đã tạo skin osu',
       11: 'Tìm tag',
-      12: '{name} found tags'
+      12: 'Các tag chứa {name}'
     },
     description: {
       0: 'Tảỉ về những skin osu! tốt nhất từ trang của chúng tôi! Thư viện to lớn của chúng tôi có skin cho mọi chế độ chơi, tỷ lệ khung hình và cả kể cả những top player. Thêm vào đó, chúng tôi có một khu đặc biệt dành cho các fan anime. Cả thiện gameplay với một skin hoàn hảo. #osuskins #osugame #anime',
@@ -312,39 +312,39 @@ export default {
     13: 'Chọn thêm',
     14: 'Dán một liên kết',
     15: 'Tiêu đề skin, tác giả, hoặc tag',
-    16: 'Select category',
-    17: 'Type name of the tag'
+    16: 'Chọn nhóm',
+    17: 'Hãy gõ tên của tag'
   },
   contribute: { 0: 'Đóng góp' },
   nsfw: {
     0: 'Cảnh báo!',
     1: 'Skin có chứa các nội dung nhạy cảm hoặc người lớn',
-    2: 'Skin có chứa các nội dung nhạy cảm hoặc người lớn có thể gây khó chịu cho một số người dùng',
-    3: 'Alright',
-    4: 'bye o/'
+    2: 'Skin có chứa các nội dung nhạy cảm có thể gây khó chịu cho một số người dùng',
+    3: 'Được',
+    4: 'tạm biệt o/'
   },
   removed: {
-    0: 'Version unavailable',
-    1: 'Author of the skin decided to remove this version from the site.',
-    2: 'Switch to available version'
+    0: 'Phiên bản không khả dụng',
+    1: 'Tác giả của skin đã xóa phiên bản này khỏi trang web.',
+    2: 'Chuyển đến phiên bản khả dụng khác'
   },
   notify: {
-    0: 'Issues not fixed',
-    1: 'Not all required fields was filled',
-    2: 'Show',
-    3: 'Not found',
-    4: 'Banner not found (Currently, the first screenshot is being used as the banner)',
-    5: 'No changes',
-    6: 'No changes were found',
-    7: 'ID not found',
-    8: 'ID of the video not found, try another link (At the moment only YouTube is supported)',
-    9: 'Oops',
-    10: 'Looks like you\'re user session is expired, open new page and log into your account (Don\'t worry, everything is saved automatically)',
+    0: 'Không thể sửa vấn đề',
+    1: 'Một số thông tin cần điền chưa được ghi',
+    2: 'Hiển thị',
+    3: 'Không tìm thấy',
+    4: 'Không tìm thấy banner (Hiện tại, ảnh chụp màn hình đầu tiên đang được dùng làm banner)',
+    5: 'Không có thay đổi',
+    6: 'Không tìm thấy thay đổi nào',
+    7: 'Không tìm thấy ID',
+    8: 'Không tìm thấy ID của video, hãy thử đường link khác (Hiện tại web chỉ hỗ trợ video YouTube)',
+    9: 'Úi',
+    10: 'Looks like your session is expired, open new page and log into your account (Don\'t worry, everything is saved automatically)',
     11: 'Exists',
     12: 'This video has already been added',
     13: 'Exists',
     14: 'This tag has already been added',
-    15: 'Not found',
+    15: 'Không tìm thấy',
     16: 'You cannot delete a deleted tag',
     17: 'Added',
     18: 'You have successfully added a new tag',
