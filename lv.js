@@ -33,7 +33,7 @@ export default {
     8: 'Izņemtais'
   },
   ideas: {
-    0: 'Nothing founded',
+    0: 'Nekas nav atrasts',
     1: 'Screenshots of «{type}» were not uploaded to the site'
   },
   creators: {
