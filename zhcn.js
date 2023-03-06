@@ -33,7 +33,7 @@ export default {
     8: '移除'
   },
   ideas: {
-    0: 'Nothing founded',
+    0: '未找到任何内容',
     1: 'Screenshots of «{type}» were not uploaded to the site'
   },
   creators: {
