@@ -6,7 +6,7 @@ export default {
     tags: {
       0: 'Označení',
       1: '{amount} značky pro kategorii {name}',
-      2: 'Search tags'
+      2: 'Hledat Označení'
     },
     ideas: {
       0: 'Inspirace',
@@ -34,7 +34,7 @@ export default {
   },
   ideas: {
     0: 'Nic nebylo nalezeno',
-    1: 'Screenshots of «{type}» were not uploaded to the site'
+    1: 'Snímky obrazovky «{type}» nebyly nahrány na stránku'
   },
   creators: {
     0: 'Vývojáři',
@@ -50,8 +50,8 @@ export default {
     1: 'List všech značek souvisejících s tímto skinem',
     2: 'Zde to vypadá prázdně.',
     3: 'Použijte pole nahoře pro nalezení nových značek',
-    4: 'Tags not found',
-    5: 'Try searching for something else',
+    4: 'Označení nenalezeny',
+    5: 'Zkus hledat něco jiného',
     6: 'Hledat'
   },
   videos: {
@@ -84,7 +84,7 @@ export default {
     20: 'Vypadá to dobře',
     21: 'Každý problém byl opraven, což je dobře',
     22: 'Kontrolní listina',
-    23: 'Add at least one public version'
+    23: 'Přidejte alespoň jednu veřejnou verzi'
   },
   skins: {
     0: 'Skiny',
@@ -99,8 +99,8 @@ export default {
     9: 'Skin | Skiny | Skiny',
     10: 'osu Skiny od {name} | Všechny skiny od',
     11: 'Hledat',
-    12: '{name} skins',
-    13: 'Explore skins'
+    12: '{name} skiny',
+    13: 'Projiždět skiny'
   },
   skin: {
     0: 'Upravit',
@@ -130,9 +130,9 @@ export default {
     25: 'Nejsi jeden z nás',
     26: 'Zdá se, že nejsti autorem ani editorem tohoto skinu',
     27: 'Skin od',
-    28: 'No tags',
-    29: 'No videos',
-    30: 'No creators'
+    28: 'Žádná označení',
+    29: 'Žádná videa',
+    30: 'Žádní autoři'
   },
   drag: {
     0: 'Klikněte zde',
@@ -169,7 +169,7 @@ export default {
     13: {
       0: 'Skiny',
       1: 'Označení',
-      2: 'Users',
+      2: 'Uživatelé',
       3: 'Seznamy'
     }
   },
@@ -199,8 +199,8 @@ export default {
       8: '{name} hledat osu skiny',
       9: 'Získejte inspiraci z jiných osu skinů',
       10: '{name} vyrobil osu skiny',
-      11: 'Search tags',
-      12: '{name} found tags'
+      11: 'Hledat Označení',
+      12: '{name} nalezl označení'
     },
     description: {
       0: 'Stáhněte si osu! skiny na našich stránkách! Naše velká knihovna ma skiny pro všechny herní módy, poměry stran, a dokonce i skiny od nejlepších hráčů. Taky máme speciální sekci pro fanoušky anime. Zlepšete svoje hraní s perfektním skinem. #osuskins #osugame #anime',
@@ -312,49 +312,49 @@ export default {
     13: 'Vyber extra',
     14: 'Vložte link',
     15: 'Název skinu, autor, nebo označení',
-    16: 'Select category',
-    17: 'Type name of the tag'
+    16: 'Vyberte kategorii',
+    17: 'Zadejte název označení'
   },
   contribute: { 0: 'Zapojte se' },
   nsfw: {
     0: 'Upozornění!',
     1: 'Tento skin obshauje citlivý obsah nebo obsah pro dospělé',
     2: 'Tento skin obsahuje citlivý obsah nebo obsah pro dospělé, který může připadat některým uživatelům znepokojivě',
-    3: 'Alright',
-    4: 'bye o/'
+    3: 'Dobře',
+    4: 'měj se o/'
   },
   removed: {
-    0: 'Version unavailable',
-    1: 'Author of the skin decided to remove this version from the site.',
-    2: 'Switch to available version'
+    0: 'Verze není k dispozici',
+    1: 'Autor skinu se rozhodl odstranit tuto verzi z webu.',
+    2: 'Přepnout na dostupnou verzi'
   },
   notify: {
-    0: 'Issues not fixed',
-    1: 'Not all required fields was field',
-    2: 'Show',
-    3: 'Not found',
-    4: 'Banner not found (Currently, the first screenshot is being used as the banner)',
-    5: 'No changes',
-    6: 'No changes were found',
-    7: 'ID not found',
-    8: 'ID of the video not found, try another link (At the moment only YouTube is supported)',
-    9: 'Oops',
-    10: 'Looks like you\'re user session is expired, open new page and log into your account (Don\'t worry, everything is saved automatically)',
-    11: 'Exists',
-    12: 'This video has already been added',
-    13: 'Exists',
-    14: 'This tag has already been added',
-    15: 'Not found',
-    16: 'You cannot delete a deleted tag',
+    0: 'Problémy nebyly opraveny',
+    1: 'Not all required fields was filled',
+    2: 'Zobrazit',
+    3: 'Nenalezeno',
+    4: 'Banner nebyl nalezen (aktuálně se první snímek obrazovky používá jako banner)',
+    5: 'Beze změn',
+    6: 'Nebyly nalezeny žádné změny',
+    7: 'ID nebylo nalezeno',
+    8: 'ID videa nebylo nalezeno, zkuste jiný odkaz (nyní je podporován pouze YouTube)',
+    9: 'Chybička se vloudila',
+    10: 'Vypadá to, že vaše uživatelská relace vypršela, otevřete novou stránku a přihlaste se k vašemu účtu (neboj, vše je automaticky uloženo)',
+    11: 'Existuje',
+    12: 'Toto video již bylo přidáno',
+    13: 'Existuje',
+    14: 'Toto označení již bylo přidáno',
+    15: 'Nenalezeno',
+    16: 'Smazaný štítek nelze odstranit',
     17: 'Added',
-    18: 'You have successfully added a new tag',
-    19: 'OOps',
-    20: 'This creator was already added',
+    18: 'Úspěšně jste přidali nové označení',
+    19: 'Chybička se vloudila',
+    20: 'Tento autor již byl přidán',
     21: 'EZ',
     22: 'New creater has been added',
     23: 'HUH',
     24: 'Impossible to remove a deleted creator',
-    25: 'Exists',
+    25: 'Existuje',
     26: 'Same change with this type has been added earlier',
     27: 'Warning',
     28: 'Same url with this type has been added earlier',
@@ -368,7 +368,7 @@ export default {
     36: 'Version {name} has been deleted',
     37: 'Error',
     38: 'Seems like server thinks you\'re the bot',
-    39: 'Looks like you\'re user session is expired, open new page and log into your account (Don\'t worry, everything is saved automatically)',
+    39: 'Vypadá to, že vaše uživatelská relace vypršela, otevřete novou stránku a přihlaste se k vašemu účtu (neboj, vše je automaticky uloženo)',
     40: 'Mismatched credentials (re:login in account. Don\'t worry, everything is saved automatically)',
     41: 'Unknown error',
     42: 'You cannot edit inexistent skin',
