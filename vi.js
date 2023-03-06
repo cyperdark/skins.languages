@@ -34,7 +34,7 @@ export default {
   },
   ideas: {
     0: 'Không thấy gì cả',
-    1: 'Screenshots of «{type}» were not uploaded to the site'
+    1: 'Không có ảnh cho «{type}» được đăng trên trang này'
   },
   creators: {
     0: 'Tác giả',
@@ -50,8 +50,8 @@ export default {
     1: 'Danh sách tất cả các tag liên quan đến skin này',
     2: 'Có vẻ như không có gì ở đây.',
     3: 'Sử dụng ô trống bên trên để tìm các tag mới',
-    4: 'Tags not found',
-    5: 'Try searching for something else',
+    4: 'Không tìm thấy tag',
+    5: 'Hãy thử tìm cái gì đó khác',
     6: 'Tìm kiếm'
   },
   videos: {
@@ -71,7 +71,7 @@ export default {
     0: 'Tất cả',
     1: 'Metadata',
     2: 'Tâm điểm',
-    3: 'Name of the skin not specified',
+    3: 'Tên skin không xác định',
     4: 'Thêm vào ít nhất một tác giả tạo skin',
     5: 'Thêm một số tag',
     6: 'Kích thước skin không xác định',
@@ -84,7 +84,7 @@ export default {
     20: 'Trông có vẻ khá ổn',
     21: 'Mọi vấn đề đều đã được giải quyết. Tốt lắm',
     22: 'Danh mục',
-    23: 'Add at least one public version'
+    23: 'Thêm ít nhất một phiên bản công khai'
   },
   skins: {
     0: 'Skin',
@@ -130,9 +130,9 @@ export default {
     25: 'Bạn không phải một trong số chúng tôi',
     26: 'Có vẻ như bạn không phải là tác giả hay người chỉnh sửa skin này',
     27: 'Skin tạo bởi',
-    28: 'No tags',
-    29: 'No videos',
-    30: 'No creators'
+    28: 'Không có tag',
+    29: 'Không có video',
+    30: 'Không có tác giả'
   },
   drag: {
     0: 'Nhấn vào đây',
@@ -213,7 +213,7 @@ export default {
       7: 'Một lượng lớn skin osu cho {name}, tải miễn phí!',
       8: 'Tất cả skin được tạo bởi {name}',
       9: 'Tìm các nguồn cảm hứng cho skin osu! tiếp theo của bạn ở trang của chúng tôi. Điểm qua một bộ sưu tầm skin đa dạng và khám phá các kỹ thuật và ý tưởng mới. Lấy cảm hứng và tạo cho bản thân những skin độc đáo.',
-      10: 'Search for tags among all the tags on the site.'
+      10: 'Tìm các tag trong tất cả các tag trên trang.'
     }
   },
   buttons: {
@@ -330,7 +330,7 @@ export default {
   },
   notify: {
     0: 'Issues not fixed',
-    1: 'Not all required fields was field',
+    1: 'Not all required fields was filled',
     2: 'Show',
     3: 'Not found',
     4: 'Banner not found (Currently, the first screenshot is being used as the banner)',
