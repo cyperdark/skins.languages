@@ -33,7 +33,7 @@ export default {
     8: 'Desființări'
   },
   ideas: {
-    0: 'Nothing founded',
+    0: 'Nu am găsit nimic',
     1: 'Screenshots of «{type}» were not uploaded to the site'
   },
   creators: {
