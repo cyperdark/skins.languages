@@ -5,7 +5,8 @@ export default {
     lists: { 0: 'Luettelot' },
     tags: {
       0: 'Tägit',
-      1: '{amount} tägiä kategoriassa {name}'
+      1: '{amount} tägiä kategoriassa {name}',
+      2: 'Search tags'
     },
     ideas: {
       0: 'Inspiraatio',
@@ -17,7 +18,8 @@ export default {
     skin: {
       0: 'Tässä skinissä on käytetty tiedostoja muista skineistä',
       1: 'Klikkaa tästä saadaksesi lisää tietoa'
-    }
+    },
+    tools: 'Työkalut'
   },
   changelogs: {
     0: 'Muutosloki',
@@ -29,6 +31,10 @@ export default {
     6: 'Korjaukset',
     7: 'Muutokset',
     8: 'Poistot'
+  },
+  ideas: {
+    0: 'Nothing founed',
+    1: 'Screenshots of «{type}» were not uploaded to the site'
   },
   creators: {
     0: 'Tekijät',
@@ -43,7 +49,10 @@ export default {
     0: 'Tägit',
     1: 'Luettelo kaikista tägeistä jotka liittyvät tähän skiniin',
     2: 'Täällä tuntuu tyhjältä.',
-    3: 'Käytä yllä olevaa kenttää uusien tägien löytämiseen'
+    3: 'Käytä yllä olevaa kenttää uusien tägien löytämiseen',
+    4: 'Tags not found',
+    5: 'Try searching for something else',
+    6: 'Haku'
   },
   videos: {
     0: 'Videot',
@@ -62,6 +71,7 @@ export default {
     0: 'Kaikki',
     1: 'Metadata',
     2: 'Korosta',
+    3: 'Name of the skin not specified',
     4: 'Lisää ainakin yksi skinin tekijä',
     5: 'Lisää muutama tägi',
     6: 'Skinin koko ei ole määritelty',
@@ -73,7 +83,8 @@ export default {
     12: 'Skinin linkki ei ole määritelty',
     20: 'Näyttää aika hyvältä',
     21: 'Jokainen ongelma on korjattu, hyvää työtä',
-    22: 'Tarkistuslista'
+    22: 'Tarkistuslista',
+    23: 'Add at least one public version'
   },
   skins: {
     0: 'Skinit',
@@ -87,7 +98,9 @@ export default {
     8: 'Kaikki skinit | osu skinit',
     9: 'Skini | Skinit | Skinit',
     10: 'osu Skinit joissa {name} on tekijä | Kaikki skinit joiden tekijä on',
-    11: 'Haku'
+    11: 'Haku',
+    12: '{name} skins',
+    13: 'Explore skins'
   },
   skin: {
     0: 'Muuta',
@@ -116,7 +129,10 @@ export default {
     24: '{amount} sekunteja jäljellä',
     25: 'Sinä et ole yksi meistä',
     26: 'Näyttää siltä, että et ole tämän skinin tekijä tai muokkaaja',
-    27: 'Skinin on tehnyt'
+    27: 'Skinin on tehnyt',
+    28: 'No tags',
+    29: 'No videos',
+    30: 'No creators'
   },
   drag: {
     0: 'Paina tästä',
@@ -149,7 +165,13 @@ export default {
     9: 'Odotetaan hakua',
     10: 'Valitse hakusuodattimet tai kirjoita skinin nimi, tekijä tai tägi',
     11: 'Lataukset',
-    12: 'Nimi'
+    12: 'Nimi',
+    13: {
+      0: 'Skinit',
+      1: 'Tägit',
+      2: 'Users',
+      3: 'Luettelot'
+    }
   },
   tabs: {
     0: 'Haku',
@@ -176,7 +198,9 @@ export default {
       7: 'osu skinit',
       8: '{name} hae osu skinejä',
       9: 'Hanki inspiraatiota muista osu skineistä',
-      10: '{name} tehtyjä osu skinejä'
+      10: '{name} tehtyjä osu skinejä',
+      11: 'Search tags',
+      12: '{name} found tags'
     },
     description: {
       0: 'Hanki parhaat osu skinit sivumme suuresta valikoimasta! Meillä on skinejä eri pelimodeille ja kuvasuhteille, sekä jopa top pelaajille. Lisäksi, meillä on erityinen osasto animefaneille. Paranna peliäsi täydellisellä skinillä. #osuskins #osugame #anime',
@@ -188,9 +212,9 @@ export default {
       6: '{name} osu skini kokoelma!, ilmainen lataus.',
       7: 'Suuri määrä skinejä jotka {name} on tehnyt, lataa ilmaiseksi!',
       8: 'Kaikki skinit jotka {name} on tehnyt',
-      9: 'Löydä inspiraatiota seuraavalle osu skinillesi nettisivultamme. Selaa meidän monipuolisen skini kokoelman läpi ja löydä uusia tapoja ja ideoita. Inspiroidu ja tee oma ainutlaatuinen skinisi.'
-    },
-    keywords: { 0: 'osu, osu!, osu skins, std skins, ctb skins, mania skins, taiko skins, mrekk osu skins,Rafis osu skins,FlyingTuna osu skins,Vaxei osu skins,Cookiezi osu skins,Varvalian osu skins,RyuK osu skins,WhiteCat osu skins,_RyuK osu skins,BeasttrollMC osu skins,Genshin Impact osu skins,Mathi osu skins,WubWoofWolf osu skins,Merami osu skins,xootynator osu skins,Gayzmcgee osu skins,[Karcher] osu skins,Bubbleman osu skins,ChomikBox osu skins,NSFW osu skins,Lifeline osu skins,Hatsune Miku osu skins,Azerite osu skins,Umbre osu skins,404 AimNotFound osu skins,-Nikstrim osu skins,bloo osu skins,Shigetora osu skins,Badeu osu skins,FunOrange osu skins,worst hr player osu skins,Tekkito osu skins,ninerik osu skins,azr8 osu skins,idke osu skins,Andros osu skins,Zylice osu skins,Rektygon osu skins,Komori osu skins,anime osu skins,cyperdark osu skins,Red_Pixel osu skins,Utami osu skins,Arknights osu skins,Karthy osu skins,Paraqeet osu skins,aetrna osu skins,Spare osu skins,-GN osu skins,Mastasz osu skins,Seouless osu skins,haga1115 osu skins,shimon osu skins,fieryrage osu skins,Ekoro osu skins,Firebat92 osu skins,_Shield osu skins,-Roaz- osu skins,- Dark - osu skins,atturbo555 osu skins,Aristia osu skins,_Aiko__ osu skins,z x c osu skins,eternum osu skins,talala osu skins,NyanPotato osu skins,Arnold24x24 osu skins,Alumetri osu skins,im a fancy lad osu skins,jordanlr7 osu skins,Woey osu skins,khz osu skins,rrtyui osu skins,kieg osu skins,Rupertion osu skins,FGSky osu skins,Aireu osu skins,Neko God osu skins,Apostol osu skins,Abyssal osu skins,dokidokilolixx osu skins,Mlaw osu skins,Ponytail osu skins,Reedkatt osu skins,Zestiny osu skins,Apraxia osu skins,Binfy osu skins,Rohulk osu skins,-PloX osu skins,DuyKhang-sama osu skins,BronyPH osu skins,Intercambing osu skins,Xeltol osu skins,Valorant osu skins,Akolibed osu skins,hololive osu skins,kablaze osu skins,tokyo ghoul osu skins,Trail Mix osu skins,Dereban osu skins' }
+      9: 'Löydä inspiraatiota seuraavalle osu skinillesi nettisivultamme. Selaa meidän monipuolisen skini kokoelman läpi ja löydä uusia tapoja ja ideoita. Inspiroidu ja tee oma ainutlaatuinen skinisi.',
+      10: 'Search for tags among all the tags on the site.'
+    }
   },
   buttons: {
     0: 'Kirjaudu sisään',
@@ -287,14 +311,81 @@ export default {
     12: 'Kirjoita kuvaus ja url formaattina: description:url',
     13: 'Valitse lisät',
     14: 'Liitä linkki',
-    15: 'Skinin otsikko, tekijä, tai tägi'
+    15: 'Skinin otsikko, tekijä, tai tägi',
+    16: 'Select category',
+    17: 'Type name of the tag'
   },
   contribute: { 0: 'Osallistu' },
   nsfw: {
     0: 'Varoitus!',
     1: 'Tämä skini sisältää herkkää tai aikuisille tarkoitettua sisältöä',
     2: 'Tämä skini sisältää herkkää tai aikuisille tarkoitettua sisältöä, jota jotkut käyttäjät voivat pitää häiritsevänä',
-    3: 'Selvä',
-    4: 'Heippa o/'
+    3: 'Alright',
+    4: 'bye o/'
+  },
+  removed: {
+    0: 'Version unavailable',
+    1: 'Author of the skin decided to remove this version from the site.',
+    2: 'Switch to available version'
+  },
+  notify: {
+    0: 'Issues not fixed',
+    1: 'Not all required fields was field',
+    2: 'Show',
+    3: 'Not found',
+    4: 'Banner not found (Currently, the first screenshot is being used as the banner)',
+    5: 'No changes',
+    6: 'No changes were found',
+    7: 'ID not found',
+    8: 'ID of the video not found, try another link (At the moment only YouTube is supported)',
+    9: 'Oops',
+    10: 'Looks like you\'re user session is expired, open new page and log into your account (Don\'t worry, everything is saved automatically)',
+    11: 'Exists',
+    12: 'This video has already been added',
+    13: 'Exists',
+    14: 'This tag has already been added',
+    15: 'Not found',
+    16: 'You cannot delete a deleted tag',
+    17: 'Added',
+    18: 'You have successfully added a new tag',
+    19: 'OOps',
+    20: 'This creator was already added',
+    21: 'EZ',
+    22: 'New creater has been added',
+    23: 'HUH',
+    24: 'Impossible to remove a deleted creator',
+    25: 'Exists',
+    26: 'Same change with this type has been added earlier',
+    27: 'Warning',
+    28: 'Same url with this type has been added earlier',
+    29: 'Warning',
+    30: 'You forget to add a description for a url. Example: Description:url',
+    31: 'Warning',
+    32: 'You forget to add a url for description. Example: Description:url',
+    33: 'Restored',
+    34: 'Version {name} has been restored',
+    35: 'Deleted',
+    36: 'Version {name} has been deleted',
+    37: 'Error',
+    38: 'Seems like server thinks you\'re the bot',
+    39: 'Looks like you\'re user session is expired, open new page and log into your account (Don\'t worry, everything is saved automatically)',
+    40: 'Mismatched credentials (re:login in account. Don\'t worry, everything is saved automatically)',
+    41: 'Unknown error',
+    42: 'You cannot edit inexistent skin',
+    43: 'Seems like you don\'t have permissions to edit this skin',
+    44: 'You cannot submit this version as it is the same as the previous one',
+    45: 'Those changes has been sent already on moderation',
+    46: 'Success',
+    47: 'New changes have been submitted for moderation',
+    48: 'Changes have been updated in moderation',
+    49: 'Odd link',
+    50: 'This link cannot be used as a download link',
+    51: 'Submitted to moderation'
+  },
+  restricted_view: {
+    0: 'Ei sallittu',
+    1: 'Please login in account',
+    2: 'Restricted view',
+    3: 'This page is not out, yet.'
   }
 };
