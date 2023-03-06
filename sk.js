@@ -33,7 +33,7 @@ export default {
     8: 'Odstránenia'
   },
   ideas: {
-    0: 'Nothing founded',
+    0: 'Nič sa nenašlo',
     1: 'Screenshots of «{type}» were not uploaded to the site'
   },
   creators: {
