@@ -339,7 +339,7 @@ export default {
     7: 'ID not found',
     8: 'ID of the video not found, try another link (At the moment only YouTube is supported)',
     9: 'Oops',
-    10: 'Looks like you\'re user session is expired, open new page and log into your account (Don\'t worry, everything is saved automatically)',
+    10: 'Looks like your session is expired, open new page and log into your account (Don\'t worry, everything is saved automatically)',
     11: 'Exists',
     12: 'This video has already been added',
     13: 'Exists',
