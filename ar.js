@@ -33,7 +33,7 @@ export default {
     8: 'المحذوفات'
   },
   ideas: {
-    0: 'Nothing founded',
+    0: 'لا نتائج',
     1: 'Screenshots of «{type}» were not uploaded to the site'
   },
   creators: {
