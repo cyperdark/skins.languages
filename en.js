@@ -337,7 +337,7 @@ export default {
 
   notify: {
     0: 'Issues not fixed',
-    1: 'Not all required fields was field',
+    1: 'Not all required fields was filled',
     2: 'Show',
 
     3: 'Not found',
