@@ -1,7 +1,7 @@
 export default {
   title: {
     home: 'Startsida',
-    login: 'Log in',
+    login: 'Logga in',
     lists: { 0: 'Listor' },
     tags: {
       0: 'Taggar',
@@ -51,7 +51,7 @@ export default {
     2: 'Det verkar ganska tomt här.',
     3: 'Använd fältet ovanför att hitta nya taggar',
     4: 'Tags not found',
-    5: 'Try searching for something else',
+    5: 'Prova att söka efter något annat',
     6: 'Sök efter'
   },
   videos: {
@@ -84,7 +84,7 @@ export default {
     20: 'Ser bra ut',
     21: 'Alla problem blev fixade, vilket är ganska bra',
     22: 'Checklista',
-    23: 'Add at least one public version'
+    23: 'Lägg till minst en offentlig version'
   },
   skins: {
     0: 'Skins',
@@ -100,7 +100,7 @@ export default {
     10: 'osu Skins av {name} | Alla skins från',
     11: 'Sök efter',
     12: '{name} skins',
-    13: 'Explore skins'
+    13: 'Utforska Skins'
   },
   skin: {
     0: 'Edit',
@@ -132,7 +132,7 @@ export default {
     27: 'Skin by',
     28: 'No tags',
     29: 'No videos',
-    30: 'No creators'
+    30: 'Inga skapare'
   },
   drag: {
     0: 'Klicka här',
@@ -339,7 +339,7 @@ export default {
     7: 'ID not found',
     8: 'ID of the video not found, try another link (At the moment only YouTube is supported)',
     9: 'Oops',
-    10: 'Looks like you\'re user session is expired, open new page and log into your account (Don\'t worry, everything is saved automatically)',
+    10: 'Looks like your session is expired, open new page and log into your account (Don\'t worry, everything is saved automatically)',
     11: 'Exists',
     12: 'This video has already been added',
     13: 'Exists',
