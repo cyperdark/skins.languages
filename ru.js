@@ -33,8 +33,8 @@ export default {
     8: 'Удалено'
   },
   ideas: {
-    0: 'Nothing founded',
-    1: 'Screenshots of «{type}» were not uploaded to the site'
+    0: 'Ничего не найдено',
+    1: 'Скриншоты «{type}» не были загружены на сайт'
   },
   creators: {
     0: 'Создатели',
@@ -50,8 +50,8 @@ export default {
     1: 'Список всех тегов, связанных с этим скином',
     2: 'Что-то пустовато',
     3: 'Используйте поле выше, чтобы найти новые теги',
-    4: 'Tags not found',
-    5: 'Try searching for something else',
+    4: 'Теги не найдены',
+    5: 'Попробуйте другие параметры поиска',
     6: 'Поиск'
   },
   videos: {
