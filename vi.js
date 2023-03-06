@@ -6,7 +6,7 @@ export default {
     tags: {
       0: 'Các Tag',
       1: '{amount} tag của nhóm {name}',
-      2: 'Search tags'
+      2: 'Tìm tag'
     },
     ideas: {
       0: 'Cảm Hứng',
@@ -33,7 +33,7 @@ export default {
     8: 'Xoá'
   },
   ideas: {
-    0: 'Nothing founed',
+    0: 'Nothing founded',
     1: 'Screenshots of «{type}» were not uploaded to the site'
   },
   creators: {
@@ -199,7 +199,7 @@ export default {
       8: '{name} tìm kiếm skin osu',
       9: 'Lấy cảm hứng từ các skin osu khác',
       10: '{name} đã tạo skin osu',
-      11: 'Search tags',
+      11: 'Tìm tag',
       12: '{name} found tags'
     },
     description: {
