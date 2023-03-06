@@ -5,7 +5,8 @@ export default {
     lists: { 0: 'Listes' },
     tags: {
       0: 'Tags',
-      1: '{amount} tags pour la catégorie {name}'
+      1: '{amount} tags pour la catégorie {name}',
+      2: 'Search tags'
     },
     ideas: {
       0: 'Inspiration',
@@ -17,7 +18,8 @@ export default {
     skin: {
       0: 'Ce skin contient des éléments provenant d\'autres skins',
       1: 'Cliquez ici pour plus d\'informations'
-    }
+    },
+    tools: 'Outils'
   },
   changelogs: {
     0: 'Journal des modifications',
@@ -29,6 +31,10 @@ export default {
     6: 'Correctifs',
     7: 'Changements',
     8: 'Suppressions'
+  },
+  ideas: {
+    0: 'Nothing founed',
+    1: 'Screenshots of «{type}» were not uploaded to the site'
   },
   creators: {
     0: 'Créateurs',
@@ -43,7 +49,10 @@ export default {
     0: 'Tags',
     1: 'Liste de tous les tags liés à ce skin',
     2: 'Ca m\'a l\'air vide ici.',
-    3: 'Utilisez le champ ci-dessus pour trouver de nouveaux tags'
+    3: 'Utilisez le champ ci-dessus pour trouver de nouveaux tags',
+    4: 'Tags not found',
+    5: 'Try searching for something else',
+    6: 'Rechercher'
   },
   videos: {
     0: 'Vidéos',
@@ -62,6 +71,7 @@ export default {
     0: 'Tout',
     1: 'Métadonnées',
     2: 'Points forts',
+    3: 'Name of the skin not specified',
     4: 'Ajoutez au moins un créateur',
     5: 'Ajoutez quelques tags',
     6: 'Taille du skin non spécifiée',
@@ -73,7 +83,8 @@ export default {
     12: 'Le lien au skin n\'est pas spécifié',
     20: 'Ca a l\'air plutôt bien',
     21: 'Chaque problème a été réparé, c\'est pas mal',
-    22: 'Liste de contrôle'
+    22: 'Liste de contrôle',
+    23: 'Add at least one public version'
   },
   skins: {
     0: 'Skins',
@@ -87,7 +98,9 @@ export default {
     8: 'Tous les skins | skins osu',
     9: 'Skin | Skins | Skins',
     10: 'Skins osu par {name} | Tous les skins de',
-    11: 'Rechercher'
+    11: 'Rechercher',
+    12: '{name} skins',
+    13: 'Explore skins'
   },
   skin: {
     0: 'Editer',
@@ -116,7 +129,10 @@ export default {
     24: '{amount} secondes restantes',
     25: 'Vous n\'êtes pas l\'un d\'entre nous',
     26: 'On dirait que vous n\'êtes pas un créateur ou un éditeur de ce skin',
-    27: 'Skin fait par'
+    27: 'Skin fait par',
+    28: 'No tags',
+    29: 'No videos',
+    30: 'No creators'
   },
   drag: {
     0: 'Cliquez ici',
@@ -149,7 +165,13 @@ export default {
     9: 'en attente d\'une requête',
     10: 'Sélectionnez le critère de recherche ou écrivez juste le titre, l\'auteur ou le tag',
     11: 'Téléchargements',
-    12: 'Nom'
+    12: 'Nom',
+    13: {
+      0: 'Skins',
+      1: 'Tags',
+      2: 'Users',
+      3: 'Listes'
+    }
   },
   tabs: {
     0: 'Rechercher',
@@ -176,7 +198,9 @@ export default {
       7: 'skins osu',
       8: '{name} recherche de skin osu',
       9: 'Inspirez-vous des autres skins osu',
-      10: 'Skins faits par {name}'
+      10: 'Skins faits par {name}',
+      11: 'Search tags',
+      12: '{name} found tags'
     },
     description: {
       0: 'Trouvez les meilleurs skins d\'osu! sur notre site ! Notre gigantesque librairie possède des skins pour tous les modes de jeu, formats d\'image, et même ceux des top players. En plus, nous avons une section spéciale pour les fans d\'animé. Améliorez votre gameplay avec le meilleur skin.#osuskins #osugame #anime',
@@ -188,9 +212,9 @@ export default {
       6: '{name} collection de skin osu!, Téléchargement gratuit',
       7: 'Un énorme montant de skins pour un{name}, Téléchargez gratuitement!',
       8: 'Tous les skins osu! Créés par {name}',
-      9: 'Trouvez l\'inspiration pour votre prochain skin osu! sur notre site. Naviguez dans une collection de skins variés et découvrez de nouvelles techniques et idées. Inspirez vous et créez vos skins uniques'
-    },
-    keywords: { 0: 'osu, osu!, osu skins, std skins, ctb skins, mania skins, taiko skins, mrekk osu skins,Rafis osu skins,FlyingTuna osu skins,Vaxei osu skins,Cookiezi osu skins,Varvalian osu skins,RyuK osu skins,WhiteCat osu skins,_RyuK osu skins,BeasttrollMC osu skins,Genshin Impact osu skins,Mathi osu skins,WubWoofWolf osu skins,Merami osu skins,xootynator osu skins,Gayzmcgee osu skins,[Karcher] osu skins,Bubbleman osu skins,ChomikBox osu skins,NSFW osu skins,Lifeline osu skins,Hatsune Miku osu skins,Azerite osu skins,Umbre osu skins,404 AimNotFound osu skins,-Nikstrim osu skins,bloo osu skins,Shigetora osu skins,Badeu osu skins,FunOrange osu skins,worst hr player osu skins,Tekkito osu skins,ninerik osu skins,azr8 osu skins,idke osu skins,Andros osu skins,Zylice osu skins,Rektygon osu skins,Komori osu skins,anime osu skins,cyperdark osu skins,Red_Pixel osu skins,Utami osu skins,Arknights osu skins,Karthy osu skins,Paraqeet osu skins,aetrna osu skins,Spare osu skins,-GN osu skins,Mastasz osu skins,Seouless osu skins,haga1115 osu skins,shimon osu skins,fieryrage osu skins,Ekoro osu skins,Firebat92 osu skins,_Shield osu skins,-Roaz- osu skins,- Dark - osu skins,atturbo555 osu skins,Aristia osu skins,_Aiko__ osu skins,z x c osu skins,eternum osu skins,talala osu skins,NyanPotato osu skins,Arnold24x24 osu skins,Alumetri osu skins,im a fancy lad osu skins,jordanlr7 osu skins,Woey osu skins,khz osu skins,rrtyui osu skins,kieg osu skins,Rupertion osu skins,FGSky osu skins,Aireu osu skins,Neko God osu skins,Apostol osu skins,Abyssal osu skins,dokidokilolixx osu skins,Mlaw osu skins,Ponytail osu skins,Reedkatt osu skins,Zestiny osu skins,Apraxia osu skins,Binfy osu skins,Rohulk osu skins,-PloX osu skins,DuyKhang-sama osu skins,BronyPH osu skins,Intercambing osu skins,Xeltol osu skins,Valorant osu skins,Akolibed osu skins,hololive osu skins,kablaze osu skins,tokyo ghoul osu skins,Trail Mix osu skins,Dereban osu skins' }
+      9: 'Trouvez l\'inspiration pour votre prochain skin osu! sur notre site. Naviguez dans une collection de skins variés et découvrez de nouvelles techniques et idées. Inspirez vous et créez vos skins uniques',
+      10: 'Search for tags among all the tags on the site.'
+    }
   },
   buttons: {
     0: 'Se connecter',
@@ -287,14 +311,81 @@ export default {
     12: 'Ecrivez une desctiption et un url. Format description:url',
     13: 'Sélectionnez des suppléments',
     14: 'Copiez un lien',
-    15: 'Titre du skin, auteur ou tag'
+    15: 'Titre du skin, auteur ou tag',
+    16: 'Select category',
+    17: 'Type name of the tag'
   },
   contribute: { 0: 'Contribuer' },
   nsfw: {
     0: 'Attention !',
     1: 'Ce skin contient du contenu sensible ou pour adultes',
     2: 'Ce skin contient du contenu sensible ou pour adultes qui peuvent déranger certains utilisateurs',
-    3: ' Ça marche',
-    4: ' bye o/'
+    3: 'Alright',
+    4: 'bye o/'
+  },
+  removed: {
+    0: 'Version unavailable',
+    1: 'Author of the skin decided to remove this version from the site.',
+    2: 'Switch to available version'
+  },
+  notify: {
+    0: 'Issues not fixed',
+    1: 'Not all required fields was field',
+    2: 'Show',
+    3: 'Not found',
+    4: 'Banner not found (Currently, the first screenshot is being used as the banner)',
+    5: 'No changes',
+    6: 'No changes were found',
+    7: 'ID not found',
+    8: 'ID of the video not found, try another link (At the moment only YouTube is supported)',
+    9: 'Oops',
+    10: 'Looks like you\'re user session is expired, open new page and log into your account (Don\'t worry, everything is saved automatically)',
+    11: 'Exists',
+    12: 'This video has already been added',
+    13: 'Exists',
+    14: 'This tag has already been added',
+    15: 'Not found',
+    16: 'You cannot delete a deleted tag',
+    17: 'Added',
+    18: 'You have successfully added a new tag',
+    19: 'OOps',
+    20: 'This creator was already added',
+    21: 'EZ',
+    22: 'New creater has been added',
+    23: 'HUH',
+    24: 'Impossible to remove a deleted creator',
+    25: 'Exists',
+    26: 'Same change with this type has been added earlier',
+    27: 'Warning',
+    28: 'Same url with this type has been added earlier',
+    29: 'Warning',
+    30: 'You forget to add a description for a url. Example: Description:url',
+    31: 'Warning',
+    32: 'You forget to add a url for description. Example: Description:url',
+    33: 'Restored',
+    34: 'Version {name} has been restored',
+    35: 'Deleted',
+    36: 'Version {name} has been deleted',
+    37: 'Error',
+    38: 'Seems like server thinks you\'re the bot',
+    39: 'Looks like you\'re user session is expired, open new page and log into your account (Don\'t worry, everything is saved automatically)',
+    40: 'Mismatched credentials (re:login in account. Don\'t worry, everything is saved automatically)',
+    41: 'Unknown error',
+    42: 'You cannot edit inexistent skin',
+    43: 'Seems like you don\'t have permissions to edit this skin',
+    44: 'You cannot submit this version as it is the same as the previous one',
+    45: 'Those changes has been sent already on moderation',
+    46: 'Success',
+    47: 'New changes have been submitted for moderation',
+    48: 'Changes have been updated in moderation',
+    49: 'Odd link',
+    50: 'This link cannot be used as a download link',
+    51: 'Submitted to moderation'
+  },
+  restricted_view: {
+    0: 'Non autorisé',
+    1: 'Please login in account',
+    2: 'Restricted view',
+    3: 'This page is not out, yet.'
   }
 };
