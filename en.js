@@ -392,7 +392,7 @@ export default {
     36: 'Version {name} has been deleted',
 
     37: 'Error',
-    38: 'Seems like server thinks you\'re the bot',
+    38: 'Seems like the server thinks you\'re a bot',
     39: 'Looks like you\'re user session is expired, open new page and log into your account (Don\'t worry, everything is saved automatically)',
 
     40: 'Mismatched credentials (re:login in account. Don\'t worry, everything is saved automatically)',
