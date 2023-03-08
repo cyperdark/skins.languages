@@ -25,7 +25,7 @@ export default {
     0: 'Catatan Perubahan',
     1: 'Daftar perubahan di versi saat ini',
     2: 'Riwayat kosong',
-    3: 'But you can add the changes you made\'ve to this version of the skin',
+    3: 'But you can add the changes you\'ve made to this version of the skin',
     4: 'Tidak Terorganisir',
     5: 'Baru',
     6: 'Perbaikan',
