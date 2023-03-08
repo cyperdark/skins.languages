@@ -25,7 +25,7 @@ export default {
     0: 'Änderungsprotokoll',
     1: 'Liste aller Überarbeitungen, die in der aktuellen Version vorgenommen wurden.',
     2: 'Hier ist nichts...',
-    3: 'Aber du kannst die Änderungen, die du an dem Skin vorgenommen hast, hinzufügen.',
+    3: 'But you can add the changes you made\'ve to this version of the skin',
     4: 'Nicht gruppiert',
     5: 'Neu',
     6: 'Behebungen',
@@ -81,8 +81,8 @@ export default {
     10: 'Keine Bildschirmfotos vorhanden',
     11: 'Füge mindestens ein Gameplay-Bildschirmfoto hinzu!',
     12: 'Link zum Skin nicht angegeben.',
-    20: 'Sieht gut aus.',
-    21: 'Jeder einzelne Fehler wurde behoben, gute Arbeit.',
+    20: 'Looks pretty good',
+    21: 'Every issue was fixed. Good job!',
     22: 'Strichliste',
     23: 'Add at least one public version'
   },
@@ -151,7 +151,7 @@ export default {
     5: 'Alle Bilder der Flaggen sind von {name}.',
     6: 'Lokalisierung',
     7: 'Irgendwer? [{lang}]',
-    8: 'Sieht so aus, als hätte cpol vergessen, sie hinzuzufügen. {text}'
+    8: 'Seems like cyperdark forgot to add them. {text}'
   },
   search: {
     0: 'Skin-Suche',
@@ -161,9 +161,9 @@ export default {
     4: 'Größe',
     5: 'Datum',
     7: 'Nichts gefunden.',
-    8: 'Versuche, ein anderes Suchkriterium zu benutzen.',
+    8: 'Try using different search filters',
     9: 'Abfrage anstehend.',
-    10: 'Wähle das Suchkriterium, oder gib einfach den Skintitel, den Autor oder ein Stichwort ein.',
+    10: 'Use the search filters or type the skin\'s title, author or tags',
     11: 'Downloads',
     12: 'Name',
     13: {
@@ -180,11 +180,11 @@ export default {
   },
   undefined: {
     0: 'Leer',
-    1: 'Leider ist diese Seite leer, du kannst jedoch auf einer anderen Seite schauen.',
-    2: 'Leider ist diese Seite leer.',
+    1: 'Unfortunately, there\'s nothing here, but you can take a look at the other pages',
+    2: 'Unfortunately, there\'s nothing here',
     3: 'Nicht autorisiert!',
-    4: 'Du musst angemeldet sein, um diesen Skin zu editieren.',
-    5: 'Du musst eingeloggt sein, um einen neuen Skin hinzuzufügen.'
+    4: 'You need to be logged in order to edit this skin.',
+    5: 'You need to be logged in order to add a new skin.'
   },
   meta: {
     title: {
@@ -247,7 +247,7 @@ export default {
     3: 'Likes: {likes} / Dislikes {dislikes}',
     4: 'Drücke Strg+Enter um ein Stichwort hinzuzufügen.',
     5: 'Bearbeite die Version',
-    6: '{s}Melde dich an{p}, um diesen Skin zu bewerten.',
+    6: '{s}Log in{p}, in order to rate this skin',
     7: 'Keine kurze Beschreibung.',
     8: 'Keine URL',
     9: 'Downloads: {amount}'
@@ -296,9 +296,9 @@ export default {
     ratio: 'Wähle das Seitenverhältnis aus'
   },
   placeholders: {
-    0: 'Rollen wählen',
-    1: 'Versionen wählen',
-    2: 'Schreibe etwas...',
+    0: 'Select roles',
+    1: 'Select versions',
+    2: 'Type some text...',
     3: 'Dateigröße auswählen',
     4: 'Zeitraum auswählen',
     5: 'Jahr',
@@ -308,12 +308,12 @@ export default {
     9: 'Spielmodi',
     10: 'Typ auswählen',
     11: 'Füge einen YouTube Link ein.',
-    12: 'Schreibe eine Beschreibung und die URL. Format: Beschreibung:URL',
+    12: 'Type a description and an url. Format description:url',
     13: 'Extras auswählen',
     14: 'Link einfügen',
-    15: 'Skintitel, Autor, oder Tag',
+    15: 'Skin title, author, or tags',
     16: 'Select category',
-    17: 'Type name of the tag'
+    17: 'Type the name of the tag'
   },
   contribute: { 0: 'Beitragen' },
   nsfw: {
@@ -325,12 +325,12 @@ export default {
   },
   removed: {
     0: 'Version unavailable',
-    1: 'Author of the skin decided to remove this version from the site.',
-    2: 'Switch to available version'
+    1: 'The author of the skin decided to remove this version from the site.',
+    2: 'Switch to an available version'
   },
   notify: {
-    0: 'Issues not fixed',
-    1: 'Not all required fields was filled',
+    0: 'Issues were not fixed',
+    1: 'Not all required fields were filled',
     2: 'Show',
     3: 'Not found',
     4: 'Banner not found (Currently, the first screenshot is being used as the banner)',
@@ -339,7 +339,7 @@ export default {
     7: 'ID not found',
     8: 'ID of the video not found, try another link (At the moment only YouTube is supported)',
     9: 'Oops',
-    10: 'Looks like your session is expired, open new page and log into your account (Don\'t worry, everything is saved automatically)',
+    10: 'Looks like your session expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
     11: 'Exists',
     12: 'This video has already been added',
     13: 'Exists',
@@ -354,33 +354,33 @@ export default {
     22: 'New creator has been added',
     23: 'HUH',
     24: 'Impossible to remove a deleted creator',
-    25: 'Exists',
-    26: 'Same change with this type has been added earlier',
-    27: 'Warning',
-    28: 'Same url with this type has been added earlier',
+    25: 'Duplicate',
+    26: 'This change has already been added earlier.',
+    27: 'Duplicate',
+    28: 'This url has already been added earlier.',
     29: 'Warning',
-    30: 'You forgot to add a description for a url. Example: Description:url',
+    30: 'You forgot to add a description for the url. Example: Description:url',
     31: 'Warning',
-    32: 'You forgot to add a url for description. Example: Description:url',
+    32: 'You forgot to add an url for the description. Example: Description:url',
     33: 'Restored',
-    34: 'Version {name} has been restored',
+    34: 'Version «{name}» has been restored',
     35: 'Deleted',
-    36: 'Version {name} has been deleted',
+    36: 'Version «{name}» has been deleted',
     37: 'Error',
-    38: 'Seems like the server thinks you\'re a bot',
-    39: 'Looks like you\'re user session is expired, open new page and log into your account (Don\'t worry, everything is saved automatically)',
-    40: 'Mismatched credentials (re:login in account. Don\'t worry, everything is saved automatically)',
+    38: 'Apparently the server thinks you\'re a robot.',
+    39: 'Looks like your user session has expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
+    40: 'Mismatched credentials (relogin in account. Don\'t worry, everything was saved automatically)',
     41: 'Unknown error',
-    42: 'You cannot edit inexistent skin',
-    43: 'Seems like you don\'t have permissions to edit this skin',
-    44: 'You cannot submit this version as it is the same as the previous one',
-    45: 'Those changes has been sent already on moderation',
+    42: 'You cannot edit a nonexistent skin',
+    43: 'Seems like you don\'t have permission to edit this skin',
+    44: 'You cannot send this version because it is the same as the previous one.',
+    45: 'These changes have already been sent for moderation',
     46: 'Success',
     47: 'New changes have been submitted for moderation',
     48: 'Changes have been updated in moderation',
     49: 'Odd link',
     50: 'This link cannot be used as a download link',
-    51: 'Submitted to moderation'
+    51: 'Submitted for moderation'
   },
   restricted_view: {
     0: 'Nicht autorisiert!',
