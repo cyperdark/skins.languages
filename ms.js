@@ -6,7 +6,7 @@ export default {
     tags: {
       0: 'Penanda',
       1: '{amount} penanda untuk kategori {name}',
-      2: 'Search tags'
+      2: 'Cari tag'
     },
     ideas: {
       0: 'Inspirasi',
@@ -25,7 +25,7 @@ export default {
     0: 'Log perubahan',
     1: 'Senarai semua penyemakan yang telah dibuat di dalam versi terkini',
     2: 'Tiada apa-apa di sini',
-    3: 'Tetapi anda boleh menambah perubahan skin ini yang anda telah buat',
+    3: 'But you can add the changes you made\'ve to this version of the skin',
     4: 'Tidak dikumpulkan',
     5: 'Baharu',
     6: 'Pembetulan',
@@ -34,7 +34,7 @@ export default {
   },
   ideas: {
     0: 'Tiada apa-apa dijumpai',
-    1: 'Screenshots of «{type}» were not uploaded to the site'
+    1: 'Screenshot untuk «{type}» tidak dimuat naik kepada site'
   },
   creators: {
     0: 'Pembuat',
@@ -81,8 +81,8 @@ export default {
     10: 'Tiada screenshot yang diberikan',
     11: 'Masukkan sekurang-kurangnya satu screenshot bagi gameplay',
     12: 'Pautan bagi skin tidak dispesifikasi',
-    20: 'Nampak seperti bagus',
-    21: 'Semua masalah telah dibetulkan. Syabas',
+    20: 'Looks pretty good',
+    21: 'Every issue was fixed. Good job!',
     22: 'Senarai semak',
     23: 'Letakkan sekurang-kurangnya satu versi awam'
   },
@@ -99,7 +99,7 @@ export default {
     9: 'Skin | Skin | Skin',
     10: 'Skin osu oleh {name} | Semua skin daripada',
     11: 'Cari',
-    12: '{name} skins',
+    12: '{name} skin-skin',
     13: 'Meneroka skin lain'
   },
   skin: {
@@ -130,7 +130,7 @@ export default {
     25: 'Kamu bukan salah satu dari kami',
     26: 'Kelihatan seperti kamu bukan pembuat atau penyunting skin ini',
     27: 'Skin oleh',
-    28: 'Tiada penanda',
+    28: 'Tiada tag',
     29: 'Tiada video',
     30: 'Tiada pembuat'
   },
@@ -151,7 +151,7 @@ export default {
     5: 'Semua gambar bendera diambil dari {name}',
     6: 'Lokalisasi',
     7: 'Sesiapa? [{lang}]',
-    8: 'Nampak macam cpol lupa nak tambah. {text}'
+    8: 'Seems like cyperdark forgot to add them. {text}'
   },
   search: {
     0: 'Cari skin',
@@ -161,9 +161,9 @@ export default {
     4: 'Saiz',
     5: 'Tarikh',
     7: 'Tiada apa-apa dijumpai',
-    8: 'Cuba tetapkan penapis carian yang lain',
+    8: 'Try using different search filters',
     9: 'Menunggu pertanyaan',
-    10: 'Pilih penapis carian atau hanya tulis tajuk skin, pembuat atau penanda',
+    10: 'Use the search filters or type the skin\'s title, author or tags',
     11: 'Muat turun',
     12: 'Nama',
     13: {
@@ -180,11 +180,11 @@ export default {
   },
   undefined: {
     0: 'Kosong',
-    1: 'Malangnya tak ada apa-apa kat sini, tapi ko boleh tengok halaman lain',
-    2: 'Malangnya tak ada apa-apa kat sini',
+    1: 'Unfortunately, there\'s nothing here, but you can take a look at the other pages',
+    2: 'Unfortunately, there\'s nothing here',
     3: 'Tiada kebenaran',
-    4: 'Anda perlu log masuk untuk menyunting skin ini.',
-    5: 'Anda perlu log masuk untuk menambah skin baharu.'
+    4: 'You need to be logged in order to edit this skin.',
+    5: 'You need to be logged in order to add a new skin.'
   },
   meta: {
     title: {
@@ -199,8 +199,8 @@ export default {
       8: '{name} mencari skin osu',
       9: 'Dapatkan inspirasi dari skin osu yang lain',
       10: '{name} membuat skin osu',
-      11: 'Search tags',
-      12: '{name} found tags'
+      11: 'Cari tag',
+      12: '{name} tag-tag dijumpai'
     },
     description: {
       0: 'Dapatkan skin osu! yang terbaik dari laman web kami! Kami mempunyai banyak skin untuk semua mod permainan, nisbah aspek dan juga pemain-pemain terbaik. Tambahan, kami juga mempunyai bahagian yang istimewa untuk peminat-peminat anime. Menaik taraf permainan anda dengan skin yang sempurna. #osuskins #osugame #anime',
@@ -213,7 +213,7 @@ export default {
       7: 'Skin osu yang banyak untuk {name}, muat turun secara percuma!',
       8: 'Semua skin osu dibuat oleh {name}',
       9: 'Cari inspirasi untuk skin osu! anda yang seterusnya di laman web kami. Semak melalui koleksi skin yang pelbagai dan teroka pelbagai teknik dan idea. Dapatkan inspirasi dan cipta skin anda yang unik.',
-      10: 'Search for tags among all the tags on the site.'
+      10: 'Cari tag-tag dari kesemua tag di site ini.'
     }
   },
   buttons: {
@@ -247,7 +247,7 @@ export default {
     3: 'Suka: {likes} / Tidak suka: {dislikes}',
     4: 'Tekan ctrl+tag untuk menambah tag',
     5: 'Edit versi',
-    6: '{s}Dafter masuk{p}, untuk menilai skin ini',
+    6: '{s}Log in{p}, in order to rate this skin',
     7: 'Tiada kandungan',
     8: 'Tiada url',
     9: 'Muat turun: {amount}'
@@ -296,9 +296,9 @@ export default {
     ratio: 'Pilih nisbah aspek | nisbah'
   },
   placeholders: {
-    0: 'Pilih peranan',
-    1: 'Pilih versi',
-    2: 'Tulis teks...',
+    0: 'Select roles',
+    1: 'Select versions',
+    2: 'Type some text...',
     3: 'Pilih saiz',
     4: 'Pilih julat tarikh',
     5: 'Tahun',
@@ -308,12 +308,12 @@ export default {
     9: 'Mod permainan',
     10: 'Pilih taip',
     11: 'Letakkan pautan Youtube',
-    12: 'Taip penerangan dan url. Format penerangan:url',
+    12: 'Type a description and an url. Format description:url',
     13: 'Pilih tambahan',
     14: 'Letakkan pautan',
-    15: 'Tajuk skin, pengarang atau tag',
-    16: 'Select category',
-    17: 'Tulis nama penanda'
+    15: 'Skin title, author, or tags',
+    16: 'Pilih katergori',
+    17: 'Type the name of the tag'
   },
   contribute: { 0: 'Sumbangan' },
   nsfw: {
@@ -324,68 +324,68 @@ export default {
     4: 'jumpa lagi o/'
   },
   removed: {
-    0: 'Version unavailable',
-    1: 'Author of the skin decided to remove this version from the site.',
-    2: 'Switch to available version'
+    0: 'Versi tidak ada',
+    1: 'The author of the skin decided to remove this version from the site.',
+    2: 'Switch to an available version'
   },
   notify: {
-    0: 'Issues not fixed',
-    1: 'Not all required fields was filled',
-    2: 'Show',
-    3: 'Not found',
-    4: 'Banner not found (Currently, the first screenshot is being used as the banner)',
-    5: 'No changes',
-    6: 'No changes were found',
-    7: 'ID not found',
-    8: 'ID of the video not found, try another link (At the moment only YouTube is supported)',
-    9: 'Oops',
-    10: 'Looks like your session is expired, open new page and log into your account (Don\'t worry, everything is saved automatically)',
-    11: 'Exists',
-    12: 'This video has already been added',
-    13: 'Exists',
-    14: 'This tag has already been added',
-    15: 'Not found',
-    16: 'You cannot delete a deleted tag',
-    17: 'Added',
-    18: 'You have successfully added a new tag',
+    0: 'Issues were not fixed',
+    1: 'Not all required fields were filled',
+    2: 'Tunjuk',
+    3: 'Tidak dijumpai',
+    4: 'Banner tidak dijumpai (Screenshot pertama sedang digunakan sebagai banner)',
+    5: 'Tiada perubahan',
+    6: 'Tiada perubahan dijumpai',
+    7: 'ID tidak dijumpai',
+    8: 'ID untuk video tidak dijumpai, cuba pautan yang lain (Buat masa sekarang hanya pautan Youtube sahaja yang disokong)',
+    9: 'Alamak',
+    10: 'Looks like your session expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
+    11: 'Wujud',
+    12: 'Video ini telah pun ditambah',
+    13: 'Wujud',
+    14: 'Tag ini telah pun ditambah',
+    15: 'Tidak dijumpai',
+    16: 'Anda tidak boleh memadamkan tag',
+    17: 'Telah ditambah',
+    18: 'Anda berjaya menambah tag baharu',
     19: 'Alamak',
-    20: 'This creator was already added',
+    20: 'Pencipta ini telah pun diletakkan',
     21: 'EZ',
-    22: 'New creator has been added',
+    22: 'Pencipta baharu telah pun ditambah',
     23: 'HUH',
-    24: 'Impossible to remove a deleted creator',
-    25: 'Exists',
-    26: 'Same change with this type has been added earlier',
-    27: 'Warning',
-    28: 'Same url with this type has been added earlier',
-    29: 'Warning',
-    30: 'You forgot to add a description for a url. Example: Description:url',
-    31: 'Warning',
-    32: 'You forgot to add a url for description. Example: Description:url',
-    33: 'Restored',
-    34: 'Version {name} has been restored',
+    24: 'Mustahil untuk memadam sesebuah pencipta',
+    25: 'Duplicate',
+    26: 'This change has already been added earlier.',
+    27: 'Duplicate',
+    28: 'This url has already been added earlier.',
+    29: 'Amaran',
+    30: 'You forgot to add a description for the url. Example: Description:url',
+    31: 'Amaran',
+    32: 'You forgot to add an url for the description. Example: Description:url',
+    33: 'Telah dipulihkan',
+    34: 'Version «{name}» has been restored',
     35: 'Dibuang',
-    36: 'Versi {name} telah dibuang',
+    36: 'Version «{name}» has been deleted',
     37: 'Ralat',
-    38: 'Seems like the server thinks you\'re a bot',
-    39: 'Looks like you\'re user session is expired, open new page and log into your account (Don\'t worry, everything is saved automatically)',
-    40: 'Mismatched credentials (re:login in account. Don\'t worry, everything is saved automatically)',
+    38: 'Apparently the server thinks you\'re a robot.',
+    39: 'Looks like your user session has expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
+    40: 'Mismatched credentials (relogin in account. Don\'t worry, everything was saved automatically)',
     41: 'Ralat tidak diketahui',
-    42: 'You cannot edit inexistent skin',
-    43: 'Seems like you don\'t have permissions to edit this skin',
-    44: 'You cannot submit this version as it is the same as the previous one',
-    45: 'Those changes has been sent already on moderation',
+    42: 'You cannot edit a nonexistent skin',
+    43: 'Seems like you don\'t have permission to edit this skin',
+    44: 'You cannot send this version because it is the same as the previous one.',
+    45: 'These changes have already been sent for moderation',
     46: 'Berjaya',
-    47: 'New changes have been submitted for moderation',
-    48: 'Changes have been updated in moderation',
+    47: 'Perubahan baharu telah diserahkan kepada pihak moderasi',
+    48: 'Perubahan telah dimuat naik kepada pihak moderasi',
     49: 'Link pelik',
     50: 'Link ini tidak boleh diguna sebagai link muat turun',
-    51: 'Submitted to moderation'
+    51: 'Submitted for moderation'
   },
   restricted_view: {
     0: 'Tiada kebenaran',
     1: 'Sila log masuk dengan akaun',
-    2: 'Restricted view',
-    3: 'This page is not out, yet.'
+    2: 'Pengelihatan terhad',
+    3: 'Helaian ini belum dikeluarkan, lagi.'
   }
 };
