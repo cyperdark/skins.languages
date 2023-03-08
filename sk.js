@@ -25,7 +25,7 @@ export default {
     0: 'Zoznam zmien',
     1: 'Zoznam všetkých vývojárov ktorí boli zapojení vo vývoji tejto verzie',
     2: 'Nikto tu nie je',
-    3: 'Napísanie hráčov ho mena vám ukáže výsledky osu vyhľadávania',
+    3: 'But you can add the changes you made\'ve to this version of the skin',
     4: 'Nezoskupené',
     5: 'Nové',
     6: 'Opravené',
@@ -81,8 +81,8 @@ export default {
     10: 'Žiadny snímok obrazovky',
     11: 'Pridajte aspoň jeden snímok obrazovky z hrania',
     12: 'Odkaz na skin nie je špecifikovaný',
-    20: 'Vyzerá to dobre',
-    21: 'Každý problém bol opravený, čo je dobre',
+    20: 'Looks pretty good',
+    21: 'Every issue was fixed. Good job!',
     22: 'Kontrolná listina',
     23: 'Add at least one public version'
   },
@@ -151,7 +151,7 @@ export default {
     5: 'Všetke obrázky vlajok sú od {name}',
     6: 'Lokalizácia',
     7: 'Niekto? [{lang}]',
-    8: 'Zdá sa, že cpol zabudol ich pridať. {text}'
+    8: 'Seems like cyperdark forgot to add them. {text}'
   },
   search: {
     0: 'Vyhľadať skin',
@@ -161,9 +161,9 @@ export default {
     4: 'Velikost',
     5: 'Dátum',
     7: 'Nič sa nenašlo',
-    8: 'Skúste nastaviť iné filtre vyhľadávania',
+    8: 'Try using different search filters',
     9: 'Čaká sa na dotaz',
-    10: 'Vyberte vyhľadávacie filtre alebo napíšte názov skinu, autora alebo značku',
+    10: 'Use the search filters or type the skin\'s title, author or tags',
     11: 'Stiahnutie',
     12: 'Meno/Názov',
     13: {
@@ -180,11 +180,11 @@ export default {
   },
   undefined: {
     0: 'Prázdny',
-    1: 'Bohužiaľ tu nič nie je, každopádne si môžete pozrieť iné stránky',
-    2: 'Bohužiaľ tu nič nie je',
+    1: 'Unfortunately, there\'s nothing here, but you can take a look at the other pages',
+    2: 'Unfortunately, there\'s nothing here',
     3: 'Neoprávnené',
-    4: 'Ak chcete upraviť tento skin, musíte byť prihlásený.',
-    5: 'Musíš byť prihlásený na to, aby si pridal nový skin.'
+    4: 'You need to be logged in order to edit this skin.',
+    5: 'You need to be logged in order to add a new skin.'
   },
   meta: {
     title: {
@@ -247,7 +247,7 @@ export default {
     3: 'Obľúbene: {likes} / Zlé: {dislikes}',
     4: 'Stlačte ctrl+enter pre pridanie označenia',
     5: 'Upraviť verziu',
-    6: '{s}Prihláste sa{p}, aby ste mohli ohodnotiť tento skin',
+    6: '{s}Log in{p}, in order to rate this skin',
     7: 'Žiadny krátky popis',
     8: 'Žiadne URL',
     9: 'Stiahnuté bolo: {amount}'
@@ -296,9 +296,9 @@ export default {
     ratio: 'Vyber pomer stran | pomer'
   },
   placeholders: {
-    0: 'Vyber rolu',
-    1: 'Vyber verziu',
-    2: 'Napíš text...',
+    0: 'Select roles',
+    1: 'Select versions',
+    2: 'Type some text...',
     3: 'Vyber velikosti',
     4: 'Výber časového obdobia',
     5: 'Rok',
@@ -308,12 +308,12 @@ export default {
     9: 'Herne mody',
     10: 'Vložte typ',
     11: 'Vložte Youtube odkaz',
-    12: 'Zadajte popis a url.Popis formátu:url',
+    12: 'Type a description and an url. Format description:url',
     13: 'Výber extra',
     14: 'Vložte link',
-    15: 'Názov skinu, autora, alebo označenie',
+    15: 'Skin title, author, or tags',
     16: 'Select category',
-    17: 'Type name of the tag'
+    17: 'Type the name of the tag'
   },
   contribute: { 0: 'Prispievanie' },
   nsfw: {
@@ -325,12 +325,12 @@ export default {
   },
   removed: {
     0: 'Version unavailable',
-    1: 'Author of the skin decided to remove this version from the site.',
-    2: 'Switch to available version'
+    1: 'The author of the skin decided to remove this version from the site.',
+    2: 'Switch to an available version'
   },
   notify: {
-    0: 'Issues not fixed',
-    1: 'Not all required fields was filled',
+    0: 'Issues were not fixed',
+    1: 'Not all required fields were filled',
     2: 'Show',
     3: 'Not found',
     4: 'Banner not found (Currently, the first screenshot is being used as the banner)',
@@ -339,7 +339,7 @@ export default {
     7: 'ID not found',
     8: 'ID of the video not found, try another link (At the moment only YouTube is supported)',
     9: 'Oops',
-    10: 'Looks like your session is expired, open new page and log into your account (Don\'t worry, everything is saved automatically)',
+    10: 'Looks like your session expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
     11: 'Exists',
     12: 'This video has already been added',
     13: 'Exists',
@@ -354,33 +354,33 @@ export default {
     22: 'New creator has been added',
     23: 'HUH',
     24: 'Impossible to remove a deleted creator',
-    25: 'Exists',
-    26: 'Same change with this type has been added earlier',
-    27: 'Warning',
-    28: 'Same url with this type has been added earlier',
+    25: 'Duplicate',
+    26: 'This change has already been added earlier.',
+    27: 'Duplicate',
+    28: 'This url has already been added earlier.',
     29: 'Warning',
-    30: 'You forgot to add a description for a url. Example: Description:url',
+    30: 'You forgot to add a description for the url. Example: Description:url',
     31: 'Warning',
-    32: 'You forgot to add a url for description. Example: Description:url',
+    32: 'You forgot to add an url for the description. Example: Description:url',
     33: 'Restored',
-    34: 'Version {name} has been restored',
+    34: 'Version «{name}» has been restored',
     35: 'Deleted',
-    36: 'Version {name} has been deleted',
+    36: 'Version «{name}» has been deleted',
     37: 'Error',
-    38: 'Seems like the server thinks you\'re a bot',
-    39: 'Looks like you\'re user session is expired, open new page and log into your account (Don\'t worry, everything is saved automatically)',
-    40: 'Mismatched credentials (re:login in account. Don\'t worry, everything is saved automatically)',
+    38: 'Apparently the server thinks you\'re a robot.',
+    39: 'Looks like your user session has expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
+    40: 'Mismatched credentials (relogin in account. Don\'t worry, everything was saved automatically)',
     41: 'Unknown error',
-    42: 'You cannot edit inexistent skin',
-    43: 'Seems like you don\'t have permissions to edit this skin',
-    44: 'You cannot submit this version as it is the same as the previous one',
-    45: 'Those changes has been sent already on moderation',
+    42: 'You cannot edit a nonexistent skin',
+    43: 'Seems like you don\'t have permission to edit this skin',
+    44: 'You cannot send this version because it is the same as the previous one.',
+    45: 'These changes have already been sent for moderation',
     46: 'Success',
     47: 'New changes have been submitted for moderation',
     48: 'Changes have been updated in moderation',
     49: 'Odd link',
     50: 'This link cannot be used as a download link',
-    51: 'Submitted to moderation'
+    51: 'Submitted for moderation'
   },
   restricted_view: {
     0: 'Neoprávnené',
