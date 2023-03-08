@@ -6,7 +6,7 @@ export default {
     tags: {
       0: 'Теги',
       1: 'В категорії {name} є {amount} тегів',
-      2: 'Search tags'
+      2: 'Пошук за тегами'
     },
     ideas: {
       0: 'Натхнення',
@@ -25,7 +25,7 @@ export default {
     0: 'Список змін',
     1: 'Перелік усіх змін, зроблених у поточній версії',
     2: 'Тут пусто',
-    3: 'Але ти можеш додати зміни, зроблені в цій версії',
+    3: 'But you can add the changes you made\'ve to this version of the skin',
     4: 'Не згруповано',
     5: 'Нове',
     6: 'Виправлення',
@@ -34,7 +34,7 @@ export default {
   },
   ideas: {
     0: 'Нічого не знайдено',
-    1: 'Screenshots of «{type}» were not uploaded to the site'
+    1: 'Скріншоти «{type}» не були завантажені на сайт'
   },
   creators: {
     0: 'Творці',
@@ -50,8 +50,8 @@ export default {
     1: 'Список усіх тегів, пов’язаних із цим скіном',
     2: 'Тут досить порожньо.',
     3: 'Використовуй поле вище, щоб знайти нові теги',
-    4: 'Tags not found',
-    5: 'Try searching for something else',
+    4: 'Теги не знайдені',
+    5: 'Спробуйте знайти щось інше',
     6: 'Пошук'
   },
   videos: {
@@ -81,8 +81,8 @@ export default {
     10: 'Жодного знімку екрану не завантажено',
     11: 'Додай принаймні один знімок геймплею',
     12: 'Не вказано посилання на скін',
-    20: 'Непогано',
-    21: 'Кожна проблема була виправлена. Добре зроблено',
+    20: 'Looks pretty good',
+    21: 'Every issue was fixed. Good job!',
     22: 'Контрольний перелік',
     23: 'Додайте принаймні одну публічну версію'
   },
@@ -99,8 +99,8 @@ export default {
     9: 'Скін | Скіни | Скінів',
     10: 'Скіни від {name} | Всі скіни від {name}',
     11: 'Пошук',
-    12: '{name} skins',
-    13: 'Explore skins'
+    12: '{name} скіни',
+    13: 'Дослідити скіни'
   },
   skin: {
     0: 'Редагувати',
@@ -129,10 +129,10 @@ export default {
     24: 'Залишилось {amount} секунд',
     25: 'Ти не один з нас',
     26: 'Схоже, ви не є автором або редактором цього скіна',
-    27: 'Skin by',
-    28: 'No tags',
-    29: 'No videos',
-    30: 'No creators'
+    27: 'Скін від',
+    28: 'Немає тегів',
+    29: 'Немає відео',
+    30: 'Немає авторів'
   },
   drag: {
     0: 'Натисніть тут',
@@ -151,7 +151,7 @@ export default {
     5: 'Всі зображення прапорів беруться з {name}',
     6: 'Локалізація',
     7: 'Хтось? [{lang}]',
-    8: 'Схоже, cpol забув їх додати. {text}'
+    8: 'Seems like cyperdark forgot to add them. {text}'
   },
   search: {
     0: 'Пошук скіну',
@@ -161,9 +161,9 @@ export default {
     4: 'Розмір',
     5: 'Дата',
     7: 'Нічого не знайдено',
-    8: 'Спробуйте налаштувати інші фільтри пошуку',
+    8: 'Try using different search filters',
     9: 'Очікується запит',
-    10: 'Виберіть пошукові фільтри або просто напишіть назву скіну, автора або тег',
+    10: 'Use the search filters or type the skin\'s title, author or tags',
     11: 'Завантаження',
     12: 'Назва',
     13: {
@@ -180,15 +180,15 @@ export default {
   },
   undefined: {
     0: 'Порожньо',
-    1: 'На жаль, тут нічого немає, але ви можете поглянути інші сторінки',
-    2: 'На жаль, тут нічого немає',
+    1: 'Unfortunately, there\'s nothing here, but you can take a look at the other pages',
+    2: 'Unfortunately, there\'s nothing here',
     3: 'Неавторизовано',
-    4: 'Ви повинні увійти в систему, щоб редагувати цей скін.',
-    5: 'Ви повинні увійти в систему, щоб додати новий скін.'
+    4: 'You need to be logged in order to edit this skin.',
+    5: 'You need to be logged in order to add a new skin.'
   },
   meta: {
     title: {
-      0: 'Discover osu skins',
+      0: 'Відкрийте osu! скіни',
       1: 'Ігрові режими, співвідношення сторін osu, скіни',
       2: 'Популярні скіни osu',
       3: 'Пошук скінів osu',
@@ -199,21 +199,21 @@ export default {
       8: '{name} пошук скінів osu',
       9: 'Отримайте натхнення з інших osu! скінів',
       10: '{name} створив скіни osu',
-      11: 'Search tags',
-      12: '{name} found tags'
+      11: 'Пошук за тегами',
+      12: '{name} знайдені теги'
     },
     description: {
       0: 'Отримайте найкращі osu! скіни на нашому сайті! У нашій величезній бібліотеці є скіни для усіх режимів гри, співвідношення сторін і навіть кращих гравців. До того ж, у нас є спеціальний розділ для аніме шанувальників. Покращуйте свою гру з ідеальним скіном. #osuskins #osugame #anime',
       1: '{views} Переглядів. Розмір скіну для {modes} дорівнює\n {size} створений {creators}. Підтримує {ratios}',
       2: 'Знайдіть ідеальний osu! скін з нашою розширеною функцією пошуку. Переглядайте нашу величезну бібліотеку, відфільтровану через режими гри, співвідношення сторін і багато іншого. Або перегляньте скіни, які використовуються найкращими гравцями.',
       3: 'Відкрийте для себе різноманітні скіни для різних режимів гри та співвідношень сторін на нашому сайті. Вибирайте зі стандарту, ctb, mania та taiko режимів. Знайдіть ідеальний скін для вашого стилю гри.',
-      4: 'Find the perfect osu skin from top players on our site. Browse our collection of popular skins and customize your gameplay. Discover a wide range of styles and themes to suit your preferences.',
-      5: 'List of existing tags for osu skins.',
-      6: '{name} osu skins collection!, free downloading',
-      7: 'A huge amount of osu skins for {name}, download for free!',
+      4: 'Віднайди ідеальний osu! скін серед найкращих гравців на цьому сайті. Перегляньте нашу колекцію популярних скінів і прикрасьте свій геймплей. Відкрийте для себе широкий спектр стилів та тем відповідно до ваших уподобань.',
+      5: 'Список наявних тегів для скінів osu.',
+      6: '{name} колекція osu! скінів, завантажити безкоштовно',
+      7: 'Величезна кількість osu скінів для {name}, завантажте безкоштовно!',
       8: 'Усі osu! скіни, створені {name}',
-      9: 'Find inspiration for your next osu! skin at our site. Browse through a diverse collection of skins and discover new techniques and ideas. Get inspired and create your own unique skins.',
-      10: 'Search for tags among all the tags on the site.'
+      9: 'Знайдіть натхнення для наступної теми на нашому сайті. Переглядайте різноманітну колекцію скінів і відкривайте нові техніки та ідеї. Отримуйте натхнення та створюйте свої унікальні скіни.',
+      10: 'Пошук тегів серед усіх інших тегів на сайті.'
     }
   },
   buttons: {
@@ -244,10 +244,10 @@ export default {
     0: 'Переглядів: {amount}',
     1: 'Оновити результати',
     2: 'За спаданням | За зростанням',
-    3: 'Likes: {likes} / Dislikes: {dislikes}',
+    3: 'Вподобайки: {likes} / Дизлайки: {dislikes}',
     4: 'Натисніть ctrl+enter, щоб додати тег',
     5: 'Редагувати версію',
-    6: '{s}Увійдіть{p}, щоб мати можливість оцінити цей скін',
+    6: '{s}Log in{p}, in order to rate this skin',
     7: 'Немає опису',
     8: 'Немає URL',
     9: 'Завантажень: {amount}'
@@ -289,16 +289,16 @@ export default {
     9: 'Інструменти',
     views: 'Перегляди',
     likes: 'Вподобайки',
-    dislikes: 'Dislikes',
+    dislikes: 'Дизлайки',
     downloads: 'Завантаження',
     size_range: 'Розмір скіна',
     date_range: 'Діапазон дат',
     ratio: 'Співвідношення сторін | співвідношення'
   },
   placeholders: {
-    0: 'Виберіть ролі',
-    1: 'Виберіть версії',
-    2: 'Введіть текст...',
+    0: 'Select roles',
+    1: 'Select versions',
+    2: 'Type some text...',
     3: 'Розмір скіна',
     4: 'Діапазон дат',
     5: 'Рік',
@@ -308,12 +308,12 @@ export default {
     9: 'Режими гри',
     10: 'Виберіть тип',
     11: 'Вставте посилання на YouTube',
-    12: 'Введіть опис і посилання. Приклад опису: посилання',
+    12: 'Type a description and an url. Format description:url',
     13: 'Вибрати додатково',
     14: 'Вставити посилання',
-    15: 'Назва скіна, ім\'я автора або тег',
+    15: 'Skin title, author, or tags',
     16: 'Виберіть категорію',
-    17: 'Введіть назву тега'
+    17: 'Type the name of the tag'
   },
   contribute: { 0: 'Зробити свій внесок' },
   nsfw: {
@@ -325,67 +325,67 @@ export default {
   },
   removed: {
     0: 'Версія недоступна',
-    1: 'Автор скіна вирішив видалити цю версію з сайту.',
-    2: 'Перейти на наявну версію'
+    1: 'The author of the skin decided to remove this version from the site.',
+    2: 'Switch to an available version'
   },
   notify: {
-    0: 'Проблеми не виправлені',
-    1: 'Не всі необхідні поля були заповнені',
+    0: 'Issues were not fixed',
+    1: 'Not all required fields were filled',
     2: 'Показати',
     3: 'Не знайдено',
     4: 'Банер не знайдено (на цю мить, перший скріншот використовується як банер)',
     5: 'Без змін',
     6: 'Змін не знайдено',
-    7: 'ID not found',
-    8: 'ID of the video not found, try another link (At the moment only YouTube is supported)',
-    9: 'Oops',
-    10: 'Looks like your session is expired, open new page and log into your account (Don\'t worry, everything is saved automatically)',
-    11: 'Exists',
-    12: 'This video has already been added',
-    13: 'Exists',
-    14: 'This tag has already been added',
+    7: 'ID не знайдено',
+    8: 'ID відео не знайдено, спробуйте інше посилання (на даний момент підтримується лише YouTube)',
+    9: 'Отакої',
+    10: 'Looks like your session expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
+    11: 'Існує',
+    12: 'Це відео вже було додано',
+    13: 'Існує',
+    14: 'Цей тег вже був доданий',
     15: 'Не знайдено',
-    16: 'You cannot delete a deleted tag',
-    17: 'Added',
-    18: 'You have successfully added a new tag',
-    19: 'OOps',
-    20: 'This creator was already added',
+    16: 'Ви не можете видалити видалений тег',
+    17: 'Додано',
+    18: 'Ви успішно додали новий тег',
+    19: 'Упс',
+    20: 'Цього автора вже додано',
     21: 'EZ',
-    22: 'New creator has been added',
+    22: 'Додано нового творця',
     23: 'HUH',
-    24: 'Impossible to remove a deleted creator',
-    25: 'Exists',
-    26: 'Same change with this type has been added earlier',
-    27: 'Warning',
-    28: 'Same url with this type has been added earlier',
-    29: 'Warning',
-    30: 'You forgot to add a description for a url. Example: Description:url',
-    31: 'Warning',
-    32: 'You forgot to add a url for description. Example: Description:url',
-    33: 'Restored',
-    34: 'Version {name} has been restored',
-    35: 'Deleted',
-    36: 'Version {name} has been deleted',
-    37: 'Error',
-    38: 'Seems like the server thinks you\'re a bot',
-    39: 'Looks like you\'re user session is expired, open new page and log into your account (Don\'t worry, everything is saved automatically)',
-    40: 'Mismatched credentials (re:login in account. Don\'t worry, everything is saved automatically)',
-    41: 'Unknown error',
-    42: 'You cannot edit inexistent skin',
-    43: 'Seems like you don\'t have permissions to edit this skin',
-    44: 'You cannot submit this version as it is the same as the previous one',
-    45: 'Those changes has been sent already on moderation',
-    46: 'Success',
-    47: 'New changes have been submitted for moderation',
-    48: 'Changes have been updated in moderation',
-    49: 'Odd link',
+    24: 'Неможливо видалити вже видаленого творця',
+    25: 'Duplicate',
+    26: 'This change has already been added earlier.',
+    27: 'Duplicate',
+    28: 'This url has already been added earlier.',
+    29: 'Попередження',
+    30: 'You forgot to add a description for the url. Example: Description:url',
+    31: 'Попередження',
+    32: 'You forgot to add an url for the description. Example: Description:url',
+    33: 'Відновлено',
+    34: 'Version «{name}» has been restored',
+    35: 'Видалено',
+    36: 'Version «{name}» has been deleted',
+    37: 'Помилка',
+    38: 'Apparently the server thinks you\'re a robot.',
+    39: 'Looks like your user session has expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
+    40: 'Mismatched credentials (relogin in account. Don\'t worry, everything was saved automatically)',
+    41: 'Невідома помилка',
+    42: 'You cannot edit a nonexistent skin',
+    43: 'Seems like you don\'t have permission to edit this skin',
+    44: 'You cannot send this version because it is the same as the previous one.',
+    45: 'These changes have already been sent for moderation',
+    46: 'Успішно',
+    47: 'Нові зміни були відправлені на модерацію',
+    48: 'Зміни були оновлені на модерації',
+    49: 'Дивне посилання',
     50: 'Це посилання не може бути використане як посилання для завантаження',
-    51: 'Submitted to moderation'
+    51: 'Submitted for moderation'
   },
   restricted_view: {
     0: 'Неавторизовано',
-    1: 'Please login in account',
-    2: 'Restricted view',
+    1: 'Будь ласка, увійдіть в обліковий запис',
+    2: 'Обмежений перегляд',
     3: 'Ця сторінка поки що не існує.'
   }
 };
