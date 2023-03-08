@@ -25,7 +25,7 @@ export default {
     0: 'Списък с промени',
     1: 'Списък на всички ревизии, направени в текущата версия',
     2: 'Няма нищо тук',
-    3: 'But you can add the changes you made\'ve to this version of the skin',
+    3: 'But you can add the changes you\'ve made to this version of the skin',
     4: 'Без група',
     5: 'Ново',
     6: 'Поправено',
