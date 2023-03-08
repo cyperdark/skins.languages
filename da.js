@@ -25,7 +25,7 @@ export default {
     0: 'Ændringslog',
     1: 'Liste over alle revisioner udført i den aktuelle version',
     2: 'Intet her',
-    3: 'But you can add the changes you made\'ve to this version of the skin',
+    3: 'But you can add the changes you\'ve made to this version of the skin',
     4: 'Ikke Grupperet',
     5: 'Ny',
     6: 'Rettelser',
