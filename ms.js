@@ -25,7 +25,7 @@ export default {
     0: 'Log perubahan',
     1: 'Senarai semua penyemakan yang telah dibuat di dalam versi terkini',
     2: 'Tiada apa-apa di sini',
-    3: 'But you can add the changes you made\'ve to this version of the skin',
+    3: 'But you can add the changes you\'ve made to this version of the skin',
     4: 'Tidak dikumpulkan',
     5: 'Baharu',
     6: 'Pembetulan',
