@@ -25,7 +25,7 @@ export default {
     0: '更新日誌',
     1: '列出所有對於目前版本的改動',
     2: '這裡什麼都沒有',
-    3: '但是你可以自行添加你對這版本skin的改動',
+    3: 'But you can add the changes you made\'ve to this version of the skin',
     4: '未分類',
     5: '新',
     6: '修復',
@@ -81,8 +81,8 @@ export default {
     10: '無任何截圖',
     11: '添加至少一張遊戲畫面的截圖',
     12: '未標明skin的下載連結',
-    20: '看起來很棒極了',
-    21: '所有的問題都被解決了 :thumbsup:',
+    20: 'Looks pretty good',
+    21: 'Every issue was fixed. Good job!',
     22: '檢查',
     23: 'Add at least one public version'
   },
@@ -151,7 +151,7 @@ export default {
     5: '所有的國旗都源自於 {name}',
     6: '語言',
     7: '尚未添加 [{lang}]',
-    8: 'cpol好像忘了添加他們. {text}'
+    8: 'Seems like cyperdark forgot to add them. {text}'
   },
   search: {
     0: '搜尋skin',
@@ -161,9 +161,9 @@ export default {
     4: '檔案大小',
     5: '添加日期',
     7: '無搜尋結果',
-    8: '試試以其他的過濾方式搜尋',
+    8: 'Try using different search filters',
     9: '看起來遇到了一些問題',
-    10: '選擇過濾方式或輸入skin名、作者、或標籤來搜尋',
+    10: 'Use the search filters or type the skin\'s title, author or tags',
     11: '下載數',
     12: '名子',
     13: {
@@ -180,11 +180,11 @@ export default {
   },
   undefined: {
     0: '空',
-    1: '這裡什麼都沒有 你可以看看其他頁面 ',
-    2: '這裡什麼都沒有',
+    1: 'Unfortunately, there\'s nothing here, but you can take a look at the other pages',
+    2: 'Unfortunately, there\'s nothing here',
     3: '未授權',
-    4: '必須登入後才能編輯此skin',
-    5: '必須登入後才能創建新skin'
+    4: 'You need to be logged in order to edit this skin.',
+    5: 'You need to be logged in order to add a new skin.'
   },
   meta: {
     title: {
@@ -247,7 +247,7 @@ export default {
     3: '喜歡: {likes} / 不喜歡: {dislikes}',
     4: '按下 ctrl+enter 以新增標籤',
     5: '編輯版本',
-    6: '{s}登入{p}以評價此skin',
+    6: '{s}Log in{p}, in order to rate this skin',
     7: '沒有描述',
     8: '沒有連結',
     9: '下載量: {amount}'
@@ -296,9 +296,9 @@ export default {
     ratio: '長寬比 | 長寬比'
   },
   placeholders: {
-    0: '選擇身分',
-    1: '選擇版本',
-    2: '輸入文字...',
+    0: 'Select roles',
+    1: 'Select versions',
+    2: 'Type some text...',
     3: '檔案大小',
     4: '選擇日期範圍',
     5: '年',
@@ -308,12 +308,12 @@ export default {
     9: '遊戲模式',
     10: '選擇類別',
     11: '貼上Youtube連結',
-    12: '用 敘述:連結 的格式輸入',
+    12: 'Type a description and an url. Format description:url',
     13: '選擇額外的',
     14: '貼上連結',
-    15: '透過skin名稱, 作者或標籤以搜尋',
+    15: 'Skin title, author, or tags',
     16: 'Select category',
-    17: 'Type name of the tag'
+    17: 'Type the name of the tag'
   },
   contribute: { 0: '貢獻' },
   nsfw: {
@@ -325,12 +325,12 @@ export default {
   },
   removed: {
     0: 'Version unavailable',
-    1: 'Author of the skin decided to remove this version from the site.',
-    2: 'Switch to available version'
+    1: 'The author of the skin decided to remove this version from the site.',
+    2: 'Switch to an available version'
   },
   notify: {
-    0: 'Issues not fixed',
-    1: 'Not all required fields was filled',
+    0: 'Issues were not fixed',
+    1: 'Not all required fields were filled',
     2: 'Show',
     3: 'Not found',
     4: 'Banner not found (Currently, the first screenshot is being used as the banner)',
@@ -339,7 +339,7 @@ export default {
     7: 'ID not found',
     8: 'ID of the video not found, try another link (At the moment only YouTube is supported)',
     9: 'Oops',
-    10: 'Looks like your session is expired, open new page and log into your account (Don\'t worry, everything is saved automatically)',
+    10: 'Looks like your session expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
     11: 'Exists',
     12: 'This video has already been added',
     13: 'Exists',
@@ -354,33 +354,33 @@ export default {
     22: 'New creator has been added',
     23: 'HUH',
     24: 'Impossible to remove a deleted creator',
-    25: 'Exists',
-    26: 'Same change with this type has been added earlier',
-    27: 'Warning',
-    28: 'Same url with this type has been added earlier',
+    25: 'Duplicate',
+    26: 'This change has already been added earlier.',
+    27: 'Duplicate',
+    28: 'This url has already been added earlier.',
     29: 'Warning',
-    30: 'You forgot to add a description for a url. Example: Description:url',
+    30: 'You forgot to add a description for the url. Example: Description:url',
     31: 'Warning',
-    32: 'You forgot to add a url for description. Example: Description:url',
+    32: 'You forgot to add an url for the description. Example: Description:url',
     33: 'Restored',
-    34: 'Version {name} has been restored',
+    34: 'Version «{name}» has been restored',
     35: 'Deleted',
-    36: 'Version {name} has been deleted',
+    36: 'Version «{name}» has been deleted',
     37: 'Error',
-    38: 'Seems like the server thinks you\'re a bot',
-    39: 'Looks like you\'re user session is expired, open new page and log into your account (Don\'t worry, everything is saved automatically)',
-    40: 'Mismatched credentials (re:login in account. Don\'t worry, everything is saved automatically)',
+    38: 'Apparently the server thinks you\'re a robot.',
+    39: 'Looks like your user session has expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
+    40: 'Mismatched credentials (relogin in account. Don\'t worry, everything was saved automatically)',
     41: 'Unknown error',
-    42: 'You cannot edit inexistent skin',
-    43: 'Seems like you don\'t have permissions to edit this skin',
-    44: 'You cannot submit this version as it is the same as the previous one',
-    45: 'Those changes has been sent already on moderation',
+    42: 'You cannot edit a nonexistent skin',
+    43: 'Seems like you don\'t have permission to edit this skin',
+    44: 'You cannot send this version because it is the same as the previous one.',
+    45: 'These changes have already been sent for moderation',
     46: 'Success',
     47: 'New changes have been submitted for moderation',
     48: 'Changes have been updated in moderation',
     49: 'Odd link',
     50: 'This link cannot be used as a download link',
-    51: 'Submitted to moderation'
+    51: 'Submitted for moderation'
   },
   restricted_view: {
     0: '未授權',
