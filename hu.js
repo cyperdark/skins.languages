@@ -25,7 +25,7 @@ export default {
     0: 'Változi napló',
     1: 'Módosítások listája, amik a jelenlegi verzión történtek',
     2: 'Nincs it semmi',
-    3: 'But you can add the changes you made\'ve to this version of the skin',
+    3: 'But you can add the changes you\'ve made to this version of the skin',
     4: 'Nem csoportosított',
     5: 'Új',
     6: 'Javítások',
