@@ -25,7 +25,7 @@ export default {
     0: 'سِجل التغييرات',
     1: 'قائمة بجميع التنقيحات التي أجريت على النسخة الحالية',
     2: 'لا شيء هنا',
-    3: 'But you can add the changes you made\'ve to this version of the skin',
+    3: 'But you can add the changes you\'ve made to this version of the skin',
     4: 'غير مجمعة',
     5: 'جديد',
     6: 'إصلاحات',
