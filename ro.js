@@ -25,7 +25,7 @@ export default {
     0: 'Jurnal de Modificări',
     1: 'Lista tuturor reviziilor efectuate în versiunea curentă',
     2: 'Nimic aici',
-    3: 'But you can add the changes you made\'ve to this version of the skin',
+    3: 'But you can add the changes you\'ve made to this version of the skin',
     4: 'Nu sunt grupate',
     5: 'Nou',
     6: 'Probleme rezolvate',
