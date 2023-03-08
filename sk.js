@@ -25,7 +25,7 @@ export default {
     0: 'Zoznam zmien',
     1: 'Zoznam všetkých vývojárov ktorí boli zapojení vo vývoji tejto verzie',
     2: 'Nikto tu nie je',
-    3: 'But you can add the changes you made\'ve to this version of the skin',
+    3: 'But you can add the changes you\'ve made to this version of the skin',
     4: 'Nezoskupené',
     5: 'Nové',
     6: 'Opravené',
