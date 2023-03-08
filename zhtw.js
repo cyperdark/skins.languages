@@ -25,7 +25,7 @@ export default {
     0: '更新日誌',
     1: '列出所有對於目前版本的改動',
     2: '這裡什麼都沒有',
-    3: 'But you can add the changes you made\'ve to this version of the skin',
+    3: 'But you can add the changes you\'ve made to this version of the skin',
     4: '未分類',
     5: '新',
     6: '修復',
