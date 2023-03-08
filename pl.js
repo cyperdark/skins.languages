@@ -25,7 +25,7 @@ export default {
     0: 'Changelog',
     1: 'Lista zmian w najnowszej wersji',
     2: 'Nic tu jeszcze nie ma',
-    3: 'But you can add the changes you made\'ve to this version of the skin',
+    3: 'But you can add the changes you\'ve made to this version of the skin',
     4: 'Brak grupowania',
     5: 'Nowe',
     6: 'Naprawione błędy',
