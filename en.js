@@ -380,10 +380,10 @@ export default {
     28: 'Same url with this type has been added earlier',
 
     29: 'Warning',
-    30: 'You forget to add a description for a url. Example: Description:url',
+    30: 'You forgot to add a description for a url. Example: Description:url',
 
     31: 'Warning',
-    32: 'You forget to add a url for description. Example: Description:url',
+    32: 'You forgot to add a url for description. Example: Description:url',
 
     33: 'Restored',
     34: 'Version {name} has been restored',
@@ -392,7 +392,7 @@ export default {
     36: 'Version {name} has been deleted',
 
     37: 'Error',
-    38: 'Seems like server thinks you\'re the bot',
+    38: 'Seems like the server thinks you\'re a bot',
     39: 'Looks like you\'re user session is expired, open new page and log into your account (Don\'t worry, everything is saved automatically)',
 
     40: 'Mismatched credentials (re:login in account. Don\'t worry, everything is saved automatically)',
