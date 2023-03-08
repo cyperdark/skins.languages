@@ -384,7 +384,7 @@ export default {
   },
   restricted_view: {
     0: 'Neoprávněný',
-    1: 'Přihlaste se prosím k účtu',
+    1: 'Please log into your account',
     2: 'Omezené zobrazení',
     3: 'Tato stránka zatím není venku.'
   }
