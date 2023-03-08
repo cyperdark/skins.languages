@@ -414,7 +414,7 @@ export default {
 
   restricted_view: {
     0: 'Unauthorized',
-    1: 'Please login in account',
+    1: 'Please log into your account',
 
     2: 'Restricted view',
     3: 'This page is not out, yet.'
