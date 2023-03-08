@@ -25,7 +25,7 @@ export default {
     0: 'Güncelleme geçmişi',
     1: 'Güncel versiyondaki yapılan tüm değişikliklerin listesi',
     2: 'Burada hiçbir şey yok',
-    3: 'But you can add the changes you made\'ve to this version of the skin',
+    3: 'But you can add the changes you\'ve made to this version of the skin',
     4: 'Gruplandırılmamış',
     5: 'Yeni',
     6: 'Düzeltmeler',
