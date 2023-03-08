@@ -25,7 +25,7 @@ export default {
     0: 'Nhật ký thay đổi',
     1: 'Danh sách tất cả những sửa đổi ở phiên bản hiện tại',
     2: 'Không có gì ở đây',
-    3: 'Nhưng bạn có thể thêm vào những thay đổi đã hoàn thành đối với phiên bản của skin này',
+    3: 'But you can add the changes you made\'ve to this version of the skin',
     4: 'Chưa nhóm',
     5: 'Mới',
     6: 'Sửa lỗi',
@@ -81,8 +81,8 @@ export default {
     10: 'Ảnh chụp màn hình không khả dụng',
     11: 'Thêm vào ít nhất một ảnh chụp màn hình gameplay',
     12: 'Liên kết skin không khả dụng',
-    20: 'Trông có vẻ khá ổn',
-    21: 'Mọi vấn đề đều đã được giải quyết. Tốt lắm',
+    20: 'Looks pretty good',
+    21: 'Every issue was fixed. Good job!',
     22: 'Danh mục',
     23: 'Thêm ít nhất một phiên bản công khai'
   },
@@ -151,7 +151,7 @@ export default {
     5: 'Mọi hình ảnh cờ được lấy từ {name}',
     6: 'Localisation',
     7: 'Có ai không? [{lang}]',
-    8: 'Có vẻ như cpol quên thêm chúng vào. {text}'
+    8: 'Seems like cyperdark forgot to add them. {text}'
   },
   search: {
     0: 'Tìm kiếm skin',
@@ -161,9 +161,9 @@ export default {
     4: 'Kích thước',
     5: 'Ngày tháng',
     7: 'Không thấy gì cả',
-    8: 'Hãy thử điều chỉnh cách chọn lọc khác',
+    8: 'Try using different search filters',
     9: 'Đang chờ xử lý',
-    10: 'Hãy chọn các filter tìm kiếm hoặc chỉ cần ghi tên, tác giả hay các tag của skin',
+    10: 'Use the search filters or type the skin\'s title, author or tags',
     11: 'Lượt tải xuống',
     12: 'Tên',
     13: {
@@ -180,11 +180,11 @@ export default {
   },
   undefined: {
     0: 'Trống',
-    1: 'Đáng tiếc là không có gì ở đây, thay vào đó bạn có thế xem các trang khác',
-    2: 'Đáng tiếc là không có gì ở đây',
+    1: 'Unfortunately, there\'s nothing here, but you can take a look at the other pages',
+    2: 'Unfortunately, there\'s nothing here',
     3: 'Không thể truy cập',
-    4: 'Bạn cần đăng nhập để chỉnh sửa skin này.',
-    5: 'Bạn cần đăng nhập để thêm skin mới.'
+    4: 'You need to be logged in order to edit this skin.',
+    5: 'You need to be logged in order to add a new skin.'
   },
   meta: {
     title: {
@@ -247,7 +247,7 @@ export default {
     3: 'Lượt thích: {likes} / Không thích: {dislikes}',
     4: 'Nhấn ctrl+enter để thêm tag',
     5: 'Chỉnh sửa phiên bản',
-    6: '{s}Đăng nhập{p}, để có thể đánh giá skin này',
+    6: '{s}Log in{p}, in order to rate this skin',
     7: 'Không có mô tả ngắn',
     8: 'Không có url',
     9: 'Lượt tải: {amount}'
@@ -296,9 +296,9 @@ export default {
     ratio: 'Chọn tỷ lệ khung hình | tỷ lệ'
   },
   placeholders: {
-    0: 'Chọn role',
-    1: 'Chọn phiên bản',
-    2: 'Nhập văn bản...',
+    0: 'Select roles',
+    1: 'Select versions',
+    2: 'Type some text...',
     3: 'Chọn kích cỡ',
     4: 'Chọn mốc thời gian',
     5: 'Năm',
@@ -308,12 +308,12 @@ export default {
     9: 'Chế độ chơi',
     10: 'Chọn thể loại',
     11: 'Dán một liên kết YouTube',
-    12: 'Nhập mô tả và url. Định dạng mô tả:url',
+    12: 'Type a description and an url. Format description:url',
     13: 'Chọn thêm',
     14: 'Dán một liên kết',
-    15: 'Tiêu đề skin, tác giả, hoặc tag',
+    15: 'Skin title, author, or tags',
     16: 'Chọn nhóm',
-    17: 'Hãy gõ tên của tag'
+    17: 'Type the name of the tag'
   },
   contribute: { 0: 'Đóng góp' },
   nsfw: {
@@ -325,12 +325,12 @@ export default {
   },
   removed: {
     0: 'Phiên bản không khả dụng',
-    1: 'Tác giả của skin đã xóa phiên bản này khỏi trang web.',
-    2: 'Chuyển đến phiên bản khả dụng khác'
+    1: 'The author of the skin decided to remove this version from the site.',
+    2: 'Switch to an available version'
   },
   notify: {
-    0: 'Không thể sửa vấn đề',
-    1: 'Một số thông tin cần điền chưa được ghi',
+    0: 'Issues were not fixed',
+    1: 'Not all required fields were filled',
     2: 'Hiển thị',
     3: 'Không tìm thấy',
     4: 'Không tìm thấy banner (Hiện tại, ảnh chụp màn hình đầu tiên đang được dùng làm banner)',
@@ -339,7 +339,7 @@ export default {
     7: 'Không tìm thấy ID',
     8: 'Không tìm thấy ID của video, hãy thử đường link khác (Hiện tại web chỉ hỗ trợ video YouTube)',
     9: 'Úi',
-    10: 'Cỏ vẻ phiên đăng nhập người dùng của bạn đã hết hạn, hãy mở trang mới và đăng nhập lại (Đừng lo, mọi thứ đã được lưu lại)',
+    10: 'Looks like your session expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
     11: 'Tồn tại',
     12: 'Video này đã được thêm vào',
     13: 'Tồn tại',
@@ -354,33 +354,33 @@ export default {
     22: 'New creator has been added',
     23: 'HUH',
     24: 'Impossible to remove a deleted creator',
-    25: 'Tồn tại',
-    26: 'Same change with this type has been added earlier',
-    27: 'Warning',
-    28: 'Same url with this type has been added earlier',
+    25: 'Duplicate',
+    26: 'This change has already been added earlier.',
+    27: 'Duplicate',
+    28: 'This url has already been added earlier.',
     29: 'Warning',
-    30: 'You forgot to add a description for a url. Example: Description:url',
+    30: 'You forgot to add a description for the url. Example: Description:url',
     31: 'Warning',
-    32: 'You forgot to add a url for description. Example: Description:url',
+    32: 'You forgot to add an url for the description. Example: Description:url',
     33: 'Restored',
-    34: 'Version {name} has been restored',
+    34: 'Version «{name}» has been restored',
     35: 'Deleted',
-    36: 'Version {name} has been deleted',
+    36: 'Version «{name}» has been deleted',
     37: 'Error',
-    38: 'Seems like the server thinks you\'re a bot',
-    39: 'Looks like you\'re user session is expired, open new page and log into your account (Don\'t worry, everything is saved automatically)',
-    40: 'Mismatched credentials (re:login in account. Don\'t worry, everything is saved automatically)',
+    38: 'Apparently the server thinks you\'re a robot.',
+    39: 'Looks like your user session has expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
+    40: 'Mismatched credentials (relogin in account. Don\'t worry, everything was saved automatically)',
     41: 'Unknown error',
-    42: 'You cannot edit inexistent skin',
-    43: 'Seems like you don\'t have permissions to edit this skin',
-    44: 'You cannot submit this version as it is the same as the previous one',
-    45: 'Those changes has been sent already on moderation',
+    42: 'You cannot edit a nonexistent skin',
+    43: 'Seems like you don\'t have permission to edit this skin',
+    44: 'You cannot send this version because it is the same as the previous one.',
+    45: 'These changes have already been sent for moderation',
     46: 'Success',
     47: 'New changes have been submitted for moderation',
     48: 'Changes have been updated in moderation',
     49: 'Odd link',
     50: 'This link cannot be used as a download link',
-    51: 'Submitted to moderation'
+    51: 'Submitted for moderation'
   },
   restricted_view: {
     0: 'Không thể truy cập',
