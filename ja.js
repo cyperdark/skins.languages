@@ -25,7 +25,7 @@ export default {
     0: '変更ログ',
     1: '現在のバージョンで行われたすべてのリビジョンのリスト',
     2: 'ここには何もありません',
-    3: 'しかし、あなたが行った変更をこのバージョンのスキンに追加することができます',
+    3: 'But you can add the changes you made\'ve to this version of the skin',
     4: 'グループ化されていない',
     5: '新',
     6: '修正',
@@ -81,8 +81,8 @@ export default {
     10: 'スクリーンショットが提供されていません',
     11: '少なくとも１つのゲームプレイのスクリーンショットを追加してください',
     12: 'スキンへのリンクが指定されていません',
-    20: 'かなり良い感じ',
-    21: 'すべての問題が修正されました。グッジョブ',
+    20: 'Looks pretty good',
+    21: 'Every issue was fixed. Good job!',
     22: 'チェックリスト',
     23: 'Add at least one public version'
   },
@@ -151,7 +151,7 @@ export default {
     5: '国旗画像はすべて {name} のものです',
     6: '翻訳',
     7: '誰かいませんか？[{lang}]',
-    8: 'cpolが追加し忘れているようです。{text}'
+    8: 'Seems like cyperdark forgot to add them. {text}'
   },
   search: {
     0: 'スキン検索',
@@ -161,9 +161,9 @@ export default {
     4: 'サイズ',
     5: '日付',
     7: '何も見つかりませんでした',
-    8: '異なる検索フィルターを設定してみてください',
+    8: 'Try using different search filters',
     9: '保留中のクエリ',
-    10: '検索フィルタを選択するか、スキンのタイトル、作成者、またはタグを入力してください',
+    10: 'Use the search filters or type the skin\'s title, author or tags',
     11: 'ダウンロード',
     12: '名前',
     13: {
@@ -180,11 +180,11 @@ export default {
   },
   undefined: {
     0: 'エンプティ',
-    1: '残念ながらここには何もありません。ほかのページを見てみましょう',
-    2: '残念ながらここには何もありません',
+    1: 'Unfortunately, there\'s nothing here, but you can take a look at the other pages',
+    2: 'Unfortunately, there\'s nothing here',
     3: '権限がありません',
-    4: 'このスキンを編集するにはログインする必要があります',
-    5: '新しいスキンを追加するにはログインする必要があります。'
+    4: 'You need to be logged in order to edit this skin.',
+    5: 'You need to be logged in order to add a new skin.'
   },
   meta: {
     title: {
@@ -247,7 +247,7 @@ export default {
     3: 'いいね: {likes} / よくないね: {dislikes}',
     4: 'Ctrl+enterでタグを追加',
     5: 'バージョンを編集',
-    6: '{s}ログイン{p}して、このスキンを評価してください',
+    6: '{s}Log in{p}, in order to rate this skin',
     7: '短い説明文はありません',
     8: 'URL がありません',
     9: 'ダウンロード数: {amount}'
@@ -296,9 +296,9 @@ export default {
     ratio: 'アスペクト比を選択 | 比率'
   },
   placeholders: {
-    0: 'ロールを選択',
-    1: 'バージョンを選択',
-    2: 'テキストを入力...',
+    0: 'Select roles',
+    1: 'Select versions',
+    2: 'Type some text...',
     3: 'サイズ選択',
     4: '日付の範囲を選択',
     5: '年',
@@ -308,12 +308,12 @@ export default {
     9: 'ゲームモード',
     10: 'タイプを選択',
     11: 'YouTubeのリンクを貼り付け',
-    12: '説明文とURLを入力します。フォーマット説明:url',
+    12: 'Type a description and an url. Format description:url',
     13: 'エクストラを選択',
     14: 'リンクを貼り付け',
-    15: 'スキンのタイトル、作者、またはタグ',
+    15: 'Skin title, author, or tags',
     16: 'Select category',
-    17: 'Type name of the tag'
+    17: 'Type the name of the tag'
   },
   contribute: { 0: '貢献する' },
   nsfw: {
@@ -325,12 +325,12 @@ export default {
   },
   removed: {
     0: 'Version unavailable',
-    1: 'Author of the skin decided to remove this version from the site.',
-    2: 'Switch to available version'
+    1: 'The author of the skin decided to remove this version from the site.',
+    2: 'Switch to an available version'
   },
   notify: {
-    0: 'Issues not fixed',
-    1: 'Not all required fields was filled',
+    0: 'Issues were not fixed',
+    1: 'Not all required fields were filled',
     2: 'Show',
     3: 'Not found',
     4: 'Banner not found (Currently, the first screenshot is being used as the banner)',
@@ -339,7 +339,7 @@ export default {
     7: 'ID not found',
     8: 'ID of the video not found, try another link (At the moment only YouTube is supported)',
     9: 'Oops',
-    10: 'Looks like your session is expired, open new page and log into your account (Don\'t worry, everything is saved automatically)',
+    10: 'Looks like your session expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
     11: 'Exists',
     12: 'This video has already been added',
     13: 'Exists',
@@ -354,33 +354,33 @@ export default {
     22: 'New creator has been added',
     23: 'HUH',
     24: 'Impossible to remove a deleted creator',
-    25: 'Exists',
-    26: 'Same change with this type has been added earlier',
-    27: 'Warning',
-    28: 'Same url with this type has been added earlier',
+    25: 'Duplicate',
+    26: 'This change has already been added earlier.',
+    27: 'Duplicate',
+    28: 'This url has already been added earlier.',
     29: 'Warning',
-    30: 'You forgot to add a description for a url. Example: Description:url',
+    30: 'You forgot to add a description for the url. Example: Description:url',
     31: 'Warning',
-    32: 'You forgot to add a url for description. Example: Description:url',
+    32: 'You forgot to add an url for the description. Example: Description:url',
     33: 'Restored',
-    34: 'Version {name} has been restored',
+    34: 'Version «{name}» has been restored',
     35: 'Deleted',
-    36: 'Version {name} has been deleted',
+    36: 'Version «{name}» has been deleted',
     37: 'Error',
-    38: 'Seems like the server thinks you\'re a bot',
-    39: 'Looks like you\'re user session is expired, open new page and log into your account (Don\'t worry, everything is saved automatically)',
-    40: 'Mismatched credentials (re:login in account. Don\'t worry, everything is saved automatically)',
+    38: 'Apparently the server thinks you\'re a robot.',
+    39: 'Looks like your user session has expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
+    40: 'Mismatched credentials (relogin in account. Don\'t worry, everything was saved automatically)',
     41: 'Unknown error',
-    42: 'You cannot edit inexistent skin',
-    43: 'Seems like you don\'t have permissions to edit this skin',
-    44: 'You cannot submit this version as it is the same as the previous one',
-    45: 'Those changes has been sent already on moderation',
+    42: 'You cannot edit a nonexistent skin',
+    43: 'Seems like you don\'t have permission to edit this skin',
+    44: 'You cannot send this version because it is the same as the previous one.',
+    45: 'These changes have already been sent for moderation',
     46: 'Success',
     47: 'New changes have been submitted for moderation',
     48: 'Changes have been updated in moderation',
     49: 'Odd link',
     50: 'This link cannot be used as a download link',
-    51: 'Submitted to moderation'
+    51: 'Submitted for moderation'
   },
   restricted_view: {
     0: '権限がありません',
