@@ -25,7 +25,7 @@ export default {
     0: 'Список змін',
     1: 'Перелік усіх змін, зроблених у поточній версії',
     2: 'Тут пусто',
-    3: 'But you can add the changes you made\'ve to this version of the skin',
+    3: 'But you can add the changes you\'ve made to this version of the skin',
     4: 'Не згруповано',
     5: 'Нове',
     6: 'Виправлення',
@@ -151,7 +151,7 @@ export default {
     5: 'Всі зображення прапорів беруться з {name}',
     6: 'Локалізація',
     7: 'Хтось? [{lang}]',
-    8: 'Seems like cyperdark forgot to add them. {text}'
+    8: 'Здається, що cyperdark забув їх додати. {text}'
   },
   search: {
     0: 'Пошук скіну',
@@ -296,9 +296,9 @@ export default {
     ratio: 'Співвідношення сторін | співвідношення'
   },
   placeholders: {
-    0: 'Select roles',
-    1: 'Select versions',
-    2: 'Type some text...',
+    0: 'Виберіть ролі',
+    1: 'Виберіть версії',
+    2: 'Введіть текст...',
     3: 'Розмір скіна',
     4: 'Діапазон дат',
     5: 'Рік',
@@ -363,7 +363,7 @@ export default {
     31: 'Попередження',
     32: 'You forgot to add an url for the description. Example: Description:url',
     33: 'Відновлено',
-    34: 'Version «{name}» has been restored',
+    34: 'Версія «{name}» була відновлена',
     35: 'Видалено',
     36: 'Version «{name}» has been deleted',
     37: 'Помилка',
@@ -380,7 +380,7 @@ export default {
     48: 'Зміни були оновлені на модерації',
     49: 'Дивне посилання',
     50: 'Це посилання не може бути використане як посилання для завантаження',
-    51: 'Submitted for moderation'
+    51: 'Відправлено на модерацію'
   },
   restricted_view: {
     0: 'Неавторизовано',
