@@ -384,7 +384,7 @@ export default {
   },
   restricted_view: {
     0: 'Ei sallittu',
-    1: 'Kirjaudu sisään tilillesi',
+    1: 'Please log into your account',
     2: 'Rajoitettu näkymä',
     3: 'Tämä sivu ei ole vielä julkaistu.'
   }
