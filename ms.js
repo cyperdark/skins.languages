@@ -384,7 +384,7 @@ export default {
   },
   restricted_view: {
     0: 'Tiada kebenaran',
-    1: 'Sila log masuk dengan akaun',
+    1: 'Please log into your account',
     2: 'Pengelihatan terhad',
     3: 'Helaian ini belum dikeluarkan, lagi.'
   }
