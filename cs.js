@@ -25,7 +25,7 @@ export default {
     0: 'Seznam změn',
     1: 'Seznam všech revizí provedených v stávající verzi',
     2: 'Nic zde není',
-    3: 'But you can add the changes you made\'ve to this version of the skin',
+    3: 'But you can add the changes you\'ve made to this version of the skin',
     4: 'Není seskupeno',
     5: 'Nové',
     6: 'Opravy',
