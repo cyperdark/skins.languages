@@ -25,7 +25,7 @@ export default {
     0: 'Ändringslogg',
     1: 'Lista av alla revisioner gjorda i den nuvarande versionen',
     2: 'Ingenting här',
-    3: 'But you can add the changes you made\'ve to this version of the skin',
+    3: 'But you can add the changes you\'ve made to this version of the skin',
     4: 'Inte grupperad',
     5: 'Nytt',
     6: 'Fixningar',
