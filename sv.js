@@ -25,7 +25,7 @@ export default {
     0: 'Ändringslogg',
     1: 'Lista av alla revisioner gjorda i den nuvarande versionen',
     2: 'Ingenting här',
-    3: 'Men du kan lägga till ändringarna du gjorde till den här versionen av skinnet',
+    3: 'But you can add the changes you made\'ve to this version of the skin',
     4: 'Inte grupperad',
     5: 'Nytt',
     6: 'Fixningar',
@@ -81,8 +81,8 @@ export default {
     10: 'Inga skärmbilder är uppladdade',
     11: 'Lägg till minst en skärmdump av spelet',
     12: 'Länk till skin ej angiven',
-    20: 'Ser bra ut',
-    21: 'Alla problem blev fixade, vilket är ganska bra',
+    20: 'Looks pretty good',
+    21: 'Every issue was fixed. Good job!',
     22: 'Checklista',
     23: 'Lägg till minst en offentlig version'
   },
@@ -151,7 +151,7 @@ export default {
     5: 'Alla flagga bilder är från {name}',
     6: 'Språk',
     7: 'Någon? [{lang}]',
-    8: 'Ser ut som att CPOL glömde lägga till dem'
+    8: 'Seems like cyperdark forgot to add them. {text}'
   },
   search: {
     0: 'Skin sökning',
@@ -161,9 +161,9 @@ export default {
     4: 'Storlek',
     5: 'Datum',
     7: 'Ingenting hittat',
-    8: 'Prova att ange olika sökfilter',
+    8: 'Try using different search filters',
     9: 'Väntar på en sökning',
-    10: 'Välj sökfilter eller skriv bara skintiteln, författaren eller taggen',
+    10: 'Use the search filters or type the skin\'s title, author or tags',
     11: 'Nedladdningar',
     12: 'Namn',
     13: {
@@ -180,11 +180,11 @@ export default {
   },
   undefined: {
     0: 'Tomt',
-    1: 'Sorgligen nog finns det ingenting här, iallafall kan du titta på andra sidor',
-    2: 'Sorgligen nog finns det ingenting här',
+    1: 'Unfortunately, there\'s nothing here, but you can take a look at the other pages',
+    2: 'Unfortunately, there\'s nothing here',
     3: 'Obehörig',
-    4: 'Du måste vara inloggad för att kunna redigera detta skin.',
-    5: 'Du måste vara inloggad för att lägga till ett nytt skin.'
+    4: 'You need to be logged in order to edit this skin.',
+    5: 'You need to be logged in order to add a new skin.'
   },
   meta: {
     title: {
@@ -247,7 +247,7 @@ export default {
     3: 'Gillar: {likes} / Ogillar: {dislikes}',
     4: 'Tryck på ctrl+enter för att lägga till en tag',
     5: 'Redigera version',
-    6: '{s}Logga in{p}, för att kunna betygsätta det här skinnet',
+    6: '{s}Log in{p}, in order to rate this skin',
     7: 'Ingen kort beskrivning',
     8: 'Ingen url',
     9: 'Nedladdningar: {amount}'
@@ -296,9 +296,9 @@ export default {
     ratio: 'Välj bildförhållande | förhållande'
   },
   placeholders: {
-    0: 'Välj roller',
-    1: 'Välj versioner',
-    2: 'Skriv text...',
+    0: 'Select roles',
+    1: 'Select versions',
+    2: 'Type some text...',
     3: 'Välj storlek',
     4: 'Välj datumspann',
     5: 'År',
@@ -308,14 +308,14 @@ export default {
     9: 'Spellägen',
     10: 'Välj typ',
     11: 'Klistra in en YouTube länk',
-    12: 'Skriv beskrivning och url. Format beskrivning:url',
+    12: 'Type a description and an url. Format description:url',
     13: 'Välj extra',
     14: 'Klistra in en länk',
-    15: 'Skin titel, skapare eller tag',
+    15: 'Skin title, author, or tags',
     16: 'Välj kategori',
-    17: 'Typ namn på taggen'
+    17: 'Type the name of the tag'
   },
-  contribute: { 0: 'Contribute' },
+  contribute: { 0: 'Bidra' },
   nsfw: {
     0: 'Varning!',
     1: 'Denna skin innehåller känsligt eller vuxet innehåll',
@@ -325,12 +325,12 @@ export default {
   },
   removed: {
     0: 'Version ej tillgänglig',
-    1: 'Författare av skinnet har bestämt att ta bort denna version från webbsidan.',
-    2: 'Byt till tillgänglig version'
+    1: 'The author of the skin decided to remove this version from the site.',
+    2: 'Switch to an available version'
   },
   notify: {
-    0: 'Ärenden som inte är fixat',
-    1: 'Alla obligatoriska fält har inte fyllts i',
+    0: 'Issues were not fixed',
+    1: 'Not all required fields were filled',
     2: 'Visa',
     3: 'Hittades inte',
     4: 'Banner hittades inte (För nu används den första skärmdumpen som banner)',
@@ -339,7 +339,7 @@ export default {
     7: 'ID hittades inte',
     8: 'ID för videon hittades inte, prova en annan länk (Just nu stöds endast YouTube)',
     9: 'Hoppsan',
-    10: 'Ser ut som din session har gått ut, öppna ny sida och logga in på ditt konto (oroa dig inte, allting sparas automatiskt)',
+    10: 'Looks like your session expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
     11: 'Existerar',
     12: 'Denna video har redan lagts till',
     13: 'Existerar',
@@ -354,38 +354,38 @@ export default {
     22: 'Ny profil har lagts till',
     23: 'VA',
     24: 'Omöjligt att ta bort en raderad skapare',
-    25: 'Existerar',
-    26: 'Samma ändring med denna typ har lagts till tidigare',
-    27: 'Varning',
-    28: 'Samma URL med denna typ har lagts till tidigare',
+    25: 'Duplicate',
+    26: 'This change has already been added earlier.',
+    27: 'Duplicate',
+    28: 'This url has already been added earlier.',
     29: 'Varning',
-    30: 'You forgot to add a description for a url. Example: Description:url',
+    30: 'You forgot to add a description for the url. Example: Description:url',
     31: 'Varning',
-    32: 'You forgot to add a url for description. Example: Description:url',
-    33: 'Restored',
-    34: 'Version {name} has been restored',
-    35: 'Deleted',
-    36: 'Version {name} has been deleted',
+    32: 'You forgot to add an url for the description. Example: Description:url',
+    33: 'Återställt',
+    34: 'Version «{name}» has been restored',
+    35: 'Raderad',
+    36: 'Version «{name}» has been deleted',
     37: 'Error',
-    38: 'Seems like the server thinks you\'re a bot',
-    39: 'Looks like you\'re user session is expired, open new page and log into your account (Don\'t worry, everything is saved automatically)',
-    40: 'Mismatched credentials (re:login in account. Don\'t worry, everything is saved automatically)',
+    38: 'Apparently the server thinks you\'re a robot.',
+    39: 'Looks like your user session has expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
+    40: 'Mismatched credentials (relogin in account. Don\'t worry, everything was saved automatically)',
     41: 'Okänt fel',
-    42: 'You cannot edit inexistent skin',
-    43: 'Verkar som om du inte har behörighet att redigera detta skin',
-    44: 'You cannot submit this version as it is the same as the previous one',
-    45: 'Dessa ändringar har redan skickats på moderering',
+    42: 'You cannot edit a nonexistent skin',
+    43: 'Seems like you don\'t have permission to edit this skin',
+    44: 'You cannot send this version because it is the same as the previous one.',
+    45: 'These changes have already been sent for moderation',
     46: 'Klart!',
     47: 'Nya ändringar har lämnats in för moderering',
     48: 'Ändringar har uppdaterats med moderering',
     49: 'Konstig länk',
     50: 'Denna länk kan inte användas som en nedladdningslänk',
-    51: 'Skickad till moderering'
+    51: 'Submitted for moderation'
   },
   restricted_view: {
     0: 'Obehörig',
     1: 'Vänligen logga in på ditt konto',
-    2: 'Restricted view',
+    2: 'Begränsad visning',
     3: 'Den här sidan är inte ute, än.'
   }
 };
