@@ -25,7 +25,7 @@ export default {
     0: 'Änderungsprotokoll',
     1: 'Liste aller Überarbeitungen, die in der aktuellen Version vorgenommen wurden.',
     2: 'Hier ist nichts...',
-    3: 'But you can add the changes you made\'ve to this version of the skin',
+    3: 'But you can add the changes you\'ve made to this version of the skin',
     4: 'Nicht gruppiert',
     5: 'Neu',
     6: 'Behebungen',
