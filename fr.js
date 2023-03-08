@@ -25,7 +25,7 @@ export default {
     0: 'Journal des modifications',
     1: 'Liste de toutes les modifications effectuées dans la version actuelle',
     2: 'Il n\'y a rien à voir ici',
-    3: 'But you can add the changes you made\'ve to this version of the skin',
+    3: 'But you can add the changes you\'ve made to this version of the skin',
     4: 'Non groupé',
     5: 'Nouveau',
     6: 'Correctifs',
