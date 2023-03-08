@@ -384,7 +384,7 @@ export default {
   },
   restricted_view: {
     0: 'Neautorizat',
-    1: 'Te rugăm să te conectezi în cont',
+    1: 'Please log into your account',
     2: 'Restricted view',
     3: 'This page is not out, yet.'
   }
