@@ -25,7 +25,7 @@ export default {
     0: 'Αλλαγές',
     1: 'Λίστα όλων των αναθεωρήσεων που έγιναν στην τρέχουσα έκδοση',
     2: 'Δεν υπάρχει κάτι εδώ',
-    3: 'But you can add the changes you made\'ve to this version of the skin',
+    3: 'But you can add the changes you\'ve made to this version of the skin',
     4: 'Μη ομαδοποιημένο',
     5: 'Νέα',
     6: 'Διορθώσεις',
