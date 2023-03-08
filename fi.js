@@ -25,7 +25,7 @@ export default {
     0: 'Muutosloki',
     1: 'Luettelo kaikista nykyiseen versioon tehdyistä muutoksista',
     2: 'Tyhjää Täällä',
-    3: 'Mutta voit lisätä muutokset jotka olet tehnyt tähän skinin versioon',
+    3: 'But you can add the changes you made\'ve to this version of the skin',
     4: 'Ei ryhmitelty',
     5: 'Uutta',
     6: 'Korjaukset',
@@ -51,7 +51,7 @@ export default {
     2: 'Täällä tuntuu tyhjältä.',
     3: 'Käytä yllä olevaa kenttää uusien tägien löytämiseen',
     4: 'Tags not found',
-    5: 'Try searching for something else',
+    5: 'Yritä hakea jotain muuta',
     6: 'Haku'
   },
   videos: {
@@ -71,7 +71,7 @@ export default {
     0: 'Kaikki',
     1: 'Metadata',
     2: 'Korosta',
-    3: 'Name of the skin not specified',
+    3: 'Skinin nimeä ei ole määritelty',
     4: 'Lisää ainakin yksi skinin tekijä',
     5: 'Lisää muutama tägi',
     6: 'Skinin koko ei ole määritelty',
@@ -81,10 +81,10 @@ export default {
     10: 'Ei annettuja kuvakaappauksia',
     11: 'Lisää ainakin yksi pelialueen kuvakaappaus',
     12: 'Skinin linkki ei ole määritelty',
-    20: 'Näyttää aika hyvältä',
-    21: 'Jokainen ongelma on korjattu, hyvää työtä',
+    20: 'Looks pretty good',
+    21: 'Every issue was fixed. Good job!',
     22: 'Tarkistuslista',
-    23: 'Add at least one public version'
+    23: 'Lisää vähintään yksi julkinen versio'
   },
   skins: {
     0: 'Skinit',
@@ -99,8 +99,8 @@ export default {
     9: 'Skini | Skinit | Skinit',
     10: 'osu Skinit joissa {name} on tekijä | Kaikki skinit joiden tekijä on',
     11: 'Haku',
-    12: '{name} skins',
-    13: 'Explore skins'
+    12: '{name} skinit',
+    13: 'Tutki skinejä'
   },
   skin: {
     0: 'Muuta',
@@ -131,8 +131,8 @@ export default {
     26: 'Näyttää siltä, että et ole tämän skinin tekijä tai muokkaaja',
     27: 'Skinin on tehnyt',
     28: 'No tags',
-    29: 'No videos',
-    30: 'No creators'
+    29: 'Ei videoita',
+    30: 'Ei tekijöitä'
   },
   drag: {
     0: 'Paina tästä',
@@ -151,7 +151,7 @@ export default {
     5: 'Kaikki lippukuvakkeet ovat lähteestä {name}',
     6: 'Lokalisointi',
     7: 'Eikö kukaan? [{lang}]',
-    8: 'Näyttää siltä, että cpol unohti lisätä ne. {text}'
+    8: 'Seems like cyperdark forgot to add them. {text}'
   },
   search: {
     0: 'Skini haku',
@@ -161,15 +161,15 @@ export default {
     4: 'Koko',
     5: 'Päivämäärä',
     7: 'Mitään ei löytynyt',
-    8: 'Yritä erilaisia hakuasetuksia',
+    8: 'Try using different search filters',
     9: 'Odotetaan hakua',
-    10: 'Valitse hakusuodattimet tai kirjoita skinin nimi, tekijä tai tägi',
+    10: 'Use the search filters or type the skin\'s title, author or tags',
     11: 'Lataukset',
     12: 'Nimi',
     13: {
       0: 'Skinit',
       1: 'Tägit',
-      2: 'Users',
+      2: 'Käyttäjät',
       3: 'Luettelot'
     }
   },
@@ -180,11 +180,11 @@ export default {
   },
   undefined: {
     0: 'Tyhjä',
-    1: 'Valitettavasti täällä ei ole mitään, voit etsiä eri sivuja',
-    2: 'Valitettavasti täällä ei ole mitään',
+    1: 'Unfortunately, there\'s nothing here, but you can take a look at the other pages',
+    2: 'Unfortunately, there\'s nothing here',
     3: 'Ei sallittu',
-    4: 'Sinun täytyy olla kirjautuneena sisään muokataksesi tätä skiniä.',
-    5: 'Sinun täytyy olla kirjautuneena lisätäksesi uuden skinin.'
+    4: 'You need to be logged in order to edit this skin.',
+    5: 'You need to be logged in order to add a new skin.'
   },
   meta: {
     title: {
@@ -247,7 +247,7 @@ export default {
     3: 'Tykkäykset: {likes} / Disliket: {dislikes}',
     4: 'Paina ctrl+enter lisätäksesi tägin',
     5: 'Muokkaa versiota',
-    6: '{s}Kirjaudu sisään{p} arvostellaksesi tämän skinin',
+    6: '{s}Log in{p}, in order to rate this skin',
     7: 'Ei lyhyttä kuvausta',
     8: 'Ei url-osoitetta',
     9: 'Lataukset: {amount}'
@@ -296,9 +296,9 @@ export default {
     ratio: 'Valitse kuvasuhde | suhde'
   },
   placeholders: {
-    0: 'Valitse roolit',
-    1: 'Valitse versiot',
-    2: 'Kirjoita...',
+    0: 'Select roles',
+    1: 'Select versions',
+    2: 'Type some text...',
     3: 'Valitse koko',
     4: 'Valitse ajanjakso',
     5: 'Vuosi',
@@ -308,84 +308,84 @@ export default {
     9: 'Pelimuodot',
     10: 'Valitse tyyppi',
     11: 'Liitä youtube-linkki',
-    12: 'Kirjoita kuvaus ja url formaattina: description:url',
+    12: 'Type a description and an url. Format description:url',
     13: 'Valitse lisät',
     14: 'Liitä linkki',
-    15: 'Skinin otsikko, tekijä, tai tägi',
-    16: 'Select category',
-    17: 'Type name of the tag'
+    15: 'Skin title, author, or tags',
+    16: 'Valitse kategoria',
+    17: 'Type the name of the tag'
   },
   contribute: { 0: 'Osallistu' },
   nsfw: {
     0: 'Varoitus!',
     1: 'Tämä skini sisältää herkkää tai aikuisille tarkoitettua sisältöä',
     2: 'Tämä skini sisältää herkkää tai aikuisille tarkoitettua sisältöä, jota jotkut käyttäjät voivat pitää häiritsevänä',
-    3: 'Alright',
-    4: 'bye o/'
+    3: 'Selvä',
+    4: 'Heippa o/'
   },
   removed: {
-    0: 'Version unavailable',
-    1: 'Author of the skin decided to remove this version from the site.',
-    2: 'Switch to available version'
+    0: 'Versio ei ole saatavilla',
+    1: 'The author of the skin decided to remove this version from the site.',
+    2: 'Switch to an available version'
   },
   notify: {
-    0: 'Issues not fixed',
-    1: 'Not all required fields was filled',
+    0: 'Issues were not fixed',
+    1: 'Not all required fields were filled',
     2: 'Show',
     3: 'Not found',
-    4: 'Banner not found (Currently, the first screenshot is being used as the banner)',
-    5: 'No changes',
-    6: 'No changes were found',
+    4: 'Banneria ei löytynyt (Tällä hetkellä ensimmäistä näyttökuvaa käytetään bannerina)',
+    5: 'Ei muutoksia',
+    6: 'Muutoksia ei löytynyt',
     7: 'ID not found',
     8: 'ID of the video not found, try another link (At the moment only YouTube is supported)',
-    9: 'Oops',
-    10: 'Looks like your session is expired, open new page and log into your account (Don\'t worry, everything is saved automatically)',
-    11: 'Exists',
-    12: 'This video has already been added',
-    13: 'Exists',
-    14: 'This tag has already been added',
+    9: 'Hups',
+    10: 'Looks like your session expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
+    11: 'On olemassa',
+    12: 'Tämä video on jo lisätty',
+    13: 'On olemassa',
+    14: 'Tämä tagi on jo lisätty',
     15: 'Not found',
-    16: 'You cannot delete a deleted tag',
-    17: 'Added',
-    18: 'You have successfully added a new tag',
-    19: 'OOps',
-    20: 'This creator was already added',
+    16: 'Et voi poistaa poistettua tägiä',
+    17: 'Lisätty',
+    18: 'Olet lisännyt uuden tägin onnistuneesti',
+    19: 'Hups',
+    20: 'Tämä tekijä on jo lisätty',
     21: 'EZ',
-    22: 'New creator has been added',
+    22: 'Uusi tekijä on lisätty',
     23: 'HUH',
     24: 'Impossible to remove a deleted creator',
-    25: 'Exists',
-    26: 'Same change with this type has been added earlier',
-    27: 'Warning',
-    28: 'Same url with this type has been added earlier',
-    29: 'Warning',
-    30: 'You forgot to add a description for a url. Example: Description:url',
-    31: 'Warning',
-    32: 'You forgot to add a url for description. Example: Description:url',
-    33: 'Restored',
-    34: 'Version {name} has been restored',
-    35: 'Deleted',
-    36: 'Version {name} has been deleted',
-    37: 'Error',
-    38: 'Seems like the server thinks you\'re a bot',
-    39: 'Looks like you\'re user session is expired, open new page and log into your account (Don\'t worry, everything is saved automatically)',
-    40: 'Mismatched credentials (re:login in account. Don\'t worry, everything is saved automatically)',
-    41: 'Unknown error',
-    42: 'You cannot edit inexistent skin',
-    43: 'Seems like you don\'t have permissions to edit this skin',
-    44: 'You cannot submit this version as it is the same as the previous one',
-    45: 'Those changes has been sent already on moderation',
-    46: 'Success',
+    25: 'Duplicate',
+    26: 'This change has already been added earlier.',
+    27: 'Duplicate',
+    28: 'This url has already been added earlier.',
+    29: 'Varoitus',
+    30: 'You forgot to add a description for the url. Example: Description:url',
+    31: 'Varoitus',
+    32: 'You forgot to add an url for the description. Example: Description:url',
+    33: 'Palautettu',
+    34: 'Version «{name}» has been restored',
+    35: 'Poistettu',
+    36: 'Version «{name}» has been deleted',
+    37: 'Virhe',
+    38: 'Apparently the server thinks you\'re a robot.',
+    39: 'Looks like your user session has expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
+    40: 'Mismatched credentials (relogin in account. Don\'t worry, everything was saved automatically)',
+    41: 'Tuntematon virhe',
+    42: 'You cannot edit a nonexistent skin',
+    43: 'Seems like you don\'t have permission to edit this skin',
+    44: 'You cannot send this version because it is the same as the previous one.',
+    45: 'These changes have already been sent for moderation',
+    46: 'Onnistui',
     47: 'New changes have been submitted for moderation',
     48: 'Changes have been updated in moderation',
     49: 'Odd link',
-    50: 'This link cannot be used as a download link',
-    51: 'Submitted to moderation'
+    50: 'Tätä linkkiä ei voi käyttää latauslinkkinä',
+    51: 'Submitted for moderation'
   },
   restricted_view: {
     0: 'Ei sallittu',
-    1: 'Please login in account',
-    2: 'Restricted view',
-    3: 'This page is not out, yet.'
+    1: 'Kirjaudu sisään tilillesi',
+    2: 'Rajoitettu näkymä',
+    3: 'Tämä sivu ei ole vielä julkaistu.'
   }
 };
