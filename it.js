@@ -384,7 +384,7 @@ export default {
   },
   restricted_view: {
     0: 'Non Autorizzato',
-    1: 'Per favore accedi all\'account',
+    1: 'Please log into your account',
     2: 'Visualizzazione ristretta',
     3: 'Questa pagina non è ancora accessibile.'
   }
