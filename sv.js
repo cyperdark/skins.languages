@@ -384,7 +384,7 @@ export default {
   },
   restricted_view: {
     0: 'Obehörig',
-    1: 'Vänligen logga in på ditt konto',
+    1: 'Please log into your account',
     2: 'Begränsad visning',
     3: 'Den här sidan är inte ute, än.'
   }
