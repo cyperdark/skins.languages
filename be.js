@@ -25,7 +25,7 @@ export default {
     0: 'Спіс змяненняў',
     1: 'Спіс усіх змяненняў, зробленых у цяперашняй версіі',
     2: 'Тут нічога няма',
-    3: 'But you can add the changes you made\'ve to this version of the skin',
+    3: 'But you can add the changes you\'ve made to this version of the skin',
     4: 'Не групавана',
     5: 'Новае',
     6: 'Выпраўлення',
