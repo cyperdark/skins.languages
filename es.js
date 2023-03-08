@@ -25,7 +25,7 @@ export default {
     0: 'Lista de cambios',
     1: 'Lista de todas las revisiones hechas en la versión actual',
     2: 'Nada por aquí',
-    3: 'But you can add the changes you made\'ve to this version of the skin',
+    3: 'But you can add the changes you\'ve made to this version of the skin',
     4: 'No agrupado',
     5: 'Nuevo',
     6: 'Arreglos',
