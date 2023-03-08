@@ -25,7 +25,7 @@ export default {
     0: 'Списък с промени',
     1: 'Списък на всички ревизии, направени в текущата версия',
     2: 'Няма нищо тук',
-    3: 'Но можете да добавите промените, които сте направили към тази версия на облика',
+    3: 'But you can add the changes you made\'ve to this version of the skin',
     4: 'Без група',
     5: 'Ново',
     6: 'Поправено',
@@ -81,8 +81,8 @@ export default {
     10: 'Няма екранни снимки',
     11: 'Добавете поне една екранна снимка по време на игра',
     12: 'Връзка за облика не е специфициран',
-    20: 'Доста добре изглежда',
-    21: 'Всяка една грешка е оправена, което е доста добре',
+    20: 'Looks pretty good',
+    21: 'Every issue was fixed. Good job!',
     22: 'Списък за проверка',
     23: 'Add at least one public version'
   },
@@ -151,7 +151,7 @@ export default {
     5: 'Всички изображения на знамена са взети от {name}',
     6: 'Локализация',
     7: 'Някой? [{lang}]',
-    8: 'Изглежда, че cpol е забравил да ги добави. {text}'
+    8: 'Seems like cyperdark forgot to add them. {text}'
   },
   search: {
     0: 'Търсене на облик',
@@ -161,9 +161,9 @@ export default {
     4: 'Големина',
     5: 'Дата',
     7: 'Нищо не е намерено',
-    8: 'Опитайте се да сложите друга критерия за търсене',
+    8: 'Try using different search filters',
     9: 'Чакане на заявка',
-    10: 'Изберете критерия за търсене или просто напишете заглавието на облика, на създателя, или просто ключовите думи',
+    10: 'Use the search filters or type the skin\'s title, author or tags',
     11: 'Изгеляния',
     12: 'Име',
     13: {
@@ -180,11 +180,11 @@ export default {
   },
   undefined: {
     0: 'Празно',
-    1: 'За съжаление тук няма нищо, но може да погледнете други сраници',
-    2: 'За съжаление тук няма нищо',
+    1: 'Unfortunately, there\'s nothing here, but you can take a look at the other pages',
+    2: 'Unfortunately, there\'s nothing here',
     3: 'Неразрешено',
-    4: 'Трябва да сте се вписали за да редактирате този облик.',
-    5: 'Трябва да сте влезли, за да добавите нов облик.'
+    4: 'You need to be logged in order to edit this skin.',
+    5: 'You need to be logged in order to add a new skin.'
   },
   meta: {
     title: {
@@ -247,7 +247,7 @@ export default {
     3: 'Харесвания: {likes} / Нехаресвания: {dislikes}',
     4: 'Натиснете ctrl+enter за да добавите ключови думи',
     5: 'Редакрирайте версията',
-    6: '{s}Вход{p}, за да можете да оцените облика',
+    6: '{s}Log in{p}, in order to rate this skin',
     7: 'Няма кратко описание',
     8: 'Няма връзка',
     9: 'Изтегляния: {amount}'
@@ -296,9 +296,9 @@ export default {
     ratio: 'Изберете съотношение | съотношение'
   },
   placeholders: {
-    0: 'Изберете роли',
-    1: 'Изберете версии',
-    2: 'Напишете текст...',
+    0: 'Select roles',
+    1: 'Select versions',
+    2: 'Type some text...',
     3: 'Изберете големина',
     4: 'Изберете времеви период',
     5: 'Година',
@@ -308,12 +308,12 @@ export default {
     9: 'Игрови режими',
     10: 'Изберете вид',
     11: 'Поставете YouTube връзка',
-    12: 'Напишете описание и връзка. Описание на формарта:връзка',
+    12: 'Type a description and an url. Format description:url',
     13: 'Изберете екстра',
     14: 'Поставете връзка',
-    15: 'Заглавие на облика, създател, или ключова дума',
+    15: 'Skin title, author, or tags',
     16: 'Select category',
-    17: 'Type name of the tag'
+    17: 'Type the name of the tag'
   },
   contribute: { 0: 'Допринасяне' },
   nsfw: {
@@ -325,12 +325,12 @@ export default {
   },
   removed: {
     0: 'Version unavailable',
-    1: 'Author of the skin decided to remove this version from the site.',
-    2: 'Switch to available version'
+    1: 'The author of the skin decided to remove this version from the site.',
+    2: 'Switch to an available version'
   },
   notify: {
-    0: 'Issues not fixed',
-    1: 'Not all required fields was filled',
+    0: 'Issues were not fixed',
+    1: 'Not all required fields were filled',
     2: 'Show',
     3: 'Not found',
     4: 'Banner not found (Currently, the first screenshot is being used as the banner)',
@@ -339,7 +339,7 @@ export default {
     7: 'ID not found',
     8: 'ID of the video not found, try another link (At the moment only YouTube is supported)',
     9: 'Oops',
-    10: 'Looks like your session is expired, open new page and log into your account (Don\'t worry, everything is saved automatically)',
+    10: 'Looks like your session expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
     11: 'Exists',
     12: 'This video has already been added',
     13: 'Exists',
@@ -354,33 +354,33 @@ export default {
     22: 'New creator has been added',
     23: 'HUH',
     24: 'Impossible to remove a deleted creator',
-    25: 'Exists',
-    26: 'Same change with this type has been added earlier',
-    27: 'Warning',
-    28: 'Same url with this type has been added earlier',
+    25: 'Duplicate',
+    26: 'This change has already been added earlier.',
+    27: 'Duplicate',
+    28: 'This url has already been added earlier.',
     29: 'Warning',
-    30: 'You forgot to add a description for a url. Example: Description:url',
+    30: 'You forgot to add a description for the url. Example: Description:url',
     31: 'Warning',
-    32: 'You forgot to add a url for description. Example: Description:url',
+    32: 'You forgot to add an url for the description. Example: Description:url',
     33: 'Restored',
-    34: 'Version {name} has been restored',
+    34: 'Version «{name}» has been restored',
     35: 'Deleted',
-    36: 'Version {name} has been deleted',
+    36: 'Version «{name}» has been deleted',
     37: 'Error',
-    38: 'Seems like the server thinks you\'re a bot',
-    39: 'Looks like you\'re user session is expired, open new page and log into your account (Don\'t worry, everything is saved automatically)',
-    40: 'Mismatched credentials (re:login in account. Don\'t worry, everything is saved automatically)',
+    38: 'Apparently the server thinks you\'re a robot.',
+    39: 'Looks like your user session has expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
+    40: 'Mismatched credentials (relogin in account. Don\'t worry, everything was saved automatically)',
     41: 'Unknown error',
-    42: 'You cannot edit inexistent skin',
-    43: 'Seems like you don\'t have permissions to edit this skin',
-    44: 'You cannot submit this version as it is the same as the previous one',
-    45: 'Those changes has been sent already on moderation',
+    42: 'You cannot edit a nonexistent skin',
+    43: 'Seems like you don\'t have permission to edit this skin',
+    44: 'You cannot send this version because it is the same as the previous one.',
+    45: 'These changes have already been sent for moderation',
     46: 'Success',
     47: 'New changes have been submitted for moderation',
     48: 'Changes have been updated in moderation',
     49: 'Odd link',
     50: 'This link cannot be used as a download link',
-    51: 'Submitted to moderation'
+    51: 'Submitted for moderation'
   },
   restricted_view: {
     0: 'Неразрешено',
