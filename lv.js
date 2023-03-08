@@ -25,7 +25,7 @@ export default {
     0: 'Izmaiņu saraksts',
     1: 'Saraksts ar visām veiktajām revīzijām pašreizējā versijā',
     2: 'Šeit nekā nav',
-    3: 'But you can add the changes you made\'ve to this version of the skin',
+    3: 'But you can add the changes you\'ve made to this version of the skin',
     4: 'Nav grupēts',
     5: 'Jaunais',
     6: 'Labotais',
