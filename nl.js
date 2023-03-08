@@ -25,7 +25,7 @@ export default {
     0: 'Veranderingen',
     1: 'Lijst van alle gemaakte wijzigingen in de huidige versie',
     2: 'Niks hier',
-    3: 'But you can add the changes you made\'ve to this version of the skin',
+    3: 'But you can add the changes you\'ve made to this version of the skin',
     4: 'Niet gegroepeerd',
     5: 'Nieuw',
     6: 'Verbeteringen',
