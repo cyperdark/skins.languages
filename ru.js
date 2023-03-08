@@ -25,7 +25,7 @@ export default {
     0: 'Спикок изменения',
     1: 'Список всех изменений, сделанных в текущей версии',
     2: 'Ничего нету',
-    3: 'But you can add the changes you made\'ve to this version of the skin',
+    3: 'But you can add the changes you\'ve made to this version of the skin',
     4: 'Без группы',
     5: 'Новое',
     6: 'Исправления',
@@ -81,8 +81,8 @@ export default {
     10: 'Отсутствуют скриншоты',
     11: 'Добавьте хотя бы один скриншот геймплея',
     12: 'Ссылка на скин не указана',
-    20: 'Looks pretty good',
-    21: 'Every issue was fixed. Good job!',
+    20: 'Выглядит довольно хорошо',
+    21: 'Все проблемы были исправлены. Хорошая работа!',
     22: 'Список проблем',
     23: 'Добавьте хотя бы одну публичную версию'
   },
@@ -151,7 +151,7 @@ export default {
     5: 'Все изображения флагов взяты из {name}',
     6: 'Локализация',
     7: 'Кто-нибудь? [{lang}]',
-    8: 'Seems like cyperdark forgot to add them. {text}'
+    8: 'Похоже, что cyperdark забыл добавить их. {text}'
   },
   search: {
     0: 'Поиск скинов',
@@ -161,9 +161,9 @@ export default {
     4: 'Вес',
     5: 'Дата',
     7: 'Ничего не найдено',
-    8: 'Try using different search filters',
+    8: 'Попробуйте использовать разные фильтры поиска',
     9: 'Ожидаем запроса',
-    10: 'Use the search filters or type the skin\'s title, author or tags',
+    10: 'Используйте фильтры поиска или введите название скина, автора или теги',
     11: 'Скачиваний',
     12: 'Название',
     13: {
@@ -180,11 +180,11 @@ export default {
   },
   undefined: {
     0: 'Ничего нету',
-    1: 'Unfortunately, there\'s nothing here, but you can take a look at the other pages',
-    2: 'Unfortunately, there\'s nothing here',
+    1: 'К сожалению, здесь ничего нет, но вы можете посмотреть другие страницы',
+    2: 'К сожалению, здесь ничего нет',
     3: 'Похоже вы не в аккаунте',
-    4: 'You need to be logged in order to edit this skin.',
-    5: 'You need to be logged in order to add a new skin.'
+    4: 'Вы должны войти в аккаунт, чтобы редактировать этот скин.',
+    5: 'Вы должны войти в аккаунт, чтобы добавить новый скин.'
   },
   meta: {
     title: {
@@ -247,7 +247,7 @@ export default {
     3: 'Лайки: {likes} / Дизлайки: {dislikes}',
     4: 'Нажмите ctrl+enter, чтобы добавить новый тег',
     5: 'Редактировать версию',
-    6: '{s}Log in{p}, in order to rate this skin',
+    6: '{s}Войдите{p}, чтобы оценить этот скин',
     7: 'Нету короткого описания',
     8: 'Нету ссылки',
     9: 'Скачивания: {amount}'
@@ -296,9 +296,9 @@ export default {
     ratio: 'Соотношение сторон | соотношение'
   },
   placeholders: {
-    0: 'Select roles',
-    1: 'Select versions',
-    2: 'Type some text...',
+    0: 'Выберите роли',
+    1: 'Выберите версии',
+    2: 'Введите текст...',
     3: 'Вес скина',
     4: 'Диапазон дат',
     5: 'Год',
@@ -308,12 +308,12 @@ export default {
     9: 'Режимы',
     10: 'Выберите тип',
     11: 'Вставьте ссылку на youtube видео',
-    12: 'Type a description and an url. Format description:url',
+    12: 'Введите описание и url. Описание формата: url',
     13: 'Выберите дополнительное',
     14: 'Вставить ссылку',
-    15: 'Skin title, author, or tags',
+    15: 'Название скина, автор или теги',
     16: 'Выберите категорию',
-    17: 'Type the name of the tag'
+    17: 'Введите название тега'
   },
   contribute: { 0: 'Помочь с переводом' },
   nsfw: {
@@ -325,12 +325,12 @@ export default {
   },
   removed: {
     0: 'Версия недоступна',
-    1: 'The author of the skin decided to remove this version from the site.',
-    2: 'Switch to an available version'
+    1: 'Автор скина решил удалить эту версию с сайта.',
+    2: 'Перейти на доступную версию'
   },
   notify: {
-    0: 'Issues were not fixed',
-    1: 'Not all required fields were filled',
+    0: 'Ошибки не исправлены',
+    1: 'Не все обязательные пункты были выполнены',
     2: 'Показать',
     3: 'Не найдено',
     4: 'Баннер не найден (Сейчас, используется первый скриншот в качестве баннера)',
@@ -339,7 +339,7 @@ export default {
     7: 'ID не найден',
     8: 'ID видео не найден, попробуйте другую ссылку (На данный момент поддерживается только YouTube)',
     9: 'Упс',
-    10: 'Looks like your session expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
+    10: 'Кажется вас выкинуло из аккаунта, обновите страницу и зайдите в свой аккаунт (Не волнуйтесь, все изменения сохранены)',
     11: 'Существует',
     12: 'Это видео уже добавлено',
     13: 'Существует',
@@ -354,37 +354,37 @@ export default {
     22: 'Новый создатель был добавлен',
     23: 'HUH',
     24: 'Невозможно удалить призрака',
-    25: 'Duplicate',
-    26: 'This change has already been added earlier.',
-    27: 'Duplicate',
-    28: 'This url has already been added earlier.',
+    25: 'Уже было',
+    26: 'Изменение такого типа и содержания было добавленно ранее.',
+    27: 'Уже было',
+    28: 'Ссылка с таким описанием и типом была добавлена ранее.',
     29: 'Предупреждение',
-    30: 'You forgot to add a description for the url. Example: Description:url',
+    30: 'Вы забыли добавить описание для ссылки. Пример: Описание:ссылка',
     31: 'Предупреждение',
-    32: 'You forgot to add an url for the description. Example: Description:url',
+    32: 'Вы забыли добавить ссылку к описанию. Пример: Описание:ссылка',
     33: 'Восстановлено',
-    34: 'Version «{name}» has been restored',
+    34: 'Версия {name} была восстановлена',
     35: 'Удалено',
-    36: 'Version «{name}» has been deleted',
+    36: 'Версия {name} была удалена',
     37: 'Ошибка',
-    38: 'Apparently the server thinks you\'re a robot.',
-    39: 'Looks like your user session has expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
-    40: 'Mismatched credentials (relogin in account. Don\'t worry, everything was saved automatically)',
+    38: 'Кажется сервер думает что вы бот.',
+    39: 'Кажется вас выкинуло из аккаунта, откройте новую страницу и зайдите в свой аккаунт (Не волнуйтесь, все изменения сохранены)',
+    40: 'Данные аккаунта не сходятся, откройте новую страницу и зайдите в свой аккаунт заново (Не волнуйтесь, все изменения сохранены)',
     41: 'Неизвестная ошибка',
-    42: 'You cannot edit a nonexistent skin',
-    43: 'Seems like you don\'t have permission to edit this skin',
-    44: 'You cannot send this version because it is the same as the previous one.',
-    45: 'These changes have already been sent for moderation',
+    42: 'Вы не можете отредактировать скин, которого нету',
+    43: 'Упс, у вас нету прав на редактирование этого скина',
+    44: 'Скин идентичен версии на модерации, отправка не возможна.',
+    45: 'Вы уже отправили эти изменения на модерацию',
     46: 'Успешно',
     47: 'Новые изменения были отправлены на модерацию',
     48: 'Изменения были обновлены в модерации',
     49: 'Странная ссылка',
     50: 'Данная ссылка не может быть использована',
-    51: 'Submitted for moderation'
+    51: 'Отправлено на модерацию'
   },
   restricted_view: {
     0: 'Похоже вы не в аккаунте',
-    1: 'Please log into your account',
+    1: 'Пожалуйста войдите в свой аккаунт',
     2: 'Ограниченный просмотр',
     3: 'Эта страница пока недоступна.'
   }
