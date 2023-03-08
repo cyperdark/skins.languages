@@ -25,7 +25,7 @@ export default {
     0: 'Nhật ký thay đổi',
     1: 'Danh sách tất cả những sửa đổi ở phiên bản hiện tại',
     2: 'Không có gì ở đây',
-    3: 'But you can add the changes you made\'ve to this version of the skin',
+    3: 'But you can add the changes you\'ve made to this version of the skin',
     4: 'Chưa nhóm',
     5: 'Mới',
     6: 'Sửa lỗi',
