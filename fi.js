@@ -25,7 +25,7 @@ export default {
     0: 'Muutosloki',
     1: 'Luettelo kaikista nykyiseen versioon tehdyistä muutoksista',
     2: 'Tyhjää Täällä',
-    3: 'But you can add the changes you made\'ve to this version of the skin',
+    3: 'But you can add the changes you\'ve made to this version of the skin',
     4: 'Ei ryhmitelty',
     5: 'Uutta',
     6: 'Korjaukset',
