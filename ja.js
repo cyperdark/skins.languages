@@ -25,7 +25,7 @@ export default {
     0: '変更ログ',
     1: '現在のバージョンで行われたすべてのリビジョンのリスト',
     2: 'ここには何もありません',
-    3: 'But you can add the changes you made\'ve to this version of the skin',
+    3: 'But you can add the changes you\'ve made to this version of the skin',
     4: 'グループ化されていない',
     5: '新',
     6: '修正',
