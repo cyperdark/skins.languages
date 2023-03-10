@@ -1,10 +1,10 @@
 export default {
   title: {
-    home: 'Home',
-    login: 'Log in',
-    lists: { 0: 'Lists' },
+    home: 'Басты бет',
+    login: 'логин',
+    lists: { 0: 'Тізімдер' },
     tags: {
-      0: 'Tags',
+      0: 'тегі',
       1: '{amount} tags for category {name}',
       2: 'Search tags'
     },
@@ -46,7 +46,7 @@ export default {
     6: 'Versions'
   },
   tags: {
-    0: 'Tags',
+    0: 'тегі',
     1: 'List of all the tags related to this skin',
     2: 'It seems pretty empty here.',
     3: 'Use the field above to find new tags',
@@ -114,7 +114,7 @@ export default {
     8: 'Forum post | osu! Forum',
     9: 'Reddit post',
     10: 'Creators',
-    11: 'Tags',
+    11: 'тегі',
     13: 'Videos',
     14: 'New Version | Manage versions',
     15: 'Update | Submit',
@@ -168,9 +168,9 @@ export default {
     12: 'Name',
     13: {
       0: 'Skins',
-      1: 'Tags',
+      1: 'тегі',
       2: 'Users',
-      3: 'Lists'
+      3: 'Тізімдер'
     }
   },
   tabs: {
