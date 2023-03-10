@@ -25,7 +25,7 @@ export default {
     0: 'Jurnal de Modificări',
     1: 'Lista tuturor reviziilor efectuate în versiunea curentă',
     2: 'Nimic aici',
-    3: 'But you can add the changes you\'ve made to this version of the skin',
+    3: 'Dar poți adăuga modificările pe care le-ai făcut la această versiune a skinului',
     4: 'Nu sunt grupate',
     5: 'Nou',
     6: 'Probleme rezolvate',
@@ -81,8 +81,8 @@ export default {
     10: 'Nici o captură de ecran furnizată',
     11: 'Adaugă cel puțin o captură de ecran a unui mod de joc',
     12: 'Link spre skin nespecificat',
-    20: 'Looks pretty good',
-    21: 'Every issue was fixed. Good job!',
+    20: 'Arată destul de bine',
+    21: 'Fiecare problemă a fost rezolvată. Bravo!',
     22: 'Listă de verificare',
     23: 'Adaugă cel puțin o versiune publică'
   },
@@ -151,7 +151,7 @@ export default {
     5: 'Toate steagurile sunt luate de pe {name}',
     6: 'Localizare',
     7: 'Cineva? [{lang}]',
-    8: 'Seems like cyperdark forgot to add them. {text}'
+    8: 'Se pare că cyperdark a uitat să-i adauge. {text}'
   },
   search: {
     0: 'Căutarea unui skin',
@@ -161,9 +161,9 @@ export default {
     4: 'Dimensiune',
     5: 'Dată',
     7: 'Nu am găsit nimic',
-    8: 'Try using different search filters',
+    8: 'Încercă să folosești filtre de căutare diferite',
     9: 'În așteptarea unei solicitări',
-    10: 'Use the search filters or type the skin\'s title, author or tags',
+    10: 'Folosește filtrele de căutare sau tastează titlul, autorul sau etichetele skinului',
     11: 'Descărcări',
     12: 'Nume',
     13: {
@@ -180,11 +180,11 @@ export default {
   },
   undefined: {
     0: 'Gol',
-    1: 'Unfortunately, there\'s nothing here, but you can take a look at the other pages',
-    2: 'Unfortunately, there\'s nothing here',
+    1: 'Din păcate, nu este nimic aici, dar te poți uita la celelalte pagini',
+    2: 'Din păcate, nu este nimic aici',
     3: 'Neautorizat',
-    4: 'You need to be logged in order to edit this skin.',
-    5: 'You need to be logged in order to add a new skin.'
+    4: 'Trebuie să fii conectat pentru a edita acest skin.',
+    5: 'Trebuie să fii conectat pentru a adăuga un nou skin.'
   },
   meta: {
     title: {
@@ -247,7 +247,7 @@ export default {
     3: 'Like-uri: {likes} / Dislike-uri: {dislikes}',
     4: 'Apasă ctrl+enter pentru a adăuga o etichetă',
     5: 'Modifică versiunea',
-    6: '{s}Log in{p}, in order to rate this skin',
+    6: '{s}Conectează-te{p}, pentru a putea evalua acest skin',
     7: 'Nici o descriere scurtă',
     8: 'Nici un url',
     9: 'Descărcări: {amount}'
@@ -296,9 +296,9 @@ export default {
     ratio: 'Selectați un aspect ratio | ratio'
   },
   placeholders: {
-    0: 'Select roles',
-    1: 'Select versions',
-    2: 'Type some text...',
+    0: 'Selectează rolurile',
+    1: 'Selectează versiunile',
+    2: 'Scrie niște text...',
     3: 'Selectați dimensiunea',
     4: 'Selectează intervalul de timp',
     5: 'An',
@@ -308,12 +308,12 @@ export default {
     9: 'Moduri de joc',
     10: 'Selectează tipul',
     11: 'Atașează un link de YouTube',
-    12: 'Type a description and an url. Format description:url',
+    12: 'Tastează o descriere și un url. Format descriere:url',
     13: 'Selectează extra',
     14: 'Atașează un link',
-    15: 'Skin title, author, or tags',
+    15: 'Titlul, autorul sau etichetele skinului',
     16: 'Selectează categoria',
-    17: 'Type the name of the tag'
+    17: 'Scrie numele etichetei'
   },
   contribute: { 0: 'Contribuie' },
   nsfw: {
@@ -325,12 +325,12 @@ export default {
   },
   removed: {
     0: 'Versiune indisponibilă',
-    1: 'The author of the skin decided to remove this version from the site.',
-    2: 'Switch to an available version'
+    1: 'Autorul acestui skin a decis să elimine această versiune de pe site.',
+    2: 'Treci la o versiune disponibilă'
   },
   notify: {
-    0: 'Issues were not fixed',
-    1: 'Not all required fields were filled',
+    0: 'Problemele nu au fost rezolvate',
+    1: 'Nu au fost completate toate câmpurile obligatorii',
     2: 'Arată',
     3: 'Nu a fost găsit',
     4: 'Banner-ul nu a fost găsit (În momentul actual, prima captură de ecran este folosită ca banner)',
@@ -339,7 +339,7 @@ export default {
     7: 'ID-ul nu a fost găsit',
     8: 'ID-ul videoclipului nu a fost găsit, încercați un alt link (momentan numai YouTube este suportat)',
     9: 'Ups',
-    10: 'Looks like your session expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
+    10: 'Se pare că sesiunea dvs. a expirat, deschide o nouă pagină și conectează-te la contul tău (nu iți face griji, totul este salvat automat)',
     11: 'Există',
     12: 'Acest videoclip a fost deja adăugat',
     13: 'Există',
@@ -354,38 +354,38 @@ export default {
     22: 'Un nou creator a fost adăugat',
     23: 'HUH',
     24: 'Nu se poate elimina un creator șters',
-    25: 'Duplicate',
-    26: 'This change has already been added earlier.',
-    27: 'Duplicate',
-    28: 'This url has already been added earlier.',
+    25: 'Dublură',
+    26: 'Această modificare a fost deja adăugată anterior.',
+    27: 'Dublură',
+    28: 'Acest url a fost deja adăugat anterior.',
     29: 'Atenție',
-    30: 'You forgot to add a description for the url. Example: Description:url',
+    30: 'Ai uitat să adaugi o descriere pentru url. Exemplu: Descriere:url',
     31: 'Atenție',
-    32: 'You forgot to add an url for the description. Example: Description:url',
+    32: 'Ai uitat să adaugi un url pentru descriere. Exemplu: Descriere:url',
     33: 'Restaurat',
-    34: 'Version «{name}» has been restored',
+    34: 'Versiunea «{name}» a fost restaurată',
     35: 'Ștearsă',
-    36: 'Version «{name}» has been deleted',
+    36: 'Versiunea «{name}» a fost ștearsă',
     37: 'Eroare',
-    38: 'Apparently the server thinks you\'re a robot.',
+    38: 'Aparent, serverul crede că ești un robot.',
     39: 'Looks like your user session has expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
-    40: 'Mismatched credentials (relogin in account. Don\'t worry, everything was saved automatically)',
-    41: 'Unknown error',
-    42: 'You cannot edit a nonexistent skin',
-    43: 'Seems like you don\'t have permission to edit this skin',
-    44: 'You cannot send this version because it is the same as the previous one.',
-    45: 'These changes have already been sent for moderation',
-    46: 'Success',
-    47: 'New changes have been submitted for moderation',
-    48: 'Changes have been updated in moderation',
-    49: 'Odd link',
-    50: 'This link cannot be used as a download link',
-    51: 'Submitted for moderation'
+    40: 'Date de conectare incorecte (Reconectează-te în cont. Nu îți faceți griji, totul a fost salvat automat)',
+    41: 'Eroare necunoscută',
+    42: 'Nu poți edita un skin inexistent',
+    43: 'Se pare că nu ai permisiunea de a edita acest skin',
+    44: 'Nu poți trimite această versiune deoarece este identică cu cea anterioară.',
+    45: 'Aceste modificări au fost deja trimise spre moderare',
+    46: 'Operație reușită',
+    47: 'Noi modificări au fost trimise pentru moderare',
+    48: 'Modificările au fost actualizate în moderare',
+    49: 'Link ciudat',
+    50: 'Acest link nu poate fi folosit ca un link de descărcare',
+    51: 'Trimis spre moderare'
   },
   restricted_view: {
     0: 'Neautorizat',
-    1: 'Please log into your account',
-    2: 'Restricted view',
-    3: 'This page is not out, yet.'
+    1: 'Te rog conectează-te în contul tău',
+    2: 'Vizualizare restricționată',
+    3: 'Această pagină nu este încă disponibilă.'
   }
 };
