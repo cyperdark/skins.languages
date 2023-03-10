@@ -25,7 +25,7 @@ export default {
     0: 'Список змін',
     1: 'Перелік усіх змін, зроблених у поточній версії',
     2: 'Тут пусто',
-    3: 'But you can add the changes you\'ve made to this version of the skin',
+    3: 'Але ви можете додати зміни, внесені вами до цієї версії скіна',
     4: 'Не згруповано',
     5: 'Нове',
     6: 'Виправлення',
@@ -81,8 +81,8 @@ export default {
     10: 'Жодного знімку екрану не завантажено',
     11: 'Додай принаймні один знімок геймплею',
     12: 'Не вказано посилання на скін',
-    20: 'Looks pretty good',
-    21: 'Every issue was fixed. Good job!',
+    20: 'Виглядає доволі добре',
+    21: 'Кожна проблема була виправлена. Хороша робота!',
     22: 'Контрольний перелік',
     23: 'Додайте принаймні одну публічну версію'
   },
@@ -161,9 +161,9 @@ export default {
     4: 'Розмір',
     5: 'Дата',
     7: 'Нічого не знайдено',
-    8: 'Try using different search filters',
+    8: 'Спробуйте скористатися іншими фільтрами пошуку',
     9: 'Очікується запит',
-    10: 'Use the search filters or type the skin\'s title, author or tags',
+    10: 'Використовуйте пошукові фільтри або введіть заголовок скіна, автора або теги',
     11: 'Завантаження',
     12: 'Назва',
     13: {
@@ -180,11 +180,11 @@ export default {
   },
   undefined: {
     0: 'Порожньо',
-    1: 'Unfortunately, there\'s nothing here, but you can take a look at the other pages',
-    2: 'Unfortunately, there\'s nothing here',
+    1: 'На жаль, тут нічого немає, але ви можете подивитися інші сторінки',
+    2: 'На жаль, тут нічого немає',
     3: 'Неавторизовано',
-    4: 'You need to be logged in order to edit this skin.',
-    5: 'You need to be logged in order to add a new skin.'
+    4: 'Ви повинні увійти для того, щоб редагувати цей скін.',
+    5: 'Ви повинні увійти для того, щоб додати новий скін.'
   },
   meta: {
     title: {
@@ -247,7 +247,7 @@ export default {
     3: 'Вподобайки: {likes} / Дизлайки: {dislikes}',
     4: 'Натисніть ctrl+enter, щоб додати тег',
     5: 'Редагувати версію',
-    6: '{s}Log in{p}, in order to rate this skin',
+    6: '{s}Увійдіть{p}, щоб оцінити цей скін',
     7: 'Немає опису',
     8: 'Немає URL',
     9: 'Завантажень: {amount}'
@@ -267,7 +267,7 @@ export default {
       10: 'Екран паузи',
       11: 'Екран поразки',
       12: 'Екран результату',
-      13: 'Пропустити',
+      13: 'Екран пропуску',
       14: 'Банер'
     },
     cats: {
@@ -308,12 +308,12 @@ export default {
     9: 'Режими гри',
     10: 'Виберіть тип',
     11: 'Вставте посилання на YouTube',
-    12: 'Type a description and an url. Format description:url',
+    12: 'Введіть опис і url. Опис формату опис:url',
     13: 'Вибрати додатково',
     14: 'Вставити посилання',
-    15: 'Skin title, author, or tags',
+    15: 'Назва скіна, автор або теги',
     16: 'Виберіть категорію',
-    17: 'Type the name of the tag'
+    17: 'Введіть назву тега'
   },
   contribute: { 0: 'Зробити свій внесок' },
   nsfw: {
@@ -325,12 +325,12 @@ export default {
   },
   removed: {
     0: 'Версія недоступна',
-    1: 'The author of the skin decided to remove this version from the site.',
-    2: 'Switch to an available version'
+    1: 'Автор скіна вирішив видалити цю версію з сайту.',
+    2: 'Перейти на наявну версію'
   },
   notify: {
-    0: 'Issues were not fixed',
-    1: 'Not all required fields were filled',
+    0: 'Проблеми не були виправлені',
+    1: 'Не всі обов\'язкові поля були заповнені',
     2: 'Показати',
     3: 'Не знайдено',
     4: 'Банер не знайдено (на цю мить, перший скріншот використовується як банер)',
@@ -339,7 +339,7 @@ export default {
     7: 'ID не знайдено',
     8: 'ID відео не знайдено, спробуйте інше посилання (на даний момент підтримується лише YouTube)',
     9: 'Отакої',
-    10: 'Looks like your session expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
+    10: 'Схоже, що термін дії вашої сесії закінчився, відкрийте нову сторінку та увійдіть до облікового запису (Не хвилюйтеся, все було збережено автоматично)',
     11: 'Існує',
     12: 'Це відео вже було додано',
     13: 'Існує',
@@ -354,27 +354,27 @@ export default {
     22: 'Додано нового творця',
     23: 'HUH',
     24: 'Неможливо видалити вже видаленого творця',
-    25: 'Duplicate',
-    26: 'This change has already been added earlier.',
-    27: 'Duplicate',
-    28: 'This url has already been added earlier.',
+    25: 'Дублікат',
+    26: 'Ця зміна вже додана раніше.',
+    27: 'Дублікат',
+    28: 'Ця url-адреса вже була додана раніше.',
     29: 'Попередження',
-    30: 'You forgot to add a description for the url. Example: Description:url',
+    30: 'Ви забули додати опис для url-адреси. Приклад: Опис:url',
     31: 'Попередження',
-    32: 'You forgot to add an url for the description. Example: Description:url',
+    32: 'Ви забули додати url-адресу для опису. Приклад: Опис:url',
     33: 'Відновлено',
     34: 'Версія «{name}» була відновлена',
     35: 'Видалено',
-    36: 'Version «{name}» has been deleted',
+    36: 'Версія {name} була видалена',
     37: 'Помилка',
-    38: 'Apparently the server thinks you\'re a robot.',
-    39: 'Looks like your user session has expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
-    40: 'Mismatched credentials (relogin in account. Don\'t worry, everything was saved automatically)',
+    38: 'Схоже, сервер думає, що ви бот.',
+    39: 'Схоже, що термін дії вашої сесії закінчився, відкрийте нову сторінку та увійдіть у свій обліковий запис (Не хвилюйтеся, все зберігається автоматично)',
+    40: 'Неправильні облікові дані (Повторно ввійдіть в обліковий запис. Не хвилюйтесь, все збережено автоматично)',
     41: 'Невідома помилка',
-    42: 'You cannot edit a nonexistent skin',
-    43: 'Seems like you don\'t have permission to edit this skin',
-    44: 'You cannot send this version because it is the same as the previous one.',
-    45: 'These changes have already been sent for moderation',
+    42: 'Ви не можете редагувати неіснуючий скін',
+    43: 'Здається, у вас немає прав для редагування цього скіна',
+    44: 'Ви не можете відправити цю версію, тому що вона така ж, як і попередня.',
+    45: 'Ці зміни вже були відправлені на перевірку',
     46: 'Успішно',
     47: 'Нові зміни були відправлені на модерацію',
     48: 'Зміни були оновлені на модерації',
@@ -384,7 +384,7 @@ export default {
   },
   restricted_view: {
     0: 'Неавторизовано',
-    1: 'Please log into your account',
+    1: 'Будь ласка, увійдіть до вашого облікового запису',
     2: 'Обмежений перегляд',
     3: 'Ця сторінка поки що не існує.'
   }
