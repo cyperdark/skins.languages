@@ -6,7 +6,7 @@ export default {
     tags: {
       0: 'Categorieën',
       1: '{amount} tags voor categorie {name}',
-      2: 'Search tags'
+      2: 'Zoek categorieën'
     },
     ideas: {
       0: 'Inspiratie',
@@ -25,7 +25,7 @@ export default {
     0: 'Veranderingen',
     1: 'Lijst van alle gemaakte wijzigingen in de huidige versie',
     2: 'Niks hier',
-    3: 'But you can add the changes you\'ve made to this version of the skin',
+    3: 'Maar je kan de aanpassingen die jij gemaakt hebt aan deze versie van de skin toevoegen',
     4: 'Niet gegroepeerd',
     5: 'Nieuw',
     6: 'Verbeteringen',
@@ -34,7 +34,7 @@ export default {
   },
   ideas: {
     0: 'Niks gevonden',
-    1: 'Screenshots of «{type}» were not uploaded to the site'
+    1: 'Schermafbeeldingen of «{type}» zijn niet geüpload naar de website'
   },
   creators: {
     0: 'Auteurs',
@@ -50,8 +50,8 @@ export default {
     1: 'Lijst van alle tags gerelateerd aan deze skin',
     2: 'Het is hier vrij leeg.',
     3: 'Gebruik het bovenstaande veld om nieuwe tags te vinden',
-    4: 'Tags not found',
-    5: 'Try searching for something else',
+    4: 'Categorieën niet gevonden',
+    5: 'Probeer naar iets anders te zoeken',
     6: 'Zoek'
   },
   videos: {
@@ -71,7 +71,7 @@ export default {
     0: 'Alles',
     1: 'Metadata',
     2: 'Uitgelicht',
-    3: 'Name of the skin not specified',
+    3: 'Naam van de skin is niet gespecificeerd',
     4: 'Voeg tenminste één auteur van de skin toe',
     5: 'Voeg een paar tags toe',
     6: 'Grootte van de skin is niet gegeven',
@@ -81,10 +81,10 @@ export default {
     10: 'Geen schermopnames aangeboden',
     11: 'Voeg tenminste één schermopname toe terwijl je speelt',
     12: 'Link naar de skin is niet gegeven',
-    20: 'Looks pretty good',
-    21: 'Every issue was fixed. Good job!',
+    20: 'Ziet er goed uit',
+    21: 'Elk probleem is opgelost. Lekker gedaan!',
     22: 'Checklist',
-    23: 'Add at least one public version'
+    23: 'Voeg minimaal één openbare versie toe'
   },
   skins: {
     0: 'Skins',
@@ -100,7 +100,7 @@ export default {
     10: 'osu Skins door {name} | Alle skins van',
     11: 'Zoek',
     12: '{name} skins',
-    13: 'Explore skins'
+    13: 'Ontdek skins'
   },
   skin: {
     0: 'Bewerk',
@@ -130,9 +130,9 @@ export default {
     25: 'Jij hoort niet bij ons',
     26: 'Het ziet ernaar uit dat je niet de auteur of editor van deze skin bent',
     27: 'Skin door',
-    28: 'No tags',
-    29: 'No videos',
-    30: 'No creators'
+    28: 'Geen categorieën',
+    29: 'Geen video\'s',
+    30: 'Geen makers'
   },
   drag: {
     0: 'Klik hier',
@@ -151,7 +151,7 @@ export default {
     5: 'Alle vlaggen zijn genomen van {name}',
     6: 'Vertalingen',
     7: 'Iemand? [{lang}]',
-    8: 'Seems like cyperdark forgot to add them. {text}'
+    8: 'Het ziet ernaar uit dat cyperdark ze is vergeten toe te voegen. {text}'
   },
   search: {
     0: 'Zoek naar skin',
@@ -161,15 +161,15 @@ export default {
     4: 'Grootte',
     5: 'Datum',
     7: 'Niks gevonden',
-    8: 'Try using different search filters',
+    8: 'Probeer andere zoek criteria',
     9: 'We wachten op je zoekopdracht',
-    10: 'Use the search filters or type the skin\'s title, author or tags',
+    10: 'Gebruik de zoekfilters of typ de titel van de skin, auteur of tags',
     11: 'Downloads',
     12: 'Naam',
     13: {
       0: 'Skins',
       1: 'Categorieën',
-      2: 'Users',
+      2: 'Gebruikers',
       3: 'Lijsten'
     }
   },
@@ -180,11 +180,11 @@ export default {
   },
   undefined: {
     0: 'Leeg',
-    1: 'Unfortunately, there\'s nothing here, but you can take a look at the other pages',
-    2: 'Unfortunately, there\'s nothing here',
+    1: 'Helaas pindakaas, er is hier niks, maar je kan op andere pagina\'s wel wat vinden',
+    2: 'Helaas pindakaas, er is hier niks',
     3: 'Niet geautoriseerd',
-    4: 'You need to be logged in order to edit this skin.',
-    5: 'You need to be logged in order to add a new skin.'
+    4: 'Je moet ingelogd zijn om deze skin te veranderen.',
+    5: 'Je moet ingelogd zijn om een nieuwe skin toe te voegen.'
   },
   meta: {
     title: {
@@ -199,8 +199,8 @@ export default {
       8: '{name} zoek osu skins',
       9: 'Krijg inspiratie van andere osu skins',
       10: '{name} maakte osu skins',
-      11: 'Search tags',
-      12: '{name} found tags'
+      11: 'Zoek categorieën',
+      12: '{name} gevonden tags'
     },
     description: {
       0: 'Pak de beste osu! skins van onze website! Ons grote aanbod heeft skins voor alle gamemodes, aspect ratio’s  en we hebben zelfs skins van de beste spelers. Maar dan heb je anime sectie nog niet gezien. Speel beter met onze hoge skins van hoge kwaliteit. #osuskins #osugame #anime',
@@ -213,7 +213,7 @@ export default {
       7: 'Een gigantische hoeveelheid osu skins voor een {name}, gratis te downloaden!',
       8: 'Alle osu skins gemaakt door {name}',
       9: 'Vindt inspiratie voor jouw volgende osu! skin op onze site. Verdwaal in ons gevarieerde bos van skins en ontdek nieuwe technieken en ideeën. Wordt geïnspireerd en maak je eigen unieke skins.',
-      10: 'Search for tags among all the tags on the site.'
+      10: 'Zoek naar categorieën tussen alle categorieën op de website.'
     }
   },
   buttons: {
@@ -247,7 +247,7 @@ export default {
     3: 'Duimpies: {likes} / Duimpies omlaag: {dislikes}',
     4: 'Druk op ctrl+enter om een tag toe te voegen',
     5: 'Bewerk versie',
-    6: '{s}Log in{p}, in order to rate this skin',
+    6: '{s}Log in{p}, om deze skin te beoordelen',
     7: 'Geen korte beschrijving',
     8: 'Geen url',
     9: 'Keren gedownload: {amount}'
@@ -296,9 +296,9 @@ export default {
     ratio: 'Selecteer een aspect ratio | ratio'
   },
   placeholders: {
-    0: 'Select roles',
-    1: 'Select versions',
-    2: 'Type some text...',
+    0: 'Selecteer rollen',
+    1: 'Selecteer versies',
+    2: 'Type wat tekst...',
     3: 'Selecteer grootte',
     4: 'Selecteer tijdsperiode',
     5: 'Jaar',
@@ -308,84 +308,84 @@ export default {
     9: 'Gamemodes',
     10: 'Selecteer type',
     11: 'Plak een youtube link',
-    12: 'Type a description and an url. Format description:url',
+    12: 'Typ een omschrijving en URL. Formaat omschrijving:URL',
     13: 'Selecteer extra',
     14: 'Plak een link',
-    15: 'Skin title, author, or tags',
-    16: 'Select category',
-    17: 'Type the name of the tag'
+    15: 'Skin titel, auteur of categorieën',
+    16: 'Selecteer categorie',
+    17: 'Type de naam van de categorie'
   },
   contribute: { 0: 'Draag je steentje bij' },
   nsfw: {
     0: 'Pas op!',
     1: 'Deze skin bevat gevoelige of volwassen onderdelen',
     2: 'Deze skin bevat gevoelige of volwassen onderdelen die sommige gebruikers schokkend kunnen vinden',
-    3: 'Alright',
-    4: 'bye o/'
+    3: 'Oké',
+    4: 'laters o/'
   },
   removed: {
-    0: 'Version unavailable',
-    1: 'The author of the skin decided to remove this version from the site.',
-    2: 'Switch to an available version'
+    0: 'Versie onbeschikbaar',
+    1: 'De auteur van de skin heeft besloten deze versie van de site te verwijderen.',
+    2: 'Ga naar een beschikbare versie'
   },
   notify: {
-    0: 'Issues were not fixed',
-    1: 'Not all required fields were filled',
-    2: 'Show',
-    3: 'Not found',
-    4: 'Banner not found (Currently, the first screenshot is being used as the banner)',
-    5: 'No changes',
-    6: 'No changes were found',
-    7: 'ID not found',
-    8: 'ID of the video not found, try another link (At the moment only YouTube is supported)',
-    9: 'Oops',
-    10: 'Looks like your session expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
-    11: 'Exists',
-    12: 'This video has already been added',
-    13: 'Exists',
-    14: 'This tag has already been added',
-    15: 'Not found',
-    16: 'You cannot delete a deleted tag',
-    17: 'Added',
-    18: 'You have successfully added a new tag',
-    19: 'OOps',
-    20: 'This creator was already added',
+    0: 'Problemen zijn niet opgelost',
+    1: 'Niet alle verplichte velden zijn ingevuld',
+    2: 'Geef weer',
+    3: 'Niet gevonden',
+    4: 'Banner niet gevonden (momenteel wordt de eerste schermafbeelding als de banner gebruikt)',
+    5: 'Geen wijzigingen',
+    6: 'Er zijn geen wijzigingen gevonden',
+    7: 'ID niet gevonden',
+    8: 'ID van de video niet gevonden, probeer een andere link (Op het moment wordt alleen YouTube ondersteund)',
+    9: 'Oepsie',
+    10: 'Het lijkt erop dat je sessie is verlopen, open een nieuwe pagina en log in op je account (Geen zorgen, alles is automatisch opgeslagen)',
+    11: 'Bestaat',
+    12: 'Deze video is al toegevoegd',
+    13: 'Bestaat',
+    14: 'Deze categorie is al toegevoegd',
+    15: 'Niet gevonden',
+    16: 'Je kan een verwijderde categorie niet verwijderen',
+    17: 'Toegevoegd',
+    18: 'Je hebt een nieuwe categorie toegevoegd',
+    19: 'OEpsie',
+    20: 'Deze maker is al toegevoegd',
     21: 'EZ',
-    22: 'New creator has been added',
+    22: 'Nieuwe maker is toegevoegd',
     23: 'HUH',
-    24: 'Impossible to remove a deleted creator',
-    25: 'Duplicate',
-    26: 'This change has already been added earlier.',
-    27: 'Duplicate',
-    28: 'This url has already been added earlier.',
-    29: 'Warning',
-    30: 'You forgot to add a description for the url. Example: Description:url',
-    31: 'Warning',
-    32: 'You forgot to add an url for the description. Example: Description:url',
-    33: 'Restored',
-    34: 'Version «{name}» has been restored',
-    35: 'Deleted',
-    36: 'Version «{name}» has been deleted',
-    37: 'Error',
-    38: 'Apparently the server thinks you\'re a robot.',
-    39: 'Looks like your user session has expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
-    40: 'Mismatched credentials (relogin in account. Don\'t worry, everything was saved automatically)',
-    41: 'Unknown error',
-    42: 'You cannot edit a nonexistent skin',
-    43: 'Seems like you don\'t have permission to edit this skin',
-    44: 'You cannot send this version because it is the same as the previous one.',
-    45: 'These changes have already been sent for moderation',
-    46: 'Success',
-    47: 'New changes have been submitted for moderation',
-    48: 'Changes have been updated in moderation',
-    49: 'Odd link',
-    50: 'This link cannot be used as a download link',
-    51: 'Submitted for moderation'
+    24: 'Onmogelijk om een verwijderde maker te verwijderen',
+    25: 'Dupliceer',
+    26: 'Deze wijziging is al eerder toegevoegd.',
+    27: 'Dupliceer',
+    28: 'Deze URL is al eerder toegevoegd.',
+    29: 'Waarschuwing',
+    30: 'U bent vergeten een beschrijving voor de URL toe te voegen. Voorbeeld: Omschrijving:URL',
+    31: 'Waarschuwing',
+    32: 'U bent vergeten een beschrijving voor de URL toe te voegen. Voorbeeld: Omschrijving:URL',
+    33: 'Hersteld',
+    34: 'Versie «{name}» is hersteld',
+    35: 'Verwijderd',
+    36: 'Versie «{name}» is verwijderd',
+    37: 'Foutmelding',
+    38: 'Blijkbaar denkt de server dat je een robot bent.',
+    39: 'Het lijkt erop dat je sessie is verlopen, open een nieuwe pagina en log in op je account (Geen zorgen, alles is automatisch opgeslagen)',
+    40: 'Niet overeenkomende gegevens (opnieuw inloggen in account. Geen zorgen, alles is automatisch opgeslagen)',
+    41: 'Onbekende foutmelding',
+    42: 'Je kan een niet bestaande skin niet bewerken',
+    43: 'Het ziet ernaar uit dat je geen toestemming hebt om deze skin te bewerken',
+    44: 'Je kunt deze versie niet insturen, omdat die hetzelfde is als de vorige.',
+    45: 'Deze wijzigingen zijn al verstuurd voor moderatie',
+    46: 'Succes',
+    47: 'Nieuwe wijzigingen zijn ingediend voor moderatie',
+    48: 'Nieuwe wijzigingen zijn ingediend voor moderatie',
+    49: 'Vreemde link',
+    50: 'Deze link kan niet gebruikt worden als download link',
+    51: 'Ingediend voor moderatie'
   },
   restricted_view: {
     0: 'Niet geautoriseerd',
-    1: 'Please log into your account',
-    2: 'Restricted view',
-    3: 'This page is not out, yet.'
+    1: 'Meld je aan op je account',
+    2: 'Beperkte weergave',
+    3: 'Deze pagina is nog niet uit.'
   }
 };
