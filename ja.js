@@ -6,7 +6,7 @@ export default {
     tags: {
       0: 'タグ',
       1: 'カテゴリ {name} の {amount} タグ',
-      2: 'Search tags'
+      2: 'タグ検索'
     },
     ideas: {
       0: 'インスピレーション',
@@ -25,7 +25,7 @@ export default {
     0: '変更ログ',
     1: '現在のバージョンで行われたすべてのリビジョンのリスト',
     2: 'ここには何もありません',
-    3: 'But you can add the changes you\'ve made to this version of the skin',
+    3: 'ですが、このバージョンのスキンに変更を加えることが出来ます。',
     4: 'グループ化されていない',
     5: '新',
     6: '修正',
@@ -34,7 +34,7 @@ export default {
   },
   ideas: {
     0: '何も見つかりませんでした',
-    1: 'Screenshots of «{type}» were not uploaded to the site'
+    1: '«{type}»のスクリーンショットはアップロードされていません'
   },
   creators: {
     0: 'クリエイター',
@@ -50,8 +50,8 @@ export default {
     1: 'このスキンに関連するすべてのタグの一覧',
     2: 'ここではかなり空っぽのようです。',
     3: '新しいタグを見つけるには上のフィールドを使用してください',
-    4: 'Tags not found',
-    5: 'Try searching for something else',
+    4: 'タグが見つかりませんでした',
+    5: '他のキーワードを検索してみてください。',
     6: '検索'
   },
   videos: {
@@ -71,7 +71,7 @@ export default {
     0: '全て',
     1: 'メタデータ',
     2: 'ハイライト',
-    3: 'Name of the skin not specified',
+    3: 'スキンの名前が指定されていません',
     4: '少なくとも1人のスキンクリエーターを追加する',
     5: 'いくつかのタグを追加',
     6: 'スキンのサイズが指定されていません',
@@ -81,8 +81,8 @@ export default {
     10: 'スクリーンショットが提供されていません',
     11: '少なくとも１つのゲームプレイのスクリーンショットを追加してください',
     12: 'スキンへのリンクが指定されていません',
-    20: 'Looks pretty good',
-    21: 'Every issue was fixed. Good job!',
+    20: 'かなり良い感じ',
+    21: 'すべての問題が修正されました。グッジョブ！',
     22: 'チェックリスト',
     23: 'Add at least one public version'
   },
@@ -99,8 +99,8 @@ export default {
     9: 'Skin | Skins | Skins',
     10: '{name} によるosu スキン | から 全てのスキン',
     11: '検索',
-    12: '{name} skins',
-    13: 'Explore skins'
+    12: '{name} スキン',
+    13: 'スキンを探す'
   },
   skin: {
     0: '編集',
@@ -199,7 +199,7 @@ export default {
       8: '{name} 検索 osu スキン',
       9: '他のosuスキンからインスピレーションを得る',
       10: '{name} が作成したスキン',
-      11: 'Search tags',
+      11: 'タグ検索',
       12: '{name} found tags'
     },
     description: {
