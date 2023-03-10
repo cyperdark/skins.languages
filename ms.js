@@ -25,7 +25,7 @@ export default {
     0: 'Log perubahan',
     1: 'Senarai semua penyemakan yang telah dibuat di dalam versi terkini',
     2: 'Tiada apa-apa di sini',
-    3: 'But you can add the changes you\'ve made to this version of the skin',
+    3: 'Tetapi anda boleh menambah perubahan yang anda telah buat kepada skin versi ini',
     4: 'Tidak dikumpulkan',
     5: 'Baharu',
     6: 'Pembetulan',
@@ -81,8 +81,8 @@ export default {
     10: 'Tiada screenshot yang diberikan',
     11: 'Masukkan sekurang-kurangnya satu screenshot bagi gameplay',
     12: 'Pautan bagi skin tidak dispesifikasi',
-    20: 'Looks pretty good',
-    21: 'Every issue was fixed. Good job!',
+    20: 'Nampak cun',
+    21: 'Semua issue dibaiki. Tahniah!',
     22: 'Senarai semak',
     23: 'Letakkan sekurang-kurangnya satu versi awam'
   },
@@ -151,7 +151,7 @@ export default {
     5: 'Semua gambar bendera diambil dari {name}',
     6: 'Lokalisasi',
     7: 'Sesiapa? [{lang}]',
-    8: 'Seems like cyperdark forgot to add them. {text}'
+    8: 'Nampak macam cpol lupa nak tambah. {text}'
   },
   search: {
     0: 'Cari skin',
@@ -161,9 +161,9 @@ export default {
     4: 'Saiz',
     5: 'Tarikh',
     7: 'Tiada apa-apa dijumpai',
-    8: 'Try using different search filters',
+    8: 'Cuba gunakan penapis carian yang lain',
     9: 'Menunggu pertanyaan',
-    10: 'Use the search filters or type the skin\'s title, author or tags',
+    10: 'Gunakan penapis carian atau taip tajuk skin, pembuat atau penanda',
     11: 'Muat turun',
     12: 'Nama',
     13: {
@@ -180,11 +180,11 @@ export default {
   },
   undefined: {
     0: 'Kosong',
-    1: 'Unfortunately, there\'s nothing here, but you can take a look at the other pages',
-    2: 'Unfortunately, there\'s nothing here',
+    1: 'Malangnya tak ada apa-apa kat sini, tapi ko boleh tengok halaman lain',
+    2: 'Malangnya tak ada apa-apa kat sini',
     3: 'Tiada kebenaran',
-    4: 'You need to be logged in order to edit this skin.',
-    5: 'You need to be logged in order to add a new skin.'
+    4: 'Anda perlu log masuk untuk mengedit skin ini.',
+    5: 'Anda perlu log masuk untuk menambah skin baharu.'
   },
   meta: {
     title: {
@@ -247,7 +247,7 @@ export default {
     3: 'Suka: {likes} / Tidak suka: {dislikes}',
     4: 'Tekan ctrl+tag untuk menambah tag',
     5: 'Edit versi',
-    6: '{s}Log in{p}, in order to rate this skin',
+    6: '{s}Dafter masuk{p}, untuk menilai skin ini',
     7: 'Tiada kandungan',
     8: 'Tiada url',
     9: 'Muat turun: {amount}'
@@ -296,9 +296,9 @@ export default {
     ratio: 'Pilih nisbah aspek | nisbah'
   },
   placeholders: {
-    0: 'Select roles',
-    1: 'Select versions',
-    2: 'Type some text...',
+    0: 'Pilih peranan',
+    1: 'Pilih versi',
+    2: 'Taip sedikit teks...',
     3: 'Pilih saiz',
     4: 'Pilih julat tarikh',
     5: 'Tahun',
@@ -308,12 +308,12 @@ export default {
     9: 'Mod permainan',
     10: 'Pilih taip',
     11: 'Letakkan pautan Youtube',
-    12: 'Type a description and an url. Format description:url',
+    12: 'Taip penerangan dan url. Format penerangan:url',
     13: 'Pilih tambahan',
     14: 'Letakkan pautan',
-    15: 'Skin title, author, or tags',
+    15: 'Tajuk skin, pengarang atau tag',
     16: 'Pilih katergori',
-    17: 'Type the name of the tag'
+    17: 'Tulis nama penanda'
   },
   contribute: { 0: 'Sumbangan' },
   nsfw: {
@@ -325,12 +325,12 @@ export default {
   },
   removed: {
     0: 'Versi tidak ada',
-    1: 'The author of the skin decided to remove this version from the site.',
-    2: 'Switch to an available version'
+    1: 'Pengarang skin telah melupuskan versi ini daripada site.',
+    2: 'Tukar kepada versi yang ada'
   },
   notify: {
-    0: 'Issues were not fixed',
-    1: 'Not all required fields were filled',
+    0: 'Masalah tidak dapat dibaiki',
+    1: 'Tidak kesemua bahagian telah diisi',
     2: 'Tunjuk',
     3: 'Tidak dijumpai',
     4: 'Banner tidak dijumpai (Screenshot pertama sedang digunakan sebagai banner)',
@@ -339,7 +339,7 @@ export default {
     7: 'ID tidak dijumpai',
     8: 'ID untuk video tidak dijumpai, cuba pautan yang lain (Buat masa sekarang hanya pautan Youtube sahaja yang disokong)',
     9: 'Alamak',
-    10: 'Looks like your session expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
+    10: 'Kelihatan seperti sesi anda telah tamat tempoh, buka helaian baharu dan log masuk akaun anda (Takpe, semuanya telah disimpan secara automatik)',
     11: 'Wujud',
     12: 'Video ini telah pun ditambah',
     13: 'Wujud',
@@ -354,37 +354,37 @@ export default {
     22: 'Pencipta baharu telah pun ditambah',
     23: 'HUH',
     24: 'Mustahil untuk memadam sesebuah pencipta',
-    25: 'Duplicate',
-    26: 'This change has already been added earlier.',
-    27: 'Duplicate',
-    28: 'This url has already been added earlier.',
+    25: 'Salinan',
+    26: 'Penukaran ini telah ditambah sebentar tadi.',
+    27: 'Salinan',
+    28: 'Url ini telah ditambah sebentar tadi.',
     29: 'Amaran',
-    30: 'You forgot to add a description for the url. Example: Description:url',
+    30: 'Anda lupa untuk menambah penerangan untuk url. Contohnya: Penerangan:url',
     31: 'Amaran',
-    32: 'You forgot to add an url for the description. Example: Description:url',
+    32: 'Anda lupa untuk menambah url untuk penerangan. Contohnya: Penerangan:url',
     33: 'Telah dipulihkan',
-    34: 'Version «{name}» has been restored',
+    34: 'Versi {name} telah dipulihkan',
     35: 'Dibuang',
-    36: 'Version «{name}» has been deleted',
+    36: 'Versi {name} telah dibuang',
     37: 'Ralat',
-    38: 'Apparently the server thinks you\'re a robot.',
-    39: 'Looks like your user session has expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
-    40: 'Mismatched credentials (relogin in account. Don\'t worry, everything was saved automatically)',
+    38: 'Nampaknya seperti server mensyaki anda ialah bot.',
+    39: 'Nampaknya sesi penggunaan anda telah tamat tempoh, buka page baharu dan log masuk akaun anda (Takpe, semuanya telah disimpan secara automatik)',
+    40: 'Maklumat kendiri tidak betul (log masuk semula ke dalam akaun. Takpe, semuanya telah disimpan secara automatik)',
     41: 'Ralat tidak diketahui',
-    42: 'You cannot edit a nonexistent skin',
-    43: 'Seems like you don\'t have permission to edit this skin',
-    44: 'You cannot send this version because it is the same as the previous one.',
-    45: 'These changes have already been sent for moderation',
+    42: 'Anda tidak boleh mengedit skin yang tidak wujud',
+    43: 'Nampaknya anda tidak mempunyai kebenaran untuk mengedit skin ini',
+    44: 'Anda tidak boleh menyerahkan versi ini kerana ianya sama seperti yang sebelumnya.',
+    45: 'Semua penukaran telah dihantar untuk moderasi',
     46: 'Berjaya',
     47: 'Perubahan baharu telah diserahkan kepada pihak moderasi',
     48: 'Perubahan telah dimuat naik kepada pihak moderasi',
     49: 'Link pelik',
     50: 'Link ini tidak boleh diguna sebagai link muat turun',
-    51: 'Submitted for moderation'
+    51: 'Telah diserahkan kepada moderasi'
   },
   restricted_view: {
     0: 'Tiada kebenaran',
-    1: 'Please log into your account',
+    1: 'Sila log masuk dengan akaun anda',
     2: 'Pengelihatan terhad',
     3: 'Helaian ini belum dikeluarkan, lagi.'
   }
