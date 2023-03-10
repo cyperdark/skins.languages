@@ -1,71 +1,71 @@
 export default {
   title: {
-    home: 'Home',
-    login: 'Log in',
-    lists: { 0: 'Lists' },
+    home: 'בית',
+    login: 'התחברות',
+    lists: { 0: 'רשימות' },
     tags: {
-      0: 'Tags',
+      0: 'תגים',
       1: '{amount} tags for category {name}',
       2: 'Search tags'
     },
     ideas: {
-      0: 'Inspiration',
-      1: '«{amount}»'
+      0: 'השראה',
+      1: '«{amount}»\n'
     },
-    sounds: { 0: 'Sounds' },
-    leaderboard: { 0: 'Leaderboards' },
-    extend: { 0: 'More | Less' },
+    sounds: { 0: 'קולות' },
+    leaderboard: { 0: 'לוח תוצאות' },
+    extend: { 0: 'יותר, פחות' },
     skin: {
-      0: 'This skin contains elements from other skins',
-      1: 'Click here for more information'
+      0: 'סקין זה מכיל אלמנטים סקינים אחרים',
+      1: 'לחץ כאן לקבלת מידע נוסף'
     },
     tools: 'Tools'
   },
   changelogs: {
-    0: 'Changelog',
-    1: 'List of all the revisions done in the current version',
-    2: 'Nothing here',
-    3: 'But you can add the changes you\'ve made to this version of the skin',
-    4: 'Not grouped',
-    5: 'New',
-    6: 'Fixes',
-    7: 'Changes',
-    8: 'Removals'
+    0: 'יומן שינויים',
+    1: 'רשימה של כל התיקונים שבוצעו בגירסה הנוכחית',
+    2: 'שום דבר פה',
+    3: 'אבל אתה יכול להוסיף את השינויים שביצעת בגרסה זו של סקין',
+    4: 'לא מקובץ',
+    5: 'חדש',
+    6: 'תיקונים',
+    7: 'שינויים',
+    8: 'הסרות'
   },
   ideas: {
     0: 'Nothing found',
-    1: 'Screenshots of «{type}» were not uploaded to the site'
+    1: 'צילומי מסך של «{type}» לא הועלו לאתר'
   },
   creators: {
-    0: 'Creators',
-    1: 'List all creators who were involved in making this version',
-    2: 'No one is here',
-    3: 'Searching for a player\'s name will display a list of profiles.',
-    4: 'Editor',
-    5: 'Roles',
-    6: 'Versions'
+    0: 'יוצרים',
+    1: 'רשום את כל היוצרים שהיו מעורבים ביצירת גרסה זו',
+    2: 'אף אחד לא כאן',
+    3: 'חיפוש שם השחקן יציג רשימה של פרופילים.',
+    4: 'עורך',
+    5: 'תפקידים',
+    6: 'גירסאות'
   },
   tags: {
-    0: 'Tags',
-    1: 'List of all the tags related to this skin',
-    2: 'It seems pretty empty here.',
-    3: 'Use the field above to find new tags',
-    4: 'Tags not found',
-    5: 'Try searching for something else',
+    0: 'תגים',
+    1: 'רשימה של כל התגים הקשורים סקין זה',
+    2: 'זה נראה די ריק כאן.',
+    3: 'השתמש בשדה שלמעלה כדי למצוא תגים חדשים',
+    4: 'תגיות לא נמצאו',
+    5: 'נסה לחפש משהו אחר',
     6: 'Search'
   },
   videos: {
-    0: 'Videos',
-    1: 'List of all the video showcases for this skin',
-    2: 'No showcases',
-    3: 'Search for some on YouTube or create your own showcase'
+    0: 'סרטונים',
+    1: 'רשימה של כל תצוגות הווידאו עבור סקין זה',
+    2: 'אין חלונות',
+    3: 'חפשו כמה כאלה ב-YouTube או צרו חלון ראווה משלכם'
   },
   sources: {
-    0: 'Attribution',
+    0: 'ייחוס',
     1: 'List of all used assets or tools in this version of the skin',
     2: 'Kinda empty here',
     3: 'If you have used assets from other skins, or arts, be sure to add them in the box above',
-    4: 'Not grouped'
+    4: 'לא מקובץ'
   },
   checks: {
     0: 'All',
@@ -113,9 +113,9 @@ export default {
     7: 'Download link | Download skin',
     8: 'Forum post | osu! Forum',
     9: 'Reddit post',
-    10: 'Creators',
-    11: 'Tags',
-    13: 'Videos',
+    10: 'יוצרים',
+    11: 'תגים',
+    13: 'סרטונים',
     14: 'New Version | Manage versions',
     15: 'Update | Submit',
     16: 'Gamemodes',
@@ -168,9 +168,9 @@ export default {
     12: 'Name',
     13: {
       0: 'Skins',
-      1: 'Tags',
+      1: 'תגים',
       2: 'Users',
-      3: 'Lists'
+      3: 'רשימות'
     }
   },
   tabs: {
@@ -277,7 +277,7 @@ export default {
     }
   },
   select: {
-    0: 'New',
+    0: 'חדש',
     1: 'Fixed',
     2: 'Changed',
     3: 'Removed',
