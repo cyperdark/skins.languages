@@ -5,7 +5,8 @@ export default {
     lists: { 0: 'Listeler' },
     tags: {
       0: 'Etiketler',
-      1: '{name} kategorisi için {amount} sonuç bulundu'
+      1: '{name} kategorisi için {amount} sonuç bulundu',
+      2: 'Etiket arayın'
     },
     ideas: {
       0: 'İlham',
@@ -17,18 +18,23 @@ export default {
     skin: {
       0: 'Bu skin içinde diğer skinlerden elemntler barındırıyor',
       1: 'Daha fazla bilgi için buraya tıklayın'
-    }
+    },
+    tools: 'Toollar'
   },
   changelogs: {
     0: 'Güncelleme geçmişi',
     1: 'Güncel versiyondaki yapılan tüm değişikliklerin listesi',
     2: 'Burada hiçbir şey yok',
-    3: 'Ama skinin bu versiyonuna yaptığınız değişiklikleri ekleyebilirsiniz',
+    3: 'But you can add the changes you\'ve made to this version of the skin',
     4: 'Gruplandırılmamış',
     5: 'Yeni',
     6: 'Düzeltmeler',
     7: 'Değişiklikler',
     8: 'Silinenler'
+  },
+  ideas: {
+    0: 'Hiçbir şey bulunamadı',
+    1: 'Screenshots of «{type}» were not uploaded to the site'
   },
   creators: {
     0: 'Yaratıcılar',
@@ -43,7 +49,10 @@ export default {
     0: 'Etiketler',
     1: 'Bu skinle bağlantılı tüm etiketlerin listesi',
     2: 'Burası bayağı bi boş gözüküyor.',
-    3: 'Yeni etiketler bulmak için yukarıdaki alanı kullanın'
+    3: 'Yeni etiketler bulmak için yukarıdaki alanı kullanın',
+    4: 'Etiket Bulunamadı',
+    5: 'Başka bir şey aramayı dene',
+    6: 'Ara'
   },
   videos: {
     0: 'Videolar',
@@ -62,6 +71,7 @@ export default {
     0: 'Hepsi',
     1: 'Metadata',
     2: 'Hightlight',
+    3: 'Skin ismi belirtilmemiş',
     4: 'Skini oluşturan en az bir kişi ekleyin',
     5: 'Birkaç etiket ekleyin',
     6: 'Skinin boyutu belirtilmemiş',
@@ -71,9 +81,10 @@ export default {
     10: 'Ekran görüntüsü sağlanamıyor',
     11: 'En az bir oynanış görüntüsü ekleyin',
     12: 'Skin linki belirtilmemiş',
-    20: 'Gayet iyi görünüyor',
-    21: 'İyi haber! Hiçbir problem kalmadı',
-    22: 'Kontrol listesi'
+    20: 'Looks pretty good',
+    21: 'Every issue was fixed. Good job!',
+    22: 'Kontrol listesi',
+    23: 'Herkese açık en az bir versiyon ekleyin'
   },
   skins: {
     0: 'Skinler',
@@ -87,7 +98,9 @@ export default {
     8: 'Tüm skinler | osu skinleri',
     9: 'Skin | Skins | Skins',
     10: '{name} tarafıdan yapılan skinler | All skins from',
-    11: 'Ara'
+    11: 'Ara',
+    12: '{name} skins',
+    13: 'Explore skins'
   },
   skin: {
     0: 'Düzenle',
@@ -116,7 +129,10 @@ export default {
     24: '{amount} saniye kaldı',
     25: 'Bizden biri değişsin',
     26: 'Görünüşe göre bu skinin yaratıcısı ya da editörü değilsin',
-    27: 'Skini oluşturan'
+    27: 'Skini oluşturan',
+    28: 'No tags',
+    29: 'No videos',
+    30: 'No creators'
   },
   drag: {
     0: 'Buraya tıklayın',
@@ -135,7 +151,7 @@ export default {
     5: 'Bütün bayrak görselleri {name}\'dan alındı',
     6: 'Yerelleştirme',
     7: 'Herhangi birisi? [{lang}]',
-    8: 'Görünüşe göre, cpol onları eklemeyi unutmuş. {text}'
+    8: 'Seems like cyperdark forgot to add them. {text}'
   },
   search: {
     0: 'Skin aratın',
@@ -145,11 +161,17 @@ export default {
     4: 'Boyut',
     5: 'Tarih',
     7: 'Hiçbir şey bulunamadı',
-    8: 'Başka kriterde arama yapmayı deneyin',
+    8: 'Try using different search filters',
     9: 'Arama bekleniyor',
-    10: 'Arama kriterinizi seçin ya da sadece skin adını, yapımcısını ya da etiketini yazın',
+    10: 'Use the search filters or type the skin\'s title, author or tags',
     11: 'İndirmeler',
-    12: 'İsim'
+    12: 'İsim',
+    13: {
+      0: 'Skinler',
+      1: 'Etiketler',
+      2: 'Users',
+      3: 'Listeler'
+    }
   },
   tabs: {
     0: 'Ara',
@@ -158,11 +180,11 @@ export default {
   },
   undefined: {
     0: 'Boş',
-    1: 'Ne yazık ki burada bir şey bulamadık yine de diğer sayafalara göz atmak isteyebilirsin',
-    2: 'Ne yazık ki burada hiçbir şey yok',
+    1: 'Unfortunately, there\'s nothing here, but you can take a look at the other pages',
+    2: 'Unfortunately, there\'s nothing here',
     3: 'Yetkiniz yok',
-    4: 'Bu skini editleyebilmek için giriş yapman gerek.',
-    5: 'Yeni bir skin eklemek için giriş yapmanız gerekiyor.'
+    4: 'You need to be logged in order to edit this skin.',
+    5: 'You need to be logged in order to add a new skin.'
   },
   meta: {
     title: {
@@ -176,7 +198,9 @@ export default {
       7: 'osu skins',
       8: '{name} search osu skins',
       9: 'Diğer osu skinlerinden ilham alın',
-      10: '{name} created osu skins'
+      10: '{name} created osu skins',
+      11: 'Etiket arayın',
+      12: '{name} found tags'
     },
     description: {
       0: 'Sitemizden en iyi osu! skinlerini edinin! Devasa kütüphanemizde tüm oyunmodlarına, çerçeve oranlarına hatta top playerlara ilişkin skinler bulabilirsin. Artı olarak anime fanlarına yönelik bi bölümümüz daha var. Mükemmel skininle birlikte oyununu bir adım ileri taşı. #osuskins #osugame #anime',
@@ -188,9 +212,9 @@ export default {
       6: '{name} osu skins collection!, free downloading',
       7: 'A huge amount of osu skins for {name}, download for free!',
       8: 'All osu skins created by {name}',
-      9: 'Sitemizde bir sonraki osu! skininin için ilham kaynağı bul. Çeşitli koleksiyonumuza göz atın ve yeni teknikler, fikirler edinin. İlham alarak kendinize özgün skinler yaratın.'
-    },
-    keywords: { 0: 'osu, osu!, osu skins, std skins, ctb skins, mania skins, taiko skins, mrekk osu skins,Rafis osu skins,FlyingTuna osu skins,Vaxei osu skins,Cookiezi osu skins,Varvalian osu skins,RyuK osu skins,WhiteCat osu skins,_RyuK osu skins,BeasttrollMC osu skins,Genshin Impact osu skins,Mathi osu skins,WubWoofWolf osu skins,Merami osu skins,xootynator osu skins,Gayzmcgee osu skins,[Karcher] osu skins,Bubbleman osu skins,ChomikBox osu skins,NSFW osu skins,Lifeline osu skins,Hatsune Miku osu skins,Azerite osu skins,Umbre osu skins,404 AimNotFound osu skins,-Nikstrim osu skins,bloo osu skins,Shigetora osu skins,Badeu osu skins,FunOrange osu skins,worst hr player osu skins,Tekkito osu skins,ninerik osu skins,azr8 osu skins,idke osu skins,Andros osu skins,Zylice osu skins,Rektygon osu skins,Komori osu skins,anime osu skins,cyperdark osu skins,Red_Pixel osu skins,Utami osu skins,Arknights osu skins,Karthy osu skins,Paraqeet osu skins,aetrna osu skins,Spare osu skins,-GN osu skins,Mastasz osu skins,Seouless osu skins,haga1115 osu skins,shimon osu skins,fieryrage osu skins,Ekoro osu skins,Firebat92 osu skins,_Shield osu skins,-Roaz- osu skins,- Dark - osu skins,atturbo555 osu skins,Aristia osu skins,_Aiko__ osu skins,z x c osu skins,eternum osu skins,talala osu skins,NyanPotato osu skins,Arnold24x24 osu skins,Alumetri osu skins,im a fancy lad osu skins,jordanlr7 osu skins,Woey osu skins,khz osu skins,rrtyui osu skins,kieg osu skins,Rupertion osu skins,FGSky osu skins,Aireu osu skins,Neko God osu skins,Apostol osu skins,Abyssal osu skins,dokidokilolixx osu skins,Mlaw osu skins,Ponytail osu skins,Reedkatt osu skins,Zestiny osu skins,Apraxia osu skins,Binfy osu skins,Rohulk osu skins,-PloX osu skins,DuyKhang-sama osu skins,BronyPH osu skins,Intercambing osu skins,Xeltol osu skins,Valorant osu skins,Akolibed osu skins,hololive osu skins,kablaze osu skins,tokyo ghoul osu skins,Trail Mix osu skins,Dereban osu skins' }
+      9: 'Sitemizde bir sonraki osu! skininin için ilham kaynağı bul. Çeşitli koleksiyonumuza göz atın ve yeni teknikler, fikirler edinin. İlham alarak kendinize özgün skinler yaratın.',
+      10: 'Search for tags among all the tags on the site.'
+    }
   },
   buttons: {
     0: 'Giriş',
@@ -223,7 +247,7 @@ export default {
     3: 'Beğeni: {likes} / Beğenmeme: {dislikes}',
     4: 'Etiket eklemek için ctrl+enter basın',
     5: 'Edit version',
-    6: 'Sikini değerlendirmek için {s}Giriş yapın{p}',
+    6: '{s}Log in{p}, in order to rate this skin',
     7: 'Kısa açıklama bulunamadı',
     8: 'Url bulunamadı',
     9: 'İndirmeler: {amount}'
@@ -272,9 +296,9 @@ export default {
     ratio: 'Çerçeve oranı seçin | ratio'
   },
   placeholders: {
-    0: 'Rol seçin',
-    1: 'Versiyon seçin',
-    2: 'Yazı yazın...',
+    0: 'Select roles',
+    1: 'Select versions',
+    2: 'Type some text...',
     3: 'Boyut seçin',
     4: 'Tarih aralığı seçin',
     5: 'Yıl',
@@ -284,17 +308,84 @@ export default {
     9: 'Oyun modları',
     10: 'Tür seçin',
     11: 'YouTube bağlantısını yapıştırın',
-    12: 'Açıklama ve url. yazın Format description:url',
+    12: 'Type a description and an url. Format description:url',
     13: 'Select extra',
     14: 'Link yapıştırın',
-    15: 'Skinin adı, yaratıcısı ya da etiketi'
+    15: 'Skin title, author, or tags',
+    16: 'Kategori seçin',
+    17: 'Type the name of the tag'
   },
   contribute: { 0: 'Katkıda bulunun' },
   nsfw: {
     0: 'Uyarı!',
     1: 'Bu skin hassas veya yetişkinlere yönelik içerik barındırıyor',
     2: 'Bu skin rahatsız olabileceğiniz hassas veya yetişkinlere yönelik içerik barındırıyor',
-    3: 'Anladım',
-    4: 'güle güle o/'
+    3: 'Alright',
+    4: 'bye o/'
+  },
+  removed: {
+    0: 'Sürüm mevcut değil',
+    1: 'The author of the skin decided to remove this version from the site.',
+    2: 'Switch to an available version'
+  },
+  notify: {
+    0: 'Issues were not fixed',
+    1: 'Not all required fields were filled',
+    2: 'Göster',
+    3: 'Bulunamadı',
+    4: 'Banner not found (Currently, the first screenshot is being used as the banner)',
+    5: 'No changes',
+    6: 'No changes were found',
+    7: 'ID bulunamadı',
+    8: 'Videonun ID\'si bulunamadı, başka bir link deneyin (Sadece YouTube destekleniyor)',
+    9: 'Oops',
+    10: 'Looks like your session expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
+    11: 'Mevcut',
+    12: 'Bu video çoktan eklendi',
+    13: 'Mevcut',
+    14: 'Bu etiket çoktan eklendi',
+    15: 'Bulunamadı',
+    16: 'You cannot delete a deleted tag',
+    17: 'Eklendi',
+    18: 'Başarıyla yeni bir etiket eklediniz',
+    19: 'OOps',
+    20: 'This creator was already added',
+    21: 'EZ',
+    22: 'New creator has been added',
+    23: 'HUH',
+    24: 'Impossible to remove a deleted creator',
+    25: 'Duplicate',
+    26: 'This change has already been added earlier.',
+    27: 'Duplicate',
+    28: 'This url has already been added earlier.',
+    29: 'Warning',
+    30: 'You forgot to add a description for the url. Example: Description:url',
+    31: 'Warning',
+    32: 'You forgot to add an url for the description. Example: Description:url',
+    33: 'Restored',
+    34: 'Version «{name}» has been restored',
+    35: 'Deleted',
+    36: 'Version «{name}» has been deleted',
+    37: 'Error',
+    38: 'Apparently the server thinks you\'re a robot.',
+    39: 'Looks like your user session has expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
+    40: 'Mismatched credentials (relogin in account. Don\'t worry, everything was saved automatically)',
+    41: 'Unknown error',
+    42: 'You cannot edit a nonexistent skin',
+    43: 'Seems like you don\'t have permission to edit this skin',
+    44: 'You cannot send this version because it is the same as the previous one.',
+    45: 'These changes have already been sent for moderation',
+    46: 'Success',
+    47: 'New changes have been submitted for moderation',
+    48: 'Changes have been updated in moderation',
+    49: 'Odd link',
+    50: 'This link cannot be used as a download link',
+    51: 'Submitted for moderation'
+  },
+  restricted_view: {
+    0: 'Yetkiniz yok',
+    1: 'Please log into your account',
+    2: 'Restricted view',
+    3: 'This page is not out, yet.'
   }
 };

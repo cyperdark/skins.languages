@@ -5,7 +5,8 @@ export default {
     lists: { 0: 'Листи' },
     tags: {
       0: 'Тагови',
-      1: '{amount} Тагови за категории {name}'
+      1: '{amount} Тагови за категории {name}',
+      2: 'Search tags'
     },
     ideas: {
       0: 'Инспирација',
@@ -17,18 +18,23 @@ export default {
     skin: {
       0: 'Овој скин содржи елементи од други скинови',
       1: 'Кликнете овде за повеќе информации'
-    }
+    },
+    tools: 'Алатки'
   },
   changelogs: {
     0: 'Промени',
     1: 'Листа на сите ревизии направени во оваа верзија',
     2: 'Ништо нема тука',
-    3: 'Ама ти можеш да додадеш промени што вие сте ги правиле на овој скин',
+    3: 'But you can add the changes you\'ve made to this version of the skin',
     4: 'Не е групирано',
     5: 'Ново',
     6: 'Поправки',
     7: 'Промени',
     8: 'Тргнети работи'
+  },
+  ideas: {
+    0: 'Ништо не е пронајдено',
+    1: 'Screenshots of «{type}» were not uploaded to the site'
   },
   creators: {
     0: 'Создаватели',
@@ -43,7 +49,10 @@ export default {
     0: 'Тагови',
     1: 'Листа на сите тагови поврзани со овој скин',
     2: 'Изгледа многу празно овде.',
-    3: 'Користете го полето погоре за да најдете нови тагови'
+    3: 'Користете го полето погоре за да најдете нови тагови',
+    4: 'Tags not found',
+    5: 'Try searching for something else',
+    6: 'Пребарувај'
   },
   videos: {
     0: 'Видеа',
@@ -62,6 +71,7 @@ export default {
     0: 'Сите',
     1: 'Метаподатоци',
     2: 'Нагласи',
+    3: 'Name of the skin not specified',
     4: 'Додајте барем еден создавател на скинот',
     5: 'Додајте неколку тагови',
     6: 'Големина на скинот не е специфирана',
@@ -71,9 +81,10 @@ export default {
     10: 'Нема слики',
     11: 'Додадете барем една слика од гејмплејот',
     12: 'Нема линк од скинот',
-    20: 'Изгледа многу добро',
-    21: 'Секој проблем е поправен. Браво',
-    22: 'Чеклиста'
+    20: 'Looks pretty good',
+    21: 'Every issue was fixed. Good job!',
+    22: 'Чеклиста',
+    23: 'Add at least one public version'
   },
   skins: {
     0: 'Скинови',
@@ -87,7 +98,9 @@ export default {
     8: 'Сите скинови | osu скинови',
     9: 'Скин | Скинови | Скинови',
     10: 'osu Skinови од {name} | Сите скинови од',
-    11: 'Пребарувај'
+    11: 'Пребарувај',
+    12: '{name} skins',
+    13: 'Explore skins'
   },
   skin: {
     0: 'Едит',
@@ -116,7 +129,10 @@ export default {
     24: '{amount} секунди преостанати',
     25: 'Ти не си еден од нас',
     26: 'Изгледа дека не сте автор на овој скин',
-    27: 'Скин од'
+    27: 'Скин од',
+    28: 'No tags',
+    29: 'No videos',
+    30: 'No creators'
   },
   drag: {
     0: 'Кликнете овде',
@@ -135,7 +151,7 @@ export default {
     5: 'Сите слики од знамињата се превземени од {name}',
     6: 'Локализација',
     7: 'Некој? [{lang}]',
-    8: 'Изгледа дека, cpol заборавил да ги додаде. {text}'
+    8: 'Seems like cyperdark forgot to add them. {text}'
   },
   search: {
     0: 'Пребарување на скинови',
@@ -145,11 +161,17 @@ export default {
     4: 'Големина',
     5: 'Дата',
     7: 'Ништо не е пронајдено',
-    8: 'Пробајте да наместите други пребарувачки филтери',
+    8: 'Try using different search filters',
     9: 'Чекање на пребарување',
-    10: 'Изберете ги пребарувачките филтери или само напишете име на скинот, авторот или таг',
+    10: 'Use the search filters or type the skin\'s title, author or tags',
     11: 'Слегнувања',
-    12: 'Име'
+    12: 'Име',
+    13: {
+      0: 'Скинови',
+      1: 'Тагови',
+      2: 'Users',
+      3: 'Листи'
+    }
   },
   tabs: {
     0: 'Пребарувај',
@@ -158,11 +180,11 @@ export default {
   },
   undefined: {
     0: 'Празно',
-    1: 'За жал нема ништо овде, можете да пребарате на други страници',
-    2: 'За жал нема ништо овде',
+    1: 'Unfortunately, there\'s nothing here, but you can take a look at the other pages',
+    2: 'Unfortunately, there\'s nothing here',
     3: 'Неауторизирано',
-    4: 'Треба да сте најавени за да правите измени на овој скин.',
-    5: 'Треба да сте најавени за да додадете нов скин.'
+    4: 'You need to be logged in order to edit this skin.',
+    5: 'You need to be logged in order to add a new skin.'
   },
   meta: {
     title: {
@@ -176,7 +198,9 @@ export default {
       7: 'osu скинови',
       8: '{name} пребарувај osu скинови',
       9: 'Добијте инспирација од други osu скинови',
-      10: '{name} направиле osu скинови'
+      10: '{name} направиле osu скинови',
+      11: 'Search tags',
+      12: '{name} found tags'
     },
     description: {
       0: 'Добијте ги најдобрите osu! скинови на нашиот сајт! Нашата голема галерија има скинови за сите гејм-модови, соодноси и скинови на топ играчи. Плус, ја имаме специјалната секција за фанови на аниме. Подобрете си го гејмплејот со перфектниот скин. #osuskins #osugame #anime',
@@ -188,9 +212,9 @@ export default {
       6: '{name} колекција од osu скинови!, бесплатно слегнување',
       7: 'Голема бројка на osu скинови за {name}, слегнете бесплатно!',
       8: 'Сите osu скинови се направени од {name}',
-      9: 'Пронајдете инспирација за вашиот следен osu! скин на нашиот сајт. Пребарувајте многу диверзна колекција од скинови и пронајдете нови техники и идеји. Бидете инспирирани и напревете си свој скинови.'
-    },
-    keywords: { 0: 'osu, osu!, osu skins, std skins, ctb skins, mania skins, taiko skins, mrekk osu skins,Rafis osu skins,FlyingTuna osu skins,Vaxei osu skins,Cookiezi osu skins,Varvalian osu skins,RyuK osu skins,WhiteCat osu skins,_RyuK osu skins,BeasttrollMC osu skins,Genshin Impact osu skins,Mathi osu skins,WubWoofWolf osu skins,Merami osu skins,xootynator osu skins,Gayzmcgee osu skins,[Karcher] osu skins,Bubbleman osu skins,ChomikBox osu skins,NSFW osu skins,Lifeline osu skins,Hatsune Miku osu skins,Azerite osu skins,Umbre osu skins,404 AimNotFound osu skins,-Nikstrim osu skins,bloo osu skins,Shigetora osu skins,Badeu osu skins,FunOrange osu skins,worst hr player osu skins,Tekkito osu skins,ninerik osu skins,azr8 osu skins,idke osu skins,Andros osu skins,Zylice osu skins,Rektygon osu skins,Komori osu skins,anime osu skins,cyperdark osu skins,Red_Pixel osu skins,Utami osu skins,Arknights osu skins,Karthy osu skins,Paraqeet osu skins,aetrna osu skins,Spare osu skins,-GN osu skins,Mastasz osu skins,Seouless osu skins,haga1115 osu skins,shimon osu skins,fieryrage osu skins,Ekoro osu skins,Firebat92 osu skins,_Shield osu skins,-Roaz- osu skins,- Dark - osu skins,atturbo555 osu skins,Aristia osu skins,_Aiko__ osu skins,z x c osu skins,eternum osu skins,talala osu skins,NyanPotato osu skins,Arnold24x24 osu skins,Alumetri osu skins,im a fancy lad osu skins,jordanlr7 osu skins,Woey osu skins,khz osu skins,rrtyui osu skins,kieg osu skins,Rupertion osu skins,FGSky osu skins,Aireu osu skins,Neko God osu skins,Apostol osu skins,Abyssal osu skins,dokidokilolixx osu skins,Mlaw osu skins,Ponytail osu skins,Reedkatt osu skins,Zestiny osu skins,Apraxia osu skins,Binfy osu skins,Rohulk osu skins,-PloX osu skins,DuyKhang-sama osu skins,BronyPH osu skins,Intercambing osu skins,Xeltol osu skins,Valorant osu skins,Akolibed osu skins,hololive osu skins,kablaze osu skins,tokyo ghoul osu skins,Trail Mix osu skins,Dereban osu skins' }
+      9: 'Пронајдете инспирација за вашиот следен osu! скин на нашиот сајт. Пребарувајте многу диверзна колекција од скинови и пронајдете нови техники и идеји. Бидете инспирирани и напревете си свој скинови.',
+      10: 'Search for tags among all the tags on the site.'
+    }
   },
   buttons: {
     0: 'Најавете се',
@@ -223,7 +247,7 @@ export default {
     3: 'Лајкови: {likes} / Дислајкови: {dislikes}',
     4: 'Претиснете ctrl+enter за да додадете тагови',
     5: 'Измени верзија',
-    6: '{s}Најава{p}, за да можете да го отцените скинот',
+    6: '{s}Log in{p}, in order to rate this skin',
     7: 'Нема кратка дескрипција',
     8: 'Нема URL',
     9: 'Слегнувања: {amount}'
@@ -272,9 +296,9 @@ export default {
     ratio: 'Избери сооднос | размер'
   },
   placeholders: {
-    0: 'Избери улоги',
-    1: 'Избери верзии',
-    2: 'Напиши текст...',
+    0: 'Select roles',
+    1: 'Select versions',
+    2: 'Type some text...',
     3: 'Избери величина',
     4: 'Избери одредена дата',
     5: 'Година',
@@ -284,17 +308,84 @@ export default {
     9: 'Гејм-модови',
     10: 'Избери вид',
     11: 'Пејстирај YouTube линк',
-    12: 'Напиши дескрипција и url. Форматна дескрипција:url',
+    12: 'Type a description and an url. Format description:url',
     13: 'Избери екстра',
     14: 'Пејстирај линк',
-    15: 'Име на скин, автор, или таг'
+    15: 'Skin title, author, or tags',
+    16: 'Select category',
+    17: 'Type the name of the tag'
   },
   contribute: { 0: 'Помагај' },
   nsfw: {
     0: 'Предупредување!',
     1: 'Овој скин содржи работи за возрасни',
     2: 'Овој скин содржи работи за возрасни и некој корисници може да го најдат нарушувачки',
-    3: ' Во ред',
-    4: ' чао o/'
+    3: 'Alright',
+    4: 'bye o/'
+  },
+  removed: {
+    0: 'Version unavailable',
+    1: 'The author of the skin decided to remove this version from the site.',
+    2: 'Switch to an available version'
+  },
+  notify: {
+    0: 'Issues were not fixed',
+    1: 'Not all required fields were filled',
+    2: 'Show',
+    3: 'Not found',
+    4: 'Banner not found (Currently, the first screenshot is being used as the banner)',
+    5: 'No changes',
+    6: 'No changes were found',
+    7: 'ID not found',
+    8: 'ID of the video not found, try another link (At the moment only YouTube is supported)',
+    9: 'Oops',
+    10: 'Looks like your session expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
+    11: 'Exists',
+    12: 'This video has already been added',
+    13: 'Exists',
+    14: 'This tag has already been added',
+    15: 'Not found',
+    16: 'You cannot delete a deleted tag',
+    17: 'Added',
+    18: 'You have successfully added a new tag',
+    19: 'OOps',
+    20: 'This creator was already added',
+    21: 'EZ',
+    22: 'New creator has been added',
+    23: 'HUH',
+    24: 'Impossible to remove a deleted creator',
+    25: 'Duplicate',
+    26: 'This change has already been added earlier.',
+    27: 'Duplicate',
+    28: 'This url has already been added earlier.',
+    29: 'Warning',
+    30: 'You forgot to add a description for the url. Example: Description:url',
+    31: 'Warning',
+    32: 'You forgot to add an url for the description. Example: Description:url',
+    33: 'Restored',
+    34: 'Version «{name}» has been restored',
+    35: 'Deleted',
+    36: 'Version «{name}» has been deleted',
+    37: 'Error',
+    38: 'Apparently the server thinks you\'re a robot.',
+    39: 'Looks like your user session has expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
+    40: 'Mismatched credentials (relogin in account. Don\'t worry, everything was saved automatically)',
+    41: 'Unknown error',
+    42: 'You cannot edit a nonexistent skin',
+    43: 'Seems like you don\'t have permission to edit this skin',
+    44: 'You cannot send this version because it is the same as the previous one.',
+    45: 'These changes have already been sent for moderation',
+    46: 'Success',
+    47: 'New changes have been submitted for moderation',
+    48: 'Changes have been updated in moderation',
+    49: 'Odd link',
+    50: 'This link cannot be used as a download link',
+    51: 'Submitted for moderation'
+  },
+  restricted_view: {
+    0: 'Неауторизирано',
+    1: 'Please log into your account',
+    2: 'Restricted view',
+    3: 'This page is not out, yet.'
   }
 };

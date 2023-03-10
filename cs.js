@@ -5,7 +5,8 @@ export default {
     lists: { 0: 'Seznamy' },
     tags: {
       0: 'Označení',
-      1: '{amount} značky pro kategorii {name}'
+      1: '{amount} značky pro kategorii {name}',
+      2: 'Hledat Označení'
     },
     ideas: {
       0: 'Inspirace',
@@ -17,18 +18,23 @@ export default {
     skin: {
       0: 'Tento skin obsahuje prvky z jiných skinů',
       1: 'Klikněte zde pro více informací'
-    }
+    },
+    tools: 'Nástroje'
   },
   changelogs: {
     0: 'Seznam změn',
     1: 'Seznam všech revizí provedených v stávající verzi',
     2: 'Nic zde není',
-    3: 'Ale můžete přidat změny které jste udělali v této verzi tohoto skinu',
+    3: 'But you can add the changes you\'ve made to this version of the skin',
     4: 'Není seskupeno',
     5: 'Nové',
     6: 'Opravy',
     7: 'Změny',
     8: 'Odstranit'
+  },
+  ideas: {
+    0: 'Nic nebylo nalezeno',
+    1: 'Snímky obrazovky «{type}» nebyly nahrány na stránku'
   },
   creators: {
     0: 'Vývojáři',
@@ -43,7 +49,10 @@ export default {
     0: 'Označení',
     1: 'List všech značek souvisejících s tímto skinem',
     2: 'Zde to vypadá prázdně.',
-    3: 'Použijte pole nahoře pro nalezení nových značek'
+    3: 'Použijte pole nahoře pro nalezení nových značek',
+    4: 'Označení nenalezeny',
+    5: 'Zkus hledat něco jiného',
+    6: 'Hledat'
   },
   videos: {
     0: 'Videa',
@@ -62,6 +71,7 @@ export default {
     0: 'Všechno',
     1: 'Metadata',
     2: 'Zvýraznění',
+    3: 'Name of the skin not specified',
     4: 'Přidejte alespoň jednoho autora skinu',
     5: 'Přidejte pár značek',
     6: 'Velikost skinu není specifikována',
@@ -71,9 +81,10 @@ export default {
     10: 'Žádný snímek obrazovky',
     11: 'Přidejte alespoň jeden snímek obrazovky z hraní',
     12: 'Odkaz na skin není specifikován',
-    20: 'Vypadá to dobře',
-    21: 'Každý problém byl opraven, což je dobře',
-    22: 'Kontrolní listina'
+    20: 'Looks pretty good',
+    21: 'Every issue was fixed. Good job!',
+    22: 'Kontrolní listina',
+    23: 'Přidejte alespoň jednu veřejnou verzi'
   },
   skins: {
     0: 'Skiny',
@@ -87,7 +98,9 @@ export default {
     8: 'Všechny skiny | osu skiny',
     9: 'Skin | Skiny | Skiny',
     10: 'osu Skiny od {name} | Všechny skiny od',
-    11: 'Hledat'
+    11: 'Hledat',
+    12: '{name} skiny',
+    13: 'Projiždět skiny'
   },
   skin: {
     0: 'Upravit',
@@ -116,7 +129,10 @@ export default {
     24: '{amount} sekund zbývá',
     25: 'Nejsi jeden z nás',
     26: 'Zdá se, že nejsti autorem ani editorem tohoto skinu',
-    27: 'Skin od'
+    27: 'Skin od',
+    28: 'Žádná označení',
+    29: 'Žádná videa',
+    30: 'Žádní autoři'
   },
   drag: {
     0: 'Klikněte zde',
@@ -135,7 +151,7 @@ export default {
     5: 'Všechny vlajky jsou od {name}',
     6: 'Lokalizace',
     7: 'Je tu někdo?{lang}',
-    8: 'Vypadá to, že cpol je zapomněl přidat {text}'
+    8: 'Seems like cyperdark forgot to add them. {text}'
   },
   search: {
     0: 'Hledat skiny',
@@ -145,11 +161,17 @@ export default {
     4: 'Velikost',
     5: 'Datum',
     7: 'Nic nebylo nalezeno',
-    8: 'Zkuste zadat jiné vyhledávací kritéria',
+    8: 'Try using different search filters',
     9: 'Čekání na dotaz',
-    10: 'Vyberte vyhledávací kritéria nebo prostě zadejte název skinu, autora, nebo označení',
+    10: 'Use the search filters or type the skin\'s title, author or tags',
     11: 'Počet stáhnutí',
-    12: 'Jméno'
+    12: 'Jméno',
+    13: {
+      0: 'Skiny',
+      1: 'Označení',
+      2: 'Uživatelé',
+      3: 'Seznamy'
+    }
   },
   tabs: {
     0: 'Hledat',
@@ -158,11 +180,11 @@ export default {
   },
   undefined: {
     0: 'Prázdno',
-    1: 'Bohužel zde nic není, můžete se podívat na ostatní stránky',
-    2: 'Bohužel zde nic není',
+    1: 'Unfortunately, there\'s nothing here, but you can take a look at the other pages',
+    2: 'Unfortunately, there\'s nothing here',
     3: 'Neoprávněný',
-    4: 'Pro úpravu tohoto skinu musíte být přihlášeni.',
-    5: 'Musíte být přihlášený pro přidání nového skinu.'
+    4: 'You need to be logged in order to edit this skin.',
+    5: 'You need to be logged in order to add a new skin.'
   },
   meta: {
     title: {
@@ -176,7 +198,9 @@ export default {
       7: 'osu skiny',
       8: '{name} hledat osu skiny',
       9: 'Získejte inspiraci z jiných osu skinů',
-      10: '{name} vyrobil osu skiny'
+      10: '{name} vyrobil osu skiny',
+      11: 'Hledat Označení',
+      12: '{name} nalezl označení'
     },
     description: {
       0: 'Stáhněte si osu! skiny na našich stránkách! Naše velká knihovna ma skiny pro všechny herní módy, poměry stran, a dokonce i skiny od nejlepších hráčů. Taky máme speciální sekci pro fanoušky anime. Zlepšete svoje hraní s perfektním skinem. #osuskins #osugame #anime',
@@ -188,9 +212,9 @@ export default {
       6: '{name} osu skiny kolekce!, neplacené stahování',
       7: 'Velký počet osu skinů pro {name}, stáhněte zadarmo!',
       8: 'Všechny osu skiny vyrobeny od {name}',
-      9: 'Najděte si inspirace pro vaše další osu! skiny na našich stránkách. Projděte naší rozmanitou kolekcí skinů a najděte nové techniky a nápady. Inspirujte se a udělejte si vlastní jedinečné skiny.'
-    },
-    keywords: { 0: 'osu, osu!, osu skiny, std skiny, ctb skiny, mania skiny, taiko skiny, mrekk osu skiny, Rafis osu skiny, FlyingTuna osu skiny, Vaxei osu skiny, Cookiezi osu skiny, Varvalian osu skiny, RyuK osu skiny, WhiteCat osu skiny, _RyuK osu skiny, BeasttrollMC osu skiny, Genshin Impact osu skiny, Mathi osu skiny, WubWoofWolf osu skiny, Merami osu skiny, xootynator osu skiny, Gayzmcgee osu skiny, [Karcher] osu skiny, Bubbleman osu skiny, ChomikBox osu skiny, NSFW osu skiny, Lifeline osu skiny, Hatsune Miku osu skiny, Azerite osu skiny, Umbre osu skiny, 404 AimNotFound osu skiny, -Nikstrim osu skiny, bloo osu skiny, Shigetora osu skiny, Badeu osu skiny, FunOrange osu skiny, worst hr player osu skiny, Tekkito osu skiny, ninerik osu skiny, azr8 osu skiny, idke osu skiny, Andros osu skiny, Zylice osu skiny, Rektygon osu skiny, Komori osu skiny, anime osu skiny, cyperdark osu skiny, Red_Pixel osu skiny, Utami osu skiny, Arknights osu skiny, Karthy osu skiny, Paraqeet osu skiny, aetrna osu skiny, Spare osu skiny, -GN osu skiny, Mastasz osu skiny, Seouless osu skiny, haga1115 osu skiny, shimon osu skiny, fieryrage osu skiny, Ekoro osu skiny, Firebat92 osu skiny, _Shield osu skiny, -Roaz- osu skiny, - Dark - osu skiny, atturbo555 osu skiny, Aristia osu skiny, _Aiko__ osu skiny, z x c osu skiny, eternum osu skiny, talala osu skiny, NyanPotato osu skiny, Arnold24x24 osu skiny, Alumetri osu skiny, im a fancy lad osu skiny, jordanlr7 osu skiny, Woey osu skiny, khz osu skiny, rrtyui osu skiny, kieg osu skiny, Rupertion osu skiny, FGSky osu skiny, Aireu osu skiny, Neko God osu skiny, Apostol osu skiny, Abyssal osu skiny, dokidokilolixx osu skiny, Mlaw osu skiny, Ponytail osu skiny, Reedkatt osu skiny, Zestiny osu skiny, Apraxia osu skiny, Binfy osu skiny, Rohulk osu skiny, -PloX osu skiny, DuyKhang-sama osu skiny, BronyPH osu skiny, Intercambing osu skiny, Xeltol osu skiny, Valorant osu skiny, Akolibed osu skiny, hololive osu skiny, kablaze osu skiny, tokyo ghoul osu skiny,Trail Mix osu skiny,Dereban osu skiny' }
+      9: 'Najděte si inspirace pro vaše další osu! skiny na našich stránkách. Projděte naší rozmanitou kolekcí skinů a najděte nové techniky a nápady. Inspirujte se a udělejte si vlastní jedinečné skiny.',
+      10: 'Hledjte označení mezi všema na tomto webu.'
+    }
   },
   buttons: {
     0: 'Přihlásit se',
@@ -223,7 +247,7 @@ export default {
     3: 'Líbí se: {likes} / Nelíbí se: {dislikes}',
     4: 'Zmáčkněte ctrl+enter pro přidání označení',
     5: 'Upravit verzi',
-    6: '{s}Přihlaste se{p}, abyste mohli ohodnotit tento skin',
+    6: '{s}Log in{p}, in order to rate this skin',
     7: 'Žádný krátký popis ',
     8: 'Žádné URL',
     9: 'Stažení: {amount}'
@@ -272,9 +296,9 @@ export default {
     ratio: 'Vyber poměr stran | poměr'
   },
   placeholders: {
-    0: 'Vyber role',
-    1: 'Vyber verzi',
-    2: 'Napiš text...',
+    0: 'Select roles',
+    1: 'Select versions',
+    2: 'Type some text...',
     3: 'Vyber velikost',
     4: 'Vyber časové období',
     5: 'Rok',
@@ -284,17 +308,84 @@ export default {
     9: 'Herní módy',
     10: 'Vyber typ',
     11: 'Vložte odkaz na YouTube',
-    12: 'Zadejte popis a url. Popis formátu:url',
+    12: 'Type a description and an url. Format description:url',
     13: 'Vyber extra',
     14: 'Vložte link',
-    15: 'Název skinu, autor, nebo označení'
+    15: 'Skin title, author, or tags',
+    16: 'Vyberte kategorii',
+    17: 'Type the name of the tag'
   },
   contribute: { 0: 'Zapojte se' },
   nsfw: {
     0: 'Upozornění!',
     1: 'Tento skin obshauje citlivý obsah nebo obsah pro dospělé',
     2: 'Tento skin obsahuje citlivý obsah nebo obsah pro dospělé, který může připadat některým uživatelům znepokojivě',
-    3: ' Dobře',
-    4: ' měj se o/'
+    3: 'Dobře',
+    4: 'měj se o/'
+  },
+  removed: {
+    0: 'Verze není k dispozici',
+    1: 'The author of the skin decided to remove this version from the site.',
+    2: 'Switch to an available version'
+  },
+  notify: {
+    0: 'Issues were not fixed',
+    1: 'Not all required fields were filled',
+    2: 'Zobrazit',
+    3: 'Nenalezeno',
+    4: 'Banner nebyl nalezen (aktuálně se první snímek obrazovky používá jako banner)',
+    5: 'Beze změn',
+    6: 'Nebyly nalezeny žádné změny',
+    7: 'ID nebylo nalezeno',
+    8: 'ID videa nebylo nalezeno, zkuste jiný odkaz (nyní je podporován pouze YouTube)',
+    9: 'Chybička se vloudila',
+    10: 'Looks like your session expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
+    11: 'Existuje',
+    12: 'Toto video již bylo přidáno',
+    13: 'Existuje',
+    14: 'Toto označení již bylo přidáno',
+    15: 'Nenalezeno',
+    16: 'Smazaný štítek nelze odstranit',
+    17: 'Added',
+    18: 'Úspěšně jste přidali nové označení',
+    19: 'Chybička se vloudila',
+    20: 'Tento autor již byl přidán',
+    21: 'EZ',
+    22: 'New creator has been added',
+    23: 'HUH',
+    24: 'Nelze odstranit odstraněného autora',
+    25: 'Duplicate',
+    26: 'This change has already been added earlier.',
+    27: 'Duplicate',
+    28: 'This url has already been added earlier.',
+    29: 'Varování',
+    30: 'You forgot to add a description for the url. Example: Description:url',
+    31: 'Varování',
+    32: 'You forgot to add an url for the description. Example: Description:url',
+    33: 'Obnoveno',
+    34: 'Version «{name}» has been restored',
+    35: 'Odstraněno',
+    36: 'Version «{name}» has been deleted',
+    37: 'Chyba',
+    38: 'Apparently the server thinks you\'re a robot.',
+    39: 'Looks like your user session has expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
+    40: 'Mismatched credentials (relogin in account. Don\'t worry, everything was saved automatically)',
+    41: 'Neznámá chyba',
+    42: 'You cannot edit a nonexistent skin',
+    43: 'Seems like you don\'t have permission to edit this skin',
+    44: 'You cannot send this version because it is the same as the previous one.',
+    45: 'These changes have already been sent for moderation',
+    46: 'Úspěšně dokončeno',
+    47: 'Nové změny byly odeslány k moderaci',
+    48: 'Změny byly aktualizovány v moderaci',
+    49: 'Zvláštní odkaz',
+    50: 'Tento odkaz nelze použít jako odkaz ke stažení',
+    51: 'Submitted for moderation'
+  },
+  restricted_view: {
+    0: 'Neoprávněný',
+    1: 'Please log into your account',
+    2: 'Omezené zobrazení',
+    3: 'Tato stránka zatím není venku.'
   }
 };

@@ -5,7 +5,8 @@ export default {
     lists: { 0: 'Liste' },
     tags: {
       0: 'Etichete',
-      1: '{amount} etichete pentru categoria {name}'
+      1: '{amount} etichete pentru categoria {name}',
+      2: 'Caută etichete'
     },
     ideas: {
       0: 'Inspirație',
@@ -17,18 +18,23 @@ export default {
     skin: {
       0: 'Acest skin conține elemente din alte skinuri',
       1: 'Apasă aici pentru mai multe informații'
-    }
+    },
+    tools: 'Instrumente'
   },
   changelogs: {
     0: 'Jurnal de Modificări',
     1: 'Lista tuturor reviziilor efectuate în versiunea curentă',
     2: 'Nimic aici',
-    3: 'Dar poți adăuga modificările pe care le-ai făcut acestei versiuni a skin-ului',
+    3: 'Dar poți adăuga modificările pe care le-ai făcut la această versiune a skinului',
     4: 'Nu sunt grupate',
     5: 'Nou',
     6: 'Probleme rezolvate',
     7: 'Modificări',
     8: 'Desființări'
+  },
+  ideas: {
+    0: 'Nu am găsit nimic',
+    1: 'Capturile de ecran din «{type}» nu au fost încărcate pe site'
   },
   creators: {
     0: 'Creatori',
@@ -43,7 +49,10 @@ export default {
     0: 'Etichete',
     1: 'Listă cu toate etichetele legate de acest skin',
     2: 'Pare cam gol aici.',
-    3: 'Folosește-te de caseta de mai sus pentru a găsi etichete noi'
+    3: 'Folosește-te de caseta de mai sus pentru a găsi etichete noi',
+    4: 'Etichetele nu au fost găsite',
+    5: 'Încearcă să cauți altceva',
+    6: 'Căutare'
   },
   videos: {
     0: 'Videoclipuri',
@@ -62,6 +71,7 @@ export default {
     0: 'Toate',
     1: 'Metadata',
     2: 'Hightlight',
+    3: 'Nume skinului nu este specificat',
     4: 'Adaugă cel puțin un creator al skinului',
     5: 'Adaugă câteva etichete',
     6: 'Mărimea skinului nespecificată',
@@ -72,8 +82,9 @@ export default {
     11: 'Adaugă cel puțin o captură de ecran a unui mod de joc',
     12: 'Link spre skin nespecificat',
     20: 'Arată destul de bine',
-    21: 'Fiecare problema a fost corectată, ceea ce este destul de bine',
-    22: 'Listă de verificare'
+    21: 'Fiecare problemă a fost rezolvată. Bravo!',
+    22: 'Listă de verificare',
+    23: 'Adaugă cel puțin o versiune publică'
   },
   skins: {
     0: 'Skinuri',
@@ -87,7 +98,9 @@ export default {
     8: 'Toate skinurile | skinuri osu',
     9: 'Skin | Skinuri | Skinuri',
     10: 'Skinuri osu realizate de {name} | Toate skinurile de la',
-    11: 'Căutare'
+    11: 'Căutare',
+    12: 'Skinuri {name}',
+    13: 'Descoperă skinuri'
   },
   skin: {
     0: 'Edit',
@@ -116,7 +129,10 @@ export default {
     24: '{amount} secunde rămase',
     25: 'Nu ești unul dintre noi',
     26: 'Pare că nu ești un autor sau editor al acestui skin',
-    27: 'Skin creat de'
+    27: 'Skin creat de',
+    28: 'Nicio etichetă',
+    29: 'Niciun videoclip',
+    30: 'Niciun creator'
   },
   drag: {
     0: 'Apasă aici',
@@ -135,7 +151,7 @@ export default {
     5: 'Toate steagurile sunt luate de pe {name}',
     6: 'Localizare',
     7: 'Cineva? [{lang}]',
-    8: 'Se pare că cpol a uitat să adauge persoane. {text}'
+    8: 'Se pare că cyperdark a uitat să-i adauge. {text}'
   },
   search: {
     0: 'Căutarea unui skin',
@@ -145,11 +161,17 @@ export default {
     4: 'Dimensiune',
     5: 'Dată',
     7: 'Nu am găsit nimic',
-    8: 'Încearcă să schimbi criteriile de căutare',
+    8: 'Încercă să folosești filtre de căutare diferite',
     9: 'În așteptarea unei solicitări',
-    10: 'Selectează criteriile căutării sau scrie titlul, autorul sau etichetele skin-ului',
+    10: 'Folosește filtrele de căutare sau tastează titlul, autorul sau etichetele skinului',
     11: 'Descărcări',
-    12: 'Nume'
+    12: 'Nume',
+    13: {
+      0: 'Skinuri',
+      1: 'Etichete',
+      2: 'Utilizatori',
+      3: 'Liste'
+    }
   },
   tabs: {
     0: 'Căutare',
@@ -158,11 +180,11 @@ export default {
   },
   undefined: {
     0: 'Gol',
-    1: 'Din păcate nu am găsit nimic aici, dar poți să te uiți pe celelalte pagini',
-    2: 'Din păcate nu am găsit nimic aici',
+    1: 'Din păcate, nu este nimic aici, dar te poți uita la celelalte pagini',
+    2: 'Din păcate, nu este nimic aici',
     3: 'Neautorizat',
-    4: 'Trebuie să fi conectat pentru a edita acest skin.',
-    5: 'Trebuie să fi conectat pentru a adăuga un nou skin.'
+    4: 'Trebuie să fii conectat pentru a edita acest skin.',
+    5: 'Trebuie să fii conectat pentru a adăuga un nou skin.'
   },
   meta: {
     title: {
@@ -176,7 +198,9 @@ export default {
       7: 'skinuri de osu',
       8: 'caută skinuri osu {name}',
       9: 'Inspiră-te de la alte skinuri de osu',
-      10: '{name} a creat skinuri de osu'
+      10: '{name} a creat skinuri de osu',
+      11: 'Caută etichete',
+      12: 'etichete {name} găsite'
     },
     description: {
       0: 'Obține cele mai bune skin-uri de osu pe site-ul nostru! Librăria noastră imensă conține skin-uri pentru toate modurile de joc, aspect ratio-urile și pana și skinuri ale jucătorilor de top. Plus, avem o secțiune specială pentru fanii anime-urilor. îmbunătăţeşte-ți gameplay-ul cu skin-ul perfect. #osuskins #osugame #anime',
@@ -188,9 +212,9 @@ export default {
       6: 'Colecția de skinuri {name} pentru osu! Descărcare gratuită',
       7: 'O mulțime de skinuri osu! pentru {name}, descarcă gratuit!',
       8: 'Toate skinurile de osu realizate de {name}',
-      9: 'Găsește inspirație pentru următorul tău skin de osu! pe site-ul nostru. Navighează printr-o colecție diversă de skin-uri și descoperă noi tehnici și idei. Inspiră-te si creează-ți propriile skin-uri unice.'
-    },
-    keywords: { 0: 'osu, osu!, osu skins, std skins, ctb skins, mania skins, taiko skins, mrekk osu skins,Rafis osu skins,FlyingTuna osu skins,Vaxei osu skins,Cookiezi osu skins,Varvalian osu skins,RyuK osu skins,WhiteCat osu skins,_RyuK osu skins,BeasttrollMC osu skins,Genshin Impact osu skins,Mathi osu skins,WubWoofWolf osu skins,Merami osu skins,xootynator osu skins,Gayzmcgee osu skins,[Karcher] osu skins,Bubbleman osu skins,ChomikBox osu skins,NSFW osu skins,Lifeline osu skins,Hatsune Miku osu skins,Azerite osu skins,Umbre osu skins,404 AimNotFound osu skins,-Nikstrim osu skins,bloo osu skins,Shigetora osu skins,Badeu osu skins,FunOrange osu skins,worst hr player osu skins,Tekkito osu skins,ninerik osu skins,azr8 osu skins,idke osu skins,Andros osu skins,Zylice osu skins,Rektygon osu skins,Komori osu skins,anime osu skins,cyperdark osu skins,Red_Pixel osu skins,Utami osu skins,Arknights osu skins,Karthy osu skins,Paraqeet osu skins,aetrna osu skins,Spare osu skins,-GN osu skins,Mastasz osu skins,Seouless osu skins,haga1115 osu skins,shimon osu skins,fieryrage osu skins,Ekoro osu skins,Firebat92 osu skins,_Shield osu skins,-Roaz- osu skins,- Dark - osu skins,atturbo555 osu skins,Aristia osu skins,_Aiko__ osu skins,z x c osu skins,eternum osu skins,talala osu skins,NyanPotato osu skins,Arnold24x24 osu skins,Alumetri osu skins,im a fancy lad osu skins,jordanlr7 osu skins,Woey osu skins,khz osu skins,rrtyui osu skins,kieg osu skins,Rupertion osu skins,FGSky osu skins,Aireu osu skins,Neko God osu skins,Apostol osu skins,Abyssal osu skins,dokidokilolixx osu skins,Mlaw osu skins,Ponytail osu skins,Reedkatt osu skins,Zestiny osu skins,Apraxia osu skins,Binfy osu skins,Rohulk osu skins,-PloX osu skins,DuyKhang-sama osu skins,BronyPH osu skins,Intercambing osu skins,Xeltol osu skins,Valorant osu skins,Akolibed osu skins,hololive osu skins,kablaze osu skins,tokyo ghoul osu skins,Trail Mix osu skins,Dereban osu skins' }
+      9: 'Găsește inspirație pentru următorul tău skin de osu! pe site-ul nostru. Navighează printr-o colecție diversă de skin-uri și descoperă noi tehnici și idei. Inspiră-te si creează-ți propriile skin-uri unice.',
+      10: 'Caută etichete printre toate etichetele de pe site.'
+    }
   },
   buttons: {
     0: 'Conectează-te',
@@ -272,9 +296,9 @@ export default {
     ratio: 'Selectați un aspect ratio | ratio'
   },
   placeholders: {
-    0: 'Alege rolurile',
-    1: 'Alege versiunile',
-    2: 'Tastează text...',
+    0: 'Selectează rolurile',
+    1: 'Selectează versiunile',
+    2: 'Scrie niște text...',
     3: 'Selectați dimensiunea',
     4: 'Selectează intervalul de timp',
     5: 'An',
@@ -284,10 +308,12 @@ export default {
     9: 'Moduri de joc',
     10: 'Selectează tipul',
     11: 'Atașează un link de YouTube',
-    12: 'Tastează descrierea și url-ul. Format descriere:url',
+    12: 'Tastează o descriere și un url. Format descriere:url',
     13: 'Selectează extra',
     14: 'Atașează un link',
-    15: 'Titlul, autorul sau eticheta skinului'
+    15: 'Titlul, autorul sau etichetele skinului',
+    16: 'Selectează categoria',
+    17: 'Scrie numele etichetei'
   },
   contribute: { 0: 'Contribuie' },
   nsfw: {
@@ -295,6 +321,71 @@ export default {
     1: 'Acest skin conţine conţinut sensibil sau pentru adulţi',
     2: 'Acest skin conține conținut sensibil sau pentru adulți pe care unii utilizatori îl pot considera deranjant',
     3: 'În regulă',
-    4: 'Pa o/'
+    4: 'pa o/'
+  },
+  removed: {
+    0: 'Versiune indisponibilă',
+    1: 'Autorul acestui skin a decis să elimine această versiune de pe site.',
+    2: 'Treci la o versiune disponibilă'
+  },
+  notify: {
+    0: 'Problemele nu au fost rezolvate',
+    1: 'Nu au fost completate toate câmpurile obligatorii',
+    2: 'Arată',
+    3: 'Nu a fost găsit',
+    4: 'Banner-ul nu a fost găsit (În momentul actual, prima captură de ecran este folosită ca banner)',
+    5: 'Nicio modificare',
+    6: 'Nu au fost găsite modificări',
+    7: 'ID-ul nu a fost găsit',
+    8: 'ID-ul videoclipului nu a fost găsit, încercați un alt link (momentan numai YouTube este suportat)',
+    9: 'Ups',
+    10: 'Se pare că sesiunea dvs. a expirat, deschide o nouă pagină și conectează-te la contul tău (nu iți face griji, totul este salvat automat)',
+    11: 'Există',
+    12: 'Acest videoclip a fost deja adăugat',
+    13: 'Există',
+    14: 'Această etichetă a fost deja adăugată',
+    15: 'Nu a fost găsit',
+    16: 'Nu se poate șterge o etichetă ștearsă',
+    17: 'Adăugat',
+    18: 'Ai adăugat cu succes o nouă etichetă',
+    19: 'UUps',
+    20: 'Acest creator a fost deja adăugat',
+    21: 'EZ',
+    22: 'Un nou creator a fost adăugat',
+    23: 'HUH',
+    24: 'Nu se poate elimina un creator șters',
+    25: 'Dublură',
+    26: 'Această modificare a fost deja adăugată anterior.',
+    27: 'Dublură',
+    28: 'Acest url a fost deja adăugat anterior.',
+    29: 'Atenție',
+    30: 'Ai uitat să adaugi o descriere pentru url. Exemplu: Descriere:url',
+    31: 'Atenție',
+    32: 'Ai uitat să adaugi un url pentru descriere. Exemplu: Descriere:url',
+    33: 'Restaurat',
+    34: 'Versiunea «{name}» a fost restaurată',
+    35: 'Ștearsă',
+    36: 'Versiunea «{name}» a fost ștearsă',
+    37: 'Eroare',
+    38: 'Aparent, serverul crede că ești un robot.',
+    39: 'Looks like your user session has expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
+    40: 'Date de conectare incorecte (Reconectează-te în cont. Nu îți faceți griji, totul a fost salvat automat)',
+    41: 'Eroare necunoscută',
+    42: 'Nu poți edita un skin inexistent',
+    43: 'Se pare că nu ai permisiunea de a edita acest skin',
+    44: 'Nu poți trimite această versiune deoarece este identică cu cea anterioară.',
+    45: 'Aceste modificări au fost deja trimise spre moderare',
+    46: 'Operație reușită',
+    47: 'Noi modificări au fost trimise pentru moderare',
+    48: 'Modificările au fost actualizate în moderare',
+    49: 'Link ciudat',
+    50: 'Acest link nu poate fi folosit ca un link de descărcare',
+    51: 'Trimis spre moderare'
+  },
+  restricted_view: {
+    0: 'Neautorizat',
+    1: 'Te rog conectează-te în contul tău',
+    2: 'Vizualizare restricționată',
+    3: 'Această pagină nu este încă disponibilă.'
   }
 };

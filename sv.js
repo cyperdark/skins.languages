@@ -1,11 +1,12 @@
 export default {
   title: {
     home: 'Startsida',
-    login: 'Log in',
+    login: 'Logga in',
     lists: { 0: 'Listor' },
     tags: {
       0: 'Taggar',
-      1: '{amount} taggar för kategorier {name}'
+      1: '{amount} taggar för kategorier {name}',
+      2: 'Sök taggar'
     },
     ideas: {
       0: 'Inspiration',
@@ -17,24 +18,29 @@ export default {
     skin: {
       0: 'Det här skinnet innehåller element från andra skins',
       1: 'Klicka här för mer information'
-    }
+    },
+    tools: 'Verktyg'
   },
   changelogs: {
     0: 'Ändringslogg',
     1: 'Lista av alla revisioner gjorda i den nuvarande versionen',
     2: 'Ingenting här',
-    3: 'Men du kan lägga till ändringarna du gjorde till den här versionen av skinnet',
+    3: 'But you can add the changes you\'ve made to this version of the skin',
     4: 'Inte grupperad',
     5: 'Nytt',
     6: 'Fixningar',
     7: 'Ändringar',
     8: 'Tar bort'
   },
+  ideas: {
+    0: 'Ingenting hittat',
+    1: 'Skärmdumpar av «{type}» laddades inte upp till webbsidan'
+  },
   creators: {
     0: 'Skapare',
     1: 'Lista av alla skapare som var inblandade i skapandet av den här versionen',
     2: 'Ingen är här',
-    3: 'Searching for a player\'s name will display a list of profiles.',
+    3: 'Att söka efter en spelares namn kommer att visa en lista med profiler.',
     4: 'Redigerare',
     5: 'Roller',
     6: 'Versioner'
@@ -43,7 +49,10 @@ export default {
     0: 'Taggar',
     1: 'Lista över alla taggar relaterade till detta skin',
     2: 'Det verkar ganska tomt här.',
-    3: 'Använd fältet ovanför att hitta nya taggar'
+    3: 'Använd fältet ovanför att hitta nya taggar',
+    4: 'Taggar hittades inte',
+    5: 'Prova att söka efter något annat',
+    6: 'Sök efter'
   },
   videos: {
     0: 'Videor',
@@ -62,6 +71,7 @@ export default {
     0: 'Alla',
     1: 'Metadata',
     2: 'Höjdpunkt',
+    3: 'Inget namn angivet på skinnet',
     4: 'Lägg till åtminstone en skin skapare',
     5: 'Lägg till ett par taggar',
     6: 'Storleken av skinnet är inte specificerad',
@@ -71,9 +81,10 @@ export default {
     10: 'Inga skärmbilder är uppladdade',
     11: 'Lägg till minst en skärmdump av spelet',
     12: 'Länk till skin ej angiven',
-    20: 'Ser bra ut',
-    21: 'Alla problem blev fixade, vilket är ganska bra',
-    22: 'Checklista'
+    20: 'Looks pretty good',
+    21: 'Every issue was fixed. Good job!',
+    22: 'Checklista',
+    23: 'Lägg till minst en offentlig version'
   },
   skins: {
     0: 'Skins',
@@ -87,7 +98,9 @@ export default {
     8: 'Alla skins | osu skins',
     9: 'Skin | Skins | Skins',
     10: 'osu Skins av {name} | Alla skins från',
-    11: 'Sök efter'
+    11: 'Sök efter',
+    12: '{name} skins',
+    13: 'Utforska Skins'
   },
   skin: {
     0: 'Edit',
@@ -98,7 +111,7 @@ export default {
     5: 'Skärmbilder',
     6: 'Enbart gameplay',
     7: 'Nedladdningslänk | Ladda ner skinn',
-    8: 'Forum post | osu! Forum',
+    8: 'Forum inlägg | osu! Forum',
     9: 'Reddit inlägg',
     10: 'Skapare',
     11: 'Taggar',
@@ -116,7 +129,10 @@ export default {
     24: '{amount} sekunder kvar',
     25: 'Du är inte en av oss',
     26: 'Verkar som om du inte är en författare eller redaktör för detta skinn',
-    27: 'Skin by'
+    27: 'Skin av',
+    28: 'Inga taggar',
+    29: 'Inga videor',
+    30: 'Inga skapare'
   },
   drag: {
     0: 'Klicka här',
@@ -133,9 +149,9 @@ export default {
     3: 'Alla ikoner är tagna från {name}',
     4: 'Flaggor',
     5: 'Alla flagga bilder är från {name}',
-    6: 'Localisation',
-    7: 'Anyone? [{lang}]',
-    8: 'Seems like, cpol forget to add them. {text}'
+    6: 'Språk',
+    7: 'Någon? [{lang}]',
+    8: 'Seems like cyperdark forgot to add them. {text}'
   },
   search: {
     0: 'Skin sökning',
@@ -145,11 +161,17 @@ export default {
     4: 'Storlek',
     5: 'Datum',
     7: 'Ingenting hittat',
-    8: 'Prova att ange olika sökfilter',
+    8: 'Try using different search filters',
     9: 'Väntar på en sökning',
-    10: 'Välj sökfilter eller skriv bara skintiteln, författaren eller taggen',
+    10: 'Use the search filters or type the skin\'s title, author or tags',
     11: 'Nedladdningar',
-    12: 'Name'
+    12: 'Namn',
+    13: {
+      0: 'Skins',
+      1: 'Taggar',
+      2: 'Användare',
+      3: 'Listor'
+    }
   },
   tabs: {
     0: 'Sök efter',
@@ -158,15 +180,15 @@ export default {
   },
   undefined: {
     0: 'Tomt',
-    1: 'Sorgligen nog finns det ingenting här, iallafall kan du titta på andra sidor',
-    2: 'Sorgligen nog finns det ingenting här',
+    1: 'Unfortunately, there\'s nothing here, but you can take a look at the other pages',
+    2: 'Unfortunately, there\'s nothing here',
     3: 'Obehörig',
-    4: 'Du måste vara inloggad för att kunna redigera detta skin.',
-    5: 'You need to be logged in to add a new skin.'
+    4: 'You need to be logged in order to edit this skin.',
+    5: 'You need to be logged in order to add a new skin.'
   },
   meta: {
     title: {
-      0: 'Discover osu skins',
+      0: 'Utforska osu! skins',
       1: 'Spellägen, bildförhållanden osu skins',
       2: 'Populära osu skins',
       3: 'Sök efter osu skins',
@@ -175,8 +197,10 @@ export default {
       6: 'Cred',
       7: 'osu skins',
       8: '{name} sök efter osu skins',
-      9: 'Get inspiration from other osu skins',
-      10: '{name} skapade osu skins'
+      9: 'Få inspiration från andra osu! skins',
+      10: '{name} skapade osu skins',
+      11: 'Sök taggar',
+      12: '{name} hittade taggar'
     },
     description: {
       0: 'Få det bästa osu! skinnen på våran sida! Vårat stora urval innehåller skinn för alla spellägen, bildförhållanden, och även toppspelare. Plus, vi har även en special avdelning för anime fans. Förbättra ditt gameplay med det perfekta skinnet. #osuskins #osugame #anime',
@@ -188,9 +212,9 @@ export default {
       6: '{name} osu skins samling!, gratis nedladdning',
       7: 'En enorm mängd av osu skins för {name}, ladda ner gratis!',
       8: 'Alla osu skins skapade av {name}',
-      9: 'Hitta inspiration för ditt nästa osu! skin på vår sida. Sök genom en varierad samling av skins och hitta nya tekniker och idéer. Bli inspirerad och skapa dina egna unika skins.'
-    },
-    keywords: { 0: 'osu, osu!, osu skins, std skins, ctb skins, mania skins, taiko skins, mrekk osu skins,Rafis osu skins,FlyingTuna osu skins,Vaxei osu skins,Cookiezi osu skins,Varvalian osu skins,RyuK osu skins,WhiteCat osu skins,_RyuK osu skins,BeasttrollMC osu skins,Genshin Impact osu skins,Mathi osu skins,WubWoofWolf osu skins,Merami osu skins,xootynator osu skins,Gayzmcgee osu skins,[Karcher] osu skins,Bubbleman osu skins,ChomikBox osu skins,NSFW osu skins,Lifeline osu skins,Hatsune Miku osu skins,Azerite osu skins,Umbre osu skins,404 AimNotFound osu skins,-Nikstrim osu skins,bloo osu skins,Shigetora osu skins,Badeu osu skins,FunOrange osu skins,worst hr player osu skins,Tekkito osu skins,ninerik osu skins,azr8 osu skins,idke osu skins,Andros osu skins,Zylice osu skins,Rektygon osu skins,Komori osu skins,anime osu skins,cyperdark osu skins,Red_Pixel osu skins,Utami osu skins,Arknights osu skins,Karthy osu skins,Paraqeet osu skins,aetrna osu skins,Spare osu skins,-GN osu skins,Mastasz osu skins,Seouless osu skins,haga1115 osu skins,shimon osu skins,fieryrage osu skins,Ekoro osu skins,Firebat92 osu skins,_Shield osu skins,-Roaz- osu skins,- Dark - osu skins,atturbo555 osu skins,Aristia osu skins,_Aiko__ osu skins,z x c osu skins,eternum osu skins,talala osu skins,NyanPotato osu skins,Arnold24x24 osu skins,Alumetri osu skins,im a fancy lad osu skins,jordanlr7 osu skins,Woey osu skins,khz osu skins,rrtyui osu skins,kieg osu skins,Rupertion osu skins,FGSky osu skins,Aireu osu skins,Neko God osu skins,Apostol osu skins,Abyssal osu skins,dokidokilolixx osu skins,Mlaw osu skins,Ponytail osu skins,Reedkatt osu skins,Zestiny osu skins,Apraxia osu skins,Binfy osu skins,Rohulk osu skins,-PloX osu skins,DuyKhang-sama osu skins,BronyPH osu skins,Intercambing osu skins,Xeltol osu skins,Valorant osu skins,Akolibed osu skins,hololive osu skins,kablaze osu skins,tokyo ghoul osu skins,Trail Mix osu skins,Dereban osu skins' }
+      9: 'Hitta inspiration för ditt nästa osu! skin på vår sida. Sök genom en varierad samling av skins och hitta nya tekniker och idéer. Bli inspirerad och skapa dina egna unika skins.',
+      10: 'Sök efter taggar bland alla taggar på webbplatsen.'
+    }
   },
   buttons: {
     0: 'Logga in',
@@ -217,16 +241,16 @@ export default {
     }
   },
   tooltips: {
-    0: 'Views: {amount}',
+    0: 'Visningar: {amount}',
     1: 'Uppdatera resultat',
     2: 'Ner | Upp',
-    3: 'Likes: {likes} / Dislikes: {dislikes}',
+    3: 'Gillar: {likes} / Ogillar: {dislikes}',
     4: 'Tryck på ctrl+enter för att lägga till en tag',
     5: 'Redigera version',
-    6: '{s}Logga in{p}, för att kunna betygsätta det här skinnet',
+    6: '{s}Log in{p}, in order to rate this skin',
     7: 'Ingen kort beskrivning',
     8: 'Ingen url',
-    9: 'Downloads: {amount}'
+    9: 'Nedladdningar: {amount}'
   },
   lists: {
     screens: {
@@ -265,16 +289,16 @@ export default {
     9: 'Verktyg',
     views: 'Visningar',
     likes: 'Likes',
-    dislikes: 'Dislikes',
+    dislikes: 'Ogillar',
     downloads: 'Nedladdningar',
     size_range: 'Välj storlek',
     date_range: 'Välj ett datumspann',
     ratio: 'Välj bildförhållande | förhållande'
   },
   placeholders: {
-    0: 'Välj roller',
-    1: 'Välj versioner',
-    2: 'Skriv text...',
+    0: 'Select roles',
+    1: 'Select versions',
+    2: 'Type some text...',
     3: 'Välj storlek',
     4: 'Välj datumspann',
     5: 'År',
@@ -284,17 +308,84 @@ export default {
     9: 'Spellägen',
     10: 'Välj typ',
     11: 'Klistra in en YouTube länk',
-    12: 'Skriv beskrivning och url. Format beskrivning:url',
+    12: 'Type a description and an url. Format description:url',
     13: 'Välj extra',
     14: 'Klistra in en länk',
-    15: 'Skin titel, skapare eller tag'
+    15: 'Skin title, author, or tags',
+    16: 'Välj kategori',
+    17: 'Type the name of the tag'
   },
-  contribute: { 0: 'Contribute' },
+  contribute: { 0: 'Bidra' },
   nsfw: {
-    0: 'Warning!',
-    1: 'This skin contains sensitive or adult content',
-    2: 'This skin contains sensitive or adult content that some users may find disturbing',
-    3: ' Alright',
-    4: ' bye o/'
+    0: 'Varning!',
+    1: 'Denna skin innehåller känsligt eller vuxet innehåll',
+    2: 'Denna skin innehåller känslig eller vuxen innehåll som vissa användare kan hitta störande',
+    3: 'Okej',
+    4: 'Hejdå o/'
+  },
+  removed: {
+    0: 'Version ej tillgänglig',
+    1: 'The author of the skin decided to remove this version from the site.',
+    2: 'Switch to an available version'
+  },
+  notify: {
+    0: 'Issues were not fixed',
+    1: 'Not all required fields were filled',
+    2: 'Visa',
+    3: 'Hittades inte',
+    4: 'Banner hittades inte (För nu används den första skärmdumpen som banner)',
+    5: 'Inga ändringar',
+    6: 'Inga ändringar hittades',
+    7: 'ID hittades inte',
+    8: 'ID för videon hittades inte, prova en annan länk (Just nu stöds endast YouTube)',
+    9: 'Hoppsan',
+    10: 'Looks like your session expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
+    11: 'Existerar',
+    12: 'Denna video har redan lagts till',
+    13: 'Existerar',
+    14: 'Denna tagg har redan lagts till',
+    15: 'Hittades inte',
+    16: 'Du kan inte ta bort en raderad tagg',
+    17: 'Tillagd',
+    18: 'Du har lagt till en ny tagg',
+    19: 'Hoppsan',
+    20: 'Skaparen har redan lagts till',
+    21: 'EZ',
+    22: 'Ny profil har lagts till',
+    23: 'VA',
+    24: 'Omöjligt att ta bort en raderad skapare',
+    25: 'Duplicate',
+    26: 'This change has already been added earlier.',
+    27: 'Duplicate',
+    28: 'This url has already been added earlier.',
+    29: 'Varning',
+    30: 'You forgot to add a description for the url. Example: Description:url',
+    31: 'Varning',
+    32: 'You forgot to add an url for the description. Example: Description:url',
+    33: 'Återställt',
+    34: 'Version «{name}» has been restored',
+    35: 'Raderad',
+    36: 'Version «{name}» has been deleted',
+    37: 'Error',
+    38: 'Apparently the server thinks you\'re a robot.',
+    39: 'Looks like your user session has expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
+    40: 'Mismatched credentials (relogin in account. Don\'t worry, everything was saved automatically)',
+    41: 'Okänt fel',
+    42: 'You cannot edit a nonexistent skin',
+    43: 'Seems like you don\'t have permission to edit this skin',
+    44: 'You cannot send this version because it is the same as the previous one.',
+    45: 'These changes have already been sent for moderation',
+    46: 'Klart!',
+    47: 'Nya ändringar har lämnats in för moderering',
+    48: 'Ändringar har uppdaterats med moderering',
+    49: 'Konstig länk',
+    50: 'Denna länk kan inte användas som en nedladdningslänk',
+    51: 'Submitted for moderation'
+  },
+  restricted_view: {
+    0: 'Obehörig',
+    1: 'Please log into your account',
+    2: 'Begränsad visning',
+    3: 'Den här sidan är inte ute, än.'
   }
 };

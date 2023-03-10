@@ -5,7 +5,8 @@ export default {
     lists: { 0: 'Lijsten' },
     tags: {
       0: 'Categorieën',
-      1: '{amount} tags voor categorie {name}'
+      1: '{amount} tags voor categorie {name}',
+      2: 'Zoek categorieën'
     },
     ideas: {
       0: 'Inspiratie',
@@ -17,18 +18,23 @@ export default {
     skin: {
       0: 'Deze skin bevat een of meerdere elementen van andere skins',
       1: 'Klik hier voor meer informatie'
-    }
+    },
+    tools: 'Hulpmiddelen'
   },
   changelogs: {
     0: 'Veranderingen',
     1: 'Lijst van alle gemaakte wijzigingen in de huidige versie',
     2: 'Niks hier',
-    3: 'Maar je kan veranderingen toevoegen die jij hebt gemaakt bij deze versie van de skin',
+    3: 'Maar je kan de aanpassingen die jij gemaakt hebt aan deze versie van de skin toevoegen',
     4: 'Niet gegroepeerd',
     5: 'Nieuw',
     6: 'Verbeteringen',
     7: 'Veranderingen',
     8: 'Verwijderingen'
+  },
+  ideas: {
+    0: 'Niks gevonden',
+    1: 'Schermafbeeldingen of «{type}» zijn niet geüpload naar de website'
   },
   creators: {
     0: 'Auteurs',
@@ -43,7 +49,10 @@ export default {
     0: 'Categorieën',
     1: 'Lijst van alle tags gerelateerd aan deze skin',
     2: 'Het is hier vrij leeg.',
-    3: 'Gebruik het bovenstaande veld om nieuwe tags te vinden'
+    3: 'Gebruik het bovenstaande veld om nieuwe tags te vinden',
+    4: 'Categorieën niet gevonden',
+    5: 'Probeer naar iets anders te zoeken',
+    6: 'Zoek'
   },
   videos: {
     0: 'Video\'s',
@@ -62,6 +71,7 @@ export default {
     0: 'Alles',
     1: 'Metadata',
     2: 'Uitgelicht',
+    3: 'Naam van de skin is niet gespecificeerd',
     4: 'Voeg tenminste één auteur van de skin toe',
     5: 'Voeg een paar tags toe',
     6: 'Grootte van de skin is niet gegeven',
@@ -71,9 +81,10 @@ export default {
     10: 'Geen schermopnames aangeboden',
     11: 'Voeg tenminste één schermopname toe terwijl je speelt',
     12: 'Link naar de skin is niet gegeven',
-    20: 'Ziet er lekker uit',
-    21: 'Elk probleem is opgelost en dat is best fijn',
-    22: 'Checklist'
+    20: 'Ziet er goed uit',
+    21: 'Elk probleem is opgelost. Lekker gedaan!',
+    22: 'Checklist',
+    23: 'Voeg minimaal één openbare versie toe'
   },
   skins: {
     0: 'Skins',
@@ -87,7 +98,9 @@ export default {
     8: 'Alle skins | osu skins',
     9: 'Skin | Skins | Skins',
     10: 'osu Skins door {name} | Alle skins van',
-    11: 'Zoek'
+    11: 'Zoek',
+    12: '{name} skins',
+    13: 'Ontdek skins'
   },
   skin: {
     0: 'Bewerk',
@@ -116,7 +129,10 @@ export default {
     24: '{amount} seconden over',
     25: 'Jij hoort niet bij ons',
     26: 'Het ziet ernaar uit dat je niet de auteur of editor van deze skin bent',
-    27: 'Skin door'
+    27: 'Skin door',
+    28: 'Geen categorieën',
+    29: 'Geen video\'s',
+    30: 'Geen makers'
   },
   drag: {
     0: 'Klik hier',
@@ -135,7 +151,7 @@ export default {
     5: 'Alle vlaggen zijn genomen van {name}',
     6: 'Vertalingen',
     7: 'Iemand? [{lang}]',
-    8: 'Het ziet ernaar uit dat cpol ze is vergeten toe te voegen. {text}'
+    8: 'Het ziet ernaar uit dat cyperdark ze is vergeten toe te voegen. {text}'
   },
   search: {
     0: 'Zoek naar skin',
@@ -147,9 +163,15 @@ export default {
     7: 'Niks gevonden',
     8: 'Probeer andere zoek criteria',
     9: 'We wachten op je zoekopdracht',
-    10: 'Selecteer de zoek criteria of type gewoon de titel, auteur of tag van de skin',
+    10: 'Gebruik de zoekfilters of typ de titel van de skin, auteur of tags',
     11: 'Downloads',
-    12: 'Naam'
+    12: 'Naam',
+    13: {
+      0: 'Skins',
+      1: 'Categorieën',
+      2: 'Gebruikers',
+      3: 'Lijsten'
+    }
   },
   tabs: {
     0: 'Zoek',
@@ -176,7 +198,9 @@ export default {
       7: 'osu skins',
       8: '{name} zoek osu skins',
       9: 'Krijg inspiratie van andere osu skins',
-      10: '{name} maakte osu skins'
+      10: '{name} maakte osu skins',
+      11: 'Zoek categorieën',
+      12: '{name} gevonden tags'
     },
     description: {
       0: 'Pak de beste osu! skins van onze website! Ons grote aanbod heeft skins voor alle gamemodes, aspect ratio’s  en we hebben zelfs skins van de beste spelers. Maar dan heb je anime sectie nog niet gezien. Speel beter met onze hoge skins van hoge kwaliteit. #osuskins #osugame #anime',
@@ -188,9 +212,9 @@ export default {
       6: '{name} osu skin collectie!, gratis om te downloaden',
       7: 'Een gigantische hoeveelheid osu skins voor een {name}, gratis te downloaden!',
       8: 'Alle osu skins gemaakt door {name}',
-      9: 'Vindt inspiratie voor jouw volgende osu! skin op onze site. Verdwaal in ons gevarieerde bos van skins en ontdek nieuwe technieken en ideeën. Wordt geïnspireerd en maak je eigen unieke skins.'
-    },
-    keywords: { 0: 'osu, osu!, osu skins, std skins, ctb skins, mania skins, taiko skins, mrekk osu skins,Rafis osu skins,FlyingTuna osu skins,Vaxei osu skins,Cookiezi osu skins,Varvalian osu skins,RyuK osu skins,WhiteCat osu skins,_RyuK osu skins,BeasttrollMC osu skins,Genshin Impact osu skins,Mathi osu skins,WubWoofWolf osu skins,Merami osu skins,xootynator osu skins,Gayzmcgee osu skins,[Karcher] osu skins,Bubbleman osu skins,ChomikBox osu skins,NSFW osu skins,Lifeline osu skins,Hatsune Miku osu skins,Azerite osu skins,Umbre osu skins,404 AimNotFound osu skins,-Nikstrim osu skins,bloo osu skins,Shigetora osu skins,Badeu osu skins,FunOrange osu skins,worst hr player osu skins,Tekkito osu skins,ninerik osu skins,azr8 osu skins,idke osu skins,Andros osu skins,Zylice osu skins,Rektygon osu skins,Komori osu skins,anime osu skins,cyperdark osu skins,Red_Pixel osu skins,Utami osu skins,Arknights osu skins,Karthy osu skins,Paraqeet osu skins,aetrna osu skins,Spare osu skins,-GN osu skins,Mastasz osu skins,Seouless osu skins,haga1115 osu skins,shimon osu skins,fieryrage osu skins,Ekoro osu skins,Firebat92 osu skins,_Shield osu skins,-Roaz- osu skins,- Dark - osu skins,atturbo555 osu skins,Aristia osu skins,_Aiko__ osu skins,z x c osu skins,eternum osu skins,talala osu skins,NyanPotato osu skins,Arnold24x24 osu skins,Alumetri osu skins,im a fancy lad osu skins,jordanlr7 osu skins,Woey osu skins,khz osu skins,rrtyui osu skins,kieg osu skins,Rupertion osu skins,FGSky osu skins,Aireu osu skins,Neko God osu skins,Apostol osu skins,Abyssal osu skins,dokidokilolixx osu skins,Mlaw osu skins,Ponytail osu skins,Reedkatt osu skins,Zestiny osu skins,Apraxia osu skins,Binfy osu skins,Rohulk osu skins,-PloX osu skins,DuyKhang-sama osu skins,BronyPH osu skins,Intercambing osu skins,Xeltol osu skins,Valorant osu skins,Akolibed osu skins,hololive osu skins,kablaze osu skins,tokyo ghoul osu skins,Trail Mix osu skins,Dereban osu skins' }
+      9: 'Vindt inspiratie voor jouw volgende osu! skin op onze site. Verdwaal in ons gevarieerde bos van skins en ontdek nieuwe technieken en ideeën. Wordt geïnspireerd en maak je eigen unieke skins.',
+      10: 'Zoek naar categorieën tussen alle categorieën op de website.'
+    }
   },
   buttons: {
     0: 'Inloggen',
@@ -223,7 +247,7 @@ export default {
     3: 'Duimpies: {likes} / Duimpies omlaag: {dislikes}',
     4: 'Druk op ctrl+enter om een tag toe te voegen',
     5: 'Bewerk versie',
-    6: '{s}Log in{p}, om deze skin een beoordeling te kunnen geven',
+    6: '{s}Log in{p}, om deze skin te beoordelen',
     7: 'Geen korte beschrijving',
     8: 'Geen url',
     9: 'Keren gedownload: {amount}'
@@ -272,9 +296,9 @@ export default {
     ratio: 'Selecteer een aspect ratio | ratio'
   },
   placeholders: {
-    0: 'Kies rollen',
-    1: 'Kies versies',
-    2: 'Typ tekst...',
+    0: 'Selecteer rollen',
+    1: 'Selecteer versies',
+    2: 'Type wat tekst...',
     3: 'Selecteer grootte',
     4: 'Selecteer tijdsperiode',
     5: 'Jaar',
@@ -287,7 +311,9 @@ export default {
     12: 'Typ een omschrijving en URL. Formaat omschrijving:URL',
     13: 'Selecteer extra',
     14: 'Plak een link',
-    15: 'Skin titel, auteur of tag'
+    15: 'Skin titel, auteur of categorieën',
+    16: 'Selecteer categorie',
+    17: 'Type de naam van de categorie'
   },
   contribute: { 0: 'Draag je steentje bij' },
   nsfw: {
@@ -295,6 +321,71 @@ export default {
     1: 'Deze skin bevat gevoelige of volwassen onderdelen',
     2: 'Deze skin bevat gevoelige of volwassen onderdelen die sommige gebruikers schokkend kunnen vinden',
     3: 'Oké',
-    4: 'later o/'
+    4: 'laters o/'
+  },
+  removed: {
+    0: 'Versie onbeschikbaar',
+    1: 'De auteur van de skin heeft besloten deze versie van de site te verwijderen.',
+    2: 'Ga naar een beschikbare versie'
+  },
+  notify: {
+    0: 'Problemen zijn niet opgelost',
+    1: 'Niet alle verplichte velden zijn ingevuld',
+    2: 'Geef weer',
+    3: 'Niet gevonden',
+    4: 'Banner niet gevonden (momenteel wordt de eerste schermafbeelding als de banner gebruikt)',
+    5: 'Geen wijzigingen',
+    6: 'Er zijn geen wijzigingen gevonden',
+    7: 'ID niet gevonden',
+    8: 'ID van de video niet gevonden, probeer een andere link (Op het moment wordt alleen YouTube ondersteund)',
+    9: 'Oepsie',
+    10: 'Het lijkt erop dat je sessie is verlopen, open een nieuwe pagina en log in op je account (Geen zorgen, alles is automatisch opgeslagen)',
+    11: 'Bestaat',
+    12: 'Deze video is al toegevoegd',
+    13: 'Bestaat',
+    14: 'Deze categorie is al toegevoegd',
+    15: 'Niet gevonden',
+    16: 'Je kan een verwijderde categorie niet verwijderen',
+    17: 'Toegevoegd',
+    18: 'Je hebt een nieuwe categorie toegevoegd',
+    19: 'OEpsie',
+    20: 'Deze maker is al toegevoegd',
+    21: 'EZ',
+    22: 'Nieuwe maker is toegevoegd',
+    23: 'HUH',
+    24: 'Onmogelijk om een verwijderde maker te verwijderen',
+    25: 'Dupliceer',
+    26: 'Deze wijziging is al eerder toegevoegd.',
+    27: 'Dupliceer',
+    28: 'Deze URL is al eerder toegevoegd.',
+    29: 'Waarschuwing',
+    30: 'U bent vergeten een beschrijving voor de URL toe te voegen. Voorbeeld: Omschrijving:URL',
+    31: 'Waarschuwing',
+    32: 'U bent vergeten een beschrijving voor de URL toe te voegen. Voorbeeld: Omschrijving:URL',
+    33: 'Hersteld',
+    34: 'Versie «{name}» is hersteld',
+    35: 'Verwijderd',
+    36: 'Versie «{name}» is verwijderd',
+    37: 'Foutmelding',
+    38: 'Blijkbaar denkt de server dat je een robot bent.',
+    39: 'Het lijkt erop dat je sessie is verlopen, open een nieuwe pagina en log in op je account (Geen zorgen, alles is automatisch opgeslagen)',
+    40: 'Niet overeenkomende gegevens (opnieuw inloggen in account. Geen zorgen, alles is automatisch opgeslagen)',
+    41: 'Onbekende foutmelding',
+    42: 'Je kan een niet bestaande skin niet bewerken',
+    43: 'Het ziet ernaar uit dat je geen toestemming hebt om deze skin te bewerken',
+    44: 'Je kunt deze versie niet insturen, omdat die hetzelfde is als de vorige.',
+    45: 'Deze wijzigingen zijn al verstuurd voor moderatie',
+    46: 'Succes',
+    47: 'Nieuwe wijzigingen zijn ingediend voor moderatie',
+    48: 'Nieuwe wijzigingen zijn ingediend voor moderatie',
+    49: 'Vreemde link',
+    50: 'Deze link kan niet gebruikt worden als download link',
+    51: 'Ingediend voor moderatie'
+  },
+  restricted_view: {
+    0: 'Niet geautoriseerd',
+    1: 'Meld je aan op je account',
+    2: 'Beperkte weergave',
+    3: 'Deze pagina is nog niet uit.'
   }
 };

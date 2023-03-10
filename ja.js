@@ -5,7 +5,8 @@ export default {
     lists: { 0: 'リスト' },
     tags: {
       0: 'タグ',
-      1: 'カテゴリ {name} の {amount} タグ'
+      1: 'カテゴリ {name} の {amount} タグ',
+      2: 'タグ検索'
     },
     ideas: {
       0: 'インスピレーション',
@@ -17,18 +18,23 @@ export default {
     skin: {
       0: 'このスキンは他のスキンからの要素を含んでいます',
       1: '詳細情報を見るには、ここをクリックします'
-    }
+    },
+    tools: 'ツール'
   },
   changelogs: {
     0: '変更ログ',
     1: '現在のバージョンで行われたすべてのリビジョンのリスト',
     2: 'ここには何もありません',
-    3: 'しかし、あなたが行った変更をこのバージョンのスキンに追加することができます',
+    3: 'ですが、このバージョンのスキンに変更を加えることが出来ます。',
     4: 'グループ化されていない',
     5: '新',
     6: '修正',
     7: '変更点',
     8: 'とりはずし'
+  },
+  ideas: {
+    0: '何も見つかりませんでした',
+    1: '«{type}»のスクリーンショットはアップロードされていません'
   },
   creators: {
     0: 'クリエイター',
@@ -43,7 +49,10 @@ export default {
     0: 'タグ',
     1: 'このスキンに関連するすべてのタグの一覧',
     2: 'ここではかなり空っぽのようです。',
-    3: '新しいタグを見つけるには上のフィールドを使用してください'
+    3: '新しいタグを見つけるには上のフィールドを使用してください',
+    4: 'タグが見つかりませんでした',
+    5: '他のキーワードを検索してみてください。',
+    6: '検索'
   },
   videos: {
     0: '動画',
@@ -62,6 +71,7 @@ export default {
     0: '全て',
     1: 'メタデータ',
     2: 'ハイライト',
+    3: 'スキンの名前が指定されていません',
     4: '少なくとも1人のスキンクリエーターを追加する',
     5: 'いくつかのタグを追加',
     6: 'スキンのサイズが指定されていません',
@@ -72,8 +82,9 @@ export default {
     11: '少なくとも１つのゲームプレイのスクリーンショットを追加してください',
     12: 'スキンへのリンクが指定されていません',
     20: 'かなり良い感じ',
-    21: 'すべての問題が修正されました。グッジョブ',
-    22: 'チェックリスト'
+    21: 'すべての問題が修正されました。グッジョブ！',
+    22: 'チェックリスト',
+    23: 'Add at least one public version'
   },
   skins: {
     0: 'スキン',
@@ -87,7 +98,9 @@ export default {
     8: '全スキン | osu スキン',
     9: 'Skin | Skins | Skins',
     10: '{name} によるosu スキン | から 全てのスキン',
-    11: '検索'
+    11: '検索',
+    12: '{name} スキン',
+    13: 'スキンを探す'
   },
   skin: {
     0: '編集',
@@ -116,7 +129,10 @@ export default {
     24: '残り{amount} 秒',
     25: 'あなたは私たちの仲間ではありません',
     26: 'あなたは、このスキンの作成者や編集者ではないようです。',
-    27: 'スキン by'
+    27: 'スキン by',
+    28: 'No tags',
+    29: 'No videos',
+    30: 'No creators'
   },
   drag: {
     0: 'ここをクリック',
@@ -135,7 +151,7 @@ export default {
     5: '国旗画像はすべて {name} のものです',
     6: '翻訳',
     7: '誰かいませんか？[{lang}]',
-    8: 'cpolが追加し忘れているようです。{text}'
+    8: 'Seems like cyperdark forgot to add them. {text}'
   },
   search: {
     0: 'スキン検索',
@@ -145,11 +161,17 @@ export default {
     4: 'サイズ',
     5: '日付',
     7: '何も見つかりませんでした',
-    8: '異なる検索フィルターを設定してみてください',
+    8: 'Try using different search filters',
     9: '保留中のクエリ',
-    10: '検索フィルタを選択するか、スキンのタイトル、作成者、またはタグを入力してください',
+    10: 'Use the search filters or type the skin\'s title, author or tags',
     11: 'ダウンロード',
-    12: '名前'
+    12: '名前',
+    13: {
+      0: 'スキン',
+      1: 'タグ',
+      2: 'Users',
+      3: 'リスト'
+    }
   },
   tabs: {
     0: '検索',
@@ -158,11 +180,11 @@ export default {
   },
   undefined: {
     0: 'エンプティ',
-    1: '残念ながらここには何もありません。ほかのページを見てみましょう',
-    2: '残念ながらここには何もありません',
+    1: 'Unfortunately, there\'s nothing here, but you can take a look at the other pages',
+    2: 'Unfortunately, there\'s nothing here',
     3: '権限がありません',
-    4: 'このスキンを編集するにはログインする必要があります',
-    5: '新しいスキンを追加するにはログインする必要があります。'
+    4: 'You need to be logged in order to edit this skin.',
+    5: 'You need to be logged in order to add a new skin.'
   },
   meta: {
     title: {
@@ -176,7 +198,9 @@ export default {
       7: 'osu スキン',
       8: '{name} 検索 osu スキン',
       9: '他のosuスキンからインスピレーションを得る',
-      10: '{name} が作成したスキン'
+      10: '{name} が作成したスキン',
+      11: 'タグ検索',
+      12: '{name} found tags'
     },
     description: {
       0: 'このサイトでベストなosu! スキンを手に入れよう！ 私たちの膨大なライブラリには、すべてのゲームモード、アスペクト比、さらにはトッププレイヤーのスキンがあります。さらに、アニメーション向けの特別セクションもあります。完璧なスキンでゲームプレイを向上させましょう。',
@@ -188,9 +212,9 @@ export default {
       6: '{name} osuスキンコレクション！, 無料ダウンロード',
       7: '{name} 用のosuスキンがたくさん、無料でダウンロードできます。',
       8: '{name} によって作成されたすべてのosuスキン。',
-      9: '当サイトで次のosu! スキンのインスピレーションを身につけよう！多彩なスキンコレクションを見て、新しいテクニックやアイデアを見つけることができます。インスピレーションを受けて、自分だけのosu!スキンを作りましょう。'
-    },
-    keywords: { 0: 'osu, osu!, osu skins, std skins, ctb skins, mania skins, taiko skins, mrekk osu skins,Rafis osu skins,FlyingTuna osu skins,Vaxei osu skins,Cookiezi osu skins,Varvalian osu skins,RyuK osu skins,WhiteCat osu skins,_RyuK osu skins,BeasttrollMC osu skins,Genshin Impact osu skins,Mathi osu skins,WubWoofWolf osu skins,Merami osu skins,xootynator osu skins,Gayzmcgee osu skins,[Karcher] osu skins,Bubbleman osu skins,ChomikBox osu skins,NSFW osu skins,Lifeline osu skins,Hatsune Miku osu skins,Azerite osu skins,Umbre osu skins,404 AimNotFound osu skins,-Nikstrim osu skins,bloo osu skins,Shigetora osu skins,Badeu osu skins,FunOrange osu skins,worst hr player osu skins,Tekkito osu skins,ninerik osu skins,azr8 osu skins,idke osu skins,Andros osu skins,Zylice osu skins,Rektygon osu skins,Komori osu skins,anime osu skins,cyperdark osu skins,Red_Pixel osu skins,Utami osu skins,Arknights osu skins,Karthy osu skins,Paraqeet osu skins,aetrna osu skins,Spare osu skins,-GN osu skins,Mastasz osu skins,Seouless osu skins,haga1115 osu skins,shimon osu skins,fieryrage osu skins,Ekoro osu skins,Firebat92 osu skins,_Shield osu skins,-Roaz- osu skins,- Dark - osu skins,atturbo555 osu skins,Aristia osu skins,_Aiko__ osu skins,z x c osu skins,eternum osu skins,talala osu skins,NyanPotato osu skins,Arnold24x24 osu skins,Alumetri osu skins,im a fancy lad osu skins,jordanlr7 osu skins,Woey osu skins,khz osu skins,rrtyui osu skins,kieg osu skins,Rupertion osu skins,FGSky osu skins,Aireu osu skins,Neko God osu skins,Apostol osu skins,Abyssal osu skins,dokidokilolixx osu skins,Mlaw osu skins,Ponytail osu skins,Reedkatt osu skins,Zestiny osu skins,Apraxia osu skins,Binfy osu skins,Rohulk osu skins,-PloX osu skins,DuyKhang-sama osu skins,BronyPH osu skins,Intercambing osu skins,Xeltol osu skins,Valorant osu skins,Akolibed osu skins,hololive osu skins,kablaze osu skins,tokyo ghoul osu skins,Trail Mix osu skins,Dereban osu skins' }
+      9: '当サイトで次のosu! スキンのインスピレーションを身につけよう！多彩なスキンコレクションを見て、新しいテクニックやアイデアを見つけることができます。インスピレーションを受けて、自分だけのosu!スキンを作りましょう。',
+      10: 'Search for tags among all the tags on the site.'
+    }
   },
   buttons: {
     0: 'ログイン',
@@ -223,7 +247,7 @@ export default {
     3: 'いいね: {likes} / よくないね: {dislikes}',
     4: 'Ctrl+enterでタグを追加',
     5: 'バージョンを編集',
-    6: '{s}ログイン{p}して、このスキンを評価してください',
+    6: '{s}Log in{p}, in order to rate this skin',
     7: '短い説明文はありません',
     8: 'URL がありません',
     9: 'ダウンロード数: {amount}'
@@ -272,9 +296,9 @@ export default {
     ratio: 'アスペクト比を選択 | 比率'
   },
   placeholders: {
-    0: 'ロールを選択',
-    1: 'バージョンを選択',
-    2: 'テキストを入力...',
+    0: 'Select roles',
+    1: 'Select versions',
+    2: 'Type some text...',
     3: 'サイズ選択',
     4: '日付の範囲を選択',
     5: '年',
@@ -284,17 +308,84 @@ export default {
     9: 'ゲームモード',
     10: 'タイプを選択',
     11: 'YouTubeのリンクを貼り付け',
-    12: '説明文とURLを入力します。フォーマット説明:url',
+    12: 'Type a description and an url. Format description:url',
     13: 'エクストラを選択',
     14: 'リンクを貼り付け',
-    15: 'スキンのタイトル、作者、またはタグ'
+    15: 'Skin title, author, or tags',
+    16: 'Select category',
+    17: 'Type the name of the tag'
   },
   contribute: { 0: '貢献する' },
   nsfw: {
     0: '警告！！',
     1: 'このスキンにはセンシティブまたはアダルトなコンテンツが含まれています',
     2: 'このスキンには、一部のユーザーが不快に感じる可能性があるセンシティブまたはアダルトなコンテンツが含まれています',
-    3: ' 了解',
-    4: ' さよなら o/'
+    3: 'Alright',
+    4: 'bye o/'
+  },
+  removed: {
+    0: 'Version unavailable',
+    1: 'The author of the skin decided to remove this version from the site.',
+    2: 'Switch to an available version'
+  },
+  notify: {
+    0: 'Issues were not fixed',
+    1: 'Not all required fields were filled',
+    2: 'Show',
+    3: 'Not found',
+    4: 'Banner not found (Currently, the first screenshot is being used as the banner)',
+    5: 'No changes',
+    6: 'No changes were found',
+    7: 'ID not found',
+    8: 'ID of the video not found, try another link (At the moment only YouTube is supported)',
+    9: 'Oops',
+    10: 'Looks like your session expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
+    11: 'Exists',
+    12: 'This video has already been added',
+    13: 'Exists',
+    14: 'This tag has already been added',
+    15: 'Not found',
+    16: 'You cannot delete a deleted tag',
+    17: 'Added',
+    18: 'You have successfully added a new tag',
+    19: 'OOps',
+    20: 'This creator was already added',
+    21: 'EZ',
+    22: 'New creator has been added',
+    23: 'HUH',
+    24: 'Impossible to remove a deleted creator',
+    25: 'Duplicate',
+    26: 'This change has already been added earlier.',
+    27: 'Duplicate',
+    28: 'This url has already been added earlier.',
+    29: 'Warning',
+    30: 'You forgot to add a description for the url. Example: Description:url',
+    31: 'Warning',
+    32: 'You forgot to add an url for the description. Example: Description:url',
+    33: 'Restored',
+    34: 'Version «{name}» has been restored',
+    35: 'Deleted',
+    36: 'Version «{name}» has been deleted',
+    37: 'Error',
+    38: 'Apparently the server thinks you\'re a robot.',
+    39: 'Looks like your user session has expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
+    40: 'Mismatched credentials (relogin in account. Don\'t worry, everything was saved automatically)',
+    41: 'Unknown error',
+    42: 'You cannot edit a nonexistent skin',
+    43: 'Seems like you don\'t have permission to edit this skin',
+    44: 'You cannot send this version because it is the same as the previous one.',
+    45: 'These changes have already been sent for moderation',
+    46: 'Success',
+    47: 'New changes have been submitted for moderation',
+    48: 'Changes have been updated in moderation',
+    49: 'Odd link',
+    50: 'This link cannot be used as a download link',
+    51: 'Submitted for moderation'
+  },
+  restricted_view: {
+    0: '権限がありません',
+    1: 'Please log into your account',
+    2: 'Restricted view',
+    3: 'This page is not out, yet.'
   }
 };

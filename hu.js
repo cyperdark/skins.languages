@@ -5,7 +5,8 @@ export default {
     lists: { 0: 'Listák' },
     tags: {
       0: 'Címkék',
-      1: '{amount} címke ehhez a kategóriához: {name}'
+      1: '{amount} címke ehhez a kategóriához: {name}',
+      2: 'Search tags'
     },
     ideas: {
       0: 'Inspiráció',
@@ -17,18 +18,23 @@ export default {
     skin: {
       0: 'Ez a skin más skinekből is tartalmaz elemeket',
       1: 'További információért kattints ide'
-    }
+    },
+    tools: 'Eszközök'
   },
   changelogs: {
     0: 'Változi napló',
     1: 'Módosítások listája, amik a jelenlegi verzión történtek',
     2: 'Nincs it semmi',
-    3: 'De hozzá adhatod a változtatásaidat, amit ehhez a skin verzióhoz csináltál',
+    3: 'But you can add the changes you\'ve made to this version of the skin',
     4: 'Nem csoportosított',
     5: 'Új',
     6: 'Javítások',
     7: 'Változtatások',
     8: 'Eltávolítások'
+  },
+  ideas: {
+    0: 'Nincs találat',
+    1: 'Screenshots of «{type}» were not uploaded to the site'
   },
   creators: {
     0: 'Készítők',
@@ -43,7 +49,10 @@ export default {
     0: 'Címkék',
     1: 'Az összes címke ami ehhez a skinhez kötődik',
     2: 'Eléggé üresnek tűnik ez a hely.',
-    3: 'Új címkék kereséséhez használd a felső mezőt'
+    3: 'Új címkék kereséséhez használd a felső mezőt',
+    4: 'Tags not found',
+    5: 'Try searching for something else',
+    6: 'Keresés'
   },
   videos: {
     0: 'Videók',
@@ -62,6 +71,7 @@ export default {
     0: 'Összes',
     1: 'Metaadatok',
     2: 'Highlightok',
+    3: 'Name of the skin not specified',
     4: 'Adjál hozzá legalább egy skin készítőt',
     5: 'Adjál hozzá néhány címkét',
     6: 'Skin fájl mérete nincs megadva',
@@ -71,9 +81,10 @@ export default {
     10: 'Nincs képernyőkép megadva',
     11: 'Adjál hozzá legalább egy gameplay képernyőképet',
     12: 'Link a skin-hez nincs megadva',
-    20: 'Jól néz ki',
-    21: 'Minden probléma meg lett oldva, szép munka',
-    22: 'Ellenőrző lista'
+    20: 'Looks pretty good',
+    21: 'Every issue was fixed. Good job!',
+    22: 'Ellenőrző lista',
+    23: 'Add at least one public version'
   },
   skins: {
     0: 'Skin-ek',
@@ -87,7 +98,9 @@ export default {
     8: 'Minden skin | osu skin-ek',
     9: 'Skin | Skin-ek | Skin-ek',
     10: 'osu skin-ek {name} által',
-    11: 'Keresés'
+    11: 'Keresés',
+    12: '{name} skins',
+    13: 'Explore skins'
   },
   skin: {
     0: 'Szerkesztés',
@@ -116,7 +129,10 @@ export default {
     24: '{amount} másodperc maradt',
     25: 'Te nem vagy egyikünk sem',
     26: 'Úgy látszik nem te vagy a készítője vagy szerkesztője ennek a skinnek',
-    27: 'Skin by'
+    27: 'Skin by',
+    28: 'No tags',
+    29: 'No videos',
+    30: 'No creators'
   },
   drag: {
     0: 'Kattints ide',
@@ -135,7 +151,7 @@ export default {
     5: 'Összes zászló kép {name} által',
     6: 'Lokalizáció',
     7: 'Akárki? [{lang}]',
-    8: 'Úgy tűnik, hogy cpol megfeledkezett ezeket hozzáadni. {text}'
+    8: 'Seems like cyperdark forgot to add them. {text}'
   },
   search: {
     0: 'Skin keresés',
@@ -145,11 +161,17 @@ export default {
     4: 'Méret',
     5: 'Dátum',
     7: 'Nincs találat',
-    8: 'Próbálj meg másik kereső filtert beállítani',
+    8: 'Try using different search filters',
     9: 'Lekérdezés függőben',
-    10: 'Válasszál ki keresési szűrőket, vagy írd be a skin címét, a készítőt vagy egy címkét',
+    10: 'Use the search filters or type the skin\'s title, author or tags',
     11: 'Letöltések',
-    12: 'Name'
+    12: 'Name',
+    13: {
+      0: 'Skin-ek',
+      1: 'Címkék',
+      2: 'Users',
+      3: 'Listák'
+    }
   },
   tabs: {
     0: 'Keresés',
@@ -158,11 +180,11 @@ export default {
   },
   undefined: {
     0: 'Üres',
-    1: 'Sajnos itt nincs semmi, mindenesetre megnézhetsz más oldalakat is',
-    2: 'Sajnos itt nincs semmi',
+    1: 'Unfortunately, there\'s nothing here, but you can take a look at the other pages',
+    2: 'Unfortunately, there\'s nothing here',
     3: 'Jogosulatlan',
-    4: 'A skin szerkesztéséhez be kell jelentkezned.',
-    5: 'Új skin hozzáadásához be kell jelentkezned.'
+    4: 'You need to be logged in order to edit this skin.',
+    5: 'You need to be logged in order to add a new skin.'
   },
   meta: {
     title: {
@@ -176,7 +198,9 @@ export default {
       7: 'osu skin-ek',
       8: '{name} keress osu skin-eket',
       9: 'Inspiráld magad más osu skin-ekkel',
-      10: '{name} létre hozott osu skin-eket'
+      10: '{name} létre hozott osu skin-eket',
+      11: 'Search tags',
+      12: '{name} found tags'
     },
     description: {
       0: 'Szerezd meg a legjobb osu! skineket az oldalunkon! A hatalmas választékunkban találhatsz skin-eket minden játékmódhoz és képarányhoz, emellett a legjobb játékosok skin-jeit is letöltheted. Továbbá van egy külön részünk anime rajongók számára. Emeld új szintre a játék elményedet a neked tökéletes skin-nel. #osuskins #osugame #anime',
@@ -188,9 +212,9 @@ export default {
       6: '{name} osu skin kollekció!, ingyenes letöltés',
       7: '{name} számára hatalmas mennyiégű osu! skin, töltsed le őket ingyen!',
       8: '{name} által létrehozott összes skin',
-      9: 'Merítsél ihletet a következő osu skin-edhez oldalunkon. Böngésszél a skin-ek változatos gyűjteményében, és fedezzél fel új technikákat és ötleteket. Merítsél ihletet, és készítsd el saját egyedi skin-edet.'
-    },
-    keywords: { 0: 'osu, osu!, osu skins, std skins, ctb skins, mania skins, taiko skins, mrekk osu skins,Rafis osu skins,FlyingTuna osu skins,Vaxei osu skins,Cookiezi osu skins,Varvalian osu skins,RyuK osu skins,WhiteCat osu skins,_RyuK osu skins,BeasttrollMC osu skins,Genshin Impact osu skins,Mathi osu skins,WubWoofWolf osu skins,Merami osu skins,xootynator osu skins,Gayzmcgee osu skins,[Karcher] osu skins,Bubbleman osu skins,ChomikBox osu skins,NSFW osu skins,Lifeline osu skins,Hatsune Miku osu skins,Azerite osu skins,Umbre osu skins,404 AimNotFound osu skins,-Nikstrim osu skins,bloo osu skins,Shigetora osu skins,Badeu osu skins,FunOrange osu skins,worst hr player osu skins,Tekkito osu skins,ninerik osu skins,azr8 osu skins,idke osu skins,Andros osu skins,Zylice osu skins,Rektygon osu skins,Komori osu skins,anime osu skins,cyperdark osu skins,Red_Pixel osu skins,Utami osu skins,Arknights osu skins,Karthy osu skins,Paraqeet osu skins,aetrna osu skins,Spare osu skins,-GN osu skins,Mastasz osu skins,Seouless osu skins,haga1115 osu skins,shimon osu skins,fieryrage osu skins,Ekoro osu skins,Firebat92 osu skins,_Shield osu skins,-Roaz- osu skins,- Dark - osu skins,atturbo555 osu skins,Aristia osu skins,_Aiko__ osu skins,z x c osu skins,eternum osu skins,talala osu skins,NyanPotato osu skins,Arnold24x24 osu skins,Alumetri osu skins,im a fancy lad osu skins,jordanlr7 osu skins,Woey osu skins,khz osu skins,rrtyui osu skins,kieg osu skins,Rupertion osu skins,FGSky osu skins,Aireu osu skins,Neko God osu skins,Apostol osu skins,Abyssal osu skins,dokidokilolixx osu skins,Mlaw osu skins,Ponytail osu skins,Reedkatt osu skins,Zestiny osu skins,Apraxia osu skins,Binfy osu skins,Rohulk osu skins,-PloX osu skins,DuyKhang-sama osu skins,BronyPH osu skins,Intercambing osu skins,Xeltol osu skins,Valorant osu skins,Akolibed osu skins,hololive osu skins,kablaze osu skins,tokyo ghoul osu skins,Trail Mix osu skins,Dereban osu skins' }
+      9: 'Merítsél ihletet a következő osu skin-edhez oldalunkon. Böngésszél a skin-ek változatos gyűjteményében, és fedezzél fel új technikákat és ötleteket. Merítsél ihletet, és készítsd el saját egyedi skin-edet.',
+      10: 'Search for tags among all the tags on the site.'
+    }
   },
   buttons: {
     0: 'Bejelntkezés',
@@ -223,7 +247,7 @@ export default {
     3: 'Likes: {likes} / Dislikes: {dislikes}',
     4: 'Nyomj ctrl+enter-t egy címke hozzáadásához',
     5: 'Verzió szerkesztése',
-    6: '{s}Jelentkezz be{p}, hogy értékelni tudd a skint',
+    6: '{s}Log in{p}, in order to rate this skin',
     7: 'Nincs rövid leírás',
     8: 'Nincs url',
     9: 'Downloads: {amount}'
@@ -272,9 +296,9 @@ export default {
     ratio: 'Válasszál képarányt | arány'
   },
   placeholders: {
-    0: 'Szerepek választása',
-    1: 'Verziók választása',
-    2: 'Írj valamit...',
+    0: 'Select roles',
+    1: 'Select versions',
+    2: 'Type some text...',
     3: 'Válasszad ki a fájl méretét',
     4: 'Dátumtartományt választása',
     5: 'Év',
@@ -284,17 +308,84 @@ export default {
     9: 'Játékmódok',
     10: 'Típus kiválasztása',
     11: 'Illesszél be egy YouTube linket',
-    12: 'Írj leírást és Url. Formátum: leírás:Url',
+    12: 'Type a description and an url. Format description:url',
     13: 'Extra választása',
     14: 'Link beillesztése',
-    15: 'Skin cím, készítő vagy tag'
+    15: 'Skin title, author, or tags',
+    16: 'Select category',
+    17: 'Type the name of the tag'
   },
   contribute: { 0: 'Contribute' },
   nsfw: {
     0: 'Warning!',
     1: 'This skin contains sensitive or adult content',
     2: 'This skin contains sensitive or adult content that some users may find disturbing',
-    3: ' Alright',
-    4: ' bye o/'
+    3: 'Alright',
+    4: 'bye o/'
+  },
+  removed: {
+    0: 'Version unavailable',
+    1: 'The author of the skin decided to remove this version from the site.',
+    2: 'Switch to an available version'
+  },
+  notify: {
+    0: 'Issues were not fixed',
+    1: 'Not all required fields were filled',
+    2: 'Show',
+    3: 'Not found',
+    4: 'Banner not found (Currently, the first screenshot is being used as the banner)',
+    5: 'No changes',
+    6: 'No changes were found',
+    7: 'ID not found',
+    8: 'ID of the video not found, try another link (At the moment only YouTube is supported)',
+    9: 'Oops',
+    10: 'Looks like your session expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
+    11: 'Exists',
+    12: 'This video has already been added',
+    13: 'Exists',
+    14: 'This tag has already been added',
+    15: 'Not found',
+    16: 'You cannot delete a deleted tag',
+    17: 'Added',
+    18: 'You have successfully added a new tag',
+    19: 'OOps',
+    20: 'This creator was already added',
+    21: 'EZ',
+    22: 'New creator has been added',
+    23: 'HUH',
+    24: 'Impossible to remove a deleted creator',
+    25: 'Duplicate',
+    26: 'This change has already been added earlier.',
+    27: 'Duplicate',
+    28: 'This url has already been added earlier.',
+    29: 'Warning',
+    30: 'You forgot to add a description for the url. Example: Description:url',
+    31: 'Warning',
+    32: 'You forgot to add an url for the description. Example: Description:url',
+    33: 'Restored',
+    34: 'Version «{name}» has been restored',
+    35: 'Deleted',
+    36: 'Version «{name}» has been deleted',
+    37: 'Error',
+    38: 'Apparently the server thinks you\'re a robot.',
+    39: 'Looks like your user session has expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
+    40: 'Mismatched credentials (relogin in account. Don\'t worry, everything was saved automatically)',
+    41: 'Unknown error',
+    42: 'You cannot edit a nonexistent skin',
+    43: 'Seems like you don\'t have permission to edit this skin',
+    44: 'You cannot send this version because it is the same as the previous one.',
+    45: 'These changes have already been sent for moderation',
+    46: 'Success',
+    47: 'New changes have been submitted for moderation',
+    48: 'Changes have been updated in moderation',
+    49: 'Odd link',
+    50: 'This link cannot be used as a download link',
+    51: 'Submitted for moderation'
+  },
+  restricted_view: {
+    0: 'Jogosulatlan',
+    1: 'Please log into your account',
+    2: 'Restricted view',
+    3: 'This page is not out, yet.'
   }
 };

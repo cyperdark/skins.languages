@@ -5,7 +5,8 @@ export default {
     lists: { 0: 'Saraksti' },
     tags: {
       0: 'Tagi',
-      1: '{amount} tagi kategorijai {name}'
+      1: '{amount} tagi kategorijai {name}',
+      2: 'Search tags'
     },
     ideas: {
       0: 'Iedvesma',
@@ -17,18 +18,23 @@ export default {
     skin: {
       0: 'Šis skins satur elementus no citiem skiniem',
       1: 'Spied šeit, lai iegūtu vairāk informācijas'
-    }
+    },
+    tools: 'Instrumenti'
   },
   changelogs: {
     0: 'Izmaiņu saraksts',
     1: 'Saraksts ar visām veiktajām revīzijām pašreizējā versijā',
     2: 'Šeit nekā nav',
-    3: 'Bet tu vari pievienot izmaiņas, kuras tu veici šai skina versijai',
+    3: 'But you can add the changes you\'ve made to this version of the skin',
     4: 'Nav grupēts',
     5: 'Jaunais',
     6: 'Labotais',
     7: 'Pārmainītais',
     8: 'Izņemtais'
+  },
+  ideas: {
+    0: 'Nekas nav atrasts',
+    1: 'Screenshots of «{type}» were not uploaded to the site'
   },
   creators: {
     0: 'Veidotāji',
@@ -43,7 +49,10 @@ export default {
     0: 'Tagi',
     1: 'Saraksts ar visiem tagiem, kas ir saistīti ar šo skinu',
     2: 'Šeit liekas diezgan klusi.',
-    3: 'Izmanto augšējo lauku, lai atrastu jaunus tagus'
+    3: 'Izmanto augšējo lauku, lai atrastu jaunus tagus',
+    4: 'Tags not found',
+    5: 'Try searching for something else',
+    6: 'Meklēt'
   },
   videos: {
     0: 'Video',
@@ -62,6 +71,7 @@ export default {
     0: 'Viss',
     1: 'Metadata',
     2: 'Izceltais',
+    3: 'Name of the skin not specified',
     4: 'Pievieno vismaz vienu skina veidotāju',
     5: 'Pievieno pāris tagu',
     6: 'Skina lielums nav specificēts',
@@ -71,9 +81,10 @@ export default {
     10: 'Nav ekrānuzņēmumu',
     11: 'Pievieno vismaz vienu ekrānuzņēmumu ar gameplay',
     12: 'Saite uz linku nav norādīta',
-    20: 'Neslikti',
-    21: 'Tu izlaboji visas problēmas. Malacis!',
-    22: 'Problēmu saraksts'
+    20: 'Looks pretty good',
+    21: 'Every issue was fixed. Good job!',
+    22: 'Problēmu saraksts',
+    23: 'Add at least one public version'
   },
   skins: {
     0: 'Skini',
@@ -87,7 +98,9 @@ export default {
     8: 'Visi skini | osu skini',
     9: 'Skins | Skina | Skinu',
     10: 'osu Skini pēc {name} | Visi skini no',
-    11: 'Meklēt'
+    11: 'Meklēt',
+    12: '{name} skins',
+    13: 'Explore skins'
   },
   skin: {
     0: 'Rediģēt',
@@ -116,7 +129,10 @@ export default {
     24: 'Atlikušas {amount} sekundes',
     25: 'Tu neesi viens no mums',
     26: 'Šķiet, ka tu neesi šī skina veidotājs vai rediģētājs',
-    27: 'Skinu veidoja'
+    27: 'Skinu veidoja',
+    28: 'No tags',
+    29: 'No videos',
+    30: 'No creators'
   },
   drag: {
     0: 'Klikšķini šeit',
@@ -135,7 +151,7 @@ export default {
     5: 'Visas karogu bildes ir no {name}',
     6: 'Tulkošana',
     7: 'Neviens? [{lang}]',
-    8: 'Šķiet, ka cpol aizmirsa viņus pievienot. {text}'
+    8: 'Seems like cyperdark forgot to add them. {text}'
   },
   search: {
     0: 'Meklēt skinu',
@@ -145,11 +161,17 @@ export default {
     4: 'Izmērs',
     5: 'Datums',
     7: 'Nekas nav atrasts',
-    8: 'Izmēģini citus meklēšanas kritērijus',
+    8: 'Try using different search filters',
     9: 'Gaida pieprasījumu',
-    10: 'Izvēlies meklēsanas kritērijus vai vienkārši ieraksti skina nosaukumu, autoru vai tagu',
+    10: 'Use the search filters or type the skin\'s title, author or tags',
     11: 'Lejupielādes',
-    12: 'Nosaukums'
+    12: 'Nosaukums',
+    13: {
+      0: 'Skini',
+      1: 'Tagi',
+      2: 'Users',
+      3: 'Saraksti'
+    }
   },
   tabs: {
     0: 'Meklēt',
@@ -158,11 +180,11 @@ export default {
   },
   undefined: {
     0: 'Nav nekā',
-    1: 'Diemžēl šajā lapā nekā nav, pamēģini paskatīties citās lapās',
-    2: 'Diemžēl šeit nekā nav',
+    1: 'Unfortunately, there\'s nothing here, but you can take a look at the other pages',
+    2: 'Unfortunately, there\'s nothing here',
     3: 'Neautorizēts',
-    4: 'Tev vajag pieslēgties, lai rediģētu šo skinu.',
-    5: 'Tev jāpieslēdzas, lai pievienotu jaunu skinu.'
+    4: 'You need to be logged in order to edit this skin.',
+    5: 'You need to be logged in order to add a new skin.'
   },
   meta: {
     title: {
@@ -176,7 +198,9 @@ export default {
       7: 'osu skini',
       8: '{name} meklēt osu skinus',
       9: 'Iedvesmojies no citiem osu skiniem',
-      10: '{name} veidoja osu skinus'
+      10: '{name} veidoja osu skinus',
+      11: 'Search tags',
+      12: '{name} found tags'
     },
     description: {
       0: 'Dabū labākos osu! skinus mūsu saitē! Mūzu milzīgajā klāstā ir skini visiem spēļu režīmiem, visām malu attiecībām un pat top spēlētājiem. Un, mums ir īpaša sadaļa anime faniem. Uzlabo savu gameplay ar perfekto skinu. #osuskins #osugame #anime',
@@ -188,9 +212,9 @@ export default {
       6: '{name} osu skinu kolecija!, bezmaksas lejupielāde',
       7: 'Liela kolekcija osu skinu priekš {name}, bezmaksas lejupielāde!',
       8: 'Visus skinus sastādījis {name}',
-      9: 'Atrodi iedvesmu savam nākamajam osu! skinam mūsu saitē. Pārlūko daudzveidīgu kolekciju ar skiniem, un atklāj jaunas metodes un idejas. Gūsti iedvesmu un izveido pats savu skinu.'
-    },
-    keywords: { 0: 'osu, osu!, osu skins, std skins, ctb skins, mania skins, taiko skins, mrekk osu skins,Rafis osu skins,FlyingTuna osu skins,Vaxei osu skins,Cookiezi osu skins,Varvalian osu skins,RyuK osu skins,WhiteCat osu skins,_RyuK osu skins,BeasttrollMC osu skins,Genshin Impact osu skins,Mathi osu skins,WubWoofWolf osu skins,Merami osu skins,xootynator osu skins,Gayzmcgee osu skins,[Karcher] osu skins,Bubbleman osu skins,ChomikBox osu skins,NSFW osu skins,Lifeline osu skins,Hatsune Miku osu skins,Azerite osu skins,Umbre osu skins,404 AimNotFound osu skins,-Nikstrim osu skins,bloo osu skins,Shigetora osu skins,Badeu osu skins,FunOrange osu skins,worst hr player osu skins,Tekkito osu skins,ninerik osu skins,azr8 osu skins,idke osu skins,Andros osu skins,Zylice osu skins,Rektygon osu skins,Komori osu skins,anime osu skins,cyperdark osu skins,Red_Pixel osu skins,Utami osu skins,Arknights osu skins,Karthy osu skins,Paraqeet osu skins,aetrna osu skins,Spare osu skins,-GN osu skins,Mastasz osu skins,Seouless osu skins,haga1115 osu skins,shimon osu skins,fieryrage osu skins,Ekoro osu skins,Firebat92 osu skins,_Shield osu skins,-Roaz- osu skins,- Dark - osu skins,atturbo555 osu skins,Aristia osu skins,_Aiko__ osu skins,z x c osu skins,eternum osu skins,talala osu skins,NyanPotato osu skins,Arnold24x24 osu skins,Alumetri osu skins,im a fancy lad osu skins,jordanlr7 osu skins,Woey osu skins,khz osu skins,rrtyui osu skins,kieg osu skins,Rupertion osu skins,FGSky osu skins,Aireu osu skins,Neko God osu skins,Apostol osu skins,Abyssal osu skins,dokidokilolixx osu skins,Mlaw osu skins,Ponytail osu skins,Reedkatt osu skins,Zestiny osu skins,Apraxia osu skins,Binfy osu skins,Rohulk osu skins,-PloX osu skins,DuyKhang-sama osu skins,BronyPH osu skins,Intercambing osu skins,Xeltol osu skins,Valorant osu skins,Akolibed osu skins,hololive osu skins,kablaze osu skins,tokyo ghoul osu skins,Trail Mix osu skins,Dereban osu skins' }
+      9: 'Atrodi iedvesmu savam nākamajam osu! skinam mūsu saitē. Pārlūko daudzveidīgu kolekciju ar skiniem, un atklāj jaunas metodes un idejas. Gūsti iedvesmu un izveido pats savu skinu.',
+      10: 'Search for tags among all the tags on the site.'
+    }
   },
   buttons: {
     0: 'Pieslēgties',
@@ -223,7 +247,7 @@ export default {
     3: 'Patīk: {likes} / Nepatīk: {dislikes}',
     4: 'Spied ctrl+enter, lai pievienotu tagu',
     5: 'Rediģēt versiju',
-    6: '{s}Jāpieslēdzas{p}, lai varētu novērtēt šo skinu',
+    6: '{s}Log in{p}, in order to rate this skin',
     7: 'Nav īsā apraksta',
     8: 'Nav saites',
     9: 'Lejupielādes: {amount}'
@@ -272,9 +296,9 @@ export default {
     ratio: 'Malu attiecība | attiecība'
   },
   placeholders: {
-    0: 'Atlasi lomas',
-    1: 'Izvēlies versijas',
-    2: 'Ievadi tekstu...',
+    0: 'Select roles',
+    1: 'Select versions',
+    2: 'Type some text...',
     3: 'Skina izmērs',
     4: 'Datuma diapazons',
     5: 'Gads',
@@ -284,17 +308,84 @@ export default {
     9: 'Spēles režīmi',
     10: 'Izvēlies tipu',
     11: 'Ielīmē YouTube saiti',
-    12: 'Ievadi aprakstu un saiti. Piemērs: apraksts:saite',
+    12: 'Type a description and an url. Format description:url',
     13: 'Izvēlies vairāk',
     14: 'Ielīmē saiti',
-    15: 'Skina nosaukums, veidotājs vai tags'
+    15: 'Skin title, author, or tags',
+    16: 'Select category',
+    17: 'Type the name of the tag'
   },
   contribute: { 0: 'Izpalīdzēt' },
   nsfw: {
     0: 'Brīdinājums!',
     1: 'Šis skins satur aizskarošu vai nepiemērotu saturu',
     2: 'Šis skins satur aizskarošu vai nepiemērotu saturu, kas dažiem lietotājiem varētu likties satraucošs',
-    3: ' Labi',
-    4: ' atā o/'
+    3: 'Alright',
+    4: 'bye o/'
+  },
+  removed: {
+    0: 'Version unavailable',
+    1: 'The author of the skin decided to remove this version from the site.',
+    2: 'Switch to an available version'
+  },
+  notify: {
+    0: 'Issues were not fixed',
+    1: 'Not all required fields were filled',
+    2: 'Show',
+    3: 'Not found',
+    4: 'Banner not found (Currently, the first screenshot is being used as the banner)',
+    5: 'No changes',
+    6: 'No changes were found',
+    7: 'ID not found',
+    8: 'ID of the video not found, try another link (At the moment only YouTube is supported)',
+    9: 'Oops',
+    10: 'Looks like your session expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
+    11: 'Exists',
+    12: 'This video has already been added',
+    13: 'Exists',
+    14: 'This tag has already been added',
+    15: 'Not found',
+    16: 'You cannot delete a deleted tag',
+    17: 'Added',
+    18: 'You have successfully added a new tag',
+    19: 'OOps',
+    20: 'This creator was already added',
+    21: 'EZ',
+    22: 'New creator has been added',
+    23: 'HUH',
+    24: 'Impossible to remove a deleted creator',
+    25: 'Duplicate',
+    26: 'This change has already been added earlier.',
+    27: 'Duplicate',
+    28: 'This url has already been added earlier.',
+    29: 'Warning',
+    30: 'You forgot to add a description for the url. Example: Description:url',
+    31: 'Warning',
+    32: 'You forgot to add an url for the description. Example: Description:url',
+    33: 'Restored',
+    34: 'Version «{name}» has been restored',
+    35: 'Deleted',
+    36: 'Version «{name}» has been deleted',
+    37: 'Error',
+    38: 'Apparently the server thinks you\'re a robot.',
+    39: 'Looks like your user session has expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
+    40: 'Mismatched credentials (relogin in account. Don\'t worry, everything was saved automatically)',
+    41: 'Unknown error',
+    42: 'You cannot edit a nonexistent skin',
+    43: 'Seems like you don\'t have permission to edit this skin',
+    44: 'You cannot send this version because it is the same as the previous one.',
+    45: 'These changes have already been sent for moderation',
+    46: 'Success',
+    47: 'New changes have been submitted for moderation',
+    48: 'Changes have been updated in moderation',
+    49: 'Odd link',
+    50: 'This link cannot be used as a download link',
+    51: 'Submitted for moderation'
+  },
+  restricted_view: {
+    0: 'Neautorizēts',
+    1: 'Please log into your account',
+    2: 'Restricted view',
+    3: 'This page is not out, yet.'
   }
 };

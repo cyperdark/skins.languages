@@ -5,7 +5,8 @@ export default {
     lists: { 0: 'Danh sách' },
     tags: {
       0: 'Các Tag',
-      1: '{amount} tag của nhóm {name}'
+      1: '{amount} tag của nhóm {name}',
+      2: 'Tìm tag'
     },
     ideas: {
       0: 'Cảm Hứng',
@@ -17,18 +18,23 @@ export default {
     skin: {
       0: 'Skin này chứa yếu tố từ skin khác',
       1: 'Nhấp vào đây để biết thêm thông tin'
-    }
+    },
+    tools: 'Công cụ'
   },
   changelogs: {
     0: 'Nhật ký thay đổi',
     1: 'Danh sách tất cả những sửa đổi ở phiên bản hiện tại',
     2: 'Không có gì ở đây',
-    3: 'Nhưng bạn có thể thêm vào những thay đổi đã hoàn thành đối với phiên bản của skin này',
+    3: 'Nhưng bạn có thể thêm vào những thay đổi đã hoàn thiện đối với phiên bản của skin này',
     4: 'Chưa nhóm',
     5: 'Mới',
     6: 'Sửa lỗi',
     7: 'Thay đổi',
     8: 'Xoá'
+  },
+  ideas: {
+    0: 'Không thấy gì cả',
+    1: 'Không có ảnh cho «{type}» được đăng trên trang này'
   },
   creators: {
     0: 'Tác giả',
@@ -43,7 +49,10 @@ export default {
     0: 'Các Tag',
     1: 'Danh sách tất cả các tag liên quan đến skin này',
     2: 'Có vẻ như không có gì ở đây.',
-    3: 'Sử dụng ô trống bên trên để tìm các tag mới'
+    3: 'Sử dụng ô trống bên trên để tìm các tag mới',
+    4: 'Không tìm thấy tag',
+    5: 'Hãy thử tìm cái gì đó khác',
+    6: 'Tìm kiếm'
   },
   videos: {
     0: 'Video',
@@ -62,6 +71,7 @@ export default {
     0: 'Tất cả',
     1: 'Metadata',
     2: 'Tâm điểm',
+    3: 'Tên skin không xác định',
     4: 'Thêm vào ít nhất một tác giả tạo skin',
     5: 'Thêm một số tag',
     6: 'Kích thước skin không xác định',
@@ -71,9 +81,10 @@ export default {
     10: 'Ảnh chụp màn hình không khả dụng',
     11: 'Thêm vào ít nhất một ảnh chụp màn hình gameplay',
     12: 'Liên kết skin không khả dụng',
-    20: 'Trông có vẻ khá ổn',
-    21: 'Mọi vấn đề đều đã được giải quyết. Tốt lắm',
-    22: 'Danh mục'
+    20: 'Trông ổn đấy',
+    21: 'Mọi vấn đề đã được giải quyết. Tốt lắm!',
+    22: 'Danh mục',
+    23: 'Thêm ít nhất một phiên bản công khai'
   },
   skins: {
     0: 'Skin',
@@ -87,7 +98,9 @@ export default {
     8: 'Tất cả skin | skin',
     9: 'Skin | Skin | Skin',
     10: 'Skin osu! bởi {name} | Tất cả các skin từ',
-    11: 'Tìm kiếm'
+    11: 'Tìm kiếm',
+    12: 'skin {name}',
+    13: 'Khám phá các skin'
   },
   skin: {
     0: 'Chỉnh sửa',
@@ -116,7 +129,10 @@ export default {
     24: 'Còn {amount} giây',
     25: 'Bạn không phải một trong số chúng tôi',
     26: 'Có vẻ như bạn không phải là tác giả hay người chỉnh sửa skin này',
-    27: 'Skin tạo bởi'
+    27: 'Skin tạo bởi',
+    28: 'Không có tag',
+    29: 'Không có video',
+    30: 'Không có tác giả'
   },
   drag: {
     0: 'Nhấn vào đây',
@@ -135,7 +151,7 @@ export default {
     5: 'Mọi hình ảnh cờ được lấy từ {name}',
     6: 'Localisation',
     7: 'Có ai không? [{lang}]',
-    8: 'Có vẻ như cpol quên thêm chúng vào. {text}'
+    8: 'Hình như cyperdark quên thêm chúng vào. {text}'
   },
   search: {
     0: 'Tìm kiếm skin',
@@ -145,11 +161,17 @@ export default {
     4: 'Kích thước',
     5: 'Ngày tháng',
     7: 'Không thấy gì cả',
-    8: 'Hãy thử điều chỉnh cách chọn lọc khác',
+    8: 'Hãy thử dùng các filter tìm kiếm khác',
     9: 'Đang chờ xử lý',
-    10: 'Hãy chọn các filter tìm kiếm hoặc chỉ cần ghi tên, tác giả hay các tag của skin',
+    10: 'Hãy sử dụng những filter tìm kiếm hoặc gõ tên skin, tác giả hay tag.',
     11: 'Lượt tải xuống',
-    12: 'Tên'
+    12: 'Tên',
+    13: {
+      0: 'Skin',
+      1: 'Các Tag',
+      2: 'Người dùng',
+      3: 'Danh sách'
+    }
   },
   tabs: {
     0: 'Tìm kiếm',
@@ -158,8 +180,8 @@ export default {
   },
   undefined: {
     0: 'Trống',
-    1: 'Đáng tiếc là không có gì ở đây, thay vào đó bạn có thế xem các trang khác',
-    2: 'Đáng tiếc là không có gì ở đây',
+    1: 'Thật đáng tiếc, không có gì ở đây cả, nhưng bạn có thể xem những trang khác',
+    2: 'Thật đáng tiếc, không có gì ở đây cả',
     3: 'Không thể truy cập',
     4: 'Bạn cần đăng nhập để chỉnh sửa skin này.',
     5: 'Bạn cần đăng nhập để thêm skin mới.'
@@ -176,7 +198,9 @@ export default {
       7: 'skin osu',
       8: '{name} tìm kiếm skin osu',
       9: 'Lấy cảm hứng từ các skin osu khác',
-      10: '{name} đã tạo skin osu'
+      10: '{name} đã tạo skin osu',
+      11: 'Tìm tag',
+      12: 'Các tag chứa {name}'
     },
     description: {
       0: 'Tảỉ về những skin osu! tốt nhất từ trang của chúng tôi! Thư viện to lớn của chúng tôi có skin cho mọi chế độ chơi, tỷ lệ khung hình và cả kể cả những top player. Thêm vào đó, chúng tôi có một khu đặc biệt dành cho các fan anime. Cả thiện gameplay với một skin hoàn hảo. #osuskins #osugame #anime',
@@ -188,9 +212,9 @@ export default {
       6: 'Bộ sưu tầm skin {name}!, tải miễn phí',
       7: 'Một lượng lớn skin osu cho {name}, tải miễn phí!',
       8: 'Tất cả skin được tạo bởi {name}',
-      9: 'Tìm các nguồn cảm hứng cho skin osu! tiếp theo của bạn ở trang của chúng tôi. Điểm qua một bộ sưu tầm skin đa dạng và khám phá các kỹ thuật và ý tưởng mới. Lấy cảm hứng và tạo cho bản thân những skin độc đáo.'
-    },
-    keywords: { 0: 'osu, osu!, osu skins, std skins, ctb skins, mania skins, taiko skins, mrekk osu skins,Rafis osu skins,FlyingTuna osu skins,Vaxei osu skins,Cookiezi osu skins,Varvalian osu skins,RyuK osu skins,WhiteCat osu skins,_RyuK osu skins,BeasttrollMC osu skins,Genshin Impact osu skins,Mathi osu skins,WubWoofWolf osu skins,Merami osu skins,xootynator osu skins,Gayzmcgee osu skins,[Karcher] osu skins,Bubbleman osu skins,ChomikBox osu skins,NSFW osu skins,Lifeline osu skins,Hatsune Miku osu skins,Azerite osu skins,Umbre osu skins,404 AimNotFound osu skins,-Nikstrim osu skins,bloo osu skins,Shigetora osu skins,Badeu osu skins,FunOrange osu skins,worst hr player osu skins,Tekkito osu skins,ninerik osu skins,azr8 osu skins,idke osu skins,Andros osu skins,Zylice osu skins,Rektygon osu skins,Komori osu skins,anime osu skins,cyperdark osu skins,Red_Pixel osu skins,Utami osu skins,Arknights osu skins,Karthy osu skins,Paraqeet osu skins,aetrna osu skins,Spare osu skins,-GN osu skins,Mastasz osu skins,Seouless osu skins,haga1115 osu skins,shimon osu skins,fieryrage osu skins,Ekoro osu skins,Firebat92 osu skins,_Shield osu skins,-Roaz- osu skins,- Dark - osu skins,atturbo555 osu skins,Aristia osu skins,_Aiko__ osu skins,z x c osu skins,eternum osu skins,talala osu skins,NyanPotato osu skins,Arnold24x24 osu skins,Alumetri osu skins,im a fancy lad osu skins,jordanlr7 osu skins,Woey osu skins,khz osu skins,rrtyui osu skins,kieg osu skins,Rupertion osu skins,FGSky osu skins,Aireu osu skins,Neko God osu skins,Apostol osu skins,Abyssal osu skins,dokidokilolixx osu skins,Mlaw osu skins,Ponytail osu skins,Reedkatt osu skins,Zestiny osu skins,Apraxia osu skins,Binfy osu skins,Rohulk osu skins,-PloX osu skins,DuyKhang-sama osu skins,BronyPH osu skins,Intercambing osu skins,Xeltol osu skins,Valorant osu skins,Akolibed osu skins,hololive osu skins,kablaze osu skins,tokyo ghoul osu skins,Trail Mix osu skins,Dereban osu skins' }
+      9: 'Tìm các nguồn cảm hứng cho skin osu! tiếp theo của bạn ở trang của chúng tôi. Điểm qua một bộ sưu tầm skin đa dạng và khám phá các kỹ thuật và ý tưởng mới. Lấy cảm hứng và tạo cho bản thân những skin độc đáo.',
+      10: 'Tìm các tag trong tất cả các tag trên trang.'
+    }
   },
   buttons: {
     0: 'Đăng nhập',
@@ -223,7 +247,7 @@ export default {
     3: 'Lượt thích: {likes} / Không thích: {dislikes}',
     4: 'Nhấn ctrl+enter để thêm tag',
     5: 'Chỉnh sửa phiên bản',
-    6: '{s}Đăng nhập{p}, để có thể đánh giá skin này',
+    6: '{s}Đăng nhập{p}, để đánh giá skin này',
     7: 'Không có mô tả ngắn',
     8: 'Không có url',
     9: 'Lượt tải: {amount}'
@@ -272,9 +296,9 @@ export default {
     ratio: 'Chọn tỷ lệ khung hình | tỷ lệ'
   },
   placeholders: {
-    0: 'Chọn role',
+    0: 'Chọn vai trò',
     1: 'Chọn phiên bản',
-    2: 'Nhập văn bản...',
+    2: 'Hãy gõ gì đó...',
     3: 'Chọn kích cỡ',
     4: 'Chọn mốc thời gian',
     5: 'Năm',
@@ -284,17 +308,84 @@ export default {
     9: 'Chế độ chơi',
     10: 'Chọn thể loại',
     11: 'Dán một liên kết YouTube',
-    12: 'Nhập mô tả và url. Định dạng mô tả:url',
+    12: 'Hãy gõ một mô tả và url. Định dạng: mô tả:url',
     13: 'Chọn thêm',
     14: 'Dán một liên kết',
-    15: 'Tiêu đề skin, tác giả, hoặc tag'
+    15: 'Tên skin, tác giả, hoặc tag',
+    16: 'Chọn nhóm',
+    17: 'Hãy gõ tên của tag'
   },
   contribute: { 0: 'Đóng góp' },
   nsfw: {
     0: 'Cảnh báo!',
     1: 'Skin có chứa các nội dung nhạy cảm hoặc người lớn',
-    2: 'Skin có chứa các nội dung nhạy cảm hoặc người lớn có thể gây khó chịu cho một số người dùng',
-    3: ' Được',
-    4: ' tạm biệt o/'
+    2: 'Skin có chứa các nội dung nhạy cảm có thể gây khó chịu cho một số người dùng',
+    3: 'Được',
+    4: 'tạm biệt o/'
+  },
+  removed: {
+    0: 'Phiên bản không khả dụng',
+    1: 'Tác giả của skin đã xoá phiên bản này khỏi trang web.',
+    2: 'Chuyển đến phiên bản khả dụng khác'
+  },
+  notify: {
+    0: 'Vấn đề chưa được sửa',
+    1: 'Một số ô quan trọng chưa được điền',
+    2: 'Hiển thị',
+    3: 'Không tìm thấy',
+    4: 'Không tìm thấy banner (Hiện tại, ảnh chụp màn hình đầu tiên đang được dùng làm banner)',
+    5: 'Không có thay đổi',
+    6: 'Không tìm thấy thay đổi nào',
+    7: 'Không tìm thấy ID',
+    8: 'Không tìm thấy ID của video, hãy thử đường link khác (Hiện tại web chỉ hỗ trợ video YouTube)',
+    9: 'Úi',
+    10: 'Có vẻ như phiên đăng nhập của bạn đã hết hạn, hãy mở một trang mới và đăng nhập (Đừng lo, mọi thứ đã được tự động lưu lại)',
+    11: 'Tồn tại',
+    12: 'Video này đã được thêm vào',
+    13: 'Tồn tại',
+    14: 'Tag này đã được thêm vào',
+    15: 'Không tìm thấy',
+    16: 'Bạn không thể xoá tag đã bị xoá từ trước',
+    17: 'Đã thêm vào',
+    18: 'Bạn đã thành công thêm vào một tag',
+    19: 'Úi',
+    20: 'Người tạo đã được thêm vào từ trước',
+    21: 'EZ',
+    22: 'Người tạo mới đã được thêm vào',
+    23: 'HUH',
+    24: 'Không thể loại bỏ người tạo đã xoá',
+    25: 'Nhân bản',
+    26: 'Thay đổi này đã được thêm vào từ trước.',
+    27: 'Nhân bản',
+    28: 'Url này đã được thêm vào từ trước.',
+    29: 'Cảnh báo',
+    30: 'Bạn chưa thêm vào mô tả cho url. Ví dụ: mô tả:url',
+    31: 'Cảnh báo',
+    32: 'Bạn chưa thêm vào url cho mô tả. Ví dụ: mô tả:url',
+    33: 'Đã khôi phục',
+    34: 'Phiên bản «{name}» đã được khôi phục',
+    35: 'Đã xoá',
+    36: 'Phiên bản «{name}» đã được xoá',
+    37: 'Lỗi',
+    38: 'Dường như máy chủ nghĩ rằng bạn là bot.',
+    39: 'Có vẻ như phiên đăng nhập của bạn đã hết hạn, hãy mở một trang mới và đăng nhập lại (Đừng lo, mọi thứ đã được tự động lưu lại)',
+    40: 'Thông tin không khớp (hãy đăng nhập lại. Đừng lo, mọi thứ đã được tự động lưu lại)',
+    41: 'Lỗi không rõ',
+    42: 'Bạn không thể chỉnh sửa skin không tồn tại',
+    43: 'Dường như bạn không có quyền chỉnh sửa skin này',
+    44: 'Bạn không thể gửi phiên bản này vì nó tương tự phiên bản trước.',
+    45: 'Các thay đổi đã được gửi để kiểm duyệt',
+    46: 'Thành công',
+    47: 'Các thay đổi mới đã được gửi để kiểm duyệt',
+    48: 'Các thay đổi đã được cập nhật qua kiểm duyệt',
+    49: 'Đường link lạ',
+    50: 'Liên kết này không thể dùng làm link tải về',
+    51: 'Đã gửi cho kiểm duyệt'
+  },
+  restricted_view: {
+    0: 'Không thể truy cập',
+    1: 'Hãy đăng nhập vào tài khoản của bạn',
+    2: 'Lượt xem bị giới hạn',
+    3: 'Trang này vẫn chưa được cập nhật.'
   }
 };
