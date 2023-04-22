@@ -21,6 +21,13 @@ export default {
     },
     tools: 'Инструменти'
   },
+  home: {
+    0: 'Available to download',
+    1: 'Most: _name_ skins',
+    2: 'Viewed | Liked | Downloaded',
+    3: 'Publish new skin',
+    4: 'How to install skin'
+  },
   changelogs: {
     0: 'Списък с промени',
     1: 'Списък на всички ревизии, направени в текущата версия',
@@ -84,7 +91,9 @@ export default {
     20: 'Looks pretty good',
     21: 'Every issue was fixed. Good job!',
     22: 'Списък за проверка',
-    23: 'Add at least one public version'
+    23: 'Add at least one public version',
+    24: 'Add at least one creator to this version',
+    25: 'Some creators doesn\'t have roles'
   },
   skins: {
     0: 'Облици',
@@ -132,7 +141,12 @@ export default {
     27: 'Облик от',
     28: 'No tags',
     29: 'No videos',
-    30: 'No creators'
+    30: 'No creators',
+    31: 'Rate skin',
+    32: 'Upvote & comment on reddit',
+    33: 'Comment on osu! forum',
+    34: 'More skins from this author | More skins from this authors',
+    35: 'Support the skin'
   },
   drag: {
     0: 'Кликнете тук',
