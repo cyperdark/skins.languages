@@ -144,6 +144,12 @@ export default {
     28: 'No tags',
     29: 'No videos',
     30: 'No creators',
+
+    31: 'Rate skin',
+    32: 'Upvote & comment on reddit',
+    33: 'Comment on osu! forum',
+    34: 'More skins from this author | More skins from this authors',
+    35: 'Support the skin',
   },
   drag: {
     0: 'Click here',
