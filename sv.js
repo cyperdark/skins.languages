@@ -24,7 +24,7 @@ export default {
   home: {
     0: 'Tillgänglig för nedladdning',
     1: 'Mest: _name_skins',
-    2: 'Visningar | Gillar | Nerladdade',
+    2: 'Visningar | Gillade | Nedladdade',
     3: 'Publicera nytt skin',
     4: 'Hur man installerar skin'
   },
