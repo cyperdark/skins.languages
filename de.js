@@ -6,7 +6,7 @@ export default {
     tags: {
       0: 'Stichworte',
       1: '{amount} Stichworte für die Kategorie {name}',
-      2: 'Search tags'
+      2: 'Tags suchen'
     },
     ideas: {
       0: 'Inspiration',
@@ -25,7 +25,7 @@ export default {
     0: 'Änderungsprotokoll',
     1: 'Liste aller Überarbeitungen, die in der aktuellen Version vorgenommen wurden.',
     2: 'Hier ist nichts...',
-    3: 'But you can add the changes you\'ve made to this version of the skin',
+    3: 'Aber du kannst die Änderungen, die du an dem Skin vorgenommen hast, hinzufügen',
     4: 'Nicht gruppiert',
     5: 'Neu',
     6: 'Behebungen',
@@ -34,7 +34,7 @@ export default {
   },
   ideas: {
     0: 'Nichts gefunden.',
-    1: 'Screenshots of «{type}» were not uploaded to the site'
+    1: 'Screenshots von «{type}» wurden nicht auf die Seite hochgeladen'
   },
   creators: {
     0: 'Ersteller',
@@ -50,8 +50,8 @@ export default {
     1: 'Liste von allen Stichworten, die mit diesem Skin in Beziehung stehen.',
     2: 'Es wirkt sehr leer hier...',
     3: 'Benutze das obere Feld um neue Stichwörter zu finden.',
-    4: 'Tags not found',
-    5: 'Try searching for something else',
+    4: 'Bezeichnung nicht gefunden',
+    5: 'Versuchen Sie es mit einer anderen Suchanfrage',
     6: 'Suche'
   },
   videos: {
@@ -71,7 +71,7 @@ export default {
     0: 'Alle',
     1: 'Metadaten',
     2: 'Highlights',
-    3: 'Name of the skin not specified',
+    3: 'Name des Skins nicht angegeben',
     4: 'Füge mindestens einen Skin-Ersteller hinzu',
     5: 'Füge einige Stichwörter hinzu',
     6: 'Dateigröße des Skins nicht angegeben.',
@@ -81,10 +81,10 @@ export default {
     10: 'Keine Bildschirmfotos vorhanden',
     11: 'Füge mindestens ein Gameplay-Bildschirmfoto hinzu!',
     12: 'Link zum Skin nicht angegeben.',
-    20: 'Looks pretty good',
-    21: 'Every issue was fixed. Good job!',
+    20: 'Sieht gut aus',
+    21: 'Jedes Problem wurde behoben. Gute Arbeit!',
     22: 'Strichliste',
-    23: 'Add at least one public version'
+    23: 'Füge mindestens eine öffentliche Version hinzu'
   },
   skins: {
     0: 'Skins',
@@ -99,8 +99,8 @@ export default {
     9: 'Skin | Skins | Skins',
     10: 'osu! Skins von {name} | Alle Skins von',
     11: 'Suche',
-    12: '{name} skins',
-    13: 'Explore skins'
+    12: '{name} Skins',
+    13: 'Erkunde Skins'
   },
   skin: {
     0: 'Editieren',
@@ -130,9 +130,9 @@ export default {
     25: 'Du bist keiner von uns.',
     26: 'Anscheinend bist du nicht der Autor oder Herausgeber von diesem Skin',
     27: 'Skin von ',
-    28: 'No tags',
-    29: 'No videos',
-    30: 'No creators'
+    28: 'Keine Tags',
+    29: 'Keine Videos',
+    30: 'Keine Ersteller'
   },
   drag: {
     0: 'Klicke hier',
@@ -151,7 +151,7 @@ export default {
     5: 'Alle Bilder der Flaggen sind von {name}.',
     6: 'Lokalisierung',
     7: 'Irgendwer? [{lang}]',
-    8: 'Seems like cyperdark forgot to add them. {text}'
+    8: 'Es sieht so aus, als ob cyperdark vergessen hat sie hinzuzufügen. {text}'
   },
   search: {
     0: 'Skin-Suche',
@@ -161,15 +161,15 @@ export default {
     4: 'Größe',
     5: 'Datum',
     7: 'Nichts gefunden.',
-    8: 'Try using different search filters',
+    8: 'Versuche, andere Suchkriterien zu benutzen',
     9: 'Abfrage anstehend.',
-    10: 'Use the search filters or type the skin\'s title, author or tags',
+    10: 'Benutze den Skin-Filter oder gebe den Titel, Autor oder die Tags des Skins ein',
     11: 'Downloads',
     12: 'Name',
     13: {
       0: 'Skins',
       1: 'Stichworte',
-      2: 'Users',
+      2: 'Benutzer',
       3: 'Listen'
     }
   },
@@ -180,11 +180,11 @@ export default {
   },
   undefined: {
     0: 'Leer',
-    1: 'Unfortunately, there\'s nothing here, but you can take a look at the other pages',
-    2: 'Unfortunately, there\'s nothing here',
+    1: 'Leider gibt es hier nichts, aber du kannst einen Blick auf die anderen Seiten werfen',
+    2: 'Leider ist diese Seite leer',
     3: 'Nicht autorisiert!',
-    4: 'You need to be logged in order to edit this skin.',
-    5: 'You need to be logged in order to add a new skin.'
+    4: 'Du musst angemeldet sein, um diesen Skin zu bearbeiten.',
+    5: 'Du musst eingeloggt sein, um einen neuen Skin hinzuzufügen.'
   },
   meta: {
     title: {
@@ -199,8 +199,8 @@ export default {
       8: 'Suche nach {name} osu! Skins',
       9: 'Bekomme Inspiration von anderen osu! Skins',
       10: '{name} hat osu! Skins erstellt.',
-      11: 'Search tags',
-      12: '{name} found tags'
+      11: 'Tags suchen',
+      12: '{name} fand Tags'
     },
     description: {
       0: 'Bekomme die besten osu! Skins auf unserer Seite! Unsere größte Bibliothek hat Skins für alle Spielmodi, Seitenverhältnisse und sogar von den besten osu! Spielern. Zudem haben wir auch einen extra Abschnitt für Anime-Liebhaber. Verbessere dein Gameplay mit dem perfekten Skin. #osuskins #osugame #anime',
@@ -213,7 +213,7 @@ export default {
       7: 'Eine große Menge an osu! Skins für {name}, lade sie kostenlos herunter!',
       8: 'Alle osu! Skins wurden von {name} erstellt.',
       9: 'Finde Inspirationen für deinen nächsten osu! Skin auf unserer Seite. Durchsuche eine große Kollektion von Skins und finde neue Techniken und Ideen. Inspiriere dich und erstelle deinen eigenen, einzigartigen Skin.',
-      10: 'Search for tags among all the tags on the site.'
+      10: 'Suche nach Tags die auf dieser Seite sind.'
     }
   },
   buttons: {
@@ -247,7 +247,7 @@ export default {
     3: 'Likes: {likes} / Dislikes {dislikes}',
     4: 'Drücke Strg+Enter um ein Stichwort hinzuzufügen.',
     5: 'Bearbeite die Version',
-    6: '{s}Log in{p}, in order to rate this skin',
+    6: '{s}Melde dich an{p}, um diesen Skin bewerten zu können',
     7: 'Keine kurze Beschreibung.',
     8: 'Keine URL',
     9: 'Downloads: {amount}'
@@ -296,9 +296,9 @@ export default {
     ratio: 'Wähle das Seitenverhältnis aus'
   },
   placeholders: {
-    0: 'Select roles',
-    1: 'Select versions',
-    2: 'Type some text...',
+    0: 'Rollen auswählen',
+    1: 'Versionen auswählen',
+    2: 'Schreibe etwas...',
     3: 'Dateigröße auswählen',
     4: 'Zeitraum auswählen',
     5: 'Jahr',
@@ -308,66 +308,66 @@ export default {
     9: 'Spielmodi',
     10: 'Typ auswählen',
     11: 'Füge einen YouTube Link ein.',
-    12: 'Type a description and an url. Format description:url',
+    12: 'Gib eine Beschreibung und eine URL-Adresse ein. Format: Beschreibung:URL',
     13: 'Extras auswählen',
     14: 'Link einfügen',
-    15: 'Skin title, author, or tags',
-    16: 'Select category',
-    17: 'Type the name of the tag'
+    15: 'Skin Titel, Autor oder Tags',
+    16: 'Wähle eine Kategorie aus',
+    17: 'Gib den Tag ein'
   },
   contribute: { 0: 'Beitragen' },
   nsfw: {
     0: 'Achtung!',
     1: 'Dieser Skin enthält empfindliche oder Inhalte für Erwachsene.',
     2: 'Dieser Skin enthält empfindliche oder Inhalte für Erwachsene, die einige Benutzer verstören könnten.',
-    3: 'Alright',
+    3: 'Okay',
     4: 'bye o/'
   },
   removed: {
-    0: 'Version unavailable',
-    1: 'The author of the skin decided to remove this version from the site.',
-    2: 'Switch to an available version'
+    0: 'Version nicht verfügbar',
+    1: 'Der Autor dieses Skins hat sich dazu entschieden ihn von der Seite zu entfernen.',
+    2: 'Wechsle zu einer verfügbaren Version'
   },
   notify: {
-    0: 'Issues were not fixed',
-    1: 'Not all required fields were filled',
-    2: 'Show',
-    3: 'Not found',
-    4: 'Banner not found (Currently, the first screenshot is being used as the banner)',
-    5: 'No changes',
-    6: 'No changes were found',
-    7: 'ID not found',
-    8: 'ID of the video not found, try another link (At the moment only YouTube is supported)',
-    9: 'Oops',
-    10: 'Looks like your session expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
-    11: 'Exists',
-    12: 'This video has already been added',
-    13: 'Exists',
-    14: 'This tag has already been added',
-    15: 'Not found',
-    16: 'You cannot delete a deleted tag',
-    17: 'Added',
-    18: 'You have successfully added a new tag',
-    19: 'OOps',
-    20: 'This creator was already added',
+    0: 'Die Fehler wurden nicht behoben',
+    1: 'Nicht alle erforderlichen Felder sind ausgefüllt',
+    2: 'Anzeigen',
+    3: 'Nicht gefunden',
+    4: 'Banner nicht gefunden (Der erste Screenshot wird als Banner verwendet)',
+    5: 'Keine Änderungen',
+    6: 'Es wurden keine Änderungen gefunden',
+    7: 'ID wurde nicht gefunden',
+    8: 'ID des Videos nicht gefunden, versuchen Sie einen anderen Link (Im Moment wird nur YouTube unterstützt)',
+    9: 'Ups',
+    10: 'Ihre Sitzung ist abgelaufen. Öffnen Sie eine neue Seite und loggen Sie sich in Ihr Konto ein (Keine Sorge, alles wurde automatisch gespeichert)',
+    11: 'Existiert',
+    12: 'Dieses Video wurde bereits hinzugefügt',
+    13: 'Existiert',
+    14: 'Dieser Tag wurde bereits hinzugefügt',
+    15: 'Nicht gefunden',
+    16: 'Du kannst keinen bereits gelöschten Tag löschen',
+    17: 'Hinzugefügt',
+    18: 'Sie haben erfolgreich einen neuen Tag hinzugefügt',
+    19: 'Ups',
+    20: 'Dieser Ersteller wurde bereit hinzugefügt',
     21: 'EZ',
-    22: 'New creator has been added',
+    22: 'Ein neuer Ersteller wurde hinzugefügt',
     23: 'HUH',
-    24: 'Impossible to remove a deleted creator',
-    25: 'Duplicate',
-    26: 'This change has already been added earlier.',
-    27: 'Duplicate',
-    28: 'This url has already been added earlier.',
-    29: 'Warning',
-    30: 'You forgot to add a description for the url. Example: Description:url',
-    31: 'Warning',
-    32: 'You forgot to add an url for the description. Example: Description:url',
-    33: 'Restored',
-    34: 'Version «{name}» has been restored',
-    35: 'Deleted',
-    36: 'Version «{name}» has been deleted',
-    37: 'Error',
-    38: 'Apparently the server thinks you\'re a robot.',
+    24: 'Es ist unmöglich einen bereits gelöschten Ersteller zu löschen',
+    25: 'Duplizieren',
+    26: 'Diese Änderung wurde bereits hinzugefügt.',
+    27: 'Duplizieren',
+    28: 'Diese URL-Adresse wurde bereits hinzugefügt.',
+    29: 'Warnung',
+    30: 'Du hast vergessen, eine Beschreibung für die URL-Adresse hinzuzufügen. Beispiel: Beschreibung:URL',
+    31: 'Warnung',
+    32: 'Du hast vergessen, eine URL-Adresse für die Beschreibung hinzuzufügen. Beispiel: Beschreibung:URL',
+    33: 'Wiederhergestellt',
+    34: 'Version «{name}» wurde erfolgreich wiederhergestellt',
+    35: 'Gelöscht',
+    36: 'Version «{name}» wurde gelöscht',
+    37: 'Fehler',
+    38: 'Anscheinend denkt der Server du bist ein Roboter. ¯\\_(ツ)_/¯',
     39: 'Looks like your user session has expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
     40: 'Mismatched credentials (relogin in account. Don\'t worry, everything was saved automatically)',
     41: 'Unknown error',

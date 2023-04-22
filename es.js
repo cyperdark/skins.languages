@@ -25,7 +25,7 @@ export default {
     0: 'Lista de cambios',
     1: 'Lista de todas las revisiones hechas en la versión actual',
     2: 'Nada por aquí',
-    3: 'But you can add the changes you\'ve made to this version of the skin',
+    3: 'Aunque puedes agregar los cambios que realizaste a esta versión de la skin',
     4: 'No agrupado',
     5: 'Nuevo',
     6: 'Arreglos',
@@ -34,7 +34,7 @@ export default {
   },
   ideas: {
     0: 'No se encontró nada',
-    1: 'Screenshots of «{type}» were not uploaded to the site'
+    1: 'Las capturas de pantalla de {type} no han sido subidas al sitio'
   },
   creators: {
     0: 'Creadores',
@@ -50,8 +50,8 @@ export default {
     1: 'Lista de todas las etiquetas relacionadas con esta skin',
     2: 'Parece bastante vacío aquí.',
     3: 'Utiliza el campo de arriba para encontrar etiquetas nuevas',
-    4: 'Tags not found',
-    5: 'Try searching for something else',
+    4: 'Etiquetas no encontradas',
+    5: 'Intenta buscar algo diferente',
     6: 'Buscar'
   },
   videos: {
@@ -71,7 +71,7 @@ export default {
     0: 'Todo',
     1: 'Metadata',
     2: 'Destacado',
-    3: 'Name of the skin not specified',
+    3: 'Nombre de la skin no especificado',
     4: 'Agrega al menos un creador de la skin',
     5: 'Agrega un par de etiquetas',
     6: 'Tamaño de la skin no especificado',
@@ -81,10 +81,10 @@ export default {
     10: 'No se agregaron capturas de pantalla',
     11: 'Agrega al menos una captura de pantalla del gameplay',
     12: 'Enlace de la skin no especificado',
-    20: 'Looks pretty good',
-    21: 'Every issue was fixed. Good job!',
+    20: '¡Quedó bastante bien!',
+    21: 'Todos los errores han sido solucionados ¡Buen trabajo!',
     22: 'Lista de verificación',
-    23: 'Add at least one public version'
+    23: 'Añade al menos una versión pública'
   },
   skins: {
     0: 'Skins',
@@ -100,7 +100,7 @@ export default {
     10: 'Skins de osu por {name} | Todas las skins de',
     11: 'Buscar',
     12: '{name} skins',
-    13: 'Explore skins'
+    13: 'Explora skins'
   },
   skin: {
     0: 'Editar',

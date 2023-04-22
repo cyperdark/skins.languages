@@ -50,8 +50,8 @@ export default {
     1: 'List všetkých značiek súvisiacich s týmto skinom',
     2: 'Tu to vyzerá prázdno.',
     3: 'Použite horne pole pre nájdenie nových značok',
-    4: 'Tags not found',
-    5: 'Try searching for something else',
+    4: 'Značky sa nenašli',
+    5: 'Skús hľadať niečo inakšie',
     6: 'Hľadať'
   },
   videos: {
@@ -71,7 +71,7 @@ export default {
     0: 'Všetko',
     1: 'Metadáta',
     2: 'Zvýraznenie',
-    3: 'Name of the skin not specified',
+    3: 'Meno Skinu ne je špecifikovan=',
     4: 'Pridajte aspoň jedného autora skinu',
     5: 'Pridajte pár značiek',
     6: 'Veľkosť skinu nie je špecifikovaná',
@@ -81,10 +81,10 @@ export default {
     10: 'Žiadny snímok obrazovky',
     11: 'Pridajte aspoň jeden snímok obrazovky z hrania',
     12: 'Odkaz na skin nie je špecifikovaný',
-    20: 'Looks pretty good',
-    21: 'Every issue was fixed. Good job!',
+    20: 'Vyzerá to dobre',
+    21: 'Každá chyba bola opravená. Dobrá práca!',
     22: 'Kontrolná listina',
-    23: 'Add at least one public version'
+    23: 'Pridajte aspoň jednu publikovanú verziu'
   },
   skins: {
     0: 'Skiny',
@@ -99,8 +99,8 @@ export default {
     9: 'Skin | Skiny | Skinny',
     10: 'osu Skiny od {name} | Všetke skiny od',
     11: 'Hľadať',
-    12: '{name} skins',
-    13: 'Explore skins'
+    12: '{name} skiny',
+    13: 'Vyhľadaj skiny'
   },
   skin: {
     0: 'Edit',
@@ -130,9 +130,9 @@ export default {
     25: 'Niesi jeden z nás',
     26: 'Zdá sa, že nie ste autorom ani editorom tohto skinu',
     27: 'Skin urobený od',
-    28: 'No tags',
-    29: 'No videos',
-    30: 'No creators'
+    28: 'Žiadne štítky',
+    29: 'Žiadne videá',
+    30: 'Žiadny stvoritelia'
   },
   drag: {
     0: 'Klikni tu',
@@ -151,7 +151,7 @@ export default {
     5: 'Všetke obrázky vlajok sú od {name}',
     6: 'Lokalizácia',
     7: 'Niekto? [{lang}]',
-    8: 'Seems like cyperdark forgot to add them. {text}'
+    8: 'Vyzerá to tak, že CK zabudol ich pridať. {text}'
   },
   search: {
     0: 'Vyhľadať skin',
@@ -161,9 +161,9 @@ export default {
     4: 'Velikost',
     5: 'Dátum',
     7: 'Nič sa nenašlo',
-    8: 'Try using different search filters',
+    8: 'Skúste nastaviť iné filtre vyhľadávania',
     9: 'Čaká sa na dotaz',
-    10: 'Use the search filters or type the skin\'s title, author or tags',
+    10: 'Použi vyhľadávacie filtre alebo verzie toho skinu alebo jeho názov, autora alebo štítky',
     11: 'Stiahnutie',
     12: 'Meno/Názov',
     13: {
@@ -180,11 +180,11 @@ export default {
   },
   undefined: {
     0: 'Prázdny',
-    1: 'Unfortunately, there\'s nothing here, but you can take a look at the other pages',
+    1: 'Bohužiaľ tu nič nie je, každopádne si môžete pozrieť iné stránky',
     2: 'Unfortunately, there\'s nothing here',
     3: 'Neoprávnené',
-    4: 'You need to be logged in order to edit this skin.',
-    5: 'You need to be logged in order to add a new skin.'
+    4: 'Ak chcete upraviť tento skin, musíte byť prihlásený.',
+    5: 'Musíš byť prihlásený na to, aby si pridal nový skin.'
   },
   meta: {
     title: {
@@ -200,7 +200,7 @@ export default {
       9: 'Získaj inšpiráciu z ostatných osu! skinov',
       10: '{name} výrobca osu skinou',
       11: 'Search tags',
-      12: '{name} found tags'
+      12: '{name} najdené štítky'
     },
     description: {
       0: 'Získajte najlepšie osu! skiny na našej stránke! Naša obrovská knižnica má skiny pre všetke herné režimy, pomery strán a dokonca aj pre špičkových hráčov. Navyše máme špeciálnu sekciu pre fanúšikov anime. Zlepšite svoju hru s dokonalým vzhľadom. #osuskins #osugame #anime',
@@ -213,7 +213,7 @@ export default {
       7: 'Obrovské množstvo osu skinov pre {name}, stiahnite si zadarmo!',
       8: 'Všetke osu skiny vytvoril {name}',
       9: 'Nájdite inšpiráciu pre svoje ďalšie osu! skiny na našej stránke. Pozrite si rozmanitú kolekciu vzhľadov a objavte nové techniky a nápady. Nechajte sa inšpirovať a vytvorte si vlastné jedinečné skiny.',
-      10: 'Search for tags among all the tags on the site.'
+      10: 'Vyhľadávaj pre štítky všade v štítkoch na tejto stránke.'
     }
   },
   buttons: {
@@ -247,7 +247,7 @@ export default {
     3: 'Obľúbene: {likes} / Zlé: {dislikes}',
     4: 'Stlačte ctrl+enter pre pridanie označenia',
     5: 'Upraviť verziu',
-    6: '{s}Log in{p}, in order to rate this skin',
+    6: '{s}Prihláste sa{p}, aby ste mohli ohodnotiť tento skin',
     7: 'Žiadny krátky popis',
     8: 'Žiadne URL',
     9: 'Stiahnuté bolo: {amount}'
@@ -296,9 +296,9 @@ export default {
     ratio: 'Vyber pomer stran | pomer'
   },
   placeholders: {
-    0: 'Select roles',
-    1: 'Select versions',
-    2: 'Type some text...',
+    0: 'Vyberte rolu',
+    1: 'Vyberte verziu',
+    2: 'Sem napíšte text...',
     3: 'Vyber velikosti',
     4: 'Výber časového obdobia',
     5: 'Rok',
@@ -308,23 +308,23 @@ export default {
     9: 'Herne mody',
     10: 'Vložte typ',
     11: 'Vložte Youtube odkaz',
-    12: 'Type a description and an url. Format description:url',
+    12: 'Zadajte popis a url. Popis formátu:url',
     13: 'Výber extra',
     14: 'Vložte link',
-    15: 'Skin title, author, or tags',
-    16: 'Select category',
-    17: 'Type the name of the tag'
+    15: 'Názov skinu, autora, alebo označenie',
+    16: 'Vyberte kategóriu',
+    17: 'Napíš meno štítku'
   },
   contribute: { 0: 'Prispievanie' },
   nsfw: {
     0: 'Varovanie!',
     1: 'Tento skin obsahuje senzitívny obsah alebo kontent 18+',
     2: 'Tento skin obsahuje senzitívny obsah alebo kontent 18+, ktorý môžu nejaký ľudia nájsť hnusné',
-    3: 'Alright',
-    4: 'bye o/'
+    3: 'V poriadku!',
+    4: 'čau o/'
   },
   removed: {
-    0: 'Version unavailable',
+    0: 'Služba je nedostupná',
     1: 'The author of the skin decided to remove this version from the site.',
     2: 'Switch to an available version'
   },
@@ -384,8 +384,8 @@ export default {
   },
   restricted_view: {
     0: 'Neoprávnené',
-    1: 'Please log into your account',
-    2: 'Restricted view',
-    3: 'This page is not out, yet.'
+    1: 'Prihláste sa na svoj účet',
+    2: 'Zakázaný pohľad',
+    3: 'Tato stránka ešte není na internete, zatiaľ.'
   }
 };
