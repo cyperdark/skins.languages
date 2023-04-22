@@ -21,6 +21,13 @@ export default {
     },
     tools: 'Toollar'
   },
+  home: {
+    0: 'Available to download',
+    1: 'Most: _name_ skins',
+    2: 'Viewed | Liked | Downloaded',
+    3: 'Publish new skin',
+    4: 'How to install skin'
+  },
   changelogs: {
     0: 'Güncelleme geçmişi',
     1: 'Güncel versiyondaki yapılan tüm değişikliklerin listesi',
@@ -84,7 +91,9 @@ export default {
     20: 'Gayet iyi görünüyor',
     21: 'İyi haber! Hiçbir problem kalmadı!',
     22: 'Kontrol listesi',
-    23: 'Herkese açık en az bir versiyon ekleyin'
+    23: 'Herkese açık en az bir versiyon ekleyin',
+    24: 'Add at least one creator to this version',
+    25: 'Some creators doesn\'t have roles'
   },
   skins: {
     0: 'Skinler',
@@ -132,7 +141,12 @@ export default {
     27: 'Skini oluşturan',
     28: 'Etiket yok',
     29: 'Video yok',
-    30: 'Yaratıcı yok'
+    30: 'Yaratıcı yok',
+    31: 'Rate skin',
+    32: 'Upvote & comment on reddit',
+    33: 'Comment on osu! forum',
+    34: 'More skins from this author | More skins from this authors',
+    35: 'Support the skin'
   },
   drag: {
     0: 'Buraya tıklayın',
