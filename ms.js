@@ -21,6 +21,13 @@ export default {
     },
     tools: 'Alat'
   },
+  home: {
+    0: 'Available to download',
+    1: 'Most: _name_ skins',
+    2: 'Viewed | Liked | Downloaded',
+    3: 'Publish new skin',
+    4: 'How to install skin'
+  },
   changelogs: {
     0: 'Log perubahan',
     1: 'Senarai semua penyemakan yang telah dibuat di dalam versi terkini',
@@ -84,7 +91,9 @@ export default {
     20: 'Nampak cun',
     21: 'Semua issue dibaiki. Tahniah!',
     22: 'Senarai semak',
-    23: 'Letakkan sekurang-kurangnya satu versi awam'
+    23: 'Letakkan sekurang-kurangnya satu versi awam',
+    24: 'Add at least one creator to this version',
+    25: 'Some creators doesn\'t have roles'
   },
   skins: {
     0: 'Skin-skin',
@@ -132,7 +141,12 @@ export default {
     27: 'Skin oleh',
     28: 'Tiada tag',
     29: 'Tiada video',
-    30: 'Tiada pembuat'
+    30: 'Tiada pembuat',
+    31: 'Rate skin',
+    32: 'Upvote & comment on reddit',
+    33: 'Comment on osu! forum',
+    34: 'More skins from this author | More skins from this authors',
+    35: 'Support the skin'
   },
   drag: {
     0: 'Ketik di sini',

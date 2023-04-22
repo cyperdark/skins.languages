@@ -21,6 +21,13 @@ export default {
     },
     tools: 'Hulpmiddelen'
   },
+  home: {
+    0: 'Available to download',
+    1: 'Most: _name_ skins',
+    2: 'Viewed | Liked | Downloaded',
+    3: 'Publish new skin',
+    4: 'How to install skin'
+  },
   changelogs: {
     0: 'Veranderingen',
     1: 'Lijst van alle gemaakte wijzigingen in de huidige versie',
@@ -84,7 +91,9 @@ export default {
     20: 'Ziet er goed uit',
     21: 'Elk probleem is opgelost. Lekker gedaan!',
     22: 'Checklist',
-    23: 'Voeg minimaal één openbare versie toe'
+    23: 'Voeg minimaal één openbare versie toe',
+    24: 'Add at least one creator to this version',
+    25: 'Some creators doesn\'t have roles'
   },
   skins: {
     0: 'Skins',
@@ -132,7 +141,12 @@ export default {
     27: 'Skin door',
     28: 'Geen categorieën',
     29: 'Geen video\'s',
-    30: 'Geen makers'
+    30: 'Geen makers',
+    31: 'Rate skin',
+    32: 'Upvote & comment on reddit',
+    33: 'Comment on osu! forum',
+    34: 'More skins from this author | More skins from this authors',
+    35: 'Support the skin'
   },
   drag: {
     0: 'Klik hier',

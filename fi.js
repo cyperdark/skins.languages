@@ -21,6 +21,13 @@ export default {
     },
     tools: 'Työkalut'
   },
+  home: {
+    0: 'Available to download',
+    1: 'Most: _name_ skins',
+    2: 'Viewed | Liked | Downloaded',
+    3: 'Publish new skin',
+    4: 'How to install skin'
+  },
   changelogs: {
     0: 'Muutosloki',
     1: 'Luettelo kaikista nykyiseen versioon tehdyistä muutoksista',
@@ -84,7 +91,9 @@ export default {
     20: 'Looks pretty good',
     21: 'Every issue was fixed. Good job!',
     22: 'Tarkistuslista',
-    23: 'Lisää vähintään yksi julkinen versio'
+    23: 'Lisää vähintään yksi julkinen versio',
+    24: 'Add at least one creator to this version',
+    25: 'Some creators doesn\'t have roles'
   },
   skins: {
     0: 'Skinit',
@@ -132,7 +141,12 @@ export default {
     27: 'Skinin on tehnyt',
     28: 'No tags',
     29: 'Ei videoita',
-    30: 'Ei tekijöitä'
+    30: 'Ei tekijöitä',
+    31: 'Rate skin',
+    32: 'Upvote & comment on reddit',
+    33: 'Comment on osu! forum',
+    34: 'More skins from this author | More skins from this authors',
+    35: 'Support the skin'
   },
   drag: {
     0: 'Paina tästä',

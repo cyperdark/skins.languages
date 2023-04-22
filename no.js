@@ -21,6 +21,13 @@ export default {
     },
     tools: 'Verktøy'
   },
+  home: {
+    0: 'Available to download',
+    1: 'Most: _name_ skins',
+    2: 'Viewed | Liked | Downloaded',
+    3: 'Publish new skin',
+    4: 'How to install skin'
+  },
   changelogs: {
     0: 'Endringslogg',
     1: 'Liste over alle endringene som er gjort i den gjeldende versjonen',
@@ -84,7 +91,9 @@ export default {
     20: 'Ser bra ut',
     21: 'Alle feil er fikset. Bra jobba!',
     22: 'Sjekkliste',
-    23: 'Legg ved minst en offentlig versjon'
+    23: 'Legg ved minst en offentlig versjon',
+    24: 'Add at least one creator to this version',
+    25: 'Some creators doesn\'t have roles'
   },
   skins: {
     0: 'Skins',
@@ -132,7 +141,12 @@ export default {
     27: 'Skin laget av',
     28: 'Ingen tags',
     29: 'Ingen videoer',
-    30: 'Ingen skapere'
+    30: 'Ingen skapere',
+    31: 'Rate skin',
+    32: 'Upvote & comment on reddit',
+    33: 'Comment on osu! forum',
+    34: 'More skins from this author | More skins from this authors',
+    35: 'Support the skin'
   },
   drag: {
     0: 'Trykk her',

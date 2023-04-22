@@ -21,6 +21,13 @@ export default {
     },
     tools: 'Công cụ'
   },
+  home: {
+    0: 'Available to download',
+    1: 'Most: _name_ skins',
+    2: 'Viewed | Liked | Downloaded',
+    3: 'Publish new skin',
+    4: 'How to install skin'
+  },
   changelogs: {
     0: 'Nhật ký thay đổi',
     1: 'Danh sách tất cả những sửa đổi ở phiên bản hiện tại',
@@ -84,7 +91,9 @@ export default {
     20: 'Trông ổn đấy',
     21: 'Mọi vấn đề đã được giải quyết. Tốt lắm!',
     22: 'Danh mục',
-    23: 'Thêm ít nhất một phiên bản công khai'
+    23: 'Thêm ít nhất một phiên bản công khai',
+    24: 'Add at least one creator to this version',
+    25: 'Some creators doesn\'t have roles'
   },
   skins: {
     0: 'Skin',
@@ -132,7 +141,12 @@ export default {
     27: 'Skin tạo bởi',
     28: 'Không có tag',
     29: 'Không có video',
-    30: 'Không có tác giả'
+    30: 'Không có tác giả',
+    31: 'Rate skin',
+    32: 'Upvote & comment on reddit',
+    33: 'Comment on osu! forum',
+    34: 'More skins from this author | More skins from this authors',
+    35: 'Support the skin'
   },
   drag: {
     0: 'Nhấn vào đây',

@@ -21,6 +21,13 @@ export default {
     },
     tools: 'Nástroje'
   },
+  home: {
+    0: 'Available to download',
+    1: 'Most: _name_ skins',
+    2: 'Viewed | Liked | Downloaded',
+    3: 'Publish new skin',
+    4: 'How to install skin'
+  },
   changelogs: {
     0: 'Zoznam zmien',
     1: 'Zoznam všetkých vývojárov ktorí boli zapojení vo vývoji tejto verzie',
@@ -84,7 +91,9 @@ export default {
     20: 'Vyzerá to dobre',
     21: 'Každá chyba bola opravená. Dobrá práca!',
     22: 'Kontrolná listina',
-    23: 'Pridajte aspoň jednu publikovanú verziu'
+    23: 'Pridajte aspoň jednu publikovanú verziu',
+    24: 'Add at least one creator to this version',
+    25: 'Some creators doesn\'t have roles'
   },
   skins: {
     0: 'Skiny',
@@ -132,7 +141,12 @@ export default {
     27: 'Skin urobený od',
     28: 'Žiadne štítky',
     29: 'Žiadne videá',
-    30: 'Žiadny stvoritelia'
+    30: 'Žiadny stvoritelia',
+    31: 'Rate skin',
+    32: 'Upvote & comment on reddit',
+    33: 'Comment on osu! forum',
+    34: 'More skins from this author | More skins from this authors',
+    35: 'Support the skin'
   },
   drag: {
     0: 'Klikni tu',

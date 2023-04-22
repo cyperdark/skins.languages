@@ -21,6 +21,13 @@ export default {
     },
     tools: '工具'
   },
+  home: {
+    0: 'Available to download',
+    1: 'Most: _name_ skins',
+    2: 'Viewed | Liked | Downloaded',
+    3: 'Publish new skin',
+    4: 'How to install skin'
+  },
   changelogs: {
     0: '更新日志',
     1: '当前版本完成的所有修订列表',
@@ -84,7 +91,9 @@ export default {
     20: '看起来很不错',
     21: '所有问题都已解决。干得好！',
     22: '检查清单',
-    23: '添加至少一个公开版本'
+    23: '添加至少一个公开版本',
+    24: 'Add at least one creator to this version',
+    25: 'Some creators doesn\'t have roles'
   },
   skins: {
     0: '皮肤',
@@ -132,7 +141,12 @@ export default {
     27: '皮肤由',
     28: '没有标签',
     29: '没有视频',
-    30: '没有创作者'
+    30: '没有创作者',
+    31: 'Rate skin',
+    32: 'Upvote & comment on reddit',
+    33: 'Comment on osu! forum',
+    34: 'More skins from this author | More skins from this authors',
+    35: 'Support the skin'
   },
   drag: {
     0: '点击这里',

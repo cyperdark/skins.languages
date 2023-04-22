@@ -21,6 +21,13 @@ export default {
     },
     tools: 'Instrumente'
   },
+  home: {
+    0: 'Available to download',
+    1: 'Most: _name_ skins',
+    2: 'Viewed | Liked | Downloaded',
+    3: 'Publish new skin',
+    4: 'How to install skin'
+  },
   changelogs: {
     0: 'Jurnal de Modificări',
     1: 'Lista tuturor reviziilor efectuate în versiunea curentă',
@@ -84,7 +91,9 @@ export default {
     20: 'Arată destul de bine',
     21: 'Fiecare problemă a fost rezolvată. Bravo!',
     22: 'Listă de verificare',
-    23: 'Adaugă cel puțin o versiune publică'
+    23: 'Adaugă cel puțin o versiune publică',
+    24: 'Add at least one creator to this version',
+    25: 'Some creators doesn\'t have roles'
   },
   skins: {
     0: 'Skinuri',
@@ -132,7 +141,12 @@ export default {
     27: 'Skin creat de',
     28: 'Nicio etichetă',
     29: 'Niciun videoclip',
-    30: 'Niciun creator'
+    30: 'Niciun creator',
+    31: 'Rate skin',
+    32: 'Upvote & comment on reddit',
+    33: 'Comment on osu! forum',
+    34: 'More skins from this author | More skins from this authors',
+    35: 'Support the skin'
   },
   drag: {
     0: 'Apasă aici',
