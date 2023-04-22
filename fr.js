@@ -21,6 +21,13 @@ export default {
     },
     tools: 'Outils'
   },
+  home: {
+    0: 'Available to download',
+    1: 'Most: _name_ skins',
+    2: 'Viewed | Liked | Downloaded',
+    3: 'Publish new skin',
+    4: 'How to install skin'
+  },
   changelogs: {
     0: 'Journal des modifications',
     1: 'Liste de toutes les modifications effectuées dans la version actuelle',
@@ -84,7 +91,9 @@ export default {
     20: 'Tout se porte bien',
     21: 'Chaque problème a été résolu. Bon travail !',
     22: 'Liste de contrôle',
-    23: 'Ajoutez au moins une version publique'
+    23: 'Ajoutez au moins une version publique',
+    24: 'Add at least one creator to this version',
+    25: 'Some creators doesn\'t have roles'
   },
   skins: {
     0: 'Skins',
@@ -132,7 +141,12 @@ export default {
     27: 'Skin fait par',
     28: 'Aucun tag',
     29: 'Aucune vidéo',
-    30: 'Aucun créateur'
+    30: 'Aucun créateur',
+    31: 'Rate skin',
+    32: 'Upvote & comment on reddit',
+    33: 'Comment on osu! forum',
+    34: 'More skins from this author | More skins from this authors',
+    35: 'Support the skin'
   },
   drag: {
     0: 'Cliquez ici',
