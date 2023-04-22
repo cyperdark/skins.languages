@@ -93,7 +93,7 @@ export default {
     22: 'Checklist',
     23: 'Add at least one public version',
     24: 'Add at least one creator to this version',
-    25: 'Some creators doesn\'t roles'
+    25: 'Some creators doesn\'t have roles'
   },
   skins: {
     0: 'Skins',
