@@ -25,7 +25,7 @@ export default {
     0: 'Güncelleme geçmişi',
     1: 'Güncel versiyondaki yapılan tüm değişikliklerin listesi',
     2: 'Burada hiçbir şey yok',
-    3: 'But you can add the changes you\'ve made to this version of the skin',
+    3: 'Ama skinin bu versiyonuna yaptığınız değişiklikleri ekleyebilirsiniz',
     4: 'Gruplandırılmamış',
     5: 'Yeni',
     6: 'Düzeltmeler',
@@ -34,7 +34,7 @@ export default {
   },
   ideas: {
     0: 'Hiçbir şey bulunamadı',
-    1: 'Screenshots of «{type}» were not uploaded to the site'
+    1: '«{type}» ekran görüntüleri siteye yüklenmemiş'
   },
   creators: {
     0: 'Yaratıcılar',
@@ -81,8 +81,8 @@ export default {
     10: 'Ekran görüntüsü sağlanamıyor',
     11: 'En az bir oynanış görüntüsü ekleyin',
     12: 'Skin linki belirtilmemiş',
-    20: 'Looks pretty good',
-    21: 'Every issue was fixed. Good job!',
+    20: 'Gayet iyi görünüyor',
+    21: 'İyi haber! Hiçbir problem kalmadı!',
     22: 'Kontrol listesi',
     23: 'Herkese açık en az bir versiyon ekleyin'
   },
@@ -100,7 +100,7 @@ export default {
     10: '{name} tarafıdan yapılan skinler | All skins from',
     11: 'Ara',
     12: '{name} skins',
-    13: 'Explore skins'
+    13: 'Skinleri keşfet'
   },
   skin: {
     0: 'Düzenle',
@@ -130,9 +130,9 @@ export default {
     25: 'Bizden biri değişsin',
     26: 'Görünüşe göre bu skinin yaratıcısı ya da editörü değilsin',
     27: 'Skini oluşturan',
-    28: 'No tags',
-    29: 'No videos',
-    30: 'No creators'
+    28: 'Etiket yok',
+    29: 'Video yok',
+    30: 'Yaratıcı yok'
   },
   drag: {
     0: 'Buraya tıklayın',
@@ -151,7 +151,7 @@ export default {
     5: 'Bütün bayrak görselleri {name}\'dan alındı',
     6: 'Yerelleştirme',
     7: 'Herhangi birisi? [{lang}]',
-    8: 'Seems like cyperdark forgot to add them. {text}'
+    8: 'Görünüşe göre cyperdark bunları eklemeyi unutmuş. {text}'
   },
   search: {
     0: 'Skin aratın',
@@ -161,15 +161,15 @@ export default {
     4: 'Boyut',
     5: 'Tarih',
     7: 'Hiçbir şey bulunamadı',
-    8: 'Try using different search filters',
+    8: 'Farklı arama filtreleriyle aramayı deneyin',
     9: 'Arama bekleniyor',
-    10: 'Use the search filters or type the skin\'s title, author or tags',
+    10: 'Arama filtresi, yaratıcı, etiketler ya da skinin başlığını kullanın',
     11: 'İndirmeler',
     12: 'İsim',
     13: {
       0: 'Skinler',
       1: 'Etiketler',
-      2: 'Users',
+      2: 'Kullanıcılar',
       3: 'Listeler'
     }
   },
@@ -180,11 +180,11 @@ export default {
   },
   undefined: {
     0: 'Boş',
-    1: 'Unfortunately, there\'s nothing here, but you can take a look at the other pages',
-    2: 'Unfortunately, there\'s nothing here',
+    1: 'Ne yazık ki burada bir şey bulamadık yine de diğer sayafalara göz atmak isteyebilirsin',
+    2: 'Ne yazık ki burada hiçbir şey yok',
     3: 'Yetkiniz yok',
-    4: 'You need to be logged in order to edit this skin.',
-    5: 'You need to be logged in order to add a new skin.'
+    4: 'Bu skini düzenleyebilmek için önce giriş yapman gerekli.',
+    5: 'Yeni bir skin eklemek için giriş yapmış olmanız gerekiyor.'
   },
   meta: {
     title: {
@@ -200,7 +200,7 @@ export default {
       9: 'Diğer osu skinlerinden ilham alın',
       10: '{name} created osu skins',
       11: 'Etiket arayın',
-      12: '{name} found tags'
+      12: '{name} bulunan etiketler'
     },
     description: {
       0: 'Sitemizden en iyi osu! skinlerini edinin! Devasa kütüphanemizde tüm oyunmodlarına, çerçeve oranlarına hatta top playerlara ilişkin skinler bulabilirsin. Artı olarak anime fanlarına yönelik bi bölümümüz daha var. Mükemmel skininle birlikte oyununu bir adım ileri taşı. #osuskins #osugame #anime',
@@ -213,7 +213,7 @@ export default {
       7: 'A huge amount of osu skins for {name}, download for free!',
       8: 'All osu skins created by {name}',
       9: 'Sitemizde bir sonraki osu! skininin için ilham kaynağı bul. Çeşitli koleksiyonumuza göz atın ve yeni teknikler, fikirler edinin. İlham alarak kendinize özgün skinler yaratın.',
-      10: 'Search for tags among all the tags on the site.'
+      10: 'Site içerisindeki etiketler arasından birini arayın.'
     }
   },
   buttons: {
@@ -247,7 +247,7 @@ export default {
     3: 'Beğeni: {likes} / Beğenmeme: {dislikes}',
     4: 'Etiket eklemek için ctrl+enter basın',
     5: 'Edit version',
-    6: '{s}Log in{p}, in order to rate this skin',
+    6: 'Skini değerlendirebilmek için {s}Giriş yap{p}',
     7: 'Kısa açıklama bulunamadı',
     8: 'Url bulunamadı',
     9: 'İndirmeler: {amount}'
@@ -296,9 +296,9 @@ export default {
     ratio: 'Çerçeve oranı seçin | ratio'
   },
   placeholders: {
-    0: 'Select roles',
-    1: 'Select versions',
-    2: 'Type some text...',
+    0: 'Rol seç',
+    1: 'Sürüm seç',
+    2: 'Bir metin girin...',
     3: 'Boyut seçin',
     4: 'Tarih aralığı seçin',
     5: 'Yıl',
@@ -308,84 +308,84 @@ export default {
     9: 'Oyun modları',
     10: 'Tür seçin',
     11: 'YouTube bağlantısını yapıştırın',
-    12: 'Type a description and an url. Format description:url',
+    12: 'Bir açıklama yazın ve url ekleyin. Format açıklama:url',
     13: 'Select extra',
     14: 'Link yapıştırın',
-    15: 'Skin title, author, or tags',
+    15: 'Skinin adı, yaratıcısı ya da etiketi',
     16: 'Kategori seçin',
-    17: 'Type the name of the tag'
+    17: 'Etiketin ismini yazın'
   },
   contribute: { 0: 'Katkıda bulunun' },
   nsfw: {
     0: 'Uyarı!',
     1: 'Bu skin hassas veya yetişkinlere yönelik içerik barındırıyor',
     2: 'Bu skin rahatsız olabileceğiniz hassas veya yetişkinlere yönelik içerik barındırıyor',
-    3: 'Alright',
-    4: 'bye o/'
+    3: 'Anladım',
+    4: 'güle güle o/'
   },
   removed: {
     0: 'Sürüm mevcut değil',
-    1: 'The author of the skin decided to remove this version from the site.',
-    2: 'Switch to an available version'
+    1: 'Skinin yaratıcısı bu versiyonu siteden kaldırmaya karar verdi.',
+    2: 'Mevcut bir versiyona geç'
   },
   notify: {
-    0: 'Issues were not fixed',
-    1: 'Not all required fields were filled',
+    0: 'Sorunlar çözülemedi',
+    1: 'Gerekli boşlukların tamamı doldurulmadı',
     2: 'Göster',
     3: 'Bulunamadı',
-    4: 'Banner not found (Currently, the first screenshot is being used as the banner)',
-    5: 'No changes',
-    6: 'No changes were found',
+    4: 'Banner bulunamadı (Şuan, ilk ekran görüntüsü banner olarak kullanılıyor)',
+    5: 'Değişiklik yok',
+    6: 'Herhangi bir değişiklik bulunamadı',
     7: 'ID bulunamadı',
     8: 'Videonun ID\'si bulunamadı, başka bir link deneyin (Sadece YouTube destekleniyor)',
-    9: 'Oops',
-    10: 'Looks like your session expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
+    9: 'Hay aksi',
+    10: 'Görünüşe göre oturumunuzun süresi doldu, yeni bir sayfa açın ve hesabınıza giriş yapın (Endişelenmeyin, her şey otomatik olarak kaydedildi)',
     11: 'Mevcut',
     12: 'Bu video çoktan eklendi',
     13: 'Mevcut',
     14: 'Bu etiket çoktan eklendi',
     15: 'Bulunamadı',
-    16: 'You cannot delete a deleted tag',
+    16: 'Silinmiş bir etiketi silemezsin',
     17: 'Eklendi',
     18: 'Başarıyla yeni bir etiket eklediniz',
-    19: 'OOps',
-    20: 'This creator was already added',
+    19: 'Hay aksi',
+    20: 'Bu yaratıcı zaten eklenmiş',
     21: 'EZ',
-    22: 'New creator has been added',
+    22: 'Yeni bir yaratıcı eklendi',
     23: 'HUH',
-    24: 'Impossible to remove a deleted creator',
+    24: 'Silinmiş bir yaratıcıyı tekrar silemezsin',
     25: 'Duplicate',
-    26: 'This change has already been added earlier.',
+    26: 'Bu değişiklik zaten eklenmiş.',
     27: 'Duplicate',
-    28: 'This url has already been added earlier.',
-    29: 'Warning',
-    30: 'You forgot to add a description for the url. Example: Description:url',
-    31: 'Warning',
-    32: 'You forgot to add an url for the description. Example: Description:url',
-    33: 'Restored',
-    34: 'Version «{name}» has been restored',
-    35: 'Deleted',
-    36: 'Version «{name}» has been deleted',
-    37: 'Error',
-    38: 'Apparently the server thinks you\'re a robot.',
-    39: 'Looks like your user session has expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
-    40: 'Mismatched credentials (relogin in account. Don\'t worry, everything was saved automatically)',
-    41: 'Unknown error',
-    42: 'You cannot edit a nonexistent skin',
-    43: 'Seems like you don\'t have permission to edit this skin',
-    44: 'You cannot send this version because it is the same as the previous one.',
-    45: 'These changes have already been sent for moderation',
-    46: 'Success',
-    47: 'New changes have been submitted for moderation',
+    28: 'Bu url zaten eklenmiş.',
+    29: 'Uyarı',
+    30: 'Url için bir açıklama eklemeyi unuttun. Örnek: Açıklama:url',
+    31: 'Uyarı',
+    32: 'Açıklama için bir url eklemeyi unuttun. Örnek: Açıklama:url',
+    33: 'Geri yüklendi',
+    34: '«{name}» versiyonu geri yüklendi',
+    35: 'Silindi',
+    36: '«{name}» versiyonu silinmiş',
+    37: 'Hata',
+    38: 'Görüşüne göre sunucu sizin bir robot olduğunuza kanaat getirmiş.',
+    39: 'Görünüşe göre kullanıcı oturumunuzun süresi dolmuş, yeni bir sayfa açın ve hesabınıza giriş yapın (Endişelenmeyin, her şey otomatik olarak kaydedildi)',
+    40: 'Kimlik bilgileri uyuşmuyor (Hesabınıza tekrar giriş yapın. Merak etmene gerek yok, her şey otomatik olarak kaydedildi)',
+    41: 'Bilinmeyen hata',
+    42: 'Var olmayan bir skinde değişiklik yapamazsın',
+    43: 'Görünüşe göre bu skinde değişiklik yapma iznin yok',
+    44: 'Öncekiyle aynı olduğu için bu versiyonu gönderemezsin.',
+    45: 'Bu değişiklikler zaten moderasyon için gönderilmiş',
+    46: 'Başarılı',
+    47: 'Moderasyon için yeni değişiklikler başarıyla gönderildi',
     48: 'Changes have been updated in moderation',
-    49: 'Odd link',
-    50: 'This link cannot be used as a download link',
-    51: 'Submitted for moderation'
+    49: 'Garip link',
+    50: 'Bu link bir indirme bağlantısı olarak kullanılamaz',
+    51: 'Moderasyon için gönderildi'
   },
   restricted_view: {
     0: 'Yetkiniz yok',
-    1: 'Please log into your account',
-    2: 'Restricted view',
-    3: 'This page is not out, yet.'
+    1: 'Lütfen hesabınızda oturum açın',
+    2: 'Kısıtlı görüntüleme',
+    3: 'Bu sayfa henüz hazır değil.'
   }
 };
