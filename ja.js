@@ -21,6 +21,13 @@ export default {
     },
     tools: 'ツール'
   },
+  home: {
+    0: 'ダウンロード可能',
+    1: 'Most: _name_ skins',
+    2: 'Viewed | Liked | Downloaded',
+    3: '新しいスキンを公開',
+    4: 'スキンのインストール方法'
+  },
   changelogs: {
     0: '変更ログ',
     1: '現在のバージョンで行われたすべてのリビジョンのリスト',
@@ -84,7 +91,9 @@ export default {
     20: 'かなり良い感じ',
     21: 'すべての問題が修正されました。グッジョブ！',
     22: 'チェックリスト',
-    23: '公開されているバージョンを少なくとも1つ追加してください'
+    23: '公開されているバージョンを少なくとも1つ追加してください',
+    24: 'Add at least one creator to this version',
+    25: 'Some creators doesn\'t have roles'
   },
   skins: {
     0: 'スキン',
@@ -132,7 +141,12 @@ export default {
     27: 'スキン by',
     28: 'タグがありません',
     29: '動画がありません',
-    30: '作成者が設定されていません'
+    30: '作成者が設定されていません',
+    31: 'スキンを評価',
+    32: 'Upvote & comment on reddit',
+    33: 'osu! フォーラムにコメントする',
+    34: 'More skins from this author | More skins from this authors',
+    35: 'スキンをサポートする'
   },
   drag: {
     0: 'ここをクリック',
@@ -374,18 +388,18 @@ export default {
     42: '存在しないスキンを編集することはできません',
     43: 'このスキンを編集する権限がないようです',
     44: 'このバージョンは、前のバージョンと同じであるため、送信できません。',
-    45: 'These changes have already been sent for moderation',
+    45: 'これらの変更はすでにモデレーションに送信されています',
     46: '成功',
-    47: 'New changes have been submitted for moderation',
-    48: 'Changes have been updated in moderation',
+    47: 'モデレーションのために新しい変更が送信されました',
+    48: '変更はモデレーションで更新されました',
     49: '不正なリンク',
     50: 'このリンクはダウンロードリンクとして使用できません',
-    51: 'Submitted for moderation'
+    51: 'モデレーションのために提出されました'
   },
   restricted_view: {
     0: '権限がありません',
     1: 'アカウントにログインしてください',
-    2: 'Restricted view',
+    2: '制限付きビュー',
     3: 'このページはまだ公開されていません。'
   }
 };
