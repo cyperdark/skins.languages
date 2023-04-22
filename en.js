@@ -21,6 +21,13 @@ export default {
     },
     tools: 'Tools',
   },
+  home: {
+    0: 'Available to download',
+    1: 'Most: _name_ skins',
+    2: 'Viewed | Liked | Downloaded',
+    3: 'Publish new skin',
+    4: 'How to install skins',
+  },
   changelogs: {
     0: 'Changelog',
     1: 'List of all the revisions done in the current version',
@@ -61,7 +68,7 @@ export default {
     3: 'Search for some on YouTube or create your own showcase'
   },
   sources: {
-    0: 'Attribution',
+    0: 'Assets',
     1: 'List of all used assets or tools in this version of the skin',
     2: 'Kinda empty here',
     3: 'If you have used assets from other skins, or arts, be sure to add them in the box above',
@@ -85,6 +92,8 @@ export default {
     21: 'Every issue was fixed. Good job!',
     22: 'Checklist',
     23: 'Add at least one public version',
+    24: 'Add at least one creator to this version',
+    25: 'Some creators doesn\'t roles'
   },
   skins: {
     0: 'Skins',
