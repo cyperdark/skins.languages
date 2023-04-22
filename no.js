@@ -1,12 +1,12 @@
 export default {
   title: {
     home: 'Hjem',
-    login: 'Log in',
+    login: 'Logg inn',
     lists: { 0: 'Lister' },
     tags: {
       0: 'Tags',
       1: '{amount} tags for kategori {name}',
-      2: 'Search tags'
+      2: 'Søkefilter'
     },
     ideas: {
       0: 'Inspirasjon',
@@ -25,7 +25,7 @@ export default {
     0: 'Endringslogg',
     1: 'Liste over alle endringene som er gjort i den gjeldende versjonen',
     2: 'Ingenting her',
-    3: 'But you can add the changes you\'ve made to this version of the skin',
+    3: 'Men du kan bare legge til endringene som du har gjort på denne versjonen av skinnet',
     4: 'Ikke gruppert',
     5: 'Ny',
     6: 'Rettelser',
@@ -34,13 +34,13 @@ export default {
   },
   ideas: {
     0: 'Ingenting funnet',
-    1: 'Screenshots of «{type}» were not uploaded to the site'
+    1: 'Skjermbilder av «{type}» ble ikke lastet opp til siden'
   },
   creators: {
     0: 'Skapere',
     1: 'Legg til en liste med alle skapere eller med de som er involvert i å skape denne versjonen',
     2: 'Ingen er her',
-    3: 'Searching for a player\'s name will display a list of profiles.',
+    3: 'Søk etter en spillers navn vil vise en liste av profiler.',
     4: 'Redaktør',
     5: 'Roller',
     6: 'Versjoner'
@@ -50,8 +50,8 @@ export default {
     1: 'Legg til en liste med alle tags relatert til skinnet',
     2: 'Det ser ut til å være tomt her.',
     3: 'Bruk feltet ovenfor for å finne tags',
-    4: 'Tags not found',
-    5: 'Try searching for something else',
+    4: 'Ingen tags funnet',
+    5: 'Prøv å søk etter noe annet',
     6: 'Søk'
   },
   videos: {
@@ -71,7 +71,7 @@ export default {
     0: 'Alle',
     1: 'Metadata',
     2: 'Fremhevd',
-    3: 'Name of the skin not specified',
+    3: 'Navnet på skinnet er ikke spesifisert',
     4: 'Legg til hvertfall en skin skaper',
     5: 'Legg til noen tags',
     6: 'Størrelsen på skinnet er ikke spesifisert',
@@ -81,18 +81,18 @@ export default {
     10: 'Ingen skjermbilder postet',
     11: 'Legg til hvertfall et skjermbilde av skinnet i bruk',
     12: 'Lenke til skinnet er ikke spesifisert',
-    20: 'Looks pretty good',
-    21: 'Every issue was fixed. Good job!',
+    20: 'Ser bra ut',
+    21: 'Alle feil er fikset. Bra jobba!',
     22: 'Sjekkliste',
-    23: 'Add at least one public version'
+    23: 'Legg ved minst en offentlig versjon'
   },
   skins: {
     0: 'Skins',
     1: 'Populær',
     2: 'std | ctb',
     3: 'mania | taiko',
-    4: 'Nyligt',
-    5: 'Tilfeldig',
+    4: 'Nylige',
+    5: 'Tilfeldige',
     6: 'Alle skins',
     7: 'Størrelsesformat',
     8: 'Alle skins | osu skins',
@@ -100,7 +100,7 @@ export default {
     10: 'osu Skins med navn {name} | Alle skin fra',
     11: 'Søk',
     12: '{name} skins',
-    13: 'Explore skins'
+    13: 'Utforsk skins'
   },
   skin: {
     0: 'Rediger',
@@ -111,7 +111,7 @@ export default {
     5: 'Skjermbilde',
     6: 'Bare spill',
     7: 'Nedlastings lenke | Last ned skin',
-    8: 'Forum post | osu! Forum',
+    8: 'Forum innlegg | osu! Forum',
     9: 'Reddit post',
     10: 'Skapere',
     11: 'Tags',
@@ -129,10 +129,10 @@ export default {
     24: '{amount} sekunder igjen',
     25: 'Du er ikke en av oss',
     26: 'Ser ut som at du ikke er forfatter eller editor av dette skinnet',
-    27: 'Skin by',
-    28: 'No tags',
-    29: 'No videos',
-    30: 'No creators'
+    27: 'Skin laget av',
+    28: 'Ingen tags',
+    29: 'Ingen videoer',
+    30: 'Ingen skapere'
   },
   drag: {
     0: 'Trykk her',
@@ -149,9 +149,9 @@ export default {
     3: 'Alle iconer er tatt fra {name}',
     4: 'Flagg',
     5: 'Alle flagg bilder er fra {name}',
-    6: 'Localisation',
-    7: 'Anyone? [{lang}]',
-    8: 'Seems like cyperdark forgot to add them. {text}'
+    6: 'Lokasjon',
+    7: 'Noen? [{lang}]',
+    8: 'Ser ut som cyperdark glemte å legge den til. {text}'
   },
   search: {
     0: 'Skin søk',
@@ -161,15 +161,15 @@ export default {
     4: 'Størrelse',
     5: 'Dato',
     7: 'Ingenting funnet',
-    8: 'Try using different search filters',
+    8: 'Prøv et annet søkefilter',
     9: 'Venter godkjenning',
-    10: 'Use the search filters or type the skin\'s title, author or tags',
+    10: 'Bruk søkefilteret eller skriv inn skinnets tittel, skaper eller tags',
     11: 'Nedlasting',
-    12: 'Name',
+    12: 'Navn',
     13: {
       0: 'Skins',
       1: 'Tags',
-      2: 'Users',
+      2: 'Brukere',
       3: 'Lister'
     }
   },
@@ -180,15 +180,15 @@ export default {
   },
   undefined: {
     0: 'Tomt',
-    1: 'Unfortunately, there\'s nothing here, but you can take a look at the other pages',
-    2: 'Unfortunately, there\'s nothing here',
+    1: 'Her var det dessverre ingenting, uansett så kan du se på våre andre sider',
+    2: 'Her var det dessverre ingenting',
     3: 'Ikke autorisert',
     4: 'You need to be logged in order to edit this skin.',
     5: 'You need to be logged in order to add a new skin.'
   },
   meta: {
     title: {
-      0: 'Discover osu skins',
+      0: 'Oppdag osu skins',
       1: 'Spillmodus, aspect ratios osu skins',
       2: 'Populære osu skins',
       3: 'Søk osu skins',
@@ -199,7 +199,7 @@ export default {
       8: '{name} søk osu skins',
       9: 'Get inspiration from other osu skins',
       10: '{name} laget osu skins',
-      11: 'Search tags',
+      11: 'Søkefilter',
       12: '{name} found tags'
     },
     description: {
@@ -241,7 +241,7 @@ export default {
     }
   },
   tooltips: {
-    0: 'Views: {amount}',
+    0: 'Visninger: {amount}',
     1: 'Oppdater resultat',
     2: 'Synkende | Økende',
     3: 'Likes: {likes} / Dislikes: {dislikes}',
@@ -289,16 +289,16 @@ export default {
     9: 'Verktøy',
     views: 'Visninger',
     likes: 'Liker',
-    dislikes: 'Dislikes',
+    dislikes: 'Liker ikke',
     downloads: 'Nedlasting',
     size_range: 'Velg størrelse',
     date_range: 'Velg en dato',
     ratio: 'Velg størrelsesformat | format'
   },
   placeholders: {
-    0: 'Select roles',
-    1: 'Select versions',
-    2: 'Type some text...',
+    0: 'Velg roller',
+    1: 'Velg versjoner',
+    2: 'Skriv inn litt tekst...',
     3: 'Velg størrelse',
     4: 'Velg dato ',
     5: 'År',
@@ -308,19 +308,19 @@ export default {
     9: 'Spillmodus',
     10: 'Velg type',
     11: 'Lim inn en YouTube lenke',
-    12: 'Type a description and an url. Format description:url',
+    12: 'Skriv en beskrivelse med en url. Format for beskrivelsen:url',
     13: 'Velg ekstra',
     14: 'Lim inn lenke',
-    15: 'Skin title, author, or tags',
-    16: 'Select category',
-    17: 'Type the name of the tag'
+    15: 'Skin tittel, skaper, eller tags',
+    16: 'Velg kategori',
+    17: 'Skriv inn navnet på taggen'
   },
-  contribute: { 0: 'Contribute' },
+  contribute: { 0: 'Bidra' },
   nsfw: {
-    0: 'Warning!',
-    1: 'This skin contains sensitive or adult content',
-    2: 'This skin contains sensitive or adult content that some users may find disturbing',
-    3: 'Alright',
+    0: 'Advarsel!',
+    1: 'Dette skinnet inneholder sensitivt eller voksent innhold',
+    2: 'Dette skinnet inneholder sensitivt eller voksent innhold som noen brukere kan finne forstyrrende',
+    3: 'Okei',
     4: 'bye o/'
   },
   removed: {
@@ -371,21 +371,21 @@ export default {
     39: 'Looks like your user session has expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
     40: 'Mismatched credentials (relogin in account. Don\'t worry, everything was saved automatically)',
     41: 'Unknown error',
-    42: 'You cannot edit a nonexistent skin',
-    43: 'Seems like you don\'t have permission to edit this skin',
-    44: 'You cannot send this version because it is the same as the previous one.',
-    45: 'These changes have already been sent for moderation',
-    46: 'Success',
-    47: 'New changes have been submitted for moderation',
-    48: 'Changes have been updated in moderation',
-    49: 'Odd link',
-    50: 'This link cannot be used as a download link',
-    51: 'Submitted for moderation'
+    42: 'Du kan ikke redigere et ikke-eksisterende skin',
+    43: 'Ser ikke ut som om du har tillatelse til å redigere dette skinnet',
+    44: 'Du kan ikke sende denne versjonen fordi den er den samme som den forige.',
+    45: 'Disse endringene er allerede sendt inn for moderering',
+    46: 'Vellykket',
+    47: 'Ny endringer har blitt sendt inn for moderasjon',
+    48: 'Endringene har blitt oppdatert i moderering',
+    49: 'Merkeling lenke',
+    50: 'Denne lenken kan ikke brukes som en nedlastningslenke',
+    51: 'Sendt inn, avventer moderasjon'
   },
   restricted_view: {
     0: 'Ikke autorisert',
-    1: 'Please log into your account',
-    2: 'Restricted view',
-    3: 'This page is not out, yet.'
+    1: 'Vennligst logg inn på kontoen din',
+    2: 'Begrenset visning',
+    3: 'Denne siden er ikke ute, enda.'
   }
 };
