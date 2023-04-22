@@ -21,11 +21,18 @@ export default {
     },
     tools: 'Verktyg'
   },
+  home: {
+    0: 'Tillgänglig för nedladdning',
+    1: 'Mest: _name_skins',
+    2: 'Visningar | Gillar | Nerladdade',
+    3: 'Publicera nytt skin',
+    4: 'Hur man installerar skin'
+  },
   changelogs: {
     0: 'Ändringslogg',
     1: 'Lista av alla revisioner gjorda i den nuvarande versionen',
     2: 'Ingenting här',
-    3: 'But you can add the changes you\'ve made to this version of the skin',
+    3: 'Men du kan lägga till de ändringar som du har gjort i denna version av skinnet',
     4: 'Inte grupperad',
     5: 'Nytt',
     6: 'Fixningar',
@@ -81,10 +88,12 @@ export default {
     10: 'Inga skärmbilder är uppladdade',
     11: 'Lägg till minst en skärmdump av spelet',
     12: 'Länk till skin ej angiven',
-    20: 'Looks pretty good',
-    21: 'Every issue was fixed. Good job!',
+    20: 'Ser ganska bra ut',
+    21: 'Varje problem har blivit fixat. Bra jobbat!',
     22: 'Checklista',
-    23: 'Lägg till minst en offentlig version'
+    23: 'Lägg till minst en offentlig version',
+    24: 'Lägg till minst en skapare till denna version',
+    25: 'Vissa skapare har inga roller'
   },
   skins: {
     0: 'Skins',
@@ -132,7 +141,12 @@ export default {
     27: 'Skin av',
     28: 'Inga taggar',
     29: 'Inga videor',
-    30: 'Inga skapare'
+    30: 'Inga skapare',
+    31: 'Betygsätt skin',
+    32: 'Upprösta och kommentera på reddit',
+    33: 'Kommentera på osu! forumet',
+    34: 'Fler skins från denna författare | Fler skins från dessa författare',
+    35: 'Support the skin'
   },
   drag: {
     0: 'Klicka här',
@@ -151,7 +165,7 @@ export default {
     5: 'Alla flagga bilder är från {name}',
     6: 'Språk',
     7: 'Någon? [{lang}]',
-    8: 'Seems like cyperdark forgot to add them. {text}'
+    8: 'Verkar som cyperdark glömde att lägga till dem. {text}'
   },
   search: {
     0: 'Skin sökning',
@@ -161,9 +175,9 @@ export default {
     4: 'Storlek',
     5: 'Datum',
     7: 'Ingenting hittat',
-    8: 'Try using different search filters',
+    8: 'Prova att använda olika sökfilter',
     9: 'Väntar på en sökning',
-    10: 'Use the search filters or type the skin\'s title, author or tags',
+    10: 'Använd sökfiltren eller skriv in skinnets titel, författare eller taggar',
     11: 'Nedladdningar',
     12: 'Namn',
     13: {
@@ -180,11 +194,11 @@ export default {
   },
   undefined: {
     0: 'Tomt',
-    1: 'Unfortunately, there\'s nothing here, but you can take a look at the other pages',
-    2: 'Unfortunately, there\'s nothing here',
+    1: 'Tyvärr finns det inget här, men du kan ta en titt på de andra sidorna',
+    2: 'Tyvärr finns det inget här',
     3: 'Obehörig',
-    4: 'You need to be logged in order to edit this skin.',
-    5: 'You need to be logged in order to add a new skin.'
+    4: 'Du måste vara inloggad för att kunna redigera detta skin.',
+    5: 'Du måste vara inloggad för att kunna lägga till ett nytt skin.'
   },
   meta: {
     title: {
@@ -247,7 +261,7 @@ export default {
     3: 'Gillar: {likes} / Ogillar: {dislikes}',
     4: 'Tryck på ctrl+enter för att lägga till en tag',
     5: 'Redigera version',
-    6: '{s}Log in{p}, in order to rate this skin',
+    6: '{s}Logga in{p}, för att betygsätta detta skin',
     7: 'Ingen kort beskrivning',
     8: 'Ingen url',
     9: 'Nedladdningar: {amount}'
@@ -296,9 +310,9 @@ export default {
     ratio: 'Välj bildförhållande | förhållande'
   },
   placeholders: {
-    0: 'Select roles',
-    1: 'Select versions',
-    2: 'Type some text...',
+    0: 'Välj roller',
+    1: 'Välj versioner',
+    2: 'Skriv in text...',
     3: 'Välj storlek',
     4: 'Välj datumspann',
     5: 'År',
@@ -308,12 +322,12 @@ export default {
     9: 'Spellägen',
     10: 'Välj typ',
     11: 'Klistra in en YouTube länk',
-    12: 'Type a description and an url. Format description:url',
+    12: 'Skriv en beskrivning och en webbadress. Format description:url',
     13: 'Välj extra',
     14: 'Klistra in en länk',
-    15: 'Skin title, author, or tags',
+    15: 'Skin titel, författare eller taggar',
     16: 'Välj kategori',
-    17: 'Type the name of the tag'
+    17: 'Skriv namnet på taggen'
   },
   contribute: { 0: 'Bidra' },
   nsfw: {
@@ -329,7 +343,7 @@ export default {
     2: 'Switch to an available version'
   },
   notify: {
-    0: 'Issues were not fixed',
+    0: 'Problemen har inte blivit fixat',
     1: 'Not all required fields were filled',
     2: 'Visa',
     3: 'Hittades inte',
@@ -339,7 +353,7 @@ export default {
     7: 'ID hittades inte',
     8: 'ID för videon hittades inte, prova en annan länk (Just nu stöds endast YouTube)',
     9: 'Hoppsan',
-    10: 'Looks like your session expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
+    10: 'Ser ut som din session har gått ut, öppna en ny sida och logga in på ditt konto (oroa dig inte, allting sparades automatiskt)',
     11: 'Existerar',
     12: 'Denna video har redan lagts till',
     13: 'Existerar',
@@ -354,37 +368,37 @@ export default {
     22: 'Ny profil har lagts till',
     23: 'VA',
     24: 'Omöjligt att ta bort en raderad skapare',
-    25: 'Duplicate',
-    26: 'This change has already been added earlier.',
-    27: 'Duplicate',
-    28: 'This url has already been added earlier.',
+    25: 'Duplicera',
+    26: 'Denna ändring har redan lagts till tidigare.',
+    27: 'Duplicera',
+    28: 'Denna URL har redan lagts till tidigare.',
     29: 'Varning',
-    30: 'You forgot to add a description for the url. Example: Description:url',
+    30: 'Du glömde att lägga till en beskrivning för webbadressen. Exempel: Description:url',
     31: 'Varning',
-    32: 'You forgot to add an url for the description. Example: Description:url',
+    32: 'Du glömde att lägga till en URL för beskrivningen. Exempel: Description:url',
     33: 'Återställt',
-    34: 'Version «{name}» has been restored',
+    34: 'Version «{name}» har återställts',
     35: 'Raderad',
-    36: 'Version «{name}» has been deleted',
+    36: 'Version «{name}» har raderats',
     37: 'Error',
-    38: 'Apparently the server thinks you\'re a robot.',
-    39: 'Looks like your user session has expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
+    38: 'Uppenbarligen tror servern att du är en robot.',
+    39: 'Ser ut som din användarsession har gått ut, öppna en ny sida och logga in på ditt konto (oroa dig inte, allting sparades automatiskt)',
     40: 'Mismatched credentials (relogin in account. Don\'t worry, everything was saved automatically)',
     41: 'Okänt fel',
     42: 'You cannot edit a nonexistent skin',
     43: 'Seems like you don\'t have permission to edit this skin',
-    44: 'You cannot send this version because it is the same as the previous one.',
-    45: 'These changes have already been sent for moderation',
+    44: 'Du kan inte skicka denna version eftersom det är samma som den föregående.',
+    45: 'Dessa ändringar har redan skickats för moderering',
     46: 'Klart!',
     47: 'Nya ändringar har lämnats in för moderering',
     48: 'Ändringar har uppdaterats med moderering',
     49: 'Konstig länk',
     50: 'Denna länk kan inte användas som en nedladdningslänk',
-    51: 'Submitted for moderation'
+    51: 'Skickad till moderering'
   },
   restricted_view: {
     0: 'Obehörig',
-    1: 'Please log into your account',
+    1: 'Vänligen logga in på ditt konto',
     2: 'Begränsad visning',
     3: 'Den här sidan är inte ute, än.'
   }
