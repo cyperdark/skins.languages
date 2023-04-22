@@ -84,7 +84,7 @@ export default {
     20: 'かなり良い感じ',
     21: 'すべての問題が修正されました。グッジョブ！',
     22: 'チェックリスト',
-    23: 'Add at least one public version'
+    23: '公開されているバージョンを少なくとも1つ追加してください'
   },
   skins: {
     0: 'スキン',
@@ -130,9 +130,9 @@ export default {
     25: 'あなたは私たちの仲間ではありません',
     26: 'あなたは、このスキンの作成者や編集者ではないようです。',
     27: 'スキン by',
-    28: 'No tags',
-    29: 'No videos',
-    30: 'No creators'
+    28: 'タグがありません',
+    29: '動画がありません',
+    30: '作成者が設定されていません'
   },
   drag: {
     0: 'ここをクリック',
@@ -151,7 +151,7 @@ export default {
     5: '国旗画像はすべて {name} のものです',
     6: '翻訳',
     7: '誰かいませんか？[{lang}]',
-    8: 'Seems like cyperdark forgot to add them. {text}'
+    8: 'どうやらcyperdarkが追加し忘れているようです。 {text}'
   },
   search: {
     0: 'スキン検索',
@@ -161,15 +161,15 @@ export default {
     4: 'サイズ',
     5: '日付',
     7: '何も見つかりませんでした',
-    8: 'Try using different search filters',
+    8: '他の検索フィルターを試してください',
     9: '保留中のクエリ',
-    10: 'Use the search filters or type the skin\'s title, author or tags',
+    10: 'フィルターを使うか、スキンのタイトル、作者、またはタグを入力してください',
     11: 'ダウンロード',
     12: '名前',
     13: {
       0: 'スキン',
       1: 'タグ',
-      2: 'Users',
+      2: 'ユーザー',
       3: 'リスト'
     }
   },
@@ -180,11 +180,11 @@ export default {
   },
   undefined: {
     0: 'エンプティ',
-    1: 'Unfortunately, there\'s nothing here, but you can take a look at the other pages',
-    2: 'Unfortunately, there\'s nothing here',
+    1: '残念ながら、ここには何もありません。他のページを見てみましょう',
+    2: '残念ながら、ここには何もありません',
     3: '権限がありません',
-    4: 'You need to be logged in order to edit this skin.',
-    5: 'You need to be logged in order to add a new skin.'
+    4: 'このスキンを編集するには、ログインする必要があります。',
+    5: '新しくスキンを追加するには、ログインする必要があります。'
   },
   meta: {
     title: {
@@ -213,7 +213,7 @@ export default {
       7: '{name} 用のosuスキンがたくさん、無料でダウンロードできます。',
       8: '{name} によって作成されたすべてのosuスキン。',
       9: '当サイトで次のosu! スキンのインスピレーションを身につけよう！多彩なスキンコレクションを見て、新しいテクニックやアイデアを見つけることができます。インスピレーションを受けて、自分だけのosu!スキンを作りましょう。',
-      10: 'Search for tags among all the tags on the site.'
+      10: 'サイト上のすべてのタグの中からタグを検索します。'
     }
   },
   buttons: {
@@ -247,7 +247,7 @@ export default {
     3: 'いいね: {likes} / よくないね: {dislikes}',
     4: 'Ctrl+enterでタグを追加',
     5: 'バージョンを編集',
-    6: '{s}Log in{p}, in order to rate this skin',
+    6: 'このスキンを評価するには{s}ログインしてください{p}',
     7: '短い説明文はありません',
     8: 'URL がありません',
     9: 'ダウンロード数: {amount}'
@@ -296,9 +296,9 @@ export default {
     ratio: 'アスペクト比を選択 | 比率'
   },
   placeholders: {
-    0: 'Select roles',
-    1: 'Select versions',
-    2: 'Type some text...',
+    0: '役職を選択',
+    1: 'バージョンの選択',
+    2: 'テキストを入力...',
     3: 'サイズ選択',
     4: '日付の範囲を選択',
     5: '年',
@@ -308,84 +308,84 @@ export default {
     9: 'ゲームモード',
     10: 'タイプを選択',
     11: 'YouTubeのリンクを貼り付け',
-    12: 'Type a description and an url. Format description:url',
+    12: '説明文とURLを入力してください。 フォーマット 説明文:URL',
     13: 'エクストラを選択',
     14: 'リンクを貼り付け',
-    15: 'Skin title, author, or tags',
-    16: 'Select category',
-    17: 'Type the name of the tag'
+    15: 'スキンのタイトル、作成者、またはタグ',
+    16: 'カテゴリの選択',
+    17: 'タグの名前を入力してください'
   },
   contribute: { 0: '貢献する' },
   nsfw: {
     0: '警告！！',
     1: 'このスキンにはセンシティブまたはアダルトなコンテンツが含まれています',
     2: 'このスキンには、一部のユーザーが不快に感じる可能性があるセンシティブまたはアダルトなコンテンツが含まれています',
-    3: 'Alright',
-    4: 'bye o/'
+    3: '了解',
+    4: 'さよなら o/'
   },
   removed: {
-    0: 'Version unavailable',
-    1: 'The author of the skin decided to remove this version from the site.',
-    2: 'Switch to an available version'
+    0: 'このバージョンは利用できません',
+    1: 'スキン作成者によりこのバージョンはサイトから削除されました。',
+    2: '利用可能なバージョンに切り替える'
   },
   notify: {
-    0: 'Issues were not fixed',
-    1: 'Not all required fields were filled',
-    2: 'Show',
-    3: 'Not found',
-    4: 'Banner not found (Currently, the first screenshot is being used as the banner)',
-    5: 'No changes',
-    6: 'No changes were found',
-    7: 'ID not found',
-    8: 'ID of the video not found, try another link (At the moment only YouTube is supported)',
-    9: 'Oops',
-    10: 'Looks like your session expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
-    11: 'Exists',
-    12: 'This video has already been added',
-    13: 'Exists',
-    14: 'This tag has already been added',
-    15: 'Not found',
-    16: 'You cannot delete a deleted tag',
-    17: 'Added',
-    18: 'You have successfully added a new tag',
-    19: 'OOps',
-    20: 'This creator was already added',
+    0: '問題が解決されていません',
+    1: 'すべての必須項目が入力されていません',
+    2: '表示する',
+    3: '見つかりません',
+    4: 'バナーが見つかりません (最初のスクリーンショットがバナーとして代わりに使用されます)',
+    5: '変更なし',
+    6: '変更が見つかりませんでした',
+    7: 'IDが見つかりませんでした',
+    8: '動画のIDが見つかりません。別のリンクをお試しください（現時点ではYouTubeのみサポートされています）',
+    9: 'おっと！',
+    10: 'セッションの有効期限が切れたようです。新しいページを開き、アカウントにログインしてください（すべてが自動的に保存されました）',
+    11: '存在します',
+    12: 'この動画はすでに追加されています',
+    13: '存在します',
+    14: 'このタグはすでに追加されています',
+    15: '見つかりません',
+    16: 'すでに削除されたタグは削除できません',
+    17: '追加しました',
+    18: '新しいタグを追加しました',
+    19: 'おっと！',
+    20: 'この作成者はすでに追加されています',
     21: 'EZ',
-    22: 'New creator has been added',
+    22: '作成者が新しく追加されました',
     23: 'HUH',
-    24: 'Impossible to remove a deleted creator',
-    25: 'Duplicate',
-    26: 'This change has already been added earlier.',
-    27: 'Duplicate',
-    28: 'This url has already been added earlier.',
-    29: 'Warning',
-    30: 'You forgot to add a description for the url. Example: Description:url',
-    31: 'Warning',
-    32: 'You forgot to add an url for the description. Example: Description:url',
-    33: 'Restored',
-    34: 'Version «{name}» has been restored',
-    35: 'Deleted',
-    36: 'Version «{name}» has been deleted',
-    37: 'Error',
-    38: 'Apparently the server thinks you\'re a robot.',
-    39: 'Looks like your user session has expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
-    40: 'Mismatched credentials (relogin in account. Don\'t worry, everything was saved automatically)',
-    41: 'Unknown error',
-    42: 'You cannot edit a nonexistent skin',
-    43: 'Seems like you don\'t have permission to edit this skin',
-    44: 'You cannot send this version because it is the same as the previous one.',
+    24: 'すでに削除されている作成者を削除することは出来ません',
+    25: '複製',
+    26: 'この変更はすでに追加されています。',
+    27: '複製',
+    28: 'このURLはすでに追加されています。',
+    29: '警告',
+    30: 'URLの説明を追加し忘れています。例: 説明:url',
+    31: '警告',
+    32: '説明のURLを追加し忘れています。例: 説明:url',
+    33: '復元しました',
+    34: 'バージョン «{name}» が復元されました',
+    35: '削除済み',
+    36: 'バージョン «{name}» が削除されました',
+    37: 'エラー',
+    38: 'どうやらサーバーはあなたをロボットだと思っているようです。',
+    39: 'ユーザーセッションの有効期限が切れているようです。新しいページを開き、アカウントにログインしてください（すべてが自動的に保存されました）',
+    40: '認証情報が一致しません (アカウントに再ログインしてください。すべてが自動的に保存されました)',
+    41: '不明なエラー',
+    42: '存在しないスキンを編集することはできません',
+    43: 'このスキンを編集する権限がないようです',
+    44: 'このバージョンは、前のバージョンと同じであるため、送信できません。',
     45: 'These changes have already been sent for moderation',
-    46: 'Success',
+    46: '成功',
     47: 'New changes have been submitted for moderation',
     48: 'Changes have been updated in moderation',
-    49: 'Odd link',
-    50: 'This link cannot be used as a download link',
+    49: '不正なリンク',
+    50: 'このリンクはダウンロードリンクとして使用できません',
     51: 'Submitted for moderation'
   },
   restricted_view: {
     0: '権限がありません',
-    1: 'Please log into your account',
+    1: 'アカウントにログインしてください',
     2: 'Restricted view',
-    3: 'This page is not out, yet.'
+    3: 'このページはまだ公開されていません。'
   }
 };
