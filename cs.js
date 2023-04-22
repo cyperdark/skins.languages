@@ -21,6 +21,13 @@ export default {
     },
     tools: 'Nástroje'
   },
+  home: {
+    0: 'Available to download',
+    1: 'Most: _name_ skins',
+    2: 'Viewed | Liked | Downloaded',
+    3: 'Publish new skin',
+    4: 'How to install skin'
+  },
   changelogs: {
     0: 'Seznam změn',
     1: 'Seznam všech revizí provedených v stávající verzi',
@@ -84,7 +91,9 @@ export default {
     20: 'Looks pretty good',
     21: 'Every issue was fixed. Good job!',
     22: 'Kontrolní listina',
-    23: 'Přidejte alespoň jednu veřejnou verzi'
+    23: 'Přidejte alespoň jednu veřejnou verzi',
+    24: 'Add at least one creator to this version',
+    25: 'Some creators doesn\'t have roles'
   },
   skins: {
     0: 'Skiny',
@@ -132,7 +141,12 @@ export default {
     27: 'Skin od',
     28: 'Žádná označení',
     29: 'Žádná videa',
-    30: 'Žádní autoři'
+    30: 'Žádní autoři',
+    31: 'Rate skin',
+    32: 'Upvote & comment on reddit',
+    33: 'Comment on osu! forum',
+    34: 'More skins from this author | More skins from this authors',
+    35: 'Support the skin'
   },
   drag: {
     0: 'Klikněte zde',
@@ -180,11 +194,11 @@ export default {
   },
   undefined: {
     0: 'Prázdno',
-    1: 'Unfortunately, there\'s nothing here, but you can take a look at the other pages',
-    2: 'Unfortunately, there\'s nothing here',
+    1: 'Bohužel zde nic není, ale můžete se podívat na ostatní stránky',
+    2: 'Bohužel zde nic není',
     3: 'Neoprávněný',
-    4: 'You need to be logged in order to edit this skin.',
-    5: 'You need to be logged in order to add a new skin.'
+    4: 'Pro úpravu tohoto skinu musíte být přihlášeni.',
+    5: 'Musíte být přihlášený pro přidání nového skinu.'
   },
   meta: {
     title: {
@@ -296,9 +310,9 @@ export default {
     ratio: 'Vyber poměr stran | poměr'
   },
   placeholders: {
-    0: 'Select roles',
-    1: 'Select versions',
-    2: 'Type some text...',
+    0: 'Vyberte role',
+    1: 'Vyberte Verze',
+    2: 'Zadejte text...',
     3: 'Vyber velikost',
     4: 'Vyber časové období',
     5: 'Rok',
@@ -308,12 +322,12 @@ export default {
     9: 'Herní módy',
     10: 'Vyber typ',
     11: 'Vložte odkaz na YouTube',
-    12: 'Type a description and an url. Format description:url',
+    12: 'Zadejte popis a url. Popis formátu:url',
     13: 'Vyber extra',
-    14: 'Vložte link',
-    15: 'Skin title, author, or tags',
+    14: 'Vložte odkaz',
+    15: 'Název skinu, autor, nebo označení',
     16: 'Vyberte kategorii',
-    17: 'Type the name of the tag'
+    17: 'Zadejte název označení'
   },
   contribute: { 0: 'Zapojte se' },
   nsfw: {
@@ -329,8 +343,8 @@ export default {
     2: 'Switch to an available version'
   },
   notify: {
-    0: 'Issues were not fixed',
-    1: 'Not all required fields were filled',
+    0: 'Problémy nebyly opraveny',
+    1: 'Nebyla vyplněna všechna povinná pole',
     2: 'Zobrazit',
     3: 'Nenalezeno',
     4: 'Banner nebyl nalezen (aktuálně se první snímek obrazovky používá jako banner)',
@@ -351,40 +365,40 @@ export default {
     19: 'Chybička se vloudila',
     20: 'Tento autor již byl přidán',
     21: 'EZ',
-    22: 'New creator has been added',
+    22: 'New autor byl přidán',
     23: 'HUH',
     24: 'Nelze odstranit odstraněného autora',
     25: 'Existuje',
-    26: 'This change has already been added earlier.',
+    26: 'Tato změna již byla přidána dříve.',
     27: 'Existuje',
-    28: 'This url has already been added earlier.',
+    28: 'Tato adresa Url již byla přidána dříve.',
     29: 'Varování',
-    30: 'You forgot to add a description for the url. Example: Description:url',
+    30: 'Zapomněli jste přidat popis pro url. Příklad: Popis:url',
     31: 'Varování',
-    32: 'You forgot to add an url for the description. Example: Description:url',
+    32: 'Zapomněli jste přidat Url pro popis. Příklad: Popis:url',
     33: 'Obnoveno',
-    34: 'Version «{name}» has been restored',
+    34: 'Verze {name} byla obnovena',
     35: 'Odstraněno',
-    36: 'Version «{name}» has been deleted',
+    36: 'Verze {name} byla odstraněna',
     37: 'Chyba',
-    38: 'Apparently the server thinks you\'re a robot.',
+    38: 'Server si zřejmě myslí, že jste robot.',
     39: 'Vypadá to, že vaše uživatelská relace vypršela, otevřete novou stránku a přihlaste se k vašemu účtu (neboj, vše je automaticky uloženo)',
-    40: 'Mismatched credentials (relogin in account. Don\'t worry, everything was saved automatically)',
+    40: 'Nesrovnalé přihlašovací údaje (znovu se přihlásit do účtu. Nebojte se, vše bylo automaticky uloženo)',
     41: 'Neznámá chyba',
-    42: 'You cannot edit a nonexistent skin',
-    43: 'Seems like you don\'t have permission to edit this skin',
-    44: 'You cannot send this version because it is the same as the previous one.',
-    45: 'These changes have already been sent for moderation',
+    42: 'Nemůžete upravovat neexistující skin',
+    43: 'Zdá se, že nemáte oprávnění k úpravě tohoto skinu',
+    44: 'Nemůžete odeslat tuto verzi, protože je stejná jako předchozí.',
+    45: 'Tyto změny již byly odeslány k moderování',
     46: 'Úspěšně dokončeno',
     47: 'Nové změny byly odeslány k moderaci',
     48: 'Změny byly aktualizovány v moderaci',
     49: 'Zvláštní odkaz',
     50: 'Tento odkaz nelze použít jako odkaz ke stažení',
-    51: 'Submitted for moderation'
+    51: 'Odesláno k moderaci'
   },
   restricted_view: {
     0: 'Neoprávněný',
-    1: 'Please log into your account',
+    1: 'Přihlaste se prosím k účtu',
     2: 'Omezené zobrazení',
     3: 'Tato stránka zatím není venku.'
   }
