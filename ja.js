@@ -24,7 +24,7 @@ export default {
   home: {
     0: 'ダウンロード可能',
     1: 'Most: _name_ skins',
-    2: 'Viewed | Liked | Downloaded',
+    2: '閲覧 | 高評価 | ダウンロード',
     3: '新しいスキンを公開',
     4: 'スキンのインストール方法'
   },
@@ -92,8 +92,8 @@ export default {
     21: 'すべての問題が修正されました。グッジョブ！',
     22: 'チェックリスト',
     23: '公開されているバージョンを少なくとも1つ追加してください',
-    24: 'Add at least one creator to this version',
-    25: 'Some creators doesn\'t have roles'
+    24: 'このバージョンに少なくとも1人の作成者を追加してください',
+    25: '一部のクリエイターにロールがありません'
   },
   skins: {
     0: 'スキン',
@@ -143,9 +143,9 @@ export default {
     29: '動画がありません',
     30: '作成者が設定されていません',
     31: 'スキンを評価',
-    32: 'Upvote & comment on reddit',
+    32: 'RedditでUpvoteおよびコメントする',
     33: 'osu! フォーラムにコメントする',
-    34: 'More skins from this author | More skins from this authors',
+    34: 'この作成者のスキンをもっと見る | この作成者たちのスキンをもっと見る',
     35: 'スキンをサポートする'
   },
   drag: {
