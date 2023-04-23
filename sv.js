@@ -35,9 +35,9 @@ export default {
     3: 'Men du kan lägga till de ändringar som du har gjort i denna version av skinnet',
     4: 'Inte grupperad',
     5: 'Nytt',
-    6: 'Fixningar',
+    6: 'Fixar',
     7: 'Ändringar',
-    8: 'Tar bort'
+    8: 'Borttagningar'
   },
   ideas: {
     0: 'Ingenting hittat',
@@ -45,7 +45,7 @@ export default {
   },
   creators: {
     0: 'Skapare',
-    1: 'Lista av alla skapare som var inblandade i skapandet av den här versionen',
+    1: 'Lista av alla skapare som var inblandade i att göra denna version',
     2: 'Ingen är här',
     3: 'Att söka efter en spelares namn kommer att visa en lista med profiler.',
     4: 'Redigerare',
@@ -54,9 +54,9 @@ export default {
   },
   tags: {
     0: 'Taggar',
-    1: 'Lista över alla taggar relaterade till detta skin',
+    1: 'Lista av alla taggar relaterade till detta skin',
     2: 'Det verkar ganska tomt här.',
-    3: 'Använd fältet ovanför att hitta nya taggar',
+    3: 'Använd fältet ovan för att hitta nya taggar',
     4: 'Taggar hittades inte',
     5: 'Prova att söka efter något annat',
     6: 'Sök efter'
@@ -64,11 +64,11 @@ export default {
   videos: {
     0: 'Videor',
     1: 'Lista av alla video showcases för skinnet',
-    2: 'Noll showcases',
+    2: 'Inga showcases',
     3: 'Sök efter några på YouTube eller skapa din egna showcase'
   },
   sources: {
-    0: 'Tillskrivning',
+    0: 'Resurser',
     1: 'Lista av alla resurser och verktyg använda i den här versionen av skinnet',
     2: 'Ganska tomt här',
     3: 'Om du har använt resurser från andra skins eller konstverk, var snäll att lägga till dem i fältet ovanför',
@@ -83,7 +83,7 @@ export default {
     5: 'Lägg till ett par taggar',
     6: 'Storleken av skinnet är inte specificerad',
     7: 'Välj åtminstone ett spelläge',
-    8: 'Välj filtyp (SD eller HD)',
+    8: 'Välj bildupplösning (SD eller HD)',
     9: 'Välj åtminstone ett bildförhållande',
     10: 'Inga skärmbilder är uppladdade',
     11: 'Lägg till minst en skärmdump av spelet',
@@ -137,20 +137,20 @@ export default {
     23: 'Nedladdningen kommer vara tillgänglig snart',
     24: '{amount} sekunder kvar',
     25: 'Du är inte en av oss',
-    26: 'Verkar som om du inte är en författare eller redaktör för detta skinn',
+    26: 'Verkar som om du inte är en skapare eller redaktör för detta skinn',
     27: 'Skin av',
     28: 'Inga taggar',
     29: 'Inga videor',
     30: 'Inga skapare',
     31: 'Betygsätt skin',
-    32: 'Upprösta och kommentera på reddit',
+    32: 'Gilla & kommentera på reddit',
     33: 'Kommentera på osu! forumet',
-    34: 'Fler skins från denna författare | Fler skins från dessa författare',
-    35: 'Support the skin'
+    34: 'Fler skins från denna skapare | Fler skins från dessa skapare',
+    35: 'Stötta skin'
   },
   drag: {
     0: 'Klicka här',
-    1: 'eller dra & droppa bilder'
+    1: 'eller dra & släpp bilder här'
   },
   footer: {
     0: 'Gjord av Cyperdark',
@@ -162,7 +162,7 @@ export default {
     2: 'Ikoner',
     3: 'Alla ikoner är tagna från {name}',
     4: 'Flaggor',
-    5: 'Alla flagga bilder är från {name}',
+    5: 'Alla flaggbilder är från {name}',
     6: 'Språk',
     7: 'Någon? [{lang}]',
     8: 'Verkar som cyperdark glömde att lägga till dem. {text}'
@@ -177,7 +177,7 @@ export default {
     7: 'Ingenting hittat',
     8: 'Prova att använda olika sökfilter',
     9: 'Väntar på en sökning',
-    10: 'Använd sökfiltren eller skriv in skinnets titel, författare eller taggar',
+    10: 'Använd sökfiltren eller skriv in skinnets titel, skapare eller taggar',
     11: 'Nedladdningar',
     12: 'Namn',
     13: {
@@ -238,7 +238,7 @@ export default {
     notifications: 'Notiser',
     settings: 'Inställningar',
     logout: 'Logga ut',
-    load_more: 'Ladda mer',
+    load_more: 'Läs in mer',
     copy_short: 'Kopiera kortlänk',
     copied: 'Kopierad',
     reddit_link: 'Reddit',
@@ -257,7 +257,7 @@ export default {
   tooltips: {
     0: 'Visningar: {amount}',
     1: 'Uppdatera resultat',
-    2: 'Ner | Upp',
+    2: 'Fallande | Stigande',
     3: 'Gillar: {likes} / Ogillar: {dislikes}',
     4: 'Tryck på ctrl+enter för att lägga till en tag',
     5: 'Redigera version',
@@ -339,12 +339,12 @@ export default {
   },
   removed: {
     0: 'Version ej tillgänglig',
-    1: 'The author of the skin decided to remove this version from the site.',
-    2: 'Switch to an available version'
+    1: 'Skaparen av skinnet valde att ta bort denna version från sidan.',
+    2: 'Byt till en tillgänglig version'
   },
   notify: {
     0: 'Problemen har inte blivit fixat',
-    1: 'Not all required fields were filled',
+    1: 'Alla obligatoriska fält har inte fyllts i',
     2: 'Visa',
     3: 'Hittades inte',
     4: 'Banner hittades inte (För nu används den första skärmdumpen som banner)',
@@ -383,10 +383,10 @@ export default {
     37: 'Error',
     38: 'Uppenbarligen tror servern att du är en robot.',
     39: 'Ser ut som din användarsession har gått ut, öppna en ny sida och logga in på ditt konto (oroa dig inte, allting sparades automatiskt)',
-    40: 'Mismatched credentials (relogin in account. Don\'t worry, everything was saved automatically)',
+    40: 'Inloggningsuppgifterna stämmer inte överens (logga in på ditt konto igen. Oroa dig inte, allt sparades automatiskt)',
     41: 'Okänt fel',
-    42: 'You cannot edit a nonexistent skin',
-    43: 'Seems like you don\'t have permission to edit this skin',
+    42: 'Du kan inte redigera ett icke-existerande skin',
+    43: 'Det verkar som om du inte har behörighet att redigera detta skin',
     44: 'Du kan inte skicka denna version eftersom det är samma som den föregående.',
     45: 'Dessa ändringar har redan skickats för moderering',
     46: 'Klart!',
