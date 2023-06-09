@@ -26,7 +26,8 @@ export default {
     1: 'Most: _name_ skins',
     2: 'Viewed | Liked | Downloaded',
     3: '发布新皮肤',
-    4: '如果安装皮肤'
+    4: '如果安装皮肤',
+    5: '{amount} Skins | {amount} Skins | {amount} Skins'
   },
   changelogs: {
     0: '更新日志',
