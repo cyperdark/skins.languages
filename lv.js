@@ -26,7 +26,8 @@ export default {
     1: 'Visvairāk: _name_ skini',
     2: 'Skatīts | Patīkots | Lejupielādēts',
     3: 'Publicēt jaunu skinu',
-    4: 'Kā lejupielādēt skinu'
+    4: 'Kā lejupielādēt skinu',
+    5: '{amount} Skins | {amount} Skins | {amount} Skins'
   },
   changelogs: {
     0: 'Izmaiņu saraksts',
