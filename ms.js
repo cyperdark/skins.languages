@@ -26,7 +26,8 @@ export default {
     1: 'Kebanyakkan: _name_ skins',
     2: 'Ditonton | Disukai | Dimuat turun',
     3: 'Terbitkan skin baharu',
-    4: 'Cara untuk memuat naik skin'
+    4: 'Cara untuk memuat naik skin',
+    5: '{amount} Skins | {amount} Skins | {amount} Skins'
   },
   changelogs: {
     0: 'Log perubahan',
