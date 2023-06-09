@@ -26,7 +26,8 @@ export default {
     1: 'Skin les plus : _name_',
     2: 'Vus | Aimés | Téléchargés',
     3: 'Publier un nouveau skin',
-    4: 'Comment installer un skin'
+    4: 'Comment installer un skin',
+    5: '{amount} Skins | {amount} Skins | {amount} Skins'
   },
   changelogs: {
     0: 'Journal des modifications',
