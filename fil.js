@@ -185,7 +185,8 @@ export default {
       1: 'Tags',
       2: 'Users',
       3: 'Lists'
-    }
+    },
+    14: 'Search:'
   },
   tabs: {
     0: 'Search',
@@ -214,7 +215,8 @@ export default {
       9: 'Get inspiration from other osu skins',
       10: '{name} created osu skins',
       11: 'Search tags',
-      12: '{name} found tags'
+      12: '{name} found tags',
+      13: 'New skin'
     },
     description: {
       0: 'Get the best osu! skins at our site! Our huge library has skins for all gamemodes, aspect ratios and even top players. Plus, we have a special section for anime fans. Improve your gameplay with the perfect skin. #osuskins #osugame #anime',
@@ -395,6 +397,10 @@ export default {
     49: 'Odd link',
     50: 'This link cannot be used as a download link',
     51: 'Submitted for moderation'
+  },
+  header: {
+    0: 'Notifications',
+    1: 'Follow us on these platforms to receive notifications about new skins'
   },
   restricted_view: {
     0: 'Unauthorized',
