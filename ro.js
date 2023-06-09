@@ -22,11 +22,11 @@ export default {
     tools: 'Instrumente'
   },
   home: {
-    0: 'Disponibil de descărcat',
-    1: 'Most: _name_ skins',
-    2: 'Vizualizat | Apreciat | Descărcat',
-    3: 'Publish new skin',
-    4: 'How to install skin'
+    0: 'Disponibile de descărcat',
+    1: 'Cele mai: _name_ skinuri',
+    2: 'Vizualizate | Apreciate | Descărcate',
+    3: 'Publică un nou skin',
+    4: 'Cum să instalezi un skin'
   },
   changelogs: {
     0: 'Jurnal de Modificări',
@@ -92,8 +92,8 @@ export default {
     21: 'Fiecare problemă a fost rezolvată. Bravo!',
     22: 'Listă de verificare',
     23: 'Adaugă cel puțin o versiune publică',
-    24: 'Add at least one creator to this version',
-    25: 'Some creators doesn\'t have roles'
+    24: 'Adaugă cel puțin un creator la această versiune',
+    25: 'Unii creatori nu au roluri'
   },
   skins: {
     0: 'Skinuri',
@@ -142,11 +142,11 @@ export default {
     28: 'Nicio etichetă',
     29: 'Niciun videoclip',
     30: 'Niciun creator',
-    31: 'Rate skin',
-    32: 'Upvote & comment on reddit',
-    33: 'Comment on osu! forum',
-    34: 'More skins from this author | More skins from this authors',
-    35: 'Support the skin'
+    31: 'Evaluează skinul',
+    32: 'Votează și comentează pe reddit',
+    33: 'Comentează pe osu!forum',
+    34: 'Mai multe skinuri de la acest autor | Mai multe skinuri de la acești autori',
+    35: 'Susține skinul'
   },
   drag: {
     0: 'Apasă aici',
@@ -185,7 +185,8 @@ export default {
       1: 'Etichete',
       2: 'Utilizatori',
       3: 'Liste'
-    }
+    },
+    14: 'Caută:'
   },
   tabs: {
     0: 'Căutare',
@@ -214,7 +215,8 @@ export default {
       9: 'Inspiră-te de la alte skinuri de osu',
       10: '{name} a creat skinuri de osu',
       11: 'Caută etichete',
-      12: 'etichete {name} găsite'
+      12: 'etichete {name} găsite',
+      13: 'Skin nou'
     },
     description: {
       0: 'Obține cele mai bune skin-uri de osu pe site-ul nostru! Librăria noastră imensă conține skin-uri pentru toate modurile de joc, aspect ratio-urile și pana și skinuri ale jucătorilor de top. Plus, avem o secțiune specială pentru fanii anime-urilor. îmbunătăţeşte-ți gameplay-ul cu skin-ul perfect. #osuskins #osugame #anime',
@@ -382,7 +384,7 @@ export default {
     36: 'Versiunea «{name}» a fost ștearsă',
     37: 'Eroare',
     38: 'Aparent, serverul crede că ești un robot.',
-    39: 'Looks like your user session has expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
+    39: 'Se pare că sesiunea ta a expirat, deschide o nouă pagină și conectează-te la contul tău (Nu iți face griji, totul a fost salvat automat)',
     40: 'Date de conectare incorecte (Reconectează-te în cont. Nu îți faceți griji, totul a fost salvat automat)',
     41: 'Eroare necunoscută',
     42: 'Nu poți edita un skin inexistent',
@@ -395,6 +397,10 @@ export default {
     49: 'Link ciudat',
     50: 'Acest link nu poate fi folosit ca un link de descărcare',
     51: 'Trimis spre moderare'
+  },
+  header: {
+    0: 'Notificări',
+    1: 'Urmărește-ne pe aceste platforme pentru a primi notificări despre skinuri noi'
   },
   restricted_view: {
     0: 'Neautorizat',
