@@ -185,7 +185,8 @@ export default {
       1: '標籤',
       2: 'Users',
       3: '清單'
-    }
+    },
+    14: 'Search:'
   },
   tabs: {
     0: '搜尋',
@@ -214,7 +215,8 @@ export default {
       9: '從其他的skin獲得啟發',
       10: '{name} 創建了osu skin',
       11: 'Search tags',
-      12: '{name} found tags'
+      12: '{name} found tags',
+      13: '新skin'
     },
     description: {
       0: '你可以在這網站找到最適合你的skin, 我們龐大的資料庫有所有遊戲模式,長寬比甚至是各個大佬的skin. 另外也有以動漫分類的skin. 一個好的skin是你變強的開始. #osuskins #osugame #動漫',
@@ -395,6 +397,10 @@ export default {
     49: 'Odd link',
     50: 'This link cannot be used as a download link',
     51: 'Submitted for moderation'
+  },
+  header: {
+    0: '通知',
+    1: 'Follow us on these platforms to receive notifications about new skins'
   },
   restricted_view: {
     0: '未授權',
