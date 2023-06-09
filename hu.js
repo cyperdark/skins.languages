@@ -1,12 +1,12 @@
 export default {
   title: {
     home: 'Főoldal',
-    login: 'Log in',
+    login: 'Bejelentkezés',
     lists: { 0: 'Listák' },
     tags: {
       0: 'Címkék',
       1: '{amount} címke ehhez a kategóriához: {name}',
-      2: 'Search tags'
+      2: 'Címkék keresése'
     },
     ideas: {
       0: 'Inspiráció',
@@ -22,17 +22,17 @@ export default {
     tools: 'Eszközök'
   },
   home: {
-    0: 'Available to download',
-    1: 'Most: _name_ skins',
-    2: 'Viewed | Liked | Downloaded',
-    3: 'Publish new skin',
-    4: 'How to install skin'
+    0: 'Elérhető letöltésre',
+    1: 'Legtöbbet: _name_ skinek',
+    2: 'Megnézett | Likeolt | Letöltött',
+    3: 'Új skin közlése',
+    4: 'Hogyan telepíts fel egy skint'
   },
   changelogs: {
     0: 'Változi napló',
     1: 'Módosítások listája, amik a jelenlegi verzión történtek',
     2: 'Nincs it semmi',
-    3: 'But you can add the changes you\'ve made to this version of the skin',
+    3: 'De hozzá adhatod a változtatásokat, amit ehhez a skin verzióhoz csináltál',
     4: 'Nem csoportosított',
     5: 'Új',
     6: 'Javítások',
@@ -57,8 +57,8 @@ export default {
     1: 'Az összes címke ami ehhez a skinhez kötődik',
     2: 'Eléggé üresnek tűnik ez a hely.',
     3: 'Új címkék kereséséhez használd a felső mezőt',
-    4: 'Tags not found',
-    5: 'Try searching for something else',
+    4: 'Címkék nem találhatóak',
+    5: 'Próbálj másra keresni',
     6: 'Keresés'
   },
   videos: {
@@ -78,7 +78,7 @@ export default {
     0: 'Összes',
     1: 'Metaadatok',
     2: 'Highlightok',
-    3: 'Name of the skin not specified',
+    3: 'A skin neve nincs megadva',
     4: 'Adjál hozzá legalább egy skin készítőt',
     5: 'Adjál hozzá néhány címkét',
     6: 'Skin fájl mérete nincs megadva',
@@ -88,12 +88,12 @@ export default {
     10: 'Nincs képernyőkép megadva',
     11: 'Adjál hozzá legalább egy gameplay képernyőképet',
     12: 'Link a skin-hez nincs megadva',
-    20: 'Looks pretty good',
-    21: 'Every issue was fixed. Good job!',
+    20: 'Egész jól néz ki',
+    21: 'Minden probléma meg lett oldva, szép munka!',
     22: 'Ellenőrző lista',
-    23: 'Add at least one public version',
-    24: 'Add at least one creator to this version',
-    25: 'Some creators doesn\'t have roles'
+    23: 'Adjon hozzá legalább egy publikus verziót',
+    24: 'Adjon hozzá legalább egy készítőt ehhez a verzióhoz',
+    25: 'Néhány készítőnek nincs szerepe'
   },
   skins: {
     0: 'Skin-ek',
@@ -108,8 +108,8 @@ export default {
     9: 'Skin | Skin-ek | Skin-ek',
     10: 'osu skin-ek {name} által',
     11: 'Keresés',
-    12: '{name} skins',
-    13: 'Explore skins'
+    12: '{name} skinek',
+    13: 'Skinek felfedezése'
   },
   skin: {
     0: 'Szerkesztés',
@@ -138,15 +138,15 @@ export default {
     24: '{amount} másodperc maradt',
     25: 'Te nem vagy egyikünk sem',
     26: 'Úgy látszik nem te vagy a készítője vagy szerkesztője ennek a skinnek',
-    27: 'Skin by',
-    28: 'No tags',
-    29: 'No videos',
-    30: 'No creators',
-    31: 'Rate skin',
+    27: 'Skint készítette',
+    28: 'Nincs címke',
+    29: 'Nincsenek videók',
+    30: 'Nincsenek készítők',
+    31: 'Skin értékelése',
     32: 'Upvote & comment on reddit',
-    33: 'Comment on osu! forum',
-    34: 'More skins from this author | More skins from this authors',
-    35: 'Support the skin'
+    33: 'Kommentelj az osu! fórumon',
+    34: 'Még több skin a készítőtöl | Még több skin a készítőktől',
+    35: 'Skin támogatása'
   },
   drag: {
     0: 'Kattints ide',
@@ -165,7 +165,7 @@ export default {
     5: 'Összes zászló kép {name} által',
     6: 'Lokalizáció',
     7: 'Akárki? [{lang}]',
-    8: 'Seems like cyperdark forgot to add them. {text}'
+    8: 'Úgy tűnik cyperdark elfelejtette hozzá adni. {text}'
   },
   search: {
     0: 'Skin keresés',
@@ -175,17 +175,18 @@ export default {
     4: 'Méret',
     5: 'Dátum',
     7: 'Nincs találat',
-    8: 'Try using different search filters',
+    8: 'Próbálj meg más kereső filtert használni',
     9: 'Lekérdezés függőben',
-    10: 'Use the search filters or type the skin\'s title, author or tags',
+    10: 'Használja a kereső filtereket vagy írja be a skin nevét, készítőjét, címkéjét',
     11: 'Letöltések',
-    12: 'Name',
+    12: 'Név',
     13: {
       0: 'Skin-ek',
       1: 'Címkék',
-      2: 'Users',
+      2: 'Felhasználók',
       3: 'Listák'
-    }
+    },
+    14: 'Keresés:'
   },
   tabs: {
     0: 'Keresés',
@@ -194,15 +195,15 @@ export default {
   },
   undefined: {
     0: 'Üres',
-    1: 'Unfortunately, there\'s nothing here, but you can take a look at the other pages',
-    2: 'Unfortunately, there\'s nothing here',
+    1: 'Sajnos itt nincs semmi, de megnézhetsz más oldalakat is',
+    2: 'Sajnos itt nincs semmi',
     3: 'Jogosulatlan',
-    4: 'You need to be logged in order to edit this skin.',
-    5: 'You need to be logged in order to add a new skin.'
+    4: 'Be kell legyél jelentkezve, hogy szerkeszteni tudjad ezt a skint.',
+    5: 'Be kell legyél jelentkezve, hogy új skint adjál hozzá.'
   },
   meta: {
     title: {
-      0: 'Discover osu skins',
+      0: 'Osu skinek felfedezése',
       1: 'Játékmódok, osu skin képarányai',
       2: 'Népszerű osu skin-ek',
       3: 'Keressél osu skin-eket',
@@ -213,8 +214,9 @@ export default {
       8: '{name} keress osu skin-eket',
       9: 'Inspiráld magad más osu skin-ekkel',
       10: '{name} létre hozott osu skin-eket',
-      11: 'Search tags',
-      12: '{name} found tags'
+      11: 'Címkék keresése',
+      12: '{name} talált címkék',
+      13: 'Új skin'
     },
     description: {
       0: 'Szerezd meg a legjobb osu! skineket az oldalunkon! A hatalmas választékunkban találhatsz skin-eket minden játékmódhoz és képarányhoz, emellett a legjobb játékosok skin-jeit is letöltheted. Továbbá van egy külön részünk anime rajongók számára. Emeld új szintre a játék elményedet a neked tökéletes skin-nel. #osuskins #osugame #anime',
@@ -255,16 +257,16 @@ export default {
     }
   },
   tooltips: {
-    0: 'Views: {amount}',
+    0: 'Megtekintések száma: {amount}',
     1: 'Találatok frissítése',
     2: 'Csökkenő | Növekvő',
-    3: 'Likes: {likes} / Dislikes: {dislikes}',
+    3: 'Kedvelések száma: {likes} / Nem kedvelések száma: {dislikes}',
     4: 'Nyomj ctrl+enter-t egy címke hozzáadásához',
     5: 'Verzió szerkesztése',
-    6: '{s}Log in{p}, in order to rate this skin',
+    6: '{s}Jelentkezz be{p} a skin értékeléséhez',
     7: 'Nincs rövid leírás',
     8: 'Nincs url',
-    9: 'Downloads: {amount}'
+    9: 'Letöltések száma: {amount}'
   },
   lists: {
     screens: {
@@ -303,16 +305,16 @@ export default {
     9: 'Eszközök',
     views: 'Megtekintés',
     likes: 'Kedvelés',
-    dislikes: 'Dislikes',
+    dislikes: 'Nem kedvelés',
     downloads: 'Letöltések',
     size_range: 'Válasszad ki a fájl méretét',
     date_range: 'Válasszál dátumtartományt',
     ratio: 'Válasszál képarányt | arány'
   },
   placeholders: {
-    0: 'Select roles',
-    1: 'Select versions',
-    2: 'Type some text...',
+    0: 'Válassz szerepet',
+    1: 'Válassz verziót',
+    2: 'Írj valamit...',
     3: 'Válasszad ki a fájl méretét',
     4: 'Dátumtartományt választása',
     5: 'Év',
@@ -396,9 +398,13 @@ export default {
     50: 'This link cannot be used as a download link',
     51: 'Submitted for moderation'
   },
+  header: {
+    0: 'Értesítések',
+    1: 'Follow us on these platforms to receive notifications about new skins'
+  },
   restricted_view: {
     0: 'Jogosulatlan',
-    1: 'Please log into your account',
+    1: 'Kérlek jelentkezz be a fiókodba',
     2: 'Restricted view',
     3: 'This page is not out, yet.'
   }

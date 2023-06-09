@@ -185,7 +185,8 @@ export default {
       1: 'Тагови',
       2: 'Users',
       3: 'Листи'
-    }
+    },
+    14: 'Search:'
   },
   tabs: {
     0: 'Пребарувај',
@@ -214,7 +215,8 @@ export default {
       9: 'Добијте инспирација од други osu скинови',
       10: '{name} направиле osu скинови',
       11: 'Search tags',
-      12: '{name} found tags'
+      12: '{name} found tags',
+      13: 'Нов скин'
     },
     description: {
       0: 'Добијте ги најдобрите osu! скинови на нашиот сајт! Нашата голема галерија има скинови за сите гејм-модови, соодноси и скинови на топ играчи. Плус, ја имаме специјалната секција за фанови на аниме. Подобрете си го гејмплејот со перфектниот скин. #osuskins #osugame #anime',
@@ -395,6 +397,10 @@ export default {
     49: 'Odd link',
     50: 'This link cannot be used as a download link',
     51: 'Submitted for moderation'
+  },
+  header: {
+    0: 'Нотификации',
+    1: 'Follow us on these platforms to receive notifications about new skins'
   },
   restricted_view: {
     0: 'Неауторизирано',

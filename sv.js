@@ -112,7 +112,7 @@ export default {
     13: 'Utforska Skins'
   },
   skin: {
-    0: 'Edit',
+    0: 'Redigera',
     1: 'Extra',
     2: 'HD',
     3: 'FullHD',
@@ -154,7 +154,7 @@ export default {
   },
   footer: {
     0: 'Gjord av Cyperdark',
-    1: 'Cred'
+    1: 'Medverkande'
   },
   credits: {
     0: 'Chibi',
@@ -185,11 +185,12 @@ export default {
       1: 'Taggar',
       2: 'Användare',
       3: 'Listor'
-    }
+    },
+    14: 'Sök:'
   },
   tabs: {
     0: 'Sök efter',
-    1: 'Edit',
+    1: 'Redigera',
     2: 'Lista'
   },
   undefined: {
@@ -208,13 +209,14 @@ export default {
       3: 'Sök efter osu skins',
       4: 'Lista över taggar, {name}',
       5: '{name} v{version} osu skin',
-      6: 'Cred',
+      6: 'Medverkande',
       7: 'osu skins',
       8: '{name} sök efter osu skins',
       9: 'Få inspiration från andra osu! skins',
       10: '{name} skapade osu skins',
       11: 'Sök taggar',
-      12: '{name} hittade taggar'
+      12: '{name} hittade taggar',
+      13: 'Nytt skin'
     },
     description: {
       0: 'Få det bästa osu! skinnen på våran sida! Vårat stora urval innehåller skinn för alla spellägen, bildförhållanden, och även toppspelare. Plus, vi har även en special avdelning för anime fans. Förbättra ditt gameplay med det perfekta skinnet. #osuskins #osugame #anime',
@@ -302,7 +304,7 @@ export default {
     8: 'Ljud/Sfx',
     9: 'Verktyg',
     views: 'Visningar',
-    likes: 'Likes',
+    likes: 'Gillar',
     dislikes: 'Ogillar',
     downloads: 'Nedladdningar',
     size_range: 'Välj storlek',
@@ -395,6 +397,10 @@ export default {
     49: 'Konstig länk',
     50: 'Denna länk kan inte användas som en nedladdningslänk',
     51: 'Skickad till moderering'
+  },
+  header: {
+    0: 'Notiser',
+    1: 'Följ oss på de här plattformar för att få notifikationer om nya skins'
   },
   restricted_view: {
     0: 'Obehörig',

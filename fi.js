@@ -185,7 +185,8 @@ export default {
       1: 'Tägit',
       2: 'Käyttäjät',
       3: 'Luettelot'
-    }
+    },
+    14: 'Search:'
   },
   tabs: {
     0: 'Haku',
@@ -214,7 +215,8 @@ export default {
       9: 'Hanki inspiraatiota muista osu skineistä',
       10: '{name} tehtyjä osu skinejä',
       11: 'Search tags',
-      12: '{name} found tags'
+      12: '{name} found tags',
+      13: 'Uusi skini'
     },
     description: {
       0: 'Hanki parhaat osu skinit sivumme suuresta valikoimasta! Meillä on skinejä eri pelimodeille ja kuvasuhteille, sekä jopa top pelaajille. Lisäksi, meillä on erityinen osasto animefaneille. Paranna peliäsi täydellisellä skinillä. #osuskins #osugame #anime',
@@ -395,6 +397,10 @@ export default {
     49: 'Odd link',
     50: 'Tätä linkkiä ei voi käyttää latauslinkkinä',
     51: 'Submitted for moderation'
+  },
+  header: {
+    0: 'Ilmoitukset',
+    1: 'Follow us on these platforms to receive notifications about new skins'
   },
   restricted_view: {
     0: 'Ei sallittu',

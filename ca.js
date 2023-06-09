@@ -1,68 +1,68 @@
 export default {
   title: {
-    home: 'Home',
-    login: 'Log in',
-    lists: { 0: 'Lists' },
+    home: 'Inici',
+    login: 'Inicia la sessió',
+    lists: { 0: 'Llistes' },
     tags: {
-      0: 'Tags',
-      1: '{amount} tags for category {name}',
-      2: 'Search tags'
+      0: 'Etiquetes',
+      1: '{amount} etiquetes per categoria {name}',
+      2: 'Buscar etiquetes'
     },
     ideas: {
-      0: 'Inspiration',
-      1: '«{amount}»'
+      0: 'Inspiració',
+      1: '{amount}'
     },
-    sounds: { 0: 'Sounds' },
-    leaderboard: { 0: 'Leaderboards' },
-    extend: { 0: 'More | Less' },
+    sounds: { 0: 'Sons' },
+    leaderboard: { 0: 'Classificació' },
+    extend: { 0: 'Mes | Menys' },
     skin: {
-      0: 'This skin contains elements from other skins',
-      1: 'Click here for more information'
+      0: 'Aquesta skin conté elements d\'altres skins',
+      1: 'Fes clic aquí per a més informació'
     },
     tools: 'Tools'
   },
   home: {
-    0: 'Available to download',
-    1: 'Most: _name_ skins',
-    2: 'Viewed | Liked | Downloaded',
-    3: 'Publish new skin',
-    4: 'How to install skin'
+    0: 'Disponible per baixar',
+    1: 'Mes: _name_ skins',
+    2: 'Visites | M\'agrada | Descarregues',
+    3: 'Publica una nova skin',
+    4: 'Com instal·lar una skin'
   },
   changelogs: {
-    0: 'Changelog',
-    1: 'List of all the revisions done in the current version',
-    2: 'Nothing here',
-    3: 'But you can add the changes you\'ve made to this version of the skin',
-    4: 'Not grouped',
-    5: 'New',
-    6: 'Fixes',
-    7: 'Changes',
-    8: 'Removals'
+    0: 'Registre de canvis',
+    1: 'Llista de totes les revisions fetes a la versió actual',
+    2: 'Res per aquí',
+    3: 'Però pots afegir els canvis que has fet a aquesta versió de la skin',
+    4: 'No agrupat',
+    5: 'Nou',
+    6: 'Correccions',
+    7: 'Canvis',
+    8: 'Eliminats'
   },
   ideas: {
     0: 'Nothing found',
-    1: 'Screenshots of «{type}» were not uploaded to the site'
+    1: 'Captures de {type} no s\'han pujat a aquesta pàgina'
   },
   creators: {
-    0: 'Creators',
-    1: 'List all creators who were involved in making this version',
-    2: 'No one is here',
-    3: 'Searching for a player\'s name will display a list of profiles.',
+    0: 'Creadors',
+    1: 'Enumera a tots als creadors que hagin participat en fer aquesta versió',
+    2: 'Encara no hi ha ningú',
+    3: 'Buscar el nom del jugador mostrarà una llista de perfils.',
     4: 'Editor',
-    5: 'Roles',
+    5: 'Rols',
     6: 'Versions'
   },
   tags: {
-    0: 'Tags',
-    1: 'List of all the tags related to this skin',
-    2: 'It seems pretty empty here.',
-    3: 'Use the field above to find new tags',
-    4: 'Tags not found',
-    5: 'Try searching for something else',
+    0: 'Etiquetes',
+    1: 'Enumera totes les etiquetes que siguin relacionades amb la skin',
+    2: 'Sembla que està tot buit per aquí.',
+    3: 'Fes servir el camp d\'adalt per torbar noves etiquetes',
+    4: 'Etiqueta no trobada',
+    5: 'Prova buscant d\'una altra forma',
     6: 'Search'
   },
   videos: {
-    0: 'Videos',
+    0: 'Vídeos',
     1: 'List of all the video showcases for this skin',
     2: 'No showcases',
     3: 'Search for some on YouTube or create your own showcase'
@@ -72,7 +72,7 @@ export default {
     1: 'List of all used assets or tools in this version of the skin',
     2: 'Kinda empty here',
     3: 'If you have used assets from other skins, or arts, be sure to add them in the box above',
-    4: 'Not grouped'
+    4: 'No agrupat'
   },
   checks: {
     0: 'All',
@@ -122,9 +122,9 @@ export default {
     7: 'Download link | Download skin',
     8: 'Forum post | osu! Forum',
     9: 'Reddit post',
-    10: 'Creators',
-    11: 'Tags',
-    13: 'Videos',
+    10: 'Creadors',
+    11: 'Etiquetes',
+    13: 'Vídeos',
     14: 'New Version | Manage versions',
     15: 'Update | Submit',
     16: 'Gamemodes',
@@ -182,10 +182,11 @@ export default {
     12: 'Name',
     13: {
       0: 'Skins',
-      1: 'Tags',
+      1: 'Etiquetes',
       2: 'Users',
-      3: 'Lists'
-    }
+      3: 'Llistes'
+    },
+    14: 'Search:'
   },
   tabs: {
     0: 'Search',
@@ -213,8 +214,9 @@ export default {
       8: '{name} search osu skins',
       9: 'Get inspiration from other osu skins',
       10: '{name} created osu skins',
-      11: 'Search tags',
-      12: '{name} found tags'
+      11: 'Buscar etiquetes',
+      12: '{name} found tags',
+      13: 'New skin'
     },
     description: {
       0: 'Get the best osu! skins at our site! Our huge library has skins for all gamemodes, aspect ratios and even top players. Plus, we have a special section for anime fans. Improve your gameplay with the perfect skin. #osuskins #osugame #anime',
@@ -291,7 +293,7 @@ export default {
     }
   },
   select: {
-    0: 'New',
+    0: 'Nou',
     1: 'Fixed',
     2: 'Changed',
     3: 'Removed',
@@ -395,6 +397,10 @@ export default {
     49: 'Odd link',
     50: 'This link cannot be used as a download link',
     51: 'Submitted for moderation'
+  },
+  header: {
+    0: 'Notifications',
+    1: 'Follow us on these platforms to receive notifications about new skins'
   },
   restricted_view: {
     0: 'Unauthorized',

@@ -185,7 +185,8 @@ export default {
       1: 'الأوسمة',
       2: 'Users',
       3: 'القوائم'
-    }
+    },
+    14: 'Search:'
   },
   tabs: {
     0: 'بحث',
@@ -214,7 +215,8 @@ export default {
       9: 'احصل على الإلهام من أزياء osu أخرى',
       10: '{name} صمم أزياء اللعبة',
       11: 'Search tags',
-      12: '{name} found tags'
+      12: '{name} found tags',
+      13: 'زي جديد'
     },
     description: {
       0: 'جد أفضل أزياء اوسو في موقعنا! مكتبتنا تحتوي على أزياء من أجل جميع أنماط اللعب، النسب الباعية، و أفضل اللاعبين. إضافة إلى دلك لدينا جزء خاص لمعجبي الأنمي. حسن لعبك بإيجاد الزي المثالي.',
@@ -395,6 +397,10 @@ export default {
     49: 'Odd link',
     50: 'This link cannot be used as a download link',
     51: 'Submitted for moderation'
+  },
+  header: {
+    0: 'إشعارات',
+    1: 'Follow us on these platforms to receive notifications about new skins'
   },
   restricted_view: {
     0: 'غير مسموح',

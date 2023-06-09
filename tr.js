@@ -1,6 +1,6 @@
 export default {
   title: {
-    home: 'Ana',
+    home: 'Ana ekran',
     login: 'Giriş yap',
     lists: { 0: 'Listeler' },
     tags: {
@@ -9,7 +9,7 @@ export default {
       2: 'Etiket arayın'
     },
     ideas: {
-      0: 'İlham',
+      0: 'Keşfet',
       1: '«{amount}»'
     },
     sounds: { 0: 'Sesler' },
@@ -185,7 +185,8 @@ export default {
       1: 'Etiketler',
       2: 'Kullanıcılar',
       3: 'Listeler'
-    }
+    },
+    14: 'Search:'
   },
   tabs: {
     0: 'Ara',
@@ -214,7 +215,8 @@ export default {
       9: 'Diğer osu skinlerinden ilham alın',
       10: '{name} created osu skins',
       11: 'Etiket arayın',
-      12: '{name} bulunan etiketler'
+      12: '{name} bulunan etiketler',
+      13: 'Yeni skin'
     },
     description: {
       0: 'Sitemizden en iyi osu! skinlerini edinin! Devasa kütüphanemizde tüm oyunmodlarına, çerçeve oranlarına hatta top playerlara ilişkin skinler bulabilirsin. Artı olarak anime fanlarına yönelik bi bölümümüz daha var. Mükemmel skininle birlikte oyununu bir adım ileri taşı. #osuskins #osugame #anime',
@@ -395,6 +397,10 @@ export default {
     49: 'Garip link',
     50: 'Bu link bir indirme bağlantısı olarak kullanılamaz',
     51: 'Moderasyon için gönderildi'
+  },
+  header: {
+    0: 'Bildirimler',
+    1: 'Follow us on these platforms to receive notifications about new skins'
   },
   restricted_view: {
     0: 'Yetkiniz yok',

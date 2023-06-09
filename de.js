@@ -90,7 +90,7 @@ export default {
     12: 'Link zum Skin nicht angegeben.',
     20: 'Sieht gut aus',
     21: 'Jedes Problem wurde behoben. Gute Arbeit!',
-    22: 'Strichliste',
+    22: 'Checkliste',
     23: 'Füge mindestens eine öffentliche Version hinzu',
     24: 'Add at least one creator to this version',
     25: 'Some creators doesn\'t have roles'
@@ -120,7 +120,7 @@ export default {
     5: 'Bildschirmfotos',
     6: 'Nur Gameplay',
     7: 'Download Link | Skin downloaden',
-    8: 'Forenbeitrag | osu! Forum',
+    8: 'Forumsbeitrag | osu! Forum',
     9: 'Redditbeitrag',
     10: 'Ersteller',
     11: 'Stichworte',
@@ -176,7 +176,7 @@ export default {
     5: 'Datum',
     7: 'Nichts gefunden.',
     8: 'Versuche, andere Suchkriterien zu benutzen',
-    9: 'Abfrage anstehend.',
+    9: 'Anfrage austehend',
     10: 'Benutze den Skin-Filter oder gebe den Titel, Autor oder die Tags des Skins ein',
     11: 'Downloads',
     12: 'Name',
@@ -185,7 +185,8 @@ export default {
       1: 'Stichworte',
       2: 'Benutzer',
       3: 'Listen'
-    }
+    },
+    14: 'Search:'
   },
   tabs: {
     0: 'Suche',
@@ -214,7 +215,8 @@ export default {
       9: 'Bekomme Inspiration von anderen osu! Skins',
       10: '{name} hat osu! Skins erstellt.',
       11: 'Tags suchen',
-      12: '{name} fand Tags'
+      12: '{name} fand Tags',
+      13: 'Neuer Skin'
     },
     description: {
       0: 'Bekomme die besten osu! Skins auf unserer Seite! Unsere größte Bibliothek hat Skins für alle Spielmodi, Seitenverhältnisse und sogar von den besten osu! Spielern. Zudem haben wir auch einen extra Abschnitt für Anime-Liebhaber. Verbessere dein Gameplay mit dem perfekten Skin. #osuskins #osugame #anime',
@@ -395,6 +397,10 @@ export default {
     49: 'Odd link',
     50: 'This link cannot be used as a download link',
     51: 'Submitted for moderation'
+  },
+  header: {
+    0: 'Benachrichtigungen',
+    1: 'Follow us on these platforms to receive notifications about new skins'
   },
   restricted_view: {
     0: 'Nicht autorisiert!',

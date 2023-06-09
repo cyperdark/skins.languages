@@ -185,7 +185,8 @@ export default {
       1: 'Tags',
       2: 'Brukere',
       3: 'Lister'
-    }
+    },
+    14: 'Search:'
   },
   tabs: {
     0: 'Søk',
@@ -214,7 +215,8 @@ export default {
       9: 'Get inspiration from other osu skins',
       10: '{name} laget osu skins',
       11: 'Søkefilter',
-      12: '{name} found tags'
+      12: '{name} found tags',
+      13: 'Nytt skin'
     },
     description: {
       0: 'Få de beste osu! skins på vår nettside! Vårt store lager med skins for alle spillmoduser, størrelsesformat og spillere i toppen. Plus, vi har en spesiell seksjon for anime fans. Forbedre spillingen din med det perfekte skinnet. #osuskins #osugame #anime',
@@ -395,6 +397,10 @@ export default {
     49: 'Merkeling lenke',
     50: 'Denne lenken kan ikke brukes som en nedlastningslenke',
     51: 'Sendt inn, avventer moderasjon'
+  },
+  header: {
+    0: 'Varslinger',
+    1: 'Follow us on these platforms to receive notifications about new skins'
   },
   restricted_view: {
     0: 'Ikke autorisert',

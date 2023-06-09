@@ -185,7 +185,8 @@ export default {
       1: 'Penanda',
       2: 'Pengguna',
       3: 'Senarai'
-    }
+    },
+    14: 'Search:'
   },
   tabs: {
     0: 'Cari',
@@ -214,7 +215,8 @@ export default {
       9: 'Dapatkan inspirasi dari skin osu yang lain',
       10: '{name} membuat skin osu',
       11: 'Cari tag',
-      12: '{name} tag-tag dijumpai'
+      12: '{name} tag-tag dijumpai',
+      13: 'Skin baharu'
     },
     description: {
       0: 'Dapatkan skin osu! yang terbaik dari laman web kami! Kami mempunyai banyak skin untuk semua mod permainan, nisbah aspek dan juga pemain-pemain terbaik. Tambahan, kami juga mempunyai bahagian yang istimewa untuk peminat-peminat anime. Menaik taraf permainan anda dengan skin yang sempurna. #osuskins #osugame #anime',
@@ -395,6 +397,10 @@ export default {
     49: 'Link pelik',
     50: 'Link ini tidak boleh diguna sebagai link muat turun',
     51: 'Telah diserahkan kepada moderasi'
+  },
+  header: {
+    0: 'Notifikasi',
+    1: 'Follow us on these platforms to receive notifications about new skins'
   },
   restricted_view: {
     0: 'Tiada kebenaran',

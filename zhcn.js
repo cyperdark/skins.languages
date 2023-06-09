@@ -22,11 +22,11 @@ export default {
     tools: '工具'
   },
   home: {
-    0: 'Available to download',
+    0: '可供下载',
     1: 'Most: _name_ skins',
     2: 'Viewed | Liked | Downloaded',
-    3: 'Publish new skin',
-    4: 'How to install skin'
+    3: '发布新皮肤',
+    4: '如果安装皮肤'
   },
   changelogs: {
     0: '更新日志',
@@ -142,11 +142,11 @@ export default {
     28: '没有标签',
     29: '没有视频',
     30: '没有创作者',
-    31: 'Rate skin',
-    32: 'Upvote & comment on reddit',
-    33: 'Comment on osu! forum',
-    34: 'More skins from this author | More skins from this authors',
-    35: 'Support the skin'
+    31: '给皮肤评分',
+    32: '前往 Reddit 帖点赞 & 评论',
+    33: '前往 osu! 论坛评论',
+    34: '来自该作者的更多皮肤 | 来自该作者的更多皮肤',
+    35: '支持该皮肤'
   },
   drag: {
     0: '点击这里',
@@ -169,7 +169,7 @@ export default {
   },
   search: {
     0: '皮肤查询',
-    1: '视图',
+    1: '浏览量',
     2: '标题',
     3: '评分',
     4: '尺寸',
@@ -185,7 +185,8 @@ export default {
       1: '标签',
       2: '用户',
       3: '列表'
-    }
+    },
+    14: 'Search:'
   },
   tabs: {
     0: '搜索',
@@ -214,7 +215,8 @@ export default {
       9: '从其他 osu 皮肤中获得灵感',
       10: '{name} 制作的 osu 皮肤',
       11: '搜索标签',
-      12: '{name} found tags'
+      12: '{name} found tags',
+      13: '新皮肤'
     },
     description: {
       0: '在我们的网站上获取最佳 osu! 皮肤！我们的巨大库中有所有游戏模式、画面比例甚至是顶尖玩家的皮肤。此外，我们还有一个专门的动漫粉丝区。使用完美的皮肤提高你的游戏体验。#osuskins #osugame #anime',
@@ -301,7 +303,7 @@ export default {
     7: '皮肤元素',
     8: '音效',
     9: '工具',
-    views: '视图',
+    views: '浏览量',
     likes: '喜欢',
     dislikes: '不喜欢',
     downloads: '下载',
@@ -368,9 +370,9 @@ export default {
     22: '已添加新的创作者',
     23: 'HUH',
     24: '无法删除一个已被删除的创作者',
-    25: 'Duplicate',
+    25: '重复',
     26: '此更改已在之前添加。',
-    27: 'Duplicate',
+    27: '重复',
     28: '此 URL 已在之前添加。',
     29: '注意',
     30: '您尚未为 URL 添加描述。示例：“描述:URL”',
@@ -396,10 +398,14 @@ export default {
     50: '此链接无法用作下载链接',
     51: '已提交审核'
   },
+  header: {
+    0: '通知',
+    1: 'Follow us on these platforms to receive notifications about new skins'
+  },
   restricted_view: {
     0: '无权限',
     1: '请登录您的账户',
     2: '受限视图',
-    3: 'This page is not out, yet.'
+    3: '该页面还未推出。'
   }
 };

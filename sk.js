@@ -185,7 +185,8 @@ export default {
       1: 'Štítky',
       2: 'Users',
       3: 'Zoznamy'
-    }
+    },
+    14: 'Search:'
   },
   tabs: {
     0: 'Hľadať',
@@ -214,7 +215,8 @@ export default {
       9: 'Získaj inšpiráciu z ostatných osu! skinov',
       10: '{name} výrobca osu skinou',
       11: 'Search tags',
-      12: '{name} najdené štítky'
+      12: '{name} najdené štítky',
+      13: 'Novy skin'
     },
     description: {
       0: 'Získajte najlepšie osu! skiny na našej stránke! Naša obrovská knižnica má skiny pre všetke herné režimy, pomery strán a dokonca aj pre špičkových hráčov. Navyše máme špeciálnu sekciu pre fanúšikov anime. Zlepšite svoju hru s dokonalým vzhľadom. #osuskins #osugame #anime',
@@ -395,6 +397,10 @@ export default {
     49: 'Odd link',
     50: 'This link cannot be used as a download link',
     51: 'Submitted for moderation'
+  },
+  header: {
+    0: 'Oznámenia',
+    1: 'Follow us on these platforms to receive notifications about new skins'
   },
   restricted_view: {
     0: 'Neoprávnené',

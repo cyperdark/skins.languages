@@ -185,7 +185,8 @@ export default {
       1: 'Các Tag',
       2: 'Người dùng',
       3: 'Danh sách'
-    }
+    },
+    14: 'Search:'
   },
   tabs: {
     0: 'Tìm kiếm',
@@ -214,7 +215,8 @@ export default {
       9: 'Lấy cảm hứng từ các skin osu khác',
       10: '{name} đã tạo skin osu',
       11: 'Tìm tag',
-      12: 'Các tag chứa {name}'
+      12: 'Các tag chứa {name}',
+      13: 'Skin mới'
     },
     description: {
       0: 'Tảỉ về những skin osu! tốt nhất từ trang của chúng tôi! Thư viện to lớn của chúng tôi có skin cho mọi chế độ chơi, tỷ lệ khung hình và cả kể cả những top player. Thêm vào đó, chúng tôi có một khu đặc biệt dành cho các fan anime. Cả thiện gameplay với một skin hoàn hảo. #osuskins #osugame #anime',
@@ -395,6 +397,10 @@ export default {
     49: 'Đường link lạ',
     50: 'Liên kết này không thể dùng làm link tải về',
     51: 'Đã gửi cho kiểm duyệt'
+  },
+  header: {
+    0: 'Thông báo',
+    1: 'Follow us on these platforms to receive notifications about new skins'
   },
   restricted_view: {
     0: 'Không thể truy cập',

@@ -22,11 +22,11 @@ export default {
     tools: 'Hulpmiddelen'
   },
   home: {
-    0: 'Available to download',
-    1: 'Most: _name_ skins',
-    2: 'Viewed | Liked | Downloaded',
-    3: 'Publish new skin',
-    4: 'How to install skin'
+    0: 'Beschikbaar om te downloaden',
+    1: 'Meest: _name_skins',
+    2: 'Bekeken | Duimpie omhoog | Gedownload',
+    3: 'Publiceer een nieuwe skin',
+    4: 'Hoe een skin te installeren'
   },
   changelogs: {
     0: 'Veranderingen',
@@ -92,8 +92,8 @@ export default {
     21: 'Elk probleem is opgelost. Lekker gedaan!',
     22: 'Checklist',
     23: 'Voeg minimaal één openbare versie toe',
-    24: 'Add at least one creator to this version',
-    25: 'Some creators doesn\'t have roles'
+    24: 'Voeg tenminste één maker toe aan deze versie',
+    25: 'Sommige makers hebben geen rollen'
   },
   skins: {
     0: 'Skins',
@@ -142,11 +142,11 @@ export default {
     28: 'Geen categorieën',
     29: 'Geen video\'s',
     30: 'Geen makers',
-    31: 'Rate skin',
-    32: 'Upvote & comment on reddit',
-    33: 'Comment on osu! forum',
-    34: 'More skins from this author | More skins from this authors',
-    35: 'Support the skin'
+    31: 'Beoordeel de skin',
+    32: 'Geef een pijltje omhoog & bespreek op reddit',
+    33: 'Bespreek op het osu! forum',
+    34: 'Meer skins van deze auteur | Meer skins van deze auteurs',
+    35: 'Steun de skin'
   },
   drag: {
     0: 'Klik hier',
@@ -185,7 +185,8 @@ export default {
       1: 'Categorieën',
       2: 'Gebruikers',
       3: 'Lijsten'
-    }
+    },
+    14: 'Zoek:'
   },
   tabs: {
     0: 'Zoek',
@@ -214,7 +215,8 @@ export default {
       9: 'Krijg inspiratie van andere osu skins',
       10: '{name} maakte osu skins',
       11: 'Zoek categorieën',
-      12: '{name} gevonden tags'
+      12: '{name} gevonden tags',
+      13: 'Nieuwe skin'
     },
     description: {
       0: 'Pak de beste osu! skins van onze website! Ons grote aanbod heeft skins voor alle gamemodes, aspect ratio’s  en we hebben zelfs skins van de beste spelers. Maar dan heb je anime sectie nog niet gezien. Speel beter met onze hoge skins van hoge kwaliteit. #osuskins #osugame #anime',
@@ -395,6 +397,10 @@ export default {
     49: 'Vreemde link',
     50: 'Deze link kan niet gebruikt worden als download link',
     51: 'Ingediend voor moderatie'
+  },
+  header: {
+    0: 'Notificaties',
+    1: 'Volg ons op deze plekken om notificaties te ontvangen over nieuwe skins'
   },
   restricted_view: {
     0: 'Niet geautoriseerd',
