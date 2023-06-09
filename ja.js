@@ -26,7 +26,8 @@ export default {
     1: '最も: _name_スキン',
     2: '閲覧された | 評価された | ダウンロードされた',
     3: '新しいスキンを公開',
-    4: 'スキンのインストール方法'
+    4: 'スキンのインストール方法',
+    5: '{amount} Skins | {amount} Skins | {amount} Skins'
   },
   changelogs: {
     0: '変更ログ',
