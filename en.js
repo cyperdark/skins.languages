@@ -27,7 +27,6 @@ export default {
     2: 'Viewed | Liked | Downloaded',
     3: 'Publish new skin',
     4: 'How to install skin',
-    5: '{amount} Skins | {amount} Skins | {amount} Skins',
   },
   changelogs: {
     0: 'Changelog',
