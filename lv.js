@@ -6,7 +6,7 @@ export default {
     tags: {
       0: 'Tagi',
       1: '{amount} tagi kategorijai {name}',
-      2: 'Search tags'
+      2: 'Meklē tagus'
     },
     ideas: {
       0: 'Iedvesma',
@@ -22,17 +22,17 @@ export default {
     tools: 'Instrumenti'
   },
   home: {
-    0: 'Available to download',
-    1: 'Most: _name_ skins',
-    2: 'Viewed | Liked | Downloaded',
-    3: 'Publish new skin',
-    4: 'How to install skin'
+    0: 'Pieejams lejupielādēt',
+    1: 'Visvairāk: _name_ skini',
+    2: 'Skatīts | Patīkots | Lejupielādēts',
+    3: 'Publicēt jaunu skinu',
+    4: 'Kā lejupielādēt skinu'
   },
   changelogs: {
     0: 'Izmaiņu saraksts',
     1: 'Saraksts ar visām veiktajām revīzijām pašreizējā versijā',
     2: 'Šeit nekā nav',
-    3: 'But you can add the changes you\'ve made to this version of the skin',
+    3: 'Bet tu vari pievienot izmaiņas, kuras tu esi veicis šai skina versijai',
     4: 'Nav grupēts',
     5: 'Jaunais',
     6: 'Labotais',
@@ -41,7 +41,7 @@ export default {
   },
   ideas: {
     0: 'Nekas nav atrasts',
-    1: 'Screenshots of «{type}» were not uploaded to the site'
+    1: 'Ekrānuzņēmumi no «{type}» netika augšupielādēti uz saiti'
   },
   creators: {
     0: 'Veidotāji',
@@ -57,8 +57,8 @@ export default {
     1: 'Saraksts ar visiem tagiem, kas ir saistīti ar šo skinu',
     2: 'Šeit liekas diezgan klusi.',
     3: 'Izmanto augšējo lauku, lai atrastu jaunus tagus',
-    4: 'Tags not found',
-    5: 'Try searching for something else',
+    4: 'Tagi netika atrasti',
+    5: 'Mēģini meklēt kaut ko citu',
     6: 'Meklēt'
   },
   videos: {
@@ -78,7 +78,7 @@ export default {
     0: 'Viss',
     1: 'Metadata',
     2: 'Izceltais',
-    3: 'Name of the skin not specified',
+    3: 'Skina nosaukums nav norādīts',
     4: 'Pievieno vismaz vienu skina veidotāju',
     5: 'Pievieno pāris tagu',
     6: 'Skina lielums nav specificēts',
@@ -88,12 +88,12 @@ export default {
     10: 'Nav ekrānuzņēmumu',
     11: 'Pievieno vismaz vienu ekrānuzņēmumu ar gameplay',
     12: 'Saite uz linku nav norādīta',
-    20: 'Looks pretty good',
-    21: 'Every issue was fixed. Good job!',
+    20: 'Viss ir čikiniekā!',
+    21: 'Tu salaboji visas problēmas. Malacis!',
     22: 'Problēmu saraksts',
-    23: 'Add at least one public version',
-    24: 'Add at least one creator to this version',
-    25: 'Some creators doesn\'t have roles'
+    23: 'Pievieno vismaz vienu publisku versiju',
+    24: 'Pievieno vismaz vienu veidotāju pie šīs versijas',
+    25: 'Dažiem veidotājiem nav lomu'
   },
   skins: {
     0: 'Skini',
@@ -108,8 +108,8 @@ export default {
     9: 'Skins | Skina | Skinu',
     10: 'osu Skini pēc {name} | Visi skini no',
     11: 'Meklēt',
-    12: '{name} skins',
-    13: 'Explore skins'
+    12: '{name} skini',
+    13: 'Izpētīt skinus'
   },
   skin: {
     0: 'Rediģēt',
@@ -139,14 +139,14 @@ export default {
     25: 'Tu neesi viens no mums',
     26: 'Šķiet, ka tu neesi šī skina veidotājs vai rediģētājs',
     27: 'Skinu veidoja',
-    28: 'No tags',
-    29: 'No videos',
-    30: 'No creators',
-    31: 'Rate skin',
-    32: 'Upvote & comment on reddit',
-    33: 'Comment on osu! forum',
-    34: 'More skins from this author | More skins from this authors',
-    35: 'Support the skin'
+    28: 'Nav tagu',
+    29: 'Nav video',
+    30: 'Nav viedotāju',
+    31: 'Novērtēt skinu',
+    32: 'Augšupbalso & komentē redditā',
+    33: 'Komentē osu! forumā',
+    34: 'Vairāk skini no šī veidotāja | Vairāk skini no šī veidotāja',
+    35: 'Atbalsti skinu'
   },
   drag: {
     0: 'Klikšķini šeit',
@@ -165,7 +165,7 @@ export default {
     5: 'Visas karogu bildes ir no {name}',
     6: 'Tulkošana',
     7: 'Neviens? [{lang}]',
-    8: 'Seems like cyperdark forgot to add them. {text}'
+    8: 'Izskatās, ka cyperdark aizmirsa tos pievienot. {text}'
   },
   search: {
     0: 'Meklēt skinu',
@@ -175,17 +175,18 @@ export default {
     4: 'Izmērs',
     5: 'Datums',
     7: 'Nekas nav atrasts',
-    8: 'Try using different search filters',
+    8: 'Mēģini izmantot citus meklēšanas filtrus',
     9: 'Gaida pieprasījumu',
-    10: 'Use the search filters or type the skin\'s title, author or tags',
+    10: 'Izmanto pašreizējos filtrus vai ierkasti skina nosaukumu, veidotāju vai tagus',
     11: 'Lejupielādes',
     12: 'Nosaukums',
     13: {
       0: 'Skini',
       1: 'Tagi',
-      2: 'Users',
+      2: 'Lietotāji',
       3: 'Saraksti'
-    }
+    },
+    14: 'Meklē:'
   },
   tabs: {
     0: 'Meklēt',
@@ -194,11 +195,11 @@ export default {
   },
   undefined: {
     0: 'Nav nekā',
-    1: 'Unfortunately, there\'s nothing here, but you can take a look at the other pages',
-    2: 'Unfortunately, there\'s nothing here',
+    1: 'Diemžēl šajā lapā nekā nav, bet tu vari pamēģināt paskatīties citās lapās',
+    2: 'Diemžēl šeit nekā nav',
     3: 'Neautorizēts',
-    4: 'You need to be logged in order to edit this skin.',
-    5: 'You need to be logged in order to add a new skin.'
+    4: 'Tev jāpieslēdzas, lai rediģētu šo skinu.',
+    5: 'Tev jāpieslēdzas, lai pievienotu jaunu skinu.'
   },
   meta: {
     title: {
@@ -213,8 +214,9 @@ export default {
       8: '{name} meklēt osu skinus',
       9: 'Iedvesmojies no citiem osu skiniem',
       10: '{name} veidoja osu skinus',
-      11: 'Search tags',
-      12: '{name} found tags'
+      11: 'Meklē tagus',
+      12: '{name} atrada tagus',
+      13: 'Jauns skins'
     },
     description: {
       0: 'Dabū labākos osu! skinus mūsu saitē! Mūzu milzīgajā klāstā ir skini visiem spēļu režīmiem, visām malu attiecībām un pat top spēlētājiem. Un, mums ir īpaša sadaļa anime faniem. Uzlabo savu gameplay ar perfekto skinu. #osuskins #osugame #anime',
@@ -227,7 +229,7 @@ export default {
       7: 'Liela kolekcija osu skinu priekš {name}, bezmaksas lejupielāde!',
       8: 'Visus skinus sastādījis {name}',
       9: 'Atrodi iedvesmu savam nākamajam osu! skinam mūsu saitē. Pārlūko daudzveidīgu kolekciju ar skiniem, un atklāj jaunas metodes un idejas. Gūsti iedvesmu un izveido pats savu skinu.',
-      10: 'Search for tags among all the tags on the site.'
+      10: 'Meklē tagus starp visiem tagiem, kas ir šājā mājaslapā.'
     }
   },
   buttons: {
@@ -261,7 +263,7 @@ export default {
     3: 'Patīk: {likes} / Nepatīk: {dislikes}',
     4: 'Spied ctrl+enter, lai pievienotu tagu',
     5: 'Rediģēt versiju',
-    6: '{s}Log in{p}, in order to rate this skin',
+    6: '{s}Jāpieslēdzas{p}, lai varētu novērtēt šo skinu',
     7: 'Nav īsā apraksta',
     8: 'Nav saites',
     9: 'Lejupielādes: {amount}'
@@ -310,9 +312,9 @@ export default {
     ratio: 'Malu attiecība | attiecība'
   },
   placeholders: {
-    0: 'Select roles',
-    1: 'Select versions',
-    2: 'Type some text...',
+    0: 'Izvēlies lomas',
+    1: 'Izvēlies versijas',
+    2: 'Ievadi tekstu...',
     3: 'Skina izmērs',
     4: 'Datuma diapazons',
     5: 'Gads',
@@ -322,84 +324,88 @@ export default {
     9: 'Spēles režīmi',
     10: 'Izvēlies tipu',
     11: 'Ielīmē YouTube saiti',
-    12: 'Type a description and an url. Format description:url',
+    12: 'Ievadi aprakstu un saiti. Piemērs: apraksts:saite',
     13: 'Izvēlies vairāk',
     14: 'Ielīmē saiti',
-    15: 'Skin title, author, or tags',
-    16: 'Select category',
-    17: 'Type the name of the tag'
+    15: 'Skina nosaukums, veidotājs vai tagi',
+    16: 'Izvēlies kategoriju',
+    17: 'Ieraksti taga nosaukumu'
   },
   contribute: { 0: 'Izpalīdzēt' },
   nsfw: {
     0: 'Brīdinājums!',
     1: 'Šis skins satur aizskarošu vai nepiemērotu saturu',
     2: 'Šis skins satur aizskarošu vai nepiemērotu saturu, kas dažiem lietotājiem varētu likties satraucošs',
-    3: 'Alright',
-    4: 'bye o/'
+    3: 'Labi',
+    4: 'atā o/'
   },
   removed: {
-    0: 'Version unavailable',
-    1: 'The author of the skin decided to remove this version from the site.',
-    2: 'Switch to an available version'
+    0: 'Versija nav pieejama',
+    1: 'Šī skina veidotājs nolēma noņemt šo versiju no mājaslapas.',
+    2: 'Pārej uz pieejamu versiju'
   },
   notify: {
-    0: 'Issues were not fixed',
-    1: 'Not all required fields were filled',
-    2: 'Show',
-    3: 'Not found',
-    4: 'Banner not found (Currently, the first screenshot is being used as the banner)',
-    5: 'No changes',
-    6: 'No changes were found',
-    7: 'ID not found',
-    8: 'ID of the video not found, try another link (At the moment only YouTube is supported)',
-    9: 'Oops',
-    10: 'Looks like your session expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
-    11: 'Exists',
-    12: 'This video has already been added',
-    13: 'Exists',
-    14: 'This tag has already been added',
-    15: 'Not found',
-    16: 'You cannot delete a deleted tag',
-    17: 'Added',
-    18: 'You have successfully added a new tag',
-    19: 'OOps',
-    20: 'This creator was already added',
+    0: 'Problēmas netika salabotas',
+    1: 'Visi obligātie laukumi netika aizpildīti',
+    2: 'Parādīt',
+    3: 'Nav atrasts',
+    4: 'Baneris netika atrasts (Šobrīd pirmais ekrānuzņēmums tiek izmantots kā baneris)',
+    5: 'Nav izmaiņu',
+    6: 'Izmaiņas netika atrastas',
+    7: 'ID netika atrasts',
+    8: 'Video ID netika atrasts, pamēģini citu saiti (Dotajā brīdī tikai YouTube ir atbalstīta)',
+    9: 'Ups',
+    10: 'Izskatās, ka tava sesija ir beigusies. Atver jaunu lapu un pieslēdzies savam kontam (Neraizējies, viss automātiski tika saglabāts)',
+    11: 'Eksistē',
+    12: 'Šis video jau ir ticis pievienots',
+    13: 'Eksistē',
+    14: 'Šis tags jau ir ticis pievienots',
+    15: 'Nav atrasts',
+    16: 'Tu nevari izdzēst jau izdzēstu tagu',
+    17: 'Pievienots',
+    18: 'Tu esi veiksmīgi pievienojis jaunu tagu',
+    19: 'Ups',
+    20: 'Šis veidotājs jau tika pievienots',
     21: 'EZ',
-    22: 'New creator has been added',
-    23: 'HUH',
-    24: 'Impossible to remove a deleted creator',
-    25: 'Duplicate',
-    26: 'This change has already been added earlier.',
-    27: 'Duplicate',
-    28: 'This url has already been added earlier.',
-    29: 'Warning',
-    30: 'You forgot to add a description for the url. Example: Description:url',
-    31: 'Warning',
-    32: 'You forgot to add an url for the description. Example: Description:url',
-    33: 'Restored',
-    34: 'Version «{name}» has been restored',
-    35: 'Deleted',
-    36: 'Version «{name}» has been deleted',
-    37: 'Error',
-    38: 'Apparently the server thinks you\'re a robot.',
-    39: 'Looks like your user session has expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
-    40: 'Mismatched credentials (relogin in account. Don\'t worry, everything was saved automatically)',
-    41: 'Unknown error',
-    42: 'You cannot edit a nonexistent skin',
-    43: 'Seems like you don\'t have permission to edit this skin',
-    44: 'You cannot send this version because it is the same as the previous one.',
-    45: 'These changes have already been sent for moderation',
-    46: 'Success',
-    47: 'New changes have been submitted for moderation',
-    48: 'Changes have been updated in moderation',
-    49: 'Odd link',
-    50: 'This link cannot be used as a download link',
-    51: 'Submitted for moderation'
+    22: 'Jaunais veidotājs ir ticis pievienots',
+    23: 'KO',
+    24: 'Neiespējami noņemt izdzēstu veidotāju',
+    25: 'Dublēt',
+    26: 'Šī pārmaiņa jau iepriekš ir tikusi pievienota.',
+    27: 'Dublēt',
+    28: 'Šī saite jau iepriekš ir tikusi pievienota.',
+    29: 'Brīdinājums',
+    30: 'Tu aizmirsi pievienot aprakstu saitei. Piemērs: apraksts:saite',
+    31: 'Brīdinājums',
+    32: 'Tu aizmirsi pievienot saiti aprakstam. Piemēram: apraksts:saite',
+    33: 'Atjaunots',
+    34: 'Versija «{name}» ir tikusi atjaunota',
+    35: 'Izdzēsts',
+    36: 'Versija «{name}» ir tikusi izdzēsta',
+    37: 'Kļūda',
+    38: 'Izskatās, ka serveris domā, ka tu esi robots.',
+    39: 'Izskatās, ka tava sesija ir beigusies. Atver jaunu lapu un pieslēdzies savam kontam (Neraizējies, viss automātiski tika saglabāts)',
+    40: 'Neatbilstoši akreditācijas dati (No jauna pieslēdzies savam kontam. Neraizējies, viss automātiski tika saglabāts)',
+    41: 'Nezināma kļūda',
+    42: 'Tu nevari rediģēt neeksistējošu skinu',
+    43: 'Izskatās, ka tev nav atļaujas rediģēt šo skinu',
+    44: 'Tu nevari ielikt šo versiju, jo tā ir tāda pati kā iepriekšējā.',
+    45: 'Šīš izmaiņas jau ir tikušas aizsūtītas moderācijai',
+    46: 'Veiksmīgi',
+    47: 'Jaunas izmaiņas ir tikušas iesūtītas moderācijai',
+    48: 'Ir veiktas pārmaiņas moderācijā',
+    49: 'Savāda saite',
+    50: 'Šī saite nevar tikt izmantota kā lejupielādes saite',
+    51: 'Iesūtīts moderācijai'
+  },
+  header: {
+    0: 'Notifikācijas',
+    1: 'Seko mums šajās platformās, lai saņemtu notifikācijas par jauniem skiniem'
   },
   restricted_view: {
     0: 'Neautorizēts',
-    1: 'Please log into your account',
-    2: 'Restricted view',
-    3: 'This page is not out, yet.'
+    1: 'Lūdzu pieslēdzies savam kontam',
+    2: 'Ierobežots skats',
+    3: 'Šī lapa vēl nav iznākusi.'
   }
 };
