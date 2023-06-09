@@ -6,7 +6,7 @@ export default {
     tags: {
       0: 'Ключови Думи',
       1: '{amount} ключови думи  за категория {name}',
-      2: 'Search tags'
+      2: 'Търси тагове'
     },
     ideas: {
       0: 'Вдъхновение',
@@ -22,17 +22,17 @@ export default {
     tools: 'Инструменти'
   },
   home: {
-    0: 'Available to download',
-    1: 'Most: _name_ skins',
-    2: 'Viewed | Liked | Downloaded',
-    3: 'Publish new skin',
-    4: 'How to install skin'
+    0: 'Налични за изтегляне',
+    1: 'Повечето: _name_ skins',
+    2: 'Гледани | Харесвани | Изтегляни',
+    3: 'Публикувай облик',
+    4: 'Как се инсталира облик'
   },
   changelogs: {
     0: 'Списък с промени',
     1: 'Списък на всички ревизии, направени в текущата версия',
     2: 'Няма нищо тук',
-    3: 'But you can add the changes you\'ve made to this version of the skin',
+    3: 'Но можете да добативе промени, които сте направили по тази версия на облика',
     4: 'Без група',
     5: 'Ново',
     6: 'Поправено',
@@ -41,7 +41,7 @@ export default {
   },
   ideas: {
     0: 'Нищо не е намерено',
-    1: 'Screenshots of «{type}» were not uploaded to the site'
+    1: 'Екранни снимки от «{type}» не бяха качени на сайта'
   },
   creators: {
     0: 'Създатели',
@@ -57,8 +57,8 @@ export default {
     1: 'Списък с всички ключови думи свързани с този облик',
     2: 'Изглежда доста празно тук.',
     3: 'Използвайте полето горе, за да намерите нови ключови думи.',
-    4: 'Tags not found',
-    5: 'Try searching for something else',
+    4: 'Не са намерени тагове',
+    5: 'Опитайте се да потърсите нещо друго',
     6: 'Търсене'
   },
   videos: {
@@ -78,7 +78,7 @@ export default {
     0: 'Всички',
     1: 'Метаданни',
     2: 'Отличителни черти',
-    3: 'Name of the skin not specified',
+    3: 'Името на облика не е специфизирано',
     4: 'Добавете поне един съдател на облика',
     5: 'Добавете няколко ключови думи',
     6: 'Тежестта на облика не е специфицирана',
@@ -88,12 +88,12 @@ export default {
     10: 'Няма екранни снимки',
     11: 'Добавете поне една екранна снимка по време на игра',
     12: 'Връзка за облика не е специфициран',
-    20: 'Looks pretty good',
-    21: 'Every issue was fixed. Good job!',
+    20: 'Изглежда доста добре',
+    21: 'Всички грешки бяха поправени. Браво!',
     22: 'Списък за проверка',
-    23: 'Add at least one public version',
-    24: 'Add at least one creator to this version',
-    25: 'Some creators doesn\'t have roles'
+    23: 'Добавете поне една публична версия',
+    24: 'Добавете поне един автор на тази версия',
+    25: 'Някои автори нямат роли'
   },
   skins: {
     0: 'Облици',
@@ -108,8 +108,8 @@ export default {
     9: 'Облик | Облици | Облици',
     10: 'osu облици от {name} | Всички облици от',
     11: 'Търсене',
-    12: '{name} skins',
-    13: 'Explore skins'
+    12: '{name} облици',
+    13: 'Прегледайте облици'
   },
   skin: {
     0: 'Редактиран',
@@ -139,14 +139,14 @@ export default {
     25: 'Ти не си един от нас',
     26: 'Изглежда че ти не си един от създателите или редакторите на този облик',
     27: 'Облик от',
-    28: 'No tags',
-    29: 'No videos',
-    30: 'No creators',
-    31: 'Rate skin',
-    32: 'Upvote & comment on reddit',
-    33: 'Comment on osu! forum',
-    34: 'More skins from this author | More skins from this authors',
-    35: 'Support the skin'
+    28: 'Няма тагове',
+    29: 'Няма видеа',
+    30: 'Няма създатели',
+    31: 'Оцени облик',
+    32: 'Ъпвоут и комент в reddit',
+    33: 'Коментирай в osu! форума',
+    34: 'Още облици от този автор | Още облици от този автор',
+    35: 'Подкрепете облика'
   },
   drag: {
     0: 'Кликнете тук',
@@ -165,7 +165,7 @@ export default {
     5: 'Всички изображения на знамена са взети от {name}',
     6: 'Локализация',
     7: 'Някой? [{lang}]',
-    8: 'Seems like cyperdark forgot to add them. {text}'
+    8: 'Изглежда, че cyperdark е забравил да ги добави. {text}'
   },
   search: {
     0: 'Търсене на облик',
@@ -175,17 +175,18 @@ export default {
     4: 'Големина',
     5: 'Дата',
     7: 'Нищо не е намерено',
-    8: 'Try using different search filters',
+    8: 'Опитайте други филтри за търсене',
     9: 'Чакане на заявка',
-    10: 'Use the search filters or type the skin\'s title, author or tags',
+    10: 'Използвайте филтрите за търсене или въведете заглавие, автор или тагове на облика',
     11: 'Изгеляния',
     12: 'Име',
     13: {
       0: 'Облици',
       1: 'Ключови Думи',
-      2: 'Users',
+      2: 'Потребители',
       3: 'Списъци'
-    }
+    },
+    14: 'Търсене:'
   },
   tabs: {
     0: 'Търсене',
@@ -194,10 +195,10 @@ export default {
   },
   undefined: {
     0: 'Празно',
-    1: 'Unfortunately, there\'s nothing here, but you can take a look at the other pages',
-    2: 'Unfortunately, there\'s nothing here',
+    1: 'За съжаление, няма нищо тук, но може да огледате други страници',
+    2: 'За съжаление, няма нищо тук',
     3: 'Неразрешено',
-    4: 'You need to be logged in order to edit this skin.',
+    4: 'Трябва да сте влязли в акаунта си, за да редактирате този облик.',
     5: 'You need to be logged in order to add a new skin.'
   },
   meta: {
@@ -213,8 +214,9 @@ export default {
       8: '{name} трърси osu облици',
       9: 'Почерпете вдъхновение от други osu облици',
       10: '{name} създадени osu облици',
-      11: 'Search tags',
-      12: '{name} found tags'
+      11: 'Търси тагове',
+      12: '{name} намерени тагове',
+      13: 'Нов облик'
     },
     description: {
       0: 'Намерете най-добрите osu! облици на нашия сайт! Нашия огромен каталог е изпълнен с облици за всички игрови режими, съотношение на резолюцията и дори най-добрите играчи. И още, имаме специална секция за anime феновете. Подобри всоята игра с префектния osu облик за теб. #osuskins #osugame #anime',
@@ -227,7 +229,7 @@ export default {
       7: 'Огромен брой osu облици за {name}, изтеглете безплатно!',
       8: 'Всички osu облици създадени от {name}',
       9: 'Намерете вдъхновение за вашите osu! облици на нашия.Открийте нови техники и идеи с помощта на нашата голяма колекция на osu облици. Вдъхновете се и създайте вашия собствен osu облик.',
-      10: 'Search for tags among all the tags on the site.'
+      10: 'Търсете за тагове, сред всички тагове на този сайт.'
     }
   },
   buttons: {
@@ -261,7 +263,7 @@ export default {
     3: 'Харесвания: {likes} / Нехаресвания: {dislikes}',
     4: 'Натиснете ctrl+enter за да добавите ключови думи',
     5: 'Редакрирайте версията',
-    6: '{s}Log in{p}, in order to rate this skin',
+    6: '{s}Влез в акаунта си{p}, за да оцениш този облик',
     7: 'Няма кратко описание',
     8: 'Няма връзка',
     9: 'Изтегляния: {amount}'
@@ -310,9 +312,9 @@ export default {
     ratio: 'Изберете съотношение | съотношение'
   },
   placeholders: {
-    0: 'Select roles',
-    1: 'Select versions',
-    2: 'Type some text...',
+    0: 'Изберете роли',
+    1: 'Изберете версии',
+    2: 'Напишете текст...',
     3: 'Изберете големина',
     4: 'Изберете времеви период',
     5: 'Година',
@@ -322,84 +324,88 @@ export default {
     9: 'Игрови режими',
     10: 'Изберете вид',
     11: 'Поставете YouTube връзка',
-    12: 'Type a description and an url. Format description:url',
+    12: 'Напишете описание и връзка. Описание на формарта:url',
     13: 'Изберете екстра',
     14: 'Поставете връзка',
-    15: 'Skin title, author, or tags',
-    16: 'Select category',
-    17: 'Type the name of the tag'
+    15: 'Заглавие на облика, създател, или ключова дума',
+    16: 'Изберете категория',
+    17: 'Напишете името на тага'
   },
   contribute: { 0: 'Допринасяне' },
   nsfw: {
     0: 'Внимание!',
     1: 'Този облик има съдаржание предназначено за възрастни',
     2: 'Този облик съдържа деликатно съдържание или съдържание за възрастни, което някои потребители може да намерят за смущаващо',
-    3: 'Alright',
-    4: 'bye o/'
+    3: 'Добре',
+    4: 'чао о/'
   },
   removed: {
-    0: 'Version unavailable',
-    1: 'The author of the skin decided to remove this version from the site.',
-    2: 'Switch to an available version'
+    0: 'Версията е неналична',
+    1: 'Автора на този облик реши да премахне тази версия от сайта.',
+    2: 'Преминете към налична версия'
   },
   notify: {
-    0: 'Issues were not fixed',
-    1: 'Not all required fields were filled',
-    2: 'Show',
-    3: 'Not found',
-    4: 'Banner not found (Currently, the first screenshot is being used as the banner)',
-    5: 'No changes',
-    6: 'No changes were found',
-    7: 'ID not found',
-    8: 'ID of the video not found, try another link (At the moment only YouTube is supported)',
-    9: 'Oops',
-    10: 'Looks like your session expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
-    11: 'Exists',
-    12: 'This video has already been added',
-    13: 'Exists',
-    14: 'This tag has already been added',
-    15: 'Not found',
-    16: 'You cannot delete a deleted tag',
-    17: 'Added',
-    18: 'You have successfully added a new tag',
-    19: 'OOps',
-    20: 'This creator was already added',
+    0: 'Проблемите не бяха разрешени',
+    1: 'Не всички задължителни полета бяха попълнени',
+    2: 'Покажи',
+    3: 'Не е намерено',
+    4: 'Банера не бе открит (За се, първата екранна снимка се използва като миниатюра)',
+    5: 'Няма промени',
+    6: 'Не бяха открити промени',
+    7: 'Не беше намерено такова ID',
+    8: 'ID на видеото не бе открито, опитайте с друг линк (В момента само YouTube е поддържан)',
+    9: 'Оопа',
+    10: 'Изглежда че сесията ви изтече, отворете нова страница и влезте във вашия акаунт (Не се притеснявайте, всичко е запазено автоматично)',
+    11: 'Съществува',
+    12: 'Това видео вече беше добавено',
+    13: 'Съществува',
+    14: 'Този таг вече беше добавен',
+    15: 'Не е намерено',
+    16: 'Не може да изтриете изтрит таг',
+    17: 'Добавен',
+    18: 'Вие успешно добавихте нов таг',
+    19: 'Оопа',
+    20: 'Този въздател вече беше добавен',
     21: 'EZ',
-    22: 'New creator has been added',
-    23: 'HUH',
-    24: 'Impossible to remove a deleted creator',
-    25: 'Duplicate',
-    26: 'This change has already been added earlier.',
-    27: 'Duplicate',
-    28: 'This url has already been added earlier.',
-    29: 'Warning',
-    30: 'You forgot to add a description for the url. Example: Description:url',
-    31: 'Warning',
-    32: 'You forgot to add an url for the description. Example: Description:url',
-    33: 'Restored',
-    34: 'Version «{name}» has been restored',
-    35: 'Deleted',
-    36: 'Version «{name}» has been deleted',
-    37: 'Error',
-    38: 'Apparently the server thinks you\'re a robot.',
-    39: 'Looks like your user session has expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
-    40: 'Mismatched credentials (relogin in account. Don\'t worry, everything was saved automatically)',
-    41: 'Unknown error',
-    42: 'You cannot edit a nonexistent skin',
-    43: 'Seems like you don\'t have permission to edit this skin',
-    44: 'You cannot send this version because it is the same as the previous one.',
-    45: 'These changes have already been sent for moderation',
-    46: 'Success',
-    47: 'New changes have been submitted for moderation',
-    48: 'Changes have been updated in moderation',
-    49: 'Odd link',
-    50: 'This link cannot be used as a download link',
-    51: 'Submitted for moderation'
+    22: 'Нов създател беше добавен',
+    23: 'А?',
+    24: 'Невъзможно е да премахнете изтрит създател',
+    25: 'Дубликат',
+    26: 'Тази промяна вече пебе добавена по-рано.',
+    27: 'Дубликат',
+    28: 'Тази връзка вече безе добавена, по-рано.',
+    29: 'Внимание',
+    30: 'Забравихте да добавите описание за връзката. Например: Описание:url',
+    31: 'Внимание',
+    32: 'Забравихте да добавите връзка за описанието. Например: Описание:url',
+    33: 'Възстановено',
+    34: 'Версия «{name}» беше възстановена',
+    35: 'Изтрито',
+    36: 'Версия «{name}» беше изтрита',
+    37: 'Грешка',
+    38: 'Изглежда че съръва мисли, че вие сте робот.',
+    39: 'Изглежда че сесията ви изтече, отворете нова страница и влезте във вашия акаунт (Не се притеснявайте, всичко е запазено автоматично)',
+    40: 'Грешна информация (влезте във вашия акаунт. Не се притеснявайте, всичко беше запазено автоматично)',
+    41: 'Неизвестна грешка',
+    42: 'Ня може да радактирате несъществуващ облик',
+    43: 'Изглежда, че вие нямате права да редактирате този облик',
+    44: 'Не може да изпратите тази версия, защото е същата като предишната.',
+    45: 'Тези промени вече бяха изпратени за проверка',
+    46: 'Успех',
+    47: 'Нови промени бяха изпратени за проверка',
+    48: 'Промените бяха обновени в проверката',
+    49: 'Странна връзка',
+    50: 'Тази връзка не може да бъде използвана за изтегляне',
+    51: 'Изпратено за проверка'
+  },
+  header: {
+    0: 'Нотификации',
+    1: 'Последвайте ни на тези платформи, за да получавате известия за нови облици'
   },
   restricted_view: {
     0: 'Неразрешено',
-    1: 'Please log into your account',
-    2: 'Restricted view',
-    3: 'This page is not out, yet.'
+    1: 'Моля, влезте в акаунта си',
+    2: 'Ограничен постъп',
+    3: 'Тази страница все още не е налична.'
   }
 };
