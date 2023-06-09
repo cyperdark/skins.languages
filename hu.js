@@ -26,7 +26,8 @@ export default {
     1: 'Legtöbbet: _name_ skinek',
     2: 'Megnézett | Likeolt | Letöltött',
     3: 'Új skin közlése',
-    4: 'Hogyan telepíts fel egy skint'
+    4: 'Hogyan telepíts fel egy skint',
+    5: '{amount} Skins | {amount} Skins | {amount} Skins'
   },
   changelogs: {
     0: 'Változi napló',
