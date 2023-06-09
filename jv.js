@@ -1,23 +1,23 @@
 export default {
   title: {
-    home: 'Home',
+    home: 'Griya',
     login: 'Log in',
-    lists: { 0: 'Lists' },
+    lists: { 0: 'Daftar' },
     tags: {
-      0: 'Tags',
+      0: 'Thanda',
       1: '{amount} tags for category {name}',
-      2: 'Search tags'
+      2: 'Golek thanda'
     },
     ideas: {
-      0: 'Inspiration',
+      0: 'Ide',
       1: '«{amount}»'
     },
-    sounds: { 0: 'Sounds' },
+    sounds: { 0: 'Suwara' },
     leaderboard: { 0: 'Leaderboards' },
-    extend: { 0: 'More | Less' },
+    extend: { 0: 'Luwih akeh | Luwih sitik' },
     skin: {
-      0: 'This skin contains elements from other skins',
-      1: 'Click here for more information'
+      0: 'Skin iki mengandung elemen seko skin liyane',
+      1: 'Pencet nang kene dinggo informasi liyane'
     },
     tools: 'Tools'
   },
@@ -31,39 +31,39 @@ export default {
   changelogs: {
     0: 'Changelog',
     1: 'List of all the revisions done in the current version',
-    2: 'Nothing here',
+    2: 'Ra ono opo-opo',
     3: 'But you can add the changes you\'ve made to this version of the skin',
     4: 'Not grouped',
-    5: 'New',
-    6: 'Fixes',
-    7: 'Changes',
-    8: 'Removals'
+    5: 'Anyar',
+    6: 'Dibenerno',
+    7: 'Diganti',
+    8: 'Dihapus'
   },
   ideas: {
     0: 'Nothing found',
     1: 'Screenshots of «{type}» were not uploaded to the site'
   },
   creators: {
-    0: 'Creators',
-    1: 'List all creators who were involved in making this version',
-    2: 'No one is here',
+    0: 'Sing nggawe',
+    1: 'Daftar kabeh pembuat sing terlibat ning versi iki',
+    2: 'Ora ono sing ning kene',
     3: 'Searching for a player\'s name will display a list of profiles.',
     4: 'Editor',
     5: 'Roles',
-    6: 'Versions'
+    6: 'Versi'
   },
   tags: {
-    0: 'Tags',
-    1: 'List of all the tags related to this skin',
-    2: 'It seems pretty empty here.',
+    0: 'Thanda',
+    1: 'Daftar kabeh thanda sing nyambung karo skin iki',
+    2: 'Koyoke cukup kosong ning kene.',
     3: 'Use the field above to find new tags',
-    4: 'Tags not found',
-    5: 'Try searching for something else',
-    6: 'Search'
+    4: 'Thanda ora ketemu',
+    5: 'Jajal golek liyane',
+    6: 'Golek'
   },
   videos: {
-    0: 'Videos',
-    1: 'List of all the video showcases for this skin',
+    0: 'Video',
+    1: 'Daftar kabeh video sing mamerno skin iki',
     2: 'No showcases',
     3: 'Search for some on YouTube or create your own showcase'
   },
@@ -96,19 +96,19 @@ export default {
     25: 'Some creators doesn\'t have roles'
   },
   skins: {
-    0: 'Skins',
-    1: 'Popular',
+    0: 'Skin',
+    1: 'Rame',
     2: 'std | ctb',
     3: 'mania | taiko',
-    4: 'Recent',
-    5: 'Random',
-    6: 'All skins',
-    7: 'Aspect ratio',
-    8: 'All skins | osu skins',
-    9: 'Skin | Skins | Skins',
+    4: 'Terbaru',
+    5: 'Acak',
+    6: 'Kebeh skin',
+    7: 'Aspek rasio',
+    8: 'Kabeh skin | osu skin',
+    9: 'Skin | Skin | Skin',
     10: 'osu Skins by {name} | All skins from',
-    11: 'Search',
-    12: '{name} skins',
+    11: 'Golek',
+    12: '{name} skin',
     13: 'Explore skins'
   },
   skin: {
@@ -116,15 +116,15 @@ export default {
     1: 'Extra',
     2: 'HD',
     3: 'FullHD',
-    4: 'Animation',
+    4: 'Animasi',
     5: 'Screenshots',
     6: 'Gameplay only',
     7: 'Download link | Download skin',
     8: 'Forum post | osu! Forum',
     9: 'Reddit post',
-    10: 'Creators',
-    11: 'Tags',
-    13: 'Videos',
+    10: 'Sing nggawe',
+    11: 'Thanda',
+    13: 'Video',
     14: 'New Version | Manage versions',
     15: 'Update | Submit',
     16: 'Gamemodes',
@@ -181,14 +181,15 @@ export default {
     11: 'Downloads',
     12: 'Name',
     13: {
-      0: 'Skins',
-      1: 'Tags',
+      0: 'Skin',
+      1: 'Thanda',
       2: 'Users',
-      3: 'Lists'
-    }
+      3: 'Daftar'
+    },
+    14: 'Search:'
   },
   tabs: {
-    0: 'Search',
+    0: 'Golek',
     1: 'Edit',
     2: 'List'
   },
@@ -213,8 +214,9 @@ export default {
       8: '{name} search osu skins',
       9: 'Get inspiration from other osu skins',
       10: '{name} created osu skins',
-      11: 'Search tags',
-      12: '{name} found tags'
+      11: 'Golek thanda',
+      12: '{name} found tags',
+      13: 'New skin'
     },
     description: {
       0: 'Get the best osu! skins at our site! Our huge library has skins for all gamemodes, aspect ratios and even top players. Plus, we have a special section for anime fans. Improve your gameplay with the perfect skin. #osuskins #osugame #anime',
@@ -291,7 +293,7 @@ export default {
     }
   },
   select: {
-    0: 'New',
+    0: 'Anyar',
     1: 'Fixed',
     2: 'Changed',
     3: 'Removed',
@@ -395,6 +397,10 @@ export default {
     49: 'Odd link',
     50: 'This link cannot be used as a download link',
     51: 'Submitted for moderation'
+  },
+  header: {
+    0: 'Notifications',
+    1: 'Follow us on these platforms to receive notifications about new skins'
   },
   restricted_view: {
     0: 'Unauthorized',
