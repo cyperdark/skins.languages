@@ -26,7 +26,8 @@ export default {
     1: 'Mes: _name_ skins',
     2: 'Visites | M\'agrada | Descarregues',
     3: 'Publica una nova skin',
-    4: 'Com instal·lar una skin'
+    4: 'Com instal·lar una skin',
+    5: '{amount} Skins | {amount} Skins | {amount} Skins'
   },
   changelogs: {
     0: 'Registre de canvis',
