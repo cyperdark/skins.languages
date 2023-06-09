@@ -26,7 +26,8 @@ export default {
     1: 'Meest: _name_skins',
     2: 'Bekeken | Duimpie omhoog | Gedownload',
     3: 'Publiceer een nieuwe skin',
-    4: 'Hoe een skin te installeren'
+    4: 'Hoe een skin te installeren',
+    5: '{amount} Skins | {amount} Skins | {amount} Skins'
   },
   changelogs: {
     0: 'Veranderingen',
