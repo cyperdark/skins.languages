@@ -26,7 +26,8 @@ export default {
     1: 'Nejvíce: _name_ skiny',
     2: 'Zobrazeno | Líbí se | Staženo',
     3: 'Publikovat nový skin',
-    4: 'Jak nainstalovat skin'
+    4: 'Jak nainstalovat skin',
+    5: '{amount} Skins | {amount} Skins | {amount} Skins'
   },
   changelogs: {
     0: 'Seznam změn',
