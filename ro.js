@@ -26,7 +26,8 @@ export default {
     1: 'Cele mai: _name_ skinuri',
     2: 'Vizualizate | Apreciate | Descărcate',
     3: 'Publică un nou skin',
-    4: 'Cum să instalezi un skin'
+    4: 'Cum să instalezi un skin',
+    5: '{amount} Skins | {amount} Skins | {amount} Skins'
   },
   changelogs: {
     0: 'Jurnal de Modificări',
