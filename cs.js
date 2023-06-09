@@ -22,11 +22,11 @@ export default {
     tools: 'Nástroje'
   },
   home: {
-    0: 'Available to download',
-    1: 'Most: _name_ skins',
-    2: 'Viewed | Liked | Downloaded',
-    3: 'Publish new skin',
-    4: 'How to install skin'
+    0: 'Dostupné ke stažení',
+    1: 'Nejvíce: _name_ skiny',
+    2: 'Zobrazeno | Líbí se | Staženo',
+    3: 'Publikovat nový skin',
+    4: 'Jak nainstalovat skin'
   },
   changelogs: {
     0: 'Seznam změn',
@@ -88,12 +88,12 @@ export default {
     10: 'Žádný snímek obrazovky',
     11: 'Přidejte alespoň jeden snímek obrazovky z hraní',
     12: 'Odkaz na skin není specifikován',
-    20: 'Looks pretty good',
-    21: 'Every issue was fixed. Good job!',
+    20: 'Vypadá to dobře',
+    21: 'Každý problém byl opraven. Dobrá práce!',
     22: 'Kontrolní listina',
     23: 'Přidejte alespoň jednu veřejnou verzi',
-    24: 'Add at least one creator to this version',
-    25: 'Some creators doesn\'t have roles'
+    24: 'Přidat alespoň jednoho autora k této verzi',
+    25: 'Někteří autoři nemají roli'
   },
   skins: {
     0: 'Skiny',
@@ -142,11 +142,11 @@ export default {
     28: 'Žádná označení',
     29: 'Žádná videa',
     30: 'Žádní autoři',
-    31: 'Rate skin',
-    32: 'Upvote & comment on reddit',
-    33: 'Comment on osu! forum',
-    34: 'More skins from this author | More skins from this authors',
-    35: 'Support the skin'
+    31: 'Ohodnotit skin',
+    32: 'Hlasovat a komentovat na redditu',
+    33: 'Komentovat na osu! fóru',
+    34: 'Více skinů od tohoto autora | Více skinů od těchto autorů',
+    35: 'Podpořit skin'
   },
   drag: {
     0: 'Klikněte zde',
@@ -165,7 +165,7 @@ export default {
     5: 'Všechny vlajky jsou od {name}',
     6: 'Lokalizace',
     7: 'Je tu někdo?{lang}',
-    8: 'Seems like cyperdark forgot to add them. {text}'
+    8: 'Vypadá to, že cpol je zapomněl přidat {text}'
   },
   search: {
     0: 'Hledat skiny',
@@ -185,7 +185,8 @@ export default {
       1: 'Označení',
       2: 'Uživatelé',
       3: 'Seznamy'
-    }
+    },
+    14: 'Hledat:'
   },
   tabs: {
     0: 'Hledat',
@@ -214,7 +215,8 @@ export default {
       9: 'Získejte inspiraci z jiných osu skinů',
       10: '{name} vyrobil osu skiny',
       11: 'Hledat Označení',
-      12: '{name} nalezl označení'
+      12: '{name} nalezl označení',
+      13: 'Nový skin'
     },
     description: {
       0: 'Stáhněte si osu! skiny na našich stránkách! Naše velká knihovna ma skiny pro všechny herní módy, poměry stran, a dokonce i skiny od nejlepších hráčů. Taky máme speciální sekci pro fanoušky anime. Zlepšete svoje hraní s perfektním skinem. #osuskins #osugame #anime',
@@ -339,8 +341,8 @@ export default {
   },
   removed: {
     0: 'Verze není k dispozici',
-    1: 'The author of the skin decided to remove this version from the site.',
-    2: 'Switch to an available version'
+    1: 'Autor skinu se rozhodl odstranit tuto verzi z webu.',
+    2: 'Přepnout na dostupnou verzi'
   },
   notify: {
     0: 'Problémy nebyly opraveny',
@@ -395,6 +397,10 @@ export default {
     49: 'Zvláštní odkaz',
     50: 'Tento odkaz nelze použít jako odkaz ke stažení',
     51: 'Odesláno k moderaci'
+  },
+  header: {
+    0: 'Notifikace',
+    1: 'Sledujte nás na těchto platformách a získejte oznámení o nových skinech'
   },
   restricted_view: {
     0: 'Neoprávněný',
