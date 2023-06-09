@@ -185,7 +185,8 @@ export default {
       1: 'Tagi',
       2: 'Users',
       3: 'Listy'
-    }
+    },
+    14: 'Search:'
   },
   tabs: {
     0: 'Szukaj',
@@ -214,7 +215,8 @@ export default {
       9: 'Zainspiruj się innymi skinami',
       10: '{name} stworzył/a skiny do osu',
       11: 'Search tags',
-      12: '{name} found tags'
+      12: '{name} found tags',
+      13: 'Nowy skin'
     },
     description: {
       0: 'Najlepsze skiny do osu! tylko u nas! W naszej ogromnej bibliotece znajdziesz skiny dla wszystkich trybów gry, proporcji ekranu, a nawet skiny używane przez topowych graczy. Posiadamy również sekcję dla fanów anime. Udoskonal swoją rozgrywkę z idealnym dla ciebie skinem. #osuskins #osugame #anime',
@@ -395,6 +397,10 @@ export default {
     49: 'Odd link',
     50: 'This link cannot be used as a download link',
     51: 'Submitted for moderation'
+  },
+  header: {
+    0: 'Powiadomienia',
+    1: 'Follow us on these platforms to receive notifications about new skins'
   },
   restricted_view: {
     0: 'Błąd uwierzytelnienia',
