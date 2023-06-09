@@ -185,7 +185,8 @@ export default {
       1: 'Ετικέτες',
       2: 'Users',
       3: 'Λίστες'
-    }
+    },
+    14: 'Search:'
   },
   tabs: {
     0: 'Αναζήτηση',
@@ -214,7 +215,8 @@ export default {
       9: 'Πάρτε έμπνευση από άλλα osu skin',
       10: '{name} δημιουργημένα osu skins',
       11: 'Search tags',
-      12: '{name} found tags'
+      12: '{name} found tags',
+      13: 'Νέο skin'
     },
     description: {
       0: 'Αποκτήστε τα καλύτερα osu! skins στο site μας! Η τεράστια συλλογή μας έχει skins για όλους τους τρόπους παιχνιδιού, αναλογίες διαστάσεων και ακόμα και για τους κορυφαίους παίκτες. Ακόμη, έχουμε ένα ειδικό τμήμα για τους anime fans. Βελτιώστε το παιχνίδι σας με το τέλειο skin. #osuskins #osugame #anime',
@@ -395,6 +397,10 @@ export default {
     49: 'Odd link',
     50: 'This link cannot be used as a download link',
     51: 'Submitted for moderation'
+  },
+  header: {
+    0: 'Ειδοποιήσεις',
+    1: 'Follow us on these platforms to receive notifications about new skins'
   },
   restricted_view: {
     0: 'Μη εξουσιοδοτημένο',
