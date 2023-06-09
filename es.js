@@ -1,7 +1,7 @@
 export default {
   title: {
     home: 'Inicio',
-    login: 'Log in',
+    login: 'Iniciar sesión',
     lists: { 0: 'Listas' },
     tags: {
       0: 'Etiquetas',
@@ -25,7 +25,7 @@ export default {
     0: 'Available to download',
     1: 'Most: _name_ skins',
     2: 'Viewed | Liked | Downloaded',
-    3: 'Publish new skin',
+    3: 'Publicar nueva skin',
     4: 'How to install skin'
   },
   changelogs: {
@@ -92,8 +92,8 @@ export default {
     21: 'Todos los errores han sido solucionados ¡Buen trabajo!',
     22: 'Lista de verificación',
     23: 'Añade al menos una versión pública',
-    24: 'Add at least one creator to this version',
-    25: 'Some creators doesn\'t have roles'
+    24: 'Añade al menos un creador a esta versión',
+    25: 'Algunos creadores no tienen roles'
   },
   skins: {
     0: 'Skins',
@@ -139,13 +139,13 @@ export default {
     25: 'No eres uno de nosotros',
     26: 'Parece que no eres el autor o editor de esta skin',
     27: 'Skin hecha por',
-    28: 'No tags',
+    28: 'Sin etiquetas',
     29: 'No videos',
     30: 'No creators',
     31: 'Rate skin',
-    32: 'Upvote & comment on reddit',
+    32: 'Votar y comentar en reddit',
     33: 'Comment on osu! forum',
-    34: 'More skins from this author | More skins from this authors',
+    34: 'Más skins de este autor | Más skins de estos autores',
     35: 'Support the skin'
   },
   drag: {
@@ -183,9 +183,10 @@ export default {
     13: {
       0: 'Skins',
       1: 'Etiquetas',
-      2: 'Users',
+      2: 'Usuarios',
       3: 'Listas'
-    }
+    },
+    14: 'Buscar:'
   },
   tabs: {
     0: 'Buscar',
@@ -214,7 +215,8 @@ export default {
       9: 'Inspirate de otras skins de osu!',
       10: '{name} skins de osu creadas',
       11: 'Search tags',
-      12: '{name} found tags'
+      12: '{name} found tags',
+      13: 'Nueva skin'
     },
     description: {
       0: '¡Consigue las mejores skins de osu! en nuestra página! Nuestra amplia librería cuenta con skins para todos los modos de juego, relaciones de aspecto e incluso con aquellas usadas por los mejores jugadores. Además, tenemos una sección especial para los fans del anime. Mejora tu gameplay con la skin perfecta. #osuskins #osugame #anime',
@@ -395,6 +397,10 @@ export default {
     49: 'Odd link',
     50: 'This link cannot be used as a download link',
     51: 'Submitted for moderation'
+  },
+  header: {
+    0: 'Notificaciones',
+    1: 'Síguenos en estas plataformas para recibir notificaciones sobre nuevas skins'
   },
   restricted_view: {
     0: 'No autorizado',
