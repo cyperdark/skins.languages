@@ -6,7 +6,7 @@ export default {
     tags: {
       0: 'Label',
       1: 'Ada {amount} skin yang cocok dengan label {name}',
-      2: 'Search tags'
+      2: 'Cari label'
     },
     ideas: {
       0: 'Inspirasi',
@@ -22,7 +22,7 @@ export default {
     tools: 'Alat'
   },
   home: {
-    0: 'Available to download',
+    0: 'Tersedia untuk didownload',
     1: 'Most: _name_ skins',
     2: 'Viewed | Liked | Downloaded',
     3: 'Publish new skin',
@@ -57,8 +57,8 @@ export default {
     1: 'Daftar label yang berkaitan dengan skin ini',
     2: 'Kosong ya...',
     3: 'Gunakan bidang di atas untuk menemukan label baru',
-    4: 'Tags not found',
-    5: 'Try searching for something else',
+    4: 'Label tidak ditemukan',
+    5: 'Coba cari yang lain',
     6: 'Cari'
   },
   videos: {
@@ -88,8 +88,8 @@ export default {
     10: 'Tidak diberikan screenshot',
     11: 'Tambahkan setidaknya satu screenshot gameplay',
     12: 'Tidak ada link untuk skinnya',
-    20: 'Looks pretty good',
-    21: 'Every issue was fixed. Good job!',
+    20: 'Terlihat bagus',
+    21: 'Semua masalah sudah diperbaiki. Kerja bagus!',
     22: 'Daftar cek',
     23: 'Add at least one public version',
     24: 'Add at least one creator to this version',
@@ -139,9 +139,9 @@ export default {
     25: 'Kamu bukan salah satu dari kami',
     26: 'Sepertinya kamu bukan pembuat ataupun editor dari skin ini',
     27: 'Skin oleh',
-    28: 'No tags',
-    29: 'No videos',
-    30: 'No creators',
+    28: 'Tidak ada label',
+    29: 'Tidak ada video',
+    30: 'Tidak ada pembuat',
     31: 'Rate skin',
     32: 'Upvote & comment on reddit',
     33: 'Comment on osu! forum',
@@ -165,7 +165,7 @@ export default {
     5: 'Semua gambar bendera diambil dari {name}',
     6: 'Lokalisasi',
     7: 'Seseorang? [{lang}]',
-    8: 'Seems like cyperdark forgot to add them. {text}'
+    8: 'Sepertinya, cyperdark lupa menambahkan mereka. {text}'
   },
   search: {
     0: 'Cari Skin',
@@ -175,7 +175,7 @@ export default {
     4: 'Ukuran',
     5: 'Tanggal',
     7: 'Tidak menemukan apapun',
-    8: 'Try using different search filters',
+    8: 'Coba gunakan filter pencarian yang berbeda',
     9: 'Menunggu pencarian',
     10: 'Use the search filters or type the skin\'s title, author or tags',
     11: 'Unduh',
@@ -185,7 +185,8 @@ export default {
       1: 'Label',
       2: 'Users',
       3: 'Daftar'
-    }
+    },
+    14: 'Cari:'
   },
   tabs: {
     0: 'Cari',
@@ -213,8 +214,9 @@ export default {
       8: 'Pencarian skin osu! {name}',
       9: 'Dapatkan inspirasi dari skin lain',
       10: '{name} membuat skin osu!',
-      11: 'Search tags',
-      12: '{name} found tags'
+      11: 'Cari label',
+      12: '{name} found tags',
+      13: 'Skin baru'
     },
     description: {
       0: 'Dapatkan skin osu! terbaik di website kami! Kami menyediakan berbagai skin untuk berbagai macam mode, aspek rasio, dan dari player ternama. Oh ya! Kami juga menyediakan khusus bagi user yang menyukai anime untuk mencari skin yang mengandung karakter atau anime. Kembangkan pengalaman bermain osu! mu dengan skin terbaik!! #osuskins #osugame #anime',
@@ -261,7 +263,7 @@ export default {
     3: 'Suka: {likes} / Tidak suka: {dislikes}',
     4: 'Tekan ctrl+enter untuk menambahkan label',
     5: 'Edit versi',
-    6: '{s}Log in{p}, in order to rate this skin',
+    6: '{s}Masuk{p}, agar bisa menilai skin ini',
     7: 'Tidak ada deskripsi singkat',
     8: 'Tidak ada URL',
     9: 'Unduh: {amount}'
@@ -312,7 +314,7 @@ export default {
   placeholders: {
     0: 'Select roles',
     1: 'Select versions',
-    2: 'Type some text...',
+    2: 'Ketikan sesuatu...',
     3: 'Pilih ukuran',
     4: 'Pilih rentang tanggal',
     5: 'Tahun',
@@ -326,7 +328,7 @@ export default {
     13: 'Pilih ekstra',
     14: 'Tempel link',
     15: 'Skin title, author, or tags',
-    16: 'Select category',
+    16: 'Pilih kategori',
     17: 'Type the name of the tag'
   },
   contribute: { 0: 'Kontribusi' },
@@ -334,8 +336,8 @@ export default {
     0: 'Peringatan!',
     1: 'Terdapat konten sensitif atau dewasa pada skin ini',
     2: 'Terdapat konten sensitif atau dewasa pada skin ini yang mungkin mengganggu sebagian orang',
-    3: 'Alright',
-    4: 'bye o/'
+    3: 'Baiklah',
+    4: 'dadah o/'
   },
   removed: {
     0: 'Version unavailable',
@@ -343,10 +345,10 @@ export default {
     2: 'Switch to an available version'
   },
   notify: {
-    0: 'Issues were not fixed',
+    0: 'Masalah belum diperbaiki',
     1: 'Not all required fields were filled',
-    2: 'Show',
-    3: 'Not found',
+    2: 'Tampilkan',
+    3: 'Tidak ditemukan',
     4: 'Banner not found (Currently, the first screenshot is being used as the banner)',
     5: 'No changes',
     6: 'No changes were found',
@@ -358,7 +360,7 @@ export default {
     12: 'This video has already been added',
     13: 'Exists',
     14: 'This tag has already been added',
-    15: 'Not found',
+    15: 'Tidak ditemukan',
     16: 'You cannot delete a deleted tag',
     17: 'Added',
     18: 'You have successfully added a new tag',
@@ -395,6 +397,10 @@ export default {
     49: 'Odd link',
     50: 'This link cannot be used as a download link',
     51: 'Submitted for moderation'
+  },
+  header: {
+    0: 'Notifikasi',
+    1: 'Follow us on these platforms to receive notifications about new skins'
   },
   restricted_view: {
     0: 'Tidak diizinkan',
