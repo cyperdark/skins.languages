@@ -147,7 +147,9 @@ export default {
     32: 'Upvote & comment on reddit',
     33: 'Comment on osu! forum',
     34: 'More skins from this author | More skins from this authors',
-    35: 'Support the skin'
+    35: 'Support the skin',
+    36: 'Unavailable',
+    37: 'Unfortunately skin was deleted by {author} request'
   },
   drag: {
     0: 'Paina tästä',
@@ -334,11 +336,12 @@ export default {
   },
   contribute: { 0: 'Osallistu' },
   nsfw: {
-    0: 'Varoitus!',
+    0: 'Warning nsfw!',
     1: 'Tämä skini sisältää herkkää tai aikuisille tarkoitettua sisältöä',
     2: 'Tämä skini sisältää herkkää tai aikuisille tarkoitettua sisältöä, jota jotkut käyttäjät voivat pitää häiritsevänä',
     3: 'Selvä',
-    4: 'Heippa o/'
+    4: 'Heippa o/',
+    5: 'Warning furry!'
   },
   removed: {
     0: 'Versio ei ole saatavilla',
