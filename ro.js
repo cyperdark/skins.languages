@@ -27,7 +27,7 @@ export default {
     2: 'Vizualizate | Apreciate | Descărcate',
     3: 'Publică un nou skin',
     4: 'Cum să instalezi un skin',
-    5: '{amount} Skins | {amount} Skins | {amount} Skins'
+    5: '{amount} Skinuri {amount} Skinuri {amount} Skinuri'
   },
   changelogs: {
     0: 'Jurnal de Modificări',
@@ -147,7 +147,9 @@ export default {
     32: 'Votează și comentează pe reddit',
     33: 'Comentează pe osu!forum',
     34: 'Mai multe skinuri de la acest autor | Mai multe skinuri de la acești autori',
-    35: 'Susține skinul'
+    35: 'Susține skinul',
+    36: 'Unavailable',
+    37: 'Unfortunately skin was deleted by {author} request'
   },
   drag: {
     0: 'Apasă aici',
@@ -334,11 +336,12 @@ export default {
   },
   contribute: { 0: 'Contribuie' },
   nsfw: {
-    0: 'Atenție!',
+    0: 'Warning nsfw!',
     1: 'Acest skin conţine conţinut sensibil sau pentru adulţi',
     2: 'Acest skin conține conținut sensibil sau pentru adulți pe care unii utilizatori îl pot considera deranjant',
     3: 'În regulă',
-    4: 'pa o/'
+    4: 'pa o/',
+    5: 'Warning furry!'
   },
   removed: {
     0: 'Versiune indisponibilă',
