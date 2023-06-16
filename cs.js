@@ -147,7 +147,9 @@ export default {
     32: 'Hlasovat a komentovat na redditu',
     33: 'Komentovat na osu! fóru',
     34: 'Více skinů od tohoto autora | Více skinů od těchto autorů',
-    35: 'Podpořit skin'
+    35: 'Podpořit skin',
+    36: 'Unavailable',
+    37: 'Unfortunately skin was deleted by {author} request'
   },
   drag: {
     0: 'Klikněte zde',
@@ -334,11 +336,12 @@ export default {
   },
   contribute: { 0: 'Zapojte se' },
   nsfw: {
-    0: 'Upozornění!',
+    0: 'Warning nsfw!',
     1: 'Tento skin obshauje citlivý obsah nebo obsah pro dospělé',
     2: 'Tento skin obsahuje citlivý obsah nebo obsah pro dospělé, který může připadat některým uživatelům znepokojivě',
     3: 'Dobře',
-    4: 'měj se o/'
+    4: 'měj se o/',
+    5: 'Warning furry!'
   },
   removed: {
     0: 'Verze není k dispozici',
