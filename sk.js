@@ -147,7 +147,9 @@ export default {
     32: 'Upvote & comment on reddit',
     33: 'Comment on osu! forum',
     34: 'More skins from this author | More skins from this authors',
-    35: 'Support the skin'
+    35: 'Support the skin',
+    36: 'Unavailable',
+    37: 'Unfortunately skin was deleted by {author} request'
   },
   drag: {
     0: 'Klikni tu',
@@ -334,11 +336,12 @@ export default {
   },
   contribute: { 0: 'Prispievanie' },
   nsfw: {
-    0: 'Varovanie!',
+    0: 'Warning nsfw!',
     1: 'Tento skin obsahuje senzitívny obsah alebo kontent 18+',
     2: 'Tento skin obsahuje senzitívny obsah alebo kontent 18+, ktorý môžu nejaký ľudia nájsť hnusné',
     3: 'V poriadku!',
-    4: 'čau o/'
+    4: 'čau o/',
+    5: 'Warning furry!'
   },
   removed: {
     0: 'Služba je nedostupná',
