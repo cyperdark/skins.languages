@@ -147,7 +147,9 @@ export default {
     32: 'Upvote & comment on reddit',
     33: 'Comment on osu! forum',
     34: 'More skins from this author | More skins from this authors',
-    35: 'Support the skin'
+    35: 'Support the skin',
+    36: 'Unavailable',
+    37: 'Unfortunately skin was deleted by {author} request'
   },
   drag: {
     0: 'Klik disini',
@@ -334,11 +336,12 @@ export default {
   },
   contribute: { 0: 'Kontribusi' },
   nsfw: {
-    0: 'Peringatan!',
+    0: 'Warning nsfw!',
     1: 'Terdapat konten sensitif atau dewasa pada skin ini',
     2: 'Terdapat konten sensitif atau dewasa pada skin ini yang mungkin mengganggu sebagian orang',
     3: 'Baiklah',
-    4: 'dadah o/'
+    4: 'dadah o/',
+    5: 'Warning furry!'
   },
   removed: {
     0: 'Version unavailable',
