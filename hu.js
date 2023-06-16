@@ -26,7 +26,8 @@ export default {
     1: 'Legtöbbet: _name_ skinek',
     2: 'Megnézett | Likeolt | Letöltött',
     3: 'Új skin közlése',
-    4: 'Hogyan telepíts fel egy skint'
+    4: 'Hogyan telepíts fel egy skint',
+    5: '{amount} Skins | {amount} Skins | {amount} Skins'
   },
   changelogs: {
     0: 'Változi napló',
@@ -146,7 +147,9 @@ export default {
     32: 'Upvote & comment on reddit',
     33: 'Kommentelj az osu! fórumon',
     34: 'Még több skin a készítőtöl | Még több skin a készítőktől',
-    35: 'Skin támogatása'
+    35: 'Skin támogatása',
+    36: 'Unavailable',
+    37: 'Unfortunately skin was deleted by {author} request'
   },
   drag: {
     0: 'Kattints ide',
@@ -333,11 +336,12 @@ export default {
   },
   contribute: { 0: 'Contribute' },
   nsfw: {
-    0: 'Warning!',
+    0: 'Warning nsfw!',
     1: 'This skin contains sensitive or adult content',
     2: 'This skin contains sensitive or adult content that some users may find disturbing',
     3: 'Alright',
-    4: 'bye o/'
+    4: 'bye o/',
+    5: 'Warning furry!'
   },
   removed: {
     0: 'Version unavailable',

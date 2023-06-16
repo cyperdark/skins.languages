@@ -26,7 +26,8 @@ export default {
     1: 'Most: _name_ skins',
     2: 'Viewed | Liked | Downloaded',
     3: '发布新皮肤',
-    4: '如果安装皮肤'
+    4: '如果安装皮肤',
+    5: '{amount} Skins | {amount} Skins | {amount} Skins'
   },
   changelogs: {
     0: '更新日志',
@@ -146,7 +147,9 @@ export default {
     32: '前往 Reddit 帖点赞 & 评论',
     33: '前往 osu! 论坛评论',
     34: '来自该作者的更多皮肤 | 来自该作者的更多皮肤',
-    35: '支持该皮肤'
+    35: '支持该皮肤',
+    36: 'Unavailable',
+    37: 'Unfortunately skin was deleted by {author} request'
   },
   drag: {
     0: '点击这里',
@@ -333,11 +336,12 @@ export default {
   },
   contribute: { 0: '贡献' },
   nsfw: {
-    0: '警告！',
+    0: 'Warning nsfw!',
     1: '此皮肤包含敏感或成人内容',
     2: '此皮肤含有敏感或成人内容，某些用户可能发现令人不安的',
     3: '好吧',
-    4: '拜拜 o/'
+    4: '拜拜 o/',
+    5: 'Warning furry!'
   },
   removed: {
     0: '版本不可用',

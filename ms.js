@@ -26,7 +26,8 @@ export default {
     1: 'Kebanyakkan: _name_ skins',
     2: 'Ditonton | Disukai | Dimuat turun',
     3: 'Terbitkan skin baharu',
-    4: 'Cara untuk memuat naik skin'
+    4: 'Cara untuk memuat naik skin',
+    5: '{amount} Skins | {amount} Skins | {amount} Skins'
   },
   changelogs: {
     0: 'Log perubahan',
@@ -146,7 +147,9 @@ export default {
     32: 'Undi naik & komen di reddit',
     33: 'Komen di osu! forum',
     34: 'Skin lain daripada pengarang ini | Skin lain daripada pengarang ini',
-    35: 'Sokong skin ini'
+    35: 'Sokong skin ini',
+    36: 'Unavailable',
+    37: 'Unfortunately skin was deleted by {author} request'
   },
   drag: {
     0: 'Ketik di sini',
@@ -333,11 +336,12 @@ export default {
   },
   contribute: { 0: 'Sumbangan' },
   nsfw: {
-    0: 'Amaran!',
+    0: 'Warning nsfw!',
     1: 'Skin ini mengandungi kandungan sensitif ataupun kandungan dewasa',
     2: 'Skin ini mengandungi kandungan sensitif atau kandungan dewasa yang mungkin tidak disukai oleh sesetengah pengguna',
     3: 'Ok',
-    4: 'jumpa lagi o/'
+    4: 'jumpa lagi o/',
+    5: 'Warning furry!'
   },
   removed: {
     0: 'Versi tidak ada',

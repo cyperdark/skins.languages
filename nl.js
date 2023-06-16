@@ -26,7 +26,8 @@ export default {
     1: 'Meest: _name_skins',
     2: 'Bekeken | Duimpie omhoog | Gedownload',
     3: 'Publiceer een nieuwe skin',
-    4: 'Hoe een skin te installeren'
+    4: 'Hoe een skin te installeren',
+    5: '{amount} Skins | {amount} Skins | {amount} Skins'
   },
   changelogs: {
     0: 'Veranderingen',
@@ -146,7 +147,9 @@ export default {
     32: 'Geef een pijltje omhoog & bespreek op reddit',
     33: 'Bespreek op het osu! forum',
     34: 'Meer skins van deze auteur | Meer skins van deze auteurs',
-    35: 'Steun de skin'
+    35: 'Steun de skin',
+    36: 'Unavailable',
+    37: 'Unfortunately skin was deleted by {author} request'
   },
   drag: {
     0: 'Klik hier',
@@ -333,11 +336,12 @@ export default {
   },
   contribute: { 0: 'Draag je steentje bij' },
   nsfw: {
-    0: 'Pas op!',
+    0: 'Warning nsfw!',
     1: 'Deze skin bevat gevoelige of volwassen onderdelen',
     2: 'Deze skin bevat gevoelige of volwassen onderdelen die sommige gebruikers schokkend kunnen vinden',
     3: 'Oké',
-    4: 'laters o/'
+    4: 'laters o/',
+    5: 'Warning furry!'
   },
   removed: {
     0: 'Versie onbeschikbaar',

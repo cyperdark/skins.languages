@@ -26,7 +26,8 @@ export default {
     1: 'סקינים הכי: _name_',
     2: 'נצפים | נאהבים | מורדים',
     3: 'פרסם סקין חדש',
-    4: 'איך להתקין סקין'
+    4: 'איך להתקין סקין',
+    5: '{amount} Skins | {amount} Skins | {amount} Skins'
   },
   changelogs: {
     0: 'יומן שינויים',
@@ -146,7 +147,9 @@ export default {
     32: 'הצבע בעד והגב ב־Reddit',
     33: 'הגב בפורום osu!',
     34: 'עוד סקינים מהיוצר הזה | עוד סקינים מהיוצרים האלו',
-    35: 'תמוך בסקין'
+    35: 'תמוך בסקין',
+    36: 'Unavailable',
+    37: 'Unfortunately skin was deleted by {author} request'
   },
   drag: {
     0: 'לחץ כאן',
@@ -333,11 +336,12 @@ export default {
   },
   contribute: { 0: 'Contribute' },
   nsfw: {
-    0: 'Warning!',
+    0: 'Warning nsfw!',
     1: 'This skin contains sensitive or adult content',
     2: 'This skin contains sensitive or adult content that some users may find disturbing',
     3: 'Alright',
-    4: 'bye o/'
+    4: 'bye o/',
+    5: 'Warning furry!'
   },
   removed: {
     0: 'Version unavailable',

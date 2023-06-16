@@ -26,7 +26,8 @@ export default {
     1: 'Skin les plus : _name_',
     2: 'Vus | Aimés | Téléchargés',
     3: 'Publier un nouveau skin',
-    4: 'Comment installer un skin'
+    4: 'Comment installer un skin',
+    5: '{amount} Skins | {amount} Skins | {amount} Skins'
   },
   changelogs: {
     0: 'Journal des modifications',
@@ -146,7 +147,9 @@ export default {
     32: 'Voter & commenter sur Reddit',
     33: 'Commenter sur le forum d\'osu!',
     34: 'Plus de skins de cet auteur | Plus de skins de ces auteurs',
-    35: 'Soutenir le skin'
+    35: 'Soutenir le skin',
+    36: 'Unavailable',
+    37: 'Unfortunately skin was deleted by {author} request'
   },
   drag: {
     0: 'Cliquez ici',
@@ -333,11 +336,12 @@ export default {
   },
   contribute: { 0: 'Contribuer' },
   nsfw: {
-    0: 'Attention !',
+    0: 'Warning nsfw!',
     1: 'Ce skin contient du contenu sensible ou pour adultes',
     2: 'Ce skin contient du contenu sensible ou pour adultes qui peuvent déranger certains utilisateurs',
     3: 'Ça marche',
-    4: 'bye o/'
+    4: 'bye o/',
+    5: 'Warning furry!'
   },
   removed: {
     0: 'Version indisponible',

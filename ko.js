@@ -26,7 +26,8 @@ export default {
     1: '추천: _이름_ 스킨',
     2: '조회수 | 좋아요 수 | 다운로드 수',
     3: '스킨 올리기',
-    4: '스킨 다운로드 방법'
+    4: '스킨 다운로드 방법',
+    5: '{amount} Skins | {amount} Skins | {amount} Skins'
   },
   changelogs: {
     0: '변경 내역',
@@ -146,7 +147,9 @@ export default {
     32: 'reddit에서 좋아요 & 댓글 달기',
     33: 'osu! 포럼에서 댓글 달기',
     34: '이 제작자의 다른 스킨들 | 이 제작자들의 다른 스킨들',
-    35: '스킨 지원하기'
+    35: '스킨 지원하기',
+    36: 'Unavailable',
+    37: 'Unfortunately skin was deleted by {author} request'
   },
   drag: {
     0: '여기를 클릭하세요.',
@@ -333,11 +336,12 @@ export default {
   },
   contribute: { 0: '기여하기' },
   nsfw: {
-    0: '경고!',
+    0: 'Warning nsfw!',
     1: '이 스킨은 성인 컨텐츠 또는 민감한 것을 포함하고 있습니다.',
     2: '이 스킨은 일부 유저에게 불쾌감을 줄 수 있는 성인 컨텐츠 또는 민감한 것을 포함하고 있습니다.',
     3: '좋아요!',
-    4: '안녕! o/'
+    4: '안녕! o/',
+    5: 'Warning furry!'
   },
   removed: {
     0: '사용할 수 없는 버전',

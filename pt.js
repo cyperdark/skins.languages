@@ -26,7 +26,8 @@ export default {
     1: 'Mais skins do tipo: _name_',
     2: 'Visto | curtido | Baixado',
     3: 'Publique uma nova skin',
-    4: 'Como instalar uma skin'
+    4: 'Como instalar uma skin',
+    5: '{amount} Skins | {amount} Skins | {amount} Skins'
   },
   changelogs: {
     0: 'Histórico de mudanças',
@@ -146,7 +147,9 @@ export default {
     32: 'De um Upvote & comente no reddit',
     33: 'Comente num fórum de osu!',
     34: 'Mais skins feitas por este autor | Mais skins deste autor',
-    35: 'Apoie a skin'
+    35: 'Apoie a skin',
+    36: 'Unavailable',
+    37: 'Unfortunately skin was deleted by {author} request'
   },
   drag: {
     0: 'Clique aqui',
@@ -186,7 +189,7 @@ export default {
       2: 'Usuários',
       3: 'Listas'
     },
-    14: 'Search:'
+    14: 'Buscar:'
   },
   tabs: {
     0: 'Buscar',
@@ -333,11 +336,12 @@ export default {
   },
   contribute: { 0: 'Contribua' },
   nsfw: {
-    0: 'Cuidado!',
+    0: 'Warning nsfw!',
     1: 'Essa skin contém conteúdos considerados sensíveis ou conteúdo adulto',
     2: 'Essa skin contém conteúdo sensível o adulto que alguns usuários consideram perturbador',
     3: 'Tudo bem',
-    4: 'Tchau o/'
+    4: 'Tchau o/',
+    5: 'Warning furry!'
   },
   removed: {
     0: 'Versão indisponível',
@@ -400,7 +404,7 @@ export default {
   },
   header: {
     0: 'Notificações',
-    1: 'Follow us on these platforms to receive notifications about new skins'
+    1: 'Nos siga nessas plataformas para receber notificações sobre novas skins'
   },
   restricted_view: {
     0: 'Não autorizado',

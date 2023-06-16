@@ -26,7 +26,8 @@ export default {
     1: 'Mest: _name_skins',
     2: 'Visningar | Gillade | Nedladdade',
     3: 'Publicera nytt skin',
-    4: 'Hur man installerar skin'
+    4: 'Hur man installerar skin',
+    5: '{amount} Skins | {amount} Skins | {amount} Skins'
   },
   changelogs: {
     0: 'Ändringslogg',
@@ -146,7 +147,9 @@ export default {
     32: 'Gilla & kommentera på reddit',
     33: 'Kommentera på osu! forumet',
     34: 'Fler skins från denna skapare | Fler skins från dessa skapare',
-    35: 'Stötta skin'
+    35: 'Stötta skin',
+    36: 'Unavailable',
+    37: 'Unfortunately skin was deleted by {author} request'
   },
   drag: {
     0: 'Klicka här',
@@ -333,11 +336,12 @@ export default {
   },
   contribute: { 0: 'Bidra' },
   nsfw: {
-    0: 'Varning!',
+    0: 'Warning nsfw!',
     1: 'Denna skin innehåller känsligt eller vuxet innehåll',
     2: 'Denna skin innehåller känslig eller vuxen innehåll som vissa användare kan hitta störande',
     3: 'Okej',
-    4: 'Hejdå o/'
+    4: 'Hejdå o/',
+    5: 'Warning furry!'
   },
   removed: {
     0: 'Version ej tillgänglig',

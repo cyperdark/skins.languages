@@ -26,7 +26,8 @@ export default {
     1: 'Visvairāk: _name_ skini',
     2: 'Skatīts | Patīkots | Lejupielādēts',
     3: 'Publicēt jaunu skinu',
-    4: 'Kā lejupielādēt skinu'
+    4: 'Kā lejupielādēt skinu',
+    5: '{amount} Skins | {amount} Skins | {amount} Skins'
   },
   changelogs: {
     0: 'Izmaiņu saraksts',
@@ -146,7 +147,9 @@ export default {
     32: 'Augšupbalso & komentē redditā',
     33: 'Komentē osu! forumā',
     34: 'Vairāk skini no šī veidotāja | Vairāk skini no šī veidotāja',
-    35: 'Atbalsti skinu'
+    35: 'Atbalsti skinu',
+    36: 'Unavailable',
+    37: 'Unfortunately skin was deleted by {author} request'
   },
   drag: {
     0: 'Klikšķini šeit',
@@ -333,11 +336,12 @@ export default {
   },
   contribute: { 0: 'Izpalīdzēt' },
   nsfw: {
-    0: 'Brīdinājums!',
+    0: 'Warning nsfw!',
     1: 'Šis skins satur aizskarošu vai nepiemērotu saturu',
     2: 'Šis skins satur aizskarošu vai nepiemērotu saturu, kas dažiem lietotājiem varētu likties satraucošs',
     3: 'Labi',
-    4: 'atā o/'
+    4: 'atā o/',
+    5: 'Warning furry!'
   },
   removed: {
     0: 'Versija nav pieejama',
