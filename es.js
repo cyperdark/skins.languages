@@ -147,7 +147,9 @@ export default {
     32: 'Votar y comentar en reddit',
     33: 'Comment on osu! forum',
     34: 'Más skins de este autor | Más skins de estos autores',
-    35: 'Support the skin'
+    35: 'Support the skin',
+    36: 'Unavailable',
+    37: 'Unfortunately skin was deleted by {author} request'
   },
   drag: {
     0: 'Click aquí',
@@ -334,11 +336,12 @@ export default {
   },
   contribute: { 0: 'Contribuir' },
   nsfw: {
-    0: '¡Advertencia!',
+    0: 'Warning nsfw!',
     1: 'Esta skin contiene elementos sensibles o contenido adulto',
     2: 'Esta skin contiene elementos sensibles o contenido adulto que algunos usuarios pueden encontrar inquietante',
     3: 'Alright',
-    4: 'bye o/'
+    4: 'bye o/',
+    5: 'Warning furry!'
   },
   removed: {
     0: 'Version unavailable',
