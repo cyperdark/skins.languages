@@ -147,7 +147,9 @@ export default {
     32: 'Upvote & comment on reddit',
     33: 'Comment on osu! forum',
     34: 'More skins from this author | More skins from this authors',
-    35: 'Support the skin'
+    35: 'Support the skin',
+    36: 'Unavailable',
+    37: 'Unfortunately skin was deleted by {author} request'
   },
   drag: {
     0: 'Buraya tıklayın',
@@ -334,11 +336,12 @@ export default {
   },
   contribute: { 0: 'Katkıda bulunun' },
   nsfw: {
-    0: 'Uyarı!',
+    0: 'Warning nsfw!',
     1: 'Bu skin hassas veya yetişkinlere yönelik içerik barındırıyor',
     2: 'Bu skin rahatsız olabileceğiniz hassas veya yetişkinlere yönelik içerik barındırıyor',
     3: 'Anladım',
-    4: 'güle güle o/'
+    4: 'güle güle o/',
+    5: 'Warning furry!'
   },
   removed: {
     0: 'Sürüm mevcut değil',
