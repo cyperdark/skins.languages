@@ -147,7 +147,9 @@ export default {
     32: 'Upvote & comment on reddit',
     33: 'Comment on osu! forum',
     34: 'More skins from this author | More skins from this authors',
-    35: 'Support the skin'
+    35: 'Support the skin',
+    36: 'Unavailable',
+    37: 'Unfortunately skin was deleted by {author} request'
   },
   drag: {
     0: 'Trykk her',
@@ -334,11 +336,12 @@ export default {
   },
   contribute: { 0: 'Bidra' },
   nsfw: {
-    0: 'Advarsel!',
+    0: 'Warning nsfw!',
     1: 'Dette skinnet inneholder sensitivt eller voksent innhold',
     2: 'Dette skinnet inneholder sensitivt eller voksent innhold som noen brukere kan finne forstyrrende',
     3: 'Okei',
-    4: 'bye o/'
+    4: 'bye o/',
+    5: 'Warning furry!'
   },
   removed: {
     0: 'Version unavailable',
