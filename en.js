@@ -151,6 +151,9 @@ export default {
     33: 'Comment on osu! forum',
     34: 'More skins from this author | More skins from this authors',
     35: 'Support the skin',
+
+    36: 'Unavailable',
+    37: 'Unfortunately skin was deleted by {author} request'
   },
   drag: {
     0: 'Click here',
@@ -341,11 +344,12 @@ export default {
     0: 'Contribute'
   },
   nsfw: {
-    0: 'Warning!',
+    0: 'Warning nsfw!',
     1: 'This skin contains sensitive or adult content',
     2: 'This skin contains sensitive or adult content that some users may find disturbing',
     3: 'Alright',
     4: 'bye o/',
+    5: 'Warning furry!',
   },
 
   removed: {
@@ -441,6 +445,6 @@ export default {
     1: 'Please log into your account',
 
     2: 'Restricted view',
-    3: 'This page is not out, yet.'
+    3: 'This page is not out, yet.',
   },
 };
