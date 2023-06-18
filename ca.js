@@ -64,23 +64,23 @@ export default {
   },
   videos: {
     0: 'Vídeos',
-    1: 'List of all the video showcases for this skin',
-    2: 'No showcases',
+    1: 'Llistat de tots els vídeos de mostra per aquesta skin',
+    2: 'No hi ha mostres',
     3: 'Search for some on YouTube or create your own showcase'
   },
   sources: {
-    0: 'Attribution',
-    1: 'List of all used assets or tools in this version of the skin',
-    2: 'Kinda empty here',
-    3: 'If you have used assets from other skins, or arts, be sure to add them in the box above',
+    0: 'Atributs',
+    1: 'Llistat de tots els atributs o eines en aquesta versió de la skin',
+    2: 'Està buit això',
+    3: 'Si has fet servir atributs d\'altres skins, o "arts", assegura\'t d\'afegir-los a la caixa de dalt',
     4: 'No agrupat'
   },
   checks: {
-    0: 'All',
+    0: 'Totes',
     1: 'Metadata',
     2: 'Highlight',
-    3: 'Name of the skin not specified',
-    4: 'Add at least one skin creator',
+    3: 'Nom de la skin no especificat',
+    4: 'Afegeix com a mínim un creador de la skin',
     5: 'Add a couple of tags',
     6: 'Size of the skin not specified',
     7: 'Select at least one gamemode',
