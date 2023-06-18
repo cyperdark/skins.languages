@@ -23,11 +23,11 @@ export default {
   },
   home: {
     0: 'Tersedia untuk didownload',
-    1: 'Most: _name_ skins',
-    2: 'Viewed | Liked | Downloaded',
-    3: 'Publish new skin',
-    4: 'How to install skin',
-    5: '{amount} Skins | {amount} Skins | {amount} Skins'
+    1: 'Skin yang: _name_ terbanyak',
+    2: 'Dilihat | Disukai | Didownload',
+    3: 'Publikasikan skin baru',
+    4: 'Bagaimana cara memasang skin',
+    5: '{amount} Skin | {amount} Skin | {amount} Skin'
   },
   changelogs: {
     0: 'Catatan Perubahan',
@@ -42,7 +42,7 @@ export default {
   },
   ideas: {
     0: 'Tidak menemukan apapun',
-    1: 'Screenshots of «{type}» were not uploaded to the site'
+    1: 'Screenshot «{type}» tidak diunggah ke situs'
   },
   creators: {
     0: 'Pembuat',
@@ -79,7 +79,7 @@ export default {
     0: 'Semua',
     1: 'Metadata',
     2: 'Sorotan',
-    3: 'Name of the skin not specified',
+    3: 'Nama skin tidak ditentukan',
     4: 'Tambahkan setidaknya satu pembuat skin',
     5: 'Tambahkan beberapa label',
     6: 'Ukuran skin tidak ditentukan',
@@ -92,9 +92,9 @@ export default {
     20: 'Terlihat bagus',
     21: 'Semua masalah sudah diperbaiki. Kerja bagus!',
     22: 'Daftar cek',
-    23: 'Add at least one public version',
-    24: 'Add at least one creator to this version',
-    25: 'Some creators doesn\'t have roles'
+    23: 'Tambahkan setidaknya satu versi publik',
+    24: 'Tambahkan setidaknya satu pembuat untuk versi ini',
+    25: 'Beberapa pembuat tidak mempunyai peran'
   },
   skins: {
     0: 'Skin',
@@ -109,8 +109,8 @@ export default {
     9: 'Skin | Skin | Skin',
     10: 'Skin osu oleh {name}',
     11: 'Cari',
-    12: '{name} skins',
-    13: 'Explore skins'
+    12: '{name} skin',
+    13: 'Temukan skin'
   },
   skin: {
     0: 'Edit',
@@ -143,13 +143,13 @@ export default {
     28: 'Tidak ada label',
     29: 'Tidak ada video',
     30: 'Tidak ada pembuat',
-    31: 'Rate skin',
+    31: 'Beri nilai',
     32: 'Upvote & comment on reddit',
     33: 'Comment on osu! forum',
-    34: 'More skins from this author | More skins from this authors',
-    35: 'Support the skin',
-    36: 'Unavailable',
-    37: 'Unfortunately skin was deleted by {author} request'
+    34: 'Lebih banyak skin dari pembuat | Lebih banyak skin dari pembuat',
+    35: 'Dukung skin ini',
+    36: 'Tidak tersedia',
+    37: 'Sayangnya skin telah dihapus atas permintaan {author}'
   },
   drag: {
     0: 'Klik disini',
@@ -180,13 +180,13 @@ export default {
     7: 'Tidak menemukan apapun',
     8: 'Coba gunakan filter pencarian yang berbeda',
     9: 'Menunggu pencarian',
-    10: 'Use the search filters or type the skin\'s title, author or tags',
+    10: 'Gunakan filter pencarian atau ketik nama skin, pembuat atau label',
     11: 'Unduh',
     12: 'Nama',
     13: {
       0: 'Skin',
       1: 'Label',
-      2: 'Users',
+      2: 'Pengguna',
       3: 'Daftar'
     },
     14: 'Cari:'
@@ -198,11 +198,11 @@ export default {
   },
   undefined: {
     0: 'Kosong',
-    1: 'Unfortunately, there\'s nothing here, but you can take a look at the other pages',
-    2: 'Unfortunately, there\'s nothing here',
+    1: 'Sayangnya, disini tidak ada apa-apa, tetapi kamu bisa melihat halaman yang lain',
+    2: 'Sayangnya, disini tidak ada apa-apa',
     3: 'Tidak diizinkan',
-    4: 'You need to be logged in order to edit this skin.',
-    5: 'You need to be logged in order to add a new skin.'
+    4: 'Kemu perlu masuk untuk mengedit skin ini.',
+    5: 'Kamu perlu masuk untuk menambahkan skin baru.'
   },
   meta: {
     title: {
@@ -232,7 +232,7 @@ export default {
       7: 'Tersedia banyak sekali skin osu! untuk {name}, unduh secara gratis!',
       8: 'Semua skin osu! yang dibuat oleh {name}',
       9: 'Cari inspirasi untuk skin osu! mu pada website kami. Jelajahi berbagai macam koleksi skin, dan temukan teknik dan ide baru. Dapatkan inspirasi dan buat skin unik Anda sendiri.',
-      10: 'Search for tags among all the tags on the site.'
+      10: 'Cari label diantara semua label disitus.'
     }
   },
   buttons: {
@@ -315,8 +315,8 @@ export default {
     ratio: 'Pilih aspek rasio | rasio'
   },
   placeholders: {
-    0: 'Select roles',
-    1: 'Select versions',
+    0: 'Pilih peran',
+    1: 'Pilih versi',
     2: 'Ketikan sesuatu...',
     3: 'Pilih ukuran',
     4: 'Pilih rentang tanggal',
@@ -327,26 +327,26 @@ export default {
     9: 'Gamemode',
     10: 'Pilih tipe',
     11: 'Tempel link YouTube',
-    12: 'Type a description and an url. Format description:url',
+    12: 'Tulis deskripsi dan url. Format: deskripsi:url',
     13: 'Pilih ekstra',
     14: 'Tempel link',
-    15: 'Skin title, author, or tags',
+    15: 'Judul, pembuat, atau label skin',
     16: 'Pilih kategori',
-    17: 'Type the name of the tag'
+    17: 'Ketik nama dari label'
   },
   contribute: { 0: 'Kontribusi' },
   nsfw: {
-    0: 'Warning nsfw!',
+    0: 'Awas nsfw!',
     1: 'Terdapat konten sensitif atau dewasa pada skin ini',
     2: 'Terdapat konten sensitif atau dewasa pada skin ini yang mungkin mengganggu sebagian orang',
     3: 'Baiklah',
     4: 'dadah o/',
-    5: 'Warning furry!'
+    5: 'Awas furry!'
   },
   removed: {
-    0: 'Version unavailable',
-    1: 'The author of the skin decided to remove this version from the site.',
-    2: 'Switch to an available version'
+    0: 'Versi tidak tersedia',
+    1: 'Pembuat skin memilih untuk menghapus versi ini dari situs.',
+    2: 'Beralih ke skin yang tersedia'
   },
   notify: {
     0: 'Masalah belum diperbaiki',
@@ -354,62 +354,62 @@ export default {
     2: 'Tampilkan',
     3: 'Tidak ditemukan',
     4: 'Banner not found (Currently, the first screenshot is being used as the banner)',
-    5: 'No changes',
-    6: 'No changes were found',
-    7: 'ID not found',
-    8: 'ID of the video not found, try another link (At the moment only YouTube is supported)',
-    9: 'Oops',
+    5: 'Tidak ada perubahan',
+    6: 'Tidak ada perubahan yang ditemukan',
+    7: 'ID tidak ditemukan',
+    8: 'ID video tidak ditemukan, silahkan coba link yang lain (Saat ini hanya YouTube yang didukung)',
+    9: 'Ups',
     10: 'Looks like your session expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
     11: 'Exists',
-    12: 'This video has already been added',
+    12: 'Video ini telah ditambahkan',
     13: 'Exists',
-    14: 'This tag has already been added',
+    14: 'Label ini telah ditambahkan',
     15: 'Tidak ditemukan',
     16: 'You cannot delete a deleted tag',
     17: 'Added',
-    18: 'You have successfully added a new tag',
-    19: 'OOps',
-    20: 'This creator was already added',
+    18: 'Kamu telah berhasil menambahkan label baru',
+    19: 'Ups',
+    20: 'Pembuat ini telah ditambahkan',
     21: 'EZ',
-    22: 'New creator has been added',
+    22: 'Pembuat baru telah ditambahkan',
     23: 'HUH',
     24: 'Impossible to remove a deleted creator',
     25: 'Duplicate',
-    26: 'This change has already been added earlier.',
+    26: 'Perubahan ini telah ditambahkan.',
     27: 'Duplicate',
-    28: 'This url has already been added earlier.',
-    29: 'Warning',
-    30: 'You forgot to add a description for the url. Example: Description:url',
-    31: 'Warning',
-    32: 'You forgot to add an url for the description. Example: Description:url',
-    33: 'Restored',
-    34: 'Version «{name}» has been restored',
-    35: 'Deleted',
-    36: 'Version «{name}» has been deleted',
-    37: 'Error',
-    38: 'Apparently the server thinks you\'re a robot.',
+    28: 'URL ini telah ditambahkan.',
+    29: 'Peringatan',
+    30: 'Kamu lupa menambahkan deskripsi untuk url. Contoh: Deskripsi:url',
+    31: 'Peringatan',
+    32: 'Kamu lupa menambahkan url untuk deskripsi. Contoh: Deskripsi:url',
+    33: 'Dipulihkan',
+    34: 'Versi «{name}» telah dipulihkan',
+    35: 'Dihapus',
+    36: 'Versi «{name}» telah dihapus',
+    37: 'Eror',
+    38: 'Rupanya server menganggap anda robot.',
     39: 'Looks like your user session has expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
     40: 'Mismatched credentials (relogin in account. Don\'t worry, everything was saved automatically)',
-    41: 'Unknown error',
-    42: 'You cannot edit a nonexistent skin',
-    43: 'Seems like you don\'t have permission to edit this skin',
+    41: 'Kesalahan tidak diketahui',
+    42: 'Kamu tidak dapat mengedit skin yang tidak ada',
+    43: 'Sepertinya kamu tidak memiliki izin untuk mengedit skin ini',
     44: 'You cannot send this version because it is the same as the previous one.',
-    45: 'These changes have already been sent for moderation',
-    46: 'Success',
-    47: 'New changes have been submitted for moderation',
-    48: 'Changes have been updated in moderation',
-    49: 'Odd link',
-    50: 'This link cannot be used as a download link',
-    51: 'Submitted for moderation'
+    45: 'Perubahan ini telah dikirim untuk moderasi',
+    46: 'Sukses',
+    47: 'Perubahan baru telah dikirim untuk moderasi',
+    48: 'Perubahan telah diperbarui dalam moderasi',
+    49: 'Link aneh',
+    50: 'Tautan ini tidak dapat digunakan sebagai tautan unduhan',
+    51: 'Dikirimkan untuk moderasi'
   },
   header: {
     0: 'Notifikasi',
-    1: 'Follow us on these platforms to receive notifications about new skins'
+    1: 'Ikuti kami di platform ini untuk menerima pemberitahuan tentang skin baru'
   },
   restricted_view: {
     0: 'Tidak diizinkan',
-    1: 'Please log into your account',
-    2: 'Restricted view',
-    3: 'This page is not out, yet.'
+    1: 'Mohon masuk ke akun anda',
+    2: 'Penglihatan terbatas',
+    3: 'Halaman ini belum keluar.'
   }
 };

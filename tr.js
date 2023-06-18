@@ -22,12 +22,12 @@ export default {
     tools: 'Toollar'
   },
   home: {
-    0: 'Available to download',
-    1: 'Most: _name_ skins',
-    2: 'Viewed | Liked | Downloaded',
-    3: 'Publish new skin',
-    4: 'How to install skin',
-    5: '{amount} Skins | {amount} Skins | {amount} Skins'
+    0: 'İndirilebilir',
+    1: 'En fazla: _name_ skinleri',
+    2: 'Görüntülendi | Beğenildi | İndirildi',
+    3: 'Yeni bir skin yayınla',
+    4: 'Skin nasıl indirilir',
+    5: '{amount} Skin | {amount} Skin | {amount} Skin'
   },
   changelogs: {
     0: 'Güncelleme geçmişi',
@@ -93,8 +93,8 @@ export default {
     21: 'İyi haber! Hiçbir problem kalmadı!',
     22: 'Kontrol listesi',
     23: 'Herkese açık en az bir versiyon ekleyin',
-    24: 'Add at least one creator to this version',
-    25: 'Some creators doesn\'t have roles'
+    24: 'Bu versiyona en az bir yaratıcı ekle',
+    25: 'Bazı yaratıcılar role sahip değil'
   },
   skins: {
     0: 'Skinler',
@@ -109,7 +109,7 @@ export default {
     9: 'Skin | Skins | Skins',
     10: '{name} tarafıdan yapılan skinler | All skins from',
     11: 'Ara',
-    12: '{name} skins',
+    12: '{name} skinleri',
     13: 'Skinleri keşfet'
   },
   skin: {
@@ -143,13 +143,13 @@ export default {
     28: 'Etiket yok',
     29: 'Video yok',
     30: 'Yaratıcı yok',
-    31: 'Rate skin',
-    32: 'Upvote & comment on reddit',
-    33: 'Comment on osu! forum',
-    34: 'More skins from this author | More skins from this authors',
-    35: 'Support the skin',
-    36: 'Unavailable',
-    37: 'Unfortunately skin was deleted by {author} request'
+    31: 'Skini değerlendir',
+    32: 'Redditte upvote at ve yorum yap',
+    33: 'osu! forumunda yorum yap',
+    34: 'Bu yaratıcının diğer skinleri',
+    35: 'Skini destekle',
+    36: 'Mevcut değil',
+    37: 'Ne yazık ki skin {author} tarafından kaldırıldı'
   },
   drag: {
     0: 'Buraya tıklayın',
@@ -189,7 +189,7 @@ export default {
       2: 'Kullanıcılar',
       3: 'Listeler'
     },
-    14: 'Search:'
+    14: 'Ara:'
   },
   tabs: {
     0: 'Ara',
@@ -336,12 +336,12 @@ export default {
   },
   contribute: { 0: 'Katkıda bulunun' },
   nsfw: {
-    0: 'Warning nsfw!',
+    0: 'Uyarı: nswf!',
     1: 'Bu skin hassas veya yetişkinlere yönelik içerik barındırıyor',
     2: 'Bu skin rahatsız olabileceğiniz hassas veya yetişkinlere yönelik içerik barındırıyor',
     3: 'Anladım',
     4: 'güle güle o/',
-    5: 'Warning furry!'
+    5: 'Uyarı: furry!'
   },
   removed: {
     0: 'Sürüm mevcut değil',
@@ -374,9 +374,9 @@ export default {
     22: 'Yeni bir yaratıcı eklendi',
     23: 'HUH',
     24: 'Silinmiş bir yaratıcıyı tekrar silemezsin',
-    25: 'Duplicate',
+    25: 'Uyarı',
     26: 'Bu değişiklik zaten eklenmiş.',
-    27: 'Duplicate',
+    27: 'Uyarı',
     28: 'Bu url zaten eklenmiş.',
     29: 'Uyarı',
     30: 'Url için bir açıklama eklemeyi unuttun. Örnek: Açıklama:url',
@@ -404,7 +404,7 @@ export default {
   },
   header: {
     0: 'Bildirimler',
-    1: 'Follow us on these platforms to receive notifications about new skins'
+    1: 'Yeni skinler hakkında bildirim almak için bu platformlarda bizi takip edin'
   },
   restricted_view: {
     0: 'Yetkiniz yok',
