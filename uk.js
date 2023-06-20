@@ -149,7 +149,7 @@ export default {
     34: 'Більше скінів від цього автора | Більше скінів від цих авторів',
     35: 'Підтримати скін',
     36: 'Unavailable',
-    37: 'Unfortunately skin was deleted by {author} request'
+    37: 'Unfortunately, this skin was deleted at {author} request'
   },
   drag: {
     0: 'Натисніть тут',
@@ -336,12 +336,12 @@ export default {
   },
   contribute: { 0: 'Зробити свій внесок' },
   nsfw: {
-    0: 'Warning nsfw!',
+    0: 'Warning, nsfw!',
     1: 'Цей скін містить делікатний або дорослий контент',
     2: 'Цей скін містить делікатний або дорослий контент, який деякі користувачі можуть вважати тривожним',
     3: 'Гаразд',
     4: 'Бувай o/',
-    5: 'Warning furry!'
+    5: 'Furry Warning!'
   },
   removed: {
     0: 'Версія недоступна',
