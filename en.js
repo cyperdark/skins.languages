@@ -153,7 +153,7 @@ export default {
     35: 'Support the skin',
 
     36: 'Unavailable',
-    37: 'Unfortunately skin was deleted by {author} request'
+    37: 'Unfortunately, this skin was deleted at {author} request'
   },
   drag: {
     0: 'Click here',
@@ -344,12 +344,12 @@ export default {
     0: 'Contribute'
   },
   nsfw: {
-    0: 'Warning nsfw!',
+    0: 'Warning, nsfw!',
     1: 'This skin contains sensitive or adult content',
     2: 'This skin contains sensitive or adult content that some users may find disturbing',
     3: 'Alright',
     4: 'bye o/',
-    5: 'Warning furry!',
+    5: 'Furry Warning!',
   },
 
   removed: {
