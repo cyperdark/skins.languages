@@ -149,7 +149,7 @@ export default {
     34: 'Skin lain daripada pengarang ini | Skin lain daripada pengarang ini',
     35: 'Sokong skin ini',
     36: 'Unavailable',
-    37: 'Unfortunately skin was deleted by {author} request'
+    37: 'Unfortunately, this skin was deleted at {author} request'
   },
   drag: {
     0: 'Ketik di sini',
@@ -336,12 +336,12 @@ export default {
   },
   contribute: { 0: 'Sumbangan' },
   nsfw: {
-    0: 'Warning nsfw!',
+    0: 'Warning, nsfw!',
     1: 'Skin ini mengandungi kandungan sensitif ataupun kandungan dewasa',
     2: 'Skin ini mengandungi kandungan sensitif atau kandungan dewasa yang mungkin tidak disukai oleh sesetengah pengguna',
     3: 'Ok',
     4: 'jumpa lagi o/',
-    5: 'Warning furry!'
+    5: 'Furry Warning!'
   },
   removed: {
     0: 'Versi tidak ada',
