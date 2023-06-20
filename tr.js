@@ -149,7 +149,7 @@ export default {
     34: 'Bu yaratıcının diğer skinleri',
     35: 'Skini destekle',
     36: 'Mevcut değil',
-    37: 'Ne yazık ki skin {author} tarafından kaldırıldı'
+    37: 'Unfortunately, this skin was deleted at {author} request'
   },
   drag: {
     0: 'Buraya tıklayın',
@@ -336,12 +336,12 @@ export default {
   },
   contribute: { 0: 'Katkıda bulunun' },
   nsfw: {
-    0: 'Uyarı: nswf!',
+    0: 'Warning, nsfw!',
     1: 'Bu skin hassas veya yetişkinlere yönelik içerik barındırıyor',
     2: 'Bu skin rahatsız olabileceğiniz hassas veya yetişkinlere yönelik içerik barındırıyor',
     3: 'Anladım',
     4: 'güle güle o/',
-    5: 'Uyarı: furry!'
+    5: 'Furry Warning!'
   },
   removed: {
     0: 'Sürüm mevcut değil',
