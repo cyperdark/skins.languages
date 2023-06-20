@@ -149,7 +149,7 @@ export default {
     34: 'Vairāk skini no šī veidotāja | Vairāk skini no šī veidotāja',
     35: 'Atbalsti skinu',
     36: 'Unavailable',
-    37: 'Unfortunately skin was deleted by {author} request'
+    37: 'Unfortunately, this skin was deleted at {author} request'
   },
   drag: {
     0: 'Klikšķini šeit',
@@ -336,12 +336,12 @@ export default {
   },
   contribute: { 0: 'Izpalīdzēt' },
   nsfw: {
-    0: 'Warning nsfw!',
+    0: 'Warning, nsfw!',
     1: 'Šis skins satur aizskarošu vai nepiemērotu saturu',
     2: 'Šis skins satur aizskarošu vai nepiemērotu saturu, kas dažiem lietotājiem varētu likties satraucošs',
     3: 'Labi',
     4: 'atā o/',
-    5: 'Warning furry!'
+    5: 'Furry Warning!'
   },
   removed: {
     0: 'Versija nav pieejama',

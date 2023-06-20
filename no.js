@@ -149,7 +149,7 @@ export default {
     34: 'More skins from this author | More skins from this authors',
     35: 'Support the skin',
     36: 'Unavailable',
-    37: 'Unfortunately skin was deleted by {author} request'
+    37: 'Unfortunately, this skin was deleted at {author} request'
   },
   drag: {
     0: 'Trykk her',
@@ -336,12 +336,12 @@ export default {
   },
   contribute: { 0: 'Bidra' },
   nsfw: {
-    0: 'Warning nsfw!',
+    0: 'Warning, nsfw!',
     1: 'Dette skinnet inneholder sensitivt eller voksent innhold',
     2: 'Dette skinnet inneholder sensitivt eller voksent innhold som noen brukere kan finne forstyrrende',
     3: 'Okei',
     4: 'bye o/',
-    5: 'Warning furry!'
+    5: 'Furry Warning!'
   },
   removed: {
     0: 'Version unavailable',

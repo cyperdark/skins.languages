@@ -149,7 +149,7 @@ export default {
     34: 'Mais skins feitas por este autor | Mais skins deste autor',
     35: 'Apoie a skin',
     36: 'Não disponível',
-    37: 'Infelizmente, essa skin foi removida a pedido do {author} '
+    37: 'Unfortunately, this skin was deleted at {author} request'
   },
   drag: {
     0: 'Clique aqui',
@@ -336,12 +336,12 @@ export default {
   },
   contribute: { 0: 'Contribua' },
   nsfw: {
-    0: 'Aviso nsfw! (+18)',
+    0: 'Warning, nsfw!',
     1: 'Essa skin contém conteúdos considerados sensíveis ou conteúdo adulto',
     2: 'Essa skin contém conteúdo sensível o adulto que alguns usuários consideram perturbador',
     3: 'Tudo bem',
     4: 'Tchau o/',
-    5: 'Aviso furry!'
+    5: 'Furry Warning!'
   },
   removed: {
     0: 'Versão indisponível',

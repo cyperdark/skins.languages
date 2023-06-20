@@ -149,7 +149,7 @@ export default {
     34: 'Още облици от този автор | Още облици от този автор',
     35: 'Подкрепете облика',
     36: 'Unavailable',
-    37: 'Unfortunately skin was deleted by {author} request'
+    37: 'Unfortunately, this skin was deleted at {author} request'
   },
   drag: {
     0: 'Кликнете тук',
@@ -336,12 +336,12 @@ export default {
   },
   contribute: { 0: 'Допринасяне' },
   nsfw: {
-    0: 'Warning nsfw!',
+    0: 'Warning, nsfw!',
     1: 'Този облик има съдаржание предназначено за възрастни',
     2: 'Този облик съдържа деликатно съдържание или съдържание за възрастни, което някои потребители може да намерят за смущаващо',
     3: 'Добре',
     4: 'чао о/',
-    5: 'Warning furry!'
+    5: 'Furry Warning!'
   },
   removed: {
     0: 'Версията е неналична',
