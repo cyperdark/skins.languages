@@ -36,9 +36,9 @@ export default {
     3: 'But you can add the changes you\'ve made to this version of the skin',
     4: 'Nezoskupené',
     5: 'Nové',
-    6: 'Opravené',
-    7: 'Zmenené',
-    8: 'Odstránenia'
+    6: 'Fix',
+    7: 'Change',
+    8: 'Removal'
   },
   ideas: {
     0: 'Nič sa nenašlo',
@@ -149,7 +149,14 @@ export default {
     34: 'More skins from this author | More skins from this authors',
     35: 'Support the skin',
     36: 'Unavailable',
-    37: 'Unfortunately, this skin was deleted at {author} request'
+    37: 'Unfortunately, this skin was deleted at {author} request',
+    38: 'Welcome to the skin post editor!',
+    39: `New to the skin editor? Let us guide you through the interface and show you the editor's full potential!`,
+    40: '{current} of {max} completed',
+    41: 'Check out later',
+    42: `Let's get started`,
+    43: 'Congratulations!',
+    44: 'You successfully finished the tutorial, have fun!'
   },
   drag: {
     0: 'Klikni tu',
@@ -157,7 +164,9 @@ export default {
   },
   footer: {
     0: 'Zrobil cyperdark',
-    1: 'Kredit'
+    1: 'Kredit',
+    2: 'Rules',
+    3: 'Contacts'
   },
   credits: {
     0: 'Chibi',
@@ -191,6 +200,14 @@ export default {
     },
     14: 'Search:'
   },
+  contests: {
+    0: 'Contests',
+    1: 'Official newspost',
+    2: 'Submission',
+    3: 'Preparing',
+    4: 'Voting',
+    5: 'Finished'
+  },
   tabs: {
     0: 'Hľadať',
     1: 'Edit',
@@ -219,7 +236,10 @@ export default {
       10: '{name} výrobca osu skinou',
       11: 'Search tags',
       12: '{name} najdené štítky',
-      13: 'Novy skin'
+      13: 'Novy skin',
+      14: 'Site rules',
+      15: 'osu! Contests',
+      16: 'osu! Contests'
     },
     description: {
       0: 'Získajte najlepšie osu! skiny na našej stránke! Naša obrovská knižnica má skiny pre všetke herné režimy, pomery strán a dokonca aj pre špičkových hráčov. Navyše máme špeciálnu sekciu pre fanúšikov anime. Zlepšite svoju hru s dokonalým vzhľadom. #osuskins #osugame #anime',
@@ -232,7 +252,9 @@ export default {
       7: 'Obrovské množstvo osu skinov pre {name}, stiahnite si zadarmo!',
       8: 'Všetke osu skiny vytvoril {name}',
       9: 'Nájdite inšpiráciu pre svoje ďalšie osu! skiny na našej stránke. Pozrite si rozmanitú kolekciu vzhľadov a objavte nové techniky a nápady. Nechajte sa inšpirovať a vytvorte si vlastné jedinečné skiny.',
-      10: 'Vyhľadávaj pre štítky všade v štítkoch na tejto stránke.'
+      10: 'Vyhľadávaj pre štítky všade v štítkoch na tejto stránke.',
+      11: 'List of all past/active osu! contests',
+      12: '{amount} entries for {title} contest. {views} views'
     }
   },
   buttons: {
@@ -248,7 +270,14 @@ export default {
     copied: 'Skopírované',
     reddit_link: 'Reddit',
     osu_forum_link: 'osu! Forum',
-    skin_return: 'Späť na skin'
+    skin_return: 'Späť na skin',
+    source: 'Source',
+    contest_voting: 'Vote here'
+  },
+  choose: {
+    0: 'Optional',
+    1: 'Required',
+    2: 'Pick at least one option'
   },
   user: {
     roles: {
@@ -269,7 +298,11 @@ export default {
     6: '{s}Prihláste sa{p}, aby ste mohli ohodnotiť tento skin',
     7: 'Žiadny krátky popis',
     8: 'Žiadne URL',
-    9: 'Stiahnuté bolo: {amount}'
+    9: 'Stiahnuté bolo: {amount}',
+    10: 'Reset everything',
+    11: 'Show guide',
+    12: 'Close guide',
+    13: 'To mark a rule as read, hover over it (Yellow indicates unread)'
   },
   lists: {
     screens: {
@@ -285,9 +318,10 @@ export default {
       9: 'Sekcia nedokončená',
       10: 'Obrazovka Pauzy',
       11: 'Obrazovka prehrania',
-      12: 'Obrazovka výsledkov',
+      12: 'Result screen (top)',
       13: 'Preskočiť',
-      14: 'Banner'
+      14: 'Banner',
+      15: 'Result screen (bottom)'
     },
     cats: {
       0: 'NSFW',
@@ -400,7 +434,9 @@ export default {
     48: 'Changes have been updated in moderation',
     49: 'Odd link',
     50: 'This link cannot be used as a download link',
-    51: 'Submitted for moderation'
+    51: 'Submitted for moderation',
+    52: 'Warning',
+    53: 'You need to choose type of asset'
   },
   header: {
     0: 'Oznámenia',
@@ -411,5 +447,12 @@ export default {
     1: 'Prihláste sa na svoj účet',
     2: 'Zakázaný pohľad',
     3: 'Tato stránka ešte není na internete, zatiaľ.'
+  },
+  confirm: {
+    0: 'Reset everything?',
+    1: 'Show guide?',
+    2: 'Submit skin?',
+    3: 'Yes',
+    4: 'No'
   }
 };
