@@ -36,9 +36,9 @@ export default {
     3: 'Mais vous pouvez ajouter les changements que vous aviez faits à cette version du skin',
     4: 'Non groupé',
     5: 'Nouveau',
-    6: 'Correctifs',
-    7: 'Changements',
-    8: 'Suppressions'
+    6: 'Fix',
+    7: 'Change',
+    8: 'Removal'
   },
   ideas: {
     0: 'Rien n\'a été trouvé',
@@ -148,8 +148,15 @@ export default {
     33: 'Commenter sur le forum d\'osu!',
     34: 'Plus de skins de cet auteur | Plus de skins de ces auteurs',
     35: 'Soutenir le skin',
-    36: 'Unavailable',
-    37: 'Unfortunately, this skin was deleted at {author} request'
+    36: 'Indisponible',
+    37: 'Malheureusement, ce skin a été supprimé suite à une demande de {author}',
+    38: 'Welcome to the skin post editor!',
+    39: `New to the skin editor? Let us guide you through the interface and show you the editor's full potential!`,
+    40: '{current} of {max} completed',
+    41: 'Check out later',
+    42: `Let's get started`,
+    43: 'Congratulations!',
+    44: 'You successfully finished the tutorial, have fun!'
   },
   drag: {
     0: 'Cliquez ici',
@@ -157,7 +164,9 @@ export default {
   },
   footer: {
     0: 'Fait par cyperdark',
-    1: 'Crédits'
+    1: 'Crédits',
+    2: 'Rules',
+    3: 'Contacts'
   },
   credits: {
     0: 'Chibi',
@@ -191,6 +200,14 @@ export default {
     },
     14: 'Rechercher :'
   },
+  contests: {
+    0: 'Contests',
+    1: 'Official newspost',
+    2: 'Submission',
+    3: 'Preparing',
+    4: 'Voting',
+    5: 'Finished'
+  },
   tabs: {
     0: 'Rechercher',
     1: 'Editer',
@@ -219,7 +236,10 @@ export default {
       10: 'Skins faits par {name}',
       11: 'Tags de recherche',
       12: 'tags {name} trouvés',
-      13: 'Nouveau skin'
+      13: 'Nouveau skin',
+      14: 'Site rules',
+      15: 'osu! Contests',
+      16: 'osu! Contests'
     },
     description: {
       0: 'Trouvez les meilleurs skins d\'osu! sur notre site ! Notre gigantesque librairie possède des skins pour tous les modes de jeu, formats d\'image, et même ceux des top players. En plus, nous avons une section spéciale pour les fans d\'animé. Améliorez votre gameplay avec le meilleur skin.#osuskins #osugame #anime',
@@ -232,7 +252,9 @@ export default {
       7: 'Un énorme montant de skins pour un{name}, Téléchargez gratuitement!',
       8: 'Tous les skins osu! Créés par {name}',
       9: 'Trouvez l\'inspiration pour votre prochain skin osu! sur notre site. Naviguez dans une collection de skins variés et découvrez de nouvelles techniques et idées. Inspirez vous et créez vos skins uniques',
-      10: 'Recherchez des tags parmi tous les tags du site.'
+      10: 'Recherchez des tags parmi tous les tags du site.',
+      11: 'List of all past/active osu! contests',
+      12: '{amount} entries for {title} contest. {views} views'
     }
   },
   buttons: {
@@ -248,7 +270,14 @@ export default {
     copied: 'Copié',
     reddit_link: 'Reddit',
     osu_forum_link: 'Forum osu!',
-    skin_return: 'Retour au skin'
+    skin_return: 'Retour au skin',
+    source: 'Source',
+    contest_voting: 'Vote here'
+  },
+  choose: {
+    0: 'Optional',
+    1: 'Required',
+    2: 'Pick at least one option'
   },
   user: {
     roles: {
@@ -269,7 +298,11 @@ export default {
     6: '{s}Connectez-vous{p}, afin de noter ce skin',
     7: 'Pas de desctiption courte',
     8: 'pas d\'url',
-    9: 'Téléchargements : {amount}'
+    9: 'Téléchargements : {amount}',
+    10: 'Reset everything',
+    11: 'Show guide',
+    12: 'Close guide',
+    13: 'To mark a rule as read, hover over it (Yellow indicates unread)'
   },
   lists: {
     screens: {
@@ -285,9 +318,10 @@ export default {
       9: 'Section échouée',
       10: 'Ecran de pause',
       11: 'Ecran d\'échec ',
-      12: 'Ecran des résultats',
+      12: 'Result screen (top)',
       13: 'Passer',
-      14: 'Bannière'
+      14: 'Bannière',
+      15: 'Result screen (bottom)'
     },
     cats: {
       0: 'NSFW',
@@ -336,12 +370,12 @@ export default {
   },
   contribute: { 0: 'Contribuer' },
   nsfw: {
-    0: 'Warning, nsfw!',
+    0: 'ATTENTION, nsfw !',
     1: 'Ce skin contient du contenu sensible ou pour adultes',
     2: 'Ce skin contient du contenu sensible ou pour adultes qui peuvent déranger certains utilisateurs',
     3: 'Ça marche',
     4: 'bye o/',
-    5: 'Furry Warning!'
+    5: 'Attention, Furry !'
   },
   removed: {
     0: 'Version indisponible',
@@ -400,7 +434,9 @@ export default {
     48: 'Les changements ont été mis à jour dans la modération',
     49: 'Lien étrange',
     50: 'Ce lien ne peut pas être utilisé comme un lien de téléchargement',
-    51: 'Soumis pour modération'
+    51: 'Soumis pour modération',
+    52: 'Attention',
+    53: 'You need to choose type of asset'
   },
   header: {
     0: 'Notifications',
@@ -411,5 +447,12 @@ export default {
     1: 'Veuillez vous connecter à votre compte',
     2: 'Vue restreinte',
     3: 'Cette page n\'est pas encore disponible.'
+  },
+  confirm: {
+    0: 'Reset everything?',
+    1: 'Show guide?',
+    2: 'Submit skin?',
+    3: 'Yes',
+    4: 'No'
   }
 };
