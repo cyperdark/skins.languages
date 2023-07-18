@@ -27,7 +27,7 @@ export default {
     2: 'Гледани | Харесвани | Изтегляни',
     3: 'Публикувай облик',
     4: 'Как се инсталира облик',
-    5: '{amount} Skins | {amount} Skins | {amount} Skins'
+    5: '{amount} Облици | {amount} Облици | {amount} Облици'
   },
   changelogs: {
     0: 'Списък с промени',
@@ -36,9 +36,9 @@ export default {
     3: 'Но можете да добативе промени, които сте направили по тази версия на облика',
     4: 'Без група',
     5: 'Ново',
-    6: 'Поправено',
-    7: 'Променено',
-    8: 'Премахнато'
+    6: 'Fix',
+    7: 'Change',
+    8: 'Removal'
   },
   ideas: {
     0: 'Нищо не е намерено',
@@ -148,8 +148,15 @@ export default {
     33: 'Коментирай в osu! форума',
     34: 'Още облици от този автор | Още облици от този автор',
     35: 'Подкрепете облика',
-    36: 'Unavailable',
-    37: 'Unfortunately, this skin was deleted at {author} request'
+    36: 'Неналично',
+    37: 'За съжаление, този облик беше изтрит поради желание на {author}',
+    38: 'Welcome to the skin post editor!',
+    39: `New to the skin editor? Let us guide you through the interface and show you the editor's full potential!`,
+    40: '{current} of {max} completed',
+    41: 'Check out later',
+    42: `Let's get started`,
+    43: 'Congratulations!',
+    44: 'You successfully finished the tutorial, have fun!'
   },
   drag: {
     0: 'Кликнете тук',
@@ -157,7 +164,9 @@ export default {
   },
   footer: {
     0: 'Направено от cyperdark',
-    1: 'Кредити'
+    1: 'Кредити',
+    2: 'Rules',
+    3: 'Contacts'
   },
   credits: {
     0: 'Chibi',
@@ -191,6 +200,14 @@ export default {
     },
     14: 'Търсене:'
   },
+  contests: {
+    0: 'Contests',
+    1: 'Official newspost',
+    2: 'Submission',
+    3: 'Preparing',
+    4: 'Voting',
+    5: 'Finished'
+  },
   tabs: {
     0: 'Търсене',
     1: 'Редактиран',
@@ -202,7 +219,7 @@ export default {
     2: 'За съжаление, няма нищо тук',
     3: 'Неразрешено',
     4: 'Трябва да сте влязли в акаунта си, за да редактирате този облик.',
-    5: 'You need to be logged in order to add a new skin.'
+    5: 'Трябва да сте влезли, за да добавите нов облик.'
   },
   meta: {
     title: {
@@ -219,7 +236,10 @@ export default {
       10: '{name} създадени osu облици',
       11: 'Търси тагове',
       12: '{name} намерени тагове',
-      13: 'Нов облик'
+      13: 'Нов облик',
+      14: 'Site rules',
+      15: 'osu! Contests',
+      16: 'osu! Contests'
     },
     description: {
       0: 'Намерете най-добрите osu! облици на нашия сайт! Нашия огромен каталог е изпълнен с облици за всички игрови режими, съотношение на резолюцията и дори най-добрите играчи. И още, имаме специална секция за anime феновете. Подобри всоята игра с префектния osu облик за теб. #osuskins #osugame #anime',
@@ -232,7 +252,9 @@ export default {
       7: 'Огромен брой osu облици за {name}, изтеглете безплатно!',
       8: 'Всички osu облици създадени от {name}',
       9: 'Намерете вдъхновение за вашите osu! облици на нашия.Открийте нови техники и идеи с помощта на нашата голяма колекция на osu облици. Вдъхновете се и създайте вашия собствен osu облик.',
-      10: 'Търсете за тагове, сред всички тагове на този сайт.'
+      10: 'Търсете за тагове, сред всички тагове на този сайт.',
+      11: 'List of all past/active osu! contests',
+      12: '{amount} entries for {title} contest. {views} views'
     }
   },
   buttons: {
@@ -248,7 +270,14 @@ export default {
     copied: 'Копирано',
     reddit_link: 'Reddit',
     osu_forum_link: 'osu! Форум',
-    skin_return: 'Обратно към облик'
+    skin_return: 'Обратно към облик',
+    source: 'Source',
+    contest_voting: 'Vote here'
+  },
+  choose: {
+    0: 'Optional',
+    1: 'Required',
+    2: 'Pick at least one option'
   },
   user: {
     roles: {
@@ -269,7 +298,11 @@ export default {
     6: '{s}Влез в акаунта си{p}, за да оцениш този облик',
     7: 'Няма кратко описание',
     8: 'Няма връзка',
-    9: 'Изтегляния: {amount}'
+    9: 'Изтегляния: {amount}',
+    10: 'Reset everything',
+    11: 'Show guide',
+    12: 'Close guide',
+    13: 'To mark a rule as read, hover over it (Yellow indicates unread)'
   },
   lists: {
     screens: {
@@ -285,9 +318,10 @@ export default {
       9: 'Секция за провал',
       10: 'Екран за прауза',
       11: 'Екран за провал',
-      12: 'Екран за резултат',
+      12: 'Result screen (top)',
       13: 'Бутон за пропускане',
-      14: 'Банер'
+      14: 'Банер',
+      15: 'Result screen (bottom)'
     },
     cats: {
       0: 'Не е безопасно за работа',
@@ -336,12 +370,12 @@ export default {
   },
   contribute: { 0: 'Допринасяне' },
   nsfw: {
-    0: 'Warning, nsfw!',
+    0: 'Внимание, нецензурирано съдържание!',
     1: 'Този облик има съдаржание предназначено за възрастни',
     2: 'Този облик съдържа деликатно съдържание или съдържание за възрастни, което някои потребители може да намерят за смущаващо',
     3: 'Добре',
     4: 'чао о/',
-    5: 'Furry Warning!'
+    5: 'Внимание, фърита!'
   },
   removed: {
     0: 'Версията е неналична',
@@ -400,7 +434,9 @@ export default {
     48: 'Промените бяха обновени в проверката',
     49: 'Странна връзка',
     50: 'Тази връзка не може да бъде използвана за изтегляне',
-    51: 'Изпратено за проверка'
+    51: 'Изпратено за проверка',
+    52: 'Внимание',
+    53: 'You need to choose type of asset'
   },
   header: {
     0: 'Нотификации',
@@ -411,5 +447,12 @@ export default {
     1: 'Моля, влезте в акаунта си',
     2: 'Ограничен постъп',
     3: 'Тази страница все още не е налична.'
+  },
+  confirm: {
+    0: 'Reset everything?',
+    1: 'Show guide?',
+    2: 'Submit skin?',
+    3: 'Yes',
+    4: 'No'
   }
 };
