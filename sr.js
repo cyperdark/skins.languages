@@ -36,9 +36,9 @@ export default {
     3: 'Али можете додати измене које сте направили овој верзији скина',
     4: 'Није груписано',
     5: 'Ново',
-    6: 'Поправљено',
-    7: 'Промене',
-    8: 'Уклањања'
+    6: 'Fix',
+    7: 'Change',
+    8: 'Removal'
   },
   ideas: {
     0: 'Nothing found',
@@ -149,7 +149,14 @@ export default {
     34: 'More skins from this author | More skins from this authors',
     35: 'Support the skin',
     36: 'Unavailable',
-    37: 'Unfortunately, this skin was deleted at {author} request'
+    37: 'Unfortunately, this skin was deleted at {author} request',
+    38: 'Welcome to the skin post editor!',
+    39: `New to the skin editor? Let us guide you through the interface and show you the editor's full potential!`,
+    40: '{current} of {max} completed',
+    41: 'Check out later',
+    42: `Let's get started`,
+    43: 'Congratulations!',
+    44: 'You successfully finished the tutorial, have fun!'
   },
   drag: {
     0: 'Click here',
@@ -157,7 +164,9 @@ export default {
   },
   footer: {
     0: 'Made by cyperdark',
-    1: 'Credits'
+    1: 'Credits',
+    2: 'Rules',
+    3: 'Contacts'
   },
   credits: {
     0: 'Chibi',
@@ -191,6 +200,14 @@ export default {
     },
     14: 'Search:'
   },
+  contests: {
+    0: 'Contests',
+    1: 'Official newspost',
+    2: 'Submission',
+    3: 'Preparing',
+    4: 'Voting',
+    5: 'Finished'
+  },
   tabs: {
     0: 'Претражи',
     1: 'Edit',
@@ -219,7 +236,10 @@ export default {
       10: '{name} created osu skins',
       11: 'Претражи ознаке',
       12: '{name} found tags',
-      13: 'Нови скин'
+      13: 'Нови скин',
+      14: 'Site rules',
+      15: 'osu! Contests',
+      16: 'osu! Contests'
     },
     description: {
       0: 'Get the best osu! skins at our site! Our huge library has skins for all gamemodes, aspect ratios and even top players. Plus, we have a special section for anime fans. Improve your gameplay with the perfect skin. #osuskins #osugame #anime',
@@ -232,7 +252,9 @@ export default {
       7: 'A huge amount of osu skins for {name}, download for free!',
       8: 'All osu skins created by {name}',
       9: 'Find inspiration for your next osu! skin at our site. Browse through a diverse collection of skins and discover new techniques and ideas. Get inspired and create your own unique skins.',
-      10: 'Search for tags among all the tags on the site.'
+      10: 'Search for tags among all the tags on the site.',
+      11: 'List of all past/active osu! contests',
+      12: '{amount} entries for {title} contest. {views} views'
     }
   },
   buttons: {
@@ -248,7 +270,14 @@ export default {
     copied: 'Копирано',
     reddit_link: 'Reddit',
     osu_forum_link: 'osu! Forum',
-    skin_return: 'Назад на скин'
+    skin_return: 'Назад на скин',
+    source: 'Source',
+    contest_voting: 'Vote here'
+  },
+  choose: {
+    0: 'Optional',
+    1: 'Required',
+    2: 'Pick at least one option'
   },
   user: {
     roles: {
@@ -269,7 +298,11 @@ export default {
     6: '{s}Пријави се{p}, да бисте оценили овај скин',
     7: 'Нема кратког описа',
     8: 'Нема линка',
-    9: 'Преузимања: {amount}'
+    9: 'Преузимања: {amount}',
+    10: 'Reset everything',
+    11: 'Show guide',
+    12: 'Close guide',
+    13: 'To mark a rule as read, hover over it (Yellow indicates unread)'
   },
   lists: {
     screens: {
@@ -285,9 +318,10 @@ export default {
       9: 'Section Fail',
       10: 'Екран за Паузу',
       11: 'Екран за Губитак',
-      12: 'Екран за Резултат',
+      12: 'Result screen (top)',
       13: 'Прескочи',
-      14: 'Банер'
+      14: 'Банер',
+      15: 'Result screen (bottom)'
     },
     cats: {
       0: 'NSFW',
@@ -400,7 +434,9 @@ export default {
     48: 'Changes have been updated in moderation',
     49: 'Odd link',
     50: 'Овај линк се не може користити као линк за преузимање',
-    51: 'Предато на преглед'
+    51: 'Предато на преглед',
+    52: 'Упозорење',
+    53: 'You need to choose type of asset'
   },
   header: {
     0: 'Обавештења',
@@ -411,5 +447,12 @@ export default {
     1: 'Молимо да се пријавите на свој налог',
     2: 'Ограничен приказ',
     3: 'Ова страница још није изашла.'
+  },
+  confirm: {
+    0: 'Reset everything?',
+    1: 'Show guide?',
+    2: 'Submit skin?',
+    3: 'Yes',
+    4: 'No'
   }
 };
