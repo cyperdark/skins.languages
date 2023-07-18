@@ -36,9 +36,9 @@ export default {
     3: 'Maar je kan de aanpassingen die jij gemaakt hebt aan deze versie van de skin toevoegen',
     4: 'Niet gegroepeerd',
     5: 'Nieuw',
-    6: 'Verbeteringen',
-    7: 'Veranderingen',
-    8: 'Verwijderingen'
+    6: 'Fix',
+    7: 'Change',
+    8: 'Removal'
   },
   ideas: {
     0: 'Niks gevonden',
@@ -148,8 +148,15 @@ export default {
     33: 'Bespreek op het osu! forum',
     34: 'Meer skins van deze auteur | Meer skins van deze auteurs',
     35: 'Steun de skin',
-    36: 'Unavailable',
-    37: 'Unfortunately, this skin was deleted at {author} request'
+    36: 'Onbeschikbaar',
+    37: 'Deze skin is helaas verwijderd op verzoek van {author}',
+    38: 'Welcome to the skin post editor!',
+    39: `New to the skin editor? Let us guide you through the interface and show you the editor's full potential!`,
+    40: '{current} of {max} completed',
+    41: 'Check out later',
+    42: `Let's get started`,
+    43: 'Congratulations!',
+    44: 'You successfully finished the tutorial, have fun!'
   },
   drag: {
     0: 'Klik hier',
@@ -157,7 +164,9 @@ export default {
   },
   footer: {
     0: 'Gemaakt door cyperdark',
-    1: 'Dank aan'
+    1: 'Dank aan',
+    2: 'Rules',
+    3: 'Contacts'
   },
   credits: {
     0: 'Chibi',
@@ -191,6 +200,14 @@ export default {
     },
     14: 'Zoek:'
   },
+  contests: {
+    0: 'Contests',
+    1: 'Official newspost',
+    2: 'Submission',
+    3: 'Preparing',
+    4: 'Voting',
+    5: 'Finished'
+  },
   tabs: {
     0: 'Zoek',
     1: 'Bewerk',
@@ -219,7 +236,10 @@ export default {
       10: '{name} maakte osu skins',
       11: 'Zoek categorieën',
       12: '{name} gevonden tags',
-      13: 'Nieuwe skin'
+      13: 'Nieuwe skin',
+      14: 'Site rules',
+      15: 'osu! Contests',
+      16: 'osu! Contests'
     },
     description: {
       0: 'Pak de beste osu! skins van onze website! Ons grote aanbod heeft skins voor alle gamemodes, aspect ratio’s  en we hebben zelfs skins van de beste spelers. Maar dan heb je anime sectie nog niet gezien. Speel beter met onze hoge skins van hoge kwaliteit. #osuskins #osugame #anime',
@@ -232,7 +252,9 @@ export default {
       7: 'Een gigantische hoeveelheid osu skins voor een {name}, gratis te downloaden!',
       8: 'Alle osu skins gemaakt door {name}',
       9: 'Vindt inspiratie voor jouw volgende osu! skin op onze site. Verdwaal in ons gevarieerde bos van skins en ontdek nieuwe technieken en ideeën. Wordt geïnspireerd en maak je eigen unieke skins.',
-      10: 'Zoek naar categorieën tussen alle categorieën op de website.'
+      10: 'Zoek naar categorieën tussen alle categorieën op de website.',
+      11: 'List of all past/active osu! contests',
+      12: '{amount} entries for {title} contest. {views} views'
     }
   },
   buttons: {
@@ -248,7 +270,14 @@ export default {
     copied: 'Gekopieerd',
     reddit_link: 'Reddit',
     osu_forum_link: 'osu! Forum',
-    skin_return: 'Terug naar skin'
+    skin_return: 'Terug naar skin',
+    source: 'Source',
+    contest_voting: 'Vote here'
+  },
+  choose: {
+    0: 'Optional',
+    1: 'Required',
+    2: 'Pick at least one option'
   },
   user: {
     roles: {
@@ -269,7 +298,11 @@ export default {
     6: '{s}Log in{p}, om deze skin te beoordelen',
     7: 'Geen korte beschrijving',
     8: 'Geen url',
-    9: 'Keren gedownload: {amount}'
+    9: 'Keren gedownload: {amount}',
+    10: 'Reset everything',
+    11: 'Show guide',
+    12: 'Close guide',
+    13: 'To mark a rule as read, hover over it (Yellow indicates unread)'
   },
   lists: {
     screens: {
@@ -285,9 +318,10 @@ export default {
       9: 'Sectie gefaald',
       10: 'Pauzeerscherm',
       11: 'Faalscherm',
-      12: 'Resultatenscherm',
+      12: 'Result screen (top)',
       13: 'Sla over',
-      14: 'Banner'
+      14: 'Banner',
+      15: 'Result screen (bottom)'
     },
     cats: {
       0: 'NSFW',
@@ -336,12 +370,12 @@ export default {
   },
   contribute: { 0: 'Draag je steentje bij' },
   nsfw: {
-    0: 'Warning, nsfw!',
+    0: 'Pas op, nsfw!',
     1: 'Deze skin bevat gevoelige of volwassen onderdelen',
     2: 'Deze skin bevat gevoelige of volwassen onderdelen die sommige gebruikers schokkend kunnen vinden',
     3: 'Oké',
     4: 'laters o/',
-    5: 'Furry Warning!'
+    5: 'Furry Waarschuwing!'
   },
   removed: {
     0: 'Versie onbeschikbaar',
@@ -400,7 +434,9 @@ export default {
     48: 'Nieuwe wijzigingen zijn ingediend voor moderatie',
     49: 'Vreemde link',
     50: 'Deze link kan niet gebruikt worden als download link',
-    51: 'Ingediend voor moderatie'
+    51: 'Ingediend voor moderatie',
+    52: 'Waarschuwing',
+    53: 'You need to choose type of asset'
   },
   header: {
     0: 'Notificaties',
@@ -411,5 +447,12 @@ export default {
     1: 'Meld je aan op je account',
     2: 'Beperkte weergave',
     3: 'Deze pagina is nog niet uit.'
+  },
+  confirm: {
+    0: 'Reset everything?',
+    1: 'Show guide?',
+    2: 'Submit skin?',
+    3: 'Yes',
+    4: 'No'
   }
 };
