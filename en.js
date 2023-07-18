@@ -163,7 +163,7 @@ export default {
     42: `Let's get started`,
 
     43: 'Congratulations!',
-    44: 'You successfully finished the tutorial, have fun!',
+    44: 'You have successfully finished the tutorial, have fun!',
   },
   drag: {
     0: 'Click here',
@@ -264,7 +264,7 @@ export default {
       9: 'Find inspiration for your next osu! skin at our site. Browse through a diverse collection of skins and discover new techniques and ideas. Get inspired and create your own unique skins.',
       10: 'Search for tags among all the tags on the site.',
 
-      11: 'List of all past/active osu! contests',
+      11: 'List of all active/finished osu! contests',
       12: '{amount} entries for {title} contest. {views} views',
     },
   },
