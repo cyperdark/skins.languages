@@ -36,9 +36,9 @@ export default {
     3: 'De hozzá adhatod a változtatásokat, amit ehhez a skin verzióhoz csináltál',
     4: 'Nem csoportosított',
     5: 'Új',
-    6: 'Javítások',
-    7: 'Változtatások',
-    8: 'Eltávolítások'
+    6: 'Fix',
+    7: 'Change',
+    8: 'Removal'
   },
   ideas: {
     0: 'Nincs találat',
@@ -149,7 +149,14 @@ export default {
     34: 'Még több skin a készítőtöl | Még több skin a készítőktől',
     35: 'Skin támogatása',
     36: 'Unavailable',
-    37: 'Unfortunately, this skin was deleted at {author} request'
+    37: 'Unfortunately, this skin was deleted at {author} request',
+    38: 'Welcome to the skin post editor!',
+    39: `New to the skin editor? Let us guide you through the interface and show you the editor's full potential!`,
+    40: '{current} of {max} completed',
+    41: 'Check out later',
+    42: `Let's get started`,
+    43: 'Congratulations!',
+    44: 'You successfully finished the tutorial, have fun!'
   },
   drag: {
     0: 'Kattints ide',
@@ -157,7 +164,9 @@ export default {
   },
   footer: {
     0: 'cyperdark készítette',
-    1: 'Készítők'
+    1: 'Készítők',
+    2: 'Rules',
+    3: 'Contacts'
   },
   credits: {
     0: 'Chibi',
@@ -191,6 +200,14 @@ export default {
     },
     14: 'Keresés:'
   },
+  contests: {
+    0: 'Contests',
+    1: 'Official newspost',
+    2: 'Submission',
+    3: 'Preparing',
+    4: 'Voting',
+    5: 'Finished'
+  },
   tabs: {
     0: 'Keresés',
     1: 'Szerkesztés',
@@ -219,7 +236,10 @@ export default {
       10: '{name} létre hozott osu skin-eket',
       11: 'Címkék keresése',
       12: '{name} talált címkék',
-      13: 'Új skin'
+      13: 'Új skin',
+      14: 'Site rules',
+      15: 'osu! Contests',
+      16: 'osu! Contests'
     },
     description: {
       0: 'Szerezd meg a legjobb osu! skineket az oldalunkon! A hatalmas választékunkban találhatsz skin-eket minden játékmódhoz és képarányhoz, emellett a legjobb játékosok skin-jeit is letöltheted. Továbbá van egy külön részünk anime rajongók számára. Emeld új szintre a játék elményedet a neked tökéletes skin-nel. #osuskins #osugame #anime',
@@ -232,7 +252,9 @@ export default {
       7: '{name} számára hatalmas mennyiégű osu! skin, töltsed le őket ingyen!',
       8: '{name} által létrehozott összes skin',
       9: 'Merítsél ihletet a következő osu skin-edhez oldalunkon. Böngésszél a skin-ek változatos gyűjteményében, és fedezzél fel új technikákat és ötleteket. Merítsél ihletet, és készítsd el saját egyedi skin-edet.',
-      10: 'Search for tags among all the tags on the site.'
+      10: 'Search for tags among all the tags on the site.',
+      11: 'List of all past/active osu! contests',
+      12: '{amount} entries for {title} contest. {views} views'
     }
   },
   buttons: {
@@ -248,7 +270,14 @@ export default {
     copied: 'Másolva',
     reddit_link: 'Reddit',
     osu_forum_link: 'osu! Fórum',
-    skin_return: 'Vissza a skin-hez'
+    skin_return: 'Vissza a skin-hez',
+    source: 'Source',
+    contest_voting: 'Vote here'
+  },
+  choose: {
+    0: 'Optional',
+    1: 'Required',
+    2: 'Pick at least one option'
   },
   user: {
     roles: {
@@ -269,7 +298,11 @@ export default {
     6: '{s}Jelentkezz be{p} a skin értékeléséhez',
     7: 'Nincs rövid leírás',
     8: 'Nincs url',
-    9: 'Letöltések száma: {amount}'
+    9: 'Letöltések száma: {amount}',
+    10: 'Reset everything',
+    11: 'Show guide',
+    12: 'Close guide',
+    13: 'To mark a rule as read, hover over it (Yellow indicates unread)'
   },
   lists: {
     screens: {
@@ -285,9 +318,10 @@ export default {
       9: 'Sikertelen szakasz',
       10: 'Szünet',
       11: 'Fail Screen',
-      12: 'Eredmény',
+      12: 'Result screen (top)',
       13: 'Átugrás',
-      14: 'Banner'
+      14: 'Banner',
+      15: 'Result screen (bottom)'
     },
     cats: {
       0: 'NSFW',
@@ -400,7 +434,9 @@ export default {
     48: 'Changes have been updated in moderation',
     49: 'Odd link',
     50: 'This link cannot be used as a download link',
-    51: 'Submitted for moderation'
+    51: 'Submitted for moderation',
+    52: 'Warning',
+    53: 'You need to choose type of asset'
   },
   header: {
     0: 'Értesítések',
@@ -411,5 +447,12 @@ export default {
     1: 'Kérlek jelentkezz be a fiókodba',
     2: 'Restricted view',
     3: 'This page is not out, yet.'
+  },
+  confirm: {
+    0: 'Reset everything?',
+    1: 'Show guide?',
+    2: 'Submit skin?',
+    3: 'Yes',
+    4: 'No'
   }
 };
