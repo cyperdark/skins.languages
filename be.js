@@ -36,9 +36,9 @@ export default {
     3: 'But you can add the changes you\'ve made to this version of the skin',
     4: 'Не групавана',
     5: 'Новае',
-    6: 'Выпраўлення',
-    7: 'Змяненні',
-    8: 'Выдалена'
+    6: 'Fix',
+    7: 'Change',
+    8: 'Removal'
   },
   ideas: {
     0: 'Nothing found',
@@ -149,7 +149,14 @@ export default {
     34: 'More skins from this author | More skins from this authors',
     35: 'Support the skin',
     36: 'Unavailable',
-    37: 'Unfortunately, this skin was deleted at {author} request'
+    37: 'Unfortunately, this skin was deleted at {author} request',
+    38: 'Welcome to the skin post editor!',
+    39: `New to the skin editor? Let us guide you through the interface and show you the editor's full potential!`,
+    40: '{current} of {max} completed',
+    41: 'Check out later',
+    42: `Let's get started`,
+    43: 'Congratulations!',
+    44: 'You successfully finished the tutorial, have fun!'
   },
   drag: {
     0: 'Click here',
@@ -157,7 +164,9 @@ export default {
   },
   footer: {
     0: 'Зроблена cyperdark',
-    1: 'Credits'
+    1: 'Credits',
+    2: 'Rules',
+    3: 'Contacts'
   },
   credits: {
     0: 'Chibi',
@@ -191,6 +200,14 @@ export default {
     },
     14: 'Search:'
   },
+  contests: {
+    0: 'Contests',
+    1: 'Official newspost',
+    2: 'Submission',
+    3: 'Preparing',
+    4: 'Voting',
+    5: 'Finished'
+  },
   tabs: {
     0: 'Search',
     1: 'Edit',
@@ -219,7 +236,10 @@ export default {
       10: '{name} created osu skins',
       11: 'Search tags',
       12: '{name} found tags',
-      13: 'New skin'
+      13: 'New skin',
+      14: 'Site rules',
+      15: 'osu! Contests',
+      16: 'osu! Contests'
     },
     description: {
       0: 'Get the best osu! skins at our site! Our huge library has skins for all gamemodes, aspect ratios and even top players. Plus, we have a special section for anime fans. Improve your gameplay with the perfect skin. #osuskins #osugame #anime',
@@ -232,7 +252,9 @@ export default {
       7: 'A huge amount of osu skins for {name}, download for free!',
       8: 'All osu skins created by {name}',
       9: 'Find inspiration for your next osu! skin at our site. Browse through a diverse collection of skins and discover new techniques and ideas. Get inspired and create your own unique skins.',
-      10: 'Search for tags among all the tags on the site.'
+      10: 'Search for tags among all the tags on the site.',
+      11: 'List of all past/active osu! contests',
+      12: '{amount} entries for {title} contest. {views} views'
     }
   },
   buttons: {
@@ -248,7 +270,14 @@ export default {
     copied: 'Copied',
     reddit_link: 'Reddit',
     osu_forum_link: 'osu! Форум',
-    skin_return: 'Back to skin'
+    skin_return: 'Back to skin',
+    source: 'Source',
+    contest_voting: 'Vote here'
+  },
+  choose: {
+    0: 'Optional',
+    1: 'Required',
+    2: 'Pick at least one option'
   },
   user: {
     roles: {
@@ -269,7 +298,11 @@ export default {
     6: '{s}Log in{p}, in order to rate this skin',
     7: 'No short description',
     8: 'No url',
-    9: 'Downloads: {amount}'
+    9: 'Downloads: {amount}',
+    10: 'Reset everything',
+    11: 'Show guide',
+    12: 'Close guide',
+    13: 'To mark a rule as read, hover over it (Yellow indicates unread)'
   },
   lists: {
     screens: {
@@ -285,9 +318,10 @@ export default {
       9: 'Section Fail',
       10: 'Pause Screen',
       11: 'Fail Screen',
-      12: 'Result screen',
+      12: 'Result screen (top)',
       13: 'Skip',
-      14: 'Banner'
+      14: 'Banner',
+      15: 'Result screen (bottom)'
     },
     cats: {
       0: 'Небяспечны для працы/NSFW',
@@ -400,7 +434,9 @@ export default {
     48: 'Changes have been updated in moderation',
     49: 'Odd link',
     50: 'This link cannot be used as a download link',
-    51: 'Submitted for moderation'
+    51: 'Submitted for moderation',
+    52: 'Warning',
+    53: 'You need to choose type of asset'
   },
   header: {
     0: 'Notifications',
@@ -411,5 +447,12 @@ export default {
     1: 'Please log into your account',
     2: 'Restricted view',
     3: 'This page is not out, yet.'
+  },
+  confirm: {
+    0: 'Reset everything?',
+    1: 'Show guide?',
+    2: 'Submit skin?',
+    3: 'Yes',
+    4: 'No'
   }
 };
