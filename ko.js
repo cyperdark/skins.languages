@@ -36,9 +36,9 @@ export default {
     3: '그러나 당신은 변경한 내용을 이 버전의 스킨에 추가할 수 있습니다.',
     4: '그룹화되지 않은 상태',
     5: '신규',
-    6: '수정 목록',
-    7: '변경 사항',
-    8: '삭제된 것들'
+    6: 'Fix',
+    7: 'Change',
+    8: 'Removal'
   },
   ideas: {
     0: '아무것도 발견되지 않았어요.',
@@ -149,7 +149,14 @@ export default {
     34: '이 제작자의 다른 스킨들 | 이 제작자들의 다른 스킨들',
     35: '스킨 지원하기',
     36: 'Unavailable',
-    37: 'Unfortunately, this skin was deleted at {author} request'
+    37: 'Unfortunately, this skin was deleted at {author} request',
+    38: 'Welcome to the skin post editor!',
+    39: `New to the skin editor? Let us guide you through the interface and show you the editor's full potential!`,
+    40: '{current} of {max} completed',
+    41: 'Check out later',
+    42: `Let's get started`,
+    43: 'Congratulations!',
+    44: 'You successfully finished the tutorial, have fun!'
   },
   drag: {
     0: '여기를 클릭하세요.',
@@ -157,7 +164,9 @@ export default {
   },
   footer: {
     0: '제작자: cyperdark',
-    1: '제작진'
+    1: '제작진',
+    2: 'Rules',
+    3: 'Contacts'
   },
   credits: {
     0: '꼬마',
@@ -191,6 +200,14 @@ export default {
     },
     14: '검색:'
   },
+  contests: {
+    0: 'Contests',
+    1: 'Official newspost',
+    2: 'Submission',
+    3: 'Preparing',
+    4: 'Voting',
+    5: 'Finished'
+  },
   tabs: {
     0: '검색',
     1: '편집',
@@ -219,7 +236,10 @@ export default {
       10: '스킨 제작자: {name}',
       11: '태그 검색',
       12: '발견된 태그 {name}',
-      13: '새 스킨'
+      13: '새 스킨',
+      14: 'Site rules',
+      15: 'osu! Contests',
+      16: 'osu! Contests'
     },
     description: {
       0: '우리 사이트에서 최고의 osu! 스킨을 찾으세요! 우리는 모든 해상도, 심지어 탑 플레이어들이 사용하는 다양한 게임 모드의 스킨을 많이 가지고 있습니다. 추가로, 우리는 애니메이션 팬을 위한 특별 섹션도 가지고 있습니다. 완벽한 스킨으로 당신의 게임 실력을 향상시키세요! #osuskins #osugame #anime',
@@ -232,7 +252,9 @@ export default {
       7: '{name}을 위한 엄청난 양의 osu! 스킨, 무료로 다운로드하세요!',
       8: '{name}이 만든 모든 osu! 스킨',
       9: '이 사이트에서 당신의 다음 osu! 스킨을 위한 영감을 얻으세요. 새로운 기술, 아이디어와 스킨 컬렉션을 탐색하세요. 영감을 얻어 당신만의 스킨을 제작하세요.',
-      10: '사이트의 모든 태그 중에서 태그를 검색하세요.'
+      10: '사이트의 모든 태그 중에서 태그를 검색하세요.',
+      11: 'List of all past/active osu! contests',
+      12: '{amount} entries for {title} contest. {views} views'
     }
   },
   buttons: {
@@ -248,7 +270,14 @@ export default {
     copied: '복사됨!',
     reddit_link: 'Reddit',
     osu_forum_link: 'osu! 포럼',
-    skin_return: '스킨으로 돌아가기'
+    skin_return: '스킨으로 돌아가기',
+    source: 'Source',
+    contest_voting: 'Vote here'
+  },
+  choose: {
+    0: 'Optional',
+    1: 'Required',
+    2: 'Pick at least one option'
   },
   user: {
     roles: {
@@ -269,7 +298,11 @@ export default {
     6: '스킨을 평가하려면 {s}로그인{p}을 해주세요.',
     7: '설명 없음',
     8: '링크 없음',
-    9: '다운로드 수: {amount}'
+    9: '다운로드 수: {amount}',
+    10: 'Reset everything',
+    11: 'Show guide',
+    12: 'Close guide',
+    13: 'To mark a rule as read, hover over it (Yellow indicates unread)'
   },
   lists: {
     screens: {
@@ -285,9 +318,10 @@ export default {
       9: '실패 화면',
       10: '정지 화면',
       11: '게임 오버 화면',
-      12: '결과 화면',
+      12: 'Result screen (top)',
       13: '스킵',
-      14: '배너'
+      14: '배너',
+      15: 'Result screen (bottom)'
     },
     cats: {
       0: '19금',
@@ -400,7 +434,9 @@ export default {
     48: '변경사항이 평가를 위해 전송되었습니다!',
     49: '이상한 링크',
     50: '이 링크는 다운로드 주소로 사용될 수 없어요.',
-    51: '평가를 위해 제출되었습니다.'
+    51: '평가를 위해 제출되었습니다.',
+    52: '경고',
+    53: 'You need to choose type of asset'
   },
   header: {
     0: '알림',
@@ -411,5 +447,12 @@ export default {
     1: '당신의 계정으로 로그인을 해주세요.',
     2: '제한된 보기',
     3: '이 페이지는 아직 게시되지 않았어요.'
+  },
+  confirm: {
+    0: 'Reset everything?',
+    1: 'Show guide?',
+    2: 'Submit skin?',
+    3: 'Yes',
+    4: 'No'
   }
 };
