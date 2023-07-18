@@ -36,9 +36,9 @@ export default {
     3: 'Но вы можете добавить изменения, которые вы сделали в этой версии скина',
     4: 'Без группы',
     5: 'Новое',
-    6: 'Исправления',
-    7: 'Изменения',
-    8: 'Удалено'
+    6: 'Fix',
+    7: 'Change',
+    8: 'Removal'
   },
   ideas: {
     0: 'Ничего не найдено',
@@ -149,7 +149,14 @@ export default {
     34: 'Больше скинов от этого автора | Больше скинов от этих авторов',
     35: 'Поддержите скин',
     36: 'Недоступен',
-    37: 'К сожалению, этот скин был удален по запросу {author}'
+    37: 'К сожалению, этот скин был удален по запросу {author}',
+    38: 'Welcome to the skin post editor!',
+    39: `New to the skin editor? Let us guide you through the interface and show you the editor's full potential!`,
+    40: '{current} of {max} completed',
+    41: 'Check out later',
+    42: `Let's get started`,
+    43: 'Congratulations!',
+    44: 'You successfully finished the tutorial, have fun!'
   },
   drag: {
     0: 'Нажмите',
@@ -157,7 +164,9 @@ export default {
   },
   footer: {
     0: 'Made by cyperdark',
-    1: 'Исп. материалы'
+    1: 'Исп. материалы',
+    2: 'Rules',
+    3: 'Contacts'
   },
   credits: {
     0: 'Чибики',
@@ -191,6 +200,14 @@ export default {
     },
     14: 'Поиск:'
   },
+  contests: {
+    0: 'Contests',
+    1: 'Official newspost',
+    2: 'Submission',
+    3: 'Preparing',
+    4: 'Voting',
+    5: 'Finished'
+  },
   tabs: {
     0: 'Поиск',
     1: 'Редактировать',
@@ -219,7 +236,10 @@ export default {
       10: '{name} созданные осу скины',
       11: 'Поиск по тегам',
       12: '{name} найденные теги',
-      13: 'Новый скин'
+      13: 'Новый скин',
+      14: 'Site rules',
+      15: 'osu! Contests',
+      16: 'osu! Contests'
     },
     description: {
       0: 'Найдите лучшие скины для осу на нашем сайте! Наша огромная библиотека содержит скины для всех режимов игры, соотношений сторон и даже скины топовых игроков. Кроме того, у нас есть специальный раздел для любителей аниме',
@@ -232,7 +252,9 @@ export default {
       7: 'Огромное количество осу скинов для {name}, скачайте бесплатно!',
       8: 'Все скины созданные {name}',
       9: 'Найдите вдохновение для своего следующего осу скина на нашем сайте. Просматривайте разнообразную коллекцию скинов и откройте для себя новые техники и идеи. Получите вдохновение и создайте свои уникальные скины.',
-      10: 'Поиск тегов среди всех тегов на сайте.'
+      10: 'Поиск тегов среди всех тегов на сайте.',
+      11: 'List of all past/active osu! contests',
+      12: '{amount} entries for {title} contest. {views} views'
     }
   },
   buttons: {
@@ -248,7 +270,14 @@ export default {
     copied: 'Скопированно',
     reddit_link: 'Реддит',
     osu_forum_link: 'osu! Форум',
-    skin_return: 'Назад к скину'
+    skin_return: 'Назад к скину',
+    source: 'Source',
+    contest_voting: 'Vote here'
+  },
+  choose: {
+    0: 'Optional',
+    1: 'Required',
+    2: 'Pick at least one option'
   },
   user: {
     roles: {
@@ -269,7 +298,11 @@ export default {
     6: '{s}Войдите{p}, чтобы оценить этот скин',
     7: 'Нету короткого описания',
     8: 'Нету ссылки',
-    9: 'Скачивания: {amount}'
+    9: 'Скачивания: {amount}',
+    10: 'Reset everything',
+    11: 'Show guide',
+    12: 'Close guide',
+    13: 'To mark a rule as read, hover over it (Yellow indicates unread)'
   },
   lists: {
     screens: {
@@ -285,9 +318,10 @@ export default {
       9: 'Section Fail',
       10: 'Меню паузы',
       11: 'Меню фейла',
-      12: 'Экран результата',
+      12: 'Result screen (top)',
       13: 'Экран пропуска',
-      14: 'Баннер'
+      14: 'Баннер',
+      15: 'Result screen (bottom)'
     },
     cats: {
       0: 'NSFW',
@@ -400,7 +434,9 @@ export default {
     48: 'Изменения были обновлены в модерации',
     49: 'Странная ссылка',
     50: 'Данная ссылка не может быть использована',
-    51: 'Отправлено на модерацию'
+    51: 'Отправлено на модерацию',
+    52: 'Предупреждение',
+    53: 'You need to choose type of asset'
   },
   header: {
     0: 'Уведомления',
@@ -411,5 +447,12 @@ export default {
     1: 'Пожалуйста войдите в свой аккаунт',
     2: 'Ограниченный просмотр',
     3: 'Эта страница пока недоступна.'
+  },
+  confirm: {
+    0: 'Reset everything?',
+    1: 'Show guide?',
+    2: 'Submit skin?',
+    3: 'Yes',
+    4: 'No'
   }
 };
