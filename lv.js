@@ -36,9 +36,9 @@ export default {
     3: 'Bet tu vari pievienot izmaiņas, kuras tu esi veicis šai skina versijai',
     4: 'Nav grupēts',
     5: 'Jaunais',
-    6: 'Labotais',
-    7: 'Pārmainītais',
-    8: 'Izņemtais'
+    6: 'Fix',
+    7: 'Change',
+    8: 'Removal'
   },
   ideas: {
     0: 'Nekas nav atrasts',
@@ -149,7 +149,14 @@ export default {
     34: 'Vairāk skini no šī veidotāja | Vairāk skini no šī veidotāja',
     35: 'Atbalsti skinu',
     36: 'Unavailable',
-    37: 'Unfortunately, this skin was deleted at {author} request'
+    37: 'Unfortunately, this skin was deleted at {author} request',
+    38: 'Welcome to the skin post editor!',
+    39: `New to the skin editor? Let us guide you through the interface and show you the editor's full potential!`,
+    40: '{current} of {max} completed',
+    41: 'Check out later',
+    42: `Let's get started`,
+    43: 'Congratulations!',
+    44: 'You successfully finished the tutorial, have fun!'
   },
   drag: {
     0: 'Klikšķini šeit',
@@ -157,7 +164,9 @@ export default {
   },
   footer: {
     0: 'Veidoja cyperdark',
-    1: 'Izmantotie materiāli'
+    1: 'Izmantotie materiāli',
+    2: 'Rules',
+    3: 'Contacts'
   },
   credits: {
     0: 'Chibi',
@@ -191,6 +200,14 @@ export default {
     },
     14: 'Meklē:'
   },
+  contests: {
+    0: 'Contests',
+    1: 'Official newspost',
+    2: 'Submission',
+    3: 'Preparing',
+    4: 'Voting',
+    5: 'Finished'
+  },
   tabs: {
     0: 'Meklēt',
     1: 'Rediģēt',
@@ -219,7 +236,10 @@ export default {
       10: '{name} veidoja osu skinus',
       11: 'Meklē tagus',
       12: '{name} atrada tagus',
-      13: 'Jauns skins'
+      13: 'Jauns skins',
+      14: 'Site rules',
+      15: 'osu! Contests',
+      16: 'osu! Contests'
     },
     description: {
       0: 'Dabū labākos osu! skinus mūsu saitē! Mūzu milzīgajā klāstā ir skini visiem spēļu režīmiem, visām malu attiecībām un pat top spēlētājiem. Un, mums ir īpaša sadaļa anime faniem. Uzlabo savu gameplay ar perfekto skinu. #osuskins #osugame #anime',
@@ -232,7 +252,9 @@ export default {
       7: 'Liela kolekcija osu skinu priekš {name}, bezmaksas lejupielāde!',
       8: 'Visus skinus sastādījis {name}',
       9: 'Atrodi iedvesmu savam nākamajam osu! skinam mūsu saitē. Pārlūko daudzveidīgu kolekciju ar skiniem, un atklāj jaunas metodes un idejas. Gūsti iedvesmu un izveido pats savu skinu.',
-      10: 'Meklē tagus starp visiem tagiem, kas ir šājā mājaslapā.'
+      10: 'Meklē tagus starp visiem tagiem, kas ir šājā mājaslapā.',
+      11: 'List of all past/active osu! contests',
+      12: '{amount} entries for {title} contest. {views} views'
     }
   },
   buttons: {
@@ -248,7 +270,14 @@ export default {
     copied: 'Nokopēts',
     reddit_link: 'Reddit',
     osu_forum_link: 'osu! Forums',
-    skin_return: 'Atpakaļ uz skinu'
+    skin_return: 'Atpakaļ uz skinu',
+    source: 'Source',
+    contest_voting: 'Vote here'
+  },
+  choose: {
+    0: 'Optional',
+    1: 'Required',
+    2: 'Pick at least one option'
   },
   user: {
     roles: {
@@ -269,7 +298,11 @@ export default {
     6: '{s}Jāpieslēdzas{p}, lai varētu novērtēt šo skinu',
     7: 'Nav īsā apraksta',
     8: 'Nav saites',
-    9: 'Lejupielādes: {amount}'
+    9: 'Lejupielādes: {amount}',
+    10: 'Reset everything',
+    11: 'Show guide',
+    12: 'Close guide',
+    13: 'To mark a rule as read, hover over it (Yellow indicates unread)'
   },
   lists: {
     screens: {
@@ -285,9 +318,10 @@ export default {
       9: 'Section Fail',
       10: 'Pauzes Ekrāns',
       11: 'Fail Screen',
-      12: 'Rezultātu ekrāns',
+      12: 'Result screen (top)',
       13: 'Izlaist',
-      14: 'Baneris'
+      14: 'Baneris',
+      15: 'Result screen (bottom)'
     },
     cats: {
       0: 'NSFW',
@@ -400,7 +434,9 @@ export default {
     48: 'Ir veiktas pārmaiņas moderācijā',
     49: 'Savāda saite',
     50: 'Šī saite nevar tikt izmantota kā lejupielādes saite',
-    51: 'Iesūtīts moderācijai'
+    51: 'Iesūtīts moderācijai',
+    52: 'Brīdinājums',
+    53: 'You need to choose type of asset'
   },
   header: {
     0: 'Notifikācijas',
@@ -411,5 +447,12 @@ export default {
     1: 'Lūdzu pieslēdzies savam kontam',
     2: 'Ierobežots skats',
     3: 'Šī lapa vēl nav iznākusi.'
+  },
+  confirm: {
+    0: 'Reset everything?',
+    1: 'Show guide?',
+    2: 'Submit skin?',
+    3: 'Yes',
+    4: 'No'
   }
 };
