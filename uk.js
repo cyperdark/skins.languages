@@ -36,9 +36,9 @@ export default {
     3: 'Але ви можете додати зміни, внесені вами до цієї версії скіна',
     4: 'Не згруповано',
     5: 'Нове',
-    6: 'Виправлення',
-    7: 'Зміни',
-    8: 'Видалено'
+    6: 'Fix',
+    7: 'Change',
+    8: 'Removal'
   },
   ideas: {
     0: 'Нічого не знайдено',
@@ -148,8 +148,15 @@ export default {
     33: 'Коментувати на osu! форумі',
     34: 'Більше скінів від цього автора | Більше скінів від цих авторів',
     35: 'Підтримати скін',
-    36: 'Unavailable',
-    37: 'Unfortunately, this skin was deleted at {author} request'
+    36: 'Недоступно',
+    37: 'На жаль, цей скін був видалений за запитом {author}',
+    38: 'Welcome to the skin post editor!',
+    39: `New to the skin editor? Let us guide you through the interface and show you the editor's full potential!`,
+    40: '{current} of {max} completed',
+    41: 'Check out later',
+    42: `Let's get started`,
+    43: 'Congratulations!',
+    44: 'You successfully finished the tutorial, have fun!'
   },
   drag: {
     0: 'Натисніть тут',
@@ -157,7 +164,9 @@ export default {
   },
   footer: {
     0: 'Зроблено cyperdark',
-    1: 'Титри'
+    1: 'Титри',
+    2: 'Rules',
+    3: 'Contacts'
   },
   credits: {
     0: 'Chibi',
@@ -191,6 +200,14 @@ export default {
     },
     14: 'Пошук:'
   },
+  contests: {
+    0: 'Contests',
+    1: 'Official newspost',
+    2: 'Submission',
+    3: 'Preparing',
+    4: 'Voting',
+    5: 'Finished'
+  },
   tabs: {
     0: 'Пошук',
     1: 'Редагувати',
@@ -219,7 +236,10 @@ export default {
       10: '{name} створив скіни osu',
       11: 'Пошук за тегами',
       12: '{name} знайдені теги',
-      13: 'Новий скін'
+      13: 'Новий скін',
+      14: 'Site rules',
+      15: 'osu! Contests',
+      16: 'osu! Contests'
     },
     description: {
       0: 'Отримайте найкращі osu! скіни на нашому сайті! У нашій величезній бібліотеці є скіни для усіх режимів гри, співвідношення сторін і навіть кращих гравців. До того ж, у нас є спеціальний розділ для аніме шанувальників. Покращуйте свою гру з ідеальним скіном. #osuskins #osugame #anime',
@@ -232,7 +252,9 @@ export default {
       7: 'Величезна кількість osu скінів для {name}, завантажте безкоштовно!',
       8: 'Усі osu! скіни, створені {name}',
       9: 'Знайдіть натхнення для наступної теми на нашому сайті. Переглядайте різноманітну колекцію скінів і відкривайте нові техніки та ідеї. Отримуйте натхнення та створюйте свої унікальні скіни.',
-      10: 'Пошук тегів серед усіх інших тегів на сайті.'
+      10: 'Пошук тегів серед усіх інших тегів на сайті.',
+      11: 'List of all past/active osu! contests',
+      12: '{amount} entries for {title} contest. {views} views'
     }
   },
   buttons: {
@@ -248,7 +270,14 @@ export default {
     copied: 'Скопійовано',
     reddit_link: 'Reddit',
     osu_forum_link: 'Форум osu!',
-    skin_return: 'Назад до скіна'
+    skin_return: 'Назад до скіна',
+    source: 'Source',
+    contest_voting: 'Vote here'
+  },
+  choose: {
+    0: 'Optional',
+    1: 'Required',
+    2: 'Pick at least one option'
   },
   user: {
     roles: {
@@ -269,7 +298,11 @@ export default {
     6: '{s}Увійдіть{p}, щоб оцінити цей скін',
     7: 'Немає опису',
     8: 'Немає URL',
-    9: 'Завантажень: {amount}'
+    9: 'Завантажень: {amount}',
+    10: 'Reset everything',
+    11: 'Show guide',
+    12: 'Close guide',
+    13: 'To mark a rule as read, hover over it (Yellow indicates unread)'
   },
   lists: {
     screens: {
@@ -285,9 +318,10 @@ export default {
       9: 'Section Fail',
       10: 'Екран паузи',
       11: 'Екран поразки',
-      12: 'Екран результату',
+      12: 'Result screen (top)',
       13: 'Екран пропуску',
-      14: 'Банер'
+      14: 'Банер',
+      15: 'Result screen (bottom)'
     },
     cats: {
       0: 'NSFW',
@@ -336,12 +370,12 @@ export default {
   },
   contribute: { 0: 'Зробити свій внесок' },
   nsfw: {
-    0: 'Warning, nsfw!',
+    0: 'Увага, нецензурний вміст!',
     1: 'Цей скін містить делікатний або дорослий контент',
     2: 'Цей скін містить делікатний або дорослий контент, який деякі користувачі можуть вважати тривожним',
     3: 'Гаразд',
     4: 'Бувай o/',
-    5: 'Furry Warning!'
+    5: 'Увага, фурі!'
   },
   removed: {
     0: 'Версія недоступна',
@@ -400,7 +434,9 @@ export default {
     48: 'Зміни були оновлені на модерації',
     49: 'Дивне посилання',
     50: 'Це посилання не може бути використане як посилання для завантаження',
-    51: 'Відправлено на модерацію'
+    51: 'Відправлено на модерацію',
+    52: 'Попередження',
+    53: 'You need to choose type of asset'
   },
   header: {
     0: 'Сповіщення',
@@ -411,5 +447,12 @@ export default {
     1: 'Будь ласка, увійдіть до вашого облікового запису',
     2: 'Обмежений перегляд',
     3: 'Ця сторінка поки що не існує.'
+  },
+  confirm: {
+    0: 'Reset everything?',
+    1: 'Show guide?',
+    2: 'Submit skin?',
+    3: 'Yes',
+    4: 'No'
   }
 };
