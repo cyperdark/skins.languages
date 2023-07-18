@@ -36,9 +36,9 @@ export default {
     3: 'But you can add the changes you\'ve made to this version of the skin',
     4: 'Tidak Terorganisir',
     5: 'Baru',
-    6: 'Perbaikan',
-    7: 'Perubahan',
-    8: 'Dihapus'
+    6: 'Fix',
+    7: 'Change',
+    8: 'Removal'
   },
   ideas: {
     0: 'Tidak menemukan apapun',
@@ -149,7 +149,14 @@ export default {
     34: 'Lebih banyak skin dari pembuat | Lebih banyak skin dari pembuat',
     35: 'Dukung skin ini',
     36: 'Tidak tersedia',
-    37: 'Unfortunately, this skin was deleted at {author} request'
+    37: 'Unfortunately, this skin was deleted at {author} request',
+    38: 'Welcome to the skin post editor!',
+    39: `New to the skin editor? Let us guide you through the interface and show you the editor's full potential!`,
+    40: '{current} of {max} completed',
+    41: 'Check out later',
+    42: `Let's get started`,
+    43: 'Congratulations!',
+    44: 'You successfully finished the tutorial, have fun!'
   },
   drag: {
     0: 'Klik disini',
@@ -157,7 +164,9 @@ export default {
   },
   footer: {
     0: 'Dibuat oleh cyperdark',
-    1: 'Credit'
+    1: 'Credit',
+    2: 'Rules',
+    3: 'Contacts'
   },
   credits: {
     0: 'Chibi',
@@ -191,6 +200,14 @@ export default {
     },
     14: 'Cari:'
   },
+  contests: {
+    0: 'Contests',
+    1: 'Official newspost',
+    2: 'Submission',
+    3: 'Preparing',
+    4: 'Voting',
+    5: 'Finished'
+  },
   tabs: {
     0: 'Cari',
     1: 'Edit',
@@ -219,7 +236,10 @@ export default {
       10: '{name} membuat skin osu!',
       11: 'Cari label',
       12: '{name} found tags',
-      13: 'Skin baru'
+      13: 'Skin baru',
+      14: 'Site rules',
+      15: 'osu! Contests',
+      16: 'osu! Contests'
     },
     description: {
       0: 'Dapatkan skin osu! terbaik di website kami! Kami menyediakan berbagai skin untuk berbagai macam mode, aspek rasio, dan dari player ternama. Oh ya! Kami juga menyediakan khusus bagi user yang menyukai anime untuk mencari skin yang mengandung karakter atau anime. Kembangkan pengalaman bermain osu! mu dengan skin terbaik!! #osuskins #osugame #anime',
@@ -232,7 +252,9 @@ export default {
       7: 'Tersedia banyak sekali skin osu! untuk {name}, unduh secara gratis!',
       8: 'Semua skin osu! yang dibuat oleh {name}',
       9: 'Cari inspirasi untuk skin osu! mu pada website kami. Jelajahi berbagai macam koleksi skin, dan temukan teknik dan ide baru. Dapatkan inspirasi dan buat skin unik Anda sendiri.',
-      10: 'Cari label diantara semua label disitus.'
+      10: 'Cari label diantara semua label disitus.',
+      11: 'List of all past/active osu! contests',
+      12: '{amount} entries for {title} contest. {views} views'
     }
   },
   buttons: {
@@ -248,7 +270,14 @@ export default {
     copied: 'Disalin',
     reddit_link: 'Reddit',
     osu_forum_link: 'Forum osu!',
-    skin_return: 'Kembali ke skin'
+    skin_return: 'Kembali ke skin',
+    source: 'Source',
+    contest_voting: 'Vote here'
+  },
+  choose: {
+    0: 'Optional',
+    1: 'Required',
+    2: 'Pick at least one option'
   },
   user: {
     roles: {
@@ -269,7 +298,11 @@ export default {
     6: '{s}Masuk{p}, agar bisa menilai skin ini',
     7: 'Tidak ada deskripsi singkat',
     8: 'Tidak ada URL',
-    9: 'Unduh: {amount}'
+    9: 'Unduh: {amount}',
+    10: 'Reset everything',
+    11: 'Show guide',
+    12: 'Close guide',
+    13: 'To mark a rule as read, hover over it (Yellow indicates unread)'
   },
   lists: {
     screens: {
@@ -285,9 +318,10 @@ export default {
       9: 'Section Fail',
       10: 'Layar Jeda',
       11: 'Layar Gagal',
-      12: 'Layar Hasil',
+      12: 'Result screen (top)',
       13: 'Lewati',
-      14: 'Banner'
+      14: 'Banner',
+      15: 'Result screen (bottom)'
     },
     cats: {
       0: 'NSFW',
@@ -400,7 +434,9 @@ export default {
     48: 'Perubahan telah diperbarui dalam moderasi',
     49: 'Link aneh',
     50: 'Tautan ini tidak dapat digunakan sebagai tautan unduhan',
-    51: 'Dikirimkan untuk moderasi'
+    51: 'Dikirimkan untuk moderasi',
+    52: 'Peringatan',
+    53: 'You need to choose type of asset'
   },
   header: {
     0: 'Notifikasi',
@@ -411,5 +447,12 @@ export default {
     1: 'Mohon masuk ke akun anda',
     2: 'Penglihatan terbatas',
     3: 'Halaman ini belum keluar.'
+  },
+  confirm: {
+    0: 'Reset everything?',
+    1: 'Show guide?',
+    2: 'Submit skin?',
+    3: 'Yes',
+    4: 'No'
   }
 };
