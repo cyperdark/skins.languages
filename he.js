@@ -36,9 +36,9 @@ export default {
     3: 'אבל אתה יכול להוסיף את השינויים שביצעת בגרסה זו של סקין',
     4: 'לא מקובץ',
     5: 'חדש',
-    6: 'Fix',
-    7: 'Change',
-    8: 'Removal'
+    6: 'תיקונים',
+    7: 'שינויים',
+    8: 'הסרות'
   },
   ideas: {
     0: 'לא נמצא כלום',
@@ -156,7 +156,7 @@ export default {
     41: 'Check out later',
     42: `Let's get started`,
     43: 'Congratulations!',
-    44: 'You successfully finished the tutorial, have fun!'
+    44: 'You have successfully finished the tutorial, have fun!'
   },
   drag: {
     0: 'לחץ כאן',
@@ -253,7 +253,7 @@ export default {
       8: 'All osu skins created by {name}',
       9: 'Find inspiration for your next osu! skin at our site. Browse through a diverse collection of skins and discover new techniques and ideas. Get inspired and create your own unique skins.',
       10: 'Search for tags among all the tags on the site.',
-      11: 'List of all past/active osu! contests',
+      11: 'List of all active/finished osu! contests',
       12: '{amount} entries for {title} contest. {views} views'
     }
   },
@@ -318,7 +318,7 @@ export default {
       9: 'כישלון חֵלֶק',
       10: 'מסך השהיה',
       11: 'מסך כישלון',
-      12: 'Result screen (top)',
+      12: 'מסך תוצאה',
       13: 'דלג',
       14: 'באנר',
       15: 'Result screen (bottom)'
