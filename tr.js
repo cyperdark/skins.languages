@@ -36,9 +36,9 @@ export default {
     3: 'Ama skinin bu versiyonuna yaptığınız değişiklikleri ekleyebilirsiniz',
     4: 'Gruplandırılmamış',
     5: 'Yeni',
-    6: 'Fix',
-    7: 'Change',
-    8: 'Removal'
+    6: 'Düzeltmeler',
+    7: 'Değişiklikler',
+    8: 'Silinenler'
   },
   ideas: {
     0: 'Hiçbir şey bulunamadı',
@@ -156,7 +156,7 @@ export default {
     41: 'Check out later',
     42: `Let's get started`,
     43: 'Congratulations!',
-    44: 'You successfully finished the tutorial, have fun!'
+    44: 'You have successfully finished the tutorial, have fun!'
   },
   drag: {
     0: 'Buraya tıklayın',
@@ -253,7 +253,7 @@ export default {
       8: 'All osu skins created by {name}',
       9: 'Sitemizde bir sonraki osu! skininin için ilham kaynağı bul. Çeşitli koleksiyonumuza göz atın ve yeni teknikler, fikirler edinin. İlham alarak kendinize özgün skinler yaratın.',
       10: 'Site içerisindeki etiketler arasından birini arayın.',
-      11: 'List of all past/active osu! contests',
+      11: 'List of all active/finished osu! contests',
       12: '{amount} entries for {title} contest. {views} views'
     }
   },
@@ -318,7 +318,7 @@ export default {
       9: 'Section Fail',
       10: 'Pause Screen',
       11: 'Fail Screen',
-      12: 'Result screen (top)',
+      12: 'Result screen',
       13: 'Skip',
       14: 'Banner',
       15: 'Result screen (bottom)'
