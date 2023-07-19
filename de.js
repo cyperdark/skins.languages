@@ -36,9 +36,9 @@ export default {
     3: 'Aber du kannst die Änderungen, die du an dem Skin vorgenommen hast, hinzufügen',
     4: 'Nicht gruppiert',
     5: 'Neu',
-    6: 'Fix',
-    7: 'Change',
-    8: 'Removal'
+    6: 'Behebungen',
+    7: 'Änderungen',
+    8: 'Entfernungen'
   },
   ideas: {
     0: 'Nichts gefunden.',
@@ -156,7 +156,7 @@ export default {
     41: 'Check out later',
     42: `Let's get started`,
     43: 'Congratulations!',
-    44: 'You successfully finished the tutorial, have fun!'
+    44: 'You have successfully finished the tutorial, have fun!'
   },
   drag: {
     0: 'Klicke hier',
@@ -253,7 +253,7 @@ export default {
       8: 'Alle osu! Skins wurden von {name} erstellt.',
       9: 'Finde Inspirationen für deinen nächsten osu! Skin auf unserer Seite. Durchsuche eine große Kollektion von Skins und finde neue Techniken und Ideen. Inspiriere dich und erstelle deinen eigenen, einzigartigen Skin.',
       10: 'Suche nach Tags die auf dieser Seite sind.',
-      11: 'List of all past/active osu! contests',
+      11: 'List of all active/finished osu! contests',
       12: '{amount} entries for {title} contest. {views} views'
     }
   },
@@ -318,7 +318,7 @@ export default {
       9: 'Sektion gescheitert',
       10: '"Angehalten" Screen',
       11: '"Fehlgeschlagen" Screen',
-      12: 'Result screen (top)',
+      12: '"Ergebnis" Screen',
       13: 'Überspringen',
       14: 'Banner',
       15: 'Result screen (bottom)'
