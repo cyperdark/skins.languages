@@ -36,9 +36,9 @@ export default {
     3: 'Maar je kan de aanpassingen die jij gemaakt hebt aan deze versie van de skin toevoegen',
     4: 'Niet gegroepeerd',
     5: 'Nieuw',
-    6: 'Fix',
-    7: 'Change',
-    8: 'Removal'
+    6: 'Verbeteringen',
+    7: 'Veranderingen',
+    8: 'Verwijderingen'
   },
   ideas: {
     0: 'Niks gevonden',
@@ -150,13 +150,13 @@ export default {
     35: 'Steun de skin',
     36: 'Onbeschikbaar',
     37: 'Deze skin is helaas verwijderd op verzoek van {author}',
-    38: 'Welcome to the skin post editor!',
-    39: `New to the skin editor? Let us guide you through the interface and show you the editor's full potential!`,
-    40: '{current} of {max} completed',
-    41: 'Check out later',
-    42: `Let's get started`,
-    43: 'Congratulations!',
-    44: 'You successfully finished the tutorial, have fun!'
+    38: 'Welkom bij de skin post editor!',
+    39: `Onbekend met de skin editor? Laat je begeleiden door de interface zodat je het maximale eruit kan halen!`,
+    40: '{current} van {max} afgemaakt',
+    41: 'Bekijk later',
+    42: `Laten we beginnen`,
+    43: 'Gefeliciteerd!',
+    44: 'Je hebt succesvol de introductie voltooid, veel plezier!'
   },
   drag: {
     0: 'Klik hier',
@@ -165,8 +165,8 @@ export default {
   footer: {
     0: 'Gemaakt door cyperdark',
     1: 'Dank aan',
-    2: 'Rules',
-    3: 'Contacts'
+    2: 'Regels',
+    3: 'Contacten'
   },
   credits: {
     0: 'Chibi',
@@ -201,12 +201,12 @@ export default {
     14: 'Zoek:'
   },
   contests: {
-    0: 'Contests',
-    1: 'Official newspost',
-    2: 'Submission',
-    3: 'Preparing',
-    4: 'Voting',
-    5: 'Finished'
+    0: 'Wedstrijden',
+    1: 'Officiële nieuwspost',
+    2: 'Inzending',
+    3: 'Aan het voorbereiden',
+    4: 'Stemmen',
+    5: 'Voltooid'
   },
   tabs: {
     0: 'Zoek',
@@ -237,9 +237,9 @@ export default {
       11: 'Zoek categorieën',
       12: '{name} gevonden tags',
       13: 'Nieuwe skin',
-      14: 'Site rules',
-      15: 'osu! Contests',
-      16: 'osu! Contests'
+      14: 'Website regels',
+      15: 'osu! Wedstrijden',
+      16: 'osu! Wedstrijden'
     },
     description: {
       0: 'Pak de beste osu! skins van onze website! Ons grote aanbod heeft skins voor alle gamemodes, aspect ratio’s  en we hebben zelfs skins van de beste spelers. Maar dan heb je anime sectie nog niet gezien. Speel beter met onze hoge skins van hoge kwaliteit. #osuskins #osugame #anime',
@@ -253,8 +253,8 @@ export default {
       8: 'Alle osu skins gemaakt door {name}',
       9: 'Vindt inspiratie voor jouw volgende osu! skin op onze site. Verdwaal in ons gevarieerde bos van skins en ontdek nieuwe technieken en ideeën. Wordt geïnspireerd en maak je eigen unieke skins.',
       10: 'Zoek naar categorieën tussen alle categorieën op de website.',
-      11: 'List of all past/active osu! contests',
-      12: '{amount} entries for {title} contest. {views} views'
+      11: 'Lijst van alle actieve/voltooide osu! wedstrijden',
+      12: '{amount} inzendingen voor {title} wedstrijd. {views} weergaven'
     }
   },
   buttons: {
@@ -271,13 +271,13 @@ export default {
     reddit_link: 'Reddit',
     osu_forum_link: 'osu! Forum',
     skin_return: 'Terug naar skin',
-    source: 'Source',
-    contest_voting: 'Vote here'
+    source: 'Bron',
+    contest_voting: 'Stem hier'
   },
   choose: {
-    0: 'Optional',
-    1: 'Required',
-    2: 'Pick at least one option'
+    0: 'Optioneel',
+    1: 'Verplicht',
+    2: 'Kies ten minste één optie'
   },
   user: {
     roles: {
@@ -299,10 +299,10 @@ export default {
     7: 'Geen korte beschrijving',
     8: 'Geen url',
     9: 'Keren gedownload: {amount}',
-    10: 'Reset everything',
-    11: 'Show guide',
-    12: 'Close guide',
-    13: 'To mark a rule as read, hover over it (Yellow indicates unread)'
+    10: 'Herstel alles',
+    11: 'Toon tips',
+    12: 'Verberg tips',
+    13: 'Om een regel als gelezen te markeren, beweeg erover (Geel betekent ongelezen)'
   },
   lists: {
     screens: {
@@ -318,10 +318,10 @@ export default {
       9: 'Sectie gefaald',
       10: 'Pauzeerscherm',
       11: 'Faalscherm',
-      12: 'Result screen (top)',
+      12: 'Resultatenscherm',
       13: 'Sla over',
       14: 'Banner',
-      15: 'Result screen (bottom)'
+      15: 'Resultatenscherm (onderaan)'
     },
     cats: {
       0: 'NSFW',
@@ -436,7 +436,7 @@ export default {
     50: 'Deze link kan niet gebruikt worden als download link',
     51: 'Ingediend voor moderatie',
     52: 'Waarschuwing',
-    53: 'You need to choose type of asset'
+    53: 'Je moet een type of asset keizen'
   },
   header: {
     0: 'Notificaties',
@@ -449,10 +449,10 @@ export default {
     3: 'Deze pagina is nog niet uit.'
   },
   confirm: {
-    0: 'Reset everything?',
-    1: 'Show guide?',
-    2: 'Submit skin?',
-    3: 'Yes',
-    4: 'No'
+    0: 'Herstel alles?',
+    1: 'Toon tips?',
+    2: 'Verstuur skin?',
+    3: 'Ja',
+    4: 'Nee'
   }
 };
