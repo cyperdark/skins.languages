@@ -36,9 +36,9 @@ export default {
     3: 'But you can add the changes you\'ve made to this version of the skin',
     4: '未分類',
     5: '新',
-    6: 'Fix',
-    7: 'Change',
-    8: 'Removal'
+    6: '修復',
+    7: '改動',
+    8: '移除'
   },
   ideas: {
     0: '無搜尋結果',
@@ -156,7 +156,7 @@ export default {
     41: 'Check out later',
     42: `Let's get started`,
     43: 'Congratulations!',
-    44: 'You successfully finished the tutorial, have fun!'
+    44: 'You have successfully finished the tutorial, have fun!'
   },
   drag: {
     0: '點擊此處',
@@ -253,7 +253,7 @@ export default {
       8: '{name} 所創建的所有skin',
       9: '在我們的網站上參考不同人製作的skin來製作專屬於你自己的skin',
       10: 'Search for tags among all the tags on the site.',
-      11: 'List of all past/active osu! contests',
+      11: 'List of all active/finished osu! contests',
       12: '{amount} entries for {title} contest. {views} views'
     }
   },
@@ -318,7 +318,7 @@ export default {
       9: 'Section Fail',
       10: 'Pause Screen',
       11: 'Fail Screen',
-      12: 'Result screen (top)',
+      12: 'Result screen',
       13: 'Skip',
       14: 'Banner',
       15: 'Result screen (bottom)'
