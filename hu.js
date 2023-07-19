@@ -36,9 +36,9 @@ export default {
     3: 'De hozzá adhatod a változtatásokat, amit ehhez a skin verzióhoz csináltál',
     4: 'Nem csoportosított',
     5: 'Új',
-    6: 'Fix',
-    7: 'Change',
-    8: 'Removal'
+    6: 'Javítások',
+    7: 'Változtatások',
+    8: 'Eltávolítások'
   },
   ideas: {
     0: 'Nincs találat',
@@ -156,7 +156,7 @@ export default {
     41: 'Check out later',
     42: `Let's get started`,
     43: 'Congratulations!',
-    44: 'You successfully finished the tutorial, have fun!'
+    44: 'You have successfully finished the tutorial, have fun!'
   },
   drag: {
     0: 'Kattints ide',
@@ -253,7 +253,7 @@ export default {
       8: '{name} által létrehozott összes skin',
       9: 'Merítsél ihletet a következő osu skin-edhez oldalunkon. Böngésszél a skin-ek változatos gyűjteményében, és fedezzél fel új technikákat és ötleteket. Merítsél ihletet, és készítsd el saját egyedi skin-edet.',
       10: 'Search for tags among all the tags on the site.',
-      11: 'List of all past/active osu! contests',
+      11: 'List of all active/finished osu! contests',
       12: '{amount} entries for {title} contest. {views} views'
     }
   },
@@ -318,7 +318,7 @@ export default {
       9: 'Sikertelen szakasz',
       10: 'Szünet',
       11: 'Fail Screen',
-      12: 'Result screen (top)',
+      12: 'Eredmény',
       13: 'Átugrás',
       14: 'Banner',
       15: 'Result screen (bottom)'
