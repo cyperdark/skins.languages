@@ -36,9 +36,9 @@ export default {
     3: '그러나 당신은 변경한 내용을 이 버전의 스킨에 추가할 수 있습니다.',
     4: '그룹화되지 않은 상태',
     5: '신규',
-    6: 'Fix',
-    7: 'Change',
-    8: 'Removal'
+    6: '수정 목록',
+    7: '변경 사항',
+    8: '삭제된 것들'
   },
   ideas: {
     0: '아무것도 발견되지 않았어요.',
@@ -156,7 +156,7 @@ export default {
     41: 'Check out later',
     42: `Let's get started`,
     43: 'Congratulations!',
-    44: 'You successfully finished the tutorial, have fun!'
+    44: 'You have successfully finished the tutorial, have fun!'
   },
   drag: {
     0: '여기를 클릭하세요.',
@@ -253,7 +253,7 @@ export default {
       8: '{name}이 만든 모든 osu! 스킨',
       9: '이 사이트에서 당신의 다음 osu! 스킨을 위한 영감을 얻으세요. 새로운 기술, 아이디어와 스킨 컬렉션을 탐색하세요. 영감을 얻어 당신만의 스킨을 제작하세요.',
       10: '사이트의 모든 태그 중에서 태그를 검색하세요.',
-      11: 'List of all past/active osu! contests',
+      11: 'List of all active/finished osu! contests',
       12: '{amount} entries for {title} contest. {views} views'
     }
   },
@@ -318,7 +318,7 @@ export default {
       9: '실패 화면',
       10: '정지 화면',
       11: '게임 오버 화면',
-      12: 'Result screen (top)',
+      12: '결과 화면',
       13: '스킵',
       14: '배너',
       15: 'Result screen (bottom)'
