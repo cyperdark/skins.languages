@@ -22,11 +22,11 @@ export default {
     tools: 'Công cụ'
   },
   home: {
-    0: 'Available to download',
-    1: 'Most: _name_ skins',
-    2: 'Viewed | Liked | Downloaded',
-    3: 'Publish new skin',
-    4: 'How to install skin',
+    0: 'Có sẵn cho bạn tải xuống',
+    1: 'Những skin nhất về: _name_',
+    2: 'Lượt xem | Lượt thích | Lượt tải',
+    3: 'Đăng tải skin mới',
+    4: 'Cách cài đặt skin',
     5: '{amount} Skins | {amount} Skins | {amount} Skins'
   },
   changelogs: {
@@ -36,9 +36,9 @@ export default {
     3: 'Nhưng bạn có thể thêm vào những thay đổi đã hoàn thiện đối với phiên bản của skin này',
     4: 'Chưa nhóm',
     5: 'Mới',
-    6: 'Fix',
-    7: 'Change',
-    8: 'Removal'
+    6: 'Sửa lỗi',
+    7: 'Thay đổi',
+    8: 'Xoá'
   },
   ideas: {
     0: 'Không thấy gì cả',
@@ -93,8 +93,8 @@ export default {
     21: 'Mọi vấn đề đã được giải quyết. Tốt lắm!',
     22: 'Danh mục',
     23: 'Thêm ít nhất một phiên bản công khai',
-    24: 'Add at least one creator to this version',
-    25: 'Some creators doesn\'t have roles'
+    24: 'Thêm ít nhất một tác giả cho phiên bản này',
+    25: 'Mốt số tác giả không có vai trò'
   },
   skins: {
     0: 'Skin',
@@ -143,20 +143,20 @@ export default {
     28: 'Không có tag',
     29: 'Không có video',
     30: 'Không có tác giả',
-    31: 'Rate skin',
-    32: 'Upvote & comment on reddit',
-    33: 'Comment on osu! forum',
-    34: 'More skins from this author | More skins from this authors',
-    35: 'Support the skin',
-    36: 'Unavailable',
-    37: 'Unfortunately, this skin was deleted at {author} request',
-    38: 'Welcome to the skin post editor!',
-    39: `New to the skin editor? Let us guide you through the interface and show you the editor's full potential!`,
-    40: '{current} of {max} completed',
-    41: 'Check out later',
-    42: `Let's get started`,
-    43: 'Congratulations!',
-    44: 'You successfully finished the tutorial, have fun!'
+    31: 'Đánh giá skin',
+    32: 'Upvote và bình luận trên Reddit',
+    33: 'Bình luận trên osu! forum',
+    34: 'Nhiều skin hơn từ tác giả này | Nhiều skin hơn từ tác giả này',
+    35: 'Ủng hộ skin',
+    36: 'Không khả dụng',
+    37: 'Thật đáng tiếc, skin này đã bị xoá qua đề nghị của {author}',
+    38: 'Chào mừng đến với phần trình sửa bài đăng skin!',
+    39: `Mới làm quen với việc chỉnh sửa? Hãy để chúng tôi hướng dẫn bạn qua giao diện và cho bạn thấy tiềm năng của editor này!`,
+    40: '{current} trên {max} đã được hoàn thiện',
+    41: 'Hãy ghé lại sau',
+    42: `Hãy bắt đầu`,
+    43: 'Xin chúc mừng!',
+    44: 'Bạn đã hoàn thành hướng dẫn, chúc vui vẻ!'
   },
   drag: {
     0: 'Nhấn vào đây',
@@ -165,8 +165,8 @@ export default {
   footer: {
     0: 'Làm bởi ck',
     1: 'Những người đóng góp',
-    2: 'Rules',
-    3: 'Contacts'
+    2: 'Luật lệ',
+    3: 'Liên hệ'
   },
   credits: {
     0: 'Chibi',
@@ -198,15 +198,15 @@ export default {
       2: 'Người dùng',
       3: 'Danh sách'
     },
-    14: 'Search:'
+    14: 'Tìm kiếm:'
   },
   contests: {
-    0: 'Contests',
-    1: 'Official newspost',
-    2: 'Submission',
-    3: 'Preparing',
-    4: 'Voting',
-    5: 'Finished'
+    0: 'Các cuộc thi',
+    1: 'Bài đăng chính thức',
+    2: 'Bài nộp dự thi',
+    3: 'Đang chuẩn bị',
+    4: 'Đang bình chọn',
+    5: 'Đã hoàn thành'
   },
   tabs: {
     0: 'Tìm kiếm',
@@ -237,9 +237,9 @@ export default {
       11: 'Tìm tag',
       12: 'Các tag chứa {name}',
       13: 'Skin mới',
-      14: 'Site rules',
-      15: 'osu! Contests',
-      16: 'osu! Contests'
+      14: 'Luật của trang chủ',
+      15: 'Những cuộc thi về osu!',
+      16: 'Những cuộc thi về osu!'
     },
     description: {
       0: 'Tảỉ về những skin osu! tốt nhất từ trang của chúng tôi! Thư viện to lớn của chúng tôi có skin cho mọi chế độ chơi, tỷ lệ khung hình và cả kể cả những top player. Thêm vào đó, chúng tôi có một khu đặc biệt dành cho các fan anime. Cả thiện gameplay với một skin hoàn hảo. #osuskins #osugame #anime',
@@ -253,8 +253,8 @@ export default {
       8: 'Tất cả skin được tạo bởi {name}',
       9: 'Tìm các nguồn cảm hứng cho skin osu! tiếp theo của bạn ở trang của chúng tôi. Điểm qua một bộ sưu tầm skin đa dạng và khám phá các kỹ thuật và ý tưởng mới. Lấy cảm hứng và tạo cho bản thân những skin độc đáo.',
       10: 'Tìm các tag trong tất cả các tag trên trang.',
-      11: 'List of all past/active osu! contests',
-      12: '{amount} entries for {title} contest. {views} views'
+      11: 'Danh sách mọi cuộc thi đang hoạt động/đã hoàn tất',
+      12: '{amount} bài dự cho cuộc thi {title}. {views} lượt xem'
     }
   },
   buttons: {
@@ -271,13 +271,13 @@ export default {
     reddit_link: 'Reddit',
     osu_forum_link: 'osu! Forum',
     skin_return: 'Quay trở lại skin',
-    source: 'Source',
-    contest_voting: 'Vote here'
+    source: 'Nguồn',
+    contest_voting: 'Bình chọn tại đây'
   },
   choose: {
-    0: 'Optional',
-    1: 'Required',
-    2: 'Pick at least one option'
+    0: 'Tuỳ chọn',
+    1: 'Bắt buộc',
+    2: 'Thêm ít nhất một lựa chọn'
   },
   user: {
     roles: {
@@ -299,10 +299,10 @@ export default {
     7: 'Không có mô tả ngắn',
     8: 'Không có url',
     9: 'Lượt tải: {amount}',
-    10: 'Reset everything',
-    11: 'Show guide',
-    12: 'Close guide',
-    13: 'To mark a rule as read, hover over it (Yellow indicates unread)'
+    10: 'Reset mọi thứ',
+    11: 'Hiện hướng dẫn',
+    12: 'Đóng hướng dẫn',
+    13: 'Để đánh dấu luật đã xem, hãy di chuột lên nó (Màu vàng nghĩa là chưa đọc)'
   },
   lists: {
     screens: {
@@ -318,10 +318,10 @@ export default {
       9: 'Section Fail',
       10: 'Màn hình tạm dừng',
       11: 'Màn hình Fail',
-      12: 'Result screen (top)',
+      12: 'Màn hình kết quả (bên trên)',
       13: 'Bỏ qua',
       14: 'Banner',
-      15: 'Result screen (bottom)'
+      15: 'Màn hình kết quả (bên dưới)'
     },
     cats: {
       0: 'NSFW',
@@ -370,12 +370,12 @@ export default {
   },
   contribute: { 0: 'Đóng góp' },
   nsfw: {
-    0: 'Warning, nsfw!',
+    0: 'Cảnh báo, nsfw!',
     1: 'Skin có chứa các nội dung nhạy cảm hoặc người lớn',
     2: 'Skin có chứa các nội dung nhạy cảm có thể gây khó chịu cho một số người dùng',
     3: 'Được',
     4: 'tạm biệt o/',
-    5: 'Furry Warning!'
+    5: 'Cảnh báo furrry!'
   },
   removed: {
     0: 'Phiên bản không khả dụng',
@@ -436,11 +436,11 @@ export default {
     50: 'Liên kết này không thể dùng làm link tải về',
     51: 'Đã gửi cho kiểm duyệt',
     52: 'Cảnh báo',
-    53: 'You need to choose type of asset'
+    53: 'Bạn cần chọn loại asset'
   },
   header: {
     0: 'Thông báo',
-    1: 'Follow us on these platforms to receive notifications about new skins'
+    1: 'Hãy theo dõi chúng tôi trên các nền tảng này để nhận những thông báo về skin mới'
   },
   restricted_view: {
     0: 'Không thể truy cập',
@@ -449,10 +449,10 @@ export default {
     3: 'Trang này vẫn chưa được cập nhật.'
   },
   confirm: {
-    0: 'Reset everything?',
-    1: 'Show guide?',
-    2: 'Submit skin?',
-    3: 'Yes',
-    4: 'No'
+    0: 'Reset tất cả mọi thứ?',
+    1: 'Hiện hướng dẫn?',
+    2: 'Nộp skin?',
+    3: 'Đúng',
+    4: 'Không'
   }
 };
