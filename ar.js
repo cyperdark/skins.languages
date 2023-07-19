@@ -36,9 +36,9 @@ export default {
     3: 'But you can add the changes you\'ve made to this version of the skin',
     4: 'غير مجمعة',
     5: 'جديد',
-    6: 'Fix',
-    7: 'Change',
-    8: 'Removal'
+    6: 'إصلاحات',
+    7: 'تغييرات',
+    8: 'المحذوفات'
   },
   ideas: {
     0: 'لا نتائج',
@@ -156,7 +156,7 @@ export default {
     41: 'Check out later',
     42: `Let's get started`,
     43: 'Congratulations!',
-    44: 'You successfully finished the tutorial, have fun!'
+    44: 'You have successfully finished the tutorial, have fun!'
   },
   drag: {
     0: 'اُنقر هنا',
@@ -253,7 +253,7 @@ export default {
       8: '{name} جميع الأزياء المصنوعة من',
       9: 'جد الإلهام لزيك القادم في موقعنا. تصفح العديد من المجموعات و اكتشف طرق و أفكار جديدة. خذ أفكار و ابتكر أزياء مميزة',
       10: 'Search for tags among all the tags on the site.',
-      11: 'List of all past/active osu! contests',
+      11: 'List of all active/finished osu! contests',
       12: '{amount} entries for {title} contest. {views} views'
     }
   },
@@ -318,7 +318,7 @@ export default {
       9: 'إخفاق الجزء',
       10: 'شاشة التوقف',
       11: 'شاشة الاخفاق',
-      12: 'Result screen (top)',
+      12: 'شاشة النتائج',
       13: 'تخطي',
       14: 'الراية',
       15: 'Result screen (bottom)'
