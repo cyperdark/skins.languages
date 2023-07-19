@@ -36,9 +36,9 @@ export default {
     3: 'Dar poți adăuga modificările pe care le-ai făcut la această versiune a skinului',
     4: 'Nu sunt grupate',
     5: 'Nou',
-    6: 'Fix',
-    7: 'Change',
-    8: 'Removal'
+    6: 'Probleme rezolvate',
+    7: 'Modificări',
+    8: 'Desființări'
   },
   ideas: {
     0: 'Nu am găsit nimic',
@@ -149,14 +149,14 @@ export default {
     34: 'Mai multe skinuri de la acest autor | Mai multe skinuri de la acești autori',
     35: 'Susține skinul',
     36: 'Indisponibil',
-    37: 'Unfortunately, this skin was deleted at {author} request',
-    38: 'Welcome to the skin post editor!',
-    39: `New to the skin editor? Let us guide you through the interface and show you the editor's full potential!`,
-    40: '{current} of {max} completed',
-    41: 'Check out later',
-    42: `Let's get started`,
-    43: 'Congratulations!',
-    44: 'You successfully finished the tutorial, have fun!'
+    37: 'Din păcate, acest skin a fost șters la cererea lui {author}',
+    38: 'Bine ai venit la editorul de skin uri!',
+    39: `Nou în editorul de skin uri? Lasă-ne să te ghidăm prin interfață și să iți arătăm potențialul deplin al editorului!`,
+    40: '{current} din {max} completat',
+    41: 'Verifică mai târziu',
+    42: `Să începem`,
+    43: 'Felicitări!',
+    44: 'Ai terminat cu succes tutorialul, distrează-te!'
   },
   drag: {
     0: 'Apasă aici',
@@ -165,8 +165,8 @@ export default {
   footer: {
     0: 'Creat de cyperdark',
     1: 'Credite',
-    2: 'Rules',
-    3: 'Contacts'
+    2: 'Reguli',
+    3: 'Contacte'
   },
   credits: {
     0: 'Chibi',
@@ -201,12 +201,12 @@ export default {
     14: 'Caută:'
   },
   contests: {
-    0: 'Contests',
-    1: 'Official newspost',
-    2: 'Submission',
-    3: 'Preparing',
-    4: 'Voting',
-    5: 'Finished'
+    0: 'Concursuri',
+    1: 'Noutăți oficiale',
+    2: 'Depunere',
+    3: 'Pregătire',
+    4: 'Votare',
+    5: 'Terminat'
   },
   tabs: {
     0: 'Căutare',
@@ -237,9 +237,9 @@ export default {
       11: 'Caută etichete',
       12: 'etichete {name} găsite',
       13: 'Skin nou',
-      14: 'Site rules',
-      15: 'osu! Contests',
-      16: 'osu! Contests'
+      14: 'Regulile site-ului',
+      15: 'Concursuri osu!',
+      16: 'Concursuri osu!'
     },
     description: {
       0: 'Obține cele mai bune skin-uri de osu pe site-ul nostru! Librăria noastră imensă conține skin-uri pentru toate modurile de joc, aspect ratio-urile și pana și skinuri ale jucătorilor de top. Plus, avem o secțiune specială pentru fanii anime-urilor. îmbunătăţeşte-ți gameplay-ul cu skin-ul perfect. #osuskins #osugame #anime',
@@ -253,8 +253,8 @@ export default {
       8: 'Toate skinurile de osu realizate de {name}',
       9: 'Găsește inspirație pentru următorul tău skin de osu! pe site-ul nostru. Navighează printr-o colecție diversă de skin-uri și descoperă noi tehnici și idei. Inspiră-te si creează-ți propriile skin-uri unice.',
       10: 'Caută etichete printre toate etichetele de pe site.',
-      11: 'List of all past/active osu! contests',
-      12: '{amount} entries for {title} contest. {views} views'
+      11: 'Lista tuturor concursurilor de osu! terminate/active',
+      12: '{amount} intrări pentru concursul {title}. {views} vizualizări'
     }
   },
   buttons: {
@@ -271,13 +271,13 @@ export default {
     reddit_link: 'Reddit',
     osu_forum_link: 'Forum osu!',
     skin_return: 'Înapoi la skin',
-    source: 'Source',
-    contest_voting: 'Vote here'
+    source: 'Sursă',
+    contest_voting: 'Votează aici'
   },
   choose: {
-    0: 'Optional',
-    1: 'Required',
-    2: 'Pick at least one option'
+    0: 'Opțional',
+    1: 'Obligatoriu',
+    2: 'Alege cel puțin o opțiune'
   },
   user: {
     roles: {
@@ -299,10 +299,10 @@ export default {
     7: 'Nici o descriere scurtă',
     8: 'Nici un url',
     9: 'Descărcări: {amount}',
-    10: 'Reset everything',
-    11: 'Show guide',
-    12: 'Close guide',
-    13: 'To mark a rule as read, hover over it (Yellow indicates unread)'
+    10: 'Resetează totul',
+    11: 'Arată ghidul',
+    12: 'Închide ghidul',
+    13: 'Pentru a marca o regulă ca citită, așează-ți cursor ul deasupra acesteia (galben indică necitit)'
   },
   lists: {
     screens: {
@@ -318,10 +318,10 @@ export default {
       9: 'Secțiune eșuată',
       10: 'Ecranul de pauză',
       11: 'Ecranul de eșec',
-      12: 'Result screen (top)',
+      12: 'Ecranul cu rezultate (sus)',
       13: 'Skip',
       14: 'Banner',
-      15: 'Result screen (bottom)'
+      15: 'Ecranul cu rezultate (jos)'
     },
     cats: {
       0: 'NSFW',
@@ -370,12 +370,12 @@ export default {
   },
   contribute: { 0: 'Contribuie' },
   nsfw: {
-    0: 'Warning, nsfw!',
+    0: 'Atenție, conținut neadecvat!',
     1: 'Acest skin conţine conţinut sensibil sau pentru adulţi',
     2: 'Acest skin conține conținut sensibil sau pentru adulți pe care unii utilizatori îl pot considera deranjant',
     3: 'În regulă',
     4: 'pa o/',
-    5: 'Furry Warning!'
+    5: 'Atenție, conținut cu furry!'
   },
   removed: {
     0: 'Versiune indisponibilă',
@@ -436,7 +436,7 @@ export default {
     50: 'Acest link nu poate fi folosit ca un link de descărcare',
     51: 'Trimis spre moderare',
     52: 'Atenție',
-    53: 'You need to choose type of asset'
+    53: 'Este nevoie să alegi tipul de asset'
   },
   header: {
     0: 'Notificări',
@@ -449,10 +449,10 @@ export default {
     3: 'Această pagină nu este încă disponibilă.'
   },
   confirm: {
-    0: 'Reset everything?',
-    1: 'Show guide?',
-    2: 'Submit skin?',
-    3: 'Yes',
-    4: 'No'
+    0: 'Resetezi totul?',
+    1: 'Arată ghidul?',
+    2: 'Publică skin ul?',
+    3: 'Da',
+    4: 'Nu'
   }
 };
