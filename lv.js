@@ -36,9 +36,9 @@ export default {
     3: 'Bet tu vari pievienot izmaiņas, kuras tu esi veicis šai skina versijai',
     4: 'Nav grupēts',
     5: 'Jaunais',
-    6: 'Fix',
-    7: 'Change',
-    8: 'Removal'
+    6: 'Labotais',
+    7: 'Pārmainītais',
+    8: 'Izņemtais'
   },
   ideas: {
     0: 'Nekas nav atrasts',
@@ -156,7 +156,7 @@ export default {
     41: 'Check out later',
     42: `Let's get started`,
     43: 'Congratulations!',
-    44: 'You successfully finished the tutorial, have fun!'
+    44: 'You have successfully finished the tutorial, have fun!'
   },
   drag: {
     0: 'Klikšķini šeit',
@@ -253,7 +253,7 @@ export default {
       8: 'Visus skinus sastādījis {name}',
       9: 'Atrodi iedvesmu savam nākamajam osu! skinam mūsu saitē. Pārlūko daudzveidīgu kolekciju ar skiniem, un atklāj jaunas metodes un idejas. Gūsti iedvesmu un izveido pats savu skinu.',
       10: 'Meklē tagus starp visiem tagiem, kas ir šājā mājaslapā.',
-      11: 'List of all past/active osu! contests',
+      11: 'List of all active/finished osu! contests',
       12: '{amount} entries for {title} contest. {views} views'
     }
   },
@@ -318,7 +318,7 @@ export default {
       9: 'Section Fail',
       10: 'Pauzes Ekrāns',
       11: 'Fail Screen',
-      12: 'Result screen (top)',
+      12: 'Rezultātu ekrāns',
       13: 'Izlaist',
       14: 'Baneris',
       15: 'Result screen (bottom)'
