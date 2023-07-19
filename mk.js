@@ -149,7 +149,14 @@ export default {
     34: 'More skins from this author | More skins from this authors',
     35: 'Support the skin',
     36: 'Unavailable',
-    37: 'Unfortunately, this skin was deleted at {author} request'
+    37: 'Unfortunately, this skin was deleted at {author} request',
+    38: 'Welcome to the skin post editor!',
+    39: `New to the skin editor? Let us guide you through the interface and show you the editor's full potential!`,
+    40: '{current} of {max} completed',
+    41: 'Check out later',
+    42: `Let's get started`,
+    43: 'Congratulations!',
+    44: 'You have successfully finished the tutorial, have fun!'
   },
   drag: {
     0: 'Кликнете овде',
@@ -157,7 +164,9 @@ export default {
   },
   footer: {
     0: 'Создадено од cyperdark',
-    1: 'Кредити'
+    1: 'Кредити',
+    2: 'Rules',
+    3: 'Contacts'
   },
   credits: {
     0: 'Chibi',
@@ -191,6 +200,14 @@ export default {
     },
     14: 'Search:'
   },
+  contests: {
+    0: 'Contests',
+    1: 'Official newspost',
+    2: 'Submission',
+    3: 'Preparing',
+    4: 'Voting',
+    5: 'Finished'
+  },
   tabs: {
     0: 'Пребарувај',
     1: 'Едит',
@@ -219,7 +236,10 @@ export default {
       10: '{name} направиле osu скинови',
       11: 'Search tags',
       12: '{name} found tags',
-      13: 'Нов скин'
+      13: 'Нов скин',
+      14: 'Site rules',
+      15: 'osu! Contests',
+      16: 'osu! Contests'
     },
     description: {
       0: 'Добијте ги најдобрите osu! скинови на нашиот сајт! Нашата голема галерија има скинови за сите гејм-модови, соодноси и скинови на топ играчи. Плус, ја имаме специјалната секција за фанови на аниме. Подобрете си го гејмплејот со перфектниот скин. #osuskins #osugame #anime',
@@ -232,7 +252,9 @@ export default {
       7: 'Голема бројка на osu скинови за {name}, слегнете бесплатно!',
       8: 'Сите osu скинови се направени од {name}',
       9: 'Пронајдете инспирација за вашиот следен osu! скин на нашиот сајт. Пребарувајте многу диверзна колекција од скинови и пронајдете нови техники и идеји. Бидете инспирирани и напревете си свој скинови.',
-      10: 'Search for tags among all the tags on the site.'
+      10: 'Search for tags among all the tags on the site.',
+      11: 'List of all active/finished osu! contests',
+      12: '{amount} entries for {title} contest. {views} views'
     }
   },
   buttons: {
@@ -248,7 +270,14 @@ export default {
     copied: 'Копирано',
     reddit_link: 'Редит',
     osu_forum_link: 'osu! Форум',
-    skin_return: 'Назад на скинот'
+    skin_return: 'Назад на скинот',
+    source: 'Source',
+    contest_voting: 'Vote here'
+  },
+  choose: {
+    0: 'Optional',
+    1: 'Required',
+    2: 'Pick at least one option'
   },
   user: {
     roles: {
@@ -269,7 +298,11 @@ export default {
     6: '{s}Log in{p}, in order to rate this skin',
     7: 'Нема кратка дескрипција',
     8: 'Нема URL',
-    9: 'Слегнувања: {amount}'
+    9: 'Слегнувања: {amount}',
+    10: 'Reset everything',
+    11: 'Show guide',
+    12: 'Close guide',
+    13: 'To mark a rule as read, hover over it (Yellow indicates unread)'
   },
   lists: {
     screens: {
@@ -287,7 +320,8 @@ export default {
       11: 'Екран за Неуспевање',
       12: 'Екран за Резултати',
       13: 'Прескокнување',
-      14: 'Банер'
+      14: 'Банер',
+      15: 'Result screen (bottom)'
     },
     cats: {
       0: 'NSFW',
@@ -400,7 +434,9 @@ export default {
     48: 'Changes have been updated in moderation',
     49: 'Odd link',
     50: 'This link cannot be used as a download link',
-    51: 'Submitted for moderation'
+    51: 'Submitted for moderation',
+    52: 'Warning',
+    53: 'You need to choose type of asset'
   },
   header: {
     0: 'Нотификации',
@@ -411,5 +447,12 @@ export default {
     1: 'Please log into your account',
     2: 'Restricted view',
     3: 'This page is not out, yet.'
+  },
+  confirm: {
+    0: 'Reset everything?',
+    1: 'Show guide?',
+    2: 'Submit skin?',
+    3: 'Yes',
+    4: 'No'
   }
 };

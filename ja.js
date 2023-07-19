@@ -149,7 +149,14 @@ export default {
     34: 'この作成者のスキンをもっと見る | この作成者たちのスキンをもっと見る',
     35: 'スキンをサポートする',
     36: '利用できません',
-    37: 'Unfortunately, this skin was deleted at {author} request'
+    37: '残念ながら、このスキンは {author} のリクエストによって削除されました',
+    38: 'スキン投稿エディターへようこそ！',
+    39: `New to the skin editor? Let us guide you through the interface and show you the editor's full potential!`,
+    40: '{current} / {max} 完了',
+    41: '後で確認する',
+    42: `さぁ、始めましょう`,
+    43: 'おめでとう！',
+    44: 'チュートリアルが完了しました。楽しんで！'
   },
   drag: {
     0: 'ここをクリック',
@@ -157,7 +164,9 @@ export default {
   },
   footer: {
     0: 'cyperdark 制作',
-    1: 'クレジット'
+    1: 'クレジット',
+    2: 'ルール',
+    3: 'お問い合わせ'
   },
   credits: {
     0: 'チビ',
@@ -191,6 +200,14 @@ export default {
     },
     14: '検索:'
   },
+  contests: {
+    0: 'コンテスト',
+    1: '公式ニュース',
+    2: '提出',
+    3: '準備中',
+    4: '投票中',
+    5: '終了'
+  },
   tabs: {
     0: '検索',
     1: '編集',
@@ -219,7 +236,10 @@ export default {
       10: '{name} が作成したスキン',
       11: 'タグ検索',
       12: '{name} found tags',
-      13: '新着のスキン'
+      13: '新着のスキン',
+      14: 'Site rules',
+      15: 'osu! Contests',
+      16: 'osu! Contests'
     },
     description: {
       0: 'このサイトでベストなosu! スキンを手に入れよう！ 私たちの膨大なライブラリには、すべてのゲームモード、アスペクト比、さらにはトッププレイヤーのスキンがあります。さらに、アニメーション向けの特別セクションもあります。完璧なスキンでゲームプレイを向上させましょう。',
@@ -232,7 +252,9 @@ export default {
       7: '{name} 用のosuスキンがたくさん、無料でダウンロードできます。',
       8: '{name} によって作成されたすべてのosuスキン。',
       9: '当サイトで次のosu! スキンのインスピレーションを身につけよう！多彩なスキンコレクションを見て、新しいテクニックやアイデアを見つけることができます。インスピレーションを受けて、自分だけのosu!スキンを作りましょう。',
-      10: 'サイト上のすべてのタグの中からタグを検索します。'
+      10: 'サイト上のすべてのタグの中からタグを検索します。',
+      11: 'List of all active/finished osu! contests',
+      12: '{amount} entries for {title} contest. {views} views'
     }
   },
   buttons: {
@@ -248,7 +270,14 @@ export default {
     copied: 'コピーしました',
     reddit_link: 'Reddit',
     osu_forum_link: 'osu! フォーラム',
-    skin_return: 'スキンへ戻る'
+    skin_return: 'スキンへ戻る',
+    source: 'Source',
+    contest_voting: 'Vote here'
+  },
+  choose: {
+    0: 'Optional',
+    1: 'Required',
+    2: 'Pick at least one option'
   },
   user: {
     roles: {
@@ -269,7 +298,11 @@ export default {
     6: 'このスキンを評価するには{s}ログインしてください{p}',
     7: '短い説明文はありません',
     8: 'URL がありません',
-    9: 'ダウンロード数: {amount}'
+    9: 'ダウンロード数: {amount}',
+    10: 'Reset everything',
+    11: 'Show guide',
+    12: 'Close guide',
+    13: 'To mark a rule as read, hover over it (Yellow indicates unread)'
   },
   lists: {
     screens: {
@@ -287,7 +320,8 @@ export default {
       11: '失敗した画面',
       12: 'リザルト画面',
       13: 'スキップ',
-      14: 'バナー'
+      14: 'バナー',
+      15: 'Result screen (bottom)'
     },
     cats: {
       0: 'NSFW',
@@ -400,7 +434,9 @@ export default {
     48: '変更はモデレーションで更新されました',
     49: '不正なリンク',
     50: 'このリンクはダウンロードリンクとして使用できません',
-    51: 'モデレーションのために提出されました'
+    51: 'モデレーションのために提出されました',
+    52: '警告',
+    53: 'You need to choose type of asset'
   },
   header: {
     0: '通知',
@@ -411,5 +447,12 @@ export default {
     1: 'アカウントにログインしてください',
     2: '制限付きビュー',
     3: 'このページはまだ公開されていません。'
+  },
+  confirm: {
+    0: 'Reset everything?',
+    1: 'Show guide?',
+    2: 'Submit skin?',
+    3: 'Yes',
+    4: 'No'
   }
 };

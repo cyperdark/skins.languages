@@ -149,7 +149,14 @@ export default {
     34: 'More skins from this author | More skins from this authors',
     35: 'Support the skin',
     36: 'Unavailable',
-    37: 'Unfortunately, this skin was deleted at {author} request'
+    37: 'Unfortunately, this skin was deleted at {author} request',
+    38: 'Welcome to the skin post editor!',
+    39: `New to the skin editor? Let us guide you through the interface and show you the editor's full potential!`,
+    40: '{current} of {max} completed',
+    41: 'Check out later',
+    42: `Let's get started`,
+    43: 'Congratulations!',
+    44: 'You have successfully finished the tutorial, have fun!'
   },
   drag: {
     0: 'Kliknij',
@@ -157,7 +164,9 @@ export default {
   },
   footer: {
     0: 'Made by cyperdark',
-    1: 'Credits'
+    1: 'Credits',
+    2: 'Rules',
+    3: 'Contacts'
   },
   credits: {
     0: 'Chibi',
@@ -191,6 +200,14 @@ export default {
     },
     14: 'Search:'
   },
+  contests: {
+    0: 'Contests',
+    1: 'Official newspost',
+    2: 'Submission',
+    3: 'Preparing',
+    4: 'Voting',
+    5: 'Finished'
+  },
   tabs: {
     0: 'Szukaj',
     1: 'Edytuj',
@@ -219,7 +236,10 @@ export default {
       10: '{name} stworzył/a skiny do osu',
       11: 'Search tags',
       12: '{name} found tags',
-      13: 'Nowy skin'
+      13: 'Nowy skin',
+      14: 'Site rules',
+      15: 'osu! Contests',
+      16: 'osu! Contests'
     },
     description: {
       0: 'Najlepsze skiny do osu! tylko u nas! W naszej ogromnej bibliotece znajdziesz skiny dla wszystkich trybów gry, proporcji ekranu, a nawet skiny używane przez topowych graczy. Posiadamy również sekcję dla fanów anime. Udoskonal swoją rozgrywkę z idealnym dla ciebie skinem. #osuskins #osugame #anime',
@@ -232,7 +252,9 @@ export default {
       7: 'Ogromna ilość skinów od {name}, pobierz za darmo!',
       8: 'Wszystkie skiny stworzone przez {name}',
       9: 'Znajdź inspirację na swój najnowszy skin u nas. Przejrzyj różnorodną kolekcję skinów i odkryj nowe techniki i pomysły. Zainspiruj się i stwórz jedyne w swoim rodzaju skiny.',
-      10: 'Search for tags among all the tags on the site.'
+      10: 'Search for tags among all the tags on the site.',
+      11: 'List of all active/finished osu! contests',
+      12: '{amount} entries for {title} contest. {views} views'
     }
   },
   buttons: {
@@ -248,7 +270,14 @@ export default {
     copied: 'Skopiowano',
     reddit_link: 'Reddit',
     osu_forum_link: 'Forum osu!',
-    skin_return: 'Powrót do skina'
+    skin_return: 'Powrót do skina',
+    source: 'Source',
+    contest_voting: 'Vote here'
+  },
+  choose: {
+    0: 'Optional',
+    1: 'Required',
+    2: 'Pick at least one option'
   },
   user: {
     roles: {
@@ -269,7 +298,11 @@ export default {
     6: '{s}Log in{p}, in order to rate this skin',
     7: 'Brak krótkiego opisu',
     8: 'Brak linka',
-    9: 'Pobrania: {amount}'
+    9: 'Pobrania: {amount}',
+    10: 'Reset everything',
+    11: 'Show guide',
+    12: 'Close guide',
+    13: 'To mark a rule as read, hover over it (Yellow indicates unread)'
   },
   lists: {
     screens: {
@@ -287,7 +320,8 @@ export default {
       11: 'Fail Screen',
       12: 'Result screen',
       13: 'Skip',
-      14: 'Banner'
+      14: 'Banner',
+      15: 'Result screen (bottom)'
     },
     cats: {
       0: 'NSFW',
@@ -400,7 +434,9 @@ export default {
     48: 'Changes have been updated in moderation',
     49: 'Odd link',
     50: 'This link cannot be used as a download link',
-    51: 'Submitted for moderation'
+    51: 'Submitted for moderation',
+    52: 'Warning',
+    53: 'You need to choose type of asset'
   },
   header: {
     0: 'Powiadomienia',
@@ -411,5 +447,12 @@ export default {
     1: 'Please log into your account',
     2: 'Restricted view',
     3: 'This page is not out, yet.'
+  },
+  confirm: {
+    0: 'Reset everything?',
+    1: 'Show guide?',
+    2: 'Submit skin?',
+    3: 'Yes',
+    4: 'No'
   }
 };

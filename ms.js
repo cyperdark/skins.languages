@@ -149,7 +149,14 @@ export default {
     34: 'Skin lain daripada pengarang ini | Skin lain daripada pengarang ini',
     35: 'Sokong skin ini',
     36: 'Unavailable',
-    37: 'Unfortunately, this skin was deleted at {author} request'
+    37: 'Unfortunately, this skin was deleted at {author} request',
+    38: 'Welcome to the skin post editor!',
+    39: `New to the skin editor? Let us guide you through the interface and show you the editor's full potential!`,
+    40: '{current} of {max} completed',
+    41: 'Check out later',
+    42: `Let's get started`,
+    43: 'Congratulations!',
+    44: 'You have successfully finished the tutorial, have fun!'
   },
   drag: {
     0: 'Ketik di sini',
@@ -157,7 +164,9 @@ export default {
   },
   footer: {
     0: 'Dibuat oleh cyperdark',
-    1: 'Penghargaan'
+    1: 'Penghargaan',
+    2: 'Rules',
+    3: 'Contacts'
   },
   credits: {
     0: 'Chibi',
@@ -191,6 +200,14 @@ export default {
     },
     14: 'Search:'
   },
+  contests: {
+    0: 'Contests',
+    1: 'Official newspost',
+    2: 'Submission',
+    3: 'Preparing',
+    4: 'Voting',
+    5: 'Finished'
+  },
   tabs: {
     0: 'Cari',
     1: 'Mengedit',
@@ -219,7 +236,10 @@ export default {
       10: '{name} membuat skin osu',
       11: 'Cari tag',
       12: '{name} tag-tag dijumpai',
-      13: 'Skin baharu'
+      13: 'Skin baharu',
+      14: 'Site rules',
+      15: 'osu! Contests',
+      16: 'osu! Contests'
     },
     description: {
       0: 'Dapatkan skin osu! yang terbaik dari laman web kami! Kami mempunyai banyak skin untuk semua mod permainan, nisbah aspek dan juga pemain-pemain terbaik. Tambahan, kami juga mempunyai bahagian yang istimewa untuk peminat-peminat anime. Menaik taraf permainan anda dengan skin yang sempurna. #osuskins #osugame #anime',
@@ -232,7 +252,9 @@ export default {
       7: 'Skin osu yang banyak untuk {name}, muat turun secara percuma!',
       8: 'Semua skin osu dibuat oleh {name}',
       9: 'Cari inspirasi untuk skin osu! anda yang seterusnya di laman web kami. Semak melalui koleksi skin yang pelbagai dan teroka pelbagai teknik dan idea. Dapatkan inspirasi dan cipta skin anda yang unik.',
-      10: 'Cari tag-tag dari kesemua tag di site ini.'
+      10: 'Cari tag-tag dari kesemua tag di site ini.',
+      11: 'List of all active/finished osu! contests',
+      12: '{amount} entries for {title} contest. {views} views'
     }
   },
   buttons: {
@@ -248,7 +270,14 @@ export default {
     copied: 'Telah disalin',
     reddit_link: 'Reddit',
     osu_forum_link: 'forum osu',
-    skin_return: 'Balik ke skin'
+    skin_return: 'Balik ke skin',
+    source: 'Source',
+    contest_voting: 'Vote here'
+  },
+  choose: {
+    0: 'Optional',
+    1: 'Required',
+    2: 'Pick at least one option'
   },
   user: {
     roles: {
@@ -269,7 +298,11 @@ export default {
     6: '{s}Dafter masuk{p}, untuk menilai skin ini',
     7: 'Tiada kandungan',
     8: 'Tiada url',
-    9: 'Muat turun: {amount}'
+    9: 'Muat turun: {amount}',
+    10: 'Reset everything',
+    11: 'Show guide',
+    12: 'Close guide',
+    13: 'To mark a rule as read, hover over it (Yellow indicates unread)'
   },
   lists: {
     screens: {
@@ -287,7 +320,8 @@ export default {
       11: 'Skrin Gagal',
       12: 'Skrin keputusan',
       13: 'Skip',
-      14: 'Banner'
+      14: 'Banner',
+      15: 'Result screen (bottom)'
     },
     cats: {
       0: 'NSFW',
@@ -400,7 +434,9 @@ export default {
     48: 'Perubahan telah dimuat naik kepada pihak moderasi',
     49: 'Link pelik',
     50: 'Link ini tidak boleh diguna sebagai link muat turun',
-    51: 'Telah diserahkan kepada moderasi'
+    51: 'Telah diserahkan kepada moderasi',
+    52: 'Amaran',
+    53: 'You need to choose type of asset'
   },
   header: {
     0: 'Notifikasi',
@@ -411,5 +447,12 @@ export default {
     1: 'Sila log masuk dengan akaun anda',
     2: 'Pengelihatan terhad',
     3: 'Helaian ini belum dikeluarkan, lagi.'
+  },
+  confirm: {
+    0: 'Reset everything?',
+    1: 'Show guide?',
+    2: 'Submit skin?',
+    3: 'Yes',
+    4: 'No'
   }
 };

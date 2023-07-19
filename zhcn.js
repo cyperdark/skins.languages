@@ -23,11 +23,11 @@ export default {
   },
   home: {
     0: '可供下载',
-    1: 'Most: _name_ skins',
-    2: 'Viewed | Liked | Downloaded',
+    1: '最多：_name_的皮肤',
+    2: '查看 | 喜欢 | 下载',
     3: '发布新皮肤',
     4: '如果安装皮肤',
-    5: '{amount} Skins | {amount} Skins | {amount} Skins'
+    5: '{amount} 个皮肤 | {amount} 个皮肤 | {amount} 个皮肤'
   },
   changelogs: {
     0: '更新日志',
@@ -93,8 +93,8 @@ export default {
     21: '所有问题都已解决。干得好！',
     22: '检查清单',
     23: '添加至少一个公开版本',
-    24: 'Add at least one creator to this version',
-    25: 'Some creators doesn\'t have roles'
+    24: '为此版本添加至少一个创作者',
+    25: '部分创作者没有角色'
   },
   skins: {
     0: '皮肤',
@@ -109,7 +109,7 @@ export default {
     9: '皮肤 | 皮肤 | 皮肤',
     10: '{name} 制作的 osu 皮肤 | 所有来自... 皮肤',
     11: '搜索',
-    12: '{name} skins',
+    12: '{name} 皮肤',
     13: '探索皮肤'
   },
   skin: {
@@ -148,8 +148,15 @@ export default {
     33: '前往 osu! 论坛评论',
     34: '来自该作者的更多皮肤 | 来自该作者的更多皮肤',
     35: '支持该皮肤',
-    36: 'Unavailable',
-    37: 'Unfortunately, this skin was deleted at {author} request'
+    36: '不可用',
+    37: '很抱歉，此皮肤已依据 {author} 的请求删除',
+    38: 'Welcome to the skin post editor!',
+    39: `New to the skin editor? Let us guide you through the interface and show you the editor's full potential!`,
+    40: '{current} of {max} completed',
+    41: 'Check out later',
+    42: `Let's get started`,
+    43: 'Congratulations!',
+    44: 'You have successfully finished the tutorial, have fun!'
   },
   drag: {
     0: '点击这里',
@@ -157,7 +164,9 @@ export default {
   },
   footer: {
     0: '由cyperdark制作',
-    1: '版权'
+    1: '版权',
+    2: 'Rules',
+    3: 'Contacts'
   },
   credits: {
     0: 'Chibi',
@@ -189,7 +198,15 @@ export default {
       2: '用户',
       3: '列表'
     },
-    14: 'Search:'
+    14: '搜索：'
+  },
+  contests: {
+    0: 'Contests',
+    1: 'Official newspost',
+    2: 'Submission',
+    3: 'Preparing',
+    4: 'Voting',
+    5: 'Finished'
   },
   tabs: {
     0: '搜索',
@@ -198,8 +215,8 @@ export default {
   },
   undefined: {
     0: '空',
-    1: 'Unfortunately, there\'s nothing here, but you can take a look at the other pages',
-    2: 'Unfortunately, there\'s nothing here',
+    1: '很抱歉，这里什么也没有，但您还可以看看其他页面',
+    2: '很抱歉，这里什么也没有',
     3: '无权限',
     4: '您需要登录才能编辑此皮肤。',
     5: '您需要登录才能添加新皮肤。'
@@ -218,8 +235,11 @@ export default {
       9: '从其他 osu 皮肤中获得灵感',
       10: '{name} 制作的 osu 皮肤',
       11: '搜索标签',
-      12: '{name} found tags',
-      13: '新皮肤'
+      12: '{name} 发现标签',
+      13: '新皮肤',
+      14: 'Site rules',
+      15: 'osu! Contests',
+      16: 'osu! Contests'
     },
     description: {
       0: '在我们的网站上获取最佳 osu! 皮肤！我们的巨大库中有所有游戏模式、画面比例甚至是顶尖玩家的皮肤。此外，我们还有一个专门的动漫粉丝区。使用完美的皮肤提高你的游戏体验。#osuskins #osugame #anime',
@@ -232,7 +252,9 @@ export default {
       7: '大量{name} osu皮肤，免费下载！',
       8: '{name} 制作的所有 osu! 皮肤',
       9: '在我们的网站上为您的下一个 osu! 皮肤寻找灵感。浏览多样化的皮肤集合，发现新技巧和想法。受到启发并创建自己独特的皮肤。',
-      10: '在所有标签中搜索。'
+      10: '在所有标签中搜索。',
+      11: 'List of all active/finished osu! contests',
+      12: '{amount} entries for {title} contest. {views} views'
     }
   },
   buttons: {
@@ -248,7 +270,14 @@ export default {
     copied: '已复制',
     reddit_link: 'Reddit',
     osu_forum_link: 'osu! 论坛',
-    skin_return: '返回皮肤'
+    skin_return: '返回皮肤',
+    source: 'Source',
+    contest_voting: 'Vote here'
+  },
+  choose: {
+    0: 'Optional',
+    1: 'Required',
+    2: 'Pick at least one option'
   },
   user: {
     roles: {
@@ -269,7 +298,11 @@ export default {
     6: '{s}登录{p}，来给这个皮肤评分',
     7: '没有简短描述',
     8: '没有网址',
-    9: '下载次数: {amount}'
+    9: '下载次数: {amount}',
+    10: 'Reset everything',
+    11: 'Show guide',
+    12: 'Close guide',
+    13: 'To mark a rule as read, hover over it (Yellow indicates unread)'
   },
   lists: {
     screens: {
@@ -287,7 +320,8 @@ export default {
       11: '失败画面',
       12: '结算画面',
       13: '跳过',
-      14: '横幅'
+      14: '横幅',
+      15: 'Result screen (bottom)'
     },
     cats: {
       0: 'NSFW',
@@ -315,9 +349,9 @@ export default {
     ratio: '选择宽高比'
   },
   placeholders: {
-    0: 'Select roles',
-    1: 'Select versions',
-    2: 'Type some text...',
+    0: '选择角色',
+    1: '选择版本',
+    2: '输入文本……',
     3: '选择大小',
     4: '选择日期范围',
     5: '年',
@@ -400,16 +434,25 @@ export default {
     48: '更改已更新至审核',
     49: 'Odd link',
     50: '此链接无法用作下载链接',
-    51: '已提交审核'
+    51: '已提交审核',
+    52: '注意',
+    53: 'You need to choose type of asset'
   },
   header: {
     0: '通知',
-    1: 'Follow us on these platforms to receive notifications about new skins'
+    1: '在这些平台上关注我们，以接收关于新皮肤的通知'
   },
   restricted_view: {
     0: '无权限',
     1: '请登录您的账户',
     2: '受限视图',
     3: '该页面还未推出。'
+  },
+  confirm: {
+    0: 'Reset everything?',
+    1: 'Show guide?',
+    2: 'Submit skin?',
+    3: 'Yes',
+    4: 'No'
   }
 };

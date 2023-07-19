@@ -149,7 +149,14 @@ export default {
     34: 'Bu yaratıcının diğer skinleri',
     35: 'Skini destekle',
     36: 'Mevcut değil',
-    37: 'Unfortunately, this skin was deleted at {author} request'
+    37: 'Ne yazık ki bu skin {author} tarafından kaldırıldı',
+    38: 'Welcome to the skin post editor!',
+    39: `New to the skin editor? Let us guide you through the interface and show you the editor's full potential!`,
+    40: '{current} of {max} completed',
+    41: 'Check out later',
+    42: `Let's get started`,
+    43: 'Congratulations!',
+    44: 'You have successfully finished the tutorial, have fun!'
   },
   drag: {
     0: 'Buraya tıklayın',
@@ -157,7 +164,9 @@ export default {
   },
   footer: {
     0: 'cyperdark tarafından yapıldı',
-    1: 'Credits'
+    1: 'Credits',
+    2: 'Rules',
+    3: 'Contacts'
   },
   credits: {
     0: 'Chibi',
@@ -191,6 +200,14 @@ export default {
     },
     14: 'Ara:'
   },
+  contests: {
+    0: 'Contests',
+    1: 'Official newspost',
+    2: 'Submission',
+    3: 'Preparing',
+    4: 'Voting',
+    5: 'Finished'
+  },
   tabs: {
     0: 'Ara',
     1: 'Düzenle',
@@ -219,7 +236,10 @@ export default {
       10: '{name} created osu skins',
       11: 'Etiket arayın',
       12: '{name} bulunan etiketler',
-      13: 'Yeni skin'
+      13: 'Yeni skin',
+      14: 'Site rules',
+      15: 'osu! Contests',
+      16: 'osu! Contests'
     },
     description: {
       0: 'Sitemizden en iyi osu! skinlerini edinin! Devasa kütüphanemizde tüm oyunmodlarına, çerçeve oranlarına hatta top playerlara ilişkin skinler bulabilirsin. Artı olarak anime fanlarına yönelik bi bölümümüz daha var. Mükemmel skininle birlikte oyununu bir adım ileri taşı. #osuskins #osugame #anime',
@@ -232,7 +252,9 @@ export default {
       7: 'A huge amount of osu skins for {name}, download for free!',
       8: 'All osu skins created by {name}',
       9: 'Sitemizde bir sonraki osu! skininin için ilham kaynağı bul. Çeşitli koleksiyonumuza göz atın ve yeni teknikler, fikirler edinin. İlham alarak kendinize özgün skinler yaratın.',
-      10: 'Site içerisindeki etiketler arasından birini arayın.'
+      10: 'Site içerisindeki etiketler arasından birini arayın.',
+      11: 'List of all active/finished osu! contests',
+      12: '{amount} entries for {title} contest. {views} views'
     }
   },
   buttons: {
@@ -248,7 +270,14 @@ export default {
     copied: 'Kopyalandı!',
     reddit_link: 'Reddit',
     osu_forum_link: 'osu! Forum',
-    skin_return: 'Skine dön'
+    skin_return: 'Skine dön',
+    source: 'Source',
+    contest_voting: 'Vote here'
+  },
+  choose: {
+    0: 'Optional',
+    1: 'Required',
+    2: 'Pick at least one option'
   },
   user: {
     roles: {
@@ -269,7 +298,11 @@ export default {
     6: 'Skini değerlendirebilmek için {s}Giriş yap{p}',
     7: 'Kısa açıklama bulunamadı',
     8: 'Url bulunamadı',
-    9: 'İndirmeler: {amount}'
+    9: 'İndirmeler: {amount}',
+    10: 'Reset everything',
+    11: 'Show guide',
+    12: 'Close guide',
+    13: 'To mark a rule as read, hover over it (Yellow indicates unread)'
   },
   lists: {
     screens: {
@@ -287,7 +320,8 @@ export default {
       11: 'Fail Screen',
       12: 'Result screen',
       13: 'Skip',
-      14: 'Banner'
+      14: 'Banner',
+      15: 'Result screen (bottom)'
     },
     cats: {
       0: 'NSFW',
@@ -336,12 +370,12 @@ export default {
   },
   contribute: { 0: 'Katkıda bulunun' },
   nsfw: {
-    0: 'Warning, nsfw!',
+    0: 'Uyarı, nsfw!',
     1: 'Bu skin hassas veya yetişkinlere yönelik içerik barındırıyor',
     2: 'Bu skin rahatsız olabileceğiniz hassas veya yetişkinlere yönelik içerik barındırıyor',
     3: 'Anladım',
     4: 'güle güle o/',
-    5: 'Furry Warning!'
+    5: 'Uyarı, furry!'
   },
   removed: {
     0: 'Sürüm mevcut değil',
@@ -400,7 +434,9 @@ export default {
     48: 'Changes have been updated in moderation',
     49: 'Garip link',
     50: 'Bu link bir indirme bağlantısı olarak kullanılamaz',
-    51: 'Moderasyon için gönderildi'
+    51: 'Moderasyon için gönderildi',
+    52: 'Uyarı',
+    53: 'You need to choose type of asset'
   },
   header: {
     0: 'Bildirimler',
@@ -411,5 +447,12 @@ export default {
     1: 'Lütfen hesabınızda oturum açın',
     2: 'Kısıtlı görüntüleme',
     3: 'Bu sayfa henüz hazır değil.'
+  },
+  confirm: {
+    0: 'Reset everything?',
+    1: 'Show guide?',
+    2: 'Submit skin?',
+    3: 'Yes',
+    4: 'No'
   }
 };

@@ -149,7 +149,14 @@ export default {
     34: 'More skins from this author | More skins from this authors',
     35: 'Support the skin',
     36: 'Unavailable',
-    37: 'Unfortunately, this skin was deleted at {author} request'
+    37: 'Unfortunately, this skin was deleted at {author} request',
+    38: 'Welcome to the skin post editor!',
+    39: `New to the skin editor? Let us guide you through the interface and show you the editor's full potential!`,
+    40: '{current} of {max} completed',
+    41: 'Check out later',
+    42: `Let's get started`,
+    43: 'Congratulations!',
+    44: 'You have successfully finished the tutorial, have fun!'
   },
   drag: {
     0: 'Trykk her',
@@ -157,7 +164,9 @@ export default {
   },
   footer: {
     0: 'Laget av cyperdark',
-    1: 'Kreditt'
+    1: 'Kreditt',
+    2: 'Rules',
+    3: 'Contacts'
   },
   credits: {
     0: 'Chibi',
@@ -191,6 +200,14 @@ export default {
     },
     14: 'Search:'
   },
+  contests: {
+    0: 'Contests',
+    1: 'Official newspost',
+    2: 'Submission',
+    3: 'Preparing',
+    4: 'Voting',
+    5: 'Finished'
+  },
   tabs: {
     0: 'Søk',
     1: 'Rediger',
@@ -219,7 +236,10 @@ export default {
       10: '{name} laget osu skins',
       11: 'Søkefilter',
       12: '{name} found tags',
-      13: 'Nytt skin'
+      13: 'Nytt skin',
+      14: 'Site rules',
+      15: 'osu! Contests',
+      16: 'osu! Contests'
     },
     description: {
       0: 'Få de beste osu! skins på vår nettside! Vårt store lager med skins for alle spillmoduser, størrelsesformat og spillere i toppen. Plus, vi har en spesiell seksjon for anime fans. Forbedre spillingen din med det perfekte skinnet. #osuskins #osugame #anime',
@@ -232,7 +252,9 @@ export default {
       7: 'En stor menge osu skins for {name}, last dem ned her gratis!',
       8: 'Alle osu skins er laget av {name}',
       9: 'Finn inspirasjon for ditt neste osu! skin på vår nettside. Bla gjennom diverse kolleksjoner med skins og finn ut nye teknikker og ideer. Bli inspirert og lag dine egne unike skins.',
-      10: 'Search for tags among all the tags on the site.'
+      10: 'Search for tags among all the tags on the site.',
+      11: 'List of all active/finished osu! contests',
+      12: '{amount} entries for {title} contest. {views} views'
     }
   },
   buttons: {
@@ -248,7 +270,14 @@ export default {
     copied: 'Kopiert',
     reddit_link: 'Reddit',
     osu_forum_link: 'osu! Forum',
-    skin_return: 'Tilbake til skin'
+    skin_return: 'Tilbake til skin',
+    source: 'Source',
+    contest_voting: 'Vote here'
+  },
+  choose: {
+    0: 'Optional',
+    1: 'Required',
+    2: 'Pick at least one option'
   },
   user: {
     roles: {
@@ -269,7 +298,11 @@ export default {
     6: '{s}Log in{p}, in order to rate this skin',
     7: 'Ingen liten beskrivelse',
     8: 'Ingen link',
-    9: 'Downloads: {amount}'
+    9: 'Downloads: {amount}',
+    10: 'Reset everything',
+    11: 'Show guide',
+    12: 'Close guide',
+    13: 'To mark a rule as read, hover over it (Yellow indicates unread)'
   },
   lists: {
     screens: {
@@ -287,7 +320,8 @@ export default {
       11: 'Feilet Skjerm',
       12: 'Resultat skjerm',
       13: 'Hopp over',
-      14: 'Banner'
+      14: 'Banner',
+      15: 'Result screen (bottom)'
     },
     cats: {
       0: 'NSFW',
@@ -400,7 +434,9 @@ export default {
     48: 'Endringene har blitt oppdatert i moderering',
     49: 'Merkeling lenke',
     50: 'Denne lenken kan ikke brukes som en nedlastningslenke',
-    51: 'Sendt inn, avventer moderasjon'
+    51: 'Sendt inn, avventer moderasjon',
+    52: 'Warning',
+    53: 'You need to choose type of asset'
   },
   header: {
     0: 'Varslinger',
@@ -411,5 +447,12 @@ export default {
     1: 'Vennligst logg inn på kontoen din',
     2: 'Begrenset visning',
     3: 'Denne siden er ikke ute, enda.'
+  },
+  confirm: {
+    0: 'Reset everything?',
+    1: 'Show guide?',
+    2: 'Submit skin?',
+    3: 'Yes',
+    4: 'No'
   }
 };

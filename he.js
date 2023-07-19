@@ -149,7 +149,14 @@ export default {
     34: 'עוד סקינים מהיוצר הזה | עוד סקינים מהיוצרים האלו',
     35: 'תמוך בסקין',
     36: 'Unavailable',
-    37: 'Unfortunately, this skin was deleted at {author} request'
+    37: 'Unfortunately, this skin was deleted at {author} request',
+    38: 'Welcome to the skin post editor!',
+    39: `New to the skin editor? Let us guide you through the interface and show you the editor's full potential!`,
+    40: '{current} of {max} completed',
+    41: 'Check out later',
+    42: `Let's get started`,
+    43: 'Congratulations!',
+    44: 'You have successfully finished the tutorial, have fun!'
   },
   drag: {
     0: 'לחץ כאן',
@@ -157,7 +164,9 @@ export default {
   },
   footer: {
     0: 'נוצר על ידי cyperdark',
-    1: 'תודות'
+    1: 'תודות',
+    2: 'Rules',
+    3: 'Contacts'
   },
   credits: {
     0: 'Chibi',
@@ -191,6 +200,14 @@ export default {
     },
     14: 'חיפוש:'
   },
+  contests: {
+    0: 'Contests',
+    1: 'Official newspost',
+    2: 'Submission',
+    3: 'Preparing',
+    4: 'Voting',
+    5: 'Finished'
+  },
   tabs: {
     0: 'חיפוש',
     1: 'עריכה',
@@ -219,7 +236,10 @@ export default {
       10: 'סקיני osu שנוצרו על ידי {name}',
       11: 'חיפוש תגיות',
       12: '{name} found tags',
-      13: 'סקין חדש'
+      13: 'סקין חדש',
+      14: 'Site rules',
+      15: 'osu! Contests',
+      16: 'osu! Contests'
     },
     description: {
       0: 'קבל את סקיני ה־osu! הכי טובים באתר שלנו! ספריית הענק שלנו מכילה סקינים לכל מצבי המשחק, יחסי גובה־רוחב ואפילו לשחקני השיא. בנוסף, יש לנו מדור מיוחד עבור מעריצי אנימה. שפר את יכולת המשחק שלך עם הסקין המושלם. #osuskins #osugame #anime',
@@ -232,7 +252,9 @@ export default {
       7: 'A huge amount of osu skins for {name}, download for free!',
       8: 'All osu skins created by {name}',
       9: 'Find inspiration for your next osu! skin at our site. Browse through a diverse collection of skins and discover new techniques and ideas. Get inspired and create your own unique skins.',
-      10: 'Search for tags among all the tags on the site.'
+      10: 'Search for tags among all the tags on the site.',
+      11: 'List of all active/finished osu! contests',
+      12: '{amount} entries for {title} contest. {views} views'
     }
   },
   buttons: {
@@ -248,7 +270,14 @@ export default {
     copied: 'הועתק',
     reddit_link: 'Reddit',
     osu_forum_link: 'פורום osu!',
-    skin_return: 'חזרה לסקין'
+    skin_return: 'חזרה לסקין',
+    source: 'Source',
+    contest_voting: 'Vote here'
+  },
+  choose: {
+    0: 'Optional',
+    1: 'Required',
+    2: 'Pick at least one option'
   },
   user: {
     roles: {
@@ -269,7 +298,11 @@ export default {
     6: '{s}התחבר{p}, בכדי לדרג את הסקין הזה',
     7: 'אין תיאור קצר',
     8: 'אין url',
-    9: 'הורדות: {amount}'
+    9: 'הורדות: {amount}',
+    10: 'Reset everything',
+    11: 'Show guide',
+    12: 'Close guide',
+    13: 'To mark a rule as read, hover over it (Yellow indicates unread)'
   },
   lists: {
     screens: {
@@ -287,7 +320,8 @@ export default {
       11: 'מסך כישלון',
       12: 'מסך תוצאה',
       13: 'דלג',
-      14: 'באנר'
+      14: 'באנר',
+      15: 'Result screen (bottom)'
     },
     cats: {
       0: 'NSFW',
@@ -400,7 +434,9 @@ export default {
     48: 'Changes have been updated in moderation',
     49: 'Odd link',
     50: 'This link cannot be used as a download link',
-    51: 'Submitted for moderation'
+    51: 'Submitted for moderation',
+    52: 'Warning',
+    53: 'You need to choose type of asset'
   },
   header: {
     0: 'התראות',
@@ -411,5 +447,12 @@ export default {
     1: 'Please log into your account',
     2: 'Restricted view',
     3: 'This page is not out, yet.'
+  },
+  confirm: {
+    0: 'Reset everything?',
+    1: 'Show guide?',
+    2: 'Submit skin?',
+    3: 'Yes',
+    4: 'No'
   }
 };

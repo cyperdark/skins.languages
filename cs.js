@@ -149,7 +149,14 @@ export default {
     34: 'Více skinů od tohoto autora | Více skinů od těchto autorů',
     35: 'Podpořit skin',
     36: 'Unavailable',
-    37: 'Unfortunately, this skin was deleted at {author} request'
+    37: 'Unfortunately, this skin was deleted at {author} request',
+    38: 'Welcome to the skin post editor!',
+    39: `New to the skin editor? Let us guide you through the interface and show you the editor's full potential!`,
+    40: '{current} of {max} completed',
+    41: 'Check out later',
+    42: `Let's get started`,
+    43: 'Congratulations!',
+    44: 'You have successfully finished the tutorial, have fun!'
   },
   drag: {
     0: 'Klikněte zde',
@@ -157,7 +164,9 @@ export default {
   },
   footer: {
     0: 'Uděláno uživatelem cyperdark',
-    1: 'Poděkování'
+    1: 'Poděkování',
+    2: 'Rules',
+    3: 'Contacts'
   },
   credits: {
     0: 'Chibi',
@@ -191,6 +200,14 @@ export default {
     },
     14: 'Hledat:'
   },
+  contests: {
+    0: 'Contests',
+    1: 'Official newspost',
+    2: 'Submission',
+    3: 'Preparing',
+    4: 'Voting',
+    5: 'Finished'
+  },
   tabs: {
     0: 'Hledat',
     1: 'Upravit',
@@ -219,7 +236,10 @@ export default {
       10: '{name} vyrobil osu skiny',
       11: 'Hledat Označení',
       12: '{name} nalezl označení',
-      13: 'Nový skin'
+      13: 'Nový skin',
+      14: 'Site rules',
+      15: 'osu! Contests',
+      16: 'osu! Contests'
     },
     description: {
       0: 'Stáhněte si osu! skiny na našich stránkách! Naše velká knihovna ma skiny pro všechny herní módy, poměry stran, a dokonce i skiny od nejlepších hráčů. Taky máme speciální sekci pro fanoušky anime. Zlepšete svoje hraní s perfektním skinem. #osuskins #osugame #anime',
@@ -232,7 +252,9 @@ export default {
       7: 'Velký počet osu skinů pro {name}, stáhněte zadarmo!',
       8: 'Všechny osu skiny vyrobeny od {name}',
       9: 'Najděte si inspirace pro vaše další osu! skiny na našich stránkách. Projděte naší rozmanitou kolekcí skinů a najděte nové techniky a nápady. Inspirujte se a udělejte si vlastní jedinečné skiny.',
-      10: 'Hledjte označení mezi všema na tomto webu.'
+      10: 'Hledjte označení mezi všema na tomto webu.',
+      11: 'List of all active/finished osu! contests',
+      12: '{amount} entries for {title} contest. {views} views'
     }
   },
   buttons: {
@@ -248,7 +270,14 @@ export default {
     copied: 'Zkopírováno',
     reddit_link: 'Reddit',
     osu_forum_link: 'osu! Fóra',
-    skin_return: 'Zpátky ke skinu'
+    skin_return: 'Zpátky ke skinu',
+    source: 'Source',
+    contest_voting: 'Vote here'
+  },
+  choose: {
+    0: 'Optional',
+    1: 'Required',
+    2: 'Pick at least one option'
   },
   user: {
     roles: {
@@ -269,7 +298,11 @@ export default {
     6: '{s}Log in{p}, in order to rate this skin',
     7: 'Žádný krátký popis ',
     8: 'Žádné URL',
-    9: 'Stažení: {amount}'
+    9: 'Stažení: {amount}',
+    10: 'Reset everything',
+    11: 'Show guide',
+    12: 'Close guide',
+    13: 'To mark a rule as read, hover over it (Yellow indicates unread)'
   },
   lists: {
     screens: {
@@ -287,7 +320,8 @@ export default {
       11: 'Obrazovka prohry',
       12: 'Obrazovka výsledku',
       13: 'Přeskočení',
-      14: 'Banner'
+      14: 'Banner',
+      15: 'Result screen (bottom)'
     },
     cats: {
       0: 'NSFW',
@@ -400,7 +434,9 @@ export default {
     48: 'Změny byly aktualizovány v moderaci',
     49: 'Zvláštní odkaz',
     50: 'Tento odkaz nelze použít jako odkaz ke stažení',
-    51: 'Odesláno k moderaci'
+    51: 'Odesláno k moderaci',
+    52: 'Varování',
+    53: 'You need to choose type of asset'
   },
   header: {
     0: 'Notifikace',
@@ -411,5 +447,12 @@ export default {
     1: 'Přihlaste se prosím k účtu',
     2: 'Omezené zobrazení',
     3: 'Tato stránka zatím není venku.'
+  },
+  confirm: {
+    0: 'Reset everything?',
+    1: 'Show guide?',
+    2: 'Submit skin?',
+    3: 'Yes',
+    4: 'No'
   }
 };

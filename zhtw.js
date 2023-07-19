@@ -149,7 +149,14 @@ export default {
     34: 'More skins from this author | More skins from this authors',
     35: 'Support the skin',
     36: 'Unavailable',
-    37: 'Unfortunately, this skin was deleted at {author} request'
+    37: 'Unfortunately, this skin was deleted at {author} request',
+    38: 'Welcome to the skin post editor!',
+    39: `New to the skin editor? Let us guide you through the interface and show you the editor's full potential!`,
+    40: '{current} of {max} completed',
+    41: 'Check out later',
+    42: `Let's get started`,
+    43: 'Congratulations!',
+    44: 'You have successfully finished the tutorial, have fun!'
   },
   drag: {
     0: '點擊此處',
@@ -157,7 +164,9 @@ export default {
   },
   footer: {
     0: 'Made by cyperdark',
-    1: 'Credits'
+    1: 'Credits',
+    2: 'Rules',
+    3: 'Contacts'
   },
   credits: {
     0: 'Chibi',
@@ -191,6 +200,14 @@ export default {
     },
     14: 'Search:'
   },
+  contests: {
+    0: 'Contests',
+    1: 'Official newspost',
+    2: 'Submission',
+    3: 'Preparing',
+    4: 'Voting',
+    5: 'Finished'
+  },
   tabs: {
     0: '搜尋',
     1: '編輯',
@@ -219,7 +236,10 @@ export default {
       10: '{name} 創建了osu skin',
       11: 'Search tags',
       12: '{name} found tags',
-      13: '新skin'
+      13: '新skin',
+      14: 'Site rules',
+      15: 'osu! Contests',
+      16: 'osu! Contests'
     },
     description: {
       0: '你可以在這網站找到最適合你的skin, 我們龐大的資料庫有所有遊戲模式,長寬比甚至是各個大佬的skin. 另外也有以動漫分類的skin. 一個好的skin是你變強的開始. #osuskins #osugame #動漫',
@@ -232,7 +252,9 @@ export default {
       7: '{name}, 有大量的skin可以免費下載!',
       8: '{name} 所創建的所有skin',
       9: '在我們的網站上參考不同人製作的skin來製作專屬於你自己的skin',
-      10: 'Search for tags among all the tags on the site.'
+      10: 'Search for tags among all the tags on the site.',
+      11: 'List of all active/finished osu! contests',
+      12: '{amount} entries for {title} contest. {views} views'
     }
   },
   buttons: {
@@ -248,7 +270,14 @@ export default {
     copied: '已複製',
     reddit_link: 'Reddit',
     osu_forum_link: 'osu! 論壇',
-    skin_return: '回到上一頁'
+    skin_return: '回到上一頁',
+    source: 'Source',
+    contest_voting: 'Vote here'
+  },
+  choose: {
+    0: 'Optional',
+    1: 'Required',
+    2: 'Pick at least one option'
   },
   user: {
     roles: {
@@ -269,7 +298,11 @@ export default {
     6: '{s}Log in{p}, in order to rate this skin',
     7: '沒有描述',
     8: '沒有連結',
-    9: '下載量: {amount}'
+    9: '下載量: {amount}',
+    10: 'Reset everything',
+    11: 'Show guide',
+    12: 'Close guide',
+    13: 'To mark a rule as read, hover over it (Yellow indicates unread)'
   },
   lists: {
     screens: {
@@ -287,7 +320,8 @@ export default {
       11: 'Fail Screen',
       12: 'Result screen',
       13: 'Skip',
-      14: 'Banner'
+      14: 'Banner',
+      15: 'Result screen (bottom)'
     },
     cats: {
       0: 'NSFW',
@@ -400,7 +434,9 @@ export default {
     48: 'Changes have been updated in moderation',
     49: 'Odd link',
     50: 'This link cannot be used as a download link',
-    51: 'Submitted for moderation'
+    51: 'Submitted for moderation',
+    52: 'Warning',
+    53: 'You need to choose type of asset'
   },
   header: {
     0: '通知',
@@ -411,5 +447,12 @@ export default {
     1: 'Please log into your account',
     2: 'Restricted view',
     3: 'This page is not out, yet.'
+  },
+  confirm: {
+    0: 'Reset everything?',
+    1: 'Show guide?',
+    2: 'Submit skin?',
+    3: 'Yes',
+    4: 'No'
   }
 };

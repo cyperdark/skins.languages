@@ -149,7 +149,14 @@ export default {
     34: 'Fler skins från denna skapare | Fler skins från dessa skapare',
     35: 'Stötta skin',
     36: 'Unavailable',
-    37: 'Unfortunately, this skin was deleted at {author} request'
+    37: 'Unfortunately, this skin was deleted at {author} request',
+    38: 'Welcome to the skin post editor!',
+    39: `New to the skin editor? Let us guide you through the interface and show you the editor's full potential!`,
+    40: '{current} of {max} completed',
+    41: 'Check out later',
+    42: `Let's get started`,
+    43: 'Congratulations!',
+    44: 'You have successfully finished the tutorial, have fun!'
   },
   drag: {
     0: 'Klicka här',
@@ -157,7 +164,9 @@ export default {
   },
   footer: {
     0: 'Gjord av Cyperdark',
-    1: 'Medverkande'
+    1: 'Medverkande',
+    2: 'Rules',
+    3: 'Contacts'
   },
   credits: {
     0: 'Chibi',
@@ -191,6 +200,14 @@ export default {
     },
     14: 'Sök:'
   },
+  contests: {
+    0: 'Contests',
+    1: 'Official newspost',
+    2: 'Submission',
+    3: 'Preparing',
+    4: 'Voting',
+    5: 'Finished'
+  },
   tabs: {
     0: 'Sök efter',
     1: 'Redigera',
@@ -219,7 +236,10 @@ export default {
       10: '{name} skapade osu skins',
       11: 'Sök taggar',
       12: '{name} hittade taggar',
-      13: 'Nytt skin'
+      13: 'Nytt skin',
+      14: 'Site rules',
+      15: 'osu! Contests',
+      16: 'osu! Contests'
     },
     description: {
       0: 'Få det bästa osu! skinnen på våran sida! Vårat stora urval innehåller skinn för alla spellägen, bildförhållanden, och även toppspelare. Plus, vi har även en special avdelning för anime fans. Förbättra ditt gameplay med det perfekta skinnet. #osuskins #osugame #anime',
@@ -232,7 +252,9 @@ export default {
       7: 'En enorm mängd av osu skins för {name}, ladda ner gratis!',
       8: 'Alla osu skins skapade av {name}',
       9: 'Hitta inspiration för ditt nästa osu! skin på vår sida. Sök genom en varierad samling av skins och hitta nya tekniker och idéer. Bli inspirerad och skapa dina egna unika skins.',
-      10: 'Sök efter taggar bland alla taggar på webbplatsen.'
+      10: 'Sök efter taggar bland alla taggar på webbplatsen.',
+      11: 'List of all active/finished osu! contests',
+      12: '{amount} entries for {title} contest. {views} views'
     }
   },
   buttons: {
@@ -248,7 +270,14 @@ export default {
     copied: 'Kopierad',
     reddit_link: 'Reddit',
     osu_forum_link: 'osu! Forum',
-    skin_return: 'Tillbaka till skin'
+    skin_return: 'Tillbaka till skin',
+    source: 'Source',
+    contest_voting: 'Vote here'
+  },
+  choose: {
+    0: 'Optional',
+    1: 'Required',
+    2: 'Pick at least one option'
   },
   user: {
     roles: {
@@ -269,7 +298,11 @@ export default {
     6: '{s}Logga in{p}, för att betygsätta detta skin',
     7: 'Ingen kort beskrivning',
     8: 'Ingen url',
-    9: 'Nedladdningar: {amount}'
+    9: 'Nedladdningar: {amount}',
+    10: 'Reset everything',
+    11: 'Show guide',
+    12: 'Close guide',
+    13: 'To mark a rule as read, hover over it (Yellow indicates unread)'
   },
   lists: {
     screens: {
@@ -287,7 +320,8 @@ export default {
       11: 'Failskärm',
       12: 'Resultatskärm',
       13: 'Skippa',
-      14: 'Banner'
+      14: 'Banner',
+      15: 'Result screen (bottom)'
     },
     cats: {
       0: 'NSFW',
@@ -400,7 +434,9 @@ export default {
     48: 'Ändringar har uppdaterats med moderering',
     49: 'Konstig länk',
     50: 'Denna länk kan inte användas som en nedladdningslänk',
-    51: 'Skickad till moderering'
+    51: 'Skickad till moderering',
+    52: 'Varning',
+    53: 'You need to choose type of asset'
   },
   header: {
     0: 'Notiser',
@@ -411,5 +447,12 @@ export default {
     1: 'Vänligen logga in på ditt konto',
     2: 'Begränsad visning',
     3: 'Den här sidan är inte ute, än.'
+  },
+  confirm: {
+    0: 'Reset everything?',
+    1: 'Show guide?',
+    2: 'Submit skin?',
+    3: 'Yes',
+    4: 'No'
   }
 };

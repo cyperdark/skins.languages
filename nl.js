@@ -148,8 +148,15 @@ export default {
     33: 'Bespreek op het osu! forum',
     34: 'Meer skins van deze auteur | Meer skins van deze auteurs',
     35: 'Steun de skin',
-    36: 'Unavailable',
-    37: 'Unfortunately, this skin was deleted at {author} request'
+    36: 'Onbeschikbaar',
+    37: 'Deze skin is helaas verwijderd op verzoek van {author}',
+    38: 'Welkom bij de skin post editor!',
+    39: `Onbekend met de skin editor? Laat je begeleiden door de interface zodat je het maximale eruit kan halen!`,
+    40: '{current} van {max} afgemaakt',
+    41: 'Bekijk later',
+    42: `Laten we beginnen`,
+    43: 'Gefeliciteerd!',
+    44: 'Je hebt succesvol de introductie voltooid, veel plezier!'
   },
   drag: {
     0: 'Klik hier',
@@ -157,7 +164,9 @@ export default {
   },
   footer: {
     0: 'Gemaakt door cyperdark',
-    1: 'Dank aan'
+    1: 'Dank aan',
+    2: 'Regels',
+    3: 'Contacten'
   },
   credits: {
     0: 'Chibi',
@@ -191,6 +200,14 @@ export default {
     },
     14: 'Zoek:'
   },
+  contests: {
+    0: 'Wedstrijden',
+    1: 'Officiële nieuwspost',
+    2: 'Inzending',
+    3: 'Aan het voorbereiden',
+    4: 'Stemmen',
+    5: 'Voltooid'
+  },
   tabs: {
     0: 'Zoek',
     1: 'Bewerk',
@@ -219,7 +236,10 @@ export default {
       10: '{name} maakte osu skins',
       11: 'Zoek categorieën',
       12: '{name} gevonden tags',
-      13: 'Nieuwe skin'
+      13: 'Nieuwe skin',
+      14: 'Website regels',
+      15: 'osu! Wedstrijden',
+      16: 'osu! Wedstrijden'
     },
     description: {
       0: 'Pak de beste osu! skins van onze website! Ons grote aanbod heeft skins voor alle gamemodes, aspect ratio’s  en we hebben zelfs skins van de beste spelers. Maar dan heb je anime sectie nog niet gezien. Speel beter met onze hoge skins van hoge kwaliteit. #osuskins #osugame #anime',
@@ -232,7 +252,9 @@ export default {
       7: 'Een gigantische hoeveelheid osu skins voor een {name}, gratis te downloaden!',
       8: 'Alle osu skins gemaakt door {name}',
       9: 'Vindt inspiratie voor jouw volgende osu! skin op onze site. Verdwaal in ons gevarieerde bos van skins en ontdek nieuwe technieken en ideeën. Wordt geïnspireerd en maak je eigen unieke skins.',
-      10: 'Zoek naar categorieën tussen alle categorieën op de website.'
+      10: 'Zoek naar categorieën tussen alle categorieën op de website.',
+      11: 'Lijst van alle actieve/voltooide osu! wedstrijden',
+      12: '{amount} inzendingen voor {title} wedstrijd. {views} weergaven'
     }
   },
   buttons: {
@@ -248,7 +270,14 @@ export default {
     copied: 'Gekopieerd',
     reddit_link: 'Reddit',
     osu_forum_link: 'osu! Forum',
-    skin_return: 'Terug naar skin'
+    skin_return: 'Terug naar skin',
+    source: 'Bron',
+    contest_voting: 'Stem hier'
+  },
+  choose: {
+    0: 'Optioneel',
+    1: 'Verplicht',
+    2: 'Kies ten minste één optie'
   },
   user: {
     roles: {
@@ -269,7 +298,11 @@ export default {
     6: '{s}Log in{p}, om deze skin te beoordelen',
     7: 'Geen korte beschrijving',
     8: 'Geen url',
-    9: 'Keren gedownload: {amount}'
+    9: 'Keren gedownload: {amount}',
+    10: 'Herstel alles',
+    11: 'Toon tips',
+    12: 'Verberg tips',
+    13: 'Om een regel als gelezen te markeren, beweeg erover (Geel betekent ongelezen)'
   },
   lists: {
     screens: {
@@ -287,7 +320,8 @@ export default {
       11: 'Faalscherm',
       12: 'Resultatenscherm',
       13: 'Sla over',
-      14: 'Banner'
+      14: 'Banner',
+      15: 'Resultatenscherm (onderaan)'
     },
     cats: {
       0: 'NSFW',
@@ -336,12 +370,12 @@ export default {
   },
   contribute: { 0: 'Draag je steentje bij' },
   nsfw: {
-    0: 'Warning, nsfw!',
+    0: 'Pas op, nsfw!',
     1: 'Deze skin bevat gevoelige of volwassen onderdelen',
     2: 'Deze skin bevat gevoelige of volwassen onderdelen die sommige gebruikers schokkend kunnen vinden',
     3: 'Oké',
     4: 'laters o/',
-    5: 'Furry Warning!'
+    5: 'Furry Waarschuwing!'
   },
   removed: {
     0: 'Versie onbeschikbaar',
@@ -400,7 +434,9 @@ export default {
     48: 'Nieuwe wijzigingen zijn ingediend voor moderatie',
     49: 'Vreemde link',
     50: 'Deze link kan niet gebruikt worden als download link',
-    51: 'Ingediend voor moderatie'
+    51: 'Ingediend voor moderatie',
+    52: 'Waarschuwing',
+    53: 'Je moet een type of asset keizen'
   },
   header: {
     0: 'Notificaties',
@@ -411,5 +447,12 @@ export default {
     1: 'Meld je aan op je account',
     2: 'Beperkte weergave',
     3: 'Deze pagina is nog niet uit.'
+  },
+  confirm: {
+    0: 'Herstel alles?',
+    1: 'Toon tips?',
+    2: 'Verstuur skin?',
+    3: 'Ja',
+    4: 'Nee'
   }
 };

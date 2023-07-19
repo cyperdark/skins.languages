@@ -149,7 +149,14 @@ export default {
     34: 'More skins from this author | More skins from this authors',
     35: 'Support the skin',
     36: 'Unavailable',
-    37: 'Unfortunately, this skin was deleted at {author} request'
+    37: 'Unfortunately, this skin was deleted at {author} request',
+    38: 'Welcome to the skin post editor!',
+    39: `New to the skin editor? Let us guide you through the interface and show you the editor's full potential!`,
+    40: '{current} of {max} completed',
+    41: 'Check out later',
+    42: `Let's get started`,
+    43: 'Congratulations!',
+    44: 'You have successfully finished the tutorial, have fun!'
   },
   drag: {
     0: 'Klicke hier',
@@ -157,7 +164,9 @@ export default {
   },
   footer: {
     0: 'Erstellt von cyperdark',
-    1: 'Anerkennung an'
+    1: 'Anerkennung an',
+    2: 'Rules',
+    3: 'Contacts'
   },
   credits: {
     0: 'Chibi',
@@ -191,6 +200,14 @@ export default {
     },
     14: 'Search:'
   },
+  contests: {
+    0: 'Contests',
+    1: 'Official newspost',
+    2: 'Submission',
+    3: 'Preparing',
+    4: 'Voting',
+    5: 'Finished'
+  },
   tabs: {
     0: 'Suche',
     1: 'Editieren',
@@ -219,7 +236,10 @@ export default {
       10: '{name} hat osu! Skins erstellt.',
       11: 'Tags suchen',
       12: '{name} fand Tags',
-      13: 'Neuer Skin'
+      13: 'Neuer Skin',
+      14: 'Site rules',
+      15: 'osu! Contests',
+      16: 'osu! Contests'
     },
     description: {
       0: 'Bekomme die besten osu! Skins auf unserer Seite! Unsere größte Bibliothek hat Skins für alle Spielmodi, Seitenverhältnisse und sogar von den besten osu! Spielern. Zudem haben wir auch einen extra Abschnitt für Anime-Liebhaber. Verbessere dein Gameplay mit dem perfekten Skin. #osuskins #osugame #anime',
@@ -232,7 +252,9 @@ export default {
       7: 'Eine große Menge an osu! Skins für {name}, lade sie kostenlos herunter!',
       8: 'Alle osu! Skins wurden von {name} erstellt.',
       9: 'Finde Inspirationen für deinen nächsten osu! Skin auf unserer Seite. Durchsuche eine große Kollektion von Skins und finde neue Techniken und Ideen. Inspiriere dich und erstelle deinen eigenen, einzigartigen Skin.',
-      10: 'Suche nach Tags die auf dieser Seite sind.'
+      10: 'Suche nach Tags die auf dieser Seite sind.',
+      11: 'List of all active/finished osu! contests',
+      12: '{amount} entries for {title} contest. {views} views'
     }
   },
   buttons: {
@@ -248,7 +270,14 @@ export default {
     copied: 'Kopiert',
     reddit_link: 'Reddit',
     osu_forum_link: 'osu! Forum',
-    skin_return: 'Zurück zum Skin'
+    skin_return: 'Zurück zum Skin',
+    source: 'Source',
+    contest_voting: 'Vote here'
+  },
+  choose: {
+    0: 'Optional',
+    1: 'Required',
+    2: 'Pick at least one option'
   },
   user: {
     roles: {
@@ -269,7 +298,11 @@ export default {
     6: '{s}Melde dich an{p}, um diesen Skin bewerten zu können',
     7: 'Keine kurze Beschreibung.',
     8: 'Keine URL',
-    9: 'Downloads: {amount}'
+    9: 'Downloads: {amount}',
+    10: 'Reset everything',
+    11: 'Show guide',
+    12: 'Close guide',
+    13: 'To mark a rule as read, hover over it (Yellow indicates unread)'
   },
   lists: {
     screens: {
@@ -287,7 +320,8 @@ export default {
       11: '"Fehlgeschlagen" Screen',
       12: '"Ergebnis" Screen',
       13: 'Überspringen',
-      14: 'Banner'
+      14: 'Banner',
+      15: 'Result screen (bottom)'
     },
     cats: {
       0: 'NSFW',
@@ -400,7 +434,9 @@ export default {
     48: 'Changes have been updated in moderation',
     49: 'Odd link',
     50: 'This link cannot be used as a download link',
-    51: 'Submitted for moderation'
+    51: 'Submitted for moderation',
+    52: 'Warnung',
+    53: 'You need to choose type of asset'
   },
   header: {
     0: 'Benachrichtigungen',
@@ -411,5 +447,12 @@ export default {
     1: 'Please log into your account',
     2: 'Restricted view',
     3: 'This page is not out, yet.'
+  },
+  confirm: {
+    0: 'Reset everything?',
+    1: 'Show guide?',
+    2: 'Submit skin?',
+    3: 'Yes',
+    4: 'No'
   }
 };
