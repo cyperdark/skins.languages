@@ -36,9 +36,9 @@ export default {
     3: 'Men du kan bare legge til endringene som du har gjort på denne versjonen av skinnet',
     4: 'Ikke gruppert',
     5: 'Ny',
-    6: 'Fix',
-    7: 'Change',
-    8: 'Removal'
+    6: 'Rettelser',
+    7: 'Endringer',
+    8: 'Fjerning'
   },
   ideas: {
     0: 'Ingenting funnet',
@@ -156,7 +156,7 @@ export default {
     41: 'Check out later',
     42: `Let's get started`,
     43: 'Congratulations!',
-    44: 'You successfully finished the tutorial, have fun!'
+    44: 'You have successfully finished the tutorial, have fun!'
   },
   drag: {
     0: 'Trykk her',
@@ -253,7 +253,7 @@ export default {
       8: 'Alle osu skins er laget av {name}',
       9: 'Finn inspirasjon for ditt neste osu! skin på vår nettside. Bla gjennom diverse kolleksjoner med skins og finn ut nye teknikker og ideer. Bli inspirert og lag dine egne unike skins.',
       10: 'Search for tags among all the tags on the site.',
-      11: 'List of all past/active osu! contests',
+      11: 'List of all active/finished osu! contests',
       12: '{amount} entries for {title} contest. {views} views'
     }
   },
@@ -318,7 +318,7 @@ export default {
       9: 'Seksjon Feilet',
       10: 'Pauset Skjerm',
       11: 'Feilet Skjerm',
-      12: 'Result screen (top)',
+      12: 'Resultat skjerm',
       13: 'Hopp over',
       14: 'Banner',
       15: 'Result screen (bottom)'
