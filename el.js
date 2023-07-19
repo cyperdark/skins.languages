@@ -36,9 +36,9 @@ export default {
     3: 'But you can add the changes you\'ve made to this version of the skin',
     4: 'Μη ομαδοποιημένο',
     5: 'Νέα',
-    6: 'Fix',
-    7: 'Change',
-    8: 'Removal'
+    6: 'Διορθώσεις',
+    7: 'Αλλαγές',
+    8: 'Αφαιρέσεις'
   },
   ideas: {
     0: 'Δε βρέθηκε τίποτα',
@@ -156,7 +156,7 @@ export default {
     41: 'Check out later',
     42: `Let's get started`,
     43: 'Congratulations!',
-    44: 'You successfully finished the tutorial, have fun!'
+    44: 'You have successfully finished the tutorial, have fun!'
   },
   drag: {
     0: 'Κάντε κλικ εδώ',
@@ -253,7 +253,7 @@ export default {
       8: 'Όλα τα osu skins που δημιουργήθηκαν από {name}',
       9: 'Βρείτε έμπνευση για το επόμενο osu! skin σας στο site μας. Περιηγηθείτε μια ποικιλία skin και ανακαλύψτε νέες τεχνικές και ιδέες. Εμπνευστείτε και δημιουργήστε τα δικά σας μοναδικά skin.',
       10: 'Search for tags among all the tags on the site.',
-      11: 'List of all past/active osu! contests',
+      11: 'List of all active/finished osu! contests',
       12: '{amount} entries for {title} contest. {views} views'
     }
   },
@@ -318,7 +318,7 @@ export default {
       9: 'Αποτυχία Τμήματος',
       10: 'Οθόνη Παύσης',
       11: 'Οθόνη Αποτυχίας',
-      12: 'Result screen (top)',
+      12: 'Οθόνη αποτελέσματος',
       13: 'Παράλειψη',
       14: 'Πανό',
       15: 'Result screen (bottom)'
