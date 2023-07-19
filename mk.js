@@ -36,9 +36,9 @@ export default {
     3: 'But you can add the changes you\'ve made to this version of the skin',
     4: 'Не е групирано',
     5: 'Ново',
-    6: 'Fix',
-    7: 'Change',
-    8: 'Removal'
+    6: 'Поправки',
+    7: 'Промени',
+    8: 'Тргнети работи'
   },
   ideas: {
     0: 'Ништо не е пронајдено',
@@ -156,7 +156,7 @@ export default {
     41: 'Check out later',
     42: `Let's get started`,
     43: 'Congratulations!',
-    44: 'You successfully finished the tutorial, have fun!'
+    44: 'You have successfully finished the tutorial, have fun!'
   },
   drag: {
     0: 'Кликнете овде',
@@ -253,7 +253,7 @@ export default {
       8: 'Сите osu скинови се направени од {name}',
       9: 'Пронајдете инспирација за вашиот следен osu! скин на нашиот сајт. Пребарувајте многу диверзна колекција од скинови и пронајдете нови техники и идеји. Бидете инспирирани и напревете си свој скинови.',
       10: 'Search for tags among all the tags on the site.',
-      11: 'List of all past/active osu! contests',
+      11: 'List of all active/finished osu! contests',
       12: '{amount} entries for {title} contest. {views} views'
     }
   },
@@ -318,7 +318,7 @@ export default {
       9: 'Изгубена Секција',
       10: 'Екран за Паузирање',
       11: 'Екран за Неуспевање',
-      12: 'Result screen (top)',
+      12: 'Екран за Резултати',
       13: 'Прескокнување',
       14: 'Банер',
       15: 'Result screen (bottom)'
