@@ -36,9 +36,9 @@ export default {
     3: 'ですが、このバージョンのスキンに変更を加えることが出来ます。',
     4: 'グループ化されていない',
     5: '新',
-    6: 'Fix',
-    7: 'Change',
-    8: 'Removal'
+    6: '修正',
+    7: '変更点',
+    8: 'とりはずし'
   },
   ideas: {
     0: '何も見つかりませんでした',
@@ -149,14 +149,14 @@ export default {
     34: 'この作成者のスキンをもっと見る | この作成者たちのスキンをもっと見る',
     35: 'スキンをサポートする',
     36: '利用できません',
-    37: 'Unfortunately, this skin was deleted at {author} request',
-    38: 'Welcome to the skin post editor!',
+    37: '残念ながら、このスキンは {author} のリクエストによって削除されました',
+    38: 'スキン投稿エディターへようこそ！',
     39: `New to the skin editor? Let us guide you through the interface and show you the editor's full potential!`,
-    40: '{current} of {max} completed',
-    41: 'Check out later',
-    42: `Let's get started`,
-    43: 'Congratulations!',
-    44: 'You successfully finished the tutorial, have fun!'
+    40: '{current} / {max} 完了',
+    41: '後で確認する',
+    42: `さぁ、始めましょう`,
+    43: 'おめでとう！',
+    44: 'チュートリアルが完了しました。楽しんで！'
   },
   drag: {
     0: 'ここをクリック',
@@ -165,8 +165,8 @@ export default {
   footer: {
     0: 'cyperdark 制作',
     1: 'クレジット',
-    2: 'Rules',
-    3: 'Contacts'
+    2: 'ルール',
+    3: 'お問い合わせ'
   },
   credits: {
     0: 'チビ',
@@ -201,12 +201,12 @@ export default {
     14: '検索:'
   },
   contests: {
-    0: 'Contests',
-    1: 'Official newspost',
-    2: 'Submission',
-    3: 'Preparing',
-    4: 'Voting',
-    5: 'Finished'
+    0: 'コンテスト',
+    1: '公式ニュース',
+    2: '提出',
+    3: '準備中',
+    4: '投票中',
+    5: '終了'
   },
   tabs: {
     0: '検索',
@@ -253,7 +253,7 @@ export default {
       8: '{name} によって作成されたすべてのosuスキン。',
       9: '当サイトで次のosu! スキンのインスピレーションを身につけよう！多彩なスキンコレクションを見て、新しいテクニックやアイデアを見つけることができます。インスピレーションを受けて、自分だけのosu!スキンを作りましょう。',
       10: 'サイト上のすべてのタグの中からタグを検索します。',
-      11: 'List of all past/active osu! contests',
+      11: 'List of all active/finished osu! contests',
       12: '{amount} entries for {title} contest. {views} views'
     }
   },
@@ -318,7 +318,7 @@ export default {
       9: 'セクションフェイル',
       10: 'ポーズ画面',
       11: '失敗した画面',
-      12: 'Result screen (top)',
+      12: 'リザルト画面',
       13: 'スキップ',
       14: 'バナー',
       15: 'Result screen (bottom)'
