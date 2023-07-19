@@ -36,9 +36,9 @@ export default {
     3: 'But you can add the changes you\'ve made to this version of the skin',
     4: 'Nezoskupené',
     5: 'Nové',
-    6: 'Fix',
-    7: 'Change',
-    8: 'Removal'
+    6: 'Opravené',
+    7: 'Zmenené',
+    8: 'Odstránenia'
   },
   ideas: {
     0: 'Nič sa nenašlo',
@@ -156,7 +156,7 @@ export default {
     41: 'Check out later',
     42: `Let's get started`,
     43: 'Congratulations!',
-    44: 'You successfully finished the tutorial, have fun!'
+    44: 'You have successfully finished the tutorial, have fun!'
   },
   drag: {
     0: 'Klikni tu',
@@ -253,7 +253,7 @@ export default {
       8: 'Všetke osu skiny vytvoril {name}',
       9: 'Nájdite inšpiráciu pre svoje ďalšie osu! skiny na našej stránke. Pozrite si rozmanitú kolekciu vzhľadov a objavte nové techniky a nápady. Nechajte sa inšpirovať a vytvorte si vlastné jedinečné skiny.',
       10: 'Vyhľadávaj pre štítky všade v štítkoch na tejto stránke.',
-      11: 'List of all past/active osu! contests',
+      11: 'List of all active/finished osu! contests',
       12: '{amount} entries for {title} contest. {views} views'
     }
   },
@@ -318,7 +318,7 @@ export default {
       9: 'Sekcia nedokončená',
       10: 'Obrazovka Pauzy',
       11: 'Obrazovka prehrania',
-      12: 'Result screen (top)',
+      12: 'Obrazovka výsledkov',
       13: 'Preskočiť',
       14: 'Banner',
       15: 'Result screen (bottom)'
