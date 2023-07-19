@@ -36,9 +36,9 @@ export default {
     3: '但您可以添加对此版本的皮肤所作的更改',
     4: '未分组',
     5: '新增',
-    6: 'Fix',
-    7: 'Change',
-    8: 'Removal'
+    6: '已修复',
+    7: '更改',
+    8: '移除'
   },
   ideas: {
     0: '未找到任何内容',
@@ -156,7 +156,7 @@ export default {
     41: 'Check out later',
     42: `Let's get started`,
     43: 'Congratulations!',
-    44: 'You successfully finished the tutorial, have fun!'
+    44: 'You have successfully finished the tutorial, have fun!'
   },
   drag: {
     0: '点击这里',
@@ -253,7 +253,7 @@ export default {
       8: '{name} 制作的所有 osu! 皮肤',
       9: '在我们的网站上为您的下一个 osu! 皮肤寻找灵感。浏览多样化的皮肤集合，发现新技巧和想法。受到启发并创建自己独特的皮肤。',
       10: '在所有标签中搜索。',
-      11: 'List of all past/active osu! contests',
+      11: 'List of all active/finished osu! contests',
       12: '{amount} entries for {title} contest. {views} views'
     }
   },
@@ -318,7 +318,7 @@ export default {
       9: '部分失败',
       10: '暂停画面',
       11: '失败画面',
-      12: 'Result screen (top)',
+      12: '结算画面',
       13: '跳过',
       14: '横幅',
       15: 'Result screen (bottom)'
