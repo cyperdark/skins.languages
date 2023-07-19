@@ -36,9 +36,9 @@ export default {
     3: 'Mutta voit lisätä muutokset, jotka olet tehnyt tähän skinin versioon',
     4: 'Ei ryhmitelty',
     5: 'Uutta',
-    6: 'Fix',
-    7: 'Change',
-    8: 'Removal'
+    6: 'Korjaukset',
+    7: 'Muutokset',
+    8: 'Poistot'
   },
   ideas: {
     0: 'Mitään ei löytynyt',
@@ -156,7 +156,7 @@ export default {
     41: 'Check out later',
     42: `Let's get started`,
     43: 'Congratulations!',
-    44: 'You successfully finished the tutorial, have fun!'
+    44: 'You have successfully finished the tutorial, have fun!'
   },
   drag: {
     0: 'Paina tästä',
@@ -253,7 +253,7 @@ export default {
       8: 'Kaikki skinit jotka {name} on tehnyt',
       9: 'Löydä inspiraatiota seuraavalle osu skinillesi nettisivultamme. Selaa meidän monipuolisen skini kokoelman läpi ja löydä uusia tapoja ja ideoita. Inspiroidu ja tee oma ainutlaatuinen skinisi.',
       10: 'Search for tags among all the tags on the site.',
-      11: 'List of all past/active osu! contests',
+      11: 'List of all active/finished osu! contests',
       12: '{amount} entries for {title} contest. {views} views'
     }
   },
@@ -318,7 +318,7 @@ export default {
       9: 'Osion epäonnistuminen',
       10: 'Taukonäyttö',
       11: 'Epäonnistumisnäyttö',
-      12: 'Result screen (top)',
+      12: 'Tulosnäyttö',
       13: 'Ohitus',
       14: 'Banneri',
       15: 'Result screen (bottom)'
