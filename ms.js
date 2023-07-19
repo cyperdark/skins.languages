@@ -36,9 +36,9 @@ export default {
     3: 'Tetapi anda boleh menambah perubahan yang anda telah buat kepada skin versi ini',
     4: 'Tidak dikumpulkan',
     5: 'Baharu',
-    6: 'Fix',
-    7: 'Change',
-    8: 'Removal'
+    6: 'Pembetulan',
+    7: 'Perubahan',
+    8: 'Pembuangan'
   },
   ideas: {
     0: 'Tiada apa-apa dijumpai',
@@ -156,7 +156,7 @@ export default {
     41: 'Check out later',
     42: `Let's get started`,
     43: 'Congratulations!',
-    44: 'You successfully finished the tutorial, have fun!'
+    44: 'You have successfully finished the tutorial, have fun!'
   },
   drag: {
     0: 'Ketik di sini',
@@ -253,7 +253,7 @@ export default {
       8: 'Semua skin osu dibuat oleh {name}',
       9: 'Cari inspirasi untuk skin osu! anda yang seterusnya di laman web kami. Semak melalui koleksi skin yang pelbagai dan teroka pelbagai teknik dan idea. Dapatkan inspirasi dan cipta skin anda yang unik.',
       10: 'Cari tag-tag dari kesemua tag di site ini.',
-      11: 'List of all past/active osu! contests',
+      11: 'List of all active/finished osu! contests',
       12: '{amount} entries for {title} contest. {views} views'
     }
   },
@@ -318,7 +318,7 @@ export default {
       9: 'Section Fail',
       10: 'Skrin berhenti',
       11: 'Skrin Gagal',
-      12: 'Result screen (top)',
+      12: 'Skrin keputusan',
       13: 'Skip',
       14: 'Banner',
       15: 'Result screen (bottom)'
