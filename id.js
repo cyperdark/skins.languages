@@ -165,8 +165,8 @@ export default {
   footer: {
     0: 'Dibuat oleh cyperdark',
     1: 'Credit',
-    2: 'Rules',
-    3: 'Contacts'
+    2: 'Peraturan',
+    3: 'Kontak'
   },
   credits: {
     0: 'Chibi',
@@ -201,11 +201,11 @@ export default {
     14: 'Cari:'
   },
   contests: {
-    0: 'Contests',
+    0: 'Kontes',
     1: 'Official newspost',
-    2: 'Submission',
+    2: 'Pengajuan',
     3: 'Preparing',
-    4: 'Voting',
+    4: 'Pemungutan suara',
     5: 'Finished'
   },
   tabs: {
