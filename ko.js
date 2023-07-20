@@ -27,7 +27,7 @@ export default {
     2: '조회수 | 좋아요 수 | 다운로드 수',
     3: '스킨 올리기',
     4: '스킨 다운로드 방법',
-    5: '{amount} Skins | {amount} Skins | {amount} Skins'
+    5: '스킨 수: {amount} | {amount} | {amount}'
   },
   changelogs: {
     0: '변경 내역',
@@ -36,8 +36,8 @@ export default {
     3: '그러나 당신은 변경한 내용을 이 버전의 스킨에 추가할 수 있습니다.',
     4: '그룹화되지 않은 상태',
     5: '신규',
-    6: '수정 목록',
-    7: '변경 사항',
+    6: '고치기',
+    7: '변경하기',
     8: '삭제된 것들'
   },
   ideas: {
@@ -148,15 +148,15 @@ export default {
     33: 'osu! 포럼에서 댓글 달기',
     34: '이 제작자의 다른 스킨들 | 이 제작자들의 다른 스킨들',
     35: '스킨 지원하기',
-    36: 'Unavailable',
-    37: 'Unfortunately, this skin was deleted at {author} request',
-    38: 'Welcome to the skin post editor!',
-    39: `New to the skin editor? Let us guide you through the interface and show you the editor's full potential!`,
-    40: '{current} of {max} completed',
-    41: 'Check out later',
-    42: `Let's get started`,
-    43: 'Congratulations!',
-    44: 'You have successfully finished the tutorial, have fun!'
+    36: '사용 불가',
+    37: '불행하게도, 이 스킨은 {author}의 요청에 의해 삭제되었습니다.',
+    38: '스킨 게시 에디터에 오신 것을 환영합니다!',
+    39: `스킨 에디터가 처음이신가요? 저희가 인터페이스 및 에디터의 모든 기능을 알려드리겠습니다!`,
+    40: '전체 {max} 중 {current} 완료',
+    41: '나중에 확인해보세요.',
+    42: `시작해봅시다.`,
+    43: '축하합니다!',
+    44: '당신은 튜토리얼을 성공적으로 마쳤습니다. 즐거운 시간 보내세요!'
   },
   drag: {
     0: '여기를 클릭하세요.',
@@ -165,8 +165,8 @@ export default {
   footer: {
     0: '제작자: cyperdark',
     1: '제작진',
-    2: 'Rules',
-    3: 'Contacts'
+    2: '규칙',
+    3: '문의하기'
   },
   credits: {
     0: '꼬마',
@@ -201,12 +201,12 @@ export default {
     14: '검색:'
   },
   contests: {
-    0: 'Contests',
-    1: 'Official newspost',
-    2: 'Submission',
-    3: 'Preparing',
-    4: 'Voting',
-    5: 'Finished'
+    0: '콘테스트',
+    1: '공식 뉴스',
+    2: '제출',
+    3: '준비',
+    4: '투표',
+    5: '완료'
   },
   tabs: {
     0: '검색',
@@ -237,9 +237,9 @@ export default {
       11: '태그 검색',
       12: '발견된 태그 {name}',
       13: '새 스킨',
-      14: 'Site rules',
-      15: 'osu! Contests',
-      16: 'osu! Contests'
+      14: '사이트 규칙',
+      15: 'osu! 콘테스트',
+      16: 'osu! 콘테스트'
     },
     description: {
       0: '우리 사이트에서 최고의 osu! 스킨을 찾으세요! 우리는 모든 해상도, 심지어 탑 플레이어들이 사용하는 다양한 게임 모드의 스킨을 많이 가지고 있습니다. 추가로, 우리는 애니메이션 팬을 위한 특별 섹션도 가지고 있습니다. 완벽한 스킨으로 당신의 게임 실력을 향상시키세요! #osuskins #osugame #anime',
@@ -253,8 +253,8 @@ export default {
       8: '{name}이 만든 모든 osu! 스킨',
       9: '이 사이트에서 당신의 다음 osu! 스킨을 위한 영감을 얻으세요. 새로운 기술, 아이디어와 스킨 컬렉션을 탐색하세요. 영감을 얻어 당신만의 스킨을 제작하세요.',
       10: '사이트의 모든 태그 중에서 태그를 검색하세요.',
-      11: 'List of all active/finished osu! contests',
-      12: '{amount} entries for {title} contest. {views} views'
+      11: 'osu! 콘테스트의 모든 완성 스킨들',
+      12: '{title} 콘테스트에 제출된 {amount}개의 스킨, 조회수: {views}'
     }
   },
   buttons: {
@@ -271,13 +271,13 @@ export default {
     reddit_link: 'Reddit',
     osu_forum_link: 'osu! 포럼',
     skin_return: '스킨으로 돌아가기',
-    source: 'Source',
-    contest_voting: 'Vote here'
+    source: '출처',
+    contest_voting: '여기에서 투표하세요.'
   },
   choose: {
-    0: 'Optional',
-    1: 'Required',
-    2: 'Pick at least one option'
+    0: '선택사항',
+    1: '필수',
+    2: '최소 1개의 옵션을 선택하세요.'
   },
   user: {
     roles: {
@@ -299,10 +299,10 @@ export default {
     7: '설명 없음',
     8: '링크 없음',
     9: '다운로드 수: {amount}',
-    10: 'Reset everything',
-    11: 'Show guide',
-    12: 'Close guide',
-    13: 'To mark a rule as read, hover over it (Yellow indicates unread)'
+    10: '전부 초기화하기',
+    11: '가이드 표시',
+    12: '가이드 닫기',
+    13: '규칙을 읽은 것으로 표시하려면 마우스를 호버하세요. (노란색은 읽지 않았다는 것을 나타냅니다.)'
   },
   lists: {
     screens: {
@@ -321,7 +321,7 @@ export default {
       12: '결과 화면',
       13: '스킵',
       14: '배너',
-      15: 'Result screen (bottom)'
+      15: '결과 화면 (하단)'
     },
     cats: {
       0: '19금',
@@ -370,12 +370,12 @@ export default {
   },
   contribute: { 0: '기여하기' },
   nsfw: {
-    0: 'Warning, nsfw!',
+    0: '주의하세요! 19금입니다.',
     1: '이 스킨은 성인 컨텐츠 또는 민감한 것을 포함하고 있습니다.',
     2: '이 스킨은 일부 유저에게 불쾌감을 줄 수 있는 성인 컨텐츠 또는 민감한 것을 포함하고 있습니다.',
     3: '좋아요!',
     4: '안녕! o/',
-    5: 'Furry Warning!'
+    5: '수인 콘텐츠가 포함되어 있으니 주의하세요!'
   },
   removed: {
     0: '사용할 수 없는 버전',
@@ -436,7 +436,7 @@ export default {
     50: '이 링크는 다운로드 주소로 사용될 수 없어요.',
     51: '평가를 위해 제출되었습니다.',
     52: '경고',
-    53: 'You need to choose type of asset'
+    53: '에셋의 종류를 골라주세요.'
   },
   header: {
     0: '알림',
@@ -449,10 +449,10 @@ export default {
     3: '이 페이지는 아직 게시되지 않았어요.'
   },
   confirm: {
-    0: 'Reset everything?',
-    1: 'Show guide?',
-    2: 'Submit skin?',
-    3: 'Yes',
-    4: 'No'
+    0: '전부 초기화',
+    1: '가이드를 표시할까요?',
+    2: '스킨을 제출할까요?',
+    3: '확인',
+    4: '취소'
   }
 };
