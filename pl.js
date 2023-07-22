@@ -6,7 +6,7 @@ export default {
     tags: {
       0: 'Tagi',
       1: '{amount} tagów dla kategorii {name}',
-      2: 'Search tags'
+      2: 'Wyszukaj tagi'
     },
     ideas: {
       0: 'Inspiracje',
@@ -22,11 +22,11 @@ export default {
     tools: 'Narzędzia'
   },
   home: {
-    0: 'Available to download',
+    0: 'Dostępne do pobrania',
     1: 'Most: _name_ skins',
-    2: 'Viewed | Liked | Downloaded',
-    3: 'Publish new skin',
-    4: 'How to install skin',
+    2: 'Obejrzane | Polubione | Pobrane',
+    3: 'Opublikuj nowego skina',
+    4: 'Jak wgrać skina',
     5: '{amount} Skins | {amount} Skins | {amount} Skins'
   },
   changelogs: {
@@ -58,8 +58,8 @@ export default {
     1: 'Lista wszystkich tagów opisujących tego skina',
     2: 'Troszkę tu pusto.',
     3: 'Użyj pola powyżej aby znaleźć nowe tagi',
-    4: 'Tags not found',
-    5: 'Try searching for something else',
+    4: 'Nie znaleziono tagów',
+    5: 'Spróbuj poszukać czegoś innego',
     6: 'Szukaj'
   },
   videos: {
@@ -79,7 +79,7 @@ export default {
     0: 'Wszystkie',
     1: 'Metadata',
     2: 'Hightlight',
-    3: 'Name of the skin not specified',
+    3: 'Nie podano nazwy skina',
     4: 'Dodaj przynajmniej jednego twórcę',
     5: 'Dodaj kilka tagów',
     6: 'Nie podano wagi skina',
@@ -89,8 +89,8 @@ export default {
     10: 'Nie dodano screenshotów',
     11: 'Dodaj przynajmniej jeden screenshot z gameplay\'u',
     12: 'Nie podano linka do skina',
-    20: 'Looks pretty good',
-    21: 'Every issue was fixed. Good job!',
+    20: 'Wygląda w porządku',
+    21: 'Każdy błąd został naprawiony. Dobra robota!',
     22: 'Check list',
     23: 'Add at least one public version',
     24: 'Add at least one creator to this version',
@@ -109,8 +109,8 @@ export default {
     9: 'Skin | Skiny | Skiny',
     10: 'osu Skiny od {name} | Wszystkie skiny od',
     11: 'Szukaj',
-    12: '{name} skins',
-    13: 'Explore skins'
+    12: '{name} skiny',
+    13: 'Przeglądaj skiny'
   },
   skin: {
     0: 'Edytuj',
@@ -143,20 +143,20 @@ export default {
     28: 'No tags',
     29: 'No videos',
     30: 'No creators',
-    31: 'Rate skin',
+    31: 'Oceń skina',
     32: 'Upvote & comment on reddit',
     33: 'Comment on osu! forum',
     34: 'More skins from this author | More skins from this authors',
     35: 'Support the skin',
-    36: 'Unavailable',
-    37: 'Unfortunately, this skin was deleted at {author} request',
+    36: 'Niedostępny',
+    37: 'Niestety, ten skin został usunięty na żądanie {author}',
     38: 'Welcome to the skin post editor!',
     39: `New to the skin editor? Let us guide you through the interface and show you the editor's full potential!`,
     40: '{current} of {max} completed',
     41: 'Check out later',
     42: `Let's get started`,
-    43: 'Congratulations!',
-    44: 'You have successfully finished the tutorial, have fun!'
+    43: 'Gratulacje!',
+    44: 'Pomyślnie ukończyłeś samouczek, baw się dobrze!'
   },
   drag: {
     0: 'Kliknij',
@@ -165,8 +165,8 @@ export default {
   footer: {
     0: 'Made by cyperdark',
     1: 'Credits',
-    2: 'Rules',
-    3: 'Contacts'
+    2: 'Zasady',
+    3: 'Kontakty'
   },
   credits: {
     0: 'Chibi',
@@ -177,7 +177,7 @@ export default {
     5: 'Wszystkie flagi pochodzą z {name}',
     6: 'Lokalizacja',
     7: 'Ktokolwiek? [{lang}]',
-    8: 'Seems like cyperdark forgot to add them. {text}'
+    8: 'Wygląda na to, że cyperdark zapomniał dodać je. {text}'
   },
   search: {
     0: 'Wyszukiwarka skinów',
@@ -195,10 +195,10 @@ export default {
     13: {
       0: 'Skiny',
       1: 'Tagi',
-      2: 'Users',
+      2: 'Użytkownicy',
       3: 'Listy'
     },
-    14: 'Search:'
+    14: 'Szukaj:'
   },
   contests: {
     0: 'Contests',
@@ -206,7 +206,7 @@ export default {
     2: 'Submission',
     3: 'Preparing',
     4: 'Voting',
-    5: 'Finished'
+    5: 'Zakończone'
   },
   tabs: {
     0: 'Szukaj',
@@ -216,7 +216,7 @@ export default {
   undefined: {
     0: 'Pusto',
     1: 'Unfortunately, there\'s nothing here, but you can take a look at the other pages',
-    2: 'Unfortunately, there\'s nothing here',
+    2: 'Niestety, nic tu nie ma',
     3: 'Błąd uwierzytelnienia',
     4: 'You need to be logged in order to edit this skin.',
     5: 'You need to be logged in order to add a new skin.'
@@ -234,7 +234,7 @@ export default {
       8: '{name} search osu skins',
       9: 'Zainspiruj się innymi skinami',
       10: '{name} stworzył/a skiny do osu',
-      11: 'Search tags',
+      11: 'Wyszukaj tagi',
       12: '{name} found tags',
       13: 'Nowy skin',
       14: 'Site rules',
@@ -271,13 +271,13 @@ export default {
     reddit_link: 'Reddit',
     osu_forum_link: 'Forum osu!',
     skin_return: 'Powrót do skina',
-    source: 'Source',
-    contest_voting: 'Vote here'
+    source: 'Źródło',
+    contest_voting: 'Zagłosuj tutaj'
   },
   choose: {
-    0: 'Optional',
-    1: 'Required',
-    2: 'Pick at least one option'
+    0: 'Opcjonalne',
+    1: 'Wymagane',
+    2: 'Wybierz co najmniej jedną opcję'
   },
   user: {
     roles: {
@@ -299,7 +299,7 @@ export default {
     7: 'Brak krótkiego opisu',
     8: 'Brak linka',
     9: 'Pobrania: {amount}',
-    10: 'Reset everything',
+    10: 'Zresetuj wszystko',
     11: 'Show guide',
     12: 'Close guide',
     13: 'To mark a rule as read, hover over it (Yellow indicates unread)'
@@ -349,9 +349,9 @@ export default {
     ratio: 'Wybierz proporcje ekranu | proporcje ekranu'
   },
   placeholders: {
-    0: 'Select roles',
-    1: 'Select versions',
-    2: 'Type some text...',
+    0: 'Wybierz rolę',
+    1: 'Wybierz wersję',
+    2: 'Wpisz jakiś tekst...',
     3: 'Wybierz rozmiar',
     4: 'Wybierz zakres dat',
     5: 'Rok',
@@ -361,11 +361,11 @@ export default {
     9: 'Tryby gry',
     10: 'Wybierz typ',
     11: 'Wklej link do YouTube',
-    12: 'Type a description and an url. Format description:url',
+    12: 'Wpisz opis oraz link. Format opis:link',
     13: 'Wybierz dodatki',
     14: 'Wklej link',
-    15: 'Skin title, author, or tags',
-    16: 'Select category',
+    15: 'Nazwa skina, autor, lub tagi',
+    16: 'Wybierz kategorię',
     17: 'Type the name of the tag'
   },
   contribute: { 0: 'Współtwórz' },
@@ -452,7 +452,7 @@ export default {
     0: 'Reset everything?',
     1: 'Show guide?',
     2: 'Submit skin?',
-    3: 'Yes',
-    4: 'No'
+    3: 'Tak',
+    4: 'Nie'
   }
 };
