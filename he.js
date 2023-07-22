@@ -27,7 +27,7 @@ export default {
     2: 'נצפים | נאהבים | מורדים',
     3: 'פרסם סקין חדש',
     4: 'איך להתקין סקין',
-    5: '{amount} Skins | {amount} Skins | {amount} Skins'
+    5: '{amount} סקינים | {amount} סקינים | {amount} סקינים'
   },
   changelogs: {
     0: 'יומן שינויים',
@@ -149,7 +149,7 @@ export default {
     34: 'עוד סקינים מהיוצר הזה | עוד סקינים מהיוצרים האלו',
     35: 'תמוך בסקין',
     36: 'Unavailable',
-    37: 'Unfortunately, this skin was deleted at {author} request',
+    37: 'לצערנו, סקין זה נמחק לבקשת {author}',
     38: 'Welcome to the skin post editor!',
     39: `New to the skin editor? Let us guide you through the interface and show you the editor's full potential!`,
     40: '{current} of {max} completed',
@@ -299,9 +299,9 @@ export default {
     7: 'אין תיאור קצר',
     8: 'אין url',
     9: 'הורדות: {amount}',
-    10: 'Reset everything',
-    11: 'Show guide',
-    12: 'Close guide',
+    10: 'אפס הכל',
+    11: 'הצג מדריך',
+    12: 'סגור מדריך',
     13: 'To mark a rule as read, hover over it (Yellow indicates unread)'
   },
   lists: {

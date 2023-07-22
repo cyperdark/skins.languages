@@ -6,7 +6,7 @@ export default {
     tags: {
       0: 'Tägit',
       1: '{amount} tägiä kategoriassa {name}',
-      2: 'Search tags'
+      2: 'Hae tagilla'
     },
     ideas: {
       0: 'Inspiraatio',
@@ -94,7 +94,7 @@ export default {
     22: 'Tarkistuslista',
     23: 'Lisää vähintään yksi julkinen versio',
     24: 'Lisää tähän versioon vähintään yksi tekijä',
-    25: 'Some creators doesn\'t have roles'
+    25: 'Joillekin tekijöille ei ole valittu rooleja'
   },
   skins: {
     0: 'Skinit',
@@ -150,12 +150,12 @@ export default {
     35: 'Tue skiniä',
     36: 'Ei saatavilla',
     37: 'Valitettavasti tämä skini on poistettu tekijän {author} pyynnöstä',
-    38: 'Welcome to the skin post editor!',
+    38: 'Tervetuloa skinin julkaisueditoriin!',
     39: `New to the skin editor? Let us guide you through the interface and show you the editor's full potential!`,
     40: '{current} of {max} completed',
     41: 'Check out later',
     42: `Let's get started`,
-    43: 'Congratulations!',
+    43: 'Onnittelut!',
     44: 'You have successfully finished the tutorial, have fun!'
   },
   drag: {
@@ -165,8 +165,8 @@ export default {
   footer: {
     0: 'Tekijä: cyperdark',
     1: 'Kiitokset',
-    2: 'Rules',
-    3: 'Contacts'
+    2: 'Säännöt',
+    3: 'Yhteystiedot'
   },
   credits: {
     0: 'Chibi',
@@ -204,9 +204,9 @@ export default {
     0: 'Contests',
     1: 'Official newspost',
     2: 'Submission',
-    3: 'Preparing',
-    4: 'Voting',
-    5: 'Finished'
+    3: 'Valmistellaan',
+    4: 'Äänestys',
+    5: 'Valmis'
   },
   tabs: {
     0: 'Haku',
@@ -234,7 +234,7 @@ export default {
       8: '{name} hae osu skinejä',
       9: 'Hanki inspiraatiota muista osu skineistä',
       10: '{name} tehtyjä osu skinejä',
-      11: 'Search tags',
+      11: 'Hae tagilla',
       12: '{name} found tags',
       13: 'Uusi skini',
       14: 'Site rules',
@@ -253,7 +253,7 @@ export default {
       8: 'Kaikki skinit jotka {name} on tehnyt',
       9: 'Löydä inspiraatiota seuraavalle osu skinillesi nettisivultamme. Selaa meidän monipuolisen skini kokoelman läpi ja löydä uusia tapoja ja ideoita. Inspiroidu ja tee oma ainutlaatuinen skinisi.',
       10: 'Search for tags among all the tags on the site.',
-      11: 'List of all active/finished osu! contests',
+      11: 'Luettelo kaikista aktiivisista/päättyneistä osu! -kilpailuista',
       12: '{amount} entries for {title} contest. {views} views'
     }
   },
@@ -271,13 +271,13 @@ export default {
     reddit_link: 'Reddit',
     osu_forum_link: 'osu! Foorumi',
     skin_return: 'Takaisin skiniin',
-    source: 'Source',
+    source: 'Lähde',
     contest_voting: 'Vote here'
   },
   choose: {
     0: 'Optional',
-    1: 'Required',
-    2: 'Pick at least one option'
+    1: 'Pakollinen',
+    2: 'Valitse vähintään yksi vaihtoehto'
   },
   user: {
     roles: {
@@ -299,9 +299,9 @@ export default {
     7: 'Ei lyhyttä kuvausta',
     8: 'Ei url-osoitetta',
     9: 'Lataukset: {amount}',
-    10: 'Reset everything',
-    11: 'Show guide',
-    12: 'Close guide',
+    10: 'Nollaa kaikki',
+    11: 'Näytä ohje',
+    12: 'Sulje ohje',
     13: 'To mark a rule as read, hover over it (Yellow indicates unread)'
   },
   lists: {
@@ -370,12 +370,12 @@ export default {
   },
   contribute: { 0: 'Osallistu' },
   nsfw: {
-    0: 'Warning, nsfw!',
+    0: 'Varoitus, nsfw!',
     1: 'Tämä skini sisältää herkkää tai aikuisille tarkoitettua sisältöä',
     2: 'Tämä skini sisältää herkkää tai aikuisille tarkoitettua sisältöä, jota jotkut käyttäjät voivat pitää häiritsevänä',
     3: 'Selvä',
     4: 'Heippa o/',
-    5: 'Furry Warning!'
+    5: 'Turrivaroitus!'
   },
   removed: {
     0: 'Versio ei ole saatavilla',
@@ -391,7 +391,7 @@ export default {
     5: 'Ei muutoksia',
     6: 'Muutoksia ei löytynyt',
     7: 'ID not found',
-    8: 'ID of the video not found, try another link (At the moment only YouTube is supported)',
+    8: 'Videon ID:tä ei löydy, kokeile toista linkkiä (tällä hetkellä vain YouTube on tuettu)',
     9: 'Hups',
     10: 'Näyttää siltä, että istuntosi on vanhentunut. Avaa uusi sivu ja kirjaudu tilillesi (Älä huoli, kaikki tallennettiin automaattisesti)',
     11: 'On olemassa',
@@ -452,7 +452,7 @@ export default {
     0: 'Reset everything?',
     1: 'Show guide?',
     2: 'Submit skin?',
-    3: 'Yes',
-    4: 'No'
+    3: 'Kyllä',
+    4: 'Ei'
   }
 };

@@ -22,11 +22,11 @@ export default {
     tools: 'Werkzeuge'
   },
   home: {
-    0: 'Available to download',
+    0: 'Zum Herunterladen verfügbar',
     1: 'Most: _name_ skins',
-    2: 'Viewed | Liked | Downloaded',
-    3: 'Publish new skin',
-    4: 'How to install skin',
+    2: 'Gesehen | Gefällt | Heruntergeladen',
+    3: 'Neuen Skin veröffentlichen',
+    4: 'Wie installiert man Skins',
     5: '{amount} Skins | {amount} Skins | {amount} Skins'
   },
   changelogs: {
@@ -93,8 +93,8 @@ export default {
     21: 'Jedes Problem wurde behoben. Gute Arbeit!',
     22: 'Checkliste',
     23: 'Füge mindestens eine öffentliche Version hinzu',
-    24: 'Add at least one creator to this version',
-    25: 'Some creators doesn\'t have roles'
+    24: 'Füge mindestens einen Ersteller dieser Version hinzu',
+    25: 'Einige Ersteller haben keine Rollen'
   },
   skins: {
     0: 'Skins',
@@ -143,20 +143,20 @@ export default {
     28: 'Keine Tags',
     29: 'Keine Videos',
     30: 'Keine Ersteller',
-    31: 'Rate skin',
-    32: 'Upvote & comment on reddit',
-    33: 'Comment on osu! forum',
-    34: 'More skins from this author | More skins from this authors',
-    35: 'Support the skin',
-    36: 'Unavailable',
-    37: 'Unfortunately, this skin was deleted at {author} request',
-    38: 'Welcome to the skin post editor!',
-    39: `New to the skin editor? Let us guide you through the interface and show you the editor's full potential!`,
-    40: '{current} of {max} completed',
-    41: 'Check out later',
-    42: `Let's get started`,
-    43: 'Congratulations!',
-    44: 'You have successfully finished the tutorial, have fun!'
+    31: 'Skin bewerten',
+    32: 'Upvote & kommentiere auf Reddit',
+    33: 'Kommentiere im osu! Forum',
+    34: 'Mehr Skins dieses Erstellers | Mehr Skins dieses Erstellers',
+    35: 'Unterstütze den Skin',
+    36: 'Nicht verfügbar',
+    37: 'Leider wurde dieser Skin nach Anfrage von {author} gelöscht',
+    38: 'Willkommen zum Skin Post Editor!',
+    39: `Neu im Skin Editor? Lass uns dich durch das Interface führen und dir das volle Potenzial des Editors zeigen!`,
+    40: '{current} von {max} abgeschlossen',
+    41: 'Versuche es später',
+    42: `Fangen wir an`,
+    43: 'Herzlichen Glückwunsch!',
+    44: 'Du hast das Tutorial erfolgreich abgeschlossen, viel Spaß!'
   },
   drag: {
     0: 'Klicke hier',
@@ -165,8 +165,8 @@ export default {
   footer: {
     0: 'Erstellt von cyperdark',
     1: 'Anerkennung an',
-    2: 'Rules',
-    3: 'Contacts'
+    2: 'Regeln',
+    3: 'Kontakte'
   },
   credits: {
     0: 'Chibi',
@@ -198,15 +198,15 @@ export default {
       2: 'Benutzer',
       3: 'Listen'
     },
-    14: 'Search:'
+    14: 'Suchen:'
   },
   contests: {
-    0: 'Contests',
-    1: 'Official newspost',
-    2: 'Submission',
-    3: 'Preparing',
-    4: 'Voting',
-    5: 'Finished'
+    0: 'Wettbewerbe',
+    1: 'Offizieller Newspost',
+    2: 'Einreichung',
+    3: 'Bereite vor',
+    4: 'Abstimmung',
+    5: 'Fertig'
   },
   tabs: {
     0: 'Suche',
@@ -237,9 +237,9 @@ export default {
       11: 'Tags suchen',
       12: '{name} fand Tags',
       13: 'Neuer Skin',
-      14: 'Site rules',
-      15: 'osu! Contests',
-      16: 'osu! Contests'
+      14: 'Website-Regeln',
+      15: 'osu! Wettbewerbe',
+      16: 'osu! Wettbewerbe'
     },
     description: {
       0: 'Bekomme die besten osu! Skins auf unserer Seite! Unsere größte Bibliothek hat Skins für alle Spielmodi, Seitenverhältnisse und sogar von den besten osu! Spielern. Zudem haben wir auch einen extra Abschnitt für Anime-Liebhaber. Verbessere dein Gameplay mit dem perfekten Skin. #osuskins #osugame #anime',
@@ -253,8 +253,8 @@ export default {
       8: 'Alle osu! Skins wurden von {name} erstellt.',
       9: 'Finde Inspirationen für deinen nächsten osu! Skin auf unserer Seite. Durchsuche eine große Kollektion von Skins und finde neue Techniken und Ideen. Inspiriere dich und erstelle deinen eigenen, einzigartigen Skin.',
       10: 'Suche nach Tags die auf dieser Seite sind.',
-      11: 'List of all active/finished osu! contests',
-      12: '{amount} entries for {title} contest. {views} views'
+      11: 'Liste aller aktiven/beendeten osu! Wettbewerbe',
+      12: '{amount} Einträge für {title} Wettbewerb. {views} Ansichten'
     }
   },
   buttons: {
@@ -271,13 +271,13 @@ export default {
     reddit_link: 'Reddit',
     osu_forum_link: 'osu! Forum',
     skin_return: 'Zurück zum Skin',
-    source: 'Source',
-    contest_voting: 'Vote here'
+    source: 'Quelle',
+    contest_voting: 'Stimme hier ab'
   },
   choose: {
     0: 'Optional',
-    1: 'Required',
-    2: 'Pick at least one option'
+    1: 'Erfordert',
+    2: 'Wähle mindestens eine Option aus'
   },
   user: {
     roles: {
@@ -299,10 +299,10 @@ export default {
     7: 'Keine kurze Beschreibung.',
     8: 'Keine URL',
     9: 'Downloads: {amount}',
-    10: 'Reset everything',
-    11: 'Show guide',
-    12: 'Close guide',
-    13: 'To mark a rule as read, hover over it (Yellow indicates unread)'
+    10: 'Alles zurücksetzen',
+    11: 'Anleitung anzeigen',
+    12: 'Anleitung schließen',
+    13: 'Um eine Regel als gelesen zu markieren, fahre mit der Maus über es (Gelb zeigt ungelesen an)'
   },
   lists: {
     screens: {
@@ -321,7 +321,7 @@ export default {
       12: '"Ergebnis" Screen',
       13: 'Überspringen',
       14: 'Banner',
-      15: 'Result screen (bottom)'
+      15: '"Ergebnis" Screen (unten)'
     },
     cats: {
       0: 'NSFW',
@@ -370,12 +370,12 @@ export default {
   },
   contribute: { 0: 'Beitragen' },
   nsfw: {
-    0: 'Warning, nsfw!',
+    0: 'Warnung, nsfw!',
     1: 'Dieser Skin enthält empfindliche oder Inhalte für Erwachsene.',
     2: 'Dieser Skin enthält empfindliche oder Inhalte für Erwachsene, die einige Benutzer verstören könnten.',
     3: 'Okay',
     4: 'bye o/',
-    5: 'Furry Warning!'
+    5: 'Furry Warnung!'
   },
   removed: {
     0: 'Version nicht verfügbar',
@@ -422,37 +422,37 @@ export default {
     36: 'Version «{name}» wurde gelöscht',
     37: 'Fehler',
     38: 'Anscheinend denkt der Server du bist ein Roboter. ¯\\_(ツ)_/¯',
-    39: 'Looks like your user session has expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
-    40: 'Mismatched credentials (relogin in account. Don\'t worry, everything was saved automatically)',
-    41: 'Unknown error',
-    42: 'You cannot edit a nonexistent skin',
-    43: 'Seems like you don\'t have permission to edit this skin',
-    44: 'You cannot send this version because it is the same as the previous one.',
-    45: 'These changes have already been sent for moderation',
-    46: 'Success',
-    47: 'New changes have been submitted for moderation',
-    48: 'Changes have been updated in moderation',
-    49: 'Odd link',
-    50: 'This link cannot be used as a download link',
-    51: 'Submitted for moderation',
+    39: 'Deine Sitzung ist abgelaufen. Öffne eine neue Seite und logge dich in dein Konto ein (Keine Sorge, alles wurde automatisch gespeichert)',
+    40: 'Falsche Anmeldedaten (Logge dich noch einmal an. Keine Sorge, alles wurde automatisch gespeichert)',
+    41: 'Unbekannter Fehler',
+    42: 'Du kannst einen nicht existierenden Skin nicht bearbeiten',
+    43: 'Sieht so aus, als hättest du keine Berechtigung, diesen Skin zu bearbeiten',
+    44: 'Du kannst diese Version nicht senden, da es die gleiche ist wie die vorherige.',
+    45: 'Diese Änderungen wurden bereits zur Moderation gesendet',
+    46: 'Erfolg',
+    47: 'Neue Änderungen wurden zur Moderation eingereicht',
+    48: 'Änderungen wurden in der Moderation aktualisiert',
+    49: 'Ungültiger Link',
+    50: 'Dieser Link kann nicht als Download-Link verwendet werden',
+    51: 'Zur Moderation gesendet',
     52: 'Warnung',
-    53: 'You need to choose type of asset'
+    53: 'Du musst eine Art Asset auswählen'
   },
   header: {
     0: 'Benachrichtigungen',
-    1: 'Follow us on these platforms to receive notifications about new skins'
+    1: 'Folge uns auf diesen Plattformen, um Benachrichtigungen über neue Skins zu erhalten'
   },
   restricted_view: {
     0: 'Nicht autorisiert!',
-    1: 'Please log into your account',
-    2: 'Restricted view',
-    3: 'This page is not out, yet.'
+    1: 'Logge dich in dein Konto ein',
+    2: 'Eingeschränkte Ansicht',
+    3: 'Diese Seite ist noch nicht fertig.'
   },
   confirm: {
-    0: 'Reset everything?',
-    1: 'Show guide?',
-    2: 'Submit skin?',
-    3: 'Yes',
-    4: 'No'
+    0: 'Alles zurücksetzen?',
+    1: 'Anleitung anzeigen?',
+    2: 'Skin einreichen?',
+    3: 'Ja',
+    4: 'Nein'
   }
 };
