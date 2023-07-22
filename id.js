@@ -33,7 +33,7 @@ export default {
     0: 'Catatan Perubahan',
     1: 'Daftar perubahan di versi saat ini',
     2: 'Riwayat kosong',
-    3: 'But you can add the changes you\'ve made to this version of the skin',
+    3: 'Kamu bisa menambahkan perubahan yang kamu buat di skin ini',
     4: 'Tidak Terorganisir',
     5: 'Baru',
     6: 'Perbaikan',
@@ -144,19 +144,19 @@ export default {
     29: 'Tidak ada video',
     30: 'Tidak ada pembuat',
     31: 'Beri nilai',
-    32: 'Upvote & comment on reddit',
-    33: 'Comment on osu! forum',
+    32: 'Komentar & Upvote di reddit',
+    33: 'Komentar di forum osu!',
     34: 'Lebih banyak skin dari pembuat | Lebih banyak skin dari pembuat',
     35: 'Dukung skin ini',
     36: 'Tidak tersedia',
-    37: 'Unfortunately, this skin was deleted at {author} request',
-    38: 'Welcome to the skin post editor!',
-    39: `New to the skin editor? Let us guide you through the interface and show you the editor's full potential!`,
-    40: '{current} of {max} completed',
-    41: 'Check out later',
-    42: `Let's get started`,
-    43: 'Congratulations!',
-    44: 'You have successfully finished the tutorial, have fun!'
+    37: 'Sayangnya, skin telah dihapus atas permintaan {author}',
+    38: 'Selamat datang di skin post editor!',
+    39: `Baru saja memakai skin editor?, Kami akan memberikan tutorial dan memperlihatkan potensi penuh editor!`,
+    40: '{current} dari {max} telah terselesaikan',
+    41: 'Cek kembali nanti',
+    42: `Mari kita mulai`,
+    43: 'Selamat!',
+    44: 'Kamu telah sukses menamatkan tutorial, have fun!'
   },
   drag: {
     0: 'Klik disini',
@@ -202,11 +202,11 @@ export default {
   },
   contests: {
     0: 'Kontes',
-    1: 'Official newspost',
+    1: 'Berita resmi',
     2: 'Pengajuan',
-    3: 'Preparing',
+    3: 'Persiapan',
     4: 'Pemungutan suara',
-    5: 'Finished'
+    5: 'Diselesaikan'
   },
   tabs: {
     0: 'Cari',
@@ -235,11 +235,11 @@ export default {
       9: 'Dapatkan inspirasi dari skin lain',
       10: '{name} membuat skin osu!',
       11: 'Cari label',
-      12: '{name} found tags',
+      12: '{name} tags ditemukan',
       13: 'Skin baru',
-      14: 'Site rules',
-      15: 'osu! Contests',
-      16: 'osu! Contests'
+      14: 'Peraturan',
+      15: 'Kontes osu!',
+      16: 'Kontes osu!'
     },
     description: {
       0: 'Dapatkan skin osu! terbaik di website kami! Kami menyediakan berbagai skin untuk berbagai macam mode, aspek rasio, dan dari player ternama. Oh ya! Kami juga menyediakan khusus bagi user yang menyukai anime untuk mencari skin yang mengandung karakter atau anime. Kembangkan pengalaman bermain osu! mu dengan skin terbaik!! #osuskins #osugame #anime',
@@ -253,8 +253,8 @@ export default {
       8: 'Semua skin osu! yang dibuat oleh {name}',
       9: 'Cari inspirasi untuk skin osu! mu pada website kami. Jelajahi berbagai macam koleksi skin, dan temukan teknik dan ide baru. Dapatkan inspirasi dan buat skin unik Anda sendiri.',
       10: 'Cari label diantara semua label disitus.',
-      11: 'List of all active/finished osu! contests',
-      12: '{amount} entries for {title} contest. {views} views'
+      11: 'List dari seluruh aktif/selesai kontes osu!',
+      12: '{amount} Jumlah entri untuk kontes {title}, {views} dibaca'
     }
   },
   buttons: {
@@ -272,12 +272,12 @@ export default {
     osu_forum_link: 'Forum osu!',
     skin_return: 'Kembali ke skin',
     source: 'Source',
-    contest_voting: 'Vote here'
+    contest_voting: 'Vote di sini'
   },
   choose: {
-    0: 'Optional',
-    1: 'Required',
-    2: 'Pick at least one option'
+    0: 'Opsional',
+    1: 'Dibutuhkan',
+    2: 'Tambahkan setidaknya satu opsi'
   },
   user: {
     roles: {
@@ -299,10 +299,10 @@ export default {
     7: 'Tidak ada deskripsi singkat',
     8: 'Tidak ada URL',
     9: 'Unduh: {amount}',
-    10: 'Reset everything',
-    11: 'Show guide',
-    12: 'Close guide',
-    13: 'To mark a rule as read, hover over it (Yellow indicates unread)'
+    10: 'Reset semuanya',
+    11: 'Liat paduan',
+    12: 'Tutup paduan',
+    13: 'Untuk menandai sebuah peraturan sebagai terbaca, hover ke peraturan (kuning menandakan tidak terbaca)'
   },
   lists: {
     screens: {
@@ -321,7 +321,7 @@ export default {
       12: 'Layar Hasil',
       13: 'Lewati',
       14: 'Banner',
-      15: 'Result screen (bottom)'
+      15: 'Hasil layar (bagian bawah)'
     },
     cats: {
       0: 'NSFW',
@@ -375,7 +375,7 @@ export default {
     2: 'Terdapat konten sensitif atau dewasa pada skin ini yang mungkin mengganggu sebagian orang',
     3: 'Baiklah',
     4: 'dadah o/',
-    5: 'Furry Warning!'
+    5: 'Peringatan Furry!'
   },
   removed: {
     0: 'Versi tidak tersedia',
@@ -384,33 +384,33 @@ export default {
   },
   notify: {
     0: 'Masalah belum diperbaiki',
-    1: 'Not all required fields were filled',
+    1: 'Tidak semua boks di isi',
     2: 'Tampilkan',
     3: 'Tidak ditemukan',
-    4: 'Banner not found (Currently, the first screenshot is being used as the banner)',
+    4: 'Banner tidak ditemukan (untuk sekarang, screenshot pertama sedang di gunakan sebagai banner)',
     5: 'Tidak ada perubahan',
     6: 'Tidak ada perubahan yang ditemukan',
     7: 'ID tidak ditemukan',
     8: 'ID video tidak ditemukan, silahkan coba link yang lain (Saat ini hanya YouTube yang didukung)',
     9: 'Ups',
-    10: 'Looks like your session expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
-    11: 'Exists',
+    10: 'Sepertinya sesi-mu berakhir, mohon untuk membuka page baru dan log in ke akun mu (Jangan khawatir, semuanya telah di save secara otomatis)',
+    11: 'Ada',
     12: 'Video ini telah ditambahkan',
-    13: 'Exists',
+    13: 'Ada',
     14: 'Label ini telah ditambahkan',
     15: 'Tidak ditemukan',
-    16: 'You cannot delete a deleted tag',
-    17: 'Added',
+    16: 'Kamu tidak bisa menghapus tag yang sudah di hapus',
+    17: 'Ditambahkan',
     18: 'Kamu telah berhasil menambahkan label baru',
     19: 'Ups',
     20: 'Pembuat ini telah ditambahkan',
     21: 'EZ',
     22: 'Pembuat baru telah ditambahkan',
     23: 'HUH',
-    24: 'Impossible to remove a deleted creator',
-    25: 'Duplicate',
+    24: 'Tidak mungkin untuk menghapus creator (telah dihapus)',
+    25: 'Terduplikat',
     26: 'Perubahan ini telah ditambahkan.',
-    27: 'Duplicate',
+    27: 'Terduplikat',
     28: 'URL ini telah ditambahkan.',
     29: 'Peringatan',
     30: 'Kamu lupa menambahkan deskripsi untuk url. Contoh: Deskripsi:url',
@@ -422,12 +422,12 @@ export default {
     36: 'Versi «{name}» telah dihapus',
     37: 'Eror',
     38: 'Rupanya server menganggap anda robot.',
-    39: 'Looks like your user session has expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
+    39: 'Sepertinya sesi-mu berakhir, mohon untuk membuka page baru dan log in ke akun mu (Jangan khawatir, semuanya telah di save secara otomatis)',
     40: 'Mismatched credentials (relogin in account. Don\'t worry, everything was saved automatically)',
     41: 'Kesalahan tidak diketahui',
     42: 'Kamu tidak dapat mengedit skin yang tidak ada',
     43: 'Sepertinya kamu tidak memiliki izin untuk mengedit skin ini',
-    44: 'You cannot send this version because it is the same as the previous one.',
+    44: 'Kamu tidak bisa mengirim versi ini karena ini sama dengan versi sebelumnya.',
     45: 'Perubahan ini telah dikirim untuk moderasi',
     46: 'Sukses',
     47: 'Perubahan baru telah dikirim untuk moderasi',
@@ -436,7 +436,7 @@ export default {
     50: 'Tautan ini tidak dapat digunakan sebagai tautan unduhan',
     51: 'Dikirimkan untuk moderasi',
     52: 'Peringatan',
-    53: 'You need to choose type of asset'
+    53: 'Kamu butuh memilih tipe aset'
   },
   header: {
     0: 'Notifikasi',
@@ -451,8 +451,8 @@ export default {
   confirm: {
     0: 'Reset everything?',
     1: 'Show guide?',
-    2: 'Submit skin?',
-    3: 'Yes',
-    4: 'No'
+    2: 'Kirim skin?',
+    3: 'Iya',
+    4: 'Tidak'
   }
 };
