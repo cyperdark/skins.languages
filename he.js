@@ -277,7 +277,7 @@ export default {
   choose: {
     0: 'Optional',
     1: 'Required',
-    2: 'Pick at least one option'
+    2: 'בחר לפחות אופציה אחת'
   },
   user: {
     roles: {
@@ -341,8 +341,8 @@ export default {
     8: 'Audio/Sfx',
     9: 'Tools',
     views: 'צפיות',
-    likes: 'Likes',
-    dislikes: 'Dislikes',
+    likes: 'לייקים',
+    dislikes: 'דיסלייקים',
     downloads: 'הורדות',
     size_range: 'Select size',
     date_range: 'Select a date range',
