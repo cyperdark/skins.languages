@@ -485,7 +485,7 @@ export default {
     52: 'Warning',
     53: 'You need to choose type of asset',
 
-    54: 'Do not submit the same skin more than one time',
+    54: 'The skin is currently under moderation. Please be patient while it is being processed',
   },
 
   header: {
