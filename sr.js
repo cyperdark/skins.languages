@@ -41,7 +41,7 @@ export default {
     8: 'Уклањања'
   },
   ideas: {
-    0: 'Nothing found',
+    0: 'Ништа није пронађено',
     1: 'Снимци екрана «{type}» нису отпремљени на сајт'
   },
   creators: {
@@ -163,86 +163,86 @@ export default {
     1: 'или превуци и отпусти слику овде'
   },
   footer: {
-    0: 'Made by cyperdark',
-    1: 'Credits',
-    2: 'Rules',
-    3: 'Contacts'
+    0: 'Сајт направио cyperdark',
+    1: 'Кредити',
+    2: 'Правила',
+    3: 'Контакти'
   },
   credits: {
     0: 'Chibi',
-    1: 'Arts',
-    2: 'Icons',
-    3: 'All icons are taken from {name}',
-    4: 'Flags',
-    5: 'All flag images are from {name}',
-    6: 'Localisation',
-    7: 'Anyone? [{lang}]',
-    8: 'Seems like cyperdark forgot to add them. {text}'
+    1: 'Уметност',
+    2: 'Иконице',
+    3: 'Све иконе су преузете од {name}',
+    4: 'Заставе',
+    5: 'Све слике застава су од {name}',
+    6: 'Локализација',
+    7: 'Било ко? [{lang}]',
+    8: 'Изгледа да cyperdark заборавио да их дода. {text}'
   },
   search: {
-    0: 'Skin search',
-    1: 'Views',
-    2: 'Title',
+    0: 'Претрага скина',
+    1: 'Прегледи',
+    2: 'Наслов',
     3: 'Оцена',
     4: 'Величина',
-    5: 'Date',
-    7: 'Nothing found',
-    8: 'Try using different search filters',
-    9: 'Pending a query',
-    10: 'Use the search filters or type the skin\'s title, author or tags',
+    5: 'Датум',
+    7: 'Ништа није пронађено',
+    8: 'Покушајте да користите различите филтере за претрагу',
+    9: 'На чекању на упит',
+    10: 'Користите филтере за претрагу или унесите наслов скина, аутора или ознаке',
     11: 'Преузимање',
-    12: 'Name',
+    12: 'Име',
     13: {
       0: 'Скинови',
       1: 'Ознаке',
-      2: 'Users',
+      2: 'Корисници',
       3: 'Листе'
     },
-    14: 'Search:'
+    14: 'Претрага:'
   },
   contests: {
-    0: 'Contests',
-    1: 'Official newspost',
-    2: 'Submission',
-    3: 'Preparing',
-    4: 'Voting',
-    5: 'Finished'
+    0: 'Такмичења',
+    1: 'Званични артикал',
+    2: 'Подношење',
+    3: 'Припремање',
+    4: 'Гласање',
+    5: 'Завршено'
   },
   tabs: {
     0: 'Претражи',
     1: 'Измени',
-    2: 'List'
+    2: 'Листа'
   },
   undefined: {
-    0: 'Empty',
-    1: 'Unfortunately, there\'s nothing here, but you can take a look at the other pages',
-    2: 'Unfortunately, there\'s nothing here',
-    3: 'Unauthorized',
-    4: 'You need to be logged in order to edit this skin.',
-    5: 'You need to be logged in order to add a new skin.'
+    0: 'Празно',
+    1: 'Нажалост, овде нема ничега, али можете погледати друге странице',
+    2: 'Нажалост, овде нема ничега',
+    3: 'Неодобрено',
+    4: 'Морате бити пријављени да бисте уредили овај скин.',
+    5: 'Морате бити пријављени да бисте додали нови скин.'
   },
   meta: {
     title: {
-      0: 'Discover osu skins',
-      1: 'Gamemodes, aspect ratios osu skins',
-      2: 'Popular osu skins',
-      3: 'Search osu skins',
-      4: 'List of tags, {name}',
-      5: '{name} v{version} osu skin',
-      6: 'Credits',
-      7: 'osu skins',
-      8: '{name} search osu skins',
-      9: 'Get inspiration from other osu skins',
-      10: '{name} created osu skins',
+      0: 'Откриј osu скинове',
+      1: 'Мод игара, однос ширине и висине osu скинова',
+      2: 'Популарни osu скинови',
+      3: 'Претражи osu скинове',
+      4: 'Листа ознака, {name}',
+      5: '{name} v{version} osu скин',
+      6: 'Кредити',
+      7: 'osu скинови',
+      8: '{name} претражи osu скинове',
+      9: 'Добијај инспиранцију од осталих osu скинова',
+      10: '{name} направио osu скинове',
       11: 'Претражи ознаке',
-      12: '{name} found tags',
+      12: '{name} пронађене ознаке',
       13: 'Нови скин',
-      14: 'Site rules',
-      15: 'osu! Contests',
-      16: 'osu! Contests'
+      14: 'Правила сајта',
+      15: 'osu! Конкурси',
+      16: 'osu! Конкурси'
     },
     description: {
-      0: 'Get the best osu! skins at our site! Our huge library has skins for all gamemodes, aspect ratios and even top players. Plus, we have a special section for anime fans. Improve your gameplay with the perfect skin. #osuskins #osugame #anime',
+      0: 'Преузмите најбоље osu! скинове на нашем сајту! Наша огромна библиотека има скинове за сва четири мод игара, размера ширине и висине и имамо чак врхунске играче. Плус, имамо посебан одељак за љубитеље анимеа. Побољшајте своју игру са савршеним скином. #osuskins #osugame #anime',
       1: '{views} views. An osu skin for {modes}, the size is {size}, created by {creators}. Supports {ratios}',
       2: 'Find the perfect osu! skin with our advanced search feature. Browse through our huge library, filtered by gamemode, aspect ratio, and more. Or, check out skins used by top players.',
       3: 'Discover a variety of skins for different game modes and aspect ratios on our site. Choose from standard, catch the beat, mania, and taiko modes. Find the perfect fit for your gaming preferences.',
@@ -271,20 +271,20 @@ export default {
     reddit_link: 'Reddit',
     osu_forum_link: 'osu! Forum',
     skin_return: 'Назад на скин',
-    source: 'Source',
-    contest_voting: 'Vote here'
+    source: 'Извор',
+    contest_voting: 'Гласајте овде'
   },
   choose: {
-    0: 'Optional',
-    1: 'Required',
-    2: 'Pick at least one option'
+    0: 'Опционално',
+    1: 'Потребно',
+    2: 'Изабери најмање једну опцију'
   },
   user: {
     roles: {
       0: 'Креатор',
       1: 'Миксер',
       2: 'Анимације',
-      3: 'Arts',
+      3: 'Уметност',
       4: 'Collab'
     }
   },
@@ -299,9 +299,9 @@ export default {
     7: 'Нема кратког описа',
     8: 'Нема линка',
     9: 'Преузимања: {amount}',
-    10: 'Reset everything',
-    11: 'Show guide',
-    12: 'Close guide',
+    10: 'Ресетуј све',
+    11: 'Прикажи упутство',
+    12: 'Затвори упутство',
     13: 'To mark a rule as read, hover over it (Yellow indicates unread)'
   },
   lists: {
@@ -309,7 +309,7 @@ export default {
       0: 'Добродошли',
       1: 'Главни мени',
       2: 'Избор песме',
-      3: 'Mode menu',
+      3: 'Мод мени',
       4: 'Модови',
       5: 'Одбројавање',
       6: 'Gameplay',
@@ -337,54 +337,54 @@ export default {
     4: 'Уметност',
     5: 'Фонт',
     6: 'Артист',
-    7: 'Skin element',
-    8: 'Audio/Sfx',
+    7: 'Елемент скина',
+    8: 'Аудио/Звучни Ефекти',
     9: 'Алатке',
-    views: 'Views',
+    views: 'Прегледи',
     likes: 'Свиђања',
     dislikes: 'Несвиђања',
     downloads: 'Преузимање',
-    size_range: 'Select size',
+    size_range: 'Изаберите величину',
     date_range: 'Select a date range',
     ratio: 'Select aspect ratio | ratio'
   },
   placeholders: {
-    0: 'Select roles',
-    1: 'Select versions',
-    2: 'Type some text...',
-    3: 'Select size',
+    0: 'Изаберите улоге',
+    1: 'Изаберите верзије',
+    2: 'Напишите текст...',
+    3: 'Изаберите величину',
     4: 'Select date range',
     5: 'Година',
     6: 'Месец',
     7: 'Select aspect ratio',
-    8: 'Select categories',
+    8: 'Изаберите категорије',
     9: 'Мод игре',
-    10: 'Select type',
-    11: 'Paste a YouTube link',
-    12: 'Type a description and an url. Format description:url',
-    13: 'Select extra',
-    14: 'Paste a link',
-    15: 'Skin title, author, or tags',
-    16: 'Select category',
-    17: 'Type the name of the tag'
+    10: 'Изаберите тип',
+    11: 'Налепите YouTube линк',
+    12: 'Унесите опис и url. Опис формата:url',
+    13: 'Изаберите екстра',
+    14: 'Налепите линк',
+    15: 'Наслов скина, аутор, или ознаке',
+    16: 'Изаберите категорију',
+    17: 'Напишите име ознаке'
   },
-  contribute: { 0: 'Contribute' },
+  contribute: { 0: 'Помозите' },
   nsfw: {
-    0: 'Warning, nsfw!',
-    1: 'This skin contains sensitive or adult content',
-    2: 'This skin contains sensitive or adult content that some users may find disturbing',
+    0: 'Пажња, nsfw!',
+    1: 'Овај скин садржи осетљив садржај или садржај за одрасле',
+    2: 'Овај скин садржи осетљив садржај или садржај за одрасле који неки корисници могу сматрати узнемирујућим',
     3: 'У реду',
-    4: 'bye o/',
-    5: 'Furry Warning!'
+    4: 'ћао o/',
+    5: 'Пажња, Furry!'
   },
   removed: {
-    0: 'Version unavailable',
-    1: 'The author of the skin decided to remove this version from the site.',
-    2: 'Switch to an available version'
+    0: 'Верзија недоступна',
+    1: 'Аутор скина је одлучио да уклони ову верзију са сајта.',
+    2: 'Пређите на доступну верзију'
   },
   notify: {
-    0: 'Issues were not fixed',
-    1: 'Not all required fields were filled',
+    0: 'Проблеми нису решени',
+    1: 'Нису попуњена сва обавезна поља',
     2: 'Прикажи',
     3: 'Није пронађено',
     4: 'Banner not found (Currently, the first screenshot is being used as the banner)',
@@ -443,7 +443,7 @@ export default {
     1: 'Пратите нас на овим платформама да бисте добијали обавештења о новим скиновима'
   },
   restricted_view: {
-    0: 'Unauthorized',
+    0: 'Неодобрено',
     1: 'Молимо да се пријавите на свој налог',
     2: 'Ограничен приказ',
     3: 'Ова страница још није изашла.'

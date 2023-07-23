@@ -23,7 +23,7 @@ export default {
   },
   home: {
     0: 'Zum Herunterladen verfügbar',
-    1: 'Most: _name_ skins',
+    1: 'Meisten: _name_ Skins',
     2: 'Gesehen | Gefällt | Heruntergeladen',
     3: 'Neuen Skin veröffentlichen',
     4: 'Wie installiert man Skins',
