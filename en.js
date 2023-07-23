@@ -217,6 +217,10 @@ export default {
     4: 'Voting',
     5: 'Finished',
   },
+  rules: {
+    0: 'Last updated at',
+    1: 'Posting Skins Guidelines',
+  },
 
   tabs: {
     0: 'Search',
@@ -284,6 +288,7 @@ export default {
     skin_return: 'Back to skin',
     source: 'Source',
     contest_voting: 'Vote here',
+    rules_agree: 'I agree',
   },
 
   choose: {
@@ -298,7 +303,8 @@ export default {
       1: 'Mixer',
       2: 'Animations',
       3: 'Arts',
-      4: 'Collab'
+      4: 'Collab',
+      5: 'Sounds',
     }
   },
   tooltips: {
@@ -353,6 +359,7 @@ export default {
     7: 'Skin element',
     8: 'Audio/Sfx',
     9: 'Tools',
+    10: 'Image',
     views: 'Views',
     likes: 'Likes',
     dislikes: 'Dislikes',
@@ -477,6 +484,8 @@ export default {
 
     52: 'Warning',
     53: 'You need to choose type of asset',
+
+    54: 'Do not submit the same skin more than one time',
   },
 
   header: {
