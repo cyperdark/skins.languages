@@ -83,7 +83,7 @@ export default {
     4: 'Додајте барем еден создавател на скинот',
     5: 'Додајте неколку тагови',
     6: 'Големина на скинот не е специфирана',
-    7: 'Изберете барем еден гејм-мод',
+    // 7: 'Select at least one gamemode',
     8: 'Изберете резолуција на сликата (SD или HD)',
     9: 'Изберете барем еден сооднос',
     10: 'Нема слики',
@@ -94,7 +94,8 @@ export default {
     22: 'Чеклиста',
     23: 'Add at least one public version',
     24: 'Add at least one creator to this version',
-    25: 'Some creators doesn\'t have roles'
+    25: 'Some creators doesn\'t have roles',
+    26: '{amount} screenshots doesn\'t have category'
   },
   skins: {
     0: 'Скинови',
@@ -156,7 +157,8 @@ export default {
     41: 'Check out later',
     42: `Let's get started`,
     43: 'Congratulations!',
-    44: 'You have successfully finished the tutorial, have fun!'
+    44: 'You have successfully finished the tutorial, have fun!',
+    45: 'uploader'
   },
   drag: {
     0: 'Кликнете овде',
@@ -207,6 +209,10 @@ export default {
     3: 'Preparing',
     4: 'Voting',
     5: 'Finished'
+  },
+  rules: {
+    0: 'Last updated at',
+    1: 'Posting Skins Guidelines'
   },
   tabs: {
     0: 'Пребарувај',
@@ -272,7 +278,8 @@ export default {
     osu_forum_link: 'osu! Форум',
     skin_return: 'Назад на скинот',
     source: 'Source',
-    contest_voting: 'Vote here'
+    contest_voting: 'Vote here',
+    rules_agree: 'I agree'
   },
   choose: {
     0: 'Optional',
@@ -285,7 +292,8 @@ export default {
       1: 'Миксер',
       2: 'Анимации',
       3: 'Цртежи',
-      4: 'Заедникчка работа'
+      4: 'Заедникчка работа',
+      5: 'Звукови'
     }
   },
   tooltips: {
@@ -340,6 +348,7 @@ export default {
     7: 'Елемент на скин',
     8: 'Аудио/Звучни ефекти',
     9: 'Алатки',
+    10: 'Image',
     views: 'Прегледи',
     likes: 'Лајкови',
     dislikes: 'Дислајкови',
@@ -422,7 +431,7 @@ export default {
     36: 'Version «{name}» has been deleted',
     37: 'Error',
     38: 'Apparently the server thinks you\'re a robot.',
-    39: 'Looks like your user session has expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
+    39: 'Your current login session has timed out. To proceed, please open a new page and log back into your account. Once you\'ve done that, return to this page and try again.',
     40: 'Mismatched credentials (relogin in account. Don\'t worry, everything was saved automatically)',
     41: 'Unknown error',
     42: 'You cannot edit a nonexistent skin',
@@ -436,7 +445,8 @@ export default {
     50: 'This link cannot be used as a download link',
     51: 'Submitted for moderation',
     52: 'Warning',
-    53: 'You need to choose type of asset'
+    53: 'You need to choose type of asset',
+    54: 'The skin is currently under moderation. Please be patient while it is being processed'
   },
   header: {
     0: 'Нотификации',
