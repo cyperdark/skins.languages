@@ -83,7 +83,7 @@ export default {
     4: '請添加至少一個創作者',
     5: '請添加一些標籤',
     6: '未標明skin的大小',
-    7: '請選擇至少一種遊戲模式',
+    // 7: 'Select at least one gamemode',
     8: '請選擇圖片解析度(SD 或 HD)',
     9: '請選擇至少一種長寬比',
     10: '無任何截圖',
@@ -94,7 +94,8 @@ export default {
     22: '檢查',
     23: 'Add at least one public version',
     24: 'Add at least one creator to this version',
-    25: 'Some creators doesn\'t have roles'
+    25: 'Some creators doesn\'t have roles',
+    26: '{amount} screenshots doesn\'t have category'
   },
   skins: {
     0: 'Skins',
@@ -156,7 +157,8 @@ export default {
     41: 'Check out later',
     42: `Let's get started`,
     43: 'Congratulations!',
-    44: 'You have successfully finished the tutorial, have fun!'
+    44: 'You have successfully finished the tutorial, have fun!',
+    45: 'uploader'
   },
   drag: {
     0: '點擊此處',
@@ -207,6 +209,10 @@ export default {
     3: 'Preparing',
     4: 'Voting',
     5: 'Finished'
+  },
+  rules: {
+    0: 'Last updated at',
+    1: 'Posting Skins Guidelines'
   },
   tabs: {
     0: '搜尋',
@@ -272,7 +278,8 @@ export default {
     osu_forum_link: 'osu! 論壇',
     skin_return: '回到上一頁',
     source: 'Source',
-    contest_voting: 'Vote here'
+    contest_voting: 'Vote here',
+    rules_agree: 'I agree'
   },
   choose: {
     0: 'Optional',
@@ -285,7 +292,8 @@ export default {
       1: '混合者',
       2: '動畫',
       3: '美術',
-      4: '連動'
+      4: '連動',
+      5: '音效'
     }
   },
   tooltips: {
@@ -340,6 +348,7 @@ export default {
     7: 'skin元素',
     8: '音效',
     9: '工具',
+    10: 'Image',
     views: '觀看數',
     likes: '喜歡',
     dislikes: '不喜歡',
@@ -422,7 +431,7 @@ export default {
     36: 'Version «{name}» has been deleted',
     37: 'Error',
     38: 'Apparently the server thinks you\'re a robot.',
-    39: 'Looks like your user session has expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
+    39: 'Your current login session has timed out. To proceed, please open a new page and log back into your account. Once you\'ve done that, return to this page and try again.',
     40: 'Mismatched credentials (relogin in account. Don\'t worry, everything was saved automatically)',
     41: 'Unknown error',
     42: 'You cannot edit a nonexistent skin',
@@ -436,7 +445,8 @@ export default {
     50: 'This link cannot be used as a download link',
     51: 'Submitted for moderation',
     52: 'Warning',
-    53: 'You need to choose type of asset'
+    53: 'You need to choose type of asset',
+    54: 'The skin is currently under moderation. Please be patient while it is being processed'
   },
   header: {
     0: '通知',
