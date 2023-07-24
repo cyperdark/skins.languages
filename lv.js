@@ -83,7 +83,7 @@ export default {
     4: 'Pievieno vismaz vienu skina veidotāju',
     5: 'Pievieno pāris tagu',
     6: 'Skina lielums nav specificēts',
-    7: 'Izvēlies vismaz vienu spēles režīmu',
+    // 7: 'Select at least one gamemode',
     8: 'Izvēlies bildes izšķirtspēju (SD vai HD)',
     9: 'Izvēlies vismaz vienu malu attiecību',
     10: 'Nav ekrānuzņēmumu',
@@ -94,7 +94,8 @@ export default {
     22: 'Problēmu saraksts',
     23: 'Pievieno vismaz vienu publisku versiju',
     24: 'Pievieno vismaz vienu veidotāju pie šīs versijas',
-    25: 'Dažiem veidotājiem nav lomu'
+    25: 'Dažiem veidotājiem nav lomu',
+    26: '{amount} screenshots doesn\'t have category'
   },
   skins: {
     0: 'Skini',
@@ -156,7 +157,8 @@ export default {
     41: 'Check out later',
     42: `Let's get started`,
     43: 'Congratulations!',
-    44: 'You have successfully finished the tutorial, have fun!'
+    44: 'You have successfully finished the tutorial, have fun!',
+    45: 'uploader'
   },
   drag: {
     0: 'Klikšķini šeit',
@@ -207,6 +209,10 @@ export default {
     3: 'Preparing',
     4: 'Voting',
     5: 'Finished'
+  },
+  rules: {
+    0: 'Last updated at',
+    1: 'Posting Skins Guidelines'
   },
   tabs: {
     0: 'Meklēt',
@@ -272,7 +278,8 @@ export default {
     osu_forum_link: 'osu! Forums',
     skin_return: 'Atpakaļ uz skinu',
     source: 'Source',
-    contest_voting: 'Vote here'
+    contest_voting: 'Vote here',
+    rules_agree: 'I agree'
   },
   choose: {
     0: 'Optional',
@@ -285,7 +292,8 @@ export default {
       1: 'Miksētājs',
       2: 'Animācijas',
       3: 'Mākslas darbi',
-      4: 'Sadarbība'
+      4: 'Sadarbība',
+      5: 'Skaņas'
     }
   },
   tooltips: {
@@ -340,6 +348,7 @@ export default {
     7: 'Skina elements',
     8: 'Audio/Sfx',
     9: 'Instrumenti',
+    10: 'Image',
     views: 'Skatījumi',
     likes: 'Patīk',
     dislikes: 'Nepatīk',
@@ -422,7 +431,7 @@ export default {
     36: 'Versija «{name}» ir tikusi izdzēsta',
     37: 'Kļūda',
     38: 'Izskatās, ka serveris domā, ka tu esi robots.',
-    39: 'Izskatās, ka tava sesija ir beigusies. Atver jaunu lapu un pieslēdzies savam kontam (Neraizējies, viss automātiski tika saglabāts)',
+    39: 'Your current login session has timed out. To proceed, please open a new page and log back into your account. Once you\'ve done that, return to this page and try again.',
     40: 'Neatbilstoši akreditācijas dati (No jauna pieslēdzies savam kontam. Neraizējies, viss automātiski tika saglabāts)',
     41: 'Nezināma kļūda',
     42: 'Tu nevari rediģēt neeksistējošu skinu',
@@ -436,7 +445,8 @@ export default {
     50: 'Šī saite nevar tikt izmantota kā lejupielādes saite',
     51: 'Iesūtīts moderācijai',
     52: 'Brīdinājums',
-    53: 'You need to choose type of asset'
+    53: 'You need to choose type of asset',
+    54: 'The skin is currently under moderation. Please be patient while it is being processed'
   },
   header: {
     0: 'Notifikācijas',
