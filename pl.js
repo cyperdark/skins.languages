@@ -23,7 +23,7 @@ export default {
   },
   home: {
     0: 'Dostępne do pobrania',
-    1: 'Najczęściej: _imię_ skiny',
+    1: 'Najczęściej: _name_ skiny',
     2: 'Obejrzane | Polubione | Pobrane',
     3: 'Opublikuj nowego skina',
     4: 'Jak wgrać skina',
@@ -83,7 +83,7 @@ export default {
     4: 'Dodaj przynajmniej jednego twórcę',
     5: 'Dodaj kilka tagów',
     6: 'Nie podano wagi skina',
-    7: 'Wybierz przynajmniej jeden tryb gry',
+    // 7: 'Select at least one gamemode',
     8: 'Wybierz rozdzielczość plików (SD lub HD)',
     9: 'Wybierz przynajmniej jedną proporcję ekranu',
     10: 'Nie dodano screenshotów',
@@ -94,7 +94,8 @@ export default {
     22: 'Check list',
     23: 'Dodaj co najmniej jedną publiczną wersję',
     24: 'Dodaj co najmniej jednego twórcę tej wersji',
-    25: 'Niektórzy twórcy nie mają ról'
+    25: 'Niektórzy twórcy nie mają ról',
+    26: '{amount} screenshots doesn\'t have category'
   },
   skins: {
     0: 'Skiny',
@@ -156,7 +157,8 @@ export default {
     41: 'Zobacz później',
     42: `Zacznijmy`,
     43: 'Gratulacje!',
-    44: 'Pomyślnie ukończyłeś samouczek, baw się dobrze!'
+    44: 'Pomyślnie ukończyłeś samouczek, baw się dobrze!',
+    45: 'uploader'
   },
   drag: {
     0: 'Kliknij',
@@ -207,6 +209,10 @@ export default {
     3: 'Przygotowywanie',
     4: 'Głosowanie',
     5: 'Zakończone'
+  },
+  rules: {
+    0: 'Last updated at',
+    1: 'Posting Skins Guidelines'
   },
   tabs: {
     0: 'Szukaj',
@@ -272,7 +278,8 @@ export default {
     osu_forum_link: 'Forum osu!',
     skin_return: 'Powrót do skina',
     source: 'Źródło',
-    contest_voting: 'Zagłosuj tutaj'
+    contest_voting: 'Zagłosuj tutaj',
+    rules_agree: 'I agree'
   },
   choose: {
     0: 'Opcjonalne',
@@ -285,7 +292,8 @@ export default {
       1: 'Mixer',
       2: 'Animacje',
       3: 'Arty',
-      4: 'Kolaboracja'
+      4: 'Kolaboracja',
+      5: 'Efekty dzwiękowe'
     }
   },
   tooltips: {
@@ -340,6 +348,7 @@ export default {
     7: 'Element skina',
     8: 'Audio/Efekty Dźwiękowe',
     9: 'Narzędzia',
+    10: 'Image',
     views: 'Wyświetlenia',
     likes: 'Polubienia',
     dislikes: 'Nie lubię tego',
@@ -422,7 +431,7 @@ export default {
     36: 'Wersja «{name}» została usunięta',
     37: 'Błąd',
     38: 'Najwyraźniej serwer uważa, że jesteś robotem.',
-    39: 'Wygląda na to, że Twoja sesja wygasła, otwórz nową stronę i zaloguj się na swoje konto (Nie martw się, wszystko zostało automatycznie zapisane)',
+    39: 'Your current login session has timed out. To proceed, please open a new page and log back into your account. Once you\'ve done that, return to this page and try again.',
     40: 'Niepasujące dane (ponownie zaloguj się na konto. Nie martw się, wszystko zostało automatycznie zapisane)',
     41: 'Nieznany błąd',
     42: 'Nie możesz edytować nieistniejącego skina',
@@ -436,7 +445,8 @@ export default {
     50: 'Ten link nie może być użyty jako link do pobrania',
     51: 'Wysłano w celu weryfikacji przez moderacje',
     52: 'Uwaga',
-    53: 'Musisz wybrać typ zasobu'
+    53: 'Musisz wybrać typ zasobu',
+    54: 'The skin is currently under moderation. Please be patient while it is being processed'
   },
   header: {
     0: 'Powiadomienia',

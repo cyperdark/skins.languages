@@ -83,7 +83,7 @@ export default {
     4: '少なくとも1人のスキンクリエーターを追加する',
     5: 'いくつかのタグを追加',
     6: 'スキンのサイズが指定されていません',
-    7: '少なくとも１つのゲームモードを選択してください',
+    // 7: 'Select at least one gamemode',
     8: '画像解像度(SDまたはHD) の選択',
     9: '少なくとも１つのアスペクト比を選択してください',
     10: 'スクリーンショットが提供されていません',
@@ -94,7 +94,8 @@ export default {
     22: 'チェックリスト',
     23: '公開されているバージョンを少なくとも1つ追加してください',
     24: 'このバージョンに少なくとも1人の作成者を追加してください',
-    25: '一部のクリエイターにロールがありません'
+    25: '一部のクリエイターにロールがありません',
+    26: '{amount} screenshots doesn\'t have category'
   },
   skins: {
     0: 'スキン',
@@ -156,7 +157,8 @@ export default {
     41: '後で確認する',
     42: `さぁ、始めましょう`,
     43: 'おめでとう！',
-    44: 'チュートリアルが完了しました。楽しんで！'
+    44: 'チュートリアルが完了しました。楽しんで！',
+    45: 'uploader'
   },
   drag: {
     0: 'ここをクリック',
@@ -207,6 +209,10 @@ export default {
     3: '準備中',
     4: '投票中',
     5: '終了'
+  },
+  rules: {
+    0: 'Last updated at',
+    1: 'Posting Skins Guidelines'
   },
   tabs: {
     0: '検索',
@@ -272,7 +278,8 @@ export default {
     osu_forum_link: 'osu! フォーラム',
     skin_return: 'スキンへ戻る',
     source: 'Source',
-    contest_voting: 'Vote here'
+    contest_voting: 'Vote here',
+    rules_agree: 'I agree'
   },
   choose: {
     0: 'Optional',
@@ -285,7 +292,8 @@ export default {
       1: 'ミキサー',
       2: 'アニメーション',
       3: 'アート',
-      4: 'コラボ'
+      4: 'コラボ',
+      5: '音'
     }
   },
   tooltips: {
@@ -340,6 +348,7 @@ export default {
     7: 'スキンエレメント',
     8: 'オーディオ/Sfx',
     9: 'ツール',
+    10: 'Image',
     views: 'ビュー',
     likes: '高評価',
     dislikes: '低評価',
@@ -422,7 +431,7 @@ export default {
     36: 'バージョン «{name}» が削除されました',
     37: 'エラー',
     38: 'どうやらサーバーはあなたをロボットだと思っているようです。',
-    39: 'ユーザーセッションの有効期限が切れているようです。新しいページを開き、アカウントにログインしてください（すべてが自動的に保存されました）',
+    39: 'Your current login session has timed out. To proceed, please open a new page and log back into your account. Once you\'ve done that, return to this page and try again.',
     40: '認証情報が一致しません (アカウントに再ログインしてください。すべてが自動的に保存されました)',
     41: '不明なエラー',
     42: '存在しないスキンを編集することはできません',
@@ -436,7 +445,8 @@ export default {
     50: 'このリンクはダウンロードリンクとして使用できません',
     51: 'モデレーションのために提出されました',
     52: '警告',
-    53: 'You need to choose type of asset'
+    53: 'You need to choose type of asset',
+    54: 'The skin is currently under moderation. Please be patient while it is being processed'
   },
   header: {
     0: '通知',

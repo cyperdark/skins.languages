@@ -83,7 +83,7 @@ export default {
     4: 'Προσθέστε τουλάχιστον έναν δημιουργό skin',
     5: 'Προσθέστε μερικές ετικέτες',
     6: 'Μη καθορισμένο μέγεθος skin',
-    7: 'Επιλέξτε τουλάχιστον μία κατηγορία',
+    // 7: 'Select at least one gamemode',
     8: 'Επιλογή ανάλυσης εικόνας (SD ή HD)',
     9: 'Επιλέξτε τουλάχιστον μία αναλογία διαστάσεων',
     10: 'Δεν παρέχονται στιγμιότυπα',
@@ -94,7 +94,8 @@ export default {
     22: 'Λίστα ελέγχου',
     23: 'Add at least one public version',
     24: 'Add at least one creator to this version',
-    25: 'Some creators doesn\'t have roles'
+    25: 'Some creators doesn\'t have roles',
+    26: '{amount} screenshots doesn\'t have category'
   },
   skins: {
     0: 'Skins',
@@ -156,7 +157,8 @@ export default {
     41: 'Check out later',
     42: `Let's get started`,
     43: 'Congratulations!',
-    44: 'You have successfully finished the tutorial, have fun!'
+    44: 'You have successfully finished the tutorial, have fun!',
+    45: 'uploader'
   },
   drag: {
     0: 'Κάντε κλικ εδώ',
@@ -207,6 +209,10 @@ export default {
     3: 'Preparing',
     4: 'Voting',
     5: 'Finished'
+  },
+  rules: {
+    0: 'Last updated at',
+    1: 'Posting Skins Guidelines'
   },
   tabs: {
     0: 'Αναζήτηση',
@@ -272,7 +278,8 @@ export default {
     osu_forum_link: 'osu! Forum',
     skin_return: 'Επιστροφή στο skin',
     source: 'Source',
-    contest_voting: 'Vote here'
+    contest_voting: 'Vote here',
+    rules_agree: 'I agree'
   },
   choose: {
     0: 'Optional',
@@ -285,7 +292,8 @@ export default {
       1: 'Μίκτης',
       2: 'Εφέ Κίνησης',
       3: 'Εικόνες',
-      4: 'Συνεργασία'
+      4: 'Συνεργασία',
+      5: 'Ήχοι'
     }
   },
   tooltips: {
@@ -340,6 +348,7 @@ export default {
     7: 'Στοιχείο skin',
     8: 'Ήχοι/Sfx',
     9: 'Εργαλεία',
+    10: 'Image',
     views: 'Προβολές',
     likes: '"Μου Αρέσει"',
     dislikes: 'Dislikes',
@@ -422,7 +431,7 @@ export default {
     36: 'Version «{name}» has been deleted',
     37: 'Error',
     38: 'Apparently the server thinks you\'re a robot.',
-    39: 'Looks like your user session has expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
+    39: 'Your current login session has timed out. To proceed, please open a new page and log back into your account. Once you\'ve done that, return to this page and try again.',
     40: 'Mismatched credentials (relogin in account. Don\'t worry, everything was saved automatically)',
     41: 'Unknown error',
     42: 'You cannot edit a nonexistent skin',
@@ -436,7 +445,8 @@ export default {
     50: 'This link cannot be used as a download link',
     51: 'Submitted for moderation',
     52: 'Warning',
-    53: 'You need to choose type of asset'
+    53: 'You need to choose type of asset',
+    54: 'The skin is currently under moderation. Please be patient while it is being processed'
   },
   header: {
     0: 'Ειδοποιήσεις',

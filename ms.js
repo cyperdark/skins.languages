@@ -83,7 +83,7 @@ export default {
     4: 'Menambah sekurang-kurangnya satu pembuat skin',
     5: 'Letakkan beberapa tag',
     6: 'Saiz skin tidak dispesifikasi',
-    7: 'Pilih sekurang-kurangnya satu mod permainan',
+    // 7: 'Select at least one gamemode',
     8: 'Pilih resolusi gambar (SD atau HD)',
     9: 'Pilih sekurang-kurangnya satu nisbah aspek',
     10: 'Tiada screenshot yang diberikan',
@@ -94,7 +94,8 @@ export default {
     22: 'Senarai semak',
     23: 'Letakkan sekurang-kurangnya satu versi awam',
     24: 'Letakkan sekurang-kurangnya satu pengarang kepada versi ini',
-    25: 'Sebahagian pereka tiada peranan'
+    25: 'Sebahagian pereka tiada peranan',
+    26: '{amount} screenshots doesn\'t have category'
   },
   skins: {
     0: 'Skin-skin',
@@ -156,7 +157,8 @@ export default {
     41: 'Check out later',
     42: `Let's get started`,
     43: 'Congratulations!',
-    44: 'You have successfully finished the tutorial, have fun!'
+    44: 'You have successfully finished the tutorial, have fun!',
+    45: 'uploader'
   },
   drag: {
     0: 'Ketik di sini',
@@ -207,6 +209,10 @@ export default {
     3: 'Preparing',
     4: 'Voting',
     5: 'Finished'
+  },
+  rules: {
+    0: 'Last updated at',
+    1: 'Posting Skins Guidelines'
   },
   tabs: {
     0: 'Cari',
@@ -272,7 +278,8 @@ export default {
     osu_forum_link: 'forum osu',
     skin_return: 'Balik ke skin',
     source: 'Source',
-    contest_voting: 'Vote here'
+    contest_voting: 'Vote here',
+    rules_agree: 'I agree'
   },
   choose: {
     0: 'Optional',
@@ -285,7 +292,8 @@ export default {
       1: 'Penggubah',
       2: 'Animasi',
       3: 'Lukisan',
-      4: 'Kolaborasi'
+      4: 'Kolaborasi',
+      5: 'Bunyi'
     }
   },
   tooltips: {
@@ -340,6 +348,7 @@ export default {
     7: 'Unsur skin',
     8: 'Audio/Sfx',
     9: 'Alat',
+    10: 'Image',
     views: 'Tontonan',
     likes: 'Suka',
     dislikes: 'Tidak suka',
@@ -422,7 +431,7 @@ export default {
     36: 'Versi {name} telah dibuang',
     37: 'Ralat',
     38: 'Nampaknya seperti server mensyaki anda ialah bot.',
-    39: 'Nampaknya sesi penggunaan anda telah tamat tempoh, buka page baharu dan log masuk akaun anda (Takpe, semuanya telah disimpan secara automatik)',
+    39: 'Your current login session has timed out. To proceed, please open a new page and log back into your account. Once you\'ve done that, return to this page and try again.',
     40: 'Maklumat kendiri tidak betul (log masuk semula ke dalam akaun. Takpe, semuanya telah disimpan secara automatik)',
     41: 'Ralat tidak diketahui',
     42: 'Anda tidak boleh mengedit skin yang tidak wujud',
@@ -436,7 +445,8 @@ export default {
     50: 'Link ini tidak boleh diguna sebagai link muat turun',
     51: 'Telah diserahkan kepada moderasi',
     52: 'Amaran',
-    53: 'You need to choose type of asset'
+    53: 'You need to choose type of asset',
+    54: 'The skin is currently under moderation. Please be patient while it is being processed'
   },
   header: {
     0: 'Notifikasi',

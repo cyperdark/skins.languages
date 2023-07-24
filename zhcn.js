@@ -83,7 +83,7 @@ export default {
     4: '添加至少一个皮肤作者',
     5: '添加多个标签',
     6: '皮肤大小未指定',
-    7: '选择至少一个游戏模式',
+    // 7: 'Select at least one gamemode',
     8: '选择图像分辨率(SD 或 HD)',
     9: '选择至少一个宽高比',
     10: '未提供截图',
@@ -94,7 +94,8 @@ export default {
     22: '检查清单',
     23: '添加至少一个公开版本',
     24: '为此版本添加至少一个创作者',
-    25: '部分创作者没有角色'
+    25: '部分创作者没有角色',
+    26: '{amount} screenshots doesn\'t have category'
   },
   skins: {
     0: '皮肤',
@@ -156,7 +157,8 @@ export default {
     41: 'Check out later',
     42: `Let's get started`,
     43: 'Congratulations!',
-    44: 'You have successfully finished the tutorial, have fun!'
+    44: 'You have successfully finished the tutorial, have fun!',
+    45: 'uploader'
   },
   drag: {
     0: '点击这里',
@@ -207,6 +209,10 @@ export default {
     3: 'Preparing',
     4: 'Voting',
     5: 'Finished'
+  },
+  rules: {
+    0: 'Last updated at',
+    1: 'Posting Skins Guidelines'
   },
   tabs: {
     0: '搜索',
@@ -272,7 +278,8 @@ export default {
     osu_forum_link: 'osu! 论坛',
     skin_return: '返回皮肤',
     source: 'Source',
-    contest_voting: 'Vote here'
+    contest_voting: 'Vote here',
+    rules_agree: 'I agree'
   },
   choose: {
     0: 'Optional',
@@ -285,7 +292,8 @@ export default {
       1: '混合器',
       2: '动画',
       3: '艺术品',
-      4: '合作'
+      4: '合作',
+      5: '音效'
     }
   },
   tooltips: {
@@ -340,6 +348,7 @@ export default {
     7: '皮肤元素',
     8: '音效',
     9: '工具',
+    10: 'Image',
     views: '浏览量',
     likes: '喜欢',
     dislikes: '不喜欢',
@@ -422,7 +431,7 @@ export default {
     36: '版本 «{name}» 已删除',
     37: '错误',
     38: '显然服务器把您当成了机器人。',
-    39: '您的用户会话似乎已过期，请打开一个新页面并登录您的账户（不必担心，所有内容都已自动保存）',
+    39: 'Your current login session has timed out. To proceed, please open a new page and log back into your account. Once you\'ve done that, return to this page and try again.',
     40: '凭据不匹配（请重新登录账户。不必担心，所有内容都已自动保存）',
     41: '未知错误',
     42: '您不能编辑一个不存在的皮肤',
@@ -436,7 +445,8 @@ export default {
     50: '此链接无法用作下载链接',
     51: '已提交审核',
     52: '注意',
-    53: 'You need to choose type of asset'
+    53: 'You need to choose type of asset',
+    54: 'The skin is currently under moderation. Please be patient while it is being processed'
   },
   header: {
     0: '通知',

@@ -83,7 +83,7 @@ export default {
     4: 'Tambahkan setidaknya satu pembuat skin',
     5: 'Tambahkan beberapa label',
     6: 'Ukuran skin tidak ditentukan',
-    7: 'Pilih setidaknya satu gamemode',
+    // 7: 'Select at least one gamemode',
     8: 'Pilih resolusi gambar (SD atau HD)',
     9: 'Pilih setidaknya satu aspek rasio',
     10: 'Tidak diberikan screenshot',
@@ -94,7 +94,8 @@ export default {
     22: 'Daftar cek',
     23: 'Tambahkan setidaknya satu versi publik',
     24: 'Tambahkan setidaknya satu pembuat untuk versi ini',
-    25: 'Beberapa pembuat tidak mempunyai peran'
+    25: 'Beberapa pembuat tidak mempunyai peran',
+    26: '{amount} screenshots doesn\'t have category'
   },
   skins: {
     0: 'Skin',
@@ -156,7 +157,8 @@ export default {
     41: 'Cek kembali nanti',
     42: `Mari kita mulai`,
     43: 'Selamat!',
-    44: 'Kamu telah sukses menamatkan tutorial, have fun!'
+    44: 'Kamu telah sukses menamatkan tutorial, have fun!',
+    45: 'uploader'
   },
   drag: {
     0: 'Klik disini',
@@ -207,6 +209,10 @@ export default {
     3: 'Persiapan',
     4: 'Pemungutan suara',
     5: 'Diselesaikan'
+  },
+  rules: {
+    0: 'Last updated at',
+    1: 'Posting Skins Guidelines'
   },
   tabs: {
     0: 'Cari',
@@ -272,7 +278,8 @@ export default {
     osu_forum_link: 'Forum osu!',
     skin_return: 'Kembali ke skin',
     source: 'Source',
-    contest_voting: 'Vote di sini'
+    contest_voting: 'Vote di sini',
+    rules_agree: 'I agree'
   },
   choose: {
     0: 'Opsional',
@@ -285,7 +292,8 @@ export default {
       1: 'Mixer',
       2: 'Animasi',
       3: 'Art',
-      4: 'Collab'
+      4: 'Collab',
+      5: 'Suara'
     }
   },
   tooltips: {
@@ -340,6 +348,7 @@ export default {
     7: 'Elemen skin',
     8: 'Audio/SFX',
     9: 'Alat',
+    10: 'Image',
     views: 'Dilihat',
     likes: 'Suka',
     dislikes: 'Tidak suka',
@@ -422,7 +431,7 @@ export default {
     36: 'Versi «{name}» telah dihapus',
     37: 'Eror',
     38: 'Rupanya server menganggap anda robot.',
-    39: 'Sepertinya sesi-mu berakhir, mohon untuk membuka page baru dan log in ke akun mu (Jangan khawatir, semuanya telah di save secara otomatis)',
+    39: 'Your current login session has timed out. To proceed, please open a new page and log back into your account. Once you\'ve done that, return to this page and try again.',
     40: 'Mismatched credentials (relogin in account. Don\'t worry, everything was saved automatically)',
     41: 'Kesalahan tidak diketahui',
     42: 'Kamu tidak dapat mengedit skin yang tidak ada',
@@ -436,7 +445,8 @@ export default {
     50: 'Tautan ini tidak dapat digunakan sebagai tautan unduhan',
     51: 'Dikirimkan untuk moderasi',
     52: 'Peringatan',
-    53: 'Kamu butuh memilih tipe aset'
+    53: 'Kamu butuh memilih tipe aset',
+    54: 'The skin is currently under moderation. Please be patient while it is being processed'
   },
   header: {
     0: 'Notifikasi',

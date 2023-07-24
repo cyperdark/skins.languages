@@ -83,7 +83,7 @@ export default {
     4: 'Lägg till åtminstone en skin skapare',
     5: 'Lägg till ett par taggar',
     6: 'Storleken av skinnet är inte specificerad',
-    7: 'Välj åtminstone ett spelläge',
+    // 7: 'Select at least one gamemode',
     8: 'Välj bildupplösning (SD eller HD)',
     9: 'Välj åtminstone ett bildförhållande',
     10: 'Inga skärmbilder är uppladdade',
@@ -94,7 +94,8 @@ export default {
     22: 'Checklista',
     23: 'Lägg till minst en offentlig version',
     24: 'Lägg till minst en skapare till denna version',
-    25: 'Vissa skapare har inga roller'
+    25: 'Vissa skapare har inga roller',
+    26: '{amount} screenshots doesn\'t have category'
   },
   skins: {
     0: 'Skins',
@@ -156,7 +157,8 @@ export default {
     41: 'Check out later',
     42: `Let's get started`,
     43: 'Congratulations!',
-    44: 'You have successfully finished the tutorial, have fun!'
+    44: 'You have successfully finished the tutorial, have fun!',
+    45: 'uploader'
   },
   drag: {
     0: 'Klicka här',
@@ -207,6 +209,10 @@ export default {
     3: 'Preparing',
     4: 'Voting',
     5: 'Finished'
+  },
+  rules: {
+    0: 'Last updated at',
+    1: 'Posting Skins Guidelines'
   },
   tabs: {
     0: 'Sök efter',
@@ -272,7 +278,8 @@ export default {
     osu_forum_link: 'osu! Forum',
     skin_return: 'Tillbaka till skin',
     source: 'Source',
-    contest_voting: 'Vote here'
+    contest_voting: 'Vote here',
+    rules_agree: 'I agree'
   },
   choose: {
     0: 'Optional',
@@ -285,7 +292,8 @@ export default {
       1: 'Mixer',
       2: 'Animationer',
       3: 'Konstverk',
-      4: 'Samarbete'
+      4: 'Samarbete',
+      5: 'Ljud'
     }
   },
   tooltips: {
@@ -340,6 +348,7 @@ export default {
     7: 'Skin element',
     8: 'Ljud/Sfx',
     9: 'Verktyg',
+    10: 'Image',
     views: 'Visningar',
     likes: 'Gillar',
     dislikes: 'Ogillar',
@@ -422,7 +431,7 @@ export default {
     36: 'Version «{name}» har raderats',
     37: 'Error',
     38: 'Uppenbarligen tror servern att du är en robot.',
-    39: 'Ser ut som din användarsession har gått ut, öppna en ny sida och logga in på ditt konto (oroa dig inte, allting sparades automatiskt)',
+    39: 'Your current login session has timed out. To proceed, please open a new page and log back into your account. Once you\'ve done that, return to this page and try again.',
     40: 'Inloggningsuppgifterna stämmer inte överens (logga in på ditt konto igen. Oroa dig inte, allt sparades automatiskt)',
     41: 'Okänt fel',
     42: 'Du kan inte redigera ett icke-existerande skin',
@@ -436,7 +445,8 @@ export default {
     50: 'Denna länk kan inte användas som en nedladdningslänk',
     51: 'Skickad till moderering',
     52: 'Varning',
-    53: 'You need to choose type of asset'
+    53: 'You need to choose type of asset',
+    54: 'The skin is currently under moderation. Please be patient while it is being processed'
   },
   header: {
     0: 'Notiser',

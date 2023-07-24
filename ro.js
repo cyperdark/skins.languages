@@ -83,7 +83,7 @@ export default {
     4: 'Adaugă cel puțin un creator al skinului',
     5: 'Adaugă câteva etichete',
     6: 'Mărimea skinului nespecificată',
-    7: 'Selectează cel puțin un mod de joc',
+    // 7: 'Select at least one gamemode',
     8: 'Selectează tipul fișierului (SD sau HD)',
     9: 'Selectează cel puțin un aspect ratio',
     10: 'Nici o captură de ecran furnizată',
@@ -94,7 +94,8 @@ export default {
     22: 'Listă de verificare',
     23: 'Adaugă cel puțin o versiune publică',
     24: 'Adaugă cel puțin un creator la această versiune',
-    25: 'Unii creatori nu au roluri'
+    25: 'Unii creatori nu au roluri',
+    26: '{amount} screenshots doesn\'t have category'
   },
   skins: {
     0: 'Skinuri',
@@ -156,7 +157,8 @@ export default {
     41: 'Verifică mai târziu',
     42: `Să începem`,
     43: 'Felicitări!',
-    44: 'Ai terminat cu succes tutorialul, distrează-te!'
+    44: 'Ai terminat cu succes tutorialul, distrează-te!',
+    45: 'uploader'
   },
   drag: {
     0: 'Apasă aici',
@@ -207,6 +209,10 @@ export default {
     3: 'Pregătire',
     4: 'Votare',
     5: 'Terminat'
+  },
+  rules: {
+    0: 'Actualizat ultima dată la',
+    1: 'Reguli de postare a skin urilor'
   },
   tabs: {
     0: 'Căutare',
@@ -272,7 +278,8 @@ export default {
     osu_forum_link: 'Forum osu!',
     skin_return: 'Înapoi la skin',
     source: 'Sursă',
-    contest_voting: 'Votează aici'
+    contest_voting: 'Votează aici',
+    rules_agree: 'Sunt de acord'
   },
   choose: {
     0: 'Opțional',
@@ -285,7 +292,8 @@ export default {
       1: 'Mixer',
       2: 'Animații',
       3: 'Opere',
-      4: 'Collab'
+      4: 'Collab',
+      5: 'Sunete'
     }
   },
   tooltips: {
@@ -340,6 +348,7 @@ export default {
     7: 'Elementul/Elementele skinului',
     8: 'Audio/Sfx',
     9: 'Instrumente',
+    10: 'Imagine',
     views: 'Vizualizări',
     likes: 'Like-uri',
     dislikes: 'Dislike-uri',
@@ -422,7 +431,7 @@ export default {
     36: 'Versiunea «{name}» a fost ștearsă',
     37: 'Eroare',
     38: 'Aparent, serverul crede că ești un robot.',
-    39: 'Se pare că sesiunea ta a expirat, deschide o nouă pagină și conectează-te la contul tău (Nu iți face griji, totul a fost salvat automat)',
+    39: 'Sesiunea ta de autentificare a expirat. Pentru a continua, te rog să deschizi o nouă pagină și să te autentifici din nou în contul tău. Odată ce ai făcut asta, întoarce-te la această pagină și încearcă din nou.',
     40: 'Date de conectare incorecte (Reconectează-te în cont. Nu îți faceți griji, totul a fost salvat automat)',
     41: 'Eroare necunoscută',
     42: 'Nu poți edita un skin inexistent',
@@ -436,7 +445,8 @@ export default {
     50: 'Acest link nu poate fi folosit ca un link de descărcare',
     51: 'Trimis spre moderare',
     52: 'Atenție',
-    53: 'Este nevoie să alegi tipul de asset'
+    53: 'Este nevoie să alegi tipul de asset',
+    54: 'Skin ul este în prezent sub moderare. Te rog ai răbdare cât timp este procesat'
   },
   header: {
     0: 'Notificări',

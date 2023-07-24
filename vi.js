@@ -83,7 +83,7 @@ export default {
     4: 'Thêm vào ít nhất một tác giả tạo skin',
     5: 'Thêm một số tag',
     6: 'Kích thước skin không xác định',
-    7: 'Chọn ít nhất một chế độ chơi',
+    // 7: 'Select at least one gamemode',
     8: 'Chọn độ phân giải hình ảnh (SD hoặc HD)',
     9: 'Chọn ít nhất một tỷ lệ khung hình',
     10: 'Ảnh chụp màn hình không khả dụng',
@@ -94,7 +94,8 @@ export default {
     22: 'Danh mục',
     23: 'Thêm ít nhất một phiên bản công khai',
     24: 'Thêm ít nhất một tác giả cho phiên bản này',
-    25: 'Mốt số tác giả không có vai trò'
+    25: 'Mốt số tác giả không có vai trò',
+    26: '{amount} screenshots doesn\'t have category'
   },
   skins: {
     0: 'Skin',
@@ -156,7 +157,8 @@ export default {
     41: 'Hãy ghé lại sau',
     42: `Hãy bắt đầu`,
     43: 'Xin chúc mừng!',
-    44: 'Bạn đã hoàn thành hướng dẫn, chúc vui vẻ!'
+    44: 'Bạn đã hoàn thành hướng dẫn, chúc vui vẻ!',
+    45: 'uploader'
   },
   drag: {
     0: 'Nhấn vào đây',
@@ -207,6 +209,10 @@ export default {
     3: 'Đang chuẩn bị',
     4: 'Đang bình chọn',
     5: 'Đã hoàn thành'
+  },
+  rules: {
+    0: 'Last updated at',
+    1: 'Posting Skins Guidelines'
   },
   tabs: {
     0: 'Tìm kiếm',
@@ -272,7 +278,8 @@ export default {
     osu_forum_link: 'osu! Forum',
     skin_return: 'Quay trở lại skin',
     source: 'Nguồn',
-    contest_voting: 'Bình chọn tại đây'
+    contest_voting: 'Bình chọn tại đây',
+    rules_agree: 'I agree'
   },
   choose: {
     0: 'Tuỳ chọn',
@@ -285,7 +292,8 @@ export default {
       1: 'Mixer',
       2: 'Hoạt họa',
       3: 'Tranh vẽ',
-      4: 'Collab'
+      4: 'Collab',
+      5: 'Âm thanh'
     }
   },
   tooltips: {
@@ -340,6 +348,7 @@ export default {
     7: 'Yếu tố skin',
     8: 'Âm thanh/Sfx',
     9: 'Công cụ',
+    10: 'Image',
     views: 'Lượt xem',
     likes: 'Thích',
     dislikes: 'Không thích',
@@ -422,7 +431,7 @@ export default {
     36: 'Phiên bản «{name}» đã được xoá',
     37: 'Lỗi',
     38: 'Dường như máy chủ nghĩ rằng bạn là bot.',
-    39: 'Có vẻ như phiên đăng nhập của bạn đã hết hạn, hãy mở một trang mới và đăng nhập lại (Đừng lo, mọi thứ đã được tự động lưu lại)',
+    39: 'Your current login session has timed out. To proceed, please open a new page and log back into your account. Once you\'ve done that, return to this page and try again.',
     40: 'Thông tin không khớp (hãy đăng nhập lại. Đừng lo, mọi thứ đã được tự động lưu lại)',
     41: 'Lỗi không rõ',
     42: 'Bạn không thể chỉnh sửa skin không tồn tại',
@@ -436,7 +445,8 @@ export default {
     50: 'Liên kết này không thể dùng làm link tải về',
     51: 'Đã gửi cho kiểm duyệt',
     52: 'Cảnh báo',
-    53: 'Bạn cần chọn loại asset'
+    53: 'Bạn cần chọn loại asset',
+    54: 'The skin is currently under moderation. Please be patient while it is being processed'
   },
   header: {
     0: 'Thông báo',

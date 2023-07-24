@@ -83,7 +83,7 @@ export default {
     4: 'הוסף לפחות יוצר סקין אחד',
     5: 'הוסף מספר תגים',
     6: 'גודל הסקין אינו מצויין',
-    7: 'בחר לפחות מצב משחק אחד',
+    // 7: 'Select at least one gamemode',
     8: 'בחר רזולוציה לתמונה (SD או HD)',
     9: 'בחר לפחות יחס גובה־רוחב אחד',
     10: 'לא סופק אף צילום מסך',
@@ -94,7 +94,8 @@ export default {
     22: 'צ\'ק ליסט',
     23: 'הוסף לפחות גרסה פומבית אחת',
     24: 'הוסף לפחות יוצר אחד לגרסה זו',
-    25: 'לחלק מהיוצרים אין תפקיד'
+    25: 'לחלק מהיוצרים אין תפקיד',
+    26: '{amount} screenshots doesn\'t have category'
   },
   skins: {
     0: 'סקינים',
@@ -156,7 +157,8 @@ export default {
     41: 'Check out later',
     42: `Let's get started`,
     43: 'Congratulations!',
-    44: 'You have successfully finished the tutorial, have fun!'
+    44: 'You have successfully finished the tutorial, have fun!',
+    45: 'uploader'
   },
   drag: {
     0: 'לחץ כאן',
@@ -207,6 +209,10 @@ export default {
     3: 'Preparing',
     4: 'Voting',
     5: 'Finished'
+  },
+  rules: {
+    0: 'Last updated at',
+    1: 'Posting Skins Guidelines'
   },
   tabs: {
     0: 'חיפוש',
@@ -272,7 +278,8 @@ export default {
     osu_forum_link: 'פורום osu!',
     skin_return: 'חזרה לסקין',
     source: 'Source',
-    contest_voting: 'Vote here'
+    contest_voting: 'Vote here',
+    rules_agree: 'I agree'
   },
   choose: {
     0: 'Optional',
@@ -285,7 +292,8 @@ export default {
       1: 'מערבב',
       2: 'אנימציות',
       3: 'אומנויות',
-      4: 'משתף פעולה'
+      4: 'משתף פעולה',
+      5: 'קולות'
     }
   },
   tooltips: {
@@ -340,6 +348,7 @@ export default {
     7: 'Skin element',
     8: 'Audio/Sfx',
     9: 'Tools',
+    10: 'Image',
     views: 'צפיות',
     likes: 'לייקים',
     dislikes: 'דיסלייקים',
@@ -422,7 +431,7 @@ export default {
     36: 'Version «{name}» has been deleted',
     37: 'Error',
     38: 'Apparently the server thinks you\'re a robot.',
-    39: 'Looks like your user session has expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
+    39: 'Your current login session has timed out. To proceed, please open a new page and log back into your account. Once you\'ve done that, return to this page and try again.',
     40: 'Mismatched credentials (relogin in account. Don\'t worry, everything was saved automatically)',
     41: 'Unknown error',
     42: 'You cannot edit a nonexistent skin',
@@ -436,7 +445,8 @@ export default {
     50: 'This link cannot be used as a download link',
     51: 'Submitted for moderation',
     52: 'Warning',
-    53: 'You need to choose type of asset'
+    53: 'You need to choose type of asset',
+    54: 'The skin is currently under moderation. Please be patient while it is being processed'
   },
   header: {
     0: 'התראות',
