@@ -83,7 +83,7 @@ export default {
     4: 'Voeg tenminste één auteur van de skin toe',
     5: 'Voeg een paar tags toe',
     6: 'Grootte van de skin is niet gegeven',
-    7: 'Selecteer tenminste één gamemode',
+    // 7: 'Select at least one gamemode',
     8: 'Selecteer een file type (SD of HD)',
     9: 'Selecteer tenminste één aspect ratio',
     10: 'Geen schermopnames aangeboden',
@@ -94,7 +94,8 @@ export default {
     22: 'Checklist',
     23: 'Voeg minimaal één openbare versie toe',
     24: 'Voeg tenminste één maker toe aan deze versie',
-    25: 'Sommige makers hebben geen rollen'
+    25: 'Sommige makers hebben geen rollen',
+    26: '{amount} screenshots doesn\'t have category'
   },
   skins: {
     0: 'Skins',
@@ -156,7 +157,8 @@ export default {
     41: 'Bekijk later',
     42: `Laten we beginnen`,
     43: 'Gefeliciteerd!',
-    44: 'Je hebt succesvol de introductie voltooid, veel plezier!'
+    44: 'Je hebt succesvol de introductie voltooid, veel plezier!',
+    45: 'uploader'
   },
   drag: {
     0: 'Klik hier',
@@ -207,6 +209,10 @@ export default {
     3: 'Aan het voorbereiden',
     4: 'Stemmen',
     5: 'Voltooid'
+  },
+  rules: {
+    0: 'Last updated at',
+    1: 'Posting Skins Guidelines'
   },
   tabs: {
     0: 'Zoek',
@@ -272,7 +278,8 @@ export default {
     osu_forum_link: 'osu! Forum',
     skin_return: 'Terug naar skin',
     source: 'Bron',
-    contest_voting: 'Stem hier'
+    contest_voting: 'Stem hier',
+    rules_agree: 'I agree'
   },
   choose: {
     0: 'Optioneel',
@@ -285,7 +292,8 @@ export default {
       1: 'Mixer',
       2: 'Animaties',
       3: 'Kunstwerken',
-      4: 'Samenwerking '
+      4: 'Samenwerking ',
+      5: 'Geluiden'
     }
   },
   tooltips: {
@@ -340,6 +348,7 @@ export default {
     7: 'Skin element',
     8: 'Geluid/Geluidseffecten',
     9: 'Hulpmiddelen',
+    10: 'Image',
     views: 'Weergaven',
     likes: 'Duimpies',
     dislikes: 'Duimpies omlaag',
@@ -422,7 +431,7 @@ export default {
     36: 'Versie «{name}» is verwijderd',
     37: 'Foutmelding',
     38: 'Blijkbaar denkt de server dat je een robot bent.',
-    39: 'Het lijkt erop dat je sessie is verlopen, open een nieuwe pagina en log in op je account (Geen zorgen, alles is automatisch opgeslagen)',
+    39: 'Your current login session has timed out. To proceed, please open a new page and log back into your account. Once you\'ve done that, return to this page and try again.',
     40: 'Niet overeenkomende gegevens (opnieuw inloggen in account. Geen zorgen, alles is automatisch opgeslagen)',
     41: 'Onbekende foutmelding',
     42: 'Je kan een niet bestaande skin niet bewerken',
@@ -436,7 +445,8 @@ export default {
     50: 'Deze link kan niet gebruikt worden als download link',
     51: 'Ingediend voor moderatie',
     52: 'Waarschuwing',
-    53: 'Je moet een type of asset keizen'
+    53: 'Je moet een type of asset keizen',
+    54: 'The skin is currently under moderation. Please be patient while it is being processed'
   },
   header: {
     0: 'Notificaties',
