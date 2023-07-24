@@ -4,7 +4,7 @@ export default {
     login: 'Anmelden',
     lists: { 0: 'Listen' },
     tags: {
-      0: 'Stichworte',
+      0: 'Tags',
       1: '{amount} Stichworte für die Kategorie {name}',
       2: 'Tags suchen'
     },
@@ -22,9 +22,9 @@ export default {
     tools: 'Werkzeuge'
   },
   home: {
-    0: 'Zum Herunterladen verfügbar',
+    0: 'Als Download verfügbar',
     1: 'Meisten: _name_ Skins',
-    2: 'Gesehen | Gefällt | Heruntergeladen',
+    2: 'Aufrufe | Gefällt | Downloads',
     3: 'Neuen Skin veröffentlichen',
     4: 'Wie installiert man Skins',
     5: '{amount} Skins | {amount} Skins | {amount} Skins'
@@ -54,7 +54,7 @@ export default {
     6: 'Versionen'
   },
   tags: {
-    0: 'Stichworte',
+    0: 'Tags',
     1: 'Liste von allen Stichworten, die mit diesem Skin in Beziehung stehen.',
     2: 'Es wirkt sehr leer hier...',
     3: 'Benutze das obere Feld um neue Stichwörter zu finden.',
@@ -83,7 +83,7 @@ export default {
     4: 'Füge mindestens einen Skin-Ersteller hinzu',
     5: 'Füge einige Stichwörter hinzu',
     6: 'Dateigröße des Skins nicht angegeben.',
-    7: 'Wähle mindestens einen Spielmodus aus!',
+    // 7: 'Select at least one gamemode',
     8: 'Auflösung auswählen (SD oder HD)',
     9: 'Wähle mindestens ein Seitenverhältnis aus!',
     10: 'Keine Bildschirmfotos vorhanden',
@@ -94,7 +94,8 @@ export default {
     22: 'Checkliste',
     23: 'Füge mindestens eine öffentliche Version hinzu',
     24: 'Füge mindestens einen Ersteller dieser Version hinzu',
-    25: 'Einige Ersteller haben keine Rollen'
+    25: 'Einige Ersteller haben keine Rollen',
+    26: '{amount} screenshots doesn\'t have category'
   },
   skins: {
     0: 'Skins',
@@ -124,7 +125,7 @@ export default {
     8: 'Forumsbeitrag | osu! Forum',
     9: 'Redditbeitrag',
     10: 'Ersteller',
-    11: 'Stichworte',
+    11: 'Tags',
     13: 'Videos',
     14: 'Neue Version | Versionen verwalten',
     15: 'Aktualisieren | Einreichen',
@@ -156,7 +157,8 @@ export default {
     41: 'Versuche es später',
     42: `Fangen wir an`,
     43: 'Herzlichen Glückwunsch!',
-    44: 'Du hast das Tutorial erfolgreich abgeschlossen, viel Spaß!'
+    44: 'Du hast das Tutorial erfolgreich abgeschlossen, viel Spaß!',
+    45: 'uploader'
   },
   drag: {
     0: 'Klicke hier',
@@ -194,7 +196,7 @@ export default {
     12: 'Name',
     13: {
       0: 'Skins',
-      1: 'Stichworte',
+      1: 'Tags',
       2: 'Benutzer',
       3: 'Listen'
     },
@@ -207,6 +209,10 @@ export default {
     3: 'Bereite vor',
     4: 'Abstimmung',
     5: 'Fertig'
+  },
+  rules: {
+    0: 'Zuletzt aktualisiert am',
+    1: 'Skin-Veröffentlichungsrichtlinien'
   },
   tabs: {
     0: 'Suche',
@@ -272,7 +278,8 @@ export default {
     osu_forum_link: 'osu! Forum',
     skin_return: 'Zurück zum Skin',
     source: 'Quelle',
-    contest_voting: 'Stimme hier ab'
+    contest_voting: 'Stimme hier ab',
+    rules_agree: 'Ich stimme zu'
   },
   choose: {
     0: 'Optional',
@@ -285,7 +292,8 @@ export default {
       1: 'Mixer',
       2: 'Animationen',
       3: 'Zeichnungen',
-      4: 'Mitwirkende'
+      4: 'Mitwirkende',
+      5: 'Sounds'
     }
   },
   tooltips: {
@@ -340,6 +348,7 @@ export default {
     7: 'Skinelement',
     8: 'Audio/Soundeffekte',
     9: 'Werkzeuge',
+    10: 'Bild',
     views: 'Aufrufe',
     likes: 'Likes',
     dislikes: 'Dislikes',
@@ -422,7 +431,7 @@ export default {
     36: 'Version «{name}» wurde gelöscht',
     37: 'Fehler',
     38: 'Anscheinend denkt der Server du bist ein Roboter. ¯\\_(ツ)_/¯',
-    39: 'Deine Sitzung ist abgelaufen. Öffne eine neue Seite und logge dich in dein Konto ein (Keine Sorge, alles wurde automatisch gespeichert)',
+    39: 'Deine aktuelle Login-Sitzung ist abgelaufen. Um fortzufahren, öffne eine neue Seite und logge dich wieder in dein Konto ein. Sobald du das getan hast, kannst du zu dieser Seite zurückkehren und es erneut versuchen.',
     40: 'Falsche Anmeldedaten (Logge dich noch einmal an. Keine Sorge, alles wurde automatisch gespeichert)',
     41: 'Unbekannter Fehler',
     42: 'Du kannst einen nicht existierenden Skin nicht bearbeiten',
@@ -436,7 +445,8 @@ export default {
     50: 'Dieser Link kann nicht als Download-Link verwendet werden',
     51: 'Zur Moderation gesendet',
     52: 'Warnung',
-    53: 'Du musst eine Art Asset auswählen'
+    53: 'Du musst eine Art Asset auswählen',
+    54: 'The skin is currently under moderation. Please be patient while it is being processed'
   },
   header: {
     0: 'Benachrichtigungen',
