@@ -83,7 +83,7 @@ export default {
     4: 'Skini oluşturan en az bir kişi ekleyin',
     5: 'Birkaç etiket ekleyin',
     6: 'Skinin boyutu belirtilmemiş',
-    7: 'En az bir oyun modu seçin',
+    // 7: 'Select at least one gamemode',
     8: 'Görsel çözünürlüğü seçin (SD ya da HD)',
     9: 'En az bir çerçeve oranı seçin',
     10: 'Ekran görüntüsü sağlanamıyor',
@@ -94,7 +94,8 @@ export default {
     22: 'Kontrol listesi',
     23: 'Herkese açık en az bir versiyon ekleyin',
     24: 'Bu versiyona en az bir yaratıcı ekle',
-    25: 'Bazı yaratıcılar role sahip değil'
+    25: 'Bazı yaratıcılar role sahip değil',
+    26: '{amount} screenshots doesn\'t have category'
   },
   skins: {
     0: 'Skinler',
@@ -156,7 +157,8 @@ export default {
     41: 'Check out later',
     42: `Let's get started`,
     43: 'Congratulations!',
-    44: 'You have successfully finished the tutorial, have fun!'
+    44: 'You have successfully finished the tutorial, have fun!',
+    45: 'uploader'
   },
   drag: {
     0: 'Buraya tıklayın',
@@ -207,6 +209,10 @@ export default {
     3: 'Preparing',
     4: 'Voting',
     5: 'Finished'
+  },
+  rules: {
+    0: 'Last updated at',
+    1: 'Posting Skins Guidelines'
   },
   tabs: {
     0: 'Ara',
@@ -272,7 +278,8 @@ export default {
     osu_forum_link: 'osu! Forum',
     skin_return: 'Skine dön',
     source: 'Source',
-    contest_voting: 'Vote here'
+    contest_voting: 'Vote here',
+    rules_agree: 'I agree'
   },
   choose: {
     0: 'Optional',
@@ -285,7 +292,8 @@ export default {
       1: 'Mixer',
       2: 'Animasyonlar',
       3: 'Resimler',
-      4: 'Katılımcı'
+      4: 'Katılımcı',
+      5: 'Sesler'
     }
   },
   tooltips: {
@@ -340,6 +348,7 @@ export default {
     7: 'Skin element',
     8: 'Audio/Sfx',
     9: 'Toollar',
+    10: 'Image',
     views: 'Görüntülenme',
     likes: 'Beğeni',
     dislikes: 'Beğenmeme',
@@ -422,7 +431,7 @@ export default {
     36: '«{name}» versiyonu silinmiş',
     37: 'Hata',
     38: 'Görüşüne göre sunucu sizin bir robot olduğunuza kanaat getirmiş.',
-    39: 'Görünüşe göre kullanıcı oturumunuzun süresi dolmuş, yeni bir sayfa açın ve hesabınıza giriş yapın (Endişelenmeyin, her şey otomatik olarak kaydedildi)',
+    39: 'Your current login session has timed out. To proceed, please open a new page and log back into your account. Once you\'ve done that, return to this page and try again.',
     40: 'Kimlik bilgileri uyuşmuyor (Hesabınıza tekrar giriş yapın. Merak etmene gerek yok, her şey otomatik olarak kaydedildi)',
     41: 'Bilinmeyen hata',
     42: 'Var olmayan bir skinde değişiklik yapamazsın',
@@ -436,7 +445,8 @@ export default {
     50: 'Bu link bir indirme bağlantısı olarak kullanılamaz',
     51: 'Moderasyon için gönderildi',
     52: 'Uyarı',
-    53: 'You need to choose type of asset'
+    53: 'You need to choose type of asset',
+    54: 'The skin is currently under moderation. Please be patient while it is being processed'
   },
   header: {
     0: 'Bildirimler',
