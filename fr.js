@@ -83,7 +83,7 @@ export default {
     4: 'Ajoutez au moins un créateur',
     5: 'Ajoutez quelques tags',
     6: 'Taille du skin non spécifiée',
-    7: 'Sélectionnez au moins un mode de jeu',
+    // 7: 'Select at least one gamemode',
     8: 'Sélectionnez un type de fichier (SD ou HD)',
     9: 'Sélectionnez au moins un format d\'image',
     10: 'Aucune capture d\'écran n\'a été fournie',
@@ -94,7 +94,8 @@ export default {
     22: 'Liste de contrôle',
     23: 'Ajoutez au moins une version publique',
     24: 'Ajouter au moins un créateur à cette version',
-    25: 'Certains créateurs n\'ont pas de rôles'
+    25: 'Certains créateurs n\'ont pas de rôles',
+    26: '{amount} screenshots doesn\'t have category'
   },
   skins: {
     0: 'Skins',
@@ -156,7 +157,8 @@ export default {
     41: 'Voir plus tard',
     42: `Commençons`,
     43: 'Félicitations !',
-    44: 'Vous avez terminé le tutoriel avec succès, amusez-vous !'
+    44: 'Vous avez terminé le tutoriel avec succès, amusez-vous !',
+    45: 'uploader'
   },
   drag: {
     0: 'Cliquez ici',
@@ -207,6 +209,10 @@ export default {
     3: 'Préparation',
     4: 'Vote en cours',
     5: 'Terminé'
+  },
+  rules: {
+    0: 'Dernière mise à jour le',
+    1: 'Guide pour la publication des Skins'
   },
   tabs: {
     0: 'Rechercher',
@@ -272,7 +278,8 @@ export default {
     osu_forum_link: 'Forum osu!',
     skin_return: 'Retour au skin',
     source: 'Source',
-    contest_voting: 'Votez ici'
+    contest_voting: 'Votez ici',
+    rules_agree: 'J\'accepte'
   },
   choose: {
     0: 'Facultatif',
@@ -285,7 +292,8 @@ export default {
       1: 'Mixeur',
       2: 'Animations',
       3: 'Œuvres',
-      4: 'Collab'
+      4: 'Collab',
+      5: 'Sons'
     }
   },
   tooltips: {
@@ -340,6 +348,7 @@ export default {
     7: 'Element du skin',
     8: 'Audio/Sfx',
     9: 'Outils',
+    10: 'Image',
     views: 'Vues',
     likes: 'J\'aime',
     dislikes: 'Je n\'aime pas',
@@ -422,7 +431,7 @@ export default {
     36: 'La version « {name} » a été supprimée',
     37: 'Erreur',
     38: 'Apparemment, le serveur pense que vous êtes un robot.',
-    39: 'On dirait que votre session utilisateur a expirée, ouvrez une nouvelle page et connectez-vous à votre compte (ne vous inquiétez pas, tout a été sauvegardé automatiquement)',
+    39: 'Your current login session has timed out. To proceed, please open a new page and log back into your account. Once you\'ve done that, return to this page and try again.',
     40: 'Les identifiants ne correspondent pas (reconnexion dans le compte. Ne vous inquiétez pas, tout a été sauvegardé automatiquement)',
     41: 'Erreur inconnue',
     42: 'Vous ne pouvez pas modifier un skin inexistant',
@@ -436,7 +445,8 @@ export default {
     50: 'Ce lien ne peut pas être utilisé comme un lien de téléchargement',
     51: 'Soumis pour modération',
     52: 'Attention',
-    53: 'Vous devez choisir le type de ressource'
+    53: 'Vous devez choisir le type de ressource',
+    54: 'Le skin est actuellement en cours de modération. Veuillez patienter pendant le traitement'
   },
   header: {
     0: 'Notifications',
