@@ -83,7 +83,7 @@ export default {
     4: 'Přidejte alespoň jednoho autora skinu',
     5: 'Přidejte pár značek',
     6: 'Velikost skinu není specifikována',
-    7: 'Vyberte alespoň jeden herní mód',
+    // 7: 'Select at least one gamemode',
     8: 'Vyberte typ složky (SD nebo HD)',
     9: 'Vyberte nejméně jeden poměr stran',
     10: 'Žádný snímek obrazovky',
@@ -94,7 +94,8 @@ export default {
     22: 'Kontrolní listina',
     23: 'Přidejte alespoň jednu veřejnou verzi',
     24: 'Přidat alespoň jednoho autora k této verzi',
-    25: 'Někteří autoři nemají roli'
+    25: 'Někteří autoři nemají roli',
+    26: '{amount} screenshots doesn\'t have category'
   },
   skins: {
     0: 'Skiny',
@@ -156,7 +157,8 @@ export default {
     41: 'Check out later',
     42: `Let's get started`,
     43: 'Congratulations!',
-    44: 'You have successfully finished the tutorial, have fun!'
+    44: 'You have successfully finished the tutorial, have fun!',
+    45: 'uploader'
   },
   drag: {
     0: 'Klikněte zde',
@@ -207,6 +209,10 @@ export default {
     3: 'Preparing',
     4: 'Voting',
     5: 'Finished'
+  },
+  rules: {
+    0: 'Last updated at',
+    1: 'Posting Skins Guidelines'
   },
   tabs: {
     0: 'Hledat',
@@ -272,7 +278,8 @@ export default {
     osu_forum_link: 'osu! Fóra',
     skin_return: 'Zpátky ke skinu',
     source: 'Source',
-    contest_voting: 'Vote here'
+    contest_voting: 'Vote here',
+    rules_agree: 'I agree'
   },
   choose: {
     0: 'Optional',
@@ -285,7 +292,8 @@ export default {
       1: 'Mixer',
       2: 'Animace',
       3: 'Obrázky',
-      4: 'Spolupráce'
+      4: 'Spolupráce',
+      5: 'Zvuky'
     }
   },
   tooltips: {
@@ -340,6 +348,7 @@ export default {
     7: 'Prvky skinu',
     8: 'Zvuk/Sfx',
     9: 'Nástroje',
+    10: 'Image',
     views: 'Zobrazení',
     likes: 'Oblíbené',
     dislikes: 'Neoblíbené',
@@ -422,7 +431,7 @@ export default {
     36: 'Verze {name} byla odstraněna',
     37: 'Chyba',
     38: 'Server si zřejmě myslí, že jste robot.',
-    39: 'Vypadá to, že vaše uživatelská relace vypršela, otevřete novou stránku a přihlaste se k vašemu účtu (neboj, vše je automaticky uloženo)',
+    39: 'Your current login session has timed out. To proceed, please open a new page and log back into your account. Once you\'ve done that, return to this page and try again.',
     40: 'Nesrovnalé přihlašovací údaje (znovu se přihlásit do účtu. Nebojte se, vše bylo automaticky uloženo)',
     41: 'Neznámá chyba',
     42: 'Nemůžete upravovat neexistující skin',
@@ -436,7 +445,8 @@ export default {
     50: 'Tento odkaz nelze použít jako odkaz ke stažení',
     51: 'Odesláno k moderaci',
     52: 'Varování',
-    53: 'You need to choose type of asset'
+    53: 'You need to choose type of asset',
+    54: 'The skin is currently under moderation. Please be patient while it is being processed'
   },
   header: {
     0: 'Notifikace',
