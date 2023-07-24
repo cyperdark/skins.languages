@@ -83,7 +83,7 @@ export default {
     4: 'ضف مبتكر زي واحد على الأقل',
     5: 'ضف بعض الوسوم',
     6: 'حجم الزي غير محدد',
-    7: 'اختر على الأقل نمط لعب واحد',
+    // 7: 'Select at least one gamemode',
     8: 'اختر نوع الملف (جودة عالية أو عادية)',
     9: 'اختر على الأقل نسبة باعية واحدة',
     10: 'عدم تقديم صور',
@@ -94,7 +94,8 @@ export default {
     22: 'قائمة المراجعة',
     23: 'Add at least one public version',
     24: 'Add at least one creator to this version',
-    25: 'Some creators doesn\'t have roles'
+    25: 'Some creators doesn\'t have roles',
+    26: '{amount} screenshots doesn\'t have category'
   },
   skins: {
     0: 'أزياء',
@@ -156,7 +157,8 @@ export default {
     41: 'Check out later',
     42: `Let's get started`,
     43: 'Congratulations!',
-    44: 'You have successfully finished the tutorial, have fun!'
+    44: 'You have successfully finished the tutorial, have fun!',
+    45: 'uploader'
   },
   drag: {
     0: 'اُنقر هنا',
@@ -207,6 +209,10 @@ export default {
     3: 'Preparing',
     4: 'Voting',
     5: 'Finished'
+  },
+  rules: {
+    0: 'Last updated at',
+    1: 'Posting Skins Guidelines'
   },
   tabs: {
     0: 'بحث',
@@ -272,7 +278,8 @@ export default {
     osu_forum_link: 'osu! منتدى',
     skin_return: 'الرجوع إلى الزي',
     source: 'Source',
-    contest_voting: 'Vote here'
+    contest_voting: 'Vote here',
+    rules_agree: 'I agree'
   },
   choose: {
     0: 'Optional',
@@ -285,7 +292,8 @@ export default {
       1: 'مازج',
       2: 'حركات',
       3: 'فنون',
-      4: 'تعاون'
+      4: 'تعاون',
+      5: 'أصوات'
     }
   },
   tooltips: {
@@ -340,6 +348,7 @@ export default {
     7: 'عنصر الزي',
     8: 'أصوات',
     9: 'أدوات',
+    10: 'Image',
     views: 'مشاهدات',
     likes: 'إعجابات',
     dislikes: 'Dislikes',
@@ -422,7 +431,7 @@ export default {
     36: 'Version «{name}» has been deleted',
     37: 'Error',
     38: 'Apparently the server thinks you\'re a robot.',
-    39: 'Looks like your user session has expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
+    39: 'Your current login session has timed out. To proceed, please open a new page and log back into your account. Once you\'ve done that, return to this page and try again.',
     40: 'Mismatched credentials (relogin in account. Don\'t worry, everything was saved automatically)',
     41: 'Unknown error',
     42: 'You cannot edit a nonexistent skin',
@@ -436,7 +445,8 @@ export default {
     50: 'This link cannot be used as a download link',
     51: 'Submitted for moderation',
     52: 'Warning',
-    53: 'You need to choose type of asset'
+    53: 'You need to choose type of asset',
+    54: 'The skin is currently under moderation. Please be patient while it is being processed'
   },
   header: {
     0: 'إشعارات',
