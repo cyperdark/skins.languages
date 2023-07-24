@@ -83,7 +83,7 @@ export default {
     4: '한 명 이상의 스킨 제작자를 추가하세요.',
     5: '2개 이상의 태그를 추가하세요.',
     6: '명시되지 않은 스킨의 크기',
-    7: '최소 하나의 모드를 선택하세요',
+    // 7: 'Select at least one gamemode',
     8: '이미지 화질을 선택하세요. (SD 또는 HD)',
     9: '최소 1개의 해상도를 선택하세요.',
     10: '스크린샷이 업로드되지 않았습니다.',
@@ -94,7 +94,8 @@ export default {
     22: '체크리스트',
     23: '최소 1개의 공개 버전을 추가하세요.',
     24: '이 버전에 최소 1명의 제작자를 추가하세요.',
-    25: '일부 제작자들은 역할이 없습니다.'
+    25: '일부 제작자들은 역할이 없습니다.',
+    26: '{amount} screenshots doesn\'t have category'
   },
   skins: {
     0: '스킨',
@@ -156,7 +157,8 @@ export default {
     41: '나중에 확인해보세요.',
     42: `시작해봅시다.`,
     43: '축하합니다!',
-    44: '당신은 튜토리얼을 성공적으로 마쳤습니다. 즐거운 시간 보내세요!'
+    44: '당신은 튜토리얼을 성공적으로 마쳤습니다. 즐거운 시간 보내세요!',
+    45: 'uploader'
   },
   drag: {
     0: '여기를 클릭하세요.',
@@ -207,6 +209,10 @@ export default {
     3: '준비',
     4: '투표',
     5: '완료'
+  },
+  rules: {
+    0: 'Last updated at',
+    1: 'Posting Skins Guidelines'
   },
   tabs: {
     0: '검색',
@@ -272,7 +278,8 @@ export default {
     osu_forum_link: 'osu! 포럼',
     skin_return: '스킨으로 돌아가기',
     source: '출처',
-    contest_voting: '여기에서 투표하세요.'
+    contest_voting: '여기에서 투표하세요.',
+    rules_agree: 'I agree'
   },
   choose: {
     0: '선택사항',
@@ -285,7 +292,8 @@ export default {
       1: '믹서',
       2: '애니메이션',
       3: '아트',
-      4: '콜라보'
+      4: '콜라보',
+      5: '사운드'
     }
   },
   tooltips: {
@@ -340,6 +348,7 @@ export default {
     7: '스킨 요소',
     8: '오디오/음향',
     9: '툴',
+    10: 'Image',
     views: '조회 수',
     likes: '좋아요',
     dislikes: '싫어요',
@@ -422,7 +431,7 @@ export default {
     36: '{name} 버전이 삭제되었습니다.',
     37: '에러',
     38: '저희의 판단으로, 당신은 로봇처럼 보입니다.',
-    39: '유저 세션이 만료된 것 같아요. 새로운 페이지를 열어서 다시 계정 로그인을 해주세요. (걱정하지 마세요. 모든 것은 자동으로 저장되었어요!)',
+    39: 'Your current login session has timed out. To proceed, please open a new page and log back into your account. Once you\'ve done that, return to this page and try again.',
     40: '자격 증명이 일치하지 않습니다. (계정 로그인을 다시 해주세요. 걱정하지 마세요. 모든 것은 자동으로 저장되었어요!)',
     41: '알 수 없는 오류',
     42: '당신은 존재하지 않는 스킨을 수정할 수 없습니다.',
@@ -436,7 +445,8 @@ export default {
     50: '이 링크는 다운로드 주소로 사용될 수 없어요.',
     51: '평가를 위해 제출되었습니다.',
     52: '경고',
-    53: '에셋의 종류를 골라주세요.'
+    53: '에셋의 종류를 골라주세요.',
+    54: 'The skin is currently under moderation. Please be patient while it is being processed'
   },
   header: {
     0: '알림',
