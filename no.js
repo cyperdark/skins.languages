@@ -83,7 +83,7 @@ export default {
     4: 'Legg til hvertfall en skin skaper',
     5: 'Legg til noen tags',
     6: 'Størrelsen på skinnet er ikke spesifisert',
-    7: 'Velg hvertfall et spillmodus',
+    // 7: 'Select at least one gamemode',
     8: 'Velg bilde oppløsning (SD eller HD)',
     9: 'Velg hvertfall et størrelsesformat',
     10: 'Ingen skjermbilder postet',
@@ -94,7 +94,8 @@ export default {
     22: 'Sjekkliste',
     23: 'Legg ved minst en offentlig versjon',
     24: 'Add at least one creator to this version',
-    25: 'Some creators doesn\'t have roles'
+    25: 'Some creators doesn\'t have roles',
+    26: '{amount} screenshots doesn\'t have category'
   },
   skins: {
     0: 'Skins',
@@ -156,7 +157,8 @@ export default {
     41: 'Check out later',
     42: `Let's get started`,
     43: 'Congratulations!',
-    44: 'You have successfully finished the tutorial, have fun!'
+    44: 'You have successfully finished the tutorial, have fun!',
+    45: 'uploader'
   },
   drag: {
     0: 'Trykk her',
@@ -207,6 +209,10 @@ export default {
     3: 'Preparing',
     4: 'Voting',
     5: 'Finished'
+  },
+  rules: {
+    0: 'Last updated at',
+    1: 'Posting Skins Guidelines'
   },
   tabs: {
     0: 'Søk',
@@ -272,7 +278,8 @@ export default {
     osu_forum_link: 'osu! Forum',
     skin_return: 'Tilbake til skin',
     source: 'Source',
-    contest_voting: 'Vote here'
+    contest_voting: 'Vote here',
+    rules_agree: 'I agree'
   },
   choose: {
     0: 'Optional',
@@ -285,7 +292,8 @@ export default {
       1: 'Mikser',
       2: 'Animasjoner',
       3: 'Kunst',
-      4: 'Samarbeid'
+      4: 'Samarbeid',
+      5: 'Lyder'
     }
   },
   tooltips: {
@@ -340,6 +348,7 @@ export default {
     7: 'Skin elementer',
     8: 'Lyd/Sfx',
     9: 'Verktøy',
+    10: 'Image',
     views: 'Visninger',
     likes: 'Liker',
     dislikes: 'Liker ikke',
@@ -422,7 +431,7 @@ export default {
     36: 'Version «{name}» has been deleted',
     37: 'Error',
     38: 'Apparently the server thinks you\'re a robot.',
-    39: 'Looks like your user session has expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
+    39: 'Your current login session has timed out. To proceed, please open a new page and log back into your account. Once you\'ve done that, return to this page and try again.',
     40: 'Mismatched credentials (relogin in account. Don\'t worry, everything was saved automatically)',
     41: 'Unknown error',
     42: 'Du kan ikke redigere et ikke-eksisterende skin',
@@ -436,7 +445,8 @@ export default {
     50: 'Denne lenken kan ikke brukes som en nedlastningslenke',
     51: 'Sendt inn, avventer moderasjon',
     52: 'Warning',
-    53: 'You need to choose type of asset'
+    53: 'You need to choose type of asset',
+    54: 'The skin is currently under moderation. Please be patient while it is being processed'
   },
   header: {
     0: 'Varslinger',
