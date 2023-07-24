@@ -83,7 +83,7 @@ export default {
     4: 'Lisää ainakin yksi skinin tekijä',
     5: 'Lisää muutama tägi',
     6: 'Skinin koko ei ole määritelty',
-    7: 'Valitse ainakin yksi pelimode',
+    // 7: 'Select at least one gamemode',
     8: 'Valitse tiedoston tyyppi (SD tai HD)',
     9: 'Valitse ainakin yksi kuvasuhde',
     10: 'Ei annettuja kuvakaappauksia',
@@ -94,7 +94,8 @@ export default {
     22: 'Tarkistuslista',
     23: 'Lisää vähintään yksi julkinen versio',
     24: 'Lisää tähän versioon vähintään yksi tekijä',
-    25: 'Joillekin tekijöille ei ole valittu rooleja'
+    25: 'Joillekin tekijöille ei ole valittu rooleja',
+    26: '{amount} screenshots doesn\'t have category'
   },
   skins: {
     0: 'Skinit',
@@ -156,7 +157,8 @@ export default {
     41: 'Check out later',
     42: `Let's get started`,
     43: 'Onnittelut!',
-    44: 'You have successfully finished the tutorial, have fun!'
+    44: 'You have successfully finished the tutorial, have fun!',
+    45: 'uploader'
   },
   drag: {
     0: 'Paina tästä',
@@ -207,6 +209,10 @@ export default {
     3: 'Valmistellaan',
     4: 'Äänestys',
     5: 'Valmis'
+  },
+  rules: {
+    0: 'Last updated at',
+    1: 'Posting Skins Guidelines'
   },
   tabs: {
     0: 'Haku',
@@ -272,7 +278,8 @@ export default {
     osu_forum_link: 'osu! Foorumi',
     skin_return: 'Takaisin skiniin',
     source: 'Lähde',
-    contest_voting: 'Vote here'
+    contest_voting: 'Vote here',
+    rules_agree: 'I agree'
   },
   choose: {
     0: 'Optional',
@@ -285,7 +292,8 @@ export default {
       1: 'Miksaaja',
       2: 'Animaatiot',
       3: 'Taiteet',
-      4: 'Yhteistyö'
+      4: 'Yhteistyö',
+      5: 'Äänet'
     }
   },
   tooltips: {
@@ -340,6 +348,7 @@ export default {
     7: 'Skinin tiedosto',
     8: 'Ääni/Sfx',
     9: 'Työkalut',
+    10: 'Image',
     views: 'Katselukerrat',
     likes: 'Tykkäykset',
     dislikes: 'Disliket',
@@ -422,7 +431,7 @@ export default {
     36: 'Versio «{name}» on poistettu',
     37: 'Virhe',
     38: 'Ilmeisesti palvelimen mielestä olet robotti.',
-    39: 'Näyttää siltä, että istuntosi on vanhentunut. Avaa uusi sivu ja kirjaudu tilillesi (Älä huoli, kaikki tallennettiin automaattisesti)',
+    39: 'Your current login session has timed out. To proceed, please open a new page and log back into your account. Once you\'ve done that, return to this page and try again.',
     40: 'Ristiriitaiset kirjautumistiedot (kirjaudu sisään uudelleen. Älä huoli, kaikki tallennettiin automaattisesti)',
     41: 'Tuntematon virhe',
     42: 'Et voi muokata olematonta skiniä',
@@ -436,7 +445,8 @@ export default {
     50: 'Tätä linkkiä ei voi käyttää latauslinkkinä',
     51: 'Lähetetty tarkistettavaksi',
     52: 'Varoitus',
-    53: 'You need to choose type of asset'
+    53: 'You need to choose type of asset',
+    54: 'The skin is currently under moderation. Please be patient while it is being processed'
   },
   header: {
     0: 'Ilmoitukset',
