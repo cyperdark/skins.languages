@@ -83,7 +83,7 @@ export default {
     4: 'Add at least one skin creator',
     5: 'Add a couple of tags',
     6: 'Size of the skin not specified',
-    7: 'Select at least one gamemode',
+    // 7: 'Select at least one gamemode',
     8: 'Select image resolution (SD or HD)',
     9: 'Select at least one aspect ratio',
     10: 'No screenshots provided',
@@ -94,7 +94,8 @@ export default {
     22: 'Checklist',
     23: 'Add at least one public version',
     24: 'Add at least one creator to this version',
-    25: 'Some creators doesn\'t have roles'
+    25: 'Some creators doesn\'t have roles',
+    26: '{amount} screenshots doesn\'t have category',
   },
   skins: {
     0: 'Skins',
@@ -164,6 +165,8 @@ export default {
 
     43: 'Congratulations!',
     44: 'You have successfully finished the tutorial, have fun!',
+
+    45: 'uploader',
   },
   drag: {
     0: 'Click here',
