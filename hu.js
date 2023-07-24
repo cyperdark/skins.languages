@@ -83,7 +83,7 @@ export default {
     4: 'Adjál hozzá legalább egy skin készítőt',
     5: 'Adjál hozzá néhány címkét',
     6: 'Skin fájl mérete nincs megadva',
-    7: 'Válasszál ki legalább egy játékmódot',
+    // 7: 'Select at least one gamemode',
     8: 'Válasszál felbontást (SD vagy HD)',
     9: 'Válasszál ki legalább egy képarányt',
     10: 'Nincs képernyőkép megadva',
@@ -94,7 +94,8 @@ export default {
     22: 'Ellenőrző lista',
     23: 'Adjon hozzá legalább egy publikus verziót',
     24: 'Adjon hozzá legalább egy készítőt ehhez a verzióhoz',
-    25: 'Néhány készítőnek nincs szerepe'
+    25: 'Néhány készítőnek nincs szerepe',
+    26: '{amount} screenshots doesn\'t have category'
   },
   skins: {
     0: 'Skin-ek',
@@ -156,7 +157,8 @@ export default {
     41: 'Check out later',
     42: `Let's get started`,
     43: 'Congratulations!',
-    44: 'You have successfully finished the tutorial, have fun!'
+    44: 'You have successfully finished the tutorial, have fun!',
+    45: 'uploader'
   },
   drag: {
     0: 'Kattints ide',
@@ -207,6 +209,10 @@ export default {
     3: 'Preparing',
     4: 'Voting',
     5: 'Finished'
+  },
+  rules: {
+    0: 'Last updated at',
+    1: 'Posting Skins Guidelines'
   },
   tabs: {
     0: 'Keresés',
@@ -272,7 +278,8 @@ export default {
     osu_forum_link: 'osu! Fórum',
     skin_return: 'Vissza a skin-hez',
     source: 'Source',
-    contest_voting: 'Vote here'
+    contest_voting: 'Vote here',
+    rules_agree: 'I agree'
   },
   choose: {
     0: 'Optional',
@@ -285,7 +292,8 @@ export default {
       1: 'Mixelő',
       2: 'Animációk',
       3: 'Rajzok',
-      4: 'Együttműködés'
+      4: 'Együttműködés',
+      5: 'Hangok'
     }
   },
   tooltips: {
@@ -340,6 +348,7 @@ export default {
     7: 'Skin elem',
     8: 'Hangeffektek',
     9: 'Eszközök',
+    10: 'Image',
     views: 'Megtekintés',
     likes: 'Kedvelés',
     dislikes: 'Nem kedvelés',
@@ -422,7 +431,7 @@ export default {
     36: 'Version «{name}» has been deleted',
     37: 'Error',
     38: 'Apparently the server thinks you\'re a robot.',
-    39: 'Looks like your user session has expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
+    39: 'Your current login session has timed out. To proceed, please open a new page and log back into your account. Once you\'ve done that, return to this page and try again.',
     40: 'Mismatched credentials (relogin in account. Don\'t worry, everything was saved automatically)',
     41: 'Unknown error',
     42: 'You cannot edit a nonexistent skin',
@@ -436,7 +445,8 @@ export default {
     50: 'This link cannot be used as a download link',
     51: 'Submitted for moderation',
     52: 'Warning',
-    53: 'You need to choose type of asset'
+    53: 'You need to choose type of asset',
+    54: 'The skin is currently under moderation. Please be patient while it is being processed'
   },
   header: {
     0: 'Értesítések',
