@@ -95,7 +95,7 @@ export default {
     23: 'Tambahkan setidaknya satu versi publik',
     24: 'Tambahkan setidaknya satu pembuat untuk versi ini',
     25: 'Beberapa pembuat tidak mempunyai peran',
-    26: '{amount} screenshots doesn\'t have category'
+    26: '{amount} screenshot tidak memiliki kategori'
   },
   skins: {
     0: 'Skin',
@@ -211,7 +211,7 @@ export default {
     5: 'Diselesaikan'
   },
   rules: {
-    0: 'Last updated at',
+    0: 'Terakhir diperbarui pada',
     1: 'Posting Skins Guidelines'
   },
   tabs: {
@@ -279,7 +279,7 @@ export default {
     skin_return: 'Kembali ke skin',
     source: 'Source',
     contest_voting: 'Vote di sini',
-    rules_agree: 'I agree'
+    rules_agree: 'Aku setuju'
   },
   choose: {
     0: 'Opsional',
@@ -348,7 +348,7 @@ export default {
     7: 'Elemen skin',
     8: 'Audio/SFX',
     9: 'Alat',
-    10: 'Image',
+    10: 'Gambar',
     views: 'Dilihat',
     likes: 'Suka',
     dislikes: 'Tidak suka',
@@ -459,7 +459,7 @@ export default {
     3: 'Halaman ini belum keluar.'
   },
   confirm: {
-    0: 'Reset everything?',
+    0: 'Reset semuanya?',
     1: 'Show guide?',
     2: 'Kirim skin?',
     3: 'Iya',
