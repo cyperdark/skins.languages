@@ -95,7 +95,7 @@ export default {
     23: '公開されているバージョンを少なくとも1つ追加してください',
     24: 'このバージョンに少なくとも1人の作成者を追加してください',
     25: '一部のクリエイターにロールがありません',
-    26: '{amount} screenshots doesn\'t have category'
+    26: '{amount} つのスクリーンショットにはカテゴリがありません'
   },
   skins: {
     0: 'スキン',
@@ -152,13 +152,13 @@ export default {
     36: '利用できません',
     37: '残念ながら、このスキンは {author} のリクエストによって削除されました',
     38: 'スキン投稿エディターへようこそ！',
-    39: `New to the skin editor? Let us guide you through the interface and show you the editor's full potential!`,
+    39: `スキンエディターは初めてですか？インターフェースをご案内し、エディターの可能性を最大限にご紹介しましょう！`,
     40: '{current} / {max} 完了',
     41: '後で確認する',
     42: `さぁ、始めましょう`,
     43: 'おめでとう！',
     44: 'チュートリアルが完了しました。楽しんで！',
-    45: 'uploader'
+    45: '投稿者'
   },
   drag: {
     0: 'ここをクリック',
@@ -211,8 +211,8 @@ export default {
     5: '終了'
   },
   rules: {
-    0: 'Last updated at',
-    1: 'Posting Skins Guidelines'
+    0: '最終更新:',
+    1: 'スキン投稿ガイドライン'
   },
   tabs: {
     0: '検索',
@@ -241,11 +241,11 @@ export default {
       9: '他のosuスキンからインスピレーションを得る',
       10: '{name} が作成したスキン',
       11: 'タグ検索',
-      12: '{name} found tags',
-      13: '新着のスキン',
-      14: 'Site rules',
-      15: 'osu! Contests',
-      16: 'osu! Contests'
+      12: '検索されたタグ {name}',
+      13: '新しいスキン',
+      14: 'サイトのルール',
+      15: 'osu!コンテスト',
+      16: 'osu!コンテスト'
     },
     description: {
       0: 'このサイトでベストなosu! スキンを手に入れよう！ 私たちの膨大なライブラリには、すべてのゲームモード、アスペクト比、さらにはトッププレイヤーのスキンがあります。さらに、アニメーション向けの特別セクションもあります。完璧なスキンでゲームプレイを向上させましょう。',
@@ -259,15 +259,15 @@ export default {
       8: '{name} によって作成されたすべてのosuスキン。',
       9: '当サイトで次のosu! スキンのインスピレーションを身につけよう！多彩なスキンコレクションを見て、新しいテクニックやアイデアを見つけることができます。インスピレーションを受けて、自分だけのosu!スキンを作りましょう。',
       10: 'サイト上のすべてのタグの中からタグを検索します。',
-      11: 'List of all active/finished osu! contests',
-      12: '{amount} entries for {title} contest. {views} views'
+      11: 'すべてのアクティブ/終了したosu!コンテストの一覧',
+      12: '{title} コンテストのエントリー {amount} つ。{views} 回閲覧'
     }
   },
   buttons: {
     0: 'ログイン',
     1: 'ホームページ',
     profile_osu: 'osu! プロフィール',
-    new_skin: '新着のスキン',
+    new_skin: '新しいスキン',
     notifications: '通知',
     settings: '設定',
     logout: 'ログアウト',
@@ -277,14 +277,14 @@ export default {
     reddit_link: 'Reddit',
     osu_forum_link: 'osu! フォーラム',
     skin_return: 'スキンへ戻る',
-    source: 'Source',
-    contest_voting: 'Vote here',
-    rules_agree: 'I agree'
+    source: 'ソース',
+    contest_voting: '投票する',
+    rules_agree: '同意します'
   },
   choose: {
-    0: 'Optional',
-    1: 'Required',
-    2: 'Pick at least one option'
+    0: 'オプション',
+    1: '必須',
+    2: '少なくとも 1 つのオプションを選択してください'
   },
   user: {
     roles: {
@@ -307,10 +307,10 @@ export default {
     7: '短い説明文はありません',
     8: 'URL がありません',
     9: 'ダウンロード数: {amount}',
-    10: 'Reset everything',
-    11: 'Show guide',
-    12: 'Close guide',
-    13: 'To mark a rule as read, hover over it (Yellow indicates unread)'
+    10: 'すべてリセットする',
+    11: 'ガイドを表示',
+    12: 'ガイドを閉じる',
+    13: 'ルールを既読としてマークするには、その上にカーソルを合わせます(黄色は未読を示します)'
   },
   lists: {
     screens: {
@@ -329,7 +329,7 @@ export default {
       12: 'リザルト画面',
       13: 'スキップ',
       14: 'バナー',
-      15: 'Result screen (bottom)'
+      15: 'リザルト画面 (下部)'
     },
     cats: {
       0: 'NSFW',
@@ -348,7 +348,7 @@ export default {
     7: 'スキンエレメント',
     8: 'オーディオ/Sfx',
     9: 'ツール',
-    10: 'Image',
+    10: '画像',
     views: 'ビュー',
     likes: '高評価',
     dislikes: '低評価',
@@ -379,12 +379,12 @@ export default {
   },
   contribute: { 0: '貢献する' },
   nsfw: {
-    0: 'Warning, nsfw!',
+    0: 'NSFW 閲覧注意！',
     1: 'このスキンにはセンシティブまたはアダルトなコンテンツが含まれています',
     2: 'このスキンには、一部のユーザーが不快に感じる可能性があるセンシティブまたはアダルトなコンテンツが含まれています',
     3: '了解',
     4: 'さよなら o/',
-    5: 'Furry Warning!'
+    5: 'ケモノ系 閲覧注意！'
   },
   removed: {
     0: 'このバージョンは利用できません',
@@ -431,7 +431,7 @@ export default {
     36: 'バージョン «{name}» が削除されました',
     37: 'エラー',
     38: 'どうやらサーバーはあなたをロボットだと思っているようです。',
-    39: 'Your current login session has timed out. To proceed, please open a new page and log back into your account. Once you\'ve done that, return to this page and try again.',
+    39: '現在のログインセッションがタイムアウトしました。続行するには、新しいページを開き、アカウントにログインしてください。 完了したら、このページに戻ってもう一度お試しください。',
     40: '認証情報が一致しません (アカウントに再ログインしてください。すべてが自動的に保存されました)',
     41: '不明なエラー',
     42: '存在しないスキンを編集することはできません',
@@ -445,8 +445,8 @@ export default {
     50: 'このリンクはダウンロードリンクとして使用できません',
     51: 'モデレーションのために提出されました',
     52: '警告',
-    53: 'You need to choose type of asset',
-    54: 'The skin is currently under moderation. Please be patient while it is being processed'
+    53: 'アセットの種類を選択する必要があります',
+    54: 'スキンは現在確認中です。処理が完了するまでしばらくお待ちください。'
   },
   header: {
     0: '通知',
@@ -459,10 +459,10 @@ export default {
     3: 'このページはまだ公開されていません。'
   },
   confirm: {
-    0: 'Reset everything?',
-    1: 'Show guide?',
-    2: 'Submit skin?',
-    3: 'Yes',
-    4: 'No'
+    0: 'すべてリセットしますか？',
+    1: 'ガイドを表示しますか？',
+    2: 'スキンを送信しますか？',
+    3: 'はい',
+    4: 'いいえ'
   }
 };
