@@ -95,7 +95,7 @@ export default {
     23: 'Aggiungi almeno una versione pubblica',
     24: 'Aggiungi almeno un creatore a questa versione',
     25: 'Qualche creatore non ha i ruoli',
-    26: '{amount} screenshots doesn\'t have category'
+    26: '{amount} I screenshot non hanno una categoria'
   },
   skins: {
     0: 'Skins',
@@ -151,13 +151,13 @@ export default {
     35: 'Supporta la skin',
     36: 'Non disponibile',
     37: 'Sfortunatamente, la skin è stata eliminata dall\'autore ({author}) per scelta sua',
-    38: 'Welcome to the skin post editor!',
-    39: `New to the skin editor? Let us guide you through the interface and show you the editor's full potential!`,
-    40: '{current} of {max} completed',
-    41: 'Check out later',
-    42: `Let's get started`,
-    43: 'Congratulations!',
-    44: 'You have successfully finished the tutorial, have fun!',
+    38: 'Benvenuto nel editor dello skin poster',
+    39: `Nuovo nell'editor di skin? Lasciati guidare attraverso l'interfaccia e mostrarti tutto il potenziale dell'editor!`,
+    40: '{current} di {max} completati',
+    41: 'Controlla più tardi',
+    42: `Iniziamo`,
+    43: 'Congratulazioni!',
+    44: 'Hai completato con successo il tutorial, buon divertimento!',
     45: 'uploader'
   },
   drag: {
@@ -167,8 +167,8 @@ export default {
   footer: {
     0: 'Fatto da cyperdark',
     1: 'Crediti',
-    2: 'Rules',
-    3: 'Contacts'
+    2: 'Regole',
+    3: 'Contatti'
   },
   credits: {
     0: 'Chibi',
@@ -203,16 +203,16 @@ export default {
     14: 'Cerca:'
   },
   contests: {
-    0: 'Contests',
-    1: 'Official newspost',
-    2: 'Submission',
-    3: 'Preparing',
-    4: 'Voting',
-    5: 'Finished'
+    0: 'Concorsi',
+    1: 'Notizia ufficiale',
+    2: 'Invio',
+    3: 'Preparazione',
+    4: 'Votazione',
+    5: 'Finito'
   },
   rules: {
-    0: 'Last updated at',
-    1: 'Posting Skins Guidelines'
+    0: 'Ultimo aggiornamento del',
+    1: 'Linee Guida Per le Skin'
   },
   tabs: {
     0: 'Cerca',
@@ -243,9 +243,9 @@ export default {
       11: 'Tag di ricerca',
       12: '{name} tag trovati',
       13: 'Nuova skin',
-      14: 'Site rules',
-      15: 'osu! Contests',
-      16: 'osu! Contests'
+      14: 'Regole del sito',
+      15: 'osu! Concorsi',
+      16: 'osu! Concorsi'
     },
     description: {
       0: 'Ottieni le migliori skin di osu! sul nostro sito! La nostra vasta libreria ha skin per tutte le modalità di gioco, proporzioni e persino per i migliori giocatori. Inoltre, abbiamo una sezione speciale per i fan degli anime. Migliora il tuo gameplay con la skin perfetta. #osuskins #osugame #anime',
@@ -259,8 +259,8 @@ export default {
       8: 'Tutte le skin osu create da {name}',
       9: 'Trova l\'ispirazione per la tua prossima osu! skin sul nostro sito. Sfoglia una vasta collezione di skin e scopri nuove tecniche e idee. Lasciati ispirare e crea le tue skin uniche.',
       10: 'Cerca i tag tra tutti i tag presenti sul sito.',
-      11: 'List of all active/finished osu! contests',
-      12: '{amount} entries for {title} contest. {views} views'
+      11: 'Elenco di tutti i concorsi osu! attivi/completati',
+      12: '{amount} voci per il concorso {title}. {views} visualizzazioni'
     }
   },
   buttons: {
@@ -277,14 +277,14 @@ export default {
     reddit_link: 'Reddit',
     osu_forum_link: 'osu! Forum',
     skin_return: 'Ritorna alla skin',
-    source: 'Source',
-    contest_voting: 'Vote here',
-    rules_agree: 'I agree'
+    source: 'Sorgente',
+    contest_voting: 'Vota qui',
+    rules_agree: 'Accetto'
   },
   choose: {
-    0: 'Optional',
-    1: 'Required',
-    2: 'Pick at least one option'
+    0: 'Opzionale',
+    1: 'Richiesto',
+    2: 'Scegli almeno un\'opzione'
   },
   user: {
     roles: {
@@ -307,10 +307,10 @@ export default {
     7: 'Non c\'è una descrizione corta',
     8: 'Senza url',
     9: 'Download: {amount}',
-    10: 'Reset everything',
-    11: 'Show guide',
-    12: 'Close guide',
-    13: 'To mark a rule as read, hover over it (Yellow indicates unread)'
+    10: 'Resetta tutto',
+    11: 'Mostra guida',
+    12: 'Chiudi guida',
+    13: 'Per contrassegnare una regola come lettura, passa sopra (Giallo indica non letto)'
   },
   lists: {
     screens: {
@@ -329,7 +329,7 @@ export default {
       12: 'Schermo dei risultati',
       13: 'Salta',
       14: 'Banner',
-      15: 'Result screen (bottom)'
+      15: 'Schermo dei risultati (in basso)'
     },
     cats: {
       0: 'NSFW',
@@ -348,7 +348,7 @@ export default {
     7: 'Elementi della skin',
     8: 'Audio/Effetti',
     9: 'Strumenti',
-    10: 'Image',
+    10: 'Immagine',
     views: 'Visualizzazioni',
     likes: 'Mi piace',
     dislikes: 'Non mi piace',
@@ -431,7 +431,7 @@ export default {
     36: 'La versione «{name}» è stata eliminata',
     37: 'Errore',
     38: 'A quanto pare, il server pensa che sei un robot.',
-    39: 'Your current login session has timed out. To proceed, please open a new page and log back into your account. Once you\'ve done that, return to this page and try again.',
+    39: 'La tua sessione di accesso attuale è scaduta. Per procedere, apri una nuova pagina e accedi nuovamente al tuo account. Una volta fatto, tornare a questa pagina e riprovare.',
     40: 'Le credenziali non corrispondono (accedi di nuovo all\'account. Non preoccuparti, tutto è stato salvato automaticamente)',
     41: 'Errore sconosciuto',
     42: 'Non puoi modificare una skin inesistente',
@@ -445,8 +445,8 @@ export default {
     50: 'Questo link non può essere utilizzato come link per il download',
     51: 'Inviato per moderazione',
     52: 'Attenzione',
-    53: 'You need to choose type of asset',
-    54: 'The skin is currently under moderation. Please be patient while it is being processed'
+    53: 'È necessario scegliere il tipo di asset',
+    54: 'La skin è attualmente sotto moderazione. Si prega di essere paziente mentre è in fase di elaborazione'
   },
   header: {
     0: 'Notifiche',
@@ -459,10 +459,10 @@ export default {
     3: 'Questa pagina non è ancora accessibile.'
   },
   confirm: {
-    0: 'Reset everything?',
-    1: 'Show guide?',
-    2: 'Submit skin?',
-    3: 'Yes',
+    0: 'Resetta tutto?',
+    1: 'Mostra guida?',
+    2: 'Inviare la pelle?',
+    3: 'Si',
     4: 'No'
   }
 };
