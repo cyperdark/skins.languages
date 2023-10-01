@@ -95,7 +95,7 @@ export default {
     23: 'Thêm ít nhất một phiên bản công khai',
     24: 'Thêm ít nhất một tác giả cho phiên bản này',
     25: 'Mốt số tác giả không có vai trò',
-    26: '{amount} screenshots doesn\'t have category'
+    26: '{amount} bức ảnh chưa có danh mục'
   },
   skins: {
     0: 'Skin',
@@ -158,7 +158,7 @@ export default {
     42: `Hãy bắt đầu`,
     43: 'Xin chúc mừng!',
     44: 'Bạn đã hoàn thành hướng dẫn, chúc vui vẻ!',
-    45: 'uploader'
+    45: 'người đăng'
   },
   drag: {
     0: 'Nhấn vào đây',
@@ -211,8 +211,8 @@ export default {
     5: 'Đã hoàn thành'
   },
   rules: {
-    0: 'Last updated at',
-    1: 'Posting Skins Guidelines'
+    0: 'Cập nhật lần cuối cùng vào',
+    1: 'Tiêu chuẩn về việc đăng tải Skin'
   },
   tabs: {
     0: 'Tìm kiếm',
@@ -279,7 +279,7 @@ export default {
     skin_return: 'Quay trở lại skin',
     source: 'Nguồn',
     contest_voting: 'Bình chọn tại đây',
-    rules_agree: 'I agree'
+    rules_agree: 'Tôi đồng ý'
   },
   choose: {
     0: 'Tuỳ chọn',
@@ -348,7 +348,7 @@ export default {
     7: 'Yếu tố skin',
     8: 'Âm thanh/Sfx',
     9: 'Công cụ',
-    10: 'Image',
+    10: 'Hình ảnh',
     views: 'Lượt xem',
     likes: 'Thích',
     dislikes: 'Không thích',
@@ -431,7 +431,7 @@ export default {
     36: 'Phiên bản «{name}» đã được xoá',
     37: 'Lỗi',
     38: 'Dường như máy chủ nghĩ rằng bạn là bot.',
-    39: 'Your current login session has timed out. To proceed, please open a new page and log back into your account. Once you\'ve done that, return to this page and try again.',
+    39: 'Phiên đăng nhập hiện tại đã hết hạn. Để tiếp tục, vui lòng mở một trang mới và đăng nhập lại vào tài khoản. Khi hoàn thành, hãy quay lại trang này và thử lại.',
     40: 'Thông tin không khớp (hãy đăng nhập lại. Đừng lo, mọi thứ đã được tự động lưu lại)',
     41: 'Lỗi không rõ',
     42: 'Bạn không thể chỉnh sửa skin không tồn tại',
@@ -446,7 +446,7 @@ export default {
     51: 'Đã gửi cho kiểm duyệt',
     52: 'Cảnh báo',
     53: 'Bạn cần chọn loại asset',
-    54: 'The skin is currently under moderation. Please be patient while it is being processed'
+    54: 'Skin này hiện đang được kiểm duyệt. Xin hãy chờ một lúc skin đang được xử lý'
   },
   header: {
     0: 'Thông báo',

@@ -95,7 +95,7 @@ export default {
     23: 'Adicione no mínimo una versão pública',
     24: 'Adicione ao menos um criador para esta versão ',
     25: 'Alguns criadores não possuem funções',
-    26: '{amount} screenshots doesn\'t have category'
+    26: '{amount} capturas de tela não possuem uma categoria assimilada'
   },
   skins: {
     0: 'Skins',
@@ -211,8 +211,8 @@ export default {
     5: 'Finalizado'
   },
   rules: {
-    0: 'Last updated at',
-    1: 'Posting Skins Guidelines'
+    0: 'Última vez atualizado em',
+    1: 'Publicando as diretrizes das skins'
   },
   tabs: {
     0: 'Buscar',
@@ -279,7 +279,7 @@ export default {
     skin_return: 'De volta a skin',
     source: 'Fonte',
     contest_voting: 'Vote aqui',
-    rules_agree: 'I agree'
+    rules_agree: 'Eu concordo'
   },
   choose: {
     0: 'Opcional',
@@ -348,7 +348,7 @@ export default {
     7: 'Elementos da skin',
     8: 'Áudio/Sfx',
     9: 'Ferramentas',
-    10: 'Image',
+    10: 'Imagem',
     views: 'Visualizações',
     likes: 'Curtidas',
     dislikes: 'Dislikes',
@@ -431,7 +431,7 @@ export default {
     36: 'Versão «{name}» foi excluída ',
     37: 'Erro',
     38: 'Aparentemente, o servidor pensa que você é um robô.',
-    39: 'Your current login session has timed out. To proceed, please open a new page and log back into your account. Once you\'ve done that, return to this page and try again.',
+    39: 'Seu login expirou. Para continuar, por favor abre uma nova página em seu navegador e logue-se novamente em sua conta. Quando você terminar de fazer isto, retorne a esta página e tente novamente.',
     40: 'Credenciais não correspondidas (Logue-se em uma conta. Não se preocupe, tudo foi salvo automaticamente)',
     41: 'Erro desconhecido',
     42: 'Você não pode editar uma skin inexistente',
@@ -446,7 +446,7 @@ export default {
     51: 'Enviado para moderação',
     52: 'Cuidado',
     53: 'Você precisa selecionar um tipo de recurso',
-    54: 'The skin is currently under moderation. Please be patient while it is being processed'
+    54: 'Esta skin está atualmente sobre moderação. Por favor, seja paciente enquanto ela estiver sendo avaliada.'
   },
   header: {
     0: 'Notificações',
