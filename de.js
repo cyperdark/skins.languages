@@ -95,7 +95,7 @@ export default {
     23: 'Füge mindestens eine öffentliche Version hinzu',
     24: 'Füge mindestens einen Ersteller dieser Version hinzu',
     25: 'Einige Ersteller haben keine Rollen',
-    26: '{amount} screenshots doesn\'t have category'
+    26: '{amount} Screenshots haben keine Kategorie'
   },
   skins: {
     0: 'Skins',
@@ -158,7 +158,7 @@ export default {
     42: `Fangen wir an`,
     43: 'Herzlichen Glückwunsch!',
     44: 'Du hast das Tutorial erfolgreich abgeschlossen, viel Spaß!',
-    45: 'uploader'
+    45: 'Uploader'
   },
   drag: {
     0: 'Klicke hier',
