@@ -5,7 +5,7 @@ export default {
     lists: { 0: '列表' },
     tags: {
       0: '标签',
-      1: '{amount} 个标签属于 {name} 类别',
+      1: '分类 {name} 共有 {amount} 个标签',
       2: '搜索标签'
     },
     ideas: {
@@ -24,7 +24,7 @@ export default {
   home: {
     0: '可供下载',
     1: '最多：_name_的皮肤',
-    2: '查看 | 喜欢 | 下载',
+    2: '浏览 | 喜欢 | 下载',
     3: '发布新皮肤',
     4: '如果安装皮肤',
     5: '{amount} 个皮肤 | {amount} 个皮肤 | {amount} 个皮肤'
@@ -36,7 +36,7 @@ export default {
     3: '但您可以添加对此版本的皮肤所作的更改',
     4: '未分组',
     5: '新增',
-    6: '已修复',
+    6: '修复',
     7: '更改',
     8: '移除'
   },
@@ -69,10 +69,10 @@ export default {
     3: '在 YouTube 上搜索或创建您自己的演示视频'
   },
   sources: {
-    0: '属性',
-    1: '在此版本的皮肤中所有使用过的资源或工具列表',
+    0: '素材',
+    1: '此版本皮肤中使用到的所有素材或工具列表',
     2: '此处什么也没有',
-    3: '如果您使用了来自其他皮肤的资源或艺术作品，请务必将其添加到上面的框中',
+    3: '如果您使用了来自其他皮肤或艺术作品的素材，请务必将其添加到上面的框中',
     4: '未分组'
   },
   checks: {
@@ -95,7 +95,7 @@ export default {
     23: '添加至少一个公开版本',
     24: '为此版本添加至少一个创作者',
     25: '部分创作者没有角色',
-    26: '{amount} screenshots doesn\'t have category'
+    26: '{amount} 个截图没有分类'
   },
   skins: {
     0: '皮肤',
@@ -151,14 +151,14 @@ export default {
     35: '支持该皮肤',
     36: '不可用',
     37: '很抱歉，此皮肤已依据 {author} 的请求删除',
-    38: 'Welcome to the skin post editor!',
-    39: `New to the skin editor? Let us guide you through the interface and show you the editor's full potential!`,
-    40: '{current} of {max} completed',
-    41: 'Check out later',
-    42: `Let's get started`,
-    43: 'Congratulations!',
-    44: 'You have successfully finished the tutorial, have fun!',
-    45: 'uploader'
+    38: '欢迎来到皮肤帖子编辑器！',
+    39: `初次使用皮肤编辑器？让我们通过界面引导并向您展示编辑器的全部内容！`,
+    40: '已完成 {current} / {max}',
+    41: '稍后查看',
+    42: `让我们开始吧`,
+    43: '祝贺您！',
+    44: '您已经成功完成了教程，玩得开心！',
+    45: '上传者'
   },
   drag: {
     0: '点击这里',
@@ -167,8 +167,8 @@ export default {
   footer: {
     0: '由cyperdark制作',
     1: '版权',
-    2: 'Rules',
-    3: 'Contacts'
+    2: '规则',
+    3: '联系我们'
   },
   credits: {
     0: 'Chibi',
@@ -203,16 +203,16 @@ export default {
     14: '搜索：'
   },
   contests: {
-    0: 'Contests',
-    1: 'Official newspost',
+    0: '比赛',
+    1: '官方新闻',
     2: 'Submission',
-    3: 'Preparing',
-    4: 'Voting',
-    5: 'Finished'
+    3: '准备中',
+    4: '投票中',
+    5: '已结束'
   },
   rules: {
-    0: 'Last updated at',
-    1: 'Posting Skins Guidelines'
+    0: '最后更新于',
+    1: '皮肤发布指引'
   },
   tabs: {
     0: '搜索',
@@ -243,9 +243,9 @@ export default {
       11: '搜索标签',
       12: '{name} 发现标签',
       13: '新皮肤',
-      14: 'Site rules',
-      15: 'osu! Contests',
-      16: 'osu! Contests'
+      14: '站点规则',
+      15: 'osu! 比赛',
+      16: 'osu! 比赛'
     },
     description: {
       0: '在我们的网站上获取最佳 osu! 皮肤！我们的巨大库中有所有游戏模式、画面比例甚至是顶尖玩家的皮肤。此外，我们还有一个专门的动漫粉丝区。使用完美的皮肤提高你的游戏体验。#osuskins #osugame #anime',
@@ -259,8 +259,8 @@ export default {
       8: '{name} 制作的所有 osu! 皮肤',
       9: '在我们的网站上为您的下一个 osu! 皮肤寻找灵感。浏览多样化的皮肤集合，发现新技巧和想法。受到启发并创建自己独特的皮肤。',
       10: '在所有标签中搜索。',
-      11: 'List of all active/finished osu! contests',
-      12: '{amount} entries for {title} contest. {views} views'
+      11: '所有进行中/已结束的 osu! 比赛列表',
+      12: '比赛 {title} 共有 {amount} 个项目。共有 {views} 次浏览'
     }
   },
   buttons: {
@@ -277,14 +277,14 @@ export default {
     reddit_link: 'Reddit',
     osu_forum_link: 'osu! 论坛',
     skin_return: '返回皮肤',
-    source: 'Source',
-    contest_voting: 'Vote here',
-    rules_agree: 'I agree'
+    source: '来源',
+    contest_voting: '投票',
+    rules_agree: '我同意'
   },
   choose: {
-    0: 'Optional',
-    1: 'Required',
-    2: 'Pick at least one option'
+    0: '可选',
+    1: '必填',
+    2: '至少选择一项'
   },
   user: {
     roles: {
@@ -307,10 +307,10 @@ export default {
     7: '没有简短描述',
     8: '没有网址',
     9: '下载次数: {amount}',
-    10: 'Reset everything',
-    11: 'Show guide',
-    12: 'Close guide',
-    13: 'To mark a rule as read, hover over it (Yellow indicates unread)'
+    10: '全部重置',
+    11: '显示指南',
+    12: '关闭指南',
+    13: '将鼠标悬停在规则上以标记为已读（黄色表示未读）'
   },
   lists: {
     screens: {
@@ -329,11 +329,11 @@ export default {
       12: '结算画面',
       13: '跳过',
       14: '横幅',
-      15: 'Result screen (bottom)'
+      15: '结算画面（下半部分）'
     },
     cats: {
       0: 'NSFW',
-      1: '福瑞',
+      1: 'Furry',
       2: '结合'
     }
   },
@@ -348,7 +348,7 @@ export default {
     7: '皮肤元素',
     8: '音效',
     9: '工具',
-    10: 'Image',
+    10: '图像',
     views: '浏览量',
     likes: '喜欢',
     dislikes: '不喜欢',
@@ -379,12 +379,12 @@ export default {
   },
   contribute: { 0: '贡献' },
   nsfw: {
-    0: 'Warning, nsfw!',
+    0: '警告，NSFW 内容！',
     1: '此皮肤包含敏感或成人内容',
-    2: '此皮肤含有敏感或成人内容，某些用户可能发现令人不安的',
-    3: '好吧',
+    2: '此皮肤包含可能会使人不安的敏感或成人内容',
+    3: '了解',
     4: '拜拜 o/',
-    5: 'Furry Warning!'
+    5: 'Furry 警告！'
   },
   removed: {
     0: '版本不可用',
@@ -431,7 +431,7 @@ export default {
     36: '版本 «{name}» 已删除',
     37: '错误',
     38: '显然服务器把您当成了机器人。',
-    39: 'Your current login session has timed out. To proceed, please open a new page and log back into your account. Once you\'ve done that, return to this page and try again.',
+    39: '您当前的登录会话已超时。若要继续，请打开一个新页面并登录您的账户。登录完成后，请回到此页面然后再试一次。',
     40: '凭据不匹配（请重新登录账户。不必担心，所有内容都已自动保存）',
     41: '未知错误',
     42: '您不能编辑一个不存在的皮肤',
@@ -441,12 +441,12 @@ export default {
     46: '成功',
     47: '新的更改已提交审核',
     48: '更改已更新至审核',
-    49: 'Odd link',
+    49: '异常链接',
     50: '此链接无法用作下载链接',
     51: '已提交审核',
     52: '注意',
-    53: 'You need to choose type of asset',
-    54: 'The skin is currently under moderation. Please be patient while it is being processed'
+    53: '您需要选择素材的类型',
+    54: '此皮肤目前正在进行审核。完成前请耐心等待'
   },
   header: {
     0: '通知',
@@ -459,10 +459,10 @@ export default {
     3: '该页面还未推出。'
   },
   confirm: {
-    0: 'Reset everything?',
-    1: 'Show guide?',
-    2: 'Submit skin?',
-    3: 'Yes',
-    4: 'No'
+    0: '要全部重置吗？',
+    1: '要显示指南吗？',
+    2: '要提交皮肤吗？',
+    3: '是',
+    4: '否'
   }
 };
