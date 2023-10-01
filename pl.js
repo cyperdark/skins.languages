@@ -64,7 +64,7 @@ export default {
   },
   videos: {
     0: 'Wideo',
-    1: 'Lista wszystkich wideoprezentacji',
+    1: 'Lista wszystkich filmów pokazujących skina',
     2: 'Brak wideoprezentacji',
     3: 'Poszukaj ich w serwise YouTube, lub stwórz własną'
   },
@@ -95,7 +95,7 @@ export default {
     23: 'Dodaj co najmniej jedną publiczną wersję',
     24: 'Dodaj co najmniej jednego twórcę tej wersji',
     25: 'Niektórzy twórcy nie mają ról',
-    26: '{amount} screenshots doesn\'t have category'
+    26: '{amount} zrzuty ekranu nie mają kategorii'
   },
   skins: {
     0: 'Skiny',
@@ -211,8 +211,8 @@ export default {
     5: 'Zakończone'
   },
   rules: {
-    0: 'Last updated at',
-    1: 'Posting Skins Guidelines'
+    0: 'Ostatnio zaktualizowane',
+    1: 'Wytyczne Dodawania Skinów'
   },
   tabs: {
     0: 'Szukaj',
@@ -279,7 +279,7 @@ export default {
     skin_return: 'Powrót do skina',
     source: 'Źródło',
     contest_voting: 'Zagłosuj tutaj',
-    rules_agree: 'I agree'
+    rules_agree: 'Zgadzam się'
   },
   choose: {
     0: 'Opcjonalne',
@@ -348,7 +348,7 @@ export default {
     7: 'Element skina',
     8: 'Audio/Efekty Dźwiękowe',
     9: 'Narzędzia',
-    10: 'Image',
+    10: 'Zdjęcie',
     views: 'Wyświetlenia',
     likes: 'Polubienia',
     dislikes: 'Nie lubię tego',
@@ -431,7 +431,7 @@ export default {
     36: 'Wersja «{name}» została usunięta',
     37: 'Błąd',
     38: 'Najwyraźniej serwer uważa, że jesteś robotem.',
-    39: 'Your current login session has timed out. To proceed, please open a new page and log back into your account. Once you\'ve done that, return to this page and try again.',
+    39: 'Twoja obecna sesja logowania wygasła. Aby kontynuować, otwórz nową stronę i zaloguj się ponownie na swoje konto. Gdy to zrobisz, wróć tutaj i spróbuj ponownie.',
     40: 'Niepasujące dane (ponownie zaloguj się na konto. Nie martw się, wszystko zostało automatycznie zapisane)',
     41: 'Nieznany błąd',
     42: 'Nie możesz edytować nieistniejącego skina',
@@ -446,7 +446,7 @@ export default {
     51: 'Wysłano w celu weryfikacji przez moderacje',
     52: 'Uwaga',
     53: 'Musisz wybrać typ zasobu',
-    54: 'The skin is currently under moderation. Please be patient while it is being processed'
+    54: 'Ten skin jest obecnie weryfikowany przez moderacje. Bądź cierpliwy podczas przetwarzania'
   },
   header: {
     0: 'Powiadomienia',
