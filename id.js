@@ -379,7 +379,7 @@ export default {
   },
   contribute: { 0: 'Kontribusi' },
   nsfw: {
-    0: 'Warning, nsfw!',
+    0: 'Peringatan NSFW!',
     1: 'Terdapat konten sensitif atau dewasa pada skin ini',
     2: 'Terdapat konten sensitif atau dewasa pada skin ini yang mungkin mengganggu sebagian orang',
     3: 'Baiklah',
