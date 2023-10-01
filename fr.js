@@ -95,7 +95,7 @@ export default {
     23: 'Ajoutez au moins une version publique',
     24: 'Ajouter au moins un créateur à cette version',
     25: 'Certains créateurs n\'ont pas de rôles',
-    26: '{amount} screenshots doesn\'t have category'
+    26: '{amount} captures d\'écran n\'ont pas de catégorie'
   },
   skins: {
     0: 'Skins',
@@ -431,7 +431,7 @@ export default {
     36: 'La version « {name} » a été supprimée',
     37: 'Erreur',
     38: 'Apparemment, le serveur pense que vous êtes un robot.',
-    39: 'Your current login session has timed out. To proceed, please open a new page and log back into your account. Once you\'ve done that, return to this page and try again.',
+    39: 'Votre session de connexion a expiré. Pour continuer, veuillez ouvrir une nouvelle page et vous reconnecter à votre compte. Une fois que vous aurez fait cela, revenez sur cette page et réessayez.',
     40: 'Les identifiants ne correspondent pas (reconnexion dans le compte. Ne vous inquiétez pas, tout a été sauvegardé automatiquement)',
     41: 'Erreur inconnue',
     42: 'Vous ne pouvez pas modifier un skin inexistant',
