@@ -95,7 +95,7 @@ export default {
     23: 'Lisää vähintään yksi julkinen versio',
     24: 'Lisää tähän versioon vähintään yksi tekijä',
     25: 'Joillekin tekijöille ei ole valittu rooleja',
-    26: '{amount} screenshots doesn\'t have category'
+    26: '{amount} kuvakaappauksella ei ole kategoriaa'
   },
   skins: {
     0: 'Skinit',
@@ -152,12 +152,12 @@ export default {
     36: 'Ei saatavilla',
     37: 'Valitettavasti tämä skini on poistettu tekijän {author} pyynnöstä',
     38: 'Tervetuloa skinin julkaisueditoriin!',
-    39: `New to the skin editor? Let us guide you through the interface and show you the editor's full potential!`,
+    39: `Oletko uusi skin editorin käyttäjä? Anna meidän opastaa sinut käyttöliittymän läpi ja näyttää sinulle editorin täyden potentiaalin!`,
     40: '{current} of {max} completed',
-    41: 'Check out later',
-    42: `Let's get started`,
+    41: 'Katso myöhemmin',
+    42: `Aloitetaan`,
     43: 'Onnittelut!',
-    44: 'You have successfully finished the tutorial, have fun!',
+    44: 'Olet suorittanut tutoriaalin, pidä hauskaa!',
     45: 'uploader'
   },
   drag: {
@@ -203,16 +203,16 @@ export default {
     14: 'Haku:'
   },
   contests: {
-    0: 'Contests',
-    1: 'Official newspost',
+    0: 'Kilpailut',
+    1: 'Virallinen uutisviesti',
     2: 'Submission',
     3: 'Valmistellaan',
     4: 'Äänestys',
     5: 'Valmis'
   },
   rules: {
-    0: 'Last updated at',
-    1: 'Posting Skins Guidelines'
+    0: 'Päivitetty viimeksi',
+    1: 'Skinien Julkaisujen Ohjeet'
   },
   tabs: {
     0: 'Haku',
@@ -243,9 +243,9 @@ export default {
       11: 'Hae tagilla',
       12: '{name} found tags',
       13: 'Uusi skini',
-      14: 'Site rules',
-      15: 'osu! Contests',
-      16: 'osu! Contests'
+      14: 'Sivuston säännöt',
+      15: 'osu! Kilpailut',
+      16: 'osu! Kilpailut'
     },
     description: {
       0: 'Hanki parhaat osu skinit sivumme suuresta valikoimasta! Meillä on skinejä eri pelimodeille ja kuvasuhteille, sekä jopa top pelaajille. Lisäksi, meillä on erityinen osasto animefaneille. Paranna peliäsi täydellisellä skinillä. #osuskins #osugame #anime',
@@ -278,11 +278,11 @@ export default {
     osu_forum_link: 'osu! Foorumi',
     skin_return: 'Takaisin skiniin',
     source: 'Lähde',
-    contest_voting: 'Vote here',
-    rules_agree: 'I agree'
+    contest_voting: 'Äänestä tässä',
+    rules_agree: 'Hyväksyn'
   },
   choose: {
-    0: 'Optional',
+    0: 'Valinnainen',
     1: 'Pakollinen',
     2: 'Valitse vähintään yksi vaihtoehto'
   },
@@ -310,7 +310,7 @@ export default {
     10: 'Nollaa kaikki',
     11: 'Näytä ohje',
     12: 'Sulje ohje',
-    13: 'To mark a rule as read, hover over it (Yellow indicates unread)'
+    13: 'Merkataksesi säännön luetuksi, vie hiiri sen päälle (Keltainen tarkoittaa lukematonta)'
   },
   lists: {
     screens: {
@@ -329,7 +329,7 @@ export default {
       12: 'Tulosnäyttö',
       13: 'Ohitus',
       14: 'Banneri',
-      15: 'Result screen (bottom)'
+      15: 'Tulos näyttö (pohjalla)'
     },
     cats: {
       0: 'NSFW',
@@ -348,7 +348,7 @@ export default {
     7: 'Skinin tiedosto',
     8: 'Ääni/Sfx',
     9: 'Työkalut',
-    10: 'Image',
+    10: 'Kuva',
     views: 'Katselukerrat',
     likes: 'Tykkäykset',
     dislikes: 'Disliket',
@@ -358,7 +358,7 @@ export default {
     ratio: 'Valitse kuvasuhde | suhde'
   },
   placeholders: {
-    0: 'Select roles',
+    0: 'Valitse roolit',
     1: 'Valitse versiot',
     2: 'Kirjoita jotain...',
     3: 'Valitse koko',
@@ -459,9 +459,9 @@ export default {
     3: 'Tätä sivua ei ole julkaistu, vielä.'
   },
   confirm: {
-    0: 'Reset everything?',
-    1: 'Show guide?',
-    2: 'Submit skin?',
+    0: 'Palauta kaikki?',
+    1: 'Näytä ohje?',
+    2: 'Julkaise skini?',
     3: 'Kyllä',
     4: 'Ei'
   }
