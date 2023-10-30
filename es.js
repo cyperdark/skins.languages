@@ -24,7 +24,7 @@ export default {
   home: {
     0: 'Disponible para descargar',
     1: 'Skins más _name_',
-    2: 'Visto | Gustados | Descargados',
+    2: 'Vistas | Gustadas | Descargadas',
     3: 'Publicar nueva skin',
     4: 'Como instalar la skin',
     5: '{amount} Skins | {amount} Skins | {amount} Skins'
@@ -95,7 +95,7 @@ export default {
     23: 'Añade al menos una versión pública',
     24: 'Añade al menos un creador a esta versión',
     25: 'Algunos creadores no tienen roles',
-    26: '{amount} screenshots doesn\'t have category'
+    26: '{amount} capturas de pantalla sin categoría'
   },
   skins: {
     0: 'Skins',
@@ -211,8 +211,8 @@ export default {
     5: 'Terminado'
   },
   rules: {
-    0: 'Last updated at',
-    1: 'Posting Skins Guidelines'
+    0: 'Última actualización',
+    1: 'Normas para la publicación de skins'
   },
   tabs: {
     0: 'Buscar',
@@ -279,7 +279,7 @@ export default {
     skin_return: 'Volver a la skin',
     source: 'Fuente',
     contest_voting: 'Vota aquí',
-    rules_agree: 'I agree'
+    rules_agree: 'Estoy de acuerdo'
   },
   choose: {
     0: 'Opcional',
@@ -348,7 +348,7 @@ export default {
     7: 'Elemento de la skin',
     8: 'Audio/Sfx',
     9: 'Herramientas',
-    10: 'Image',
+    10: 'Imagen',
     views: 'Vistas',
     likes: 'Me gusta',
     dislikes: 'No me gusta',
@@ -410,28 +410,28 @@ export default {
     15: 'No encontrado',
     16: 'No puedes eliminar una etiqueta eliminada',
     17: 'Añadido',
-    18: 'You have successfully added a new tag',
-    19: 'OOps',
-    20: 'This creator was already added',
+    18: 'Has añadido una nueva etiqueta con éxito',
+    19: '¡Uy!',
+    20: 'Este creador ya ha sido agregado',
     21: 'EZ',
-    22: 'New creator has been added',
-    23: 'HUH',
-    24: 'Impossible to remove a deleted creator',
-    25: 'Duplicate',
-    26: 'This change has already been added earlier.',
-    27: 'Duplicate',
-    28: 'This url has already been added earlier.',
-    29: 'Warning',
-    30: 'You forgot to add a description for the url. Example: Description:url',
-    31: 'Warning',
-    32: 'You forgot to add an url for the description. Example: Description:url',
-    33: 'Restored',
-    34: 'Version «{name}» has been restored',
-    35: 'Deleted',
-    36: 'Version «{name}» has been deleted',
+    22: 'Se ha añadido un nuevo creador',
+    23: '¿EH?',
+    24: 'No se puede quitar a un creador eliminado',
+    25: 'Duplicado',
+    26: 'Este cambio ya se ha añadido anteriormente.',
+    27: 'Duplicado',
+    28: 'Este enlace ya ha sido añadido anteriormente.',
+    29: '¡Advertencia!',
+    30: 'Has olvidado añadir una descripción para el enlace. Ejemplo: Descripción:enlace',
+    31: '¡Advertencia!',
+    32: 'Has olvidado añadir un enlace para la descripción. Ejemplo: Descripción:enlace',
+    33: 'Restablecido',
+    34: 'La versión «{name}» ha sido restaurada',
+    35: 'Eliminado',
+    36: 'La versión «{name}» ha sido eliminada',
     37: 'Error',
     38: 'Aparentemente, el servidor piensa que eres un robot.',
-    39: 'Your current login session has timed out. To proceed, please open a new page and log back into your account. Once you\'ve done that, return to this page and try again.',
+    39: 'La sesión actual ha expirado. Para continuar, por favor abre una nueva página y vuelve a iniciar sesión en tu cuenta. Una vez que lo hayas hecho, vuelve a esta página e inténtalo de nuevo.',
     40: 'Credenciales incorrectas (hay que reiniciar sesión en la cuenta. No te preocupes, todo se guardó automáticamente)',
     41: 'Error desconocido',
     42: 'No puedes editar un skin que no existe',
@@ -444,9 +444,9 @@ export default {
     49: 'Link raro',
     50: 'Este link no puede utilizarse como enlace de descarga',
     51: 'Enviado para moderación',
-    52: 'Warning',
+    52: '¡Advertencia!',
     53: 'Tienes que elegir el tipo de recurso',
-    54: 'The skin is currently under moderation. Please be patient while it is being processed'
+    54: 'La skin está actualmente bajo moderación. Por favor, sea paciente mientras se procesa'
   },
   header: {
     0: 'Notificaciones',
