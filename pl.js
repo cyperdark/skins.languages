@@ -158,7 +158,7 @@ export default {
     42: `Zacznijmy`,
     43: 'Gratulacje!',
     44: 'Pomyślnie ukończyłeś samouczek, baw się dobrze!',
-    45: 'uploader'
+    45: 'Przesyłający'
   },
   drag: {
     0: 'Kliknij',
@@ -329,7 +329,7 @@ export default {
       12: 'Result screen',
       13: 'Skip',
       14: 'Banner',
-      15: 'Result screen (bottom)'
+      15: 'Ekran wyników (dolny)'
     },
     cats: {
       0: 'NSFW',
@@ -411,7 +411,7 @@ export default {
     16: 'Nie możesz usunąć usuniętego tagu',
     17: 'Dodano',
     18: 'Pomyślnie dodałeś nowy tag',
-    19: 'OOps',
+    19: 'Ups',
     20: 'Ten twórca został już dodany',
     21: 'EZ',
     22: 'Dodano nowego twórcę',
