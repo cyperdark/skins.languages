@@ -19,7 +19,7 @@ export default {
       0: 'סקין זה מכיל אלמנטים סקינים אחרים',
       1: 'לחץ כאן לקבלת מידע נוסף'
     },
-    tools: 'Tools'
+    tools: 'כלים'
   },
   home: {
     0: 'זמינים להורדה',
@@ -95,7 +95,7 @@ export default {
     23: 'הוסף לפחות גרסה פומבית אחת',
     24: 'הוסף לפחות יוצר אחד לגרסה זו',
     25: 'לחלק מהיוצרים אין תפקיד',
-    26: '{amount} screenshots doesn\'t have category'
+    26: '{amount} צילומי מסך לא משתייכים לשום קטגוריה'
   },
   skins: {
     0: 'סקינים',
@@ -149,16 +149,16 @@ export default {
     33: 'הגב בפורום osu!',
     34: 'עוד סקינים מהיוצר הזה | עוד סקינים מהיוצרים האלו',
     35: 'תמוך בסקין',
-    36: 'Unavailable',
+    36: 'לא זמין',
     37: 'לצערנו, סקין זה נמחק לבקשת {author}',
-    38: 'Welcome to the skin post editor!',
-    39: `New to the skin editor? Let us guide you through the interface and show you the editor's full potential!`,
-    40: '{current} of {max} completed',
-    41: 'Check out later',
-    42: `Let's get started`,
-    43: 'Congratulations!',
-    44: 'You have successfully finished the tutorial, have fun!',
-    45: 'uploader'
+    38: 'ברוך הבא לעורך הסקינים!',
+    39: `חדשים לעורך הסקינים? תנו לנו להדריך אתכם בממשק ולהראות לכם את יכולותיו של העורך!`,
+    40: '{current} מתוך {max} הושלמו',
+    41: 'בדקו מאוחר יותר',
+    42: `בואו נתחיל`,
+    43: 'מזל טוב!',
+    44: 'סיימתם את המדריך בהצלחה, תהנו!',
+    45: 'מעלה'
   },
   drag: {
     0: 'לחץ כאן',
@@ -167,8 +167,8 @@ export default {
   footer: {
     0: 'נוצר על ידי cyperdark',
     1: 'תודות',
-    2: 'Rules',
-    3: 'Contacts'
+    2: 'חוקים',
+    3: 'אנשי קשר'
   },
   credits: {
     0: 'Chibi',
@@ -203,16 +203,16 @@ export default {
     14: 'חיפוש:'
   },
   contests: {
-    0: 'Contests',
-    1: 'Official newspost',
-    2: 'Submission',
-    3: 'Preparing',
-    4: 'Voting',
-    5: 'Finished'
+    0: 'תחרויות',
+    1: 'פוסט חדשות רשמי',
+    2: 'הגשה',
+    3: 'מתכונן',
+    4: 'הצבעה',
+    5: 'הסתיים'
   },
   rules: {
-    0: 'Last updated at',
-    1: 'Posting Skins Guidelines'
+    0: 'עודכן לאחרונה ב',
+    1: 'הנחיות לפרסום סקינים'
   },
   tabs: {
     0: 'חיפוש',
@@ -237,20 +237,20 @@ export default {
       5: 'סקין osu של {name} v{version}',
       6: 'תודות',
       7: 'סקיני osu',
-      8: '{name} search osu skins',
+      8: '{name} חפש סקינים לאוסו',
       9: 'קבל השראה מסקיני osu אחרים',
       10: 'סקיני osu שנוצרו על ידי {name}',
       11: 'חיפוש תגיות',
-      12: '{name} found tags',
+      12: '{name} מצא תגים',
       13: 'סקין חדש',
-      14: 'Site rules',
-      15: 'osu! Contests',
-      16: 'osu! Contests'
+      14: 'חוקי האתר',
+      15: 'osu! תחרויות',
+      16: 'osu! תחרויות'
     },
     description: {
       0: 'קבל את סקיני ה־osu! הכי טובים באתר שלנו! ספריית הענק שלנו מכילה סקינים לכל מצבי המשחק, יחסי גובה־רוחב ואפילו לשחקני השיא. בנוסף, יש לנו מדור מיוחד עבור מעריצי אנימה. שפר את יכולת המשחק שלך עם הסקין המושלם. #osuskins #osugame #anime',
-      1: '{views} views. An osu skin for {modes}, the size is {size}, created by {creators}. Supports {ratios}',
-      2: 'Find the perfect osu! skin with our advanced search feature. Browse through our huge library, filtered by gamemode, aspect ratio, and more. Or, check out skins used by top players.',
+      1: '{views} צפיות. סקין osu ל-{modes}, הגודל הוא {size}, נוצר על ידי {creators}. תומך {ratios}',
+      2: 'מצאו את הסקין המושלם לosu! עם תכונת החיפוש המתקדמת שלנו. דפדפו בספריה הענקית שלנו, המסוננת ע"פ מצב, יחס מסך, ועוד. תוכלו גם לבדוק סקינים המשומשים ע"י השחקנים האלופים.',
       3: 'Discover a variety of skins for different game modes and aspect ratios on our site. Choose from standard, catch the beat, mania, and taiko modes. Find the perfect fit for your gaming preferences.',
       4: 'Find the perfect osu skin from top players on our site. Browse our collection of popular skins and customize your gameplay. Discover a wide range of styles and themes to suit your preferences.',
       5: 'List of existing tags for osu skins.',
@@ -277,13 +277,13 @@ export default {
     reddit_link: 'Reddit',
     osu_forum_link: 'פורום osu!',
     skin_return: 'חזרה לסקין',
-    source: 'Source',
-    contest_voting: 'Vote here',
-    rules_agree: 'I agree'
+    source: 'מקור',
+    contest_voting: 'הצבעה כאן',
+    rules_agree: 'אני מסכים'
   },
   choose: {
-    0: 'Optional',
-    1: 'Required',
+    0: 'אופציונלי',
+    1: 'נדרש',
     2: 'בחר לפחות אופציה אחת'
   },
   user: {
@@ -310,7 +310,7 @@ export default {
     10: 'אפס הכל',
     11: 'הצג מדריך',
     12: 'סגור מדריך',
-    13: 'To mark a rule as read, hover over it (Yellow indicates unread)'
+    13: 'כדי לסמן חוק כנקראה, עבור מעליו (צהוב מסמן לא נקרא)'
   },
   lists: {
     screens: {
@@ -329,7 +329,7 @@ export default {
       12: 'מסך תוצאה',
       13: 'דלג',
       14: 'באנר',
-      15: 'Result screen (bottom)'
+      15: 'מסך תוצאות (תחתית)'
     },
     cats: {
       0: 'NSFW',
@@ -345,124 +345,124 @@ export default {
     4: 'אומנות',
     5: 'גופן',
     6: 'אומן',
-    7: 'Skin element',
-    8: 'Audio/Sfx',
-    9: 'Tools',
-    10: 'Image',
+    7: 'אלמנט של סקין',
+    8: 'שמע/Sfx',
+    9: 'כלים',
+    10: 'תמונה',
     views: 'צפיות',
     likes: 'לייקים',
     dislikes: 'דיסלייקים',
     downloads: 'הורדות',
-    size_range: 'Select size',
-    date_range: 'Select a date range',
-    ratio: 'Select aspect ratio | ratio'
+    size_range: 'בחר גודל',
+    date_range: 'בחר טווח תאריכים',
+    ratio: 'בחר יחס ממדים | יחס'
   },
   placeholders: {
-    0: 'Select roles',
-    1: 'Select versions',
-    2: 'Type some text...',
-    3: 'Select size',
-    4: 'Select date range',
-    5: 'Year',
-    6: 'Month',
-    7: 'Select aspect ratio',
-    8: 'Select categories',
+    0: 'בחר תפקידים',
+    1: 'בחר גרסאות',
+    2: 'רשום תוכן...',
+    3: 'בחר גודל',
+    4: 'בחר טווח תאריכים',
+    5: 'שנה',
+    6: 'חודש',
+    7: 'בחר יחס ממדים',
+    8: 'בחר קטגוריות',
     9: 'מצבי משחק',
-    10: 'Select type',
-    11: 'Paste a YouTube link',
+    10: 'בחר סוג',
+    11: 'הדבק קישור יוטיוב',
     12: 'Type a description and an url. Format description:url',
-    13: 'Select extra',
-    14: 'Paste a link',
-    15: 'Skin title, author, or tags',
-    16: 'Select category',
-    17: 'Type the name of the tag'
+    13: 'בחר אקסטרה',
+    14: 'הדבק קישור',
+    15: 'בחר אקסטרה',
+    16: 'בחר קטגוריה',
+    17: 'רשום את שם הטג'
   },
-  contribute: { 0: 'Contribute' },
+  contribute: { 0: 'לתרום' },
   nsfw: {
-    0: 'Warning, nsfw!',
-    1: 'This skin contains sensitive or adult content',
-    2: 'This skin contains sensitive or adult content that some users may find disturbing',
-    3: 'Alright',
-    4: 'bye o/',
-    5: 'Furry Warning!'
+    0: 'אזהרה! תוכן לא לילדים!',
+    1: 'הסקין הזה מכיל תוכן רגיש או תוכן למבוגרים בלבד',
+    2: 'הסקין הזה מכיל תוכן רגיש או תוכן למבוגרים שחלק מהמשתמשים יכולים למצאו כמטריד',
+    3: 'בסדר',
+    4: 'ביי o/',
+    5: 'אזהרת פורי!'
   },
   removed: {
-    0: 'Version unavailable',
+    0: 'גרסה אינה זמינה',
     1: 'The author of the skin decided to remove this version from the site.',
-    2: 'Switch to an available version'
+    2: 'החלף לגרסה זמינה'
   },
   notify: {
-    0: 'Issues were not fixed',
+    0: 'הבעיות לא תוקנו',
     1: 'Not all required fields were filled',
-    2: 'Show',
-    3: 'Not found',
+    2: 'הצג',
+    3: 'לא נמצא',
     4: 'Banner not found (Currently, the first screenshot is being used as the banner)',
-    5: 'No changes',
-    6: 'No changes were found',
-    7: 'ID not found',
+    5: 'אין שינויים',
+    6: 'לא נמצאו שינויים',
+    7: 'ID לא נמצא',
     8: 'ID of the video not found, try another link (At the moment only YouTube is supported)',
-    9: 'Oops',
+    9: 'אופס',
     10: 'Looks like your session expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
     11: 'Exists',
-    12: 'This video has already been added',
+    12: 'הסרטון הזה כבר נוסף',
     13: 'Exists',
-    14: 'This tag has already been added',
-    15: 'Not found',
-    16: 'You cannot delete a deleted tag',
-    17: 'Added',
-    18: 'You have successfully added a new tag',
-    19: 'OOps',
-    20: 'This creator was already added',
+    14: 'הטג הזה כבר נוסף',
+    15: 'לא נמצא',
+    16: 'בלתי אפשרי למחוק טג מחוק',
+    17: 'נוסף',
+    18: 'הוספת בהצלחה טג חדש',
+    19: 'אופס',
+    20: 'היוצר הזה כבר נוסף',
     21: 'EZ',
-    22: 'New creator has been added',
+    22: 'יוצר חדש נוסף',
     23: 'HUH',
-    24: 'Impossible to remove a deleted creator',
-    25: 'Duplicate',
-    26: 'This change has already been added earlier.',
-    27: 'Duplicate',
-    28: 'This url has already been added earlier.',
-    29: 'Warning',
+    24: 'בלתי אפשרי למחוק יוצר מחוק',
+    25: 'שכפול',
+    26: 'השינוי הזה כבר נוסף מוקדם יותר.',
+    27: 'שכפול',
+    28: 'הקישור הזה כבר נוסף מוקדם יותר.',
+    29: 'אזהרה',
     30: 'You forgot to add a description for the url. Example: Description:url',
-    31: 'Warning',
+    31: 'אזהרה',
     32: 'You forgot to add an url for the description. Example: Description:url',
-    33: 'Restored',
-    34: 'Version «{name}» has been restored',
-    35: 'Deleted',
-    36: 'Version «{name}» has been deleted',
-    37: 'Error',
-    38: 'Apparently the server thinks you\'re a robot.',
+    33: 'שוחזר',
+    34: 'גרסה {name} שוחזרה',
+    35: 'נמחק',
+    36: 'גרסה {name} נמחקה',
+    37: 'שגיאה',
+    38: 'לרוע המזל השרת חושב שאתה רובוט.',
     39: 'Your current login session has timed out. To proceed, please open a new page and log back into your account. Once you\'ve done that, return to this page and try again.',
     40: 'Mismatched credentials (relogin in account. Don\'t worry, everything was saved automatically)',
-    41: 'Unknown error',
+    41: 'שגיאה לא ידועה',
     42: 'You cannot edit a nonexistent skin',
     43: 'Seems like you don\'t have permission to edit this skin',
     44: 'You cannot send this version because it is the same as the previous one.',
     45: 'These changes have already been sent for moderation',
-    46: 'Success',
+    46: 'הצליח',
     47: 'New changes have been submitted for moderation',
     48: 'Changes have been updated in moderation',
-    49: 'Odd link',
-    50: 'This link cannot be used as a download link',
+    49: 'קישור מוזר',
+    50: 'קישור זה אינו יכול לשמש כקישור הורדה',
     51: 'Submitted for moderation',
-    52: 'Warning',
+    52: 'אזהרה',
     53: 'You need to choose type of asset',
     54: 'The skin is currently under moderation. Please be patient while it is being processed'
   },
   header: {
     0: 'התראות',
-    1: 'Follow us on these platforms to receive notifications about new skins'
+    1: 'עקוב אחרינו בפלטפורמות האלה כדי לקבל התראות על סקינים חדשים'
   },
   restricted_view: {
     0: 'לא מורשה',
-    1: 'Please log into your account',
-    2: 'Restricted view',
-    3: 'This page is not out, yet.'
+    1: 'אנא התחבר למשתמש שלך',
+    2: 'חלק מוגבל',
+    3: 'העמוד הזה עוד לא יצא.'
   },
   confirm: {
-    0: 'Reset everything?',
-    1: 'Show guide?',
-    2: 'Submit skin?',
-    3: 'Yes',
-    4: 'No'
+    0: 'אפס הכל?',
+    1: 'הצג מדריך?',
+    2: 'שלח סקין?',
+    3: 'כן',
+    4: 'לא'
   }
 };
