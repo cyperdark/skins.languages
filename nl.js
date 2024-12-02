@@ -95,7 +95,7 @@ export default {
     22: 'Checklist',
     23: 'Voeg minimaal één openbare versie toe',
     24: 'Voeg tenminste één maker toe aan deze versie',
-    25: 'Sommige makers hebben geen rollen',
+    25: 'Some creators don\'t have roles',
     26: '{amount} schermafbeeldingen hebben geen categorie',
     28: 'Select gamemode for gameplay screenshots'
   },
