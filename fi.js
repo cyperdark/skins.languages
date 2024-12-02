@@ -27,8 +27,7 @@ export default {
     2: 'Katsotut | Tykätyt | Ladatut',
     3: 'Julkaise uusi skini',
     4: 'Miten asentaa skini',
-    5: '{amount} Skiniä | {amount} Skiniä | {amount} Skiniä',
-    6: 'Join discord'
+    5: '{amount} Skiniä | {amount} Skiniä | {amount} Skiniä'
   },
   changelogs: {
     0: 'Muutosloki',
