@@ -95,9 +95,9 @@ export default {
     22: 'Danh mục',
     23: 'Thêm ít nhất một phiên bản công khai',
     24: 'Thêm ít nhất một tác giả cho phiên bản này',
-    25: 'Mốt số tác giả không có vai trò',
+    25: 'Some creators don\'t have roles',
     26: '{amount} bức ảnh chưa có danh mục',
-    28: 'Select gamemode for gameplay screenshots'
+    28: 'Chọn chế độ chơi để xem ảnh chụp màn hình'
   },
   skins: {
     0: 'Skin',
@@ -114,7 +114,7 @@ export default {
     11: 'Tìm kiếm',
     12: 'skin {name}',
     13: 'Khám phá các skin',
-    14: 'Popular skins'
+    14: 'Skin osu phổ biến'
   },
   skin: {
     0: 'Chỉnh sửa',
@@ -153,7 +153,7 @@ export default {
     34: 'Nhiều skin hơn từ tác giả này | Nhiều skin hơn từ tác giả này',
     35: 'Ủng hộ skin',
     36: 'Không khả dụng',
-    37: 'Unfortunately, this skin was deleted',
+    37: 'Thật không may, skin này đã bị xoá',
     38: 'Chào mừng đến với phần trình sửa bài đăng skin!',
     39: `Mới làm quen với việc chỉnh sửa? Hãy để chúng tôi hướng dẫn bạn qua giao diện và cho bạn thấy tiềm năng của editor này!`,
     40: '{current} trên {max} đã được hoàn thiện',
@@ -204,10 +204,10 @@ export default {
       3: 'Danh sách'
     },
     14: 'Tìm kiếm:',
-    15: 'Size:',
-    16: 'Rating:',
-    17: 'Views:',
-    18: 'Downloads:'
+    15: 'Kích cỡ:',
+    16: 'Đánh giá:',
+    17: 'Lượt xem:',
+    18: 'Lượt tải xuống:'
   },
   contests: {
     0: 'Các cuộc thi',
@@ -217,18 +217,18 @@ export default {
     4: 'Đang bình chọn',
     5: 'Đã hoàn thành',
     6: 'Các cuộc thi',
-    7: 'Voting page'
+    7: 'Trang bầu chọn'
   },
   rules: {
     0: 'Cập nhật lần cuối cùng vào',
     1: 'Tiêu chuẩn về việc đăng tải Skin'
   },
   skinini: {
-    0: 'Welcome to skin.ini editor!',
-    1: `New to the skin.ini editor? Let us guide you through the interface and show you the editor's full potential!`,
+    0: 'Chào mừng đến với phần chỉnh sửa skin.ini!',
+    1: `Lần đầu tiếp xúc với skin.ini? Hãy để chúng tôi giới thiệu qua giao diện và cho bạn thấy sức mạnh của trình chỉnh sửa!`,
     2: '{current} trên {max} đã được hoàn thiện',
-    3: 'No results',
-    4: 'Your query may contain typos'
+    3: 'Không có kết quả',
+    4: 'Phần tìm kiếm của bạn có thể có lỗi sai'
   },
   tabs: {
     0: 'Tìm kiếm',
@@ -518,6 +518,6 @@ export default {
     2: 'Nộp skin?',
     3: 'Đúng',
     4: 'Không',
-    5: 'Reset .ini?'
+    5: 'Đặt lại .ini?'
   }
 };
