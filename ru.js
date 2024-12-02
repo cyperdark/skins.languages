@@ -95,7 +95,7 @@ export default {
     22: 'Список проблем',
     23: 'Добавьте хотя бы одну публичную версию',
     24: 'Добавьте хотя бы одного создателя для этой версии',
-    25: 'Некоторые создатели не имеют ролей',
+    25: 'Some creators don\'t have roles',
     26: '{amount} скриншотов без категории',
     28: 'Выберите режим игры для скриншотов геймплея'
   },
@@ -225,7 +225,7 @@ export default {
   },
   skinini: {
     0: 'Добро пожаловать в редактор skin.ini!',
-    1: `New to the skin.ini editor? Let us guide you through the interface and show you the editor's full potential!`,
+    1: `Впервые в редакторе skin.ini? Позвольте нам провести вас по интерфейсу и показать все возможности редактора!`,
     2: '{current} из {max} выполнено',
     3: 'Ничего не найденo',
     4: 'Ваш запрос может содержать опечатки'
@@ -303,10 +303,10 @@ export default {
     source: 'Источник',
     contest_voting: 'Голосовать здесь',
     rules_agree: 'Я согласен',
-    report_issue: 'Report issue',
-    ghost_creator: 'Ghost creator',
-    close: 'Close',
-    quick_select: 'Quick select'
+    report_issue: 'Сообщить о проблеме',
+    ghost_creator: 'Фантомный автор',
+    close: 'Закрыть',
+    quick_select: 'Быстрый выбор'
   },
   choose: {
     0: 'Необязательно',
@@ -340,13 +340,13 @@ export default {
     12: 'Закрыть руководство',
     13: 'Чтобы отметить правило как прочитанное, наведите на него курсор (желтый цвет означает непрочитанное)',
     14: {
-      0: '[hl]{example}[/hl] - [b]equal[/b] to {amount}',
-      1: '[hl]{example}[/hl] - [b]above[/b] {amount}',
-      2: '[hl]{example}[/hl] - [b]below[/b] {amount}',
-      3: '[hl]{example}[/hl] - [b]from[/b] {amount} [b]to[/b] {amount_2}'
+      0: '[hl]{example}[/hl] - [b]равен[/b] {amount}',
+      1: '[hl]{example}[/hl] - [b]больше[/b] {amount}',
+      2: '[hl]{example}[/hl] - [b]меньше[/b] {amount}',
+      3: '[hl]{example}[/hl] - [b]от[/b] {amount} [b]до[/b] {amount_2}'
     },
-    15: 'Unselect',
-    16: 'Remove file'
+    15: 'Снять выделение',
+    16: 'Удалить файл'
   },
   lists: {
     screens: {
@@ -391,21 +391,21 @@ export default {
     dislikes: 'Дизлайки',
     downloads: 'Скачиваний',
     ratio: 'Соотношение сторон | соотношение',
-    sorting: 'Desc. | Asc.'
+    sorting: 'Восх. | Нисх.'
   },
   sorting: {
-    0: 'Most | Least',
-    1: 'Most | Least',
-    2: 'Highest | Lowest',
-    3: 'Largest | Smallest',
-    4: 'Newest | Oldest',
+    0: 'Наиболее | Наименее',
+    1: 'Наиболее | Наименее',
+    2: 'Высочайший | Самый низкий',
+    3: 'Наибольший | Наименьший',
+    4: 'Новый | Старый',
     5: 'A-Z | Z-A'
   },
   placeholders: {
     0: 'Выберите роли',
     1: 'Выберите версии',
     2: 'Введите текст...',
-    3: 'Select size range',
+    3: 'Выберите диапазон размера',
     4: 'Диапазон дат',
     5: 'Год',
     6: 'Месяц',
@@ -420,12 +420,12 @@ export default {
     15: 'Название скина, автор или теги',
     16: 'Выберите категорию',
     17: 'Введите название тега',
-    18: 'Type the name of the skin',
-    19: 'Type author name ',
-    20: 'Select file',
-    24: 'Type gameplay name...',
-    25: 'Type range',
-    26: 'Type text'
+    18: 'Введите название скина',
+    19: 'Введите имя автора',
+    20: 'Выберите файл',
+    24: 'Введите название версии геймплея...',
+    25: 'Введите диапазон',
+    26: 'Введите текст'
   },
   contribute: { 0: 'Помочь с переводом' },
   nsfw: {
@@ -498,9 +498,9 @@ export default {
     53: 'Вы должны выбрать тип ресурса',
     54: 'Этот скин находиться на модерации. Пожалуйста ожидайте',
     55: 'Успешно',
-    56: 'New ghost creator has been added',
-    57: 'Color copied',
-    58: `The RGB code "{color}" is now available through your clipboard!`
+    56: 'Фантомный автор добавлен',
+    57: 'Цвет скопирован',
+    58: `RGB код "{color}" скопирован в буфер обмена!`
   },
   header: {
     0: 'Уведомления',
@@ -518,6 +518,6 @@ export default {
     2: 'Отправить скин?',
     3: 'Да',
     4: 'Нет',
-    5: 'Reset .ini?'
+    5: 'Сбросить .ini?'
   }
 };
