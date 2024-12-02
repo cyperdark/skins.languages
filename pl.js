@@ -97,7 +97,6 @@ export default {
     24: 'Dodaj co najmniej jednego twórcę tej wersji',
     25: 'Niektórzy twórcy nie mają ról',
     26: '{amount} zrzuty ekranu nie mają kategorii',
-    27: 'Specifiy gameplay name for {mode} screenshots | Specifiy gameplay name for {mode} screenshot',
     28: 'Select gamemode for gameplay screenshots'
   },
   skins: {
