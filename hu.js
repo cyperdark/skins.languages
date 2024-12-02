@@ -95,7 +95,7 @@ export default {
     22: 'Ellenőrző lista',
     23: 'Adjon hozzá legalább egy publikus verziót',
     24: 'Adjon hozzá legalább egy készítőt ehhez a verzióhoz',
-    25: 'Néhány készítőnek nincs szerepe',
+    25: 'Some creators don\'t have roles',
     26: '{amount} screenshots doesn\'t have category',
     28: 'Select gamemode for gameplay screenshots'
   },
