@@ -27,8 +27,7 @@ export default {
     2: '조회수 | 좋아요 수 | 다운로드 수',
     3: '스킨 올리기',
     4: '스킨 다운로드 방법',
-    5: '스킨 수: {amount} | {amount} | {amount}',
-    6: 'Join discord'
+    5: '스킨 수: {amount} | {amount} | {amount}'
   },
   changelogs: {
     0: '변경 내역',
