@@ -268,7 +268,7 @@ export default {
       13: 'Skin nou',
       14: 'Regulile site-ului',
       15: 'Concursuri osu!',
-      16: 'osu! skinning Tools and Resources list'
+      16: 'osu! skinning tools'
     },
     description: {
       0: 'Obține cele mai bune skin-uri de osu pe site-ul nostru! Librăria noastră imensă conține skin-uri pentru toate modurile de joc, aspect ratio-urile și pana și skinuri ale jucătorilor de top. Plus, avem o secțiune specială pentru fanii anime-urilor. îmbunătăţeşte-ți gameplay-ul cu skin-ul perfect. #osuskins #osugame #anime',
