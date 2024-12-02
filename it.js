@@ -95,7 +95,7 @@ export default {
     22: 'Lista di controllo',
     23: 'Aggiungi almeno una versione pubblica',
     24: 'Aggiungi almeno un creatore a questa versione',
-    25: 'Qualche creatore non ha i ruoli',
+    25: 'Some creators don\'t have roles',
     26: '{amount} I screenshot non hanno una categoria',
     28: 'Select gamemode for gameplay screenshots'
   },
