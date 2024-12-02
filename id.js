@@ -95,7 +95,7 @@ export default {
     22: 'Daftar cek',
     23: 'Tambahkan setidaknya satu versi publik',
     24: 'Tambahkan setidaknya satu pembuat untuk versi ini',
-    25: 'Beberapa pembuat tidak mempunyai peran',
+    25: 'Some creators don\'t have roles',
     26: '{amount} screenshot tidak memiliki kategori',
     28: 'Select gamemode for gameplay screenshots'
   },
