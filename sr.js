@@ -97,7 +97,6 @@ export default {
     24: 'Додајте најмање једног креатора овој верзији',
     25: 'Неки креатори немају улогу',
     26: '{amount} снимци екрана немају категорију',
-    27: 'Specifiy gameplay name for {mode} screenshots | Specifiy gameplay name for {mode} screenshot',
     28: 'Select gamemode for gameplay screenshots'
   },
   skins: {
