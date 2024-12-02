@@ -95,7 +95,7 @@ export default {
     22: 'Check list',
     23: 'Dodaj co najmniej jedną publiczną wersję',
     24: 'Dodaj co najmniej jednego twórcę tej wersji',
-    25: 'Niektórzy twórcy nie mają ról',
+    25: 'Some creators don\'t have roles',
     26: '{amount} zrzuty ekranu nie mają kategorii',
     28: 'Select gamemode for gameplay screenshots'
   },
