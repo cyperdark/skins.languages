@@ -268,7 +268,7 @@ export default {
       13: 'Nueva skin',
       14: 'Reglas del sitio',
       15: 'Concursos de osu!',
-      16: 'osu! skinning Tools and Resources list'
+      16: 'osu! skinning tools'
     },
     description: {
       0: '¡Consigue las mejores skins de osu! en nuestra página! Nuestra amplia librería cuenta con skins para todos los modos de juego, relaciones de aspecto e incluso con aquellas usadas por los mejores jugadores. Además, tenemos una sección especial para los fans del anime. Mejora tu gameplay con la skin perfecta. #osuskins #osugame #anime',
