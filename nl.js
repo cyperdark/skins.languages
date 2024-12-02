@@ -95,7 +95,7 @@ export default {
     23: 'Voeg minimaal één openbare versie toe',
     24: 'Voeg tenminste één maker toe aan deze versie',
     25: 'Sommige makers hebben geen rollen',
-    26: '{amount} screenshots doesn\'t have category'
+    26: '{amount} schermafbeeldingen hebben geen categorie'
   },
   skins: {
     0: 'Skins',
@@ -211,8 +211,8 @@ export default {
     5: 'Voltooid'
   },
   rules: {
-    0: 'Last updated at',
-    1: 'Posting Skins Guidelines'
+    0: 'Laatst bijgewerkt op',
+    1: 'Regels rond skins publiceren'
   },
   tabs: {
     0: 'Zoek',
@@ -279,7 +279,7 @@ export default {
     skin_return: 'Terug naar skin',
     source: 'Bron',
     contest_voting: 'Stem hier',
-    rules_agree: 'I agree'
+    rules_agree: 'Ik ben het ermee eens'
   },
   choose: {
     0: 'Optioneel',
@@ -348,7 +348,7 @@ export default {
     7: 'Skin element',
     8: 'Geluid/Geluidseffecten',
     9: 'Hulpmiddelen',
-    10: 'Image',
+    10: 'Afbeelding',
     views: 'Weergaven',
     likes: 'Duimpies',
     dislikes: 'Duimpies omlaag',
@@ -431,7 +431,7 @@ export default {
     36: 'Versie «{name}» is verwijderd',
     37: 'Foutmelding',
     38: 'Blijkbaar denkt de server dat je een robot bent.',
-    39: 'Your current login session has timed out. To proceed, please open a new page and log back into your account. Once you\'ve done that, return to this page and try again.',
+    39: 'Je huidige login sessie is verlopen. Open een nieuwe pagina om verder te gaan en log opnieuw in op je account. Zodra je dat hebt gedaan, kom terug naar deze pagina en probeer het opnieuw.',
     40: 'Niet overeenkomende gegevens (opnieuw inloggen in account. Geen zorgen, alles is automatisch opgeslagen)',
     41: 'Onbekende foutmelding',
     42: 'Je kan een niet bestaande skin niet bewerken',
@@ -446,7 +446,7 @@ export default {
     51: 'Ingediend voor moderatie',
     52: 'Waarschuwing',
     53: 'Je moet een type of asset keizen',
-    54: 'The skin is currently under moderation. Please be patient while it is being processed'
+    54: 'De skin is momenteel onder controle. Bedankt voor je geduld'
   },
   header: {
     0: 'Notificaties',
