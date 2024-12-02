@@ -30,7 +30,7 @@ export default {
     5: '{amount} Skins | {amount} Skins | {amount} Skins'
   },
   changelogs: {
-    0: 'Änderungsprotokoll',
+    0: 'Änderungen',
     1: 'Liste aller Überarbeitungen, die in der aktuellen Version vorgenommen wurden.',
     2: 'Hier ist nichts...',
     3: 'Aber du kannst die Änderungen, die du an dem Skin vorgenommen hast, hinzufügen',
@@ -60,7 +60,7 @@ export default {
     2: 'Es wirkt sehr leer hier...',
     3: 'Benutze das obere Feld um neue Stichwörter zu finden.',
     4: 'Bezeichnung nicht gefunden',
-    5: 'Versuchen Sie es mit einer anderen Suchanfrage',
+    5: 'Versuche es mit einer anderen Suchanfrage',
     6: 'Suche'
   },
   videos: {
@@ -95,7 +95,7 @@ export default {
     22: 'Checkliste',
     23: 'Füge mindestens eine öffentliche Version hinzu',
     24: 'Füge mindestens einen Ersteller dieser Version hinzu',
-    25: 'Einige Ersteller haben keine Rollen',
+    25: 'Some creators don\'t have roles',
     26: '{amount} Screenshots haben keine Kategorie',
     28: 'Select gamemode for gameplay screenshots'
   },
