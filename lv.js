@@ -97,7 +97,6 @@ export default {
     24: 'Pievieno vismaz vienu veidotāju pie šīs versijas',
     25: 'Dažiem veidotājiem nav lomu',
     26: '{amount} screenshots doesn\'t have category',
-    27: 'Specifiy gameplay name for {mode} screenshots | Specifiy gameplay name for {mode} screenshot',
     28: 'Select gamemode for gameplay screenshots'
   },
   skins: {
