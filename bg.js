@@ -97,7 +97,6 @@ export default {
     24: 'Добавете поне един автор на тази версия',
     25: 'Някои автори нямат роли',
     26: '{amount} екранните снимки нямат категория',
-    27: 'Specifiy gameplay name for {mode} screenshots | Specifiy gameplay name for {mode} screenshot',
     28: 'Select gamemode for gameplay screenshots'
   },
   skins: {
