@@ -268,7 +268,7 @@ export default {
       13: 'Nytt skin',
       14: 'Site rules',
       15: 'osu! Contests',
-      16: 'osu! skinning Tools and Resources list'
+      16: 'osu! skinning tools'
     },
     description: {
       0: 'Få de beste osu! skins på vår nettside! Vårt store lager med skins for alle spillmoduser, størrelsesformat og spillere i toppen. Plus, vi har en spesiell seksjon for anime fans. Forbedre spillingen din med det perfekte skinnet. #osuskins #osugame #anime',
