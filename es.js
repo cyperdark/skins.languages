@@ -27,8 +27,7 @@ export default {
     2: 'Vistas | Gustadas | Descargadas',
     3: 'Publicar nueva skin',
     4: 'Como instalar la skin',
-    5: '{amount} Skins | {amount} Skins | {amount} Skins',
-    6: 'Join discord'
+    5: '{amount} Skins | {amount} Skins | {amount} Skins'
   },
   changelogs: {
     0: 'Lista de cambios',
