@@ -268,7 +268,7 @@ export default {
       13: '新skin',
       14: 'Site rules',
       15: 'osu! Contests',
-      16: 'osu! skinning Tools and Resources list'
+      16: 'osu! skinning tools'
     },
     description: {
       0: '你可以在這網站找到最適合你的skin, 我們龐大的資料庫有所有遊戲模式,長寬比甚至是各個大佬的skin. 另外也有以動漫分類的skin. 一個好的skin是你變強的開始. #osuskins #osugame #動漫',
