@@ -268,7 +268,7 @@ export default {
       13: 'Új skin',
       14: 'Site rules',
       15: 'osu! Contests',
-      16: 'osu! skinning Tools and Resources list'
+      16: 'osu! skinning tools'
     },
     description: {
       0: 'Szerezd meg a legjobb osu! skineket az oldalunkon! A hatalmas választékunkban találhatsz skin-eket minden játékmódhoz és képarányhoz, emellett a legjobb játékosok skin-jeit is letöltheted. Továbbá van egy külön részünk anime rajongók számára. Emeld új szintre a játék elményedet a neked tökéletes skin-nel. #osuskins #osugame #anime',
