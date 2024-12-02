@@ -27,7 +27,8 @@ export default {
     2: 'Katsotut | Tykätyt | Ladatut',
     3: 'Julkaise uusi skini',
     4: 'Miten asentaa skini',
-    5: '{amount} Skiniä | {amount} Skiniä | {amount} Skiniä'
+    5: '{amount} Skiniä | {amount} Skiniä | {amount} Skiniä',
+    6: 'Join discord'
   },
   changelogs: {
     0: 'Muutosloki',
@@ -42,7 +43,8 @@ export default {
   },
   ideas: {
     0: 'Mitään ei löytynyt',
-    1: '«{type}» kuvankaappauksia ei ole ladattu sivustolle'
+    1: '«{type}» kuvankaappauksia ei ole ladattu sivustolle',
+    2: '«{amount}» {name}'
   },
   creators: {
     0: 'Tekijät',
@@ -95,7 +97,9 @@ export default {
     23: 'Lisää vähintään yksi julkinen versio',
     24: 'Lisää tähän versioon vähintään yksi tekijä',
     25: 'Joillekin tekijöille ei ole valittu rooleja',
-    26: '{amount} kuvakaappauksella ei ole kategoriaa'
+    26: '{amount} kuvakaappauksella ei ole kategoriaa',
+    27: 'Specifiy gameplay name for {mode} screenshots | Specifiy gameplay name for {mode} screenshot',
+    28: 'Select gamemode for gameplay screenshots'
   },
   skins: {
     0: 'Skinit',
@@ -111,7 +115,8 @@ export default {
     10: 'osu Skinit joissa {name} on tekijä | Kaikki skinit joiden tekijä on',
     11: 'Haku',
     12: '{name} skinit',
-    13: 'Tutki skinejä'
+    13: 'Tutki skinejä',
+    14: 'Popular skins'
   },
   skin: {
     0: 'Muuta',
@@ -150,7 +155,7 @@ export default {
     34: 'Lisää skinejä tältä tekijältä | Lisää skinejä näiltä tekijöiltä',
     35: 'Tue skiniä',
     36: 'Ei saatavilla',
-    37: 'Valitettavasti tämä skini on poistettu tekijän {author} pyynnöstä',
+    37: 'Unfortunately, this skin was deleted',
     38: 'Tervetuloa skinin julkaisueditoriin!',
     39: `Oletko uusi skin editorin käyttäjä? Anna meidän opastaa sinut käyttöliittymän läpi ja näyttää sinulle editorin täyden potentiaalin!`,
     40: '{current} of {max} completed',
@@ -200,7 +205,11 @@ export default {
       2: 'Käyttäjät',
       3: 'Luettelot'
     },
-    14: 'Haku:'
+    14: 'Haku:',
+    15: 'Size:',
+    16: 'Rating:',
+    17: 'Views:',
+    18: 'Downloads:'
   },
   contests: {
     0: 'Kilpailut',
@@ -208,11 +217,20 @@ export default {
     2: 'Submission',
     3: 'Valmistellaan',
     4: 'Äänestys',
-    5: 'Valmis'
+    5: 'Valmis',
+    6: 'Kilpailut',
+    7: 'Voting page'
   },
   rules: {
     0: 'Päivitetty viimeksi',
     1: 'Skinien Julkaisujen Ohjeet'
+  },
+  skinini: {
+    0: 'Welcome to skin.ini editor!',
+    1: `New to the skin.ini editor? Let us guide you through the interface and show you the editor's full potential!`,
+    2: '{current} of {max} completed',
+    3: 'No results',
+    4: 'Your query may contain typos'
   },
   tabs: {
     0: 'Haku',
@@ -226,6 +244,15 @@ export default {
     3: 'Ei sallittu',
     4: 'Sinun täytyy olla kirjautuneena sisään muokataksesi tätä skiniä.',
     5: 'Sinun täytyy olla kirjautuneena sisään lisätäksesi uuden skinin.'
+  },
+  settings: {
+    0: 'Asetukset',
+    1: 'Mouse scroll',
+    2: 'Enable mouse hover swipe for image carousel, allowing left-to-right or right-to-left navigation.',
+    3: 'Zoom in',
+    4: 'Enable image zoom on hover for larger skin preview.',
+    5: 'English comments',
+    6: 'Show English translation of the comments'
   },
   meta: {
     title: {
@@ -245,7 +272,7 @@ export default {
       13: 'Uusi skini',
       14: 'Sivuston säännöt',
       15: 'osu! Kilpailut',
-      16: 'osu! Kilpailut'
+      16: 'osu! skinning Tools and Resources list'
     },
     description: {
       0: 'Hanki parhaat osu skinit sivumme suuresta valikoimasta! Meillä on skinejä eri pelimodeille ja kuvasuhteille, sekä jopa top pelaajille. Lisäksi, meillä on erityinen osasto animefaneille. Paranna peliäsi täydellisellä skinillä. #osuskins #osugame #anime',
@@ -279,7 +306,11 @@ export default {
     skin_return: 'Takaisin skiniin',
     source: 'Lähde',
     contest_voting: 'Äänestä tässä',
-    rules_agree: 'Hyväksyn'
+    rules_agree: 'Hyväksyn',
+    report_issue: 'Report issue',
+    ghost_creator: 'Ghost creator',
+    close: 'Close',
+    quick_select: 'Quick select'
   },
   choose: {
     0: 'Valinnainen',
@@ -293,7 +324,8 @@ export default {
       2: 'Animaatiot',
       3: 'Taiteet',
       4: 'Yhteistyö',
-      5: 'Äänet'
+      5: 'Äänet',
+      6: 'Pelaaminen'
     }
   },
   tooltips: {
@@ -310,7 +342,15 @@ export default {
     10: 'Nollaa kaikki',
     11: 'Näytä ohje',
     12: 'Sulje ohje',
-    13: 'Merkataksesi säännön luetuksi, vie hiiri sen päälle (Keltainen tarkoittaa lukematonta)'
+    13: 'Merkataksesi säännön luetuksi, vie hiiri sen päälle (Keltainen tarkoittaa lukematonta)',
+    14: {
+      0: '[hl]{example}[/hl] - [b]equal[/b] to {amount}',
+      1: '[hl]{example}[/hl] - [b]above[/b] {amount}',
+      2: '[hl]{example}[/hl] - [b]below[/b] {amount}',
+      3: '[hl]{example}[/hl] - [b]from[/b] {amount} [b]to[/b] {amount_2}'
+    },
+    15: 'Unselect',
+    16: 'Remove file'
   },
   lists: {
     screens: {
@@ -329,7 +369,8 @@ export default {
       12: 'Tulosnäyttö',
       13: 'Ohitus',
       14: 'Banneri',
-      15: 'Tulos näyttö (pohjalla)'
+      15: 'Tulos näyttö (pohjalla)',
+      16: 'Beginning image'
     },
     cats: {
       0: 'NSFW',
@@ -353,15 +394,22 @@ export default {
     likes: 'Tykkäykset',
     dislikes: 'Disliket',
     downloads: 'Lataukset',
-    size_range: 'Valitse koko',
-    date_range: 'Valitse ajanjakso',
-    ratio: 'Valitse kuvasuhde | suhde'
+    ratio: 'Valitse kuvasuhde | suhde',
+    sorting: 'Desc. | Asc.'
+  },
+  sorting: {
+    0: 'Most | Least',
+    1: 'Most | Least',
+    2: 'Highest | Lowest',
+    3: 'Largest | Smallest',
+    4: 'Newest | Oldest',
+    5: 'A-Z | Z-A'
   },
   placeholders: {
     0: 'Valitse roolit',
     1: 'Valitse versiot',
     2: 'Kirjoita jotain...',
-    3: 'Valitse koko',
+    3: 'Select size range',
     4: 'Valitse ajanjakso',
     5: 'Vuosi',
     6: 'Kuukausi',
@@ -375,7 +423,13 @@ export default {
     14: 'Liitä linkki',
     15: 'Skinin otsikko, tekijä, tai tunnisteet',
     16: 'Valitse kategoria',
-    17: 'Kirjoita tunnisteen nimi'
+    17: 'Kirjoita tunnisteen nimi',
+    18: 'Type the name of the skin',
+    19: 'Type author name ',
+    20: 'Select file',
+    24: 'Type gameplay name...',
+    25: 'Type range',
+    26: 'Type text'
   },
   contribute: { 0: 'Osallistu' },
   nsfw: {
@@ -446,7 +500,11 @@ export default {
     51: 'Lähetetty tarkistettavaksi',
     52: 'Varoitus',
     53: 'You need to choose type of asset',
-    54: 'The skin is currently under moderation. Please be patient while it is being processed'
+    54: 'The skin is currently under moderation. Please be patient while it is being processed',
+    55: 'Onnistui',
+    56: 'New ghost creator has been added',
+    57: 'Color copied',
+    58: `The RGB code "{color}" is now available through your clipboard!`
   },
   header: {
     0: 'Ilmoitukset',
@@ -463,6 +521,7 @@ export default {
     1: 'Näytä ohje?',
     2: 'Julkaise skini?',
     3: 'Kyllä',
-    4: 'Ei'
+    4: 'Ei',
+    5: 'Reset .ini?'
   }
 };
