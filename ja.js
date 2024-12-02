@@ -97,7 +97,6 @@ export default {
     24: 'このバージョンに少なくとも1人の作成者を追加してください',
     25: '一部のクリエイターにロールがありません',
     26: '{amount} つのスクリーンショットにはカテゴリがありません',
-    27: 'Specifiy gameplay name for {mode} screenshots | Specifiy gameplay name for {mode} screenshot',
     28: 'Select gamemode for gameplay screenshots'
   },
   skins: {
