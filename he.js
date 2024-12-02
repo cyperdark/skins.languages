@@ -97,7 +97,6 @@ export default {
     24: 'הוסף לפחות יוצר אחד לגרסה זו',
     25: 'לחלק מהיוצרים אין תפקיד',
     26: '{amount} צילומי מסך לא משתייכים לשום קטגוריה',
-    27: 'Specifiy gameplay name for {mode} screenshots | Specifiy gameplay name for {mode} screenshot',
     28: 'Select gamemode for gameplay screenshots'
   },
   skins: {
