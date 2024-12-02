@@ -6,7 +6,7 @@ export default {
     tags: {
       0: '標籤',
       1: '以{name} 字首的有 {amount} 個標籤',
-      2: 'Search tags'
+      2: '搜尋標籤'
     },
     ideas: {
       0: '素材參考',
@@ -27,7 +27,8 @@ export default {
     2: 'Viewed | Liked | Downloaded',
     3: 'Publish new skin',
     4: 'How to install skin',
-    5: '{amount} Skins | {amount} Skins | {amount} Skins'
+    5: '{amount} Skins | {amount} Skins | {amount} Skins',
+    6: 'Join discord'
   },
   changelogs: {
     0: '更新日誌',
@@ -42,7 +43,8 @@ export default {
   },
   ideas: {
     0: '無搜尋結果',
-    1: 'Screenshots of «{type}» were not uploaded to the site'
+    1: 'Screenshots of «{type}» were not uploaded to the site',
+    2: '«{amount}» {name}'
   },
   creators: {
     0: '創作者',
@@ -58,8 +60,8 @@ export default {
     1: '列出所有有關這個skin的標籤',
     2: '空空如也',
     3: '利用上面的區塊來找尋新標籤',
-    4: 'Tags not found',
-    5: 'Try searching for something else',
+    4: '找不到標籤',
+    5: '請嘗試搜尋其他內容',
     6: '搜尋'
   },
   videos: {
@@ -95,7 +97,9 @@ export default {
     23: 'Add at least one public version',
     24: 'Add at least one creator to this version',
     25: 'Some creators doesn\'t have roles',
-    26: '{amount} screenshots doesn\'t have category'
+    26: '{amount} screenshots doesn\'t have category',
+    27: 'Specifiy gameplay name for {mode} screenshots | Specifiy gameplay name for {mode} screenshot',
+    28: 'Select gamemode for gameplay screenshots'
   },
   skins: {
     0: 'Skins',
@@ -111,7 +115,8 @@ export default {
     10: '{name} 創建的 osu Skins | 所有的skin源自於',
     11: '搜尋',
     12: '{name} skins',
-    13: 'Explore skins'
+    13: 'Explore skins',
+    14: 'Popular skins'
   },
   skin: {
     0: '編輯',
@@ -150,7 +155,7 @@ export default {
     34: 'More skins from this author | More skins from this authors',
     35: 'Support the skin',
     36: 'Unavailable',
-    37: 'Unfortunately, this skin was deleted at {author} request',
+    37: 'Unfortunately, this skin was deleted',
     38: 'Welcome to the skin post editor!',
     39: `New to the skin editor? Let us guide you through the interface and show you the editor's full potential!`,
     40: '{current} of {max} completed',
@@ -200,7 +205,11 @@ export default {
       2: 'Users',
       3: '清單'
     },
-    14: 'Search:'
+    14: 'Search:',
+    15: 'Size:',
+    16: 'Rating:',
+    17: 'Views:',
+    18: 'Downloads:'
   },
   contests: {
     0: 'Contests',
@@ -208,11 +217,20 @@ export default {
     2: 'Submission',
     3: 'Preparing',
     4: 'Voting',
-    5: 'Finished'
+    5: 'Finished',
+    6: 'Contests',
+    7: 'Voting page'
   },
   rules: {
     0: 'Last updated at',
     1: 'Posting Skins Guidelines'
+  },
+  skinini: {
+    0: 'Welcome to skin.ini editor!',
+    1: `New to the skin.ini editor? Let us guide you through the interface and show you the editor's full potential!`,
+    2: '{current} of {max} completed',
+    3: 'No results',
+    4: 'Your query may contain typos'
   },
   tabs: {
     0: '搜尋',
@@ -227,6 +245,15 @@ export default {
     4: 'You need to be logged in order to edit this skin.',
     5: 'You need to be logged in order to add a new skin.'
   },
+  settings: {
+    0: '設定',
+    1: 'Mouse scroll',
+    2: 'Enable mouse hover swipe for image carousel, allowing left-to-right or right-to-left navigation.',
+    3: 'Zoom in',
+    4: 'Enable image zoom on hover for larger skin preview.',
+    5: 'English comments',
+    6: 'Show English translation of the comments'
+  },
   meta: {
     title: {
       0: '搜索skins',
@@ -240,12 +267,12 @@ export default {
       8: '{name} 搜尋到的 osu skin',
       9: '從其他的skin獲得啟發',
       10: '{name} 創建了osu skin',
-      11: 'Search tags',
+      11: '搜尋標籤',
       12: '{name} found tags',
       13: '新skin',
       14: 'Site rules',
       15: 'osu! Contests',
-      16: 'osu! Contests'
+      16: 'osu! skinning Tools and Resources list'
     },
     description: {
       0: '你可以在這網站找到最適合你的skin, 我們龐大的資料庫有所有遊戲模式,長寬比甚至是各個大佬的skin. 另外也有以動漫分類的skin. 一個好的skin是你變強的開始. #osuskins #osugame #動漫',
@@ -279,7 +306,11 @@ export default {
     skin_return: '回到上一頁',
     source: 'Source',
     contest_voting: 'Vote here',
-    rules_agree: 'I agree'
+    rules_agree: 'I agree',
+    report_issue: 'Report issue',
+    ghost_creator: 'Ghost creator',
+    close: 'Close',
+    quick_select: 'Quick select'
   },
   choose: {
     0: 'Optional',
@@ -293,7 +324,8 @@ export default {
       2: '動畫',
       3: '美術',
       4: '連動',
-      5: '音效'
+      5: '音效',
+      6: 'Gameplay'
     }
   },
   tooltips: {
@@ -310,7 +342,15 @@ export default {
     10: 'Reset everything',
     11: 'Show guide',
     12: 'Close guide',
-    13: 'To mark a rule as read, hover over it (Yellow indicates unread)'
+    13: 'To mark a rule as read, hover over it (Yellow indicates unread)',
+    14: {
+      0: '[hl]{example}[/hl] - [b]equal[/b] to {amount}',
+      1: '[hl]{example}[/hl] - [b]above[/b] {amount}',
+      2: '[hl]{example}[/hl] - [b]below[/b] {amount}',
+      3: '[hl]{example}[/hl] - [b]from[/b] {amount} [b]to[/b] {amount_2}'
+    },
+    15: 'Unselect',
+    16: 'Remove file'
   },
   lists: {
     screens: {
@@ -329,7 +369,8 @@ export default {
       12: 'Result screen',
       13: 'Skip',
       14: 'Banner',
-      15: 'Result screen (bottom)'
+      15: 'Result screen (bottom)',
+      16: 'Beginning image'
     },
     cats: {
       0: 'NSFW',
@@ -348,20 +389,27 @@ export default {
     7: 'skin元素',
     8: '音效',
     9: '工具',
-    10: 'Image',
+    10: '圖片',
     views: '觀看數',
     likes: '喜歡',
     dislikes: '不喜歡',
     downloads: '下載數',
-    size_range: '檔案大小',
-    date_range: '創建日期',
-    ratio: '長寬比 | 長寬比'
+    ratio: '長寬比 | 長寬比',
+    sorting: 'Desc. | Asc.'
+  },
+  sorting: {
+    0: 'Most | Least',
+    1: 'Most | Least',
+    2: 'Highest | Lowest',
+    3: 'Largest | Smallest',
+    4: 'Newest | Oldest',
+    5: 'A-Z | Z-A'
   },
   placeholders: {
     0: 'Select roles',
     1: 'Select versions',
     2: 'Type some text...',
-    3: '檔案大小',
+    3: 'Select size range',
     4: '選擇日期範圍',
     5: '年',
     6: '月',
@@ -375,7 +423,13 @@ export default {
     14: '貼上連結',
     15: 'Skin title, author, or tags',
     16: 'Select category',
-    17: 'Type the name of the tag'
+    17: 'Type the name of the tag',
+    18: 'Type the name of the skin',
+    19: 'Type author name ',
+    20: 'Select file',
+    24: 'Type gameplay name...',
+    25: 'Type range',
+    26: 'Type text'
   },
   contribute: { 0: '貢獻' },
   nsfw: {
@@ -446,7 +500,11 @@ export default {
     51: 'Submitted for moderation',
     52: 'Warning',
     53: 'You need to choose type of asset',
-    54: 'The skin is currently under moderation. Please be patient while it is being processed'
+    54: 'The skin is currently under moderation. Please be patient while it is being processed',
+    55: 'Success',
+    56: 'New ghost creator has been added',
+    57: 'Color copied',
+    58: `The RGB code "{color}" is now available through your clipboard!`
   },
   header: {
     0: '通知',
@@ -463,6 +521,7 @@ export default {
     1: 'Show guide?',
     2: 'Submit skin?',
     3: 'Yes',
-    4: 'No'
+    4: 'No',
+    5: 'Reset .ini?'
   }
 };
