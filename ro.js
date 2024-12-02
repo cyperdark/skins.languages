@@ -27,8 +27,7 @@ export default {
     2: 'Vizualizate | Apreciate | Descărcate',
     3: 'Publică un nou skin',
     4: 'Cum să instalezi un skin',
-    5: '{amount} Skinuri | {amount} Skinuri | {amount} Skinuri',
-    6: 'Join discord'
+    5: '{amount} Skinuri | {amount} Skinuri | {amount} Skinuri'
   },
   changelogs: {
     0: 'Jurnal de Modificări',
