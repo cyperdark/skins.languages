@@ -268,7 +268,7 @@ export default {
       13: 'Skin mới',
       14: 'Luật của trang chủ',
       15: 'Những cuộc thi về osu!',
-      16: 'osu! skinning Tools and Resources list'
+      16: 'osu! skinning tools'
     },
     description: {
       0: 'Tảỉ về những skin osu! tốt nhất từ trang của chúng tôi! Thư viện to lớn của chúng tôi có skin cho mọi chế độ chơi, tỷ lệ khung hình và cả kể cả những top player. Thêm vào đó, chúng tôi có một khu đặc biệt dành cho các fan anime. Cả thiện gameplay với một skin hoàn hảo. #osuskins #osugame #anime',
