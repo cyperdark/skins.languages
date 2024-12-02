@@ -97,7 +97,6 @@ export default {
     24: 'Añade al menos un creador a esta versión',
     25: 'Algunos creadores no tienen roles',
     26: '{amount} capturas de pantalla sin categoría',
-    27: 'Specifiy gameplay name for {mode} screenshots | Specifiy gameplay name for {mode} screenshot',
     28: 'Select gamemode for gameplay screenshots'
   },
   skins: {
