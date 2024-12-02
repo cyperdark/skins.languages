@@ -27,7 +27,8 @@ export default {
     2: '조회수 | 좋아요 수 | 다운로드 수',
     3: '스킨 올리기',
     4: '스킨 다운로드 방법',
-    5: '스킨 수: {amount} | {amount} | {amount}'
+    5: '스킨 수: {amount} | {amount} | {amount}',
+    6: 'Join discord'
   },
   changelogs: {
     0: '변경 내역',
@@ -42,7 +43,8 @@ export default {
   },
   ideas: {
     0: '아무것도 발견되지 않았어요.',
-    1: '{type}의 스크린샷은 사이트에 업로드되지 않았습니다.'
+    1: '{type}의 스크린샷은 사이트에 업로드되지 않았습니다.',
+    2: '«{amount}» {name}'
   },
   creators: {
     0: '제작자들',
@@ -95,7 +97,9 @@ export default {
     23: '최소 1개의 공개 버전을 추가하세요.',
     24: '이 버전에 최소 1명의 제작자를 추가하세요.',
     25: '일부 제작자들은 역할이 없습니다.',
-    26: '{amount} screenshots doesn\'t have category'
+    26: '{amount} screenshots doesn\'t have category',
+    27: 'Specifiy gameplay name for {mode} screenshots | Specifiy gameplay name for {mode} screenshot',
+    28: 'Select gamemode for gameplay screenshots'
   },
   skins: {
     0: '스킨',
@@ -111,7 +115,8 @@ export default {
     10: '{name}이 만든 osu 스킨 | 모든 스킨',
     11: '검색',
     12: '{name} 스킨',
-    13: '스킨 탐색'
+    13: '스킨 탐색',
+    14: 'Popular skins'
   },
   skin: {
     0: '편집',
@@ -150,7 +155,7 @@ export default {
     34: '이 제작자의 다른 스킨들 | 이 제작자들의 다른 스킨들',
     35: '스킨 지원하기',
     36: '사용 불가',
-    37: '불행하게도, 이 스킨은 {author}의 요청에 의해 삭제되었습니다.',
+    37: 'Unfortunately, this skin was deleted',
     38: '스킨 게시 에디터에 오신 것을 환영합니다!',
     39: `스킨 에디터가 처음이신가요? 저희가 인터페이스 및 에디터의 모든 기능을 알려드리겠습니다!`,
     40: '전체 {max} 중 {current} 완료',
@@ -200,7 +205,11 @@ export default {
       2: '사용자',
       3: '리스트'
     },
-    14: '검색:'
+    14: '검색:',
+    15: 'Size:',
+    16: 'Rating:',
+    17: 'Views:',
+    18: 'Downloads:'
   },
   contests: {
     0: '콘테스트',
@@ -208,11 +217,20 @@ export default {
     2: '제출',
     3: '준비',
     4: '투표',
-    5: '완료'
+    5: '완료',
+    6: '콘테스트',
+    7: 'Voting page'
   },
   rules: {
     0: 'Last updated at',
     1: 'Posting Skins Guidelines'
+  },
+  skinini: {
+    0: 'Welcome to skin.ini editor!',
+    1: `New to the skin.ini editor? Let us guide you through the interface and show you the editor's full potential!`,
+    2: '전체 {max} 중 {current} 완료',
+    3: 'No results',
+    4: 'Your query may contain typos'
   },
   tabs: {
     0: '검색',
@@ -226,6 +244,15 @@ export default {
     3: '인증되지 않은 상태',
     4: '당신은 이 스킨을 수정하기 위해 로그인을 해야 합니다.',
     5: '당신은 새로운 스킨을 추가하기 위해 로그인을 해야 합니다.'
+  },
+  settings: {
+    0: '설정',
+    1: 'Mouse scroll',
+    2: 'Enable mouse hover swipe for image carousel, allowing left-to-right or right-to-left navigation.',
+    3: 'Zoom in',
+    4: 'Enable image zoom on hover for larger skin preview.',
+    5: 'English comments',
+    6: 'Show English translation of the comments'
   },
   meta: {
     title: {
@@ -245,7 +272,7 @@ export default {
       13: '새 스킨',
       14: '사이트 규칙',
       15: 'osu! 콘테스트',
-      16: 'osu! 콘테스트'
+      16: 'osu! skinning Tools and Resources list'
     },
     description: {
       0: '우리 사이트에서 최고의 osu! 스킨을 찾으세요! 우리는 모든 해상도, 심지어 탑 플레이어들이 사용하는 다양한 게임 모드의 스킨을 많이 가지고 있습니다. 추가로, 우리는 애니메이션 팬을 위한 특별 섹션도 가지고 있습니다. 완벽한 스킨으로 당신의 게임 실력을 향상시키세요! #osuskins #osugame #anime',
@@ -279,7 +306,11 @@ export default {
     skin_return: '스킨으로 돌아가기',
     source: '출처',
     contest_voting: '여기에서 투표하세요.',
-    rules_agree: 'I agree'
+    rules_agree: 'I agree',
+    report_issue: 'Report issue',
+    ghost_creator: 'Ghost creator',
+    close: 'Close',
+    quick_select: 'Quick select'
   },
   choose: {
     0: '선택사항',
@@ -293,7 +324,8 @@ export default {
       2: '애니메이션',
       3: '아트',
       4: '콜라보',
-      5: '사운드'
+      5: '사운드',
+      6: '게임 플레이'
     }
   },
   tooltips: {
@@ -310,7 +342,15 @@ export default {
     10: '전부 초기화하기',
     11: '가이드 표시',
     12: '가이드 닫기',
-    13: '규칙을 읽은 것으로 표시하려면 마우스를 호버하세요. (노란색은 읽지 않았다는 것을 나타냅니다.)'
+    13: '규칙을 읽은 것으로 표시하려면 마우스를 호버하세요. (노란색은 읽지 않았다는 것을 나타냅니다.)',
+    14: {
+      0: '[hl]{example}[/hl] - [b]equal[/b] to {amount}',
+      1: '[hl]{example}[/hl] - [b]above[/b] {amount}',
+      2: '[hl]{example}[/hl] - [b]below[/b] {amount}',
+      3: '[hl]{example}[/hl] - [b]from[/b] {amount} [b]to[/b] {amount_2}'
+    },
+    15: 'Unselect',
+    16: 'Remove file'
   },
   lists: {
     screens: {
@@ -329,7 +369,8 @@ export default {
       12: '결과 화면',
       13: '스킵',
       14: '배너',
-      15: '결과 화면 (하단)'
+      15: '결과 화면 (하단)',
+      16: 'Beginning image'
     },
     cats: {
       0: '19금',
@@ -353,15 +394,22 @@ export default {
     likes: '좋아요',
     dislikes: '싫어요',
     downloads: '다운로드 수',
-    size_range: '크기 선택',
-    date_range: '기간 선택',
-    ratio: '해상도 선택'
+    ratio: '해상도 선택',
+    sorting: 'Desc. | Asc.'
+  },
+  sorting: {
+    0: 'Most | Least',
+    1: 'Most | Least',
+    2: 'Highest | Lowest',
+    3: 'Largest | Smallest',
+    4: 'Newest | Oldest',
+    5: 'A-Z | Z-A'
   },
   placeholders: {
     0: '역할 선택',
     1: '버전 선택',
     2: '텍스트를 입력하세요...',
-    3: '크기 선택',
+    3: 'Select size range',
     4: '기간 선택',
     5: '년',
     6: '월',
@@ -375,7 +423,13 @@ export default {
     14: '링크 붙여넣기',
     15: '스킨 제목, 제작자, 또는 태그',
     16: '카테고리 선택',
-    17: '태그 이름 입력하기'
+    17: '태그 이름 입력하기',
+    18: 'Type the name of the skin',
+    19: 'Type author name ',
+    20: 'Select file',
+    24: 'Type gameplay name...',
+    25: 'Type range',
+    26: 'Type text'
   },
   contribute: { 0: '기여하기' },
   nsfw: {
@@ -446,7 +500,11 @@ export default {
     51: '평가를 위해 제출되었습니다.',
     52: '경고',
     53: '에셋의 종류를 골라주세요.',
-    54: 'The skin is currently under moderation. Please be patient while it is being processed'
+    54: 'The skin is currently under moderation. Please be patient while it is being processed',
+    55: '성공',
+    56: 'New ghost creator has been added',
+    57: 'Color copied',
+    58: `The RGB code "{color}" is now available through your clipboard!`
   },
   header: {
     0: '알림',
@@ -463,6 +521,7 @@ export default {
     1: '가이드를 표시할까요?',
     2: '스킨을 제출할까요?',
     3: '확인',
-    4: '취소'
+    4: '취소',
+    5: 'Reset .ini?'
   }
 };
