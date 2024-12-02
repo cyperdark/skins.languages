@@ -97,7 +97,6 @@ export default {
     24: 'Lägg till minst en skapare till denna version',
     25: 'Vissa skapare har inga roller',
     26: '{amount} screenshots doesn\'t have category',
-    27: 'Specifiy gameplay name for {mode} screenshots | Specifiy gameplay name for {mode} screenshot',
     28: 'Select gamemode for gameplay screenshots'
   },
   skins: {
