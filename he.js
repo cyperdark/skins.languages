@@ -27,7 +27,8 @@ export default {
     2: 'נצפים | נאהבים | מורדים',
     3: 'פרסם סקין חדש',
     4: 'איך להתקין סקין',
-    5: '{amount} סקינים | {amount} סקינים | {amount} סקינים'
+    5: '{amount} סקינים | {amount} סקינים | {amount} סקינים',
+    6: 'Join discord'
   },
   changelogs: {
     0: 'יומן שינויים',
@@ -42,7 +43,8 @@ export default {
   },
   ideas: {
     0: 'לא נמצא כלום',
-    1: 'צילומי מסך של «{type}» לא הועלו לאתר'
+    1: 'צילומי מסך של «{type}» לא הועלו לאתר',
+    2: '«{amount}» {name}'
   },
   creators: {
     0: 'יוצרים',
@@ -95,7 +97,9 @@ export default {
     23: 'הוסף לפחות גרסה פומבית אחת',
     24: 'הוסף לפחות יוצר אחד לגרסה זו',
     25: 'לחלק מהיוצרים אין תפקיד',
-    26: '{amount} צילומי מסך לא משתייכים לשום קטגוריה'
+    26: '{amount} צילומי מסך לא משתייכים לשום קטגוריה',
+    27: 'Specifiy gameplay name for {mode} screenshots | Specifiy gameplay name for {mode} screenshot',
+    28: 'Select gamemode for gameplay screenshots'
   },
   skins: {
     0: 'סקינים',
@@ -111,7 +115,8 @@ export default {
     10: 'סקיני osu על ידי {name} | כל הסקינים של',
     11: 'חיפוש',
     12: 'סקינים של {name}',
-    13: 'חקור סקינים'
+    13: 'חקור סקינים',
+    14: 'Popular skins'
   },
   skin: {
     0: 'עריכה',
@@ -150,7 +155,7 @@ export default {
     34: 'עוד סקינים מהיוצר הזה | עוד סקינים מהיוצרים האלו',
     35: 'תמוך בסקין',
     36: 'לא זמין',
-    37: 'לצערנו, סקין זה נמחק לבקשת {author}',
+    37: 'Unfortunately, this skin was deleted',
     38: 'ברוך הבא לעורך הסקינים!',
     39: `חדשים לעורך הסקינים? תנו לנו להדריך אתכם בממשק ולהראות לכם את יכולותיו של העורך!`,
     40: '{current} מתוך {max} הושלמו',
@@ -200,7 +205,11 @@ export default {
       2: 'משתמשים',
       3: 'רשימות'
     },
-    14: 'חיפוש:'
+    14: 'חיפוש:',
+    15: 'Size:',
+    16: 'Rating:',
+    17: 'Views:',
+    18: 'Downloads:'
   },
   contests: {
     0: 'תחרויות',
@@ -208,11 +217,20 @@ export default {
     2: 'הגשה',
     3: 'מתכונן',
     4: 'הצבעה',
-    5: 'הסתיים'
+    5: 'הסתיים',
+    6: 'תחרויות',
+    7: 'Voting page'
   },
   rules: {
     0: 'עודכן לאחרונה ב',
     1: 'הנחיות לפרסום סקינים'
+  },
+  skinini: {
+    0: 'Welcome to skin.ini editor!',
+    1: `New to the skin.ini editor? Let us guide you through the interface and show you the editor's full potential!`,
+    2: '{current} מתוך {max} הושלמו',
+    3: 'No results',
+    4: 'Your query may contain typos'
   },
   tabs: {
     0: 'חיפוש',
@@ -226,6 +244,15 @@ export default {
     3: 'לא מורשה',
     4: 'אתה צריך להיות מחובר בכדי לערוך את סקין זה.',
     5: 'אתה צריך להיות מחובר בכדי להוסיף סקין חדש.'
+  },
+  settings: {
+    0: 'הגדרות',
+    1: 'Mouse scroll',
+    2: 'Enable mouse hover swipe for image carousel, allowing left-to-right or right-to-left navigation.',
+    3: 'Zoom in',
+    4: 'Enable image zoom on hover for larger skin preview.',
+    5: 'English comments',
+    6: 'Show English translation of the comments'
   },
   meta: {
     title: {
@@ -245,7 +272,7 @@ export default {
       13: 'סקין חדש',
       14: 'חוקי האתר',
       15: 'osu! תחרויות',
-      16: 'osu! תחרויות'
+      16: 'osu! skinning Tools and Resources list'
     },
     description: {
       0: 'קבל את סקיני ה־osu! הכי טובים באתר שלנו! ספריית הענק שלנו מכילה סקינים לכל מצבי המשחק, יחסי גובה־רוחב ואפילו לשחקני השיא. בנוסף, יש לנו מדור מיוחד עבור מעריצי אנימה. שפר את יכולת המשחק שלך עם הסקין המושלם. #osuskins #osugame #anime',
@@ -279,7 +306,11 @@ export default {
     skin_return: 'חזרה לסקין',
     source: 'מקור',
     contest_voting: 'הצבעה כאן',
-    rules_agree: 'אני מסכים'
+    rules_agree: 'אני מסכים',
+    report_issue: 'Report issue',
+    ghost_creator: 'Ghost creator',
+    close: 'Close',
+    quick_select: 'Quick select'
   },
   choose: {
     0: 'אופציונלי',
@@ -293,7 +324,8 @@ export default {
       2: 'אנימציות',
       3: 'אומנויות',
       4: 'משתף פעולה',
-      5: 'קולות'
+      5: 'קולות',
+      6: 'מהלך המשחק'
     }
   },
   tooltips: {
@@ -310,7 +342,15 @@ export default {
     10: 'אפס הכל',
     11: 'הצג מדריך',
     12: 'סגור מדריך',
-    13: 'כדי לסמן חוק כנקראה, עבור מעליו (צהוב מסמן לא נקרא)'
+    13: 'כדי לסמן חוק כנקראה, עבור מעליו (צהוב מסמן לא נקרא)',
+    14: {
+      0: '[hl]{example}[/hl] - [b]equal[/b] to {amount}',
+      1: '[hl]{example}[/hl] - [b]above[/b] {amount}',
+      2: '[hl]{example}[/hl] - [b]below[/b] {amount}',
+      3: '[hl]{example}[/hl] - [b]from[/b] {amount} [b]to[/b] {amount_2}'
+    },
+    15: 'Unselect',
+    16: 'Remove file'
   },
   lists: {
     screens: {
@@ -329,7 +369,8 @@ export default {
       12: 'מסך תוצאה',
       13: 'דלג',
       14: 'באנר',
-      15: 'מסך תוצאות (תחתית)'
+      15: 'מסך תוצאות (תחתית)',
+      16: 'Beginning image'
     },
     cats: {
       0: 'NSFW',
@@ -353,15 +394,22 @@ export default {
     likes: 'לייקים',
     dislikes: 'דיסלייקים',
     downloads: 'הורדות',
-    size_range: 'בחר גודל',
-    date_range: 'בחר טווח תאריכים',
-    ratio: 'בחר יחס ממדים | יחס'
+    ratio: 'בחר יחס ממדים | יחס',
+    sorting: 'Desc. | Asc.'
+  },
+  sorting: {
+    0: 'Most | Least',
+    1: 'Most | Least',
+    2: 'Highest | Lowest',
+    3: 'Largest | Smallest',
+    4: 'Newest | Oldest',
+    5: 'A-Z | Z-A'
   },
   placeholders: {
     0: 'בחר תפקידים',
     1: 'בחר גרסאות',
     2: 'רשום תוכן...',
-    3: 'בחר גודל',
+    3: 'Select size range',
     4: 'בחר טווח תאריכים',
     5: 'שנה',
     6: 'חודש',
@@ -375,7 +423,13 @@ export default {
     14: 'הדבק קישור',
     15: 'בחר אקסטרה',
     16: 'בחר קטגוריה',
-    17: 'רשום את שם הטג'
+    17: 'רשום את שם הטג',
+    18: 'Type the name of the skin',
+    19: 'Type author name ',
+    20: 'Select file',
+    24: 'Type gameplay name...',
+    25: 'Type range',
+    26: 'Type text'
   },
   contribute: { 0: 'לתרום' },
   nsfw: {
@@ -446,7 +500,11 @@ export default {
     51: 'Submitted for moderation',
     52: 'אזהרה',
     53: 'You need to choose type of asset',
-    54: 'The skin is currently under moderation. Please be patient while it is being processed'
+    54: 'The skin is currently under moderation. Please be patient while it is being processed',
+    55: 'הצליח',
+    56: 'New ghost creator has been added',
+    57: 'Color copied',
+    58: `The RGB code "{color}" is now available through your clipboard!`
   },
   header: {
     0: 'התראות',
@@ -463,6 +521,7 @@ export default {
     1: 'הצג מדריך?',
     2: 'שלח סקין?',
     3: 'כן',
-    4: 'לא'
+    4: 'לא',
+    5: 'Reset .ini?'
   }
 };

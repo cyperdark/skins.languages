@@ -27,7 +27,8 @@ export default {
     2: 'Skatīts | Patīkots | Lejupielādēts',
     3: 'Publicēt jaunu skinu',
     4: 'Kā lejupielādēt skinu',
-    5: '{amount} Skins | {amount} Skins | {amount} Skins'
+    5: '{amount} Skins | {amount} Skins | {amount} Skins',
+    6: 'Join discord'
   },
   changelogs: {
     0: 'Izmaiņu saraksts',
@@ -42,7 +43,8 @@ export default {
   },
   ideas: {
     0: 'Nekas nav atrasts',
-    1: 'Ekrānuzņēmumi no «{type}» netika augšupielādēti uz saiti'
+    1: 'Ekrānuzņēmumi no «{type}» netika augšupielādēti uz saiti',
+    2: '«{amount}» {name}'
   },
   creators: {
     0: 'Veidotāji',
@@ -95,7 +97,9 @@ export default {
     23: 'Pievieno vismaz vienu publisku versiju',
     24: 'Pievieno vismaz vienu veidotāju pie šīs versijas',
     25: 'Dažiem veidotājiem nav lomu',
-    26: '{amount} screenshots doesn\'t have category'
+    26: '{amount} screenshots doesn\'t have category',
+    27: 'Specifiy gameplay name for {mode} screenshots | Specifiy gameplay name for {mode} screenshot',
+    28: 'Select gamemode for gameplay screenshots'
   },
   skins: {
     0: 'Skini',
@@ -111,7 +115,8 @@ export default {
     10: 'osu Skini pēc {name} | Visi skini no',
     11: 'Meklēt',
     12: '{name} skini',
-    13: 'Izpētīt skinus'
+    13: 'Izpētīt skinus',
+    14: 'Popular skins'
   },
   skin: {
     0: 'Rediģēt',
@@ -150,7 +155,7 @@ export default {
     34: 'Vairāk skini no šī veidotāja | Vairāk skini no šī veidotāja',
     35: 'Atbalsti skinu',
     36: 'Unavailable',
-    37: 'Unfortunately, this skin was deleted at {author} request',
+    37: 'Unfortunately, this skin was deleted',
     38: 'Welcome to the skin post editor!',
     39: `New to the skin editor? Let us guide you through the interface and show you the editor's full potential!`,
     40: '{current} of {max} completed',
@@ -200,7 +205,11 @@ export default {
       2: 'Lietotāji',
       3: 'Saraksti'
     },
-    14: 'Meklē:'
+    14: 'Meklē:',
+    15: 'Size:',
+    16: 'Rating:',
+    17: 'Views:',
+    18: 'Downloads:'
   },
   contests: {
     0: 'Contests',
@@ -208,11 +217,20 @@ export default {
     2: 'Submission',
     3: 'Preparing',
     4: 'Voting',
-    5: 'Finished'
+    5: 'Finished',
+    6: 'Contests',
+    7: 'Voting page'
   },
   rules: {
     0: 'Last updated at',
     1: 'Posting Skins Guidelines'
+  },
+  skinini: {
+    0: 'Welcome to skin.ini editor!',
+    1: `New to the skin.ini editor? Let us guide you through the interface and show you the editor's full potential!`,
+    2: '{current} of {max} completed',
+    3: 'No results',
+    4: 'Your query may contain typos'
   },
   tabs: {
     0: 'Meklēt',
@@ -226,6 +244,15 @@ export default {
     3: 'Neautorizēts',
     4: 'Tev jāpieslēdzas, lai rediģētu šo skinu.',
     5: 'Tev jāpieslēdzas, lai pievienotu jaunu skinu.'
+  },
+  settings: {
+    0: 'Iestatījumi',
+    1: 'Mouse scroll',
+    2: 'Enable mouse hover swipe for image carousel, allowing left-to-right or right-to-left navigation.',
+    3: 'Zoom in',
+    4: 'Enable image zoom on hover for larger skin preview.',
+    5: 'English comments',
+    6: 'Show English translation of the comments'
   },
   meta: {
     title: {
@@ -245,7 +272,7 @@ export default {
       13: 'Jauns skins',
       14: 'Site rules',
       15: 'osu! Contests',
-      16: 'osu! Contests'
+      16: 'osu! skinning Tools and Resources list'
     },
     description: {
       0: 'Dabū labākos osu! skinus mūsu saitē! Mūzu milzīgajā klāstā ir skini visiem spēļu režīmiem, visām malu attiecībām un pat top spēlētājiem. Un, mums ir īpaša sadaļa anime faniem. Uzlabo savu gameplay ar perfekto skinu. #osuskins #osugame #anime',
@@ -279,7 +306,11 @@ export default {
     skin_return: 'Atpakaļ uz skinu',
     source: 'Source',
     contest_voting: 'Vote here',
-    rules_agree: 'I agree'
+    rules_agree: 'I agree',
+    report_issue: 'Report issue',
+    ghost_creator: 'Ghost creator',
+    close: 'Close',
+    quick_select: 'Quick select'
   },
   choose: {
     0: 'Optional',
@@ -293,7 +324,8 @@ export default {
       2: 'Animācijas',
       3: 'Mākslas darbi',
       4: 'Sadarbība',
-      5: 'Skaņas'
+      5: 'Skaņas',
+      6: 'Gameplay'
     }
   },
   tooltips: {
@@ -310,7 +342,15 @@ export default {
     10: 'Reset everything',
     11: 'Show guide',
     12: 'Close guide',
-    13: 'To mark a rule as read, hover over it (Yellow indicates unread)'
+    13: 'To mark a rule as read, hover over it (Yellow indicates unread)',
+    14: {
+      0: '[hl]{example}[/hl] - [b]equal[/b] to {amount}',
+      1: '[hl]{example}[/hl] - [b]above[/b] {amount}',
+      2: '[hl]{example}[/hl] - [b]below[/b] {amount}',
+      3: '[hl]{example}[/hl] - [b]from[/b] {amount} [b]to[/b] {amount_2}'
+    },
+    15: 'Unselect',
+    16: 'Remove file'
   },
   lists: {
     screens: {
@@ -329,7 +369,8 @@ export default {
       12: 'Rezultātu ekrāns',
       13: 'Izlaist',
       14: 'Baneris',
-      15: 'Result screen (bottom)'
+      15: 'Result screen (bottom)',
+      16: 'Beginning image'
     },
     cats: {
       0: 'NSFW',
@@ -353,15 +394,22 @@ export default {
     likes: 'Patīk',
     dislikes: 'Nepatīk',
     downloads: 'Lejupielādes',
-    size_range: 'Skina izmērs',
-    date_range: 'Datuma diapazons',
-    ratio: 'Malu attiecība | attiecība'
+    ratio: 'Malu attiecība | attiecība',
+    sorting: 'Desc. | Asc.'
+  },
+  sorting: {
+    0: 'Most | Least',
+    1: 'Most | Least',
+    2: 'Highest | Lowest',
+    3: 'Largest | Smallest',
+    4: 'Newest | Oldest',
+    5: 'A-Z | Z-A'
   },
   placeholders: {
     0: 'Izvēlies lomas',
     1: 'Izvēlies versijas',
     2: 'Ievadi tekstu...',
-    3: 'Skina izmērs',
+    3: 'Select size range',
     4: 'Datuma diapazons',
     5: 'Gads',
     6: 'Mēnesis',
@@ -375,7 +423,13 @@ export default {
     14: 'Ielīmē saiti',
     15: 'Skina nosaukums, veidotājs vai tagi',
     16: 'Izvēlies kategoriju',
-    17: 'Ieraksti taga nosaukumu'
+    17: 'Ieraksti taga nosaukumu',
+    18: 'Type the name of the skin',
+    19: 'Type author name ',
+    20: 'Select file',
+    24: 'Type gameplay name...',
+    25: 'Type range',
+    26: 'Type text'
   },
   contribute: { 0: 'Izpalīdzēt' },
   nsfw: {
@@ -446,7 +500,11 @@ export default {
     51: 'Iesūtīts moderācijai',
     52: 'Brīdinājums',
     53: 'You need to choose type of asset',
-    54: 'The skin is currently under moderation. Please be patient while it is being processed'
+    54: 'The skin is currently under moderation. Please be patient while it is being processed',
+    55: 'Veiksmīgi',
+    56: 'New ghost creator has been added',
+    57: 'Color copied',
+    58: `The RGB code "{color}" is now available through your clipboard!`
   },
   header: {
     0: 'Notifikācijas',
@@ -463,6 +521,7 @@ export default {
     1: 'Show guide?',
     2: 'Submit skin?',
     3: 'Yes',
-    4: 'No'
+    4: 'No',
+    5: 'Reset .ini?'
   }
 };

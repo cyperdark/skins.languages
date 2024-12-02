@@ -27,7 +27,8 @@ export default {
     2: 'Прагледжаныя | Лайкнутыя | Запампаваныя',
     3: 'Апублікаваць новы скін',
     4: 'Як усталяваць скін',
-    5: '{amount} Скіноў | {amount} Скіноў | {amount} Скіноў'
+    5: '{amount} Скіноў | {amount} Скіноў | {amount} Скіноў',
+    6: 'Join discord'
   },
   changelogs: {
     0: 'Спіс змяненняў',
@@ -42,7 +43,8 @@ export default {
   },
   ideas: {
     0: 'Нічога не знойдзена',
-    1: 'Скрыншоты «{type}» не загружаныя на сайт'
+    1: 'Скрыншоты «{type}» не загружаныя на сайт',
+    2: '«{amount}» {name}'
   },
   creators: {
     0: 'Стваральнікі',
@@ -95,7 +97,9 @@ export default {
     23: 'Дадайце хаця б адну агульнадаступную версію',
     24: 'Дадайце хаця б аднаго стваральніка ў гэтую версію',
     25: 'У некаторых стваральнікаў няма роляў',
-    26: 'У {amount} скрыншотаў няма катэгорыі'
+    26: 'У {amount} скрыншотаў няма катэгорыі',
+    27: 'Specifiy gameplay name for {mode} screenshots | Specifiy gameplay name for {mode} screenshot',
+    28: 'Select gamemode for gameplay screenshots'
   },
   skins: {
     0: 'Скіны',
@@ -111,7 +115,8 @@ export default {
     10: 'osu Skins ад {name} | Усе скіны з',
     11: 'Пошук',
     12: 'Скіны {name}',
-    13: 'Даследуйце скіны'
+    13: 'Даследуйце скіны',
+    14: 'Popular skins'
   },
   skin: {
     0: 'Рэдагаваць',
@@ -150,7 +155,7 @@ export default {
     34: 'Больш скінаў ад гэтага аўтара | Больш скінаў ад гэтых аўтараў',
     35: 'Падтрымлівайце скін',
     36: 'Недаступны',
-    37: 'На жаль, гэты скін быў выдалены па запыце {author}',
+    37: 'Unfortunately, this skin was deleted',
     38: 'Сардэчна запрашаем у рэдактар скіна!',
     39: `Пачатковец у рэдактары скінаў? Дазвольце нам правесці вас па інтэрфейсе і паказаць увесь патэнцыял рэдактара!`,
     40: '{current} з {max} завершаных',
@@ -200,7 +205,11 @@ export default {
       2: 'Карыстальнікі',
       3: 'Спісы'
     },
-    14: 'Пошук:'
+    14: 'Пошук:',
+    15: 'Size:',
+    16: 'Rating:',
+    17: 'Views:',
+    18: 'Downloads:'
   },
   contests: {
     0: 'Конкурсы',
@@ -208,11 +217,20 @@ export default {
     2: 'Дасланы артыкул',
     3: 'Падрыхтоўка',
     4: 'Галасаванне',
-    5: 'Скончаны'
+    5: 'Скончаны',
+    6: 'Конкурсы',
+    7: 'Voting page'
   },
   rules: {
     0: 'Апошняе абнаўленне ад',
     1: 'Рэкамендацыі па размяшчэнні скінаў'
+  },
+  skinini: {
+    0: 'Welcome to skin.ini editor!',
+    1: `New to the skin.ini editor? Let us guide you through the interface and show you the editor's full potential!`,
+    2: '{current} з {max} завершаных',
+    3: 'No results',
+    4: 'Your query may contain typos'
   },
   tabs: {
     0: 'Пошук',
@@ -226,6 +244,15 @@ export default {
     3: 'Няма праў доступу',
     4: 'Вам неабходна ўвайсці ў сістэму, каб адрэдагаваць гэты скін.',
     5: 'Вам неабходна ўвайсці ў сістэму, каб дадаць новы скін.'
+  },
+  settings: {
+    0: 'Settings',
+    1: 'Mouse scroll',
+    2: 'Enable mouse hover swipe for image carousel, allowing left-to-right or right-to-left navigation.',
+    3: 'Zoom in',
+    4: 'Enable image zoom on hover for larger skin preview.',
+    5: 'English comments',
+    6: 'Show English translation of the comments'
   },
   meta: {
     title: {
@@ -245,7 +272,7 @@ export default {
       13: 'New skin',
       14: 'Site rules',
       15: 'osu! Contests',
-      16: 'osu! Contests'
+      16: 'osu! skinning Tools and Resources list'
     },
     description: {
       0: 'Get the best osu! skins at our site! Our huge library has skins for all gamemodes, aspect ratios and even top players. Plus, we have a special section for anime fans. Improve your gameplay with the perfect skin. #osuskins #osugame #anime',
@@ -279,7 +306,11 @@ export default {
     skin_return: 'Back to skin',
     source: 'Source',
     contest_voting: 'Vote here',
-    rules_agree: 'I agree'
+    rules_agree: 'I agree',
+    report_issue: 'Report issue',
+    ghost_creator: 'Ghost creator',
+    close: 'Close',
+    quick_select: 'Quick select'
   },
   choose: {
     0: 'Optional',
@@ -293,7 +324,8 @@ export default {
       2: 'Animations',
       3: 'Мастацтва',
       4: 'Collab',
-      5: 'Гукі'
+      5: 'Гукі',
+      6: 'Геймплэй'
     }
   },
   tooltips: {
@@ -310,7 +342,15 @@ export default {
     10: 'Reset everything',
     11: 'Show guide',
     12: 'Close guide',
-    13: 'To mark a rule as read, hover over it (Yellow indicates unread)'
+    13: 'To mark a rule as read, hover over it (Yellow indicates unread)',
+    14: {
+      0: '[hl]{example}[/hl] - [b]equal[/b] to {amount}',
+      1: '[hl]{example}[/hl] - [b]above[/b] {amount}',
+      2: '[hl]{example}[/hl] - [b]below[/b] {amount}',
+      3: '[hl]{example}[/hl] - [b]from[/b] {amount} [b]to[/b] {amount_2}'
+    },
+    15: 'Unselect',
+    16: 'Remove file'
   },
   lists: {
     screens: {
@@ -329,7 +369,8 @@ export default {
       12: 'Result screen',
       13: 'Прапусціць',
       14: 'Банер',
-      15: 'Result screen (bottom)'
+      15: 'Result screen (bottom)',
+      16: 'Beginning image'
     },
     cats: {
       0: 'Небяспечны для працы/NSFW',
@@ -353,15 +394,22 @@ export default {
     likes: 'Лайкі',
     dislikes: 'Дізлайкі',
     downloads: 'Загрузак',
-    size_range: 'Выберыце памер',
-    date_range: 'Выберыце дыяпазон дат',
-    ratio: 'Select aspect ratio | ratio'
+    ratio: 'Select aspect ratio | ratio',
+    sorting: 'Desc. | Asc.'
+  },
+  sorting: {
+    0: 'Most | Least',
+    1: 'Most | Least',
+    2: 'Highest | Lowest',
+    3: 'Largest | Smallest',
+    4: 'Newest | Oldest',
+    5: 'A-Z | Z-A'
   },
   placeholders: {
     0: 'Select roles',
     1: 'Select versions',
     2: 'Type some text...',
-    3: 'Выберыце памер',
+    3: 'Select size range',
     4: 'Select date range',
     5: 'Год',
     6: 'Месяц',
@@ -375,7 +423,13 @@ export default {
     14: 'Paste a link',
     15: 'Skin title, author, or tags',
     16: 'Выберыце катэгорыю',
-    17: 'Type the name of the tag'
+    17: 'Type the name of the tag',
+    18: 'Type the name of the skin',
+    19: 'Type author name ',
+    20: 'Select file',
+    24: 'Type gameplay name...',
+    25: 'Type range',
+    26: 'Type text'
   },
   contribute: { 0: 'Contribute' },
   nsfw: {
@@ -446,7 +500,11 @@ export default {
     51: 'Submitted for moderation',
     52: 'Warning',
     53: 'You need to choose type of asset',
-    54: 'The skin is currently under moderation. Please be patient while it is being processed'
+    54: 'The skin is currently under moderation. Please be patient while it is being processed',
+    55: 'Success',
+    56: 'New ghost creator has been added',
+    57: 'Color copied',
+    58: `The RGB code "{color}" is now available through your clipboard!`
   },
   header: {
     0: 'Notifications',
@@ -463,6 +521,7 @@ export default {
     1: 'Паказаць гайд?',
     2: 'Submit skin?',
     3: 'Так',
-    4: 'Не'
+    4: 'Не',
+    5: 'Reset .ini?'
   }
 };

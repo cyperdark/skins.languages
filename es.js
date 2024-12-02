@@ -27,7 +27,8 @@ export default {
     2: 'Vistas | Gustadas | Descargadas',
     3: 'Publicar nueva skin',
     4: 'Como instalar la skin',
-    5: '{amount} Skins | {amount} Skins | {amount} Skins'
+    5: '{amount} Skins | {amount} Skins | {amount} Skins',
+    6: 'Join discord'
   },
   changelogs: {
     0: 'Lista de cambios',
@@ -42,7 +43,8 @@ export default {
   },
   ideas: {
     0: 'No se encontró nada',
-    1: 'Las capturas de pantalla de {type} no han sido subidas al sitio'
+    1: 'Las capturas de pantalla de {type} no han sido subidas al sitio',
+    2: '«{amount}» {name}'
   },
   creators: {
     0: 'Creadores',
@@ -95,7 +97,9 @@ export default {
     23: 'Añade al menos una versión pública',
     24: 'Añade al menos un creador a esta versión',
     25: 'Algunos creadores no tienen roles',
-    26: '{amount} capturas de pantalla sin categoría'
+    26: '{amount} capturas de pantalla sin categoría',
+    27: 'Specifiy gameplay name for {mode} screenshots | Specifiy gameplay name for {mode} screenshot',
+    28: 'Select gamemode for gameplay screenshots'
   },
   skins: {
     0: 'Skins',
@@ -111,7 +115,8 @@ export default {
     10: 'Skins de osu por {name} | Todas las skins de',
     11: 'Buscar',
     12: '{name} skins',
-    13: 'Explora skins'
+    13: 'Explora skins',
+    14: 'Popular skins'
   },
   skin: {
     0: 'Editar',
@@ -150,7 +155,7 @@ export default {
     34: 'Más skins de este autor | Más skins de estos autores',
     35: 'Apoyar la skin',
     36: 'No disponible',
-    37: 'Desafortunadamente, la skin ha sido eliminada a petición de {author}',
+    37: 'Unfortunately, this skin was deleted',
     38: '¡Bienvenido al editor de posts de skin!',
     39: `¿Nuevo al editor de skins? ¡Dejanos guiarte por la interfaz y enseñarte el potencial completo del editor!`,
     40: '{current} de {max} completados',
@@ -200,7 +205,11 @@ export default {
       2: 'Usuarios',
       3: 'Listas'
     },
-    14: 'Buscar:'
+    14: 'Buscar:',
+    15: 'Size:',
+    16: 'Rating:',
+    17: 'Views:',
+    18: 'Downloads:'
   },
   contests: {
     0: 'Concursos',
@@ -208,11 +217,20 @@ export default {
     2: 'Subir',
     3: 'Preparando',
     4: 'Votaciones',
-    5: 'Terminado'
+    5: 'Terminado',
+    6: 'Concursos',
+    7: 'Voting page'
   },
   rules: {
     0: 'Última actualización',
     1: 'Normas para la publicación de skins'
+  },
+  skinini: {
+    0: 'Welcome to skin.ini editor!',
+    1: `New to the skin.ini editor? Let us guide you through the interface and show you the editor's full potential!`,
+    2: '{current} de {max} completados',
+    3: 'No results',
+    4: 'Your query may contain typos'
   },
   tabs: {
     0: 'Buscar',
@@ -226,6 +244,15 @@ export default {
     3: 'No autorizado',
     4: 'Necesitas iniciar sesión para poder editar esta skin.',
     5: 'Necesitas iniciar sesión para poder añadir una nueva skin.'
+  },
+  settings: {
+    0: 'Ajustes',
+    1: 'Mouse scroll',
+    2: 'Enable mouse hover swipe for image carousel, allowing left-to-right or right-to-left navigation.',
+    3: 'Zoom in',
+    4: 'Enable image zoom on hover for larger skin preview.',
+    5: 'English comments',
+    6: 'Show English translation of the comments'
   },
   meta: {
     title: {
@@ -245,7 +272,7 @@ export default {
       13: 'Nueva skin',
       14: 'Reglas del sitio',
       15: 'Concursos de osu!',
-      16: 'Concursos de osu!'
+      16: 'osu! skinning Tools and Resources list'
     },
     description: {
       0: '¡Consigue las mejores skins de osu! en nuestra página! Nuestra amplia librería cuenta con skins para todos los modos de juego, relaciones de aspecto e incluso con aquellas usadas por los mejores jugadores. Además, tenemos una sección especial para los fans del anime. Mejora tu gameplay con la skin perfecta. #osuskins #osugame #anime',
@@ -279,7 +306,11 @@ export default {
     skin_return: 'Volver a la skin',
     source: 'Fuente',
     contest_voting: 'Vota aquí',
-    rules_agree: 'Estoy de acuerdo'
+    rules_agree: 'Estoy de acuerdo',
+    report_issue: 'Report issue',
+    ghost_creator: 'Ghost creator',
+    close: 'Close',
+    quick_select: 'Quick select'
   },
   choose: {
     0: 'Opcional',
@@ -293,7 +324,8 @@ export default {
       2: 'Animaciones',
       3: 'Arte',
       4: 'Colaboración',
-      5: 'Sonidos'
+      5: 'Sonidos',
+      6: 'Gameplay'
     }
   },
   tooltips: {
@@ -310,7 +342,15 @@ export default {
     10: 'Restablecer todo',
     11: 'Mostrar guía',
     12: 'Cerrar guía',
-    13: 'Para marcar una regla como leída, pase el cursor sobre ella (amarillo indica no leído)'
+    13: 'Para marcar una regla como leída, pase el cursor sobre ella (amarillo indica no leído)',
+    14: {
+      0: '[hl]{example}[/hl] - [b]equal[/b] to {amount}',
+      1: '[hl]{example}[/hl] - [b]above[/b] {amount}',
+      2: '[hl]{example}[/hl] - [b]below[/b] {amount}',
+      3: '[hl]{example}[/hl] - [b]from[/b] {amount} [b]to[/b] {amount_2}'
+    },
+    15: 'Unselect',
+    16: 'Remove file'
   },
   lists: {
     screens: {
@@ -329,7 +369,8 @@ export default {
       12: 'Pantalla de resultados',
       13: 'Saltar',
       14: 'Banner',
-      15: 'Pantalla de resultados (inferior)'
+      15: 'Pantalla de resultados (inferior)',
+      16: 'Beginning image'
     },
     cats: {
       0: 'NSFW',
@@ -353,15 +394,22 @@ export default {
     likes: 'Me gusta',
     dislikes: 'No me gusta',
     downloads: 'Descargas',
-    size_range: 'Seleccionar tamaño',
-    date_range: 'Seleccione un rango de fechas',
-    ratio: 'Seleccionar relación de aspecto | relación'
+    ratio: 'Seleccionar relación de aspecto | relación',
+    sorting: 'Desc. | Asc.'
+  },
+  sorting: {
+    0: 'Most | Least',
+    1: 'Most | Least',
+    2: 'Highest | Lowest',
+    3: 'Largest | Smallest',
+    4: 'Newest | Oldest',
+    5: 'A-Z | Z-A'
   },
   placeholders: {
     0: 'Seleccionar roles',
     1: 'Seleccionar versiones',
     2: 'Escribe algo de texto...',
-    3: 'Seleccionar tamaño',
+    3: 'Select size range',
     4: 'Seleccionar rango de fechas',
     5: 'Año',
     6: 'Mes',
@@ -375,7 +423,13 @@ export default {
     14: 'Pegar un enlace',
     15: 'Título de la skin, autor o etiquetas',
     16: 'Seleccionar categoría',
-    17: 'Escribe el nombre de la etiqueta'
+    17: 'Escribe el nombre de la etiqueta',
+    18: 'Type the name of the skin',
+    19: 'Type author name ',
+    20: 'Select file',
+    24: 'Type gameplay name...',
+    25: 'Type range',
+    26: 'Type text'
   },
   contribute: { 0: 'Contribuir' },
   nsfw: {
@@ -446,7 +500,11 @@ export default {
     51: 'Enviado para moderación',
     52: '¡Advertencia!',
     53: 'Tienes que elegir el tipo de recurso',
-    54: 'La skin está actualmente bajo moderación. Por favor, sea paciente mientras se procesa'
+    54: 'La skin está actualmente bajo moderación. Por favor, sea paciente mientras se procesa',
+    55: 'Completado',
+    56: 'New ghost creator has been added',
+    57: 'Color copied',
+    58: `The RGB code "{color}" is now available through your clipboard!`
   },
   header: {
     0: 'Notificaciones',
@@ -463,6 +521,7 @@ export default {
     1: '¿Mostrar guía?',
     2: '¿Enviar skin?',
     3: 'Si',
-    4: 'No'
+    4: 'No',
+    5: 'Reset .ini?'
   }
 };
