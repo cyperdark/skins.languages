@@ -97,7 +97,6 @@ export default {
     24: 'Voeg tenminste één maker toe aan deze versie',
     25: 'Sommige makers hebben geen rollen',
     26: '{amount} schermafbeeldingen hebben geen categorie',
-    27: 'Specifiy gameplay name for {mode} screenshots | Specifiy gameplay name for {mode} screenshot',
     28: 'Select gamemode for gameplay screenshots'
   },
   skins: {
