@@ -28,6 +28,7 @@ export default {
     3: 'Publish new skin',
     4: 'How to install skin',
     5: '{amount} Skins | {amount} Skins | {amount} Skins',
+    6: 'Join discord',
   },
   changelogs: {
     0: 'Changelog',
@@ -43,6 +44,7 @@ export default {
   ideas: {
     0: 'Nothing found',
     1: 'Screenshots of «{type}» were not uploaded to the site',
+    2: '«{amount}» {name}'
   },
   creators: {
     0: 'Creators',
@@ -96,6 +98,8 @@ export default {
     24: 'Add at least one creator to this version',
     25: 'Some creators doesn\'t have roles',
     26: '{amount} screenshots doesn\'t have category',
+    27: 'Specifiy gameplay name for {mode} screenshots | Specifiy gameplay name for {mode} screenshot',
+    28: 'Select gamemode for gameplay screenshots',
   },
   skins: {
     0: 'Skins',
@@ -113,6 +117,7 @@ export default {
 
     12: '{name} skins',
     13: 'Explore skins',
+    14: 'Popular skins',
   },
   skin: {
     0: 'Edit',
@@ -154,7 +159,7 @@ export default {
     35: 'Support the skin',
 
     36: 'Unavailable',
-    37: 'Unfortunately, this skin was deleted at {author} request',
+    37: 'Unfortunately, this skin was deleted',
 
     38: 'Welcome to the skin post editor!',
     39: `New to the skin editor? Let us guide you through the interface and show you the editor's full potential!`,
@@ -211,6 +216,11 @@ export default {
     },
 
     14: 'Search:',
+
+    15: 'Size:',
+    16: 'Rating:',
+    17: 'Views:',
+    18: 'Downloads:',
   },
   contests: {
     0: 'Contests',
@@ -219,10 +229,21 @@ export default {
     3: 'Preparing',
     4: 'Voting',
     5: 'Finished',
+    6: 'Contests',
+    7: 'Voting page',
   },
   rules: {
     0: 'Last updated at',
     1: 'Posting Skins Guidelines',
+  },
+
+  skinini: {
+    0: 'Welcome to skin.ini editor!',
+    1: `New to the skin.ini editor? Let us guide you through the interface and show you the editor's full potential!`,
+    2: '{current} of {max} completed',
+
+    3: 'No results',
+    4: 'Your query may contain typos',
   },
 
   tabs: {
@@ -237,6 +258,15 @@ export default {
     3: 'Unauthorized',
     4: 'You need to be logged in order to edit this skin.',
     5: 'You need to be logged in order to add a new skin.'
+  },
+  settings: {
+    0: 'Settings',
+    1: 'Mouse scroll',
+    2: 'Enable mouse hover swipe for image carousel, allowing left-to-right or right-to-left navigation.',
+    3: 'Zoom in',
+    4: 'Enable image zoom on hover for larger skin preview.',
+    5: 'English comments',
+    6: 'Show English translation of the comments',
   },
   meta: {
     title: {
@@ -256,7 +286,7 @@ export default {
       13: 'New skin',
       14: 'Site rules',
       15: 'osu! Contests',
-      16: 'osu! Contests',
+      16: 'osu! skinning Tools and Resources list',
     },
     description: {
       0: 'Get the best osu! skins at our site! Our huge library has skins for all gamemodes, aspect ratios and even top players. Plus, we have a special section for anime fans. Improve your gameplay with the perfect skin. #osuskins #osugame #anime',
@@ -292,6 +322,10 @@ export default {
     source: 'Source',
     contest_voting: 'Vote here',
     rules_agree: 'I agree',
+    report_issue: 'Report issue',
+    ghost_creator: 'Ghost creator',
+    close: 'Close',
+    quick_select: 'Quick select',
   },
 
   choose: {
@@ -308,6 +342,7 @@ export default {
       3: 'Arts',
       4: 'Collab',
       5: 'Sounds',
+      6: 'Gameplay',
     }
   },
   tooltips: {
@@ -325,6 +360,17 @@ export default {
     11: 'Show guide',
     12: 'Close guide',
     13: 'To mark a rule as read, hover over it (Yellow indicates unread)',
+
+    14: {
+      0: '[hl]{example}[/hl] - [b]equal[/b] to {amount}',
+      1: '[hl]{example}[/hl] - [b]above[/b] {amount}',
+      2: '[hl]{example}[/hl] - [b]below[/b] {amount}',
+      3: '[hl]{example}[/hl] - [b]from[/b] {amount} [b]to[/b] {amount_2}',
+    },
+
+
+    15: 'Unselect',
+    16: 'Remove file',
   },
   lists: {
     screens: {
@@ -344,12 +390,13 @@ export default {
       13: 'Skip',
       14: 'Banner',
       15: 'Result screen (bottom)',
+      16: 'Beginning image',
     },
     cats: {
       0: 'NSFW',
       1: 'Furry',
       2: 'Mixed'
-    }
+    },
   },
   select: {
     0: 'New',
@@ -367,15 +414,22 @@ export default {
     likes: 'Likes',
     dislikes: 'Dislikes',
     downloads: 'Downloads',
-    size_range: 'Select size',
-    date_range: 'Select a date range',
-    ratio: 'Select aspect ratio | ratio'
+    ratio: 'Select aspect ratio | ratio',
+    sorting: 'Desc. | Asc.',
+  },
+  sorting: {
+    0: 'Most | Least',
+    1: 'Most | Least',
+    2: 'Highest | Lowest',
+    3: 'Largest | Smallest',
+    4: 'Newest | Oldest',
+    5: 'A-Z | Z-A',
   },
   placeholders: {
     0: 'Select roles',
     1: 'Select versions',
     2: 'Type some text...',
-    3: 'Select size',
+    3: 'Select size range',
     4: 'Select date range',
     5: 'Year',
     6: 'Month',
@@ -390,6 +444,12 @@ export default {
     15: 'Skin title, author, or tags',
     16: 'Select category',
     17: 'Type the name of the tag',
+    18: 'Type the name of the skin',
+    19: 'Type author name ',
+    20: 'Select file',
+    24: 'Type gameplay name...',
+    25: 'Type range',
+    26: 'Type text',
   },
   contribute: {
     0: 'Contribute'
@@ -489,6 +549,13 @@ export default {
     53: 'You need to choose type of asset',
 
     54: 'The skin is currently under moderation. Please be patient while it is being processed',
+
+    55: 'Success',
+    56: 'New ghost creator has been added',
+
+
+    57: 'Color copied',
+    58: `The RGB code "{color}" is now available through your clipboard!`
   },
 
   header: {
@@ -511,5 +578,7 @@ export default {
 
     3: 'Yes',
     4: 'No',
+
+    5: 'Reset .ini?',
   }
 };
