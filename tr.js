@@ -27,8 +27,7 @@ export default {
     2: 'Görüntülendi | Beğenildi | İndirildi',
     3: 'Yeni bir skin yayınla',
     4: 'Skin nasıl indirilir',
-    5: '{amount} Skin | {amount} Skin | {amount} Skin',
-    6: 'Join discord'
+    5: '{amount} Skin | {amount} Skin | {amount} Skin'
   },
   changelogs: {
     0: 'Güncelleme geçmişi',
