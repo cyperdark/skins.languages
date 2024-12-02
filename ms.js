@@ -27,8 +27,7 @@ export default {
     2: 'Ditonton | Disukai | Dimuat turun',
     3: 'Terbitkan skin baharu',
     4: 'Cara untuk memuat naik skin',
-    5: '{amount} Skin | {amount} Skin | {amount} Skin',
-    6: 'Join discord'
+    5: '{amount} Skin | {amount} Skin | {amount} Skin'
   },
   changelogs: {
     0: 'Log perubahan',
