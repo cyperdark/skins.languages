@@ -268,7 +268,7 @@ export default {
       13: 'Novy skin',
       14: 'Site rules',
       15: 'osu! Contests',
-      16: 'osu! skinning Tools and Resources list'
+      16: 'osu! skinning tools'
     },
     description: {
       0: 'Získajte najlepšie osu! skiny na našej stránke! Naša obrovská knižnica má skiny pre všetke herné režimy, pomery strán a dokonca aj pre špičkových hráčov. Navyše máme špeciálnu sekciu pre fanúšikov anime. Zlepšite svoju hru s dokonalým vzhľadom. #osuskins #osugame #anime',
