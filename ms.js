@@ -97,7 +97,6 @@ export default {
     24: 'Letakkan sekurang-kurangnya satu pengarang kepada versi ini',
     25: 'Sebahagian pereka tiada peranan',
     26: '{amount} screenshot tidak mempunyai kategori',
-    27: 'Specifiy gameplay name for {mode} screenshots | Specifiy gameplay name for {mode} screenshot',
     28: 'Select gamemode for gameplay screenshots'
   },
   skins: {
