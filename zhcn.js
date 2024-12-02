@@ -27,8 +27,7 @@ export default {
     2: '浏览 | 喜欢 | 下载',
     3: '发布新皮肤',
     4: '如果安装皮肤',
-    5: '{amount} 个皮肤 | {amount} 个皮肤 | {amount} 个皮肤',
-    6: 'Join discord'
+    5: '{amount} 个皮肤 | {amount} 个皮肤 | {amount} 个皮肤'
   },
   changelogs: {
     0: '更新日志',
