@@ -95,7 +95,7 @@ export default {
     22: 'チェックリスト',
     23: '公開されているバージョンを少なくとも1つ追加してください',
     24: 'このバージョンに少なくとも1人の作成者を追加してください',
-    25: '一部のクリエイターにロールがありません',
+    25: 'Some creators don\'t have roles',
     26: '{amount} つのスクリーンショットにはカテゴリがありません',
     28: 'Select gamemode for gameplay screenshots'
   },
@@ -114,7 +114,7 @@ export default {
     11: '検索',
     12: '{name} スキン',
     13: 'スキンを探す',
-    14: 'Popular skins'
+    14: '人気のスキン'
   },
   skin: {
     0: '編集',
@@ -153,7 +153,7 @@ export default {
     34: 'この作成者のスキンをもっと見る | この作成者たちのスキンをもっと見る',
     35: 'スキンをサポートする',
     36: '利用できません',
-    37: 'Unfortunately, this skin was deleted',
+    37: '残念ながら、このスキンは削除されました',
     38: 'スキン投稿エディターへようこそ！',
     39: `スキンエディターは初めてですか？インターフェースをご案内し、エディターの可能性を最大限にご紹介しましょう！`,
     40: '{current} / {max} 完了',
@@ -204,10 +204,10 @@ export default {
       3: 'リスト'
     },
     14: '検索:',
-    15: 'Size:',
-    16: 'Rating:',
-    17: 'Views:',
-    18: 'Downloads:'
+    15: 'サイズ:',
+    16: '評価:',
+    17: '閲覧数:',
+    18: 'ダウンロード件数:'
   },
   contests: {
     0: 'コンテスト',
@@ -217,18 +217,18 @@ export default {
     4: '投票中',
     5: '終了',
     6: 'コンテスト',
-    7: 'Voting page'
+    7: '投票ページ'
   },
   rules: {
     0: '最終更新:',
     1: 'スキン投稿ガイドライン'
   },
   skinini: {
-    0: 'Welcome to skin.ini editor!',
+    0: 'skin.iniエディタへようこそ！',
     1: `New to the skin.ini editor? Let us guide you through the interface and show you the editor's full potential!`,
     2: '{current} / {max} 完了',
-    3: 'No results',
-    4: 'Your query may contain typos'
+    3: '一致する項目はありません',
+    4: '検索ワードに誤りがあるようです'
   },
   tabs: {
     0: '検索',
@@ -245,10 +245,10 @@ export default {
   },
   settings: {
     0: '設定',
-    1: 'Mouse scroll',
+    1: 'マウススクロール',
     2: 'Enable mouse hover swipe for image carousel, allowing left-to-right or right-to-left navigation.',
-    3: 'Zoom in',
-    4: 'Enable image zoom on hover for larger skin preview.'
+    3: '拡大',
+    4: 'マウスを画像上にホバーさせることで画像を拡大します。'
   },
   meta: {
     title: {
@@ -268,7 +268,7 @@ export default {
       13: '新しいスキン',
       14: 'サイトのルール',
       15: 'osu!コンテスト',
-      16: 'osu! skinning tools'
+      16: 'osu!スキンツール'
     },
     description: {
       0: 'このサイトでベストなosu! スキンを手に入れよう！ 私たちの膨大なライブラリには、すべてのゲームモード、アスペクト比、さらにはトッププレイヤーのスキンがあります。さらに、アニメーション向けの特別セクションもあります。完璧なスキンでゲームプレイを向上させましょう。',
@@ -303,10 +303,10 @@ export default {
     source: 'ソース',
     contest_voting: '投票する',
     rules_agree: '同意します',
-    report_issue: 'Report issue',
+    report_issue: '問題を報告する',
     ghost_creator: 'Ghost creator',
-    close: 'Close',
-    quick_select: 'Quick select'
+    close: '閉じる',
+    quick_select: 'クイック選択'
   },
   choose: {
     0: 'オプション',
