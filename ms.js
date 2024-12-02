@@ -268,7 +268,7 @@ export default {
       13: 'Skin baharu',
       14: 'Peraturan laman web',
       15: 'Pertandingan-pertandingan osu!',
-      16: 'osu! skinning Tools and Resources list'
+      16: 'osu! skinning tools'
     },
     description: {
       0: 'Dapatkan skin osu! yang terbaik dari laman web kami! Kami mempunyai banyak skin untuk semua mod permainan, nisbah aspek dan juga pemain-pemain terbaik. Tambahan, kami juga mempunyai bahagian yang istimewa untuk peminat-peminat anime. Menaik taraf permainan anda dengan skin yang sempurna. #osuskins #osugame #anime',
