@@ -27,8 +27,7 @@ export default {
     2: 'Lượt xem | Lượt thích | Lượt tải',
     3: 'Đăng tải skin mới',
     4: 'Cách cài đặt skin',
-    5: '{amount} Skins | {amount} Skins | {amount} Skins',
-    6: 'Join discord'
+    5: '{amount} Skins | {amount} Skins | {amount} Skins'
   },
   changelogs: {
     0: 'Nhật ký thay đổi',
