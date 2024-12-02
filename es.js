@@ -95,7 +95,7 @@ export default {
     22: 'Lista de verificación',
     23: 'Añade al menos una versión pública',
     24: 'Añade al menos un creador a esta versión',
-    25: 'Algunos creadores no tienen roles',
+    25: 'Some creators don\'t have roles',
     26: '{amount} capturas de pantalla sin categoría',
     28: 'Select gamemode for gameplay screenshots'
   },
