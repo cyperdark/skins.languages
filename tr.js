@@ -268,7 +268,7 @@ export default {
       13: 'Yeni skin',
       14: 'Site rules',
       15: 'osu! Contests',
-      16: 'osu! skinning Tools and Resources list'
+      16: 'osu! skinning tools'
     },
     description: {
       0: 'Sitemizden en iyi osu! skinlerini edinin! Devasa kütüphanemizde tüm oyunmodlarına, çerçeve oranlarına hatta top playerlara ilişkin skinler bulabilirsin. Artı olarak anime fanlarına yönelik bi bölümümüz daha var. Mükemmel skininle birlikte oyununu bir adım ileri taşı. #osuskins #osugame #anime',
