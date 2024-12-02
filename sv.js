@@ -27,8 +27,7 @@ export default {
     2: 'Visningar | Gillade | Nedladdade',
     3: 'Publicera nytt skin',
     4: 'Hur man installerar skin',
-    5: '{amount} Skins | {amount} Skins | {amount} Skins',
-    6: 'Join discord'
+    5: '{amount} Skins | {amount} Skins | {amount} Skins'
   },
   changelogs: {
     0: 'Ändringslogg',
