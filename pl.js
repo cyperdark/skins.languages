@@ -268,7 +268,7 @@ export default {
       13: 'Nowy skin',
       14: 'Zasady strony',
       15: 'Konkursy osu!',
-      16: 'osu! skinning Tools and Resources list'
+      16: 'osu! skinning tools'
     },
     description: {
       0: 'Najlepsze skiny do osu! tylko u nas! W naszej ogromnej bibliotece znajdziesz skiny dla wszystkich trybów gry, proporcji ekranu, a nawet skiny używane przez topowych graczy. Posiadamy również sekcję dla fanów anime. Udoskonal swoją rozgrywkę z idealnym dla ciebie skinem. #osuskins #osugame #anime',
