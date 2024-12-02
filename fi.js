@@ -95,7 +95,7 @@ export default {
     22: 'Tarkistuslista',
     23: 'Lisää vähintään yksi julkinen versio',
     24: 'Lisää tähän versioon vähintään yksi tekijä',
-    25: 'Joillekin tekijöille ei ole valittu rooleja',
+    25: 'Some creators don\'t have roles',
     26: '{amount} kuvakaappauksella ei ole kategoriaa',
     28: 'Select gamemode for gameplay screenshots'
   },
