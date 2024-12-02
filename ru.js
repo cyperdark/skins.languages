@@ -97,7 +97,7 @@ export default {
     24: 'Добавьте хотя бы одного создателя для этой версии',
     25: 'Некоторые создатели не имеют ролей',
     26: '{amount} скриншотов без категории',
-    28: 'Select gamemode for gameplay screenshots'
+    28: 'Выберите режим игры для скриншотов геймплея'
   },
   skins: {
     0: 'Скины',
@@ -114,7 +114,7 @@ export default {
     11: 'Поиск',
     12: '{name} скины',
     13: 'Исследовать скины',
-    14: 'Popular skins'
+    14: 'Популярные скины'
   },
   skin: {
     0: 'Редактировать',
@@ -153,7 +153,7 @@ export default {
     34: 'Больше скинов от этого автора | Больше скинов от этих авторов',
     35: 'Поддержите скин',
     36: 'Недоступен',
-    37: 'Unfortunately, this skin was deleted',
+    37: 'К сожалению данный скин был удалён',
     38: 'Добро пожаловать в редактор скин-постов!',
     39: `Впервые в редакторе скин-постов? Позвольте нам провести вас по интерфейсу и показать все возможности редактора!`,
     40: '{current} из {max} выполнено',
@@ -204,10 +204,10 @@ export default {
       3: 'Списки'
     },
     14: 'Поиск:',
-    15: 'Size:',
-    16: 'Rating:',
-    17: 'Views:',
-    18: 'Downloads:'
+    15: 'Вес:',
+    16: 'Рейтинг:',
+    17: 'Просмотры:',
+    18: 'Скачивания:'
   },
   contests: {
     0: 'Конкурсы',
@@ -217,18 +217,18 @@ export default {
     4: 'Голосование',
     5: 'Завершено',
     6: 'Конкурсы',
-    7: 'Voting page'
+    7: 'Страница голосования'
   },
   rules: {
     0: 'Обновлено',
     1: 'Руководства по размещению скинов'
   },
   skinini: {
-    0: 'Welcome to skin.ini editor!',
+    0: 'Добро пожаловать в редактор skin.ini!',
     1: `New to the skin.ini editor? Let us guide you through the interface and show you the editor's full potential!`,
     2: '{current} из {max} выполнено',
-    3: 'No results',
-    4: 'Your query may contain typos'
+    3: 'Ничего не найденo',
+    4: 'Ваш запрос может содержать опечатки'
   },
   tabs: {
     0: 'Поиск',
@@ -245,12 +245,10 @@ export default {
   },
   settings: {
     0: 'Настройки',
-    1: 'Mouse scroll',
-    2: 'Enable mouse hover swipe for image carousel, allowing left-to-right or right-to-left navigation.',
-    3: 'Zoom in',
-    4: 'Enable image zoom on hover for larger skin preview.',
-    5: 'English comments',
-    6: 'Show English translation of the comments'
+    1: 'Прокрутка мышью',
+    2: 'Позволяет перелистывать скриншоты скинов наведение мыши, вместо нажатий на кнопки влево и вправо.',
+    3: 'Приближение',
+    4: 'Позволяет приблизить скины для просмотра скриншотов вблизи.'
   },
   meta: {
     title: {
