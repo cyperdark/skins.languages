@@ -95,7 +95,7 @@ export default {
     22: '检查清单',
     23: '添加至少一个公开版本',
     24: '为此版本添加至少一个创作者',
-    25: '部分创作者没有角色',
+    25: 'Some creators don\'t have roles',
     26: '{amount} 个截图没有分类',
     28: 'Select gamemode for gameplay screenshots'
   },
