@@ -27,7 +27,8 @@ export default {
     2: 'Гледани | Харесвани | Изтегляни',
     3: 'Публикувай облик',
     4: 'Как се инсталира облик',
-    5: '{amount} Облици | {amount} Облици | {amount} Облици'
+    5: '{amount} Облици | {amount} Облици | {amount} Облици',
+    6: 'Join discord'
   },
   changelogs: {
     0: 'Списък с промени',
@@ -42,7 +43,8 @@ export default {
   },
   ideas: {
     0: 'Нищо не е намерено',
-    1: 'Екранни снимки от «{type}» не бяха качени на сайта'
+    1: 'Екранни снимки от «{type}» не бяха качени на сайта',
+    2: '«{amount}» {name}'
   },
   creators: {
     0: 'Създатели',
@@ -95,7 +97,9 @@ export default {
     23: 'Добавете поне една публична версия',
     24: 'Добавете поне един автор на тази версия',
     25: 'Някои автори нямат роли',
-    26: '{amount} екранните снимки нямат категория'
+    26: '{amount} екранните снимки нямат категория',
+    27: 'Specifiy gameplay name for {mode} screenshots | Specifiy gameplay name for {mode} screenshot',
+    28: 'Select gamemode for gameplay screenshots'
   },
   skins: {
     0: 'Облици',
@@ -111,7 +115,8 @@ export default {
     10: 'osu облици от {name} | Всички облици от',
     11: 'Търсене',
     12: '{name} облици',
-    13: 'Прегледайте облици'
+    13: 'Прегледайте облици',
+    14: 'Popular skins'
   },
   skin: {
     0: 'Редактиран',
@@ -150,7 +155,7 @@ export default {
     34: 'Още облици от този автор | Още облици от този автор',
     35: 'Подкрепете облика',
     36: 'Неналично',
-    37: 'За съжаление, този облик беше изтрит поради желание на {author}',
+    37: 'Unfortunately, this skin was deleted',
     38: 'Добре дошли в редактора за публикуване на облици!',
     39: `Не си използвал редактора преди? Нека ти покажем всички негови функции!`,
     40: '{current} от {max} завършени',
@@ -200,7 +205,11 @@ export default {
       2: 'Потребители',
       3: 'Списъци'
     },
-    14: 'Търсене:'
+    14: 'Търсене:',
+    15: 'Size:',
+    16: 'Rating:',
+    17: 'Views:',
+    18: 'Downloads:'
   },
   contests: {
     0: 'Конкурси',
@@ -208,11 +217,20 @@ export default {
     2: 'Подаване',
     3: 'Подготвяне',
     4: 'Гласуване',
-    5: 'Завършено'
+    5: 'Завършено',
+    6: 'Конкурси',
+    7: 'Voting page'
   },
   rules: {
     0: 'Последно обновен на',
     1: 'Указания за публикуване на облици'
+  },
+  skinini: {
+    0: 'Welcome to skin.ini editor!',
+    1: `New to the skin.ini editor? Let us guide you through the interface and show you the editor's full potential!`,
+    2: '{current} от {max} завършени',
+    3: 'No results',
+    4: 'Your query may contain typos'
   },
   tabs: {
     0: 'Търсене',
@@ -226,6 +244,15 @@ export default {
     3: 'Неразрешено',
     4: 'Трябва да сте влязли в акаунта си, за да редактирате този облик.',
     5: 'Трябва да сте влезли, за да добавите нов облик.'
+  },
+  settings: {
+    0: 'Настройки',
+    1: 'Mouse scroll',
+    2: 'Enable mouse hover swipe for image carousel, allowing left-to-right or right-to-left navigation.',
+    3: 'Zoom in',
+    4: 'Enable image zoom on hover for larger skin preview.',
+    5: 'English comments',
+    6: 'Show English translation of the comments'
   },
   meta: {
     title: {
@@ -245,7 +272,7 @@ export default {
       13: 'Нов облик',
       14: 'Правила на сайта',
       15: 'osu! Конкурси',
-      16: 'osu! Конкурси'
+      16: 'osu! skinning Tools and Resources list'
     },
     description: {
       0: 'Намерете най-добрите osu! облици на нашия сайт! Нашия огромен каталог е изпълнен с облици за всички игрови режими, съотношение на резолюцията и дори най-добрите играчи. И още, имаме специална секция за anime феновете. Подобри всоята игра с префектния osu облик за теб. #osuskins #osugame #anime',
@@ -279,7 +306,11 @@ export default {
     skin_return: 'Обратно към облик',
     source: 'Източник',
     contest_voting: 'Гласувай сук',
-    rules_agree: 'Съгласен съм'
+    rules_agree: 'Съгласен съм',
+    report_issue: 'Report issue',
+    ghost_creator: 'Ghost creator',
+    close: 'Close',
+    quick_select: 'Quick select'
   },
   choose: {
     0: 'По избор',
@@ -293,7 +324,8 @@ export default {
       2: 'Анимации',
       3: 'Изображения',
       4: 'Колаборации',
-      5: 'Звуци'
+      5: 'Звуци',
+      6: 'Игра'
     }
   },
   tooltips: {
@@ -310,7 +342,15 @@ export default {
     10: 'Нулиране на всичко',
     11: 'Показване на направляващ детайл',
     12: 'Затвори направляващия детайл',
-    13: 'За да маркирате правило като прочетено, задръжте курсура си върху него (Жълто показва, че не е прочетено)'
+    13: 'За да маркирате правило като прочетено, задръжте курсура си върху него (Жълто показва, че не е прочетено)',
+    14: {
+      0: '[hl]{example}[/hl] - [b]equal[/b] to {amount}',
+      1: '[hl]{example}[/hl] - [b]above[/b] {amount}',
+      2: '[hl]{example}[/hl] - [b]below[/b] {amount}',
+      3: '[hl]{example}[/hl] - [b]from[/b] {amount} [b]to[/b] {amount_2}'
+    },
+    15: 'Unselect',
+    16: 'Remove file'
   },
   lists: {
     screens: {
@@ -329,7 +369,8 @@ export default {
       12: 'Екран за резултат',
       13: 'Бутон за пропускане',
       14: 'Банер',
-      15: 'Екран за резултат (долу)'
+      15: 'Екран за резултат (долу)',
+      16: 'Beginning image'
     },
     cats: {
       0: 'Не е безопасно за работа',
@@ -353,15 +394,22 @@ export default {
     likes: 'Харесвания',
     dislikes: 'Нехаресвания',
     downloads: 'Изгеляния',
-    size_range: 'Изберете размер',
-    date_range: 'Изберете времева рамка',
-    ratio: 'Изберете съотношение | съотношение'
+    ratio: 'Изберете съотношение | съотношение',
+    sorting: 'Desc. | Asc.'
+  },
+  sorting: {
+    0: 'Most | Least',
+    1: 'Most | Least',
+    2: 'Highest | Lowest',
+    3: 'Largest | Smallest',
+    4: 'Newest | Oldest',
+    5: 'A-Z | Z-A'
   },
   placeholders: {
     0: 'Изберете роли',
     1: 'Изберете версии',
     2: 'Напишете текст...',
-    3: 'Изберете размер',
+    3: 'Select size range',
     4: 'Изберете времеви период',
     5: 'Година',
     6: 'Месец',
@@ -375,7 +423,13 @@ export default {
     14: 'Поставете връзка',
     15: 'Заглавие на облика, създател, или ключова дума',
     16: 'Изберете категория',
-    17: 'Напишете името на тага'
+    17: 'Напишете името на тага',
+    18: 'Type the name of the skin',
+    19: 'Type author name ',
+    20: 'Select file',
+    24: 'Type gameplay name...',
+    25: 'Type range',
+    26: 'Type text'
   },
   contribute: { 0: 'Допринасяне' },
   nsfw: {
@@ -446,7 +500,11 @@ export default {
     51: 'Изпратено за проверка',
     52: 'Внимание',
     53: 'Трябва да избереш вид актив',
-    54: 'В момента облика е под модерация. Моля, имайте търпение, докато се обработва'
+    54: 'В момента облика е под модерация. Моля, имайте търпение, докато се обработва',
+    55: 'Успех',
+    56: 'New ghost creator has been added',
+    57: 'Color copied',
+    58: `The RGB code "{color}" is now available through your clipboard!`
   },
   header: {
     0: 'Нотификации',
@@ -463,6 +521,7 @@ export default {
     1: 'Показване на направляващ детайл?',
     2: 'Предаване на облик?',
     3: 'Да',
-    4: 'Не'
+    4: 'Не',
+    5: 'Reset .ini?'
   }
 };
