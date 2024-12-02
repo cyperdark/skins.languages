@@ -95,7 +95,7 @@ export default {
     22: 'Senarai semak',
     23: 'Letakkan sekurang-kurangnya satu versi awam',
     24: 'Letakkan sekurang-kurangnya satu pengarang kepada versi ini',
-    25: 'Sebahagian pereka tiada peranan',
+    25: 'Some creators don\'t have roles',
     26: '{amount} screenshot tidak mempunyai kategori',
     28: 'Select gamemode for gameplay screenshots'
   },
