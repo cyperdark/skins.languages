@@ -97,7 +97,6 @@ export default {
     24: 'Добавьте хотя бы одного создателя для этой версии',
     25: 'Некоторые создатели не имеют ролей',
     26: '{amount} скриншотов без категории',
-    27: 'Specifiy gameplay name for {mode} screenshots | Specifiy gameplay name for {mode} screenshot',
     28: 'Select gamemode for gameplay screenshots'
   },
   skins: {
