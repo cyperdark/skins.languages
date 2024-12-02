@@ -95,7 +95,7 @@ export default {
     22: 'Problēmu saraksts',
     23: 'Pievieno vismaz vienu publisku versiju',
     24: 'Pievieno vismaz vienu veidotāju pie šīs versijas',
-    25: 'Dažiem veidotājiem nav lomu',
+    25: 'Some creators don\'t have roles',
     26: '{amount} screenshots doesn\'t have category',
     28: 'Select gamemode for gameplay screenshots'
   },
