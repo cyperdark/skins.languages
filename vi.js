@@ -97,7 +97,6 @@ export default {
     24: 'Thêm ít nhất một tác giả cho phiên bản này',
     25: 'Mốt số tác giả không có vai trò',
     26: '{amount} bức ảnh chưa có danh mục',
-    27: 'Specifiy gameplay name for {mode} screenshots | Specifiy gameplay name for {mode} screenshot',
     28: 'Select gamemode for gameplay screenshots'
   },
   skins: {
