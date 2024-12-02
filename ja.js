@@ -27,8 +27,7 @@ export default {
     2: '閲覧された | 評価された | ダウンロードされた',
     3: '新しいスキンを公開',
     4: 'スキンのインストール方法',
-    5: '{amount} スキン | {amount} スキン | {amount} スキン',
-    6: 'Join discord'
+    5: '{amount} スキン | {amount} スキン | {amount} スキン'
   },
   changelogs: {
     0: '変更ログ',
