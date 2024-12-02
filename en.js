@@ -263,8 +263,6 @@ export default {
     2: 'Enable mouse hover swipe for image carousel, allowing left-to-right or right-to-left navigation.',
     3: 'Zoom in',
     4: 'Enable image zoom on hover for larger skin preview.',
-    5: 'English comments',
-    6: 'Show English translation of the comments',
   },
   meta: {
     title: {
