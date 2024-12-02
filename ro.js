@@ -95,9 +95,9 @@ export default {
     22: 'Listă de verificare',
     23: 'Adaugă cel puțin o versiune publică',
     24: 'Adaugă cel puțin un creator la această versiune',
-    25: 'Unii creatori nu au roluri',
-    26: '{amount} screenshots doesn\'t have category',
-    28: 'Select gamemode for gameplay screenshots'
+    25: 'Some creators don\'t have roles',
+    26: '{amount} screenshot-uri nu au o categorie',
+    28: 'Alege un mod de joc pentru screenshot-urile cu gameplay'
   },
   skins: {
     0: 'Skinuri',
@@ -114,7 +114,7 @@ export default {
     11: 'Căutare',
     12: 'Skinuri {name}',
     13: 'Descoperă skinuri',
-    14: 'Popular skins'
+    14: 'Skinuri populare'
   },
   skin: {
     0: 'Edit',
@@ -153,7 +153,7 @@ export default {
     34: 'Mai multe skinuri de la acest autor | Mai multe skinuri de la acești autori',
     35: 'Susține skinul',
     36: 'Indisponibil',
-    37: 'Unfortunately, this skin was deleted',
+    37: 'Din păcate, acest skin a fost șters',
     38: 'Bine ai venit la editorul de skin uri!',
     39: `Nou în editorul de skin uri? Lasă-ne să te ghidăm prin interfață și să iți arătăm potențialul deplin al editorului!`,
     40: '{current} din {max} completat',
