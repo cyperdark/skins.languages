@@ -95,7 +95,7 @@ export default {
     22: 'Kontrolná listina',
     23: 'Pridajte aspoň jednu publikovanú verziu',
     24: 'Add at least one creator to this version',
-    25: 'Some creators doesn\'t have roles',
+    25: 'Some creators don\'t have roles',
     26: '{amount} screenshots doesn\'t have category',
     28: 'Select gamemode for gameplay screenshots'
   },
