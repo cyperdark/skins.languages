@@ -95,7 +95,7 @@ export default {
     22: 'Lista de verificação',
     23: 'Adicione no mínimo una versão pública',
     24: 'Adicione ao menos um criador para esta versão ',
-    25: 'Alguns criadores não possuem funções',
+    25: 'Some creators don\'t have roles',
     26: '{amount} capturas de tela não possuem uma categoria assimilada',
     28: 'Select gamemode for gameplay screenshots'
   },
@@ -114,7 +114,7 @@ export default {
     11: 'Buscar',
     12: '{name} skins',
     13: 'Explore por skins',
-    14: 'Popular skins'
+    14: 'Skins populares'
   },
   skin: {
     0: 'Editar',
@@ -153,7 +153,7 @@ export default {
     34: 'Mais skins feitas por este autor | Mais skins deste autor',
     35: 'Apoie a skin',
     36: 'Não disponível',
-    37: 'Unfortunately, this skin was deleted',
+    37: 'Infelizmente, essa skin foi deletada',
     38: 'Bem-vindo ao editor de postagens da skin!',
     39: `Novo no editor de skins? Vamos te guiar pela interface e lhe mostrar a você todo o potencial do editor!`,
     40: '{current} de {max} completo',
@@ -204,9 +204,9 @@ export default {
       3: 'Listas'
     },
     14: 'Buscar:',
-    15: 'Size:',
-    16: 'Rating:',
-    17: 'Views:',
+    15: 'Tamanho:',
+    16: 'Avaliação:',
+    17: 'Visualizações:',
     18: 'Downloads:'
   },
   contests: {
@@ -217,18 +217,18 @@ export default {
     4: 'Votando',
     5: 'Finalizado',
     6: 'Concursos',
-    7: 'Voting page'
+    7: 'Página de votação'
   },
   rules: {
     0: 'Última vez atualizado em',
     1: 'Publicando as diretrizes das skins'
   },
   skinini: {
-    0: 'Welcome to skin.ini editor!',
-    1: `New to the skin.ini editor? Let us guide you through the interface and show you the editor's full potential!`,
+    0: 'Bem-vindo ao editor skin.ini!',
+    1: `Novo no editor skim.ini? Deixo-nos guiá-lo pela interface e mostrar o potencial máximo do editor!`,
     2: '{current} de {max} completo',
-    3: 'No results',
-    4: 'Your query may contain typos'
+    3: 'Sem resultados',
+    4: 'Sua pesquisa talvez contenha alguns erros de digitação'
   },
   tabs: {
     0: 'Buscar',
@@ -245,10 +245,10 @@ export default {
   },
   settings: {
     0: 'Configurações',
-    1: 'Mouse scroll',
-    2: 'Enable mouse hover swipe for image carousel, allowing left-to-right or right-to-left navigation.',
+    1: 'Scroll do mouse',
+    2: 'Habilite o mouse hover swipe para o image carousel, permitindo navegação de esquerda para direita ou direita para esquerda.',
     3: 'Zoom in',
-    4: 'Enable image zoom on hover for larger skin preview.'
+    4: 'Habilite o image zoom, colocando o cursor em cima, para visualizar em um tamanho maior.'
   },
   meta: {
     title: {
@@ -303,10 +303,10 @@ export default {
     source: 'Fonte',
     contest_voting: 'Vote aqui',
     rules_agree: 'Eu concordo',
-    report_issue: 'Report issue',
+    report_issue: 'Reportar um problema',
     ghost_creator: 'Ghost creator',
-    close: 'Close',
-    quick_select: 'Quick select'
+    close: 'Fechar',
+    quick_select: 'Seleção rápida'
   },
   choose: {
     0: 'Opcional',
@@ -340,13 +340,13 @@ export default {
     12: 'Fechar o guia',
     13: 'Para marcar uma regra como lida, coloque o cursor sobre ela (amarelo indica "não lido")',
     14: {
-      0: '[hl]{example}[/hl] - [b]equal[/b] to {amount}',
-      1: '[hl]{example}[/hl] - [b]above[/b] {amount}',
-      2: '[hl]{example}[/hl] - [b]below[/b] {amount}',
-      3: '[hl]{example}[/hl] - [b]from[/b] {amount} [b]to[/b] {amount_2}'
+      0: 'hl]{example}[/hl] - [b]igual[/b] a {amount}',
+      1: '[hl]{example}[/hl] - [b]acima de[/b] {amount}',
+      2: '[hl]{example}[/hl] - [b]abaixo de [/b] {amount}',
+      3: 'hl]{example}[/hl] - [b]de[/b] {amount} [b]para[/b] {amount_2}'
     },
-    15: 'Unselect',
-    16: 'Remove file'
+    15: 'Deixar de selecionar',
+    16: 'Remover arquivo'
   },
   lists: {
     screens: {
@@ -366,7 +366,7 @@ export default {
       13: 'Pular',
       14: 'Banner',
       15: 'Tela de resultados (abaixo)',
-      16: 'Beginning image'
+      16: 'Imagem inicial'
     },
     cats: {
       0: 'NSFW',
@@ -394,18 +394,18 @@ export default {
     sorting: 'Desc. | Asc.'
   },
   sorting: {
-    0: 'Most | Least',
-    1: 'Most | Least',
-    2: 'Highest | Lowest',
-    3: 'Largest | Smallest',
-    4: 'Newest | Oldest',
+    0: 'Mais | Menos',
+    1: 'Mais | Menos',
+    2: 'Mais Alto | Mais Baixo',
+    3: 'Maior | Menor',
+    4: 'Mais Novo | Mais Antigo',
     5: 'A-Z | Z-A'
   },
   placeholders: {
     0: 'Selecione a funções',
     1: 'Selecione a versão',
     2: 'Escreva alguma coisa...',
-    3: 'Select size range',
+    3: 'Selecione o tamanho do alcance',
     4: 'Selecionar período',
     5: 'Ano',
     6: 'Mês',
@@ -420,12 +420,12 @@ export default {
     15: 'Título da skin, autor, ou tags',
     16: 'Selecione a categoria',
     17: 'Escreva o nome da tag',
-    18: 'Type the name of the skin',
-    19: 'Type author name ',
-    20: 'Select file',
-    24: 'Type gameplay name...',
-    25: 'Type range',
-    26: 'Type text'
+    18: 'Digite o nome da skin',
+    19: 'Digite o nome do autor ',
+    20: 'Selecione o arquivo',
+    24: 'Digite o nome da gameplay...',
+    25: 'Digite o alcance',
+    26: 'Digite o texto'
   },
   contribute: { 0: 'Contribua' },
   nsfw: {
@@ -498,9 +498,9 @@ export default {
     53: 'Você precisa selecionar um tipo de recurso',
     54: 'Esta skin está atualmente sobre moderação. Por favor, seja paciente enquanto ela estiver sendo avaliada.',
     55: 'Bem sucedido',
-    56: 'New ghost creator has been added',
-    57: 'Color copied',
-    58: `The RGB code "{color}" is now available through your clipboard!`
+    56: 'Novo ghost creator foi adicionado',
+    57: 'Cor copiada',
+    58: `O código RGB "{color}" agira está disponível na sua clipboard!`
   },
   header: {
     0: 'Notificações',
@@ -518,6 +518,6 @@ export default {
     2: 'Enviar a skin?',
     3: 'Sim',
     4: 'Não',
-    5: 'Reset .ini?'
+    5: 'Resetar .ini?'
   }
 };
