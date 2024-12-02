@@ -97,7 +97,6 @@ export default {
     24: '为此版本添加至少一个创作者',
     25: '部分创作者没有角色',
     26: '{amount} 个截图没有分类',
-    27: 'Specifiy gameplay name for {mode} screenshots | Specifiy gameplay name for {mode} screenshot',
     28: 'Select gamemode for gameplay screenshots'
   },
   skins: {
