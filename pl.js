@@ -27,8 +27,7 @@ export default {
     2: 'Obejrzane | Polubione | Pobrane',
     3: 'Opublikuj nowego skina',
     4: 'Jak wgrać skina',
-    5: '{amount} Skinów | {amount} Skinów | {amount} Skinów',
-    6: 'Join discord'
+    5: '{amount} Skinów | {amount} Skinów | {amount} Skinów'
   },
   changelogs: {
     0: 'Changelog',
