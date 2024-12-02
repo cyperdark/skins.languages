@@ -97,7 +97,6 @@ export default {
     24: 'Lisää tähän versioon vähintään yksi tekijä',
     25: 'Joillekin tekijöille ei ole valittu rooleja',
     26: '{amount} kuvakaappauksella ei ole kategoriaa',
-    27: 'Specifiy gameplay name for {mode} screenshots | Specifiy gameplay name for {mode} screenshot',
     28: 'Select gamemode for gameplay screenshots'
   },
   skins: {
