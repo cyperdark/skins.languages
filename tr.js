@@ -95,7 +95,7 @@ export default {
     22: 'Kontrol listesi',
     23: 'Herkese açık en az bir versiyon ekleyin',
     24: 'Bu versiyona en az bir yaratıcı ekle',
-    25: 'Bazı yaratıcılar role sahip değil',
+    25: 'Some creators don\'t have roles',
     26: '{amount} screenshots doesn\'t have category',
     28: 'Select gamemode for gameplay screenshots'
   },
