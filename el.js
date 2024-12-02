@@ -268,7 +268,7 @@ export default {
       13: 'Νέο skin',
       14: 'Site rules',
       15: 'osu! Contests',
-      16: 'osu! skinning Tools and Resources list'
+      16: 'osu! skinning tools'
     },
     description: {
       0: 'Αποκτήστε τα καλύτερα osu! skins στο site μας! Η τεράστια συλλογή μας έχει skins για όλους τους τρόπους παιχνιδιού, αναλογίες διαστάσεων και ακόμα και για τους κορυφαίους παίκτες. Ακόμη, έχουμε ένα ειδικό τμήμα για τους anime fans. Βελτιώστε το παιχνίδι σας με το τέλειο skin. #osuskins #osugame #anime',
