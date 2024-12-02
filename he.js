@@ -27,8 +27,7 @@ export default {
     2: 'נצפים | נאהבים | מורדים',
     3: 'פרסם סקין חדש',
     4: 'איך להתקין סקין',
-    5: '{amount} סקינים | {amount} סקינים | {amount} סקינים',
-    6: 'Join discord'
+    5: '{amount} סקינים | {amount} סקינים | {amount} סקינים'
   },
   changelogs: {
     0: 'יומן שינויים',
