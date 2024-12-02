@@ -97,7 +97,6 @@ export default {
     24: 'Дадайце хаця б аднаго стваральніка ў гэтую версію',
     25: 'У некаторых стваральнікаў няма роляў',
     26: 'У {amount} скрыншотаў няма катэгорыі',
-    27: 'Specifiy gameplay name for {mode} screenshots | Specifiy gameplay name for {mode} screenshot',
     28: 'Select gamemode for gameplay screenshots'
   },
   skins: {
