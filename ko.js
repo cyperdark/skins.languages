@@ -95,7 +95,7 @@ export default {
     22: '체크리스트',
     23: '최소 1개의 공개 버전을 추가하세요.',
     24: '이 버전에 최소 1명의 제작자를 추가하세요.',
-    25: '일부 제작자들은 역할이 없습니다.',
+    25: 'Some creators don\'t have roles',
     26: '{amount} screenshots doesn\'t have category',
     28: 'Select gamemode for gameplay screenshots'
   },
