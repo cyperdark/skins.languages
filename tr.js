@@ -97,7 +97,6 @@ export default {
     24: 'Bu versiyona en az bir yaratıcı ekle',
     25: 'Bazı yaratıcılar role sahip değil',
     26: '{amount} screenshots doesn\'t have category',
-    27: 'Specifiy gameplay name for {mode} screenshots | Specifiy gameplay name for {mode} screenshot',
     28: 'Select gamemode for gameplay screenshots'
   },
   skins: {
