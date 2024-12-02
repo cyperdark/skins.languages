@@ -268,7 +268,7 @@ export default {
       13: '새 스킨',
       14: '사이트 규칙',
       15: 'osu! 콘테스트',
-      16: 'osu! skinning Tools and Resources list'
+      16: 'osu! skinning tools'
     },
     description: {
       0: '우리 사이트에서 최고의 osu! 스킨을 찾으세요! 우리는 모든 해상도, 심지어 탑 플레이어들이 사용하는 다양한 게임 모드의 스킨을 많이 가지고 있습니다. 추가로, 우리는 애니메이션 팬을 위한 특별 섹션도 가지고 있습니다. 완벽한 스킨으로 당신의 게임 실력을 향상시키세요! #osuskins #osugame #anime',
