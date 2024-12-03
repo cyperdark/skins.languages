@@ -366,7 +366,7 @@ export default {
       13: 'Saltar',
       14: 'Banner',
       15: 'Pantalla de resultados (inferior)',
-      16: 'Beginning image'
+      16: 'Imagen de inicio'
     },
     cats: {
       0: 'NSFW',
@@ -500,7 +500,7 @@ export default {
     55: 'Completado',
     56: 'New ghost creator has been added',
     57: 'Color copied',
-    58: `The RGB code "{color}" is now available through your clipboard!`
+    58: `¡El código RGB "{color}" ya está disponible en el portapapeles!`
   },
   header: {
     0: 'Notificaciones',
