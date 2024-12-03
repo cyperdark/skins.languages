@@ -42,11 +42,12 @@ export default {
   },
   ideas: {
     0: 'Rien n\'a été trouvé',
-    1: 'Les captures d\'écrans de « {type} » n\'ont pas été envoyés sur le site'
+    1: 'Les captures d\'écrans de « {type} » n\'ont pas été envoyés sur le site',
+    2: '«{amount}» {name}'
   },
   creators: {
     0: 'Créateurs',
-    1: 'Liste de tous les créateurs impliqués dans la création de cette version',
+    1: 'Listez tous les créateurs impliqués dans la création de cette version',
     2: 'Il n\'y a personne ici',
     3: 'Chercher le nom d\'un joueur affichera une liste de profils.',
     4: 'Editeur',
@@ -94,8 +95,9 @@ export default {
     22: 'Liste de contrôle',
     23: 'Ajoutez au moins une version publique',
     24: 'Ajouter au moins un créateur à cette version',
-    25: 'Certains créateurs n\'ont pas de rôles',
-    26: '{amount} captures d\'écran n\'ont pas de catégorie'
+    25: 'Some creators don\'t have roles',
+    26: '{amount} captures d\'écran n\'ont pas de catégorie',
+    28: 'Choisi le mode de jeu pour les captures d\'écran'
   },
   skins: {
     0: 'Skins',
@@ -111,7 +113,8 @@ export default {
     10: 'Skins osu par {name} | Tous les skins de',
     11: 'Rechercher',
     12: 'skins {name}',
-    13: 'Explorer les skins'
+    13: 'Explorer les skins',
+    14: 'Skins populaires'
   },
   skin: {
     0: 'Editer',
@@ -150,7 +153,7 @@ export default {
     34: 'Plus de skins de cet auteur | Plus de skins de ces auteurs',
     35: 'Soutenir le skin',
     36: 'Indisponible',
-    37: 'Malheureusement, ce skin a été supprimé suite à une demande de {author}',
+    37: 'Malheureusement, ce skin n\'existe plus',
     38: 'Bienvenue dans l\'éditeur de post de skin !',
     39: `Nouveau dans l'éditeur de skin ? Laissez-nous vous guider à travers l'interface et vous montrer le plein potentiel de l'éditeur !`,
     40: '{current} de {max} terminées',
@@ -158,7 +161,7 @@ export default {
     42: `Commençons`,
     43: 'Félicitations !',
     44: 'Vous avez terminé le tutoriel avec succès, amusez-vous !',
-    45: 'uploader'
+    45: 'mis en ligne par'
   },
   drag: {
     0: 'Cliquez ici',
@@ -200,7 +203,11 @@ export default {
       2: 'Utilisateurs',
       3: 'Listes'
     },
-    14: 'Rechercher :'
+    14: 'Rechercher :',
+    15: 'Taille :',
+    16: 'Note :',
+    17: 'Vues :',
+    18: 'Téléchargements :'
   },
   contests: {
     0: 'Concours',
@@ -208,11 +215,20 @@ export default {
     2: 'Soumission',
     3: 'Préparation',
     4: 'Vote en cours',
-    5: 'Terminé'
+    5: 'Terminé',
+    6: 'Concours',
+    7: 'Page de vote'
   },
   rules: {
     0: 'Dernière mise à jour le',
     1: 'Guide pour la publication des Skins'
+  },
+  skinini: {
+    0: 'Bienvenue dans l\'éditeur de skin.ini!',
+    1: `C'est la première fois que vous utilisez l'éditeur? Laissez-nous vous expliquer l'interface et vous montrez tout son potentiel!`,
+    2: '{current} de {max} terminées',
+    3: 'Aucun résultats',
+    4: 'Votre recherche pourrais contenir des coquilles'
   },
   tabs: {
     0: 'Rechercher',
@@ -226,6 +242,13 @@ export default {
     3: 'Non autorisé',
     4: 'Vous devez vous connecter afin d\'éditer ce skin.',
     5: 'Vous devez vous connecter afin d\'ajouter un nouveau skin.'
+  },
+  settings: {
+    0: 'Paramètres',
+    1: 'Navigation à la molette',
+    2: 'Permettre le déplacement par mouvement de souris pour les carrousels, faisant défiler les images de gauche à droite ou de droite à gauche.',
+    3: 'Zoomer',
+    4: 'Zoomer sur les images survolées pour un meilleur aperçu du skin.'
   },
   meta: {
     title: {
@@ -245,7 +268,7 @@ export default {
       13: 'Nouveau skin',
       14: 'Règles du site',
       15: 'Concours osu!',
-      16: 'Concours osu!'
+      16: 'outils de skinning osu!'
     },
     description: {
       0: 'Trouvez les meilleurs skins d\'osu! sur notre site ! Notre gigantesque librairie possède des skins pour tous les modes de jeu, formats d\'image, et même ceux des top players. En plus, nous avons une section spéciale pour les fans d\'animé. Améliorez votre gameplay avec le meilleur skin.#osuskins #osugame #anime',
@@ -279,7 +302,11 @@ export default {
     skin_return: 'Retour au skin',
     source: 'Source',
     contest_voting: 'Votez ici',
-    rules_agree: 'J\'accepte'
+    rules_agree: 'J\'accepte',
+    report_issue: 'Signaler un problème',
+    ghost_creator: 'Téléverseur fantôme',
+    close: 'Fermer',
+    quick_select: 'Sélection rapide'
   },
   choose: {
     0: 'Facultatif',
@@ -293,7 +320,8 @@ export default {
       2: 'Animations',
       3: 'Œuvres',
       4: 'Collab',
-      5: 'Sons'
+      5: 'Sons',
+      6: 'Gameplay'
     }
   },
   tooltips: {
@@ -310,7 +338,15 @@ export default {
     10: 'Tout réinitialiser',
     11: 'Afficher le guide',
     12: 'Fermer le guide',
-    13: 'Pour marquer une règle comme lue, passez votre souris dessus (jaune signifie non lue)'
+    13: 'Pour marquer une règle comme lue, passez votre souris dessus (jaune signifie non lue)',
+    14: {
+      0: '[hl]{example}[/hl] - [b]égal[/b] à {amount}',
+      1: '[hl]{example}[/hl] - [b]plus que[/b] {amount}{amount}',
+      2: '[hl]{example}[/hl] - [b]moins que[/b] {amount}',
+      3: '[hl]{example}[/hl] - [b]de[/b] {amount} [b]à[/b] {amount_2}'
+    },
+    15: 'Désélectionner',
+    16: 'Retirer le fichier'
   },
   lists: {
     screens: {
@@ -329,7 +365,8 @@ export default {
       12: 'Ecran des résultats',
       13: 'Passer',
       14: 'Bannière',
-      15: 'Écran de résultats (bas)'
+      15: 'Écran de résultats (bas)',
+      16: 'Image de couverture'
     },
     cats: {
       0: 'NSFW',
@@ -353,15 +390,22 @@ export default {
     likes: 'J\'aime',
     dislikes: 'Je n\'aime pas',
     downloads: 'Téléchargements',
-    size_range: 'Sélectionnez la taille',
-    date_range: 'Sélectionnez la plage de dates',
-    ratio: 'Sélectionnez un format d\'image | Format dimage'
+    ratio: 'Sélectionnez un format d\'image | Format dimage',
+    sorting: 'Desc. | Asc.'
+  },
+  sorting: {
+    0: 'Les plus | Les moins',
+    1: 'Les plus | Les moins',
+    2: 'Le plus de | Le moins de',
+    3: 'Les plus grands | Les plus petits',
+    4: 'Les plus récents | Les plus anciens',
+    5: 'A-Z | Z-A'
   },
   placeholders: {
     0: 'Sélectionner des rôles',
     1: 'Sélectionner des versions',
     2: 'Tapez du texte...',
-    3: 'Sélectionnez la taille',
+    3: 'Chosir un encadrement de tailles',
     4: 'Sélectionnez la plage de dates',
     5: 'Année',
     6: 'Mois',
@@ -375,7 +419,13 @@ export default {
     14: 'Copiez un lien',
     15: 'Titre du skin, auteur ou tags',
     16: 'Sélectionner une catégorie',
-    17: 'Entrez le nom du tag'
+    17: 'Entrez le nom du tag',
+    18: 'Taper le nom du skin',
+    19: 'Taper le nom de l\'auteur ',
+    20: 'Choisi le fichier',
+    24: 'Nommez ce gameplay...',
+    25: 'Taper l\'encadrement',
+    26: 'Taper du texte'
   },
   contribute: { 0: 'Contribuer' },
   nsfw: {
@@ -446,7 +496,11 @@ export default {
     51: 'Soumis pour modération',
     52: 'Attention',
     53: 'Vous devez choisir le type de ressource',
-    54: 'Le skin est actuellement en cours de modération. Veuillez patienter pendant le traitement'
+    54: 'Le skin est actuellement en cours de modération. Veuillez patienter pendant le traitement',
+    55: 'Succès',
+    56: 'Un nouveau téléverseur fantôme a été ajouté',
+    57: 'Couleur copiée',
+    58: `Le code RGB "{color}" est désormais disponible dans votre presse-papier!`
   },
   header: {
     0: 'Notifications',
@@ -463,6 +517,7 @@ export default {
     1: 'Afficher le guide ?',
     2: 'Soumettre le skin ?',
     3: 'Oui',
-    4: 'Non'
+    4: 'Non',
+    5: 'Resettez l\'.ini?'
   }
 };

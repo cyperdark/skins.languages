@@ -27,7 +27,7 @@ export default {
     2: 'Ditonton | Disukai | Dimuat turun',
     3: 'Terbitkan skin baharu',
     4: 'Cara untuk memuat naik skin',
-    5: '{amount} Skins | {amount} Skins | {amount} Skins'
+    5: '{amount} Skin | {amount} Skin | {amount} Skin'
   },
   changelogs: {
     0: 'Log perubahan',
@@ -42,7 +42,8 @@ export default {
   },
   ideas: {
     0: 'Tiada apa-apa dijumpai',
-    1: 'Screenshot untuk «{type}» tidak dimuat naik kepada site'
+    1: 'Screenshot untuk «{type}» tidak dimuat naik kepada site',
+    2: '«{amount}» {name}'
   },
   creators: {
     0: 'Pembuat',
@@ -94,8 +95,9 @@ export default {
     22: 'Senarai semak',
     23: 'Letakkan sekurang-kurangnya satu versi awam',
     24: 'Letakkan sekurang-kurangnya satu pengarang kepada versi ini',
-    25: 'Sebahagian pereka tiada peranan',
-    26: '{amount} screenshots doesn\'t have category'
+    25: 'Some creators don\'t have roles',
+    26: '{amount} screenshot tidak mempunyai kategori',
+    28: 'Select gamemode for gameplay screenshots'
   },
   skins: {
     0: 'Skin-skin',
@@ -111,7 +113,8 @@ export default {
     10: 'Skin osu oleh {name} | Semua skin daripada',
     11: 'Cari',
     12: '{name} skin-skin',
-    13: 'Meneroka skin lain'
+    13: 'Meneroka skin lain',
+    14: 'Popular skins'
   },
   skin: {
     0: 'Mengedit',
@@ -149,16 +152,16 @@ export default {
     33: 'Komen di osu! forum',
     34: 'Skin lain daripada pengarang ini | Skin lain daripada pengarang ini',
     35: 'Sokong skin ini',
-    36: 'Unavailable',
-    37: 'Unfortunately, this skin was deleted at {author} request',
-    38: 'Welcome to the skin post editor!',
-    39: `New to the skin editor? Let us guide you through the interface and show you the editor's full potential!`,
-    40: '{current} of {max} completed',
-    41: 'Check out later',
-    42: `Let's get started`,
-    43: 'Congratulations!',
-    44: 'You have successfully finished the tutorial, have fun!',
-    45: 'uploader'
+    36: 'Tidak disediakan',
+    37: 'Unfortunately, this skin was deleted',
+    38: 'Selamat datang ke penyunting pos skin!',
+    39: `Baru kepada penyunting skin? Biar kami memberi panduan melalui antara muka dan tunjuk kepada anda potensi penuh penyunting ini!`,
+    40: '{current} daripada {max} selesai',
+    41: 'Lihat semula kemudian',
+    42: `Mari kita mula`,
+    43: 'Tahniah!',
+    44: 'Anda dengan berjayanya telah siap tutorial ini, silakan!',
+    45: 'pemuat naik'
   },
   drag: {
     0: 'Ketik di sini',
@@ -167,8 +170,8 @@ export default {
   footer: {
     0: 'Dibuat oleh cyperdark',
     1: 'Penghargaan',
-    2: 'Rules',
-    3: 'Contacts'
+    2: 'Peraturan',
+    3: 'Kenalan'
   },
   credits: {
     0: 'Chibi',
@@ -200,19 +203,32 @@ export default {
       2: 'Pengguna',
       3: 'Senarai'
     },
-    14: 'Search:'
+    14: 'Carian:',
+    15: 'Size:',
+    16: 'Rating:',
+    17: 'Views:',
+    18: 'Downloads:'
   },
   contests: {
-    0: 'Contests',
-    1: 'Official newspost',
-    2: 'Submission',
-    3: 'Preparing',
-    4: 'Voting',
-    5: 'Finished'
+    0: 'Pertandingan-pertandingan',
+    1: 'Siaran berita rasmi',
+    2: 'Penyerahan',
+    3: 'Sedang menyediakan',
+    4: 'Undian',
+    5: 'Telah siap',
+    6: 'Pertandingan-pertandingan',
+    7: 'Voting page'
   },
   rules: {
-    0: 'Last updated at',
-    1: 'Posting Skins Guidelines'
+    0: 'Kemas kini terakhir pada',
+    1: 'Garis-garis panduan mengepos skin'
+  },
+  skinini: {
+    0: 'Welcome to skin.ini editor!',
+    1: `New to the skin.ini editor? Let us guide you through the interface and show you the editor's full potential!`,
+    2: '{current} daripada {max} selesai',
+    3: 'No results',
+    4: 'Your query may contain typos'
   },
   tabs: {
     0: 'Cari',
@@ -226,6 +242,13 @@ export default {
     3: 'Tiada kebenaran',
     4: 'Anda perlu log masuk untuk mengedit skin ini.',
     5: 'Anda perlu log masuk untuk menambah skin baharu.'
+  },
+  settings: {
+    0: 'Aturcara',
+    1: 'Mouse scroll',
+    2: 'Enable mouse hover swipe for image carousel, allowing left-to-right or right-to-left navigation.',
+    3: 'Zoom in',
+    4: 'Enable image zoom on hover for larger skin preview.'
   },
   meta: {
     title: {
@@ -243,9 +266,9 @@ export default {
       11: 'Cari tag',
       12: '{name} tag-tag dijumpai',
       13: 'Skin baharu',
-      14: 'Site rules',
-      15: 'osu! Contests',
-      16: 'osu! Contests'
+      14: 'Peraturan laman web',
+      15: 'Pertandingan-pertandingan osu!',
+      16: 'osu! skinning tools'
     },
     description: {
       0: 'Dapatkan skin osu! yang terbaik dari laman web kami! Kami mempunyai banyak skin untuk semua mod permainan, nisbah aspek dan juga pemain-pemain terbaik. Tambahan, kami juga mempunyai bahagian yang istimewa untuk peminat-peminat anime. Menaik taraf permainan anda dengan skin yang sempurna. #osuskins #osugame #anime',
@@ -259,8 +282,8 @@ export default {
       8: 'Semua skin osu dibuat oleh {name}',
       9: 'Cari inspirasi untuk skin osu! anda yang seterusnya di laman web kami. Semak melalui koleksi skin yang pelbagai dan teroka pelbagai teknik dan idea. Dapatkan inspirasi dan cipta skin anda yang unik.',
       10: 'Cari tag-tag dari kesemua tag di site ini.',
-      11: 'List of all active/finished osu! contests',
-      12: '{amount} entries for {title} contest. {views} views'
+      11: 'Senarai semua pertandingan-pertandingan osu! yang aktif/selesai',
+      12: '{amount} entri untuk pertandingan {title}. {views} tontonan'
     }
   },
   buttons: {
@@ -277,14 +300,18 @@ export default {
     reddit_link: 'Reddit',
     osu_forum_link: 'forum osu',
     skin_return: 'Balik ke skin',
-    source: 'Source',
-    contest_voting: 'Vote here',
-    rules_agree: 'I agree'
+    source: 'Sumber',
+    contest_voting: 'Undi disini',
+    rules_agree: 'Saya setuju',
+    report_issue: 'Report issue',
+    ghost_creator: 'Ghost creator',
+    close: 'Close',
+    quick_select: 'Quick select'
   },
   choose: {
-    0: 'Optional',
-    1: 'Required',
-    2: 'Pick at least one option'
+    0: 'Pilihan',
+    1: 'Diperlukan',
+    2: 'Pilih sekurang-kurangnya satu pilihan'
   },
   user: {
     roles: {
@@ -293,7 +320,8 @@ export default {
       2: 'Animasi',
       3: 'Lukisan',
       4: 'Kolaborasi',
-      5: 'Bunyi'
+      5: 'Bunyi',
+      6: 'Gameplay'
     }
   },
   tooltips: {
@@ -307,10 +335,18 @@ export default {
     7: 'Tiada kandungan',
     8: 'Tiada url',
     9: 'Muat turun: {amount}',
-    10: 'Reset everything',
-    11: 'Show guide',
-    12: 'Close guide',
-    13: 'To mark a rule as read, hover over it (Yellow indicates unread)'
+    10: 'Set semua semuanya',
+    11: 'Tunjuk panduan',
+    12: 'Tutup panduan',
+    13: 'Untuk mendandakan suatu peraturan sudah dibaca, letakkan kursor diatasnya (Kuning menunjukkan belum dibaca)',
+    14: {
+      0: '[hl]{example}[/hl] - [b]equal[/b] to {amount}',
+      1: '[hl]{example}[/hl] - [b]above[/b] {amount}',
+      2: '[hl]{example}[/hl] - [b]below[/b] {amount}',
+      3: '[hl]{example}[/hl] - [b]from[/b] {amount} [b]to[/b] {amount_2}'
+    },
+    15: 'Unselect',
+    16: 'Remove file'
   },
   lists: {
     screens: {
@@ -329,7 +365,8 @@ export default {
       12: 'Skrin keputusan',
       13: 'Skip',
       14: 'Banner',
-      15: 'Result screen (bottom)'
+      15: 'Skrin keputusan (dibawah)',
+      16: 'Beginning image'
     },
     cats: {
       0: 'NSFW',
@@ -348,20 +385,27 @@ export default {
     7: 'Unsur skin',
     8: 'Audio/Sfx',
     9: 'Alat',
-    10: 'Image',
+    10: 'Imej',
     views: 'Tontonan',
     likes: 'Suka',
     dislikes: 'Tidak suka',
     downloads: 'Muat turun',
-    size_range: 'Pilih saiz',
-    date_range: 'Pilih julat tarikh',
-    ratio: 'Pilih nisbah aspek | nisbah'
+    ratio: 'Pilih nisbah aspek | nisbah',
+    sorting: 'Desc. | Asc.'
+  },
+  sorting: {
+    0: 'Most | Least',
+    1: 'Most | Least',
+    2: 'Highest | Lowest',
+    3: 'Largest | Smallest',
+    4: 'Newest | Oldest',
+    5: 'A-Z | Z-A'
   },
   placeholders: {
     0: 'Pilih peranan',
     1: 'Pilih versi',
     2: 'Taip sedikit teks...',
-    3: 'Pilih saiz',
+    3: 'Select size range',
     4: 'Pilih julat tarikh',
     5: 'Tahun',
     6: 'Bulan',
@@ -375,16 +419,22 @@ export default {
     14: 'Letakkan pautan',
     15: 'Tajuk skin, pengarang atau tag',
     16: 'Pilih katergori',
-    17: 'Tulis nama penanda'
+    17: 'Tulis nama penanda',
+    18: 'Type the name of the skin',
+    19: 'Type author name ',
+    20: 'Select file',
+    24: 'Type gameplay name...',
+    25: 'Type range',
+    26: 'Type text'
   },
   contribute: { 0: 'Sumbangan' },
   nsfw: {
-    0: 'Warning, nsfw!',
+    0: 'Dilarang, lucah!',
     1: 'Skin ini mengandungi kandungan sensitif ataupun kandungan dewasa',
     2: 'Skin ini mengandungi kandungan sensitif atau kandungan dewasa yang mungkin tidak disukai oleh sesetengah pengguna',
     3: 'Ok',
     4: 'jumpa lagi o/',
-    5: 'Furry Warning!'
+    5: 'Amaran Furry!'
   },
   removed: {
     0: 'Versi tidak ada',
@@ -431,26 +481,30 @@ export default {
     36: 'Versi {name} telah dibuang',
     37: 'Ralat',
     38: 'Nampaknya seperti server mensyaki anda ialah bot.',
-    39: 'Your current login session has timed out. To proceed, please open a new page and log back into your account. Once you\'ve done that, return to this page and try again.',
+    39: 'Sesi log masuk semasa anda telah tamat. Untuk meneruskan, sila buka laman baru dan log semula ke dalam akaun anda. Setelah berbuat demikian, sila kembali semula ke laman ini dan cuba semula.',
     40: 'Maklumat kendiri tidak betul (log masuk semula ke dalam akaun. Takpe, semuanya telah disimpan secara automatik)',
     41: 'Ralat tidak diketahui',
     42: 'Anda tidak boleh mengedit skin yang tidak wujud',
     43: 'Nampaknya anda tidak mempunyai kebenaran untuk mengedit skin ini',
     44: 'Anda tidak boleh menyerahkan versi ini kerana ianya sama seperti yang sebelumnya.',
-    45: 'Semua penukaran telah dihantar untuk moderasi',
+    45: 'Semua penukaran telah dihantar untuk semakan',
     46: 'Berjaya',
-    47: 'Perubahan baharu telah diserahkan kepada pihak moderasi',
+    47: 'Perubahan baharu telah diserahkan untuk semakan',
     48: 'Perubahan telah dimuat naik kepada pihak moderasi',
     49: 'Link pelik',
     50: 'Link ini tidak boleh diguna sebagai link muat turun',
-    51: 'Telah diserahkan kepada moderasi',
+    51: 'Telah diserahkan untuk semakan',
     52: 'Amaran',
-    53: 'You need to choose type of asset',
-    54: 'The skin is currently under moderation. Please be patient while it is being processed'
+    53: 'Sila pilih jenis aset',
+    54: 'Skin ini sedang dibawah moderasi. Sila bersabar sementara ia sedang diproses',
+    55: 'Berjaya',
+    56: 'New ghost creator has been added',
+    57: 'Color copied',
+    58: `The RGB code "{color}" is now available through your clipboard!`
   },
   header: {
     0: 'Notifikasi',
-    1: 'Follow us on these platforms to receive notifications about new skins'
+    1: 'Ikuti kami di platform-platform berikut untuk menerima pemberitahuan berkenaan skin-skin baharu'
   },
   restricted_view: {
     0: 'Tiada kebenaran',
@@ -459,10 +513,11 @@ export default {
     3: 'Helaian ini belum dikeluarkan, lagi.'
   },
   confirm: {
-    0: 'Reset everything?',
-    1: 'Show guide?',
-    2: 'Submit skin?',
-    3: 'Yes',
-    4: 'No'
+    0: 'Set semula segalanya?',
+    1: 'Tunjuk panduan?',
+    2: 'Hantar skin?',
+    3: 'Ya',
+    4: 'Tidak',
+    5: 'Reset .ini?'
   }
 };

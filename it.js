@@ -42,7 +42,8 @@ export default {
   },
   ideas: {
     0: 'Trovato niente',
-    1: 'Screenshot di «{type}» non sono stati caricati sul sito'
+    1: 'Screenshot di «{type}» non sono stati caricati sul sito',
+    2: '«{amount}» {name}'
   },
   creators: {
     0: 'Creatori',
@@ -94,8 +95,9 @@ export default {
     22: 'Lista di controllo',
     23: 'Aggiungi almeno una versione pubblica',
     24: 'Aggiungi almeno un creatore a questa versione',
-    25: 'Qualche creatore non ha i ruoli',
-    26: '{amount} I screenshot non hanno una categoria'
+    25: 'Some creators don\'t have roles',
+    26: '{amount} I screenshot non hanno una categoria',
+    28: 'Select gamemode for gameplay screenshots'
   },
   skins: {
     0: 'Skins',
@@ -111,7 +113,8 @@ export default {
     10: 'osu Skins di {name} | Tutte le skins da',
     11: 'Cerca',
     12: 'skin di {name}',
-    13: 'Esplora le skin'
+    13: 'Esplora le skin',
+    14: 'Popular skins'
   },
   skin: {
     0: 'Edita',
@@ -150,7 +153,7 @@ export default {
     34: 'Più skin di questo autore | Più skin di questi autori',
     35: 'Supporta la skin',
     36: 'Non disponibile',
-    37: 'Sfortunatamente, la skin è stata eliminata dall\'autore ({author}) per scelta sua',
+    37: 'Unfortunately, this skin was deleted',
     38: 'Benvenuto nel editor dello skin poster',
     39: `Nuovo nell'editor di skin? Lasciati guidare attraverso l'interfaccia e mostrarti tutto il potenziale dell'editor!`,
     40: '{current} di {max} completati',
@@ -200,7 +203,11 @@ export default {
       2: 'Utenti',
       3: 'Liste'
     },
-    14: 'Cerca:'
+    14: 'Cerca:',
+    15: 'Size:',
+    16: 'Rating:',
+    17: 'Views:',
+    18: 'Downloads:'
   },
   contests: {
     0: 'Concorsi',
@@ -208,11 +215,20 @@ export default {
     2: 'Invio',
     3: 'Preparazione',
     4: 'Votazione',
-    5: 'Finito'
+    5: 'Finito',
+    6: 'Concorsi',
+    7: 'Voting page'
   },
   rules: {
     0: 'Ultimo aggiornamento del',
     1: 'Linee Guida Per le Skin'
+  },
+  skinini: {
+    0: 'Welcome to skin.ini editor!',
+    1: `New to the skin.ini editor? Let us guide you through the interface and show you the editor's full potential!`,
+    2: '{current} di {max} completati',
+    3: 'No results',
+    4: 'Your query may contain typos'
   },
   tabs: {
     0: 'Cerca',
@@ -226,6 +242,13 @@ export default {
     3: 'Non Autorizzato',
     4: 'Devi essere loggato per poter modificare questa skin.',
     5: 'Devi essere loggato per poter aggiungere una nuova skin.'
+  },
+  settings: {
+    0: 'Impostazioni',
+    1: 'Mouse scroll',
+    2: 'Enable mouse hover swipe for image carousel, allowing left-to-right or right-to-left navigation.',
+    3: 'Zoom in',
+    4: 'Enable image zoom on hover for larger skin preview.'
   },
   meta: {
     title: {
@@ -245,7 +268,7 @@ export default {
       13: 'Nuova skin',
       14: 'Regole del sito',
       15: 'osu! Concorsi',
-      16: 'osu! Concorsi'
+      16: 'osu! skinning tools'
     },
     description: {
       0: 'Ottieni le migliori skin di osu! sul nostro sito! La nostra vasta libreria ha skin per tutte le modalità di gioco, proporzioni e persino per i migliori giocatori. Inoltre, abbiamo una sezione speciale per i fan degli anime. Migliora il tuo gameplay con la skin perfetta. #osuskins #osugame #anime',
@@ -279,7 +302,11 @@ export default {
     skin_return: 'Ritorna alla skin',
     source: 'Sorgente',
     contest_voting: 'Vota qui',
-    rules_agree: 'Accetto'
+    rules_agree: 'Accetto',
+    report_issue: 'Report issue',
+    ghost_creator: 'Ghost creator',
+    close: 'Close',
+    quick_select: 'Quick select'
   },
   choose: {
     0: 'Opzionale',
@@ -293,7 +320,8 @@ export default {
       2: 'Animazioni',
       3: 'Arti',
       4: 'Collaborazioni',
-      5: 'Suoni'
+      5: 'Suoni',
+      6: 'Gameplay'
     }
   },
   tooltips: {
@@ -310,7 +338,15 @@ export default {
     10: 'Resetta tutto',
     11: 'Mostra guida',
     12: 'Chiudi guida',
-    13: 'Per contrassegnare una regola come lettura, passa sopra (Giallo indica non letto)'
+    13: 'Per contrassegnare una regola come lettura, passa sopra (Giallo indica non letto)',
+    14: {
+      0: '[hl]{example}[/hl] - [b]equal[/b] to {amount}',
+      1: '[hl]{example}[/hl] - [b]above[/b] {amount}',
+      2: '[hl]{example}[/hl] - [b]below[/b] {amount}',
+      3: '[hl]{example}[/hl] - [b]from[/b] {amount} [b]to[/b] {amount_2}'
+    },
+    15: 'Unselect',
+    16: 'Remove file'
   },
   lists: {
     screens: {
@@ -329,7 +365,8 @@ export default {
       12: 'Schermo dei risultati',
       13: 'Salta',
       14: 'Banner',
-      15: 'Schermo dei risultati (in basso)'
+      15: 'Schermo dei risultati (in basso)',
+      16: 'Beginning image'
     },
     cats: {
       0: 'NSFW',
@@ -353,15 +390,22 @@ export default {
     likes: 'Mi piace',
     dislikes: 'Non mi piace',
     downloads: 'Downloads',
-    size_range: 'Seleziona peso',
-    date_range: 'Seleziona una data',
-    ratio: 'Seleziona proporzioni | ratio'
+    ratio: 'Seleziona proporzioni | ratio',
+    sorting: 'Desc. | Asc.'
+  },
+  sorting: {
+    0: 'Most | Least',
+    1: 'Most | Least',
+    2: 'Highest | Lowest',
+    3: 'Largest | Smallest',
+    4: 'Newest | Oldest',
+    5: 'A-Z | Z-A'
   },
   placeholders: {
     0: 'Seleziona i ruoli',
     1: 'Seleziona la versione',
     2: 'Scrivi un po\' di testo...',
-    3: 'Seleziona peso',
+    3: 'Select size range',
     4: 'Seleziona una data',
     5: 'Anno',
     6: 'Mese',
@@ -375,7 +419,13 @@ export default {
     14: 'Incolla un link',
     15: 'Titolo skin, autore o tag',
     16: 'Seleziona categoria',
-    17: 'Scrivi il nome del tag'
+    17: 'Scrivi il nome del tag',
+    18: 'Type the name of the skin',
+    19: 'Type author name ',
+    20: 'Select file',
+    24: 'Type gameplay name...',
+    25: 'Type range',
+    26: 'Type text'
   },
   contribute: { 0: 'Contribuisci' },
   nsfw: {
@@ -446,7 +496,11 @@ export default {
     51: 'Inviato per moderazione',
     52: 'Attenzione',
     53: 'È necessario scegliere il tipo di asset',
-    54: 'La skin è attualmente sotto moderazione. Si prega di essere paziente mentre è in fase di elaborazione'
+    54: 'La skin è attualmente sotto moderazione. Si prega di essere paziente mentre è in fase di elaborazione',
+    55: 'Successo',
+    56: 'New ghost creator has been added',
+    57: 'Color copied',
+    58: `The RGB code "{color}" is now available through your clipboard!`
   },
   header: {
     0: 'Notifiche',
@@ -463,6 +517,7 @@ export default {
     1: 'Mostra guida?',
     2: 'Inviare la pelle?',
     3: 'Si',
-    4: 'No'
+    4: 'No',
+    5: 'Reset .ini?'
   }
 };

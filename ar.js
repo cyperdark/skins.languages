@@ -22,7 +22,7 @@ export default {
     tools: 'أدوات'
   },
   home: {
-    0: 'Available to download',
+    0: 'متاح للتحميل',
     1: 'Most: _name_ skins',
     2: 'Viewed | Liked | Downloaded',
     3: 'Publish new skin',
@@ -33,7 +33,7 @@ export default {
     0: 'سِجل التغييرات',
     1: 'قائمة بجميع التنقيحات التي أجريت على النسخة الحالية',
     2: 'لا شيء هنا',
-    3: 'But you can add the changes you\'ve made to this version of the skin',
+    3: 'لكن يمكن إضافة التعديلات التي فعلتها لهذه النسخة من المظاهر',
     4: 'غير مجمعة',
     5: 'جديد',
     6: 'إصلاحات',
@@ -42,7 +42,8 @@ export default {
   },
   ideas: {
     0: 'لا نتائج',
-    1: 'Screenshots of «{type}» were not uploaded to the site'
+    1: 'Screenshots of «{type}» were not uploaded to the site',
+    2: '«{amount}» {name}'
   },
   creators: {
     0: 'المبتكرون',
@@ -59,7 +60,7 @@ export default {
     2: 'يبدو هذا المكان فارغ.',
     3: 'استعمل الحقل أعلاه لإيجاد وسوم جديدة',
     4: 'Tags not found',
-    5: 'Try searching for something else',
+    5: 'حاول البحث لأمر آخر',
     6: 'بحث'
   },
   videos: {
@@ -79,7 +80,7 @@ export default {
     0: 'الكل',
     1: 'بيانات فوقية',
     2: 'إبراز',
-    3: 'Name of the skin not specified',
+    3: 'اسم المظهر غير محدد',
     4: 'ضف مبتكر زي واحد على الأقل',
     5: 'ضف بعض الوسوم',
     6: 'حجم الزي غير محدد',
@@ -89,13 +90,14 @@ export default {
     10: 'عدم تقديم صور',
     11: 'ضف على الأقل صورة واحدة لللعب',
     12: 'عدم توفيير رابط للزي',
-    20: 'Looks pretty good',
-    21: 'Every issue was fixed. Good job!',
+    20: 'يبدو جيدا',
+    21: 'لقد تم إصلاح كل المشاكل. عمل جيد!',
     22: 'قائمة المراجعة',
-    23: 'Add at least one public version',
+    23: 'اضف على الأقل نسخة عامة واحدة',
     24: 'Add at least one creator to this version',
-    25: 'Some creators doesn\'t have roles',
-    26: '{amount} screenshots doesn\'t have category'
+    25: 'Some creators don\'t have roles',
+    26: '{amount} screenshots doesn\'t have category',
+    28: 'Select gamemode for gameplay screenshots'
   },
   skins: {
     0: 'أزياء',
@@ -111,7 +113,8 @@ export default {
     10: 'لأزياء اللعبة من إصدار {name} | أزياء اللعبة من',
     11: 'بحث',
     12: '{name} skins',
-    13: 'Explore skins'
+    13: 'Explore skins',
+    14: 'Popular skins'
   },
   skin: {
     0: 'تعديل',
@@ -150,7 +153,7 @@ export default {
     34: 'More skins from this author | More skins from this authors',
     35: 'Support the skin',
     36: 'Unavailable',
-    37: 'Unfortunately, this skin was deleted at {author} request',
+    37: 'Unfortunately, this skin was deleted',
     38: 'Welcome to the skin post editor!',
     39: `New to the skin editor? Let us guide you through the interface and show you the editor's full potential!`,
     40: '{current} of {max} completed',
@@ -200,7 +203,11 @@ export default {
       2: 'Users',
       3: 'القوائم'
     },
-    14: 'Search:'
+    14: 'Search:',
+    15: 'Size:',
+    16: 'Rating:',
+    17: 'Views:',
+    18: 'Downloads:'
   },
   contests: {
     0: 'Contests',
@@ -208,11 +215,20 @@ export default {
     2: 'Submission',
     3: 'Preparing',
     4: 'Voting',
-    5: 'Finished'
+    5: 'Finished',
+    6: 'Contests',
+    7: 'Voting page'
   },
   rules: {
     0: 'Last updated at',
     1: 'Posting Skins Guidelines'
+  },
+  skinini: {
+    0: 'Welcome to skin.ini editor!',
+    1: `New to the skin.ini editor? Let us guide you through the interface and show you the editor's full potential!`,
+    2: '{current} of {max} completed',
+    3: 'No results',
+    4: 'Your query may contain typos'
   },
   tabs: {
     0: 'بحث',
@@ -226,6 +242,13 @@ export default {
     3: 'غير مسموح',
     4: 'You need to be logged in order to edit this skin.',
     5: 'You need to be logged in order to add a new skin.'
+  },
+  settings: {
+    0: 'الإعدادات',
+    1: 'Mouse scroll',
+    2: 'Enable mouse hover swipe for image carousel, allowing left-to-right or right-to-left navigation.',
+    3: 'Zoom in',
+    4: 'Enable image zoom on hover for larger skin preview.'
   },
   meta: {
     title: {
@@ -245,7 +268,7 @@ export default {
       13: 'زي جديد',
       14: 'Site rules',
       15: 'osu! Contests',
-      16: 'osu! Contests'
+      16: 'osu! skinning tools'
     },
     description: {
       0: 'جد أفضل أزياء اوسو في موقعنا! مكتبتنا تحتوي على أزياء من أجل جميع أنماط اللعب، النسب الباعية، و أفضل اللاعبين. إضافة إلى دلك لدينا جزء خاص لمعجبي الأنمي. حسن لعبك بإيجاد الزي المثالي.',
@@ -279,7 +302,11 @@ export default {
     skin_return: 'الرجوع إلى الزي',
     source: 'Source',
     contest_voting: 'Vote here',
-    rules_agree: 'I agree'
+    rules_agree: 'I agree',
+    report_issue: 'Report issue',
+    ghost_creator: 'Ghost creator',
+    close: 'Close',
+    quick_select: 'Quick select'
   },
   choose: {
     0: 'Optional',
@@ -293,7 +320,8 @@ export default {
       2: 'حركات',
       3: 'فنون',
       4: 'تعاون',
-      5: 'أصوات'
+      5: 'أصوات',
+      6: 'لعب'
     }
   },
   tooltips: {
@@ -310,7 +338,15 @@ export default {
     10: 'Reset everything',
     11: 'Show guide',
     12: 'Close guide',
-    13: 'To mark a rule as read, hover over it (Yellow indicates unread)'
+    13: 'To mark a rule as read, hover over it (Yellow indicates unread)',
+    14: {
+      0: '[hl]{example}[/hl] - [b]equal[/b] to {amount}',
+      1: '[hl]{example}[/hl] - [b]above[/b] {amount}',
+      2: '[hl]{example}[/hl] - [b]below[/b] {amount}',
+      3: '[hl]{example}[/hl] - [b]from[/b] {amount} [b]to[/b] {amount_2}'
+    },
+    15: 'Unselect',
+    16: 'Remove file'
   },
   lists: {
     screens: {
@@ -326,10 +362,11 @@ export default {
       9: 'إخفاق الجزء',
       10: 'شاشة التوقف',
       11: 'شاشة الاخفاق',
-      12: 'شاشة النتائج',
+      12: 'شاشة النتائج (الأعلى)',
       13: 'تخطي',
       14: 'الراية',
-      15: 'Result screen (bottom)'
+      15: 'Result screen (bottom)',
+      16: 'Beginning image'
     },
     cats: {
       0: 'إباحي',
@@ -353,15 +390,22 @@ export default {
     likes: 'إعجابات',
     dislikes: 'Dislikes',
     downloads: 'التحميلات',
-    size_range: 'اختر الحجم',
-    date_range: 'اختر مجال تاريخي',
-    ratio: 'اختر نسبة باعية | نسبة'
+    ratio: 'اختر نسبة باعية | نسبة',
+    sorting: 'Desc. | Asc.'
+  },
+  sorting: {
+    0: 'Most | Least',
+    1: 'Most | Least',
+    2: 'Highest | Lowest',
+    3: 'Largest | Smallest',
+    4: 'Newest | Oldest',
+    5: 'A-Z | Z-A'
   },
   placeholders: {
     0: 'Select roles',
     1: 'Select versions',
     2: 'Type some text...',
-    3: 'اختر الحجم',
+    3: 'Select size range',
     4: 'احتر مجال تاريخي',
     5: 'سنة',
     6: 'شهر',
@@ -375,7 +419,13 @@ export default {
     14: 'ألصق رابط',
     15: 'Skin title, author, or tags',
     16: 'Select category',
-    17: 'Type the name of the tag'
+    17: 'Type the name of the tag',
+    18: 'Type the name of the skin',
+    19: 'Type author name ',
+    20: 'Select file',
+    24: 'Type gameplay name...',
+    25: 'Type range',
+    26: 'Type text'
   },
   contribute: { 0: 'Contribute' },
   nsfw: {
@@ -446,7 +496,11 @@ export default {
     51: 'Submitted for moderation',
     52: 'Warning',
     53: 'You need to choose type of asset',
-    54: 'The skin is currently under moderation. Please be patient while it is being processed'
+    54: 'The skin is currently under moderation. Please be patient while it is being processed',
+    55: 'Success',
+    56: 'New ghost creator has been added',
+    57: 'Color copied',
+    58: `The RGB code "{color}" is now available through your clipboard!`
   },
   header: {
     0: 'إشعارات',
@@ -463,6 +517,7 @@ export default {
     1: 'Show guide?',
     2: 'Submit skin?',
     3: 'Yes',
-    4: 'No'
+    4: 'No',
+    5: 'Reset .ini?'
   }
 };

@@ -6,7 +6,7 @@ export default {
     tags: {
       0: 'Tags',
       1: '{amount} tags para a categoria {name}',
-      2: 'Tags de pesquisa'
+      2: 'Pesquisar tags'
     },
     ideas: {
       0: 'Inspiração',
@@ -22,9 +22,9 @@ export default {
     tools: 'Ferramentas'
   },
   home: {
-    0: 'Disponível para baixar',
-    1: 'Mais skins do tipo: _name_',
-    2: 'Visto | curtido | Baixado',
+    0: 'disponíveis para baixar',
+    1: 'Skins mais: _name_',
+    2: 'Visualizadas | Curtidas | Baixadas',
     3: 'Publique uma nova skin',
     4: 'Como instalar uma skin',
     5: '{amount} Skins | {amount} Skins | {amount} Skins'
@@ -42,7 +42,8 @@ export default {
   },
   ideas: {
     0: 'Nada foi encontrado',
-    1: 'Capturas de tela desta {type} não foram publicadas no site'
+    1: 'Capturas de tela desta {type} não foram publicadas no site',
+    2: '«{amount}» {name}'
   },
   creators: {
     0: 'Criadores',
@@ -64,7 +65,7 @@ export default {
   },
   videos: {
     0: 'Vídeos',
-    1: 'Lista de todos os vídeos apresentando para está skin',
+    1: 'Lista de todos os vídeos de demonstração desta skin',
     2: 'Sem demonstrações',
     3: 'Procure por alguns no YouTube ou crie sua própria demonstração'
   },
@@ -77,7 +78,7 @@ export default {
   },
   checks: {
     0: 'Tudo',
-    1: 'Metadados',
+    1: 'Database',
     2: 'Destaque',
     3: 'Nome da skin não foi especificado',
     4: 'Adicione ao menos um criador de skin',
@@ -87,15 +88,16 @@ export default {
     8: 'Selecione a resolução da imagem (SD ou HD)',
     9: 'Selecione pelo menos uma resolução',
     10: 'Nenhuma captura de tela fornecida',
-    11: 'Adicione ao mínimo uma captura de tela da gameplay',
+    11: 'Adicione, no mínimo, uma captura de tela da gameplay',
     12: 'O link para a skin não foi especificado',
     20: 'Parece muito bom',
-    21: 'Todos os problemas forma solucionados. Bom Trabalho! Camarada!',
+    21: 'Todos os problemas forma solucionados. Bom trabalho, camarada!',
     22: 'Lista de verificação',
     23: 'Adicione no mínimo una versão pública',
     24: 'Adicione ao menos um criador para esta versão ',
-    25: 'Alguns criadores não possuem funções',
-    26: '{amount} capturas de tela não possuem uma categoria assimilada'
+    25: 'Some creators don\'t have roles',
+    26: '{amount} capturas de tela não possuem uma categoria assimilada',
+    28: 'Select gamemode for gameplay screenshots'
   },
   skins: {
     0: 'Skins',
@@ -111,7 +113,8 @@ export default {
     10: 'Skins de osu por {name} | Todas as skins de',
     11: 'Buscar',
     12: '{name} skins',
-    13: 'Explore por skins'
+    13: 'Explore por skins',
+    14: 'Skins populares'
   },
   skin: {
     0: 'Editar',
@@ -133,7 +136,7 @@ export default {
     17: 'Nome da skin',
     18: 'Versão | Versões',
     19: 'Tamanho',
-    20: 'Metadados',
+    20: 'Database',
     21: 'Avaliação',
     22: 'Downloads',
     23: 'O download estará disponível em breve',
@@ -145,19 +148,19 @@ export default {
     29: 'Sem vídeo',
     30: 'Nenhum criador',
     31: 'Avalie esta skin',
-    32: 'De um Upvote & comente no reddit',
+    32: 'Dê um upvote e comente no reddit!',
     33: 'Comente num fórum de osu!',
     34: 'Mais skins feitas por este autor | Mais skins deste autor',
     35: 'Apoie a skin',
     36: 'Não disponível',
-    37: 'Infelizmente, esta skin foi removida a pedido de {author}',
-    38: 'Bem-vindo no editor de postagens da skin!',
-    39: `Incipiente no editor de skin? Vamos te guiar pela interface e mostrar a você o potencial máximo do editor!`,
+    37: 'Infelizmente, essa skin foi deletada',
+    38: 'Bem-vindo ao editor de postagens da skin!',
+    39: `Novo no editor de skins? Vamos te guiar pela interface e lhe mostrar a você todo o potencial do editor!`,
     40: '{current} de {max} completo',
     41: 'Dê uma olhada depois',
     42: `Vamos começar`,
     43: 'Parabéns!',
-    44: 'Você finalizou o tutorial com exito, divirta-se!',
+    44: 'Você completou o tutorial, agora divirta-se!',
     45: 'uploader'
   },
   drag: {
@@ -174,12 +177,12 @@ export default {
     0: 'Chibi',
     1: 'Artes',
     2: 'Ícones',
-    3: 'Todos os icones foram providenciados por {name}',
+    3: 'Todos os ícones foram retirados do {name}',
     4: 'Bandeiras',
-    5: 'Todas as imagens das bandeiras são de {name}',
+    5: 'Todas as imagens das bandeiras foram retiradas do {name}',
     6: 'Localização',
     7: 'Alguém?[{lang}]',
-    8: 'Parece que o cyperdark esqueceu de adicionar eles. {text}'
+    8: 'Parece que o cpol esqueceu de adicioná-los. {text}'
   },
   search: {
     0: 'Buscar skin',
@@ -191,7 +194,7 @@ export default {
     7: 'Nada foi encontrado',
     8: 'Tente usar outros filtros de pesquisa',
     9: 'Esperando a busca',
-    10: 'Use os filtros de pesquisa ou algo parecido com o título da skin, autor ou tag',
+    10: 'Use os filtros de pesquisa ou digite o nome da skin, do autor ou das tags',
     11: 'Downloads',
     12: 'Nome',
     13: {
@@ -200,7 +203,11 @@ export default {
       2: 'Usuários',
       3: 'Listas'
     },
-    14: 'Buscar:'
+    14: 'Buscar:',
+    15: 'Tamanho:',
+    16: 'Avaliação:',
+    17: 'Visualizações:',
+    18: 'Downloads:'
   },
   contests: {
     0: 'Concursos',
@@ -208,11 +215,20 @@ export default {
     2: 'Envios',
     3: 'Preparando',
     4: 'Votando',
-    5: 'Finalizado'
+    5: 'Finalizado',
+    6: 'Concursos',
+    7: 'Página de votação'
   },
   rules: {
     0: 'Última vez atualizado em',
     1: 'Publicando as diretrizes das skins'
+  },
+  skinini: {
+    0: 'Bem-vindo ao editor skin.ini!',
+    1: `Novo no editor skim.ini? Deixo-nos guiá-lo pela interface e mostrar o potencial máximo do editor!`,
+    2: '{current} de {max} completo',
+    3: 'Sem resultados',
+    4: 'Sua pesquisa talvez contenha alguns erros de digitação'
   },
   tabs: {
     0: 'Buscar',
@@ -227,6 +243,13 @@ export default {
     4: 'Você precisa estar logado para poder editar a skin.',
     5: 'Você precisa estar logado para poder adicionar uma nova skin.'
   },
+  settings: {
+    0: 'Configurações',
+    1: 'Scroll do mouse',
+    2: 'Habilite o mouse hover swipe para o image carousel, permitindo navegação de esquerda para direita ou direita para esquerda.',
+    3: 'Zoom in',
+    4: 'Habilite o image zoom, colocando o cursor em cima, para visualizar em um tamanho maior.'
+  },
   meta: {
     title: {
       0: 'Descubra novas skins de osu',
@@ -240,12 +263,12 @@ export default {
       8: '{name} procure por skins de osu',
       9: 'Consiga inspiração com outras skins de osu!',
       10: '{name} criou skins de osu',
-      11: 'Tags de pesquisa',
+      11: 'Pesquisar tags',
       12: '{name} tags encontradas',
       13: 'Nova skin',
       14: 'Regras do site',
       15: 'Concursos do osu!',
-      16: 'Concursos do osu!'
+      16: 'osu! skinning tools'
     },
     description: {
       0: 'Encontre as melhores skins de osu! em nosso site! Nossa grande coleção de skins para todos os modos de jogo, resoluções e até mesmo dos melhores jogadores. Além disso, nós possuímos uma seção especial aos fãs de anime. Melhore sua gameplay com a skin perfeita. #osuskins #osugame #anime',
@@ -253,13 +276,13 @@ export default {
       2: 'Encontre a skin perfeita com nossa busca avançada. Navegue por nossa grande coleção,filtrada por modo de jogo,proporção, e muito mais. Ou, observe as skins usadas por top players.',
       3: 'Descubra uma variedade de skins de outros modos de jogo e até de diferentes proporções em nosso site. Escolha entre standard, catch the beat, mania,e taiko. Encontre aquela que encaixa perfeitamente com a sua preferência.',
       4: 'Encontre a skin perfeita utilizada pelos melhores jogadores de osu! em nosso site. Explore nossa coleção de skins populares e customize sua gameplay. Descubra uma ampla diversidade de estilos e temas para adaptar com suas preferências.',
-      5: 'Lista das tags existentes para as skins.',
+      5: 'Lista das tags existentes para skins de osu.',
       6: '{name} coleção de skins de osu!, baixe de graça',
       7: 'Uma grande quantidade de skins de {name}, baixe de graça!',
       8: 'Todas as skins foram criadas por {name}',
-      9: 'Ache a inspiração para sua próxima skin em nosso site. Navegue entre uma grande diversidade de skins e descubra novas técnicas e ideías. Se inspire e crie sua própria e única skin.',
-      10: 'Procure por alguma tag entre todas as tags do site.',
-      11: 'Lista de todos os concursos de osu! Ativos/finalizados',
+      9: 'Encontre inspiração para sua próxima skin em nosso site. Navegue entre uma grande diversidade de skins e descubra novas técnicas e ideias. Se inspire e crie sua skin autêntica.',
+      10: 'Procure por alguma tag entre todas as outras do site.',
+      11: 'Lista de todos os concursos de osu! ativos/finalizados',
       12: '{amount} de inscrições para o concurso {title}. {views} vizualizações'
     }
   },
@@ -279,11 +302,15 @@ export default {
     skin_return: 'De volta a skin',
     source: 'Fonte',
     contest_voting: 'Vote aqui',
-    rules_agree: 'Eu concordo'
+    rules_agree: 'Eu concordo',
+    report_issue: 'Reportar um problema',
+    ghost_creator: 'Ghost creator',
+    close: 'Fechar',
+    quick_select: 'Seleção rápida'
   },
   choose: {
     0: 'Opcional',
-    1: 'Necessário',
+    1: 'Obrigatório',
     2: 'Selecione pelo menos uma opção'
   },
   user: {
@@ -293,13 +320,14 @@ export default {
       2: 'Animações',
       3: 'Artes',
       4: 'Colaboração',
-      5: 'Sons'
+      5: 'Sons',
+      6: 'Jogabilidade'
     }
   },
   tooltips: {
     0: 'Views:{amount}',
     1: 'Atualizar resultados',
-    2: 'Descendente | Ascendente',
+    2: 'Decrescente | Crescente',
     3: 'Curtidas: {likes} / Não Curtiram: {dislikes}',
     4: 'Pressione Ctrl+Enter para adicionar uma tag',
     5: 'Editar versão',
@@ -310,7 +338,15 @@ export default {
     10: 'Apagar tudo',
     11: 'Mostrar o guia',
     12: 'Fechar o guia',
-    13: 'Para marcar uma regra como lida, coloque o cursor sobre ela (amarelo indica "não lido")'
+    13: 'Para marcar uma regra como lida, coloque o cursor sobre ela (amarelo indica "não lido")',
+    14: {
+      0: 'hl]{example}[/hl] - [b]igual[/b] a {amount}',
+      1: '[hl]{example}[/hl] - [b]acima de[/b] {amount}',
+      2: '[hl]{example}[/hl] - [b]abaixo de [/b] {amount}',
+      3: 'hl]{example}[/hl] - [b]de[/b] {amount} [b]para[/b] {amount_2}'
+    },
+    15: 'Deixar de selecionar',
+    16: 'Remover arquivo'
   },
   lists: {
     screens: {
@@ -329,7 +365,8 @@ export default {
       12: 'Tela de resultados',
       13: 'Pular',
       14: 'Banner',
-      15: 'Tela de resultados (abaixo)'
+      15: 'Tela de resultados (abaixo)',
+      16: 'Imagem inicial'
     },
     cats: {
       0: 'NSFW',
@@ -353,15 +390,22 @@ export default {
     likes: 'Curtidas',
     dislikes: 'Dislikes',
     downloads: 'Downloads',
-    size_range: 'Selecionar tamanho',
-    date_range: 'Selecionar período',
-    ratio: 'Selecionar resolução | resolução'
+    ratio: 'Selecionar resolução | resolução',
+    sorting: 'Desc. | Asc.'
+  },
+  sorting: {
+    0: 'Mais | Menos',
+    1: 'Mais | Menos',
+    2: 'Mais Alto | Mais Baixo',
+    3: 'Maior | Menor',
+    4: 'Mais Novo | Mais Antigo',
+    5: 'A-Z | Z-A'
   },
   placeholders: {
     0: 'Selecione a funções',
     1: 'Selecione a versão',
     2: 'Escreva alguma coisa...',
-    3: 'Selecionar tamanho',
+    3: 'Selecione o tamanho do alcance',
     4: 'Selecionar período',
     5: 'Ano',
     6: 'Mês',
@@ -375,7 +419,13 @@ export default {
     14: 'Cole um link',
     15: 'Título da skin, autor, ou tags',
     16: 'Selecione a categoria',
-    17: 'Escreva o nome da tag'
+    17: 'Escreva o nome da tag',
+    18: 'Digite o nome da skin',
+    19: 'Digite o nome do autor ',
+    20: 'Selecione o arquivo',
+    24: 'Digite o nome da gameplay...',
+    25: 'Digite o alcance',
+    26: 'Digite o texto'
   },
   contribute: { 0: 'Contribua' },
   nsfw: {
@@ -396,13 +446,13 @@ export default {
     1: 'Nem todos os campos foram preenchidos',
     2: 'Mostrar',
     3: 'Não encontrado',
-    4: 'Banner não foi encontrado (atualmente, a primeira captura de tela está sendo usada de banner)',
+    4: 'O banner não foi encontrado (No momento, a primeira captura de tela está sendo usada de banner)',
     5: 'Sem mudanças',
     6: 'Nenhuma modificação foi encontrada',
     7: 'ID não foi encontrado',
-    8: 'ID do video não foi encontrado, tente outro link (por enquanto apenas links do Youtube estão disponíveis)',
+    8: 'ID do video não foi encontrado, tente outro link (por enquanto apenas links do YouTube estão disponíveis)',
     9: 'Opa',
-    10: 'Parece que sua sessão expirou, abra uma nova página e se logue com sua conta (Não se preocupe, tudo o que foi feito é salvo automaticamente) ',
+    10: 'Parece que sua sessão expirou, abra uma nova página e logue com sua conta (Não se preocupe, tudo o que foi feito foi salvo automaticamente) ',
     11: 'Existe',
     12: 'Este vídeo já foi adicionado',
     13: 'Existe',
@@ -415,28 +465,28 @@ export default {
     20: 'Este criador já foi adicionado',
     21: 'EZ',
     22: 'Novo criador foi adicionado',
-    23: 'Huum',
+    23: 'O QUE',
     24: 'É impossível remover um criador apagado',
     25: 'Duplicado',
     26: 'Esta mudança já foi adicionada antes.',
     27: 'Duplicado',
-    28: 'Está url já foi adicionada antes.',
+    28: 'Este url já foi adicionado antes.',
     29: 'Cuidado',
-    30: 'Você se esqueceu de adicionar uma descrição a url. Por exemplo: Descrição:url',
+    30: 'Você se esqueceu de adicionar uma descrição para o url. Por exemplo: Descrição:url',
     31: 'Cuidado',
-    32: 'Você se esqueceu de adicionar uma url a descrição. Por exemplo: Descrição:Url',
+    32: 'Você se esqueceu de adicionar uma url à descrição. Por exemplo: Descrição:url',
     33: 'Recuperado',
     34: 'Versão «{name}» foi restaurada',
     35: 'Excluído',
     36: 'Versão «{name}» foi excluída ',
     37: 'Erro',
     38: 'Aparentemente, o servidor pensa que você é um robô.',
-    39: 'Seu login expirou. Para continuar, por favor abre uma nova página em seu navegador e logue-se novamente em sua conta. Quando você terminar de fazer isto, retorne a esta página e tente novamente.',
+    39: 'Seu login expirou. Para continuar, por favor abra uma nova página em seu navegador e logue novamente em sua conta. Quando você terminar de fazer isso, retorne a esta página e tente novamente.',
     40: 'Credenciais não correspondidas (Logue-se em uma conta. Não se preocupe, tudo foi salvo automaticamente)',
     41: 'Erro desconhecido',
     42: 'Você não pode editar uma skin inexistente',
     43: 'Parece que você não tem permissão para editar esta skin',
-    44: 'Você não pode enviar esta versão porque é idêntica a anterior.',
+    44: 'Você não pode enviar esta versão porque é idêntica à anterior.',
     45: 'As mudanças já foram enviadas para moderação',
     46: 'Bem sucedido',
     47: 'Novas mudanças foram enviadas para moderação',
@@ -446,11 +496,15 @@ export default {
     51: 'Enviado para moderação',
     52: 'Cuidado',
     53: 'Você precisa selecionar um tipo de recurso',
-    54: 'Esta skin está atualmente sobre moderação. Por favor, seja paciente enquanto ela estiver sendo avaliada.'
+    54: 'Esta skin está atualmente sobre moderação. Por favor, seja paciente enquanto ela estiver sendo avaliada.',
+    55: 'Bem sucedido',
+    56: 'Novo ghost creator foi adicionado',
+    57: 'Cor copiada',
+    58: `O código RGB "{color}" agira está disponível na sua clipboard!`
   },
   header: {
     0: 'Notificações',
-    1: 'Nós siga nessas plataformas para receber notificações sobre novas skins'
+    1: 'Nos siga nessas plataformas para receber notificações sobre novas skins'
   },
   restricted_view: {
     0: 'Não autorizado',
@@ -463,6 +517,7 @@ export default {
     1: 'Mostrar o guia?',
     2: 'Enviar a skin?',
     3: 'Sim',
-    4: 'Não'
+    4: 'Não',
+    5: 'Resetar .ini?'
   }
 };

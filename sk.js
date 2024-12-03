@@ -42,7 +42,8 @@ export default {
   },
   ideas: {
     0: 'Nič sa nenašlo',
-    1: 'Screenshots of «{type}» were not uploaded to the site'
+    1: 'Screenshots of «{type}» were not uploaded to the site',
+    2: '«{amount}» {name}'
   },
   creators: {
     0: 'Vývojári',
@@ -94,8 +95,9 @@ export default {
     22: 'Kontrolná listina',
     23: 'Pridajte aspoň jednu publikovanú verziu',
     24: 'Add at least one creator to this version',
-    25: 'Some creators doesn\'t have roles',
-    26: '{amount} screenshots doesn\'t have category'
+    25: 'Some creators don\'t have roles',
+    26: '{amount} screenshots doesn\'t have category',
+    28: 'Select gamemode for gameplay screenshots'
   },
   skins: {
     0: 'Skiny',
@@ -111,7 +113,8 @@ export default {
     10: 'osu Skiny od {name} | Všetke skiny od',
     11: 'Hľadať',
     12: '{name} skiny',
-    13: 'Vyhľadaj skiny'
+    13: 'Vyhľadaj skiny',
+    14: 'Popular skins'
   },
   skin: {
     0: 'Edit',
@@ -150,7 +153,7 @@ export default {
     34: 'More skins from this author | More skins from this authors',
     35: 'Support the skin',
     36: 'Unavailable',
-    37: 'Unfortunately, this skin was deleted at {author} request',
+    37: 'Unfortunately, this skin was deleted',
     38: 'Welcome to the skin post editor!',
     39: `New to the skin editor? Let us guide you through the interface and show you the editor's full potential!`,
     40: '{current} of {max} completed',
@@ -200,7 +203,11 @@ export default {
       2: 'Users',
       3: 'Zoznamy'
     },
-    14: 'Search:'
+    14: 'Search:',
+    15: 'Size:',
+    16: 'Rating:',
+    17: 'Views:',
+    18: 'Downloads:'
   },
   contests: {
     0: 'Contests',
@@ -208,11 +215,20 @@ export default {
     2: 'Submission',
     3: 'Preparing',
     4: 'Voting',
-    5: 'Finished'
+    5: 'Finished',
+    6: 'Contests',
+    7: 'Voting page'
   },
   rules: {
     0: 'Last updated at',
     1: 'Posting Skins Guidelines'
+  },
+  skinini: {
+    0: 'Welcome to skin.ini editor!',
+    1: `New to the skin.ini editor? Let us guide you through the interface and show you the editor's full potential!`,
+    2: '{current} of {max} completed',
+    3: 'No results',
+    4: 'Your query may contain typos'
   },
   tabs: {
     0: 'Hľadať',
@@ -226,6 +242,13 @@ export default {
     3: 'Neoprávnené',
     4: 'Ak chcete upraviť tento skin, musíte byť prihlásený.',
     5: 'Musíš byť prihlásený na to, aby si pridal nový skin.'
+  },
+  settings: {
+    0: 'Nastavenia',
+    1: 'Mouse scroll',
+    2: 'Enable mouse hover swipe for image carousel, allowing left-to-right or right-to-left navigation.',
+    3: 'Zoom in',
+    4: 'Enable image zoom on hover for larger skin preview.'
   },
   meta: {
     title: {
@@ -245,7 +268,7 @@ export default {
       13: 'Novy skin',
       14: 'Site rules',
       15: 'osu! Contests',
-      16: 'osu! Contests'
+      16: 'osu! skinning tools'
     },
     description: {
       0: 'Získajte najlepšie osu! skiny na našej stránke! Naša obrovská knižnica má skiny pre všetke herné režimy, pomery strán a dokonca aj pre špičkových hráčov. Navyše máme špeciálnu sekciu pre fanúšikov anime. Zlepšite svoju hru s dokonalým vzhľadom. #osuskins #osugame #anime',
@@ -279,7 +302,11 @@ export default {
     skin_return: 'Späť na skin',
     source: 'Source',
     contest_voting: 'Vote here',
-    rules_agree: 'I agree'
+    rules_agree: 'I agree',
+    report_issue: 'Report issue',
+    ghost_creator: 'Ghost creator',
+    close: 'Close',
+    quick_select: 'Quick select'
   },
   choose: {
     0: 'Optional',
@@ -293,7 +320,8 @@ export default {
       2: 'Animácie',
       3: 'Umenie',
       4: 'Spolupráca',
-      5: 'Zvuky'
+      5: 'Zvuky',
+      6: 'Hra'
     }
   },
   tooltips: {
@@ -310,7 +338,15 @@ export default {
     10: 'Reset everything',
     11: 'Show guide',
     12: 'Close guide',
-    13: 'To mark a rule as read, hover over it (Yellow indicates unread)'
+    13: 'To mark a rule as read, hover over it (Yellow indicates unread)',
+    14: {
+      0: '[hl]{example}[/hl] - [b]equal[/b] to {amount}',
+      1: '[hl]{example}[/hl] - [b]above[/b] {amount}',
+      2: '[hl]{example}[/hl] - [b]below[/b] {amount}',
+      3: '[hl]{example}[/hl] - [b]from[/b] {amount} [b]to[/b] {amount_2}'
+    },
+    15: 'Unselect',
+    16: 'Remove file'
   },
   lists: {
     screens: {
@@ -329,7 +365,8 @@ export default {
       12: 'Obrazovka výsledkov',
       13: 'Preskočiť',
       14: 'Banner',
-      15: 'Result screen (bottom)'
+      15: 'Result screen (bottom)',
+      16: 'Beginning image'
     },
     cats: {
       0: 'NSFW',
@@ -353,15 +390,22 @@ export default {
     likes: 'Obľúbene',
     dislikes: 'Zlé',
     downloads: 'Stiahnutie',
-    size_range: 'Vyber velikosti',
-    date_range: 'Vyber časového obdobia',
-    ratio: 'Vyber pomer stran | pomer'
+    ratio: 'Vyber pomer stran | pomer',
+    sorting: 'Desc. | Asc.'
+  },
+  sorting: {
+    0: 'Most | Least',
+    1: 'Most | Least',
+    2: 'Highest | Lowest',
+    3: 'Largest | Smallest',
+    4: 'Newest | Oldest',
+    5: 'A-Z | Z-A'
   },
   placeholders: {
     0: 'Vyberte rolu',
     1: 'Vyberte verziu',
     2: 'Sem napíšte text...',
-    3: 'Vyber velikosti',
+    3: 'Select size range',
     4: 'Výber časového obdobia',
     5: 'Rok',
     6: 'Mesiac',
@@ -375,7 +419,13 @@ export default {
     14: 'Vložte link',
     15: 'Názov skinu, autora, alebo označenie',
     16: 'Vyberte kategóriu',
-    17: 'Napíš meno štítku'
+    17: 'Napíš meno štítku',
+    18: 'Type the name of the skin',
+    19: 'Type author name ',
+    20: 'Select file',
+    24: 'Type gameplay name...',
+    25: 'Type range',
+    26: 'Type text'
   },
   contribute: { 0: 'Prispievanie' },
   nsfw: {
@@ -446,7 +496,11 @@ export default {
     51: 'Submitted for moderation',
     52: 'Warning',
     53: 'You need to choose type of asset',
-    54: 'The skin is currently under moderation. Please be patient while it is being processed'
+    54: 'The skin is currently under moderation. Please be patient while it is being processed',
+    55: 'Success',
+    56: 'New ghost creator has been added',
+    57: 'Color copied',
+    58: `The RGB code "{color}" is now available through your clipboard!`
   },
   header: {
     0: 'Oznámenia',
@@ -463,6 +517,7 @@ export default {
     1: 'Show guide?',
     2: 'Submit skin?',
     3: 'Yes',
-    4: 'No'
+    4: 'No',
+    5: 'Reset .ini?'
   }
 };

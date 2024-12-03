@@ -42,7 +42,8 @@ export default {
   },
   ideas: {
     0: 'Ништа није пронађено',
-    1: 'Снимци екрана «{type}» нису отпремљени на сајт'
+    1: 'Снимци екрана «{type}» нису отпремљени на сајт',
+    2: '«{amount}» {name}'
   },
   creators: {
     0: 'Креатори',
@@ -94,8 +95,9 @@ export default {
     22: 'Списак',
     23: 'Додајте најмање једну јавну верзију',
     24: 'Додајте најмање једног креатора овој верзији',
-    25: 'Неки креатори немају улогу',
-    26: '{amount} снимци екрана немају категорију'
+    25: 'Some creators don\'t have roles',
+    26: '{amount} снимци екрана немају категорију',
+    28: 'Select gamemode for gameplay screenshots'
   },
   skins: {
     0: 'Скинови',
@@ -111,7 +113,8 @@ export default {
     10: 'osu скинови од стране {name} | Сви скинови из',
     11: 'Претражи',
     12: '{name} скинова',
-    13: 'Истражи скинове'
+    13: 'Истражи скинове',
+    14: 'Popular skins'
   },
   skin: {
     0: 'Измени',
@@ -150,7 +153,7 @@ export default {
     34: 'Још скинова од овог аутора | Још скинова од ових аутора',
     35: 'Подржите скин',
     36: 'Недоступно',
-    37: 'Нажалост, овај скин је обрисан на захтев аутора {author}',
+    37: 'Unfortunately, this skin was deleted',
     38: 'Добродошли у уређивач објава скина!',
     39: `Нови сте на уређивачу скина? Дозволите нам да вас водимо кроз интерфејс и покажемо вам пуни потенцијал уредника!`,
     40: '{current} од {max} завршених',
@@ -200,7 +203,11 @@ export default {
       2: 'Корисници',
       3: 'Листе'
     },
-    14: 'Претрага:'
+    14: 'Претрага:',
+    15: 'Size:',
+    16: 'Rating:',
+    17: 'Views:',
+    18: 'Downloads:'
   },
   contests: {
     0: 'Такмичења',
@@ -208,11 +215,20 @@ export default {
     2: 'Подношење',
     3: 'Припремање',
     4: 'Гласање',
-    5: 'Завршено'
+    5: 'Завршено',
+    6: 'Такмичења',
+    7: 'Voting page'
   },
   rules: {
     0: 'Последњи пут ажурирано у',
     1: 'Смернице за постављање скинова'
+  },
+  skinini: {
+    0: 'Welcome to skin.ini editor!',
+    1: `New to the skin.ini editor? Let us guide you through the interface and show you the editor's full potential!`,
+    2: '{current} од {max} завршених',
+    3: 'No results',
+    4: 'Your query may contain typos'
   },
   tabs: {
     0: 'Претражи',
@@ -226,6 +242,13 @@ export default {
     3: 'Неодобрено',
     4: 'Морате бити пријављени да бисте уредили овај скин.',
     5: 'Морате бити пријављени да бисте додали нови скин.'
+  },
+  settings: {
+    0: 'Подешавања',
+    1: 'Mouse scroll',
+    2: 'Enable mouse hover swipe for image carousel, allowing left-to-right or right-to-left navigation.',
+    3: 'Zoom in',
+    4: 'Enable image zoom on hover for larger skin preview.'
   },
   meta: {
     title: {
@@ -245,7 +268,7 @@ export default {
       13: 'Нови скин',
       14: 'Правила сајта',
       15: 'osu! Конкурси',
-      16: 'osu! Конкурси'
+      16: 'osu! skinning tools'
     },
     description: {
       0: 'Преузмите најбоље osu! скинове на нашем сајту! Наша огромна библиотека има скинове за сва четири мод игара, размера ширине и висине и имамо чак врхунске играче. Плус, имамо посебан одељак за љубитеље анимеа. Побољшајте своју игру са савршеним скином. #osuskins #osugame #anime',
@@ -279,7 +302,11 @@ export default {
     skin_return: 'Назад на скин',
     source: 'Извор',
     contest_voting: 'Гласајте овде',
-    rules_agree: 'Слажем се'
+    rules_agree: 'Слажем се',
+    report_issue: 'Report issue',
+    ghost_creator: 'Ghost creator',
+    close: 'Close',
+    quick_select: 'Quick select'
   },
   choose: {
     0: 'Опционално',
@@ -293,7 +320,8 @@ export default {
       2: 'Анимације',
       3: 'Уметност',
       4: 'Collab',
-      5: 'Звуци'
+      5: 'Звуци',
+      6: 'Gameplay'
     }
   },
   tooltips: {
@@ -310,7 +338,15 @@ export default {
     10: 'Ресетуј све',
     11: 'Прикажи упутство',
     12: 'Затвори упутство',
-    13: 'To mark a rule as read, hover over it (Yellow indicates unread)'
+    13: 'To mark a rule as read, hover over it (Yellow indicates unread)',
+    14: {
+      0: '[hl]{example}[/hl] - [b]equal[/b] to {amount}',
+      1: '[hl]{example}[/hl] - [b]above[/b] {amount}',
+      2: '[hl]{example}[/hl] - [b]below[/b] {amount}',
+      3: '[hl]{example}[/hl] - [b]from[/b] {amount} [b]to[/b] {amount_2}'
+    },
+    15: 'Unselect',
+    16: 'Remove file'
   },
   lists: {
     screens: {
@@ -329,7 +365,8 @@ export default {
       12: 'Екран за Резултат',
       13: 'Прескочи',
       14: 'Банер',
-      15: 'Екран за резултат (дно)'
+      15: 'Екран за резултат (дно)',
+      16: 'Beginning image'
     },
     cats: {
       0: 'NSFW',
@@ -353,15 +390,22 @@ export default {
     likes: 'Свиђања',
     dislikes: 'Несвиђања',
     downloads: 'Преузимање',
-    size_range: 'Изаберите величину',
-    date_range: 'Изаберите временски период',
-    ratio: 'Изаберите размеру ширине и висине | размер'
+    ratio: 'Изаберите размеру ширине и висине | размер',
+    sorting: 'Desc. | Asc.'
+  },
+  sorting: {
+    0: 'Most | Least',
+    1: 'Most | Least',
+    2: 'Highest | Lowest',
+    3: 'Largest | Smallest',
+    4: 'Newest | Oldest',
+    5: 'A-Z | Z-A'
   },
   placeholders: {
     0: 'Изаберите улоге',
     1: 'Изаберите верзије',
     2: 'Напишите текст...',
-    3: 'Изаберите величину',
+    3: 'Select size range',
     4: 'Изаберите временски период',
     5: 'Година',
     6: 'Месец',
@@ -375,7 +419,13 @@ export default {
     14: 'Налепите линк',
     15: 'Наслов скина, аутор, или ознаке',
     16: 'Изаберите категорију',
-    17: 'Напишите име ознаке'
+    17: 'Напишите име ознаке',
+    18: 'Type the name of the skin',
+    19: 'Type author name ',
+    20: 'Select file',
+    24: 'Type gameplay name...',
+    25: 'Type range',
+    26: 'Type text'
   },
   contribute: { 0: 'Помозите' },
   nsfw: {
@@ -446,7 +496,11 @@ export default {
     51: 'Предато на преглед',
     52: 'Упозорење',
     53: 'Морате да изаберете тип ресурса',
-    54: 'Скин је тренутно под модерацијом. Будите стрпљиви док се обрађује'
+    54: 'Скин је тренутно под модерацијом. Будите стрпљиви док се обрађује',
+    55: 'Успешно',
+    56: 'New ghost creator has been added',
+    57: 'Color copied',
+    58: `The RGB code "{color}" is now available through your clipboard!`
   },
   header: {
     0: 'Обавештења',
@@ -463,6 +517,7 @@ export default {
     1: 'Приказати помоћника?',
     2: 'Објавите скин?',
     3: 'Да',
-    4: 'Не'
+    4: 'Не',
+    5: 'Reset .ini?'
   }
 };

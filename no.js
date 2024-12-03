@@ -42,7 +42,8 @@ export default {
   },
   ideas: {
     0: 'Ingenting funnet',
-    1: 'Skjermbilder av «{type}» ble ikke lastet opp til siden'
+    1: 'Skjermbilder av «{type}» ble ikke lastet opp til siden',
+    2: '«{amount}» {name}'
   },
   creators: {
     0: 'Skapere',
@@ -94,8 +95,9 @@ export default {
     22: 'Sjekkliste',
     23: 'Legg ved minst en offentlig versjon',
     24: 'Add at least one creator to this version',
-    25: 'Some creators doesn\'t have roles',
-    26: '{amount} screenshots doesn\'t have category'
+    25: 'Some creators don\'t have roles',
+    26: '{amount} screenshots doesn\'t have category',
+    28: 'Select gamemode for gameplay screenshots'
   },
   skins: {
     0: 'Skins',
@@ -111,7 +113,8 @@ export default {
     10: 'osu Skins med navn {name} | Alle skin fra',
     11: 'Søk',
     12: '{name} skins',
-    13: 'Utforsk skins'
+    13: 'Utforsk skins',
+    14: 'Popular skins'
   },
   skin: {
     0: 'Rediger',
@@ -150,7 +153,7 @@ export default {
     34: 'More skins from this author | More skins from this authors',
     35: 'Support the skin',
     36: 'Unavailable',
-    37: 'Unfortunately, this skin was deleted at {author} request',
+    37: 'Unfortunately, this skin was deleted',
     38: 'Welcome to the skin post editor!',
     39: `New to the skin editor? Let us guide you through the interface and show you the editor's full potential!`,
     40: '{current} of {max} completed',
@@ -200,7 +203,11 @@ export default {
       2: 'Brukere',
       3: 'Lister'
     },
-    14: 'Search:'
+    14: 'Search:',
+    15: 'Size:',
+    16: 'Rating:',
+    17: 'Views:',
+    18: 'Downloads:'
   },
   contests: {
     0: 'Contests',
@@ -208,11 +215,20 @@ export default {
     2: 'Submission',
     3: 'Preparing',
     4: 'Voting',
-    5: 'Finished'
+    5: 'Finished',
+    6: 'Contests',
+    7: 'Voting page'
   },
   rules: {
     0: 'Last updated at',
     1: 'Posting Skins Guidelines'
+  },
+  skinini: {
+    0: 'Welcome to skin.ini editor!',
+    1: `New to the skin.ini editor? Let us guide you through the interface and show you the editor's full potential!`,
+    2: '{current} of {max} completed',
+    3: 'No results',
+    4: 'Your query may contain typos'
   },
   tabs: {
     0: 'Søk',
@@ -226,6 +242,13 @@ export default {
     3: 'Ikke autorisert',
     4: 'You need to be logged in order to edit this skin.',
     5: 'You need to be logged in order to add a new skin.'
+  },
+  settings: {
+    0: 'Innstillinger',
+    1: 'Mouse scroll',
+    2: 'Enable mouse hover swipe for image carousel, allowing left-to-right or right-to-left navigation.',
+    3: 'Zoom in',
+    4: 'Enable image zoom on hover for larger skin preview.'
   },
   meta: {
     title: {
@@ -245,7 +268,7 @@ export default {
       13: 'Nytt skin',
       14: 'Site rules',
       15: 'osu! Contests',
-      16: 'osu! Contests'
+      16: 'osu! skinning tools'
     },
     description: {
       0: 'Få de beste osu! skins på vår nettside! Vårt store lager med skins for alle spillmoduser, størrelsesformat og spillere i toppen. Plus, vi har en spesiell seksjon for anime fans. Forbedre spillingen din med det perfekte skinnet. #osuskins #osugame #anime',
@@ -279,7 +302,11 @@ export default {
     skin_return: 'Tilbake til skin',
     source: 'Source',
     contest_voting: 'Vote here',
-    rules_agree: 'I agree'
+    rules_agree: 'I agree',
+    report_issue: 'Report issue',
+    ghost_creator: 'Ghost creator',
+    close: 'Close',
+    quick_select: 'Quick select'
   },
   choose: {
     0: 'Optional',
@@ -293,7 +320,8 @@ export default {
       2: 'Animasjoner',
       3: 'Kunst',
       4: 'Samarbeid',
-      5: 'Lyder'
+      5: 'Lyder',
+      6: 'Spill'
     }
   },
   tooltips: {
@@ -310,7 +338,15 @@ export default {
     10: 'Reset everything',
     11: 'Show guide',
     12: 'Close guide',
-    13: 'To mark a rule as read, hover over it (Yellow indicates unread)'
+    13: 'To mark a rule as read, hover over it (Yellow indicates unread)',
+    14: {
+      0: '[hl]{example}[/hl] - [b]equal[/b] to {amount}',
+      1: '[hl]{example}[/hl] - [b]above[/b] {amount}',
+      2: '[hl]{example}[/hl] - [b]below[/b] {amount}',
+      3: '[hl]{example}[/hl] - [b]from[/b] {amount} [b]to[/b] {amount_2}'
+    },
+    15: 'Unselect',
+    16: 'Remove file'
   },
   lists: {
     screens: {
@@ -329,7 +365,8 @@ export default {
       12: 'Resultat skjerm',
       13: 'Hopp over',
       14: 'Banner',
-      15: 'Result screen (bottom)'
+      15: 'Result screen (bottom)',
+      16: 'Beginning image'
     },
     cats: {
       0: 'NSFW',
@@ -353,15 +390,22 @@ export default {
     likes: 'Liker',
     dislikes: 'Liker ikke',
     downloads: 'Nedlasting',
-    size_range: 'Velg størrelse',
-    date_range: 'Velg en dato',
-    ratio: 'Velg størrelsesformat | format'
+    ratio: 'Velg størrelsesformat | format',
+    sorting: 'Desc. | Asc.'
+  },
+  sorting: {
+    0: 'Most | Least',
+    1: 'Most | Least',
+    2: 'Highest | Lowest',
+    3: 'Largest | Smallest',
+    4: 'Newest | Oldest',
+    5: 'A-Z | Z-A'
   },
   placeholders: {
     0: 'Velg roller',
     1: 'Velg versjoner',
     2: 'Skriv inn litt tekst...',
-    3: 'Velg størrelse',
+    3: 'Select size range',
     4: 'Velg dato ',
     5: 'År',
     6: 'Måned',
@@ -375,7 +419,13 @@ export default {
     14: 'Lim inn lenke',
     15: 'Skin tittel, skaper, eller tags',
     16: 'Velg kategori',
-    17: 'Skriv inn navnet på taggen'
+    17: 'Skriv inn navnet på taggen',
+    18: 'Type the name of the skin',
+    19: 'Type author name ',
+    20: 'Select file',
+    24: 'Type gameplay name...',
+    25: 'Type range',
+    26: 'Type text'
   },
   contribute: { 0: 'Bidra' },
   nsfw: {
@@ -446,7 +496,11 @@ export default {
     51: 'Sendt inn, avventer moderasjon',
     52: 'Warning',
     53: 'You need to choose type of asset',
-    54: 'The skin is currently under moderation. Please be patient while it is being processed'
+    54: 'The skin is currently under moderation. Please be patient while it is being processed',
+    55: 'Vellykket',
+    56: 'New ghost creator has been added',
+    57: 'Color copied',
+    58: `The RGB code "{color}" is now available through your clipboard!`
   },
   header: {
     0: 'Varslinger',
@@ -463,6 +517,7 @@ export default {
     1: 'Show guide?',
     2: 'Submit skin?',
     3: 'Yes',
-    4: 'No'
+    4: 'No',
+    5: 'Reset .ini?'
   }
 };

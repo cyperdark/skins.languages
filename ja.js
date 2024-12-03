@@ -42,7 +42,8 @@ export default {
   },
   ideas: {
     0: '何も見つかりませんでした',
-    1: '«{type}»のスクリーンショットはアップロードされていません'
+    1: '«{type}»のスクリーンショットはアップロードされていません',
+    2: '«{amount}» {name}'
   },
   creators: {
     0: 'クリエイター',
@@ -94,8 +95,9 @@ export default {
     22: 'チェックリスト',
     23: '公開されているバージョンを少なくとも1つ追加してください',
     24: 'このバージョンに少なくとも1人の作成者を追加してください',
-    25: '一部のクリエイターにロールがありません',
-    26: '{amount} つのスクリーンショットにはカテゴリがありません'
+    25: 'Some creators don\'t have roles',
+    26: '{amount} つのスクリーンショットにはカテゴリがありません',
+    28: 'Select gamemode for gameplay screenshots'
   },
   skins: {
     0: 'スキン',
@@ -111,7 +113,8 @@ export default {
     10: '{name} によるosu スキン | から 全てのスキン',
     11: '検索',
     12: '{name} スキン',
-    13: 'スキンを探す'
+    13: 'スキンを探す',
+    14: '人気のスキン'
   },
   skin: {
     0: '編集',
@@ -150,7 +153,7 @@ export default {
     34: 'この作成者のスキンをもっと見る | この作成者たちのスキンをもっと見る',
     35: 'スキンをサポートする',
     36: '利用できません',
-    37: '残念ながら、このスキンは {author} のリクエストによって削除されました',
+    37: '残念ながら、このスキンは削除されました',
     38: 'スキン投稿エディターへようこそ！',
     39: `スキンエディターは初めてですか？インターフェースをご案内し、エディターの可能性を最大限にご紹介しましょう！`,
     40: '{current} / {max} 完了',
@@ -200,7 +203,11 @@ export default {
       2: 'ユーザー',
       3: 'リスト'
     },
-    14: '検索:'
+    14: '検索:',
+    15: 'サイズ:',
+    16: '評価:',
+    17: '閲覧数:',
+    18: 'ダウンロード件数:'
   },
   contests: {
     0: 'コンテスト',
@@ -208,11 +215,20 @@ export default {
     2: '提出',
     3: '準備中',
     4: '投票中',
-    5: '終了'
+    5: '終了',
+    6: 'コンテスト',
+    7: '投票ページ'
   },
   rules: {
     0: '最終更新:',
     1: 'スキン投稿ガイドライン'
+  },
+  skinini: {
+    0: 'skin.iniエディタへようこそ！',
+    1: `New to the skin.ini editor? Let us guide you through the interface and show you the editor's full potential!`,
+    2: '{current} / {max} 完了',
+    3: '一致する項目はありません',
+    4: '検索ワードに誤りがあるようです'
   },
   tabs: {
     0: '検索',
@@ -226,6 +242,13 @@ export default {
     3: '権限がありません',
     4: 'このスキンを編集するには、ログインする必要があります。',
     5: '新しくスキンを追加するには、ログインする必要があります。'
+  },
+  settings: {
+    0: '設定',
+    1: 'マウススクロール',
+    2: 'Enable mouse hover swipe for image carousel, allowing left-to-right or right-to-left navigation.',
+    3: '拡大',
+    4: 'マウスを画像上にホバーさせることで画像を拡大します。'
   },
   meta: {
     title: {
@@ -245,7 +268,7 @@ export default {
       13: '新しいスキン',
       14: 'サイトのルール',
       15: 'osu!コンテスト',
-      16: 'osu!コンテスト'
+      16: 'osu!スキンツール'
     },
     description: {
       0: 'このサイトでベストなosu! スキンを手に入れよう！ 私たちの膨大なライブラリには、すべてのゲームモード、アスペクト比、さらにはトッププレイヤーのスキンがあります。さらに、アニメーション向けの特別セクションもあります。完璧なスキンでゲームプレイを向上させましょう。',
@@ -279,7 +302,11 @@ export default {
     skin_return: 'スキンへ戻る',
     source: 'ソース',
     contest_voting: '投票する',
-    rules_agree: '同意します'
+    rules_agree: '同意します',
+    report_issue: '問題を報告する',
+    ghost_creator: 'Ghost creator',
+    close: '閉じる',
+    quick_select: 'クイック選択'
   },
   choose: {
     0: 'オプション',
@@ -293,7 +320,8 @@ export default {
       2: 'アニメーション',
       3: 'アート',
       4: 'コラボ',
-      5: '音'
+      5: '音',
+      6: 'ゲームプレイ'
     }
   },
   tooltips: {
@@ -310,7 +338,15 @@ export default {
     10: 'すべてリセットする',
     11: 'ガイドを表示',
     12: 'ガイドを閉じる',
-    13: 'ルールを既読としてマークするには、その上にカーソルを合わせます(黄色は未読を示します)'
+    13: 'ルールを既読としてマークするには、その上にカーソルを合わせます(黄色は未読を示します)',
+    14: {
+      0: '[hl]{example}[/hl] - [b]equal[/b] to {amount}',
+      1: '[hl]{example}[/hl] - [b]above[/b] {amount}',
+      2: '[hl]{example}[/hl] - [b]below[/b] {amount}',
+      3: '[hl]{example}[/hl] - [b]from[/b] {amount} [b]to[/b] {amount_2}'
+    },
+    15: 'Unselect',
+    16: 'Remove file'
   },
   lists: {
     screens: {
@@ -329,7 +365,8 @@ export default {
       12: 'リザルト画面',
       13: 'スキップ',
       14: 'バナー',
-      15: 'リザルト画面 (下部)'
+      15: 'リザルト画面 (下部)',
+      16: 'Beginning image'
     },
     cats: {
       0: 'NSFW',
@@ -353,15 +390,22 @@ export default {
     likes: '高評価',
     dislikes: '低評価',
     downloads: 'ダウンロード',
-    size_range: 'サイズ選択',
-    date_range: '日付範囲を選択',
-    ratio: 'アスペクト比を選択 | 比率'
+    ratio: 'アスペクト比を選択 | 比率',
+    sorting: 'Desc. | Asc.'
+  },
+  sorting: {
+    0: 'Most | Least',
+    1: 'Most | Least',
+    2: 'Highest | Lowest',
+    3: 'Largest | Smallest',
+    4: 'Newest | Oldest',
+    5: 'A-Z | Z-A'
   },
   placeholders: {
     0: '役職を選択',
     1: 'バージョンの選択',
     2: 'テキストを入力...',
-    3: 'サイズ選択',
+    3: 'Select size range',
     4: '日付の範囲を選択',
     5: '年',
     6: '月',
@@ -375,7 +419,13 @@ export default {
     14: 'リンクを貼り付け',
     15: 'スキンのタイトル、作成者、またはタグ',
     16: 'カテゴリの選択',
-    17: 'タグの名前を入力してください'
+    17: 'タグの名前を入力してください',
+    18: 'Type the name of the skin',
+    19: 'Type author name ',
+    20: 'Select file',
+    24: 'Type gameplay name...',
+    25: 'Type range',
+    26: 'Type text'
   },
   contribute: { 0: '貢献する' },
   nsfw: {
@@ -446,7 +496,11 @@ export default {
     51: 'モデレーションのために提出されました',
     52: '警告',
     53: 'アセットの種類を選択する必要があります',
-    54: 'スキンは現在確認中です。処理が完了するまでしばらくお待ちください。'
+    54: 'スキンは現在確認中です。処理が完了するまでしばらくお待ちください。',
+    55: '成功',
+    56: 'New ghost creator has been added',
+    57: 'Color copied',
+    58: `The RGB code "{color}" is now available through your clipboard!`
   },
   header: {
     0: '通知',
@@ -463,6 +517,7 @@ export default {
     1: 'ガイドを表示しますか？',
     2: 'スキンを送信しますか？',
     3: 'はい',
-    4: 'いいえ'
+    4: 'いいえ',
+    5: 'Reset .ini?'
   }
 };

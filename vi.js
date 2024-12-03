@@ -42,7 +42,8 @@ export default {
   },
   ideas: {
     0: 'Không thấy gì cả',
-    1: 'Không có ảnh cho «{type}» được đăng trên trang này'
+    1: 'Không có ảnh cho «{type}» được đăng trên trang này',
+    2: '«{amount}» {name}'
   },
   creators: {
     0: 'Tác giả',
@@ -94,8 +95,9 @@ export default {
     22: 'Danh mục',
     23: 'Thêm ít nhất một phiên bản công khai',
     24: 'Thêm ít nhất một tác giả cho phiên bản này',
-    25: 'Mốt số tác giả không có vai trò',
-    26: '{amount} bức ảnh chưa có danh mục'
+    25: 'Some creators don\'t have roles',
+    26: '{amount} bức ảnh chưa có danh mục',
+    28: 'Chọn chế độ chơi để xem ảnh chụp màn hình'
   },
   skins: {
     0: 'Skin',
@@ -111,7 +113,8 @@ export default {
     10: 'Skin osu! bởi {name} | Tất cả các skin từ',
     11: 'Tìm kiếm',
     12: 'skin {name}',
-    13: 'Khám phá các skin'
+    13: 'Khám phá các skin',
+    14: 'Skin osu phổ biến'
   },
   skin: {
     0: 'Chỉnh sửa',
@@ -150,7 +153,7 @@ export default {
     34: 'Nhiều skin hơn từ tác giả này | Nhiều skin hơn từ tác giả này',
     35: 'Ủng hộ skin',
     36: 'Không khả dụng',
-    37: 'Thật đáng tiếc, skin này đã bị xoá qua đề nghị của {author}',
+    37: 'Thật không may, skin này đã bị xoá',
     38: 'Chào mừng đến với phần trình sửa bài đăng skin!',
     39: `Mới làm quen với việc chỉnh sửa? Hãy để chúng tôi hướng dẫn bạn qua giao diện và cho bạn thấy tiềm năng của editor này!`,
     40: '{current} trên {max} đã được hoàn thiện',
@@ -200,7 +203,11 @@ export default {
       2: 'Người dùng',
       3: 'Danh sách'
     },
-    14: 'Tìm kiếm:'
+    14: 'Tìm kiếm:',
+    15: 'Kích cỡ:',
+    16: 'Đánh giá:',
+    17: 'Lượt xem:',
+    18: 'Lượt tải xuống:'
   },
   contests: {
     0: 'Các cuộc thi',
@@ -208,11 +215,20 @@ export default {
     2: 'Bài nộp dự thi',
     3: 'Đang chuẩn bị',
     4: 'Đang bình chọn',
-    5: 'Đã hoàn thành'
+    5: 'Đã hoàn thành',
+    6: 'Các cuộc thi',
+    7: 'Trang bầu chọn'
   },
   rules: {
     0: 'Cập nhật lần cuối cùng vào',
     1: 'Tiêu chuẩn về việc đăng tải Skin'
+  },
+  skinini: {
+    0: 'Chào mừng đến với phần chỉnh sửa skin.ini!',
+    1: `Lần đầu tiếp xúc với skin.ini? Hãy để chúng tôi giới thiệu qua giao diện và cho bạn thấy sức mạnh của trình chỉnh sửa!`,
+    2: '{current} trên {max} đã được hoàn thiện',
+    3: 'Không có kết quả',
+    4: 'Phần tìm kiếm của bạn có thể có lỗi sai'
   },
   tabs: {
     0: 'Tìm kiếm',
@@ -226,6 +242,13 @@ export default {
     3: 'Không thể truy cập',
     4: 'Bạn cần đăng nhập để chỉnh sửa skin này.',
     5: 'Bạn cần đăng nhập để thêm skin mới.'
+  },
+  settings: {
+    0: 'Cài đặt',
+    1: 'Mouse scroll',
+    2: 'Enable mouse hover swipe for image carousel, allowing left-to-right or right-to-left navigation.',
+    3: 'Zoom in',
+    4: 'Enable image zoom on hover for larger skin preview.'
   },
   meta: {
     title: {
@@ -245,7 +268,7 @@ export default {
       13: 'Skin mới',
       14: 'Luật của trang chủ',
       15: 'Những cuộc thi về osu!',
-      16: 'Những cuộc thi về osu!'
+      16: 'osu! skinning tools'
     },
     description: {
       0: 'Tảỉ về những skin osu! tốt nhất từ trang của chúng tôi! Thư viện to lớn của chúng tôi có skin cho mọi chế độ chơi, tỷ lệ khung hình và cả kể cả những top player. Thêm vào đó, chúng tôi có một khu đặc biệt dành cho các fan anime. Cả thiện gameplay với một skin hoàn hảo. #osuskins #osugame #anime',
@@ -279,7 +302,11 @@ export default {
     skin_return: 'Quay trở lại skin',
     source: 'Nguồn',
     contest_voting: 'Bình chọn tại đây',
-    rules_agree: 'Tôi đồng ý'
+    rules_agree: 'Tôi đồng ý',
+    report_issue: 'Report issue',
+    ghost_creator: 'Ghost creator',
+    close: 'Close',
+    quick_select: 'Quick select'
   },
   choose: {
     0: 'Tuỳ chọn',
@@ -293,7 +320,8 @@ export default {
       2: 'Hoạt họa',
       3: 'Tranh vẽ',
       4: 'Collab',
-      5: 'Âm thanh'
+      5: 'Âm thanh',
+      6: 'Gameplay'
     }
   },
   tooltips: {
@@ -310,7 +338,15 @@ export default {
     10: 'Reset mọi thứ',
     11: 'Hiện hướng dẫn',
     12: 'Đóng hướng dẫn',
-    13: 'Để đánh dấu luật đã xem, hãy di chuột lên nó (Màu vàng nghĩa là chưa đọc)'
+    13: 'Để đánh dấu luật đã xem, hãy di chuột lên nó (Màu vàng nghĩa là chưa đọc)',
+    14: {
+      0: '[hl]{example}[/hl] - [b]equal[/b] to {amount}',
+      1: '[hl]{example}[/hl] - [b]above[/b] {amount}',
+      2: '[hl]{example}[/hl] - [b]below[/b] {amount}',
+      3: '[hl]{example}[/hl] - [b]from[/b] {amount} [b]to[/b] {amount_2}'
+    },
+    15: 'Unselect',
+    16: 'Remove file'
   },
   lists: {
     screens: {
@@ -329,7 +365,8 @@ export default {
       12: 'Màn hình kết quả (bên trên)',
       13: 'Bỏ qua',
       14: 'Banner',
-      15: 'Màn hình kết quả (bên dưới)'
+      15: 'Màn hình kết quả (bên dưới)',
+      16: 'Beginning image'
     },
     cats: {
       0: 'NSFW',
@@ -353,15 +390,22 @@ export default {
     likes: 'Thích',
     dislikes: 'Không thích',
     downloads: 'Lượt tải xuống',
-    size_range: 'Chọn kích cỡ',
-    date_range: 'Chon mốc thời gian',
-    ratio: 'Chọn tỷ lệ khung hình | tỷ lệ'
+    ratio: 'Chọn tỷ lệ khung hình | tỷ lệ',
+    sorting: 'Desc. | Asc.'
+  },
+  sorting: {
+    0: 'Most | Least',
+    1: 'Most | Least',
+    2: 'Highest | Lowest',
+    3: 'Largest | Smallest',
+    4: 'Newest | Oldest',
+    5: 'A-Z | Z-A'
   },
   placeholders: {
     0: 'Chọn vai trò',
     1: 'Chọn phiên bản',
     2: 'Hãy gõ gì đó...',
-    3: 'Chọn kích cỡ',
+    3: 'Select size range',
     4: 'Chọn mốc thời gian',
     5: 'Năm',
     6: 'Tháng',
@@ -375,7 +419,13 @@ export default {
     14: 'Dán một liên kết',
     15: 'Tên skin, tác giả, hoặc tag',
     16: 'Chọn nhóm',
-    17: 'Hãy gõ tên của tag'
+    17: 'Hãy gõ tên của tag',
+    18: 'Type the name of the skin',
+    19: 'Type author name ',
+    20: 'Select file',
+    24: 'Type gameplay name...',
+    25: 'Type range',
+    26: 'Type text'
   },
   contribute: { 0: 'Đóng góp' },
   nsfw: {
@@ -446,7 +496,11 @@ export default {
     51: 'Đã gửi cho kiểm duyệt',
     52: 'Cảnh báo',
     53: 'Bạn cần chọn loại asset',
-    54: 'Skin này hiện đang được kiểm duyệt. Xin hãy chờ một lúc skin đang được xử lý'
+    54: 'Skin này hiện đang được kiểm duyệt. Xin hãy chờ một lúc skin đang được xử lý',
+    55: 'Thành công',
+    56: 'New ghost creator has been added',
+    57: 'Color copied',
+    58: `The RGB code "{color}" is now available through your clipboard!`
   },
   header: {
     0: 'Thông báo',
@@ -463,6 +517,7 @@ export default {
     1: 'Hiện hướng dẫn?',
     2: 'Nộp skin?',
     3: 'Đúng',
-    4: 'Không'
+    4: 'Không',
+    5: 'Đặt lại .ini?'
   }
 };
