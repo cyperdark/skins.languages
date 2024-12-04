@@ -95,9 +95,9 @@ export default {
     22: 'Senarai semak',
     23: 'Letakkan sekurang-kurangnya satu versi awam',
     24: 'Letakkan sekurang-kurangnya satu pengarang kepada versi ini',
-    25: 'Some creators don\'t have roles',
+    25: 'Sebahagian pereka tiada peranan',
     26: '{amount} screenshot tidak mempunyai kategori',
-    28: 'Select gamemode for gameplay screenshots'
+    28: 'Pilih gamemode untuk tangkapan skrin permainan'
   },
   skins: {
     0: 'Skin-skin',
@@ -114,7 +114,7 @@ export default {
     11: 'Cari',
     12: '{name} skin-skin',
     13: 'Meneroka skin lain',
-    14: 'Popular skins'
+    14: 'Skin-skin popular'
   },
   skin: {
     0: 'Mengedit',
@@ -153,7 +153,7 @@ export default {
     34: 'Skin lain daripada pengarang ini | Skin lain daripada pengarang ini',
     35: 'Sokong skin ini',
     36: 'Tidak disediakan',
-    37: 'Unfortunately, this skin was deleted',
+    37: 'Malangnya, skin ini telah dibuang',
     38: 'Selamat datang ke penyunting pos skin!',
     39: `Baru kepada penyunting skin? Biar kami memberi panduan melalui antara muka dan tunjuk kepada anda potensi penuh penyunting ini!`,
     40: '{current} daripada {max} selesai',
@@ -204,10 +204,10 @@ export default {
       3: 'Senarai'
     },
     14: 'Carian:',
-    15: 'Size:',
-    16: 'Rating:',
-    17: 'Views:',
-    18: 'Downloads:'
+    15: 'Saiz:',
+    16: 'Penilaian:',
+    17: 'Tontonan:',
+    18: 'Muat turun:'
   },
   contests: {
     0: 'Pertandingan-pertandingan',
@@ -217,18 +217,18 @@ export default {
     4: 'Undian',
     5: 'Telah siap',
     6: 'Pertandingan-pertandingan',
-    7: 'Voting page'
+    7: 'Laman mengundi'
   },
   rules: {
     0: 'Kemas kini terakhir pada',
     1: 'Garis-garis panduan mengepos skin'
   },
   skinini: {
-    0: 'Welcome to skin.ini editor!',
-    1: `New to the skin.ini editor? Let us guide you through the interface and show you the editor's full potential!`,
+    0: 'Selamat datang ke penyunting skin.ini!',
+    1: `Baru kepada penyunting skin.ini? Biar kami memberi panduan melalui antara muka dan tunjuk kepada anda potensi penuh penyunting ini!`,
     2: '{current} daripada {max} selesai',
-    3: 'No results',
-    4: 'Your query may contain typos'
+    3: 'Tiada hasil',
+    4: 'Pertanyaan anda kemungkinan ada typo'
   },
   tabs: {
     0: 'Cari',
@@ -245,10 +245,10 @@ export default {
   },
   settings: {
     0: 'Aturcara',
-    1: 'Mouse scroll',
-    2: 'Enable mouse hover swipe for image carousel, allowing left-to-right or right-to-left navigation.',
-    3: 'Zoom in',
-    4: 'Enable image zoom on hover for larger skin preview.'
+    1: 'Skroi tetikus',
+    2: 'Membolehkan leret tuding tetikus untuk karusel imej, membenarkan navigasi kiri-ke-kanan atau kanan-ke-kiri.',
+    3: 'Zoom masuk',
+    4: 'Membolehkan zoom imej berlegar atas untuk membolehkan pratonton skin.'
   },
   meta: {
     title: {
@@ -268,7 +268,7 @@ export default {
       13: 'Skin baharu',
       14: 'Peraturan laman web',
       15: 'Pertandingan-pertandingan osu!',
-      16: 'osu! skinning tools'
+      16: 'peralatan mengkin osu!'
     },
     description: {
       0: 'Dapatkan skin osu! yang terbaik dari laman web kami! Kami mempunyai banyak skin untuk semua mod permainan, nisbah aspek dan juga pemain-pemain terbaik. Tambahan, kami juga mempunyai bahagian yang istimewa untuk peminat-peminat anime. Menaik taraf permainan anda dengan skin yang sempurna. #osuskins #osugame #anime',
@@ -303,10 +303,10 @@ export default {
     source: 'Sumber',
     contest_voting: 'Undi disini',
     rules_agree: 'Saya setuju',
-    report_issue: 'Report issue',
-    ghost_creator: 'Ghost creator',
-    close: 'Close',
-    quick_select: 'Quick select'
+    report_issue: 'Laporkan masalah',
+    ghost_creator: 'Pencipta hantu',
+    close: 'Tutup',
+    quick_select: 'Pilihan pantas'
   },
   choose: {
     0: 'Pilihan',
@@ -345,8 +345,8 @@ export default {
       2: '[hl]{example}[/hl] - [b]below[/b] {amount}',
       3: '[hl]{example}[/hl] - [b]from[/b] {amount} [b]to[/b] {amount_2}'
     },
-    15: 'Unselect',
-    16: 'Remove file'
+    15: 'Nyahpilih',
+    16: 'Buang file'
   },
   lists: {
     screens: {
@@ -366,7 +366,7 @@ export default {
       13: 'Skip',
       14: 'Banner',
       15: 'Skrin keputusan (dibawah)',
-      16: 'Beginning image'
+      16: 'Permulaan imej'
     },
     cats: {
       0: 'NSFW',
@@ -394,18 +394,18 @@ export default {
     sorting: 'Desc. | Asc.'
   },
   sorting: {
-    0: 'Most | Least',
-    1: 'Most | Least',
-    2: 'Highest | Lowest',
-    3: 'Largest | Smallest',
-    4: 'Newest | Oldest',
+    0: 'Paling | Kurang',
+    1: 'Paling | Kurang',
+    2: 'Paling Tinggi | Paling Rendah',
+    3: 'Paling Besar | Paling Kecil',
+    4: 'Terbaharu | Paling Lama',
     5: 'A-Z | Z-A'
   },
   placeholders: {
     0: 'Pilih peranan',
     1: 'Pilih versi',
     2: 'Taip sedikit teks...',
-    3: 'Select size range',
+    3: 'Pilih julat saiz',
     4: 'Pilih julat tarikh',
     5: 'Tahun',
     6: 'Bulan',
@@ -420,12 +420,12 @@ export default {
     15: 'Tajuk skin, pengarang atau tag',
     16: 'Pilih katergori',
     17: 'Tulis nama penanda',
-    18: 'Type the name of the skin',
-    19: 'Type author name ',
-    20: 'Select file',
-    24: 'Type gameplay name...',
-    25: 'Type range',
-    26: 'Type text'
+    18: 'Taip nama skin',
+    19: 'Taip nama pereka ',
+    20: 'Pilih fail',
+    24: 'Tulis nama permainan...',
+    25: 'Tulis julat',
+    26: 'Tulis teks'
   },
   contribute: { 0: 'Sumbangan' },
   nsfw: {
@@ -498,9 +498,9 @@ export default {
     53: 'Sila pilih jenis aset',
     54: 'Skin ini sedang dibawah moderasi. Sila bersabar sementara ia sedang diproses',
     55: 'Berjaya',
-    56: 'New ghost creator has been added',
-    57: 'Color copied',
-    58: `The RGB code "{color}" is now available through your clipboard!`
+    56: 'Pencipta hantu baharu telah pun ditambah',
+    57: 'Warna disalin',
+    58: `Kod RGB "{color}" sudah tersedia di papan klip anda!`
   },
   header: {
     0: 'Notifikasi',
@@ -518,6 +518,6 @@ export default {
     2: 'Hantar skin?',
     3: 'Ya',
     4: 'Tidak',
-    5: 'Reset .ini?'
+    5: 'Set semula .ini?'
   }
 };

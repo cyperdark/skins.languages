@@ -95,7 +95,7 @@ export default {
     22: 'チェックリスト',
     23: '公開されているバージョンを少なくとも1つ追加してください',
     24: 'このバージョンに少なくとも1人の作成者を追加してください',
-    25: 'Some creators don\'t have roles',
+    25: '一部のクリエイターにロールがありません',
     26: '{amount} つのスクリーンショットにはカテゴリがありません',
     28: 'Select gamemode for gameplay screenshots'
   },
@@ -345,8 +345,8 @@ export default {
       2: '[hl]{example}[/hl] - [b]below[/b] {amount}',
       3: '[hl]{example}[/hl] - [b]from[/b] {amount} [b]to[/b] {amount_2}'
     },
-    15: 'Unselect',
-    16: 'Remove file'
+    15: '選択解除',
+    16: 'ファイルを削除する\n'
   },
   lists: {
     screens: {
@@ -366,7 +366,7 @@ export default {
       13: 'スキップ',
       14: 'バナー',
       15: 'リザルト画面 (下部)',
-      16: 'Beginning image'
+      16: 'タイトル画面'
     },
     cats: {
       0: 'NSFW',
@@ -391,7 +391,7 @@ export default {
     dislikes: '低評価',
     downloads: 'ダウンロード',
     ratio: 'アスペクト比を選択 | 比率',
-    sorting: 'Desc. | Asc.'
+    sorting: '降順 | 昇順'
   },
   sorting: {
     0: 'Most | Least',
@@ -405,7 +405,7 @@ export default {
     0: '役職を選択',
     1: 'バージョンの選択',
     2: 'テキストを入力...',
-    3: 'Select size range',
+    3: 'サイズ範囲を選択',
     4: '日付の範囲を選択',
     5: '年',
     6: '月',
@@ -420,9 +420,9 @@ export default {
     15: 'スキンのタイトル、作成者、またはタグ',
     16: 'カテゴリの選択',
     17: 'タグの名前を入力してください',
-    18: 'Type the name of the skin',
-    19: 'Type author name ',
-    20: 'Select file',
+    18: 'スキンの名前を入力してください',
+    19: '作成者の名前を入力してください',
+    20: 'ファイルを選択してください',
     24: 'Type gameplay name...',
     25: 'Type range',
     26: 'Type text'
@@ -499,7 +499,7 @@ export default {
     54: 'スキンは現在確認中です。処理が完了するまでしばらくお待ちください。',
     55: '成功',
     56: 'New ghost creator has been added',
-    57: 'Color copied',
+    57: 'カラーをコピーしました',
     58: `The RGB code "{color}" is now available through your clipboard!`
   },
   header: {
@@ -518,6 +518,6 @@ export default {
     2: 'スキンを送信しますか？',
     3: 'はい',
     4: 'いいえ',
-    5: 'Reset .ini?'
+    5: 'iniファイルをリセットしますか？'
   }
 };
