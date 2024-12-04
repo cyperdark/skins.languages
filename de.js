@@ -95,9 +95,9 @@ export default {
     22: 'Checkliste',
     23: 'Füge mindestens eine öffentliche Version hinzu',
     24: 'Füge mindestens einen Ersteller dieser Version hinzu',
-    25: 'Some creators don\'t have roles',
+    25: 'Einige Ersteller haben keine Rollen',
     26: '{amount} Screenshots haben keine Kategorie',
-    28: 'Select gamemode for gameplay screenshots'
+    28: 'Wähle Spielmodus für Gameplay Screenshots'
   },
   skins: {
     0: 'Skins',
@@ -114,7 +114,7 @@ export default {
     11: 'Suche',
     12: '{name} Skins',
     13: 'Erkunde Skins',
-    14: 'Popular skins'
+    14: 'Beliebte Skins'
   },
   skin: {
     0: 'Editieren',
@@ -139,7 +139,7 @@ export default {
     20: 'Metadaten',
     21: 'Bewertung',
     22: 'Downloads',
-    23: 'Der Download ist gleich für dich vorhanden!',
+    23: 'Der Download ist gleich für dich verfügbar!',
     24: 'noch {amount} Sekunden',
     25: 'Du bist keiner von uns.',
     26: 'Anscheinend bist du nicht der Autor oder Herausgeber von diesem Skin',
@@ -153,7 +153,7 @@ export default {
     34: 'Mehr Skins dieses Erstellers | Mehr Skins dieses Erstellers',
     35: 'Unterstütze den Skin',
     36: 'Nicht verfügbar',
-    37: 'Unfortunately, this skin was deleted',
+    37: 'Leider wurde dieser Skin gelöscht',
     38: 'Willkommen zum Skin Post Editor!',
     39: `Neu im Skin Editor? Lass uns dich durch das Interface führen und dir das volle Potenzial des Editors zeigen!`,
     40: '{current} von {max} abgeschlossen',
@@ -204,9 +204,9 @@ export default {
       3: 'Listen'
     },
     14: 'Suchen:',
-    15: 'Size:',
-    16: 'Rating:',
-    17: 'Views:',
+    15: 'Größe:',
+    16: 'Bewertung:',
+    17: 'Aufrufe:',
     18: 'Downloads:'
   },
   contests: {
@@ -217,18 +217,18 @@ export default {
     4: 'Abstimmung',
     5: 'Fertig',
     6: 'Wettbewerbe',
-    7: 'Voting page'
+    7: 'Abstimmungsseite'
   },
   rules: {
     0: 'Zuletzt aktualisiert am',
     1: 'Skin-Veröffentlichungsrichtlinien'
   },
   skinini: {
-    0: 'Welcome to skin.ini editor!',
-    1: `New to the skin.ini editor? Let us guide you through the interface and show you the editor's full potential!`,
+    0: 'Willkommen zum skin.ini Editor!',
+    1: `Neu im skin.ini Editor? Lass uns dich durch das Interface führen und dir das volle Potenzial des Editors zeigen!`,
     2: '{current} von {max} abgeschlossen',
-    3: 'No results',
-    4: 'Your query may contain typos'
+    3: 'Keine Ergebnisse',
+    4: 'Deine Anfrage könnte Tippfehler enthalten'
   },
   tabs: {
     0: 'Suche',
@@ -245,10 +245,10 @@ export default {
   },
   settings: {
     0: 'Einstellungen',
-    1: 'Mouse scroll',
-    2: 'Enable mouse hover swipe for image carousel, allowing left-to-right or right-to-left navigation.',
-    3: 'Zoom in',
-    4: 'Enable image zoom on hover for larger skin preview.'
+    1: 'Mausscroll',
+    2: 'Aktiviere das Wischen beim Hovern der Maus für das Bildkarussell, welches links nach rechts oder rechts nach links Navigation erlaubt.',
+    3: 'Reinzoomen',
+    4: 'Aktiviere Bildzoom beim hovern für eine größere Skinvorschau.'
   },
   meta: {
     title: {
@@ -268,7 +268,7 @@ export default {
       13: 'Neuer Skin',
       14: 'Website-Regeln',
       15: 'osu! Wettbewerbe',
-      16: 'osu! skinning tools'
+      16: 'osu! Skinning Werkzeuge'
     },
     description: {
       0: 'Bekomme die besten osu! Skins auf unserer Seite! Unsere größte Bibliothek hat Skins für alle Spielmodi, Seitenverhältnisse und sogar von den besten osu! Spielern. Zudem haben wir auch einen extra Abschnitt für Anime-Liebhaber. Verbessere dein Gameplay mit dem perfekten Skin. #osuskins #osugame #anime',
@@ -303,14 +303,14 @@ export default {
     source: 'Quelle',
     contest_voting: 'Stimme hier ab',
     rules_agree: 'Ich stimme zu',
-    report_issue: 'Report issue',
+    report_issue: 'Problem melden',
     ghost_creator: 'Ghost creator',
-    close: 'Close',
-    quick_select: 'Quick select'
+    close: 'Schließen',
+    quick_select: 'Schnellauswahl'
   },
   choose: {
     0: 'Optional',
-    1: 'Erfordert',
+    1: 'Erforderlich',
     2: 'Wähle mindestens eine Option aus'
   },
   user: {
@@ -338,15 +338,15 @@ export default {
     10: 'Alles zurücksetzen',
     11: 'Anleitung anzeigen',
     12: 'Anleitung schließen',
-    13: 'Um eine Regel als gelesen zu markieren, fahre mit der Maus über es (Gelb zeigt ungelesen an)',
+    13: 'Um eine Regel als gelesen zu markieren, fahre mit der Maus darüber (Gelb zeigt ungelesen an)',
     14: {
-      0: '[hl]{example}[/hl] - [b]equal[/b] to {amount}',
-      1: '[hl]{example}[/hl] - [b]above[/b] {amount}',
-      2: '[hl]{example}[/hl] - [b]below[/b] {amount}',
-      3: '[hl]{example}[/hl] - [b]from[/b] {amount} [b]to[/b] {amount_2}'
+      0: '[hl]{example}[/hl] - [b]gleich[/b] {amount}',
+      1: '[hl]{example}[/hl] - [b]über[/b] {amount}',
+      2: '[hl]{example}[/hl] - [b]unter[/b] {amount}',
+      3: '[hl]{example}[/hl] - [b]von[/b] {amount} [b]zu[/b] {amount_2}'
     },
-    15: 'Unselect',
-    16: 'Remove file'
+    15: 'Auswahl aufheben',
+    16: 'Datei entfernen'
   },
   lists: {
     screens: {
