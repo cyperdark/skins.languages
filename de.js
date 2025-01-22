@@ -5,7 +5,7 @@ export default {
     lists: { 0: 'Listen' },
     tags: {
       0: 'Tags',
-      1: '{amount} Stichworte für die Kategorie {name}',
+      1: '{amount} Tags für die Kategorie {name}',
       2: 'Tags suchen'
     },
     ideas: {
@@ -37,7 +37,7 @@ export default {
     4: 'Nicht gruppiert',
     5: 'Neu',
     6: 'Behebungen',
-    7: 'Änderungen',
+    7: 'Änderung',
     8: 'Entfernungen'
   },
   ideas: {
@@ -56,9 +56,9 @@ export default {
   },
   tags: {
     0: 'Tags',
-    1: 'Liste von allen Stichworten, die mit diesem Skin in Beziehung stehen.',
+    1: 'Liste von allen Tags, die mit diesem Skin in Beziehung stehen.',
     2: 'Es wirkt sehr leer hier...',
-    3: 'Benutze das obere Feld um neue Stichwörter zu finden.',
+    3: 'Benutze das obere Feld um neue Tags zu finden.',
     4: 'Bezeichnung nicht gefunden',
     5: 'Versuche es mit einer anderen Suchanfrage',
     6: 'Suche'
@@ -142,7 +142,7 @@ export default {
     23: 'Der Download ist gleich für dich verfügbar!',
     24: 'noch {amount} Sekunden',
     25: 'Du bist keiner von uns.',
-    26: 'Anscheinend bist du nicht der Autor oder Herausgeber von diesem Skin',
+    26: 'Anscheinend bist du nicht der Autor oder Bearbeiter von diesem Skin',
     27: 'Skin von ',
     28: 'Keine Tags',
     29: 'Keine Videos',
@@ -212,7 +212,7 @@ export default {
   contests: {
     0: 'Wettbewerbe',
     1: 'Offizieller Newspost',
-    2: 'Einreichung',
+    2: 'Einsendung',
     3: 'Bereite vor',
     4: 'Abstimmung',
     5: 'Fertig',
