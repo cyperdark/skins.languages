@@ -95,9 +95,9 @@ export default {
     22: 'Checklist',
     23: 'Voeg minimaal één openbare versie toe',
     24: 'Voeg tenminste één maker toe aan deze versie',
-    25: 'Some creators don\'t have roles',
+    25: 'Sommige auteurs hebben geen rollen',
     26: '{amount} schermafbeeldingen hebben geen categorie',
-    28: 'Select gamemode for gameplay screenshots'
+    28: 'Selecteer de gamemode voor schermafbeeldingen van gameplay'
   },
   skins: {
     0: 'Skins',
@@ -114,7 +114,7 @@ export default {
     11: 'Zoek',
     12: '{name} skins',
     13: 'Ontdek skins',
-    14: 'Popular skins'
+    14: 'Populaire skins'
   },
   skin: {
     0: 'Bewerk',
@@ -153,7 +153,7 @@ export default {
     34: 'Meer skins van deze auteur | Meer skins van deze auteurs',
     35: 'Steun de skin',
     36: 'Onbeschikbaar',
-    37: 'Unfortunately, this skin was deleted',
+    37: 'Deze skin is helaas verwijderd',
     38: 'Welkom bij de skin post editor!',
     39: `Onbekend met de skin editor? Laat je begeleiden door de interface zodat je het maximale eruit kan halen!`,
     40: '{current} van {max} afgemaakt',
@@ -204,9 +204,9 @@ export default {
       3: 'Lijsten'
     },
     14: 'Zoek:',
-    15: 'Size:',
-    16: 'Rating:',
-    17: 'Views:',
+    15: 'Groote:',
+    16: 'Beoordeling:',
+    17: 'Weergaven:',
     18: 'Downloads:'
   },
   contests: {
@@ -217,18 +217,18 @@ export default {
     4: 'Stemmen',
     5: 'Voltooid',
     6: 'Wedstrijden',
-    7: 'Voting page'
+    7: 'Stem pagina'
   },
   rules: {
     0: 'Laatst bijgewerkt op',
     1: 'Regels rond skins publiceren'
   },
   skinini: {
-    0: 'Welcome to skin.ini editor!',
-    1: `New to the skin.ini editor? Let us guide you through the interface and show you the editor's full potential!`,
+    0: 'Welkom bij de skin.ini bewerker!',
+    1: `Onbekend met de skin.ini bewerker? Laat ons je door de interface begeleiden en alle mogelijkheden laten zien!`,
     2: '{current} van {max} afgemaakt',
-    3: 'No results',
-    4: 'Your query may contain typos'
+    3: 'Geen resultaten',
+    4: 'Je query mag spelfouten bevatten'
   },
   tabs: {
     0: 'Zoek',
@@ -245,10 +245,10 @@ export default {
   },
   settings: {
     0: 'Instellingen',
-    1: 'Mouse scroll',
-    2: 'Enable mouse hover swipe for image carousel, allowing left-to-right or right-to-left navigation.',
-    3: 'Zoom in',
-    4: 'Enable image zoom on hover for larger skin preview.'
+    1: 'Muis scrol',
+    2: 'Schakel muisaanwijzing in voor afbeeldingscarrousel, wat links naar rechts of rechts naar links mogelijk maakt.',
+    3: 'Vergroot',
+    4: 'Zet het vergroten van afbeeldingen bij erboven zweven aan voor een groter skin voorbeeld.'
   },
   meta: {
     title: {
@@ -268,7 +268,7 @@ export default {
       13: 'Nieuwe skin',
       14: 'Website regels',
       15: 'osu! Wedstrijden',
-      16: 'osu! skinning tools'
+      16: 'osu! skinning hulpmiddelen'
     },
     description: {
       0: 'Pak de beste osu! skins van onze website! Ons grote aanbod heeft skins voor alle gamemodes, aspect ratio’s  en we hebben zelfs skins van de beste spelers. Maar dan heb je anime sectie nog niet gezien. Speel beter met onze hoge skins van hoge kwaliteit. #osuskins #osugame #anime',
@@ -303,10 +303,10 @@ export default {
     source: 'Bron',
     contest_voting: 'Stem hier',
     rules_agree: 'Ik ben het ermee eens',
-    report_issue: 'Report issue',
-    ghost_creator: 'Ghost creator',
-    close: 'Close',
-    quick_select: 'Quick select'
+    report_issue: 'Meldt een probleem',
+    ghost_creator: 'Ghost maker',
+    close: 'Sluit',
+    quick_select: 'Snel selecteren'
   },
   choose: {
     0: 'Optioneel',
@@ -340,13 +340,13 @@ export default {
     12: 'Verberg tips',
     13: 'Om een regel als gelezen te markeren, beweeg erover (Geel betekent ongelezen)',
     14: {
-      0: '[hl]{example}[/hl] - [b]equal[/b] to {amount}',
-      1: '[hl]{example}[/hl] - [b]above[/b] {amount}',
-      2: '[hl]{example}[/hl] - [b]below[/b] {amount}',
-      3: '[hl]{example}[/hl] - [b]from[/b] {amount} [b]to[/b] {amount_2}'
+      0: '[hl]{example}[/hl] - [b]gelijk aan[/b] aan {amount}',
+      1: '[hl]{example}[/hl] - [b]hoger dan[/b] {amount}',
+      2: '[hl]{example}[/hl] - [b]lager dan[/b] {amount}',
+      3: '[hl]{example}[/hl] - [b]van[/b] {amount} [b]tot[/b] {amount_2}'
     },
-    15: 'Unselect',
-    16: 'Remove file'
+    15: 'Deselecteer',
+    16: 'Verwijder bestand'
   },
   lists: {
     screens: {
@@ -366,7 +366,7 @@ export default {
       13: 'Sla over',
       14: 'Banner',
       15: 'Resultatenscherm (onderaan)',
-      16: 'Beginning image'
+      16: 'Startafbeelding'
     },
     cats: {
       0: 'NSFW',
@@ -391,21 +391,21 @@ export default {
     dislikes: 'Duimpies omlaag',
     downloads: 'Downloads',
     ratio: 'Selecteer een aspect ratio | ratio',
-    sorting: 'Desc. | Asc.'
+    sorting: 'Opl. | Afl.'
   },
   sorting: {
-    0: 'Most | Least',
-    1: 'Most | Least',
-    2: 'Highest | Lowest',
-    3: 'Largest | Smallest',
-    4: 'Newest | Oldest',
+    0: 'Meeste | Minste',
+    1: 'Meeste | Minste',
+    2: 'Hoogste | Laagste',
+    3: 'Grootste | Kleinste',
+    4: 'Nieuwste | Oudste',
     5: 'A-Z | Z-A'
   },
   placeholders: {
     0: 'Selecteer rollen',
     1: 'Selecteer versies',
     2: 'Type wat tekst...',
-    3: 'Select size range',
+    3: 'Selecteer groote',
     4: 'Selecteer tijdsperiode',
     5: 'Jaar',
     6: 'Maand',
@@ -420,12 +420,12 @@ export default {
     15: 'Skin titel, auteur of categorieën',
     16: 'Selecteer categorie',
     17: 'Type de naam van de categorie',
-    18: 'Type the name of the skin',
-    19: 'Type author name ',
-    20: 'Select file',
-    24: 'Type gameplay name...',
-    25: 'Type range',
-    26: 'Type text'
+    18: 'Type de naam van de skin',
+    19: 'Type de naam van de auteur ',
+    20: 'Selcteer bestand',
+    24: 'Typede gameplay naam...',
+    25: 'Typ bereik',
+    26: 'Type tekst'
   },
   contribute: { 0: 'Draag je steentje bij' },
   nsfw: {
@@ -498,9 +498,9 @@ export default {
     53: 'Je moet een type of asset keizen',
     54: 'De skin is momenteel onder controle. Bedankt voor je geduld',
     55: 'Succes',
-    56: 'New ghost creator has been added',
-    57: 'Color copied',
-    58: `The RGB code "{color}" is now available through your clipboard!`
+    56: 'Nieuwe ghost maker is toegevoegd',
+    57: 'Kleur gekopieerd',
+    58: `De RGB-code "{color}" is nu beschikbaar via je klembord!`
   },
   header: {
     0: 'Notificaties',
@@ -518,6 +518,6 @@ export default {
     2: 'Verstuur skin?',
     3: 'Ja',
     4: 'Nee',
-    5: 'Reset .ini?'
+    5: 'Herstel .ini?'
   }
 };
