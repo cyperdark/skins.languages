@@ -95,9 +95,9 @@ export default {
     22: 'Kontrol listesi',
     23: 'Herkese açık en az bir versiyon ekleyin',
     24: 'Bu versiyona en az bir yaratıcı ekle',
-    25: 'Some creators don\'t have roles',
-    26: '{amount} screenshots doesn\'t have category',
-    28: 'Select gamemode for gameplay screenshots'
+    25: 'Bazı yaratıcıların rolleri yok',
+    26: '{amount} sayıda ekran görüntüsünün kategorisi yok',
+    28: 'Oynanış ekran görüntüleri için oyun modunu seçin'
   },
   skins: {
     0: 'Skinler',
@@ -114,7 +114,7 @@ export default {
     11: 'Ara',
     12: '{name} skinleri',
     13: 'Skinleri keşfet',
-    14: 'Popular skins'
+    14: 'Popüler skinler'
   },
   skin: {
     0: 'Düzenle',
@@ -153,15 +153,15 @@ export default {
     34: 'Bu yaratıcının diğer skinleri',
     35: 'Skini destekle',
     36: 'Mevcut değil',
-    37: 'Unfortunately, this skin was deleted',
-    38: 'Welcome to the skin post editor!',
-    39: `New to the skin editor? Let us guide you through the interface and show you the editor's full potential!`,
-    40: '{current} of {max} completed',
-    41: 'Check out later',
-    42: `Let's get started`,
-    43: 'Congratulations!',
-    44: 'You have successfully finished the tutorial, have fun!',
-    45: 'uploader'
+    37: 'Ne yazık ki, bu skin silinmiş',
+    38: 'Skin editörüne hoş geldiniz!',
+    39: `Skin editörüne yeni misiniz? Arayüzde size rehberlik etmemize ve editörün tüm potansiyelini göstermemize izin verin!`,
+    40: '{current} dan {max} kadarı tamamlandı',
+    41: 'Daha sonra kontrol edin',
+    42: `Haydi başlayalım`,
+    43: 'Tebrikler!',
+    44: 'Öğreticiyi başarıyla tamamladınız, iyi eğlenceler!',
+    45: 'yükleyici'
   },
   drag: {
     0: 'Buraya tıklayın',
@@ -170,8 +170,8 @@ export default {
   footer: {
     0: 'cyperdark tarafından yapıldı',
     1: 'Credits',
-    2: 'Rules',
-    3: 'Contacts'
+    2: 'Kurallar',
+    3: 'Kişiler'
   },
   credits: {
     0: 'Chibi',
@@ -204,31 +204,31 @@ export default {
       3: 'Listeler'
     },
     14: 'Ara:',
-    15: 'Size:',
-    16: 'Rating:',
-    17: 'Views:',
-    18: 'Downloads:'
+    15: 'Boyut:',
+    16: 'Derecelendirme:',
+    17: 'Görüntülenme:',
+    18: 'İndirmeler:'
   },
   contests: {
-    0: 'Contests',
-    1: 'Official newspost',
-    2: 'Submission',
-    3: 'Preparing',
-    4: 'Voting',
-    5: 'Finished',
-    6: 'Contests',
-    7: 'Voting page'
+    0: 'Yarışmalar',
+    1: 'Resmi haber gönderisi',
+    2: 'Başvuru',
+    3: 'Hazırlanıyor',
+    4: 'Oylama',
+    5: 'Bitti',
+    6: 'Yarışmalar',
+    7: 'Oylama sayfası'
   },
   rules: {
-    0: 'Last updated at',
-    1: 'Posting Skins Guidelines'
+    0: 'Son güncelleme',
+    1: 'Skin Paylaşım Kuralları'
   },
   skinini: {
-    0: 'Welcome to skin.ini editor!',
-    1: `New to the skin.ini editor? Let us guide you through the interface and show you the editor's full potential!`,
-    2: '{current} of {max} completed',
-    3: 'No results',
-    4: 'Your query may contain typos'
+    0: 'Skin.ini editörüne hoş geldiniz!',
+    1: `Skin.ini editörüne yeni misiniz? Arayüzde size rehberlik etmemize ve editörün tüm potansiyelini göstermemize izin verin!`,
+    2: '{current} dan {max} kadarı tamamlandı',
+    3: 'Sonuç yok',
+    4: 'Arama teriminiz yazım hatası içeriyor olabilir'
   },
   tabs: {
     0: 'Ara',
@@ -246,9 +246,9 @@ export default {
   settings: {
     0: 'Ayarlar',
     1: 'Mouse scroll',
-    2: 'Enable mouse hover swipe for image carousel, allowing left-to-right or right-to-left navigation.',
-    3: 'Zoom in',
-    4: 'Enable image zoom on hover for larger skin preview.'
+    2: 'Soldan sağa veya sağdan sola gezinmeye izin vererek resim karuseli için fareyle kaydırmayı etkinleştirin.',
+    3: 'Yakınlaştır',
+    4: 'Daha büyük skin önizlemesi için üzerine gelindiğinde görüntü yakınlaştırmayı etkinleştirin.'
   },
   meta: {
     title: {
@@ -266,9 +266,9 @@ export default {
       11: 'Etiket arayın',
       12: '{name} bulunan etiketler',
       13: 'Yeni skin',
-      14: 'Site rules',
-      15: 'osu! Contests',
-      16: 'osu! skinning tools'
+      14: 'Site kuralları',
+      15: 'osu! Yarışmaları',
+      16: 'osu! skin oluşturma araçları'
     },
     description: {
       0: 'Sitemizden en iyi osu! skinlerini edinin! Devasa kütüphanemizde tüm oyunmodlarına, çerçeve oranlarına hatta top playerlara ilişkin skinler bulabilirsin. Artı olarak anime fanlarına yönelik bi bölümümüz daha var. Mükemmel skininle birlikte oyununu bir adım ileri taşı. #osuskins #osugame #anime',
@@ -282,8 +282,8 @@ export default {
       8: 'All osu skins created by {name}',
       9: 'Sitemizde bir sonraki osu! skininin için ilham kaynağı bul. Çeşitli koleksiyonumuza göz atın ve yeni teknikler, fikirler edinin. İlham alarak kendinize özgün skinler yaratın.',
       10: 'Site içerisindeki etiketler arasından birini arayın.',
-      11: 'List of all active/finished osu! contests',
-      12: '{amount} entries for {title} contest. {views} views'
+      11: 'Tüm aktif/bitmiş osu! yarışmalarının listesi',
+      12: '{title} yarışmasına {amount} sayıda giriş. {views} görüntülenme'
     }
   },
   buttons: {
@@ -300,18 +300,18 @@ export default {
     reddit_link: 'Reddit',
     osu_forum_link: 'osu! Forum',
     skin_return: 'Skine dön',
-    source: 'Source',
-    contest_voting: 'Vote here',
-    rules_agree: 'I agree',
-    report_issue: 'Report issue',
-    ghost_creator: 'Ghost creator',
-    close: 'Close',
-    quick_select: 'Quick select'
+    source: 'Kaynak',
+    contest_voting: 'Burdan oy ver',
+    rules_agree: 'Katılıyorum',
+    report_issue: 'Sorun bildir',
+    ghost_creator: 'Hayalet yaratıcı',
+    close: 'Kapat',
+    quick_select: 'Hızlı Seçim'
   },
   choose: {
-    0: 'Optional',
-    1: 'Required',
-    2: 'Pick at least one option'
+    0: 'İsteğe bağlı',
+    1: 'Gerekli',
+    2: 'En az bir seçenek seçin'
   },
   user: {
     roles: {
@@ -335,18 +335,18 @@ export default {
     7: 'Kısa açıklama bulunamadı',
     8: 'Url bulunamadı',
     9: 'İndirmeler: {amount}',
-    10: 'Reset everything',
-    11: 'Show guide',
-    12: 'Close guide',
-    13: 'To mark a rule as read, hover over it (Yellow indicates unread)',
+    10: 'Her şeyi sıfırla',
+    11: 'Kılavuzu göster',
+    12: 'Kılavuzu kapat',
+    13: 'Bir kuralı okundu olarak işaretlemek için üzerine gelin (Sarı okunmadığını gösterir)',
     14: {
-      0: '[hl]{example}[/hl] - [b]equal[/b] to {amount}',
-      1: '[hl]{example}[/hl] - [b]above[/b] {amount}',
-      2: '[hl]{example}[/hl] - [b]below[/b] {amount}',
+      0: '[hl]{example}[/hl] - [b]eşittir[/b] {amount}',
+      1: '[hl]{example}[/hl] - [b]büyüktür[/b] {amount}',
+      2: '[hl]{example}[/hl] - [b]küçüktür[/b] {amount}',
       3: '[hl]{example}[/hl] - [b]from[/b] {amount} [b]to[/b] {amount_2}'
     },
-    15: 'Unselect',
-    16: 'Remove file'
+    15: 'Seçimi Kaldır',
+    16: 'Dosyayı kaldır'
   },
   lists: {
     screens: {
@@ -362,11 +362,11 @@ export default {
       9: 'Section Fail',
       10: 'Pause Screen',
       11: 'Fail Screen',
-      12: 'Result screen',
+      12: 'Result screen (yukarı)',
       13: 'Skip',
       14: 'Banner',
-      15: 'Result screen (bottom)',
-      16: 'Beginning image'
+      15: 'Sonuç ekranı (altta)',
+      16: 'Başlangıç resmi'
     },
     cats: {
       0: 'NSFW',
@@ -385,27 +385,27 @@ export default {
     7: 'Skin element',
     8: 'Audio/Sfx',
     9: 'Toollar',
-    10: 'Image',
+    10: 'Resim',
     views: 'Görüntülenme',
     likes: 'Beğeni',
     dislikes: 'Beğenmeme',
     downloads: 'İndirmeler',
     ratio: 'Çerçeve oranı seçin | ratio',
-    sorting: 'Desc. | Asc.'
+    sorting: 'Yüks. | Azal.'
   },
   sorting: {
-    0: 'Most | Least',
-    1: 'Most | Least',
-    2: 'Highest | Lowest',
-    3: 'Largest | Smallest',
-    4: 'Newest | Oldest',
+    0: 'En çok | En az',
+    1: 'En çok | En az',
+    2: 'En yüksek | En düşük',
+    3: 'En büyük | En küçük',
+    4: 'En yeni | En eski',
     5: 'A-Z | Z-A'
   },
   placeholders: {
     0: 'Rol seç',
     1: 'Sürüm seç',
     2: 'Bir metin girin...',
-    3: 'Select size range',
+    3: 'Boyut aralığı seçin',
     4: 'Tarih aralığı seçin',
     5: 'Yıl',
     6: 'Ay',
@@ -420,12 +420,12 @@ export default {
     15: 'Skinin adı, yaratıcısı ya da etiketi',
     16: 'Kategori seçin',
     17: 'Etiketin ismini yazın',
-    18: 'Type the name of the skin',
-    19: 'Type author name ',
-    20: 'Select file',
-    24: 'Type gameplay name...',
-    25: 'Type range',
-    26: 'Type text'
+    18: 'Skinin ismini yazın',
+    19: 'Yapımcı adını yazın',
+    20: 'Dosya seçin',
+    24: 'Oynanış adı yazın...',
+    25: 'Aralık girin',
+    26: 'Metin yazın'
   },
   contribute: { 0: 'Katkıda bulunun' },
   nsfw: {
@@ -481,7 +481,7 @@ export default {
     36: '«{name}» versiyonu silinmiş',
     37: 'Hata',
     38: 'Görüşüne göre sunucu sizin bir robot olduğunuza kanaat getirmiş.',
-    39: 'Your current login session has timed out. To proceed, please open a new page and log back into your account. Once you\'ve done that, return to this page and try again.',
+    39: 'Mevcut giriş oturumunuz zaman aşımına uğradı. Devam etmek için lütfen yeni bir sayfa açın ve hesabınıza tekrar giriş yapın. Bunu yaptıktan sonra bu sayfaya dönün ve tekrar deneyin.',
     40: 'Kimlik bilgileri uyuşmuyor (Hesabınıza tekrar giriş yapın. Merak etmene gerek yok, her şey otomatik olarak kaydedildi)',
     41: 'Bilinmeyen hata',
     42: 'Var olmayan bir skinde değişiklik yapamazsın',
@@ -490,17 +490,17 @@ export default {
     45: 'Bu değişiklikler zaten moderasyon için gönderilmiş',
     46: 'Başarılı',
     47: 'Moderasyon için yeni değişiklikler başarıyla gönderildi',
-    48: 'Changes have been updated in moderation',
+    48: 'Değişiklikler kontrollü olarak güncellendi',
     49: 'Garip link',
     50: 'Bu link bir indirme bağlantısı olarak kullanılamaz',
     51: 'Moderasyon için gönderildi',
     52: 'Uyarı',
-    53: 'You need to choose type of asset',
-    54: 'The skin is currently under moderation. Please be patient while it is being processed',
+    53: 'Asset türünü seçmeniz gerekir',
+    54: 'Skin şu anda moderasyon altında. Lütfen işlenirken sabırlı olun',
     55: 'Başarılı',
-    56: 'New ghost creator has been added',
-    57: 'Color copied',
-    58: `The RGB code "{color}" is now available through your clipboard!`
+    56: 'Yeni hayalet yaratıcı eklendi',
+    57: 'Renk kopyalandı',
+    58: `RGB kodu "{color}" şimdi panonuz aracılığıyla kullanılabilir!`
   },
   header: {
     0: 'Bildirimler',
@@ -513,11 +513,11 @@ export default {
     3: 'Bu sayfa henüz hazır değil.'
   },
   confirm: {
-    0: 'Reset everything?',
-    1: 'Show guide?',
-    2: 'Submit skin?',
-    3: 'Yes',
-    4: 'No',
-    5: 'Reset .ini?'
+    0: 'Her şeyi sıfırla?',
+    1: 'Kılavuzu göster?',
+    2: 'Skin gönder?',
+    3: 'Evet',
+    4: 'Hayır',
+    5: '.ini yi resetle?'
   }
 };
