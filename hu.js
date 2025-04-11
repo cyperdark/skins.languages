@@ -27,7 +27,7 @@ export default {
     2: 'Megnézett | Likeolt | Letöltött',
     3: 'Új skin közlése',
     4: 'Hogyan telepíts fel egy skint',
-    5: '{amount} Skins | {amount} Skins | {amount} Skins'
+    5: '{amount} Skinek | {amount} Skinek | {amount} Skinek '
   },
   changelogs: {
     0: 'Változi napló',
@@ -114,7 +114,7 @@ export default {
     11: 'Keresés',
     12: '{name} skinek',
     13: 'Skinek felfedezése',
-    14: 'Popular skins'
+    14: 'Népszerű skinek'
   },
   skin: {
     0: 'Szerkesztés',
@@ -152,16 +152,16 @@ export default {
     33: 'Kommentelj az osu! fórumon',
     34: 'Még több skin a készítőtöl | Még több skin a készítőktől',
     35: 'Skin támogatása',
-    36: 'Unavailable',
-    37: 'Unfortunately, this skin was deleted',
+    36: 'Nem elérhető',
+    37: 'Sajnos, ezt a skint letörölték',
     38: 'Welcome to the skin post editor!',
-    39: `New to the skin editor? Let us guide you through the interface and show you the editor's full potential!`,
+    39: `Új vagy a skin editorhoz? Engedd meg hogy körülvezessünk az interfacen, és megmutassuk az editor teljes potenciálját!`,
     40: '{current} of {max} completed',
-    41: 'Check out later',
-    42: `Let's get started`,
-    43: 'Congratulations!',
-    44: 'You have successfully finished the tutorial, have fun!',
-    45: 'uploader'
+    41: 'Nézz rá később',
+    42: `Kezdjünk bele`,
+    43: 'Gratulálunk!',
+    44: 'Sikeresen befejezted a tutorial-t, jó szórakozást!',
+    45: 'feltöltő'
   },
   drag: {
     0: 'Kattints ide',
@@ -170,7 +170,7 @@ export default {
   footer: {
     0: 'cyperdark készítette',
     1: 'Készítők',
-    2: 'Rules',
+    2: 'Szabályok',
     3: 'Contacts'
   },
   credits: {
@@ -204,30 +204,30 @@ export default {
       3: 'Listák'
     },
     14: 'Keresés:',
-    15: 'Size:',
-    16: 'Rating:',
-    17: 'Views:',
-    18: 'Downloads:'
+    15: 'Méret:',
+    16: 'Értékelés:',
+    17: 'Megtekintések:',
+    18: 'Letöltések:'
   },
   contests: {
-    0: 'Contests',
+    0: 'Versenyek',
     1: 'Official newspost',
     2: 'Submission',
-    3: 'Preparing',
-    4: 'Voting',
-    5: 'Finished',
-    6: 'Contests',
-    7: 'Voting page'
+    3: 'Előkészülés',
+    4: 'Szavazás',
+    5: 'Kész',
+    6: 'Versenyek',
+    7: 'Szavazó oldal'
   },
   rules: {
-    0: 'Last updated at',
+    0: 'Utoljára frissítve',
     1: 'Posting Skins Guidelines'
   },
   skinini: {
-    0: 'Welcome to skin.ini editor!',
-    1: `New to the skin.ini editor? Let us guide you through the interface and show you the editor's full potential!`,
+    0: 'Köszöntelek a skin.ini editorban!',
+    1: `Új vagy a skin.ini editorjához? Engedd meg hogy körülvezessünk az interfacen, és megmutassuk az editor teljes potenciálját!`,
     2: '{current} of {max} completed',
-    3: 'No results',
+    3: 'Nincs találat',
     4: 'Your query may contain typos'
   },
   tabs: {
@@ -245,9 +245,9 @@ export default {
   },
   settings: {
     0: 'Beállítások',
-    1: 'Mouse scroll',
+    1: 'Egér görgetés',
     2: 'Enable mouse hover swipe for image carousel, allowing left-to-right or right-to-left navigation.',
-    3: 'Zoom in',
+    3: 'Nagyítás',
     4: 'Enable image zoom on hover for larger skin preview.'
   },
   meta: {
@@ -266,9 +266,9 @@ export default {
       11: 'Címkék keresése',
       12: '{name} talált címkék',
       13: 'Új skin',
-      14: 'Site rules',
-      15: 'osu! Contests',
-      16: 'osu! skinning tools'
+      14: 'Oldal szabályok',
+      15: 'osu! Versenyek',
+      16: 'osu! skinning eszközök'
     },
     description: {
       0: 'Szerezd meg a legjobb osu! skineket az oldalunkon! A hatalmas választékunkban találhatsz skin-eket minden játékmódhoz és képarányhoz, emellett a legjobb játékosok skin-jeit is letöltheted. Továbbá van egy külön részünk anime rajongók számára. Emeld új szintre a játék elményedet a neked tökéletes skin-nel. #osuskins #osugame #anime',
@@ -282,7 +282,7 @@ export default {
       8: '{name} által létrehozott összes skin',
       9: 'Merítsél ihletet a következő osu skin-edhez oldalunkon. Böngésszél a skin-ek változatos gyűjteményében, és fedezzél fel új technikákat és ötleteket. Merítsél ihletet, és készítsd el saját egyedi skin-edet.',
       10: 'Search for tags among all the tags on the site.',
-      11: 'List of all active/finished osu! contests',
+      11: 'Lista az aktív/befejezett osu! versenyekről',
       12: '{amount} entries for {title} contest. {views} views'
     }
   },
@@ -300,9 +300,9 @@ export default {
     reddit_link: 'Reddit',
     osu_forum_link: 'osu! Fórum',
     skin_return: 'Vissza a skin-hez',
-    source: 'Source',
-    contest_voting: 'Vote here',
-    rules_agree: 'I agree',
+    source: 'Forrás',
+    contest_voting: 'Itt szavazz',
+    rules_agree: 'Elfogadom',
     report_issue: 'Report issue',
     ghost_creator: 'Ghost creator',
     close: 'Close',

@@ -95,9 +95,9 @@ export default {
     22: 'Daftar cek',
     23: 'Tambahkan setidaknya satu versi publik',
     24: 'Tambahkan setidaknya satu pembuat untuk versi ini',
-    25: 'Some creators don\'t have roles',
+    25: 'Beberapa pembuat tidak mempunyai peran',
     26: '{amount} screenshot tidak memiliki kategori',
-    28: 'Select gamemode for gameplay screenshots'
+    28: 'Pilih mode permainan untuk tangkapan layar gameplay'
   },
   skins: {
     0: 'Skin',
@@ -114,7 +114,7 @@ export default {
     11: 'Cari',
     12: '{name} skin',
     13: 'Temukan skin',
-    14: 'Popular skins'
+    14: 'Skin populer'
   },
   skin: {
     0: 'Edit',
@@ -153,7 +153,7 @@ export default {
     34: 'Lebih banyak skin dari pembuat | Lebih banyak skin dari pembuat',
     35: 'Dukung skin ini',
     36: 'Tidak tersedia',
-    37: 'Unfortunately, this skin was deleted',
+    37: 'Sayangnya, skin ini telah dihapus',
     38: 'Selamat datang di skin post editor!',
     39: `Baru saja memakai skin editor?, Kami akan memberikan tutorial dan memperlihatkan potensi penuh editor!`,
     40: '{current} dari {max} telah terselesaikan',
@@ -161,7 +161,7 @@ export default {
     42: `Mari kita mulai`,
     43: 'Selamat!',
     44: 'Kamu telah sukses menamatkan tutorial, have fun!',
-    45: 'uploader'
+    45: 'pengunggah'
   },
   drag: {
     0: 'Klik disini',
@@ -204,10 +204,10 @@ export default {
       3: 'Daftar'
     },
     14: 'Cari:',
-    15: 'Size:',
-    16: 'Rating:',
-    17: 'Views:',
-    18: 'Downloads:'
+    15: 'Ukuran:',
+    16: 'Penilaian:',
+    17: 'Dilihat:',
+    18: 'Unduh:'
   },
   contests: {
     0: 'Kontes',
@@ -217,18 +217,18 @@ export default {
     4: 'Pemungutan suara',
     5: 'Diselesaikan',
     6: 'Kontes',
-    7: 'Voting page'
+    7: 'Halaman pemungutan suara'
   },
   rules: {
     0: 'Terakhir diperbarui pada',
-    1: 'Posting Skins Guidelines'
+    1: 'Posting Panduan Skin'
   },
   skinini: {
-    0: 'Welcome to skin.ini editor!',
-    1: `New to the skin.ini editor? Let us guide you through the interface and show you the editor's full potential!`,
+    0: 'Selamat datang di editor skin.ini!',
+    1: `Baru saja memakai editor skin.ini?, Kami akan memberikan tutorial dan memperlihatkan potensi penuh editor!`,
     2: '{current} dari {max} telah terselesaikan',
-    3: 'No results',
-    4: 'Your query may contain typos'
+    3: 'Tidak ada hasil',
+    4: 'Pencarianmu mungkin ada yang salah ketik'
   },
   tabs: {
     0: 'Cari',
@@ -246,9 +246,9 @@ export default {
   settings: {
     0: 'Pengaturan',
     1: 'Mouse scroll',
-    2: 'Enable mouse hover swipe for image carousel, allowing left-to-right or right-to-left navigation.',
-    3: 'Zoom in',
-    4: 'Enable image zoom on hover for larger skin preview.'
+    2: 'Aktifkan mouse hover swipe untuk korsel gambar, memungkinkan navigasi kiri-ke-kanan atau kanan-ke-kiri.',
+    3: 'Perbesar',
+    4: 'Aktifkan pembesar foto saat hover untuk pratinjau skin yang lebih besar.'
   },
   meta: {
     title: {
@@ -268,7 +268,7 @@ export default {
       13: 'Skin baru',
       14: 'Peraturan',
       15: 'Kontes osu!',
-      16: 'osu! skinning tools'
+      16: 'Alat pembuatan skin osu!'
     },
     description: {
       0: 'Dapatkan skin osu! terbaik di website kami! Kami menyediakan berbagai skin untuk berbagai macam mode, aspek rasio, dan dari player ternama. Oh ya! Kami juga menyediakan khusus bagi user yang menyukai anime untuk mencari skin yang mengandung karakter atau anime. Kembangkan pengalaman bermain osu! mu dengan skin terbaik!! #osuskins #osugame #anime',
@@ -303,10 +303,10 @@ export default {
     source: 'Source',
     contest_voting: 'Vote di sini',
     rules_agree: 'Aku setuju',
-    report_issue: 'Report issue',
+    report_issue: 'Laporkan masalah',
     ghost_creator: 'Ghost creator',
-    close: 'Close',
-    quick_select: 'Quick select'
+    close: 'Tutup',
+    quick_select: 'Pilih cepat'
   },
   choose: {
     0: 'Opsional',
@@ -345,8 +345,8 @@ export default {
       2: '[hl]{example}[/hl] - [b]below[/b] {amount}',
       3: '[hl]{example}[/hl] - [b]from[/b] {amount} [b]to[/b] {amount_2}'
     },
-    15: 'Unselect',
-    16: 'Remove file'
+    15: 'Batal pilih',
+    16: 'Hapus file'
   },
   lists: {
     screens: {
@@ -391,21 +391,21 @@ export default {
     dislikes: 'Tidak suka',
     downloads: 'Unduh',
     ratio: 'Pilih aspek rasio | rasio',
-    sorting: 'Desc. | Asc.'
+    sorting: 'Menurun | Menaik'
   },
   sorting: {
-    0: 'Most | Least',
-    1: 'Most | Least',
-    2: 'Highest | Lowest',
-    3: 'Largest | Smallest',
-    4: 'Newest | Oldest',
+    0: 'Terbanyak | Tersedikit',
+    1: 'Terbanyak | Tersedikit',
+    2: 'Tertinggi | Terendah',
+    3: 'Terbesar | Terkecil',
+    4: 'Terbaru | Terlama',
     5: 'A-Z | Z-A'
   },
   placeholders: {
     0: 'Pilih peran',
     1: 'Pilih versi',
     2: 'Ketikan sesuatu...',
-    3: 'Select size range',
+    3: 'Pilih rentang ukuran',
     4: 'Pilih rentang tanggal',
     5: 'Tahun',
     6: 'Bulan',
@@ -420,12 +420,12 @@ export default {
     15: 'Judul, pembuat, atau label skin',
     16: 'Pilih kategori',
     17: 'Ketik nama dari label',
-    18: 'Type the name of the skin',
-    19: 'Type author name ',
-    20: 'Select file',
-    24: 'Type gameplay name...',
-    25: 'Type range',
-    26: 'Type text'
+    18: 'Masukan nama skin',
+    19: 'Masukan nama pembuat ',
+    20: 'Pilih file',
+    24: 'Masukan nama gemeplay...',
+    25: 'Masukan rentang',
+    26: 'Masukan teks'
   },
   contribute: { 0: 'Kontribusi' },
   nsfw: {
@@ -482,7 +482,7 @@ export default {
     37: 'Eror',
     38: 'Rupanya server menganggap anda robot.',
     39: 'Sesi login kamu telah habis. untuk melanjutkan, mohon untuk membuka laman baru dan masuk kembali ke akunmu. Setelah itu, kembali ke laman ini dah coba lagi.',
-    40: 'Mismatched credentials (relogin in account. Don\'t worry, everything was saved automatically)',
+    40: 'Kredensial tidak cocok (masuk kembali ke akun. Jangan khawatir, semuanya tersimpan secara otomatis)',
     41: 'Kesalahan tidak diketahui',
     42: 'Kamu tidak dapat mengedit skin yang tidak ada',
     43: 'Sepertinya kamu tidak memiliki izin untuk mengedit skin ini',
@@ -499,8 +499,8 @@ export default {
     54: 'Skin ini sedang di moderasi. Harap bersabar selagi skinnya di proses',
     55: 'Sukses',
     56: 'New ghost creator has been added',
-    57: 'Color copied',
-    58: `The RGB code "{color}" is now available through your clipboard!`
+    57: 'Warna disalin',
+    58: `Warna RGB "{color}" sekarang tersedia di papan klip!`
   },
   header: {
     0: 'Notifikasi',
@@ -514,10 +514,10 @@ export default {
   },
   confirm: {
     0: 'Reset semuanya?',
-    1: 'Show guide?',
+    1: 'Lihat panduan?',
     2: 'Kirim skin?',
     3: 'Iya',
     4: 'Tidak',
-    5: 'Reset .ini?'
+    5: 'Atur ulang .ini?'
   }
 };
