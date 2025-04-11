@@ -95,9 +95,9 @@ export default {
     22: '检查清单',
     23: '添加至少一个公开版本',
     24: '为此版本添加至少一个创作者',
-    25: 'Some creators don\'t have roles',
+    25: '部分创作者没有角色',
     26: '{amount} 个截图没有分类',
-    28: 'Select gamemode for gameplay screenshots'
+    28: '选择截图的游戏模式'
   },
   skins: {
     0: '皮肤',
@@ -114,7 +114,7 @@ export default {
     11: '搜索',
     12: '{name} 皮肤',
     13: '探索皮肤',
-    14: 'Popular skins'
+    14: '热门皮肤'
   },
   skin: {
     0: '编辑',
@@ -153,7 +153,7 @@ export default {
     34: '来自该作者的更多皮肤 | 来自该作者的更多皮肤',
     35: '支持该皮肤',
     36: '不可用',
-    37: 'Unfortunately, this skin was deleted',
+    37: '很抱歉，此皮肤已被删除',
     38: '欢迎来到皮肤帖子编辑器！',
     39: `初次使用皮肤编辑器？让我们通过界面引导并向您展示编辑器的全部内容！`,
     40: '已完成 {current} / {max}',
@@ -204,31 +204,31 @@ export default {
       3: '列表'
     },
     14: '搜索：',
-    15: 'Size:',
-    16: 'Rating:',
-    17: 'Views:',
-    18: 'Downloads:'
+    15: '大小：',
+    16: '评分：',
+    17: '浏览量：',
+    18: '下载次数：'
   },
   contests: {
     0: '比赛',
     1: '官方新闻',
-    2: 'Submission',
+    2: '提交',
     3: '准备中',
     4: '投票中',
     5: '已结束',
     6: '比赛',
-    7: 'Voting page'
+    7: '投票页'
   },
   rules: {
     0: '最后更新于',
     1: '皮肤发布指引'
   },
   skinini: {
-    0: 'Welcome to skin.ini editor!',
-    1: `New to the skin.ini editor? Let us guide you through the interface and show you the editor's full potential!`,
+    0: '欢迎使用 skin.ini 编辑器！',
+    1: `初次使用 skin.ini 编辑器？让我们通过界面引导并向您展示编辑器的全部内容！`,
     2: '已完成 {current} / {max}',
-    3: 'No results',
-    4: 'Your query may contain typos'
+    3: '无结果',
+    4: '您的查询可能包含笔误'
   },
   tabs: {
     0: '搜索',
@@ -245,10 +245,10 @@ export default {
   },
   settings: {
     0: '设置',
-    1: 'Mouse scroll',
-    2: 'Enable mouse hover swipe for image carousel, allowing left-to-right or right-to-left navigation.',
-    3: 'Zoom in',
-    4: 'Enable image zoom on hover for larger skin preview.'
+    1: '鼠标滚轮操作',
+    2: '鼠标悬停在轮播图片上时，允许通过滚动滚轮左右浏览。',
+    3: '放大',
+    4: '悬停在皮肤图片上时允许放大预览。'
   },
   meta: {
     title: {
@@ -303,10 +303,10 @@ export default {
     source: '来源',
     contest_voting: '投票',
     rules_agree: '我同意',
-    report_issue: 'Report issue',
+    report_issue: '报告问题',
     ghost_creator: 'Ghost creator',
-    close: 'Close',
-    quick_select: 'Quick select'
+    close: '关闭',
+    quick_select: '快速选择'
   },
   choose: {
     0: '可选',
@@ -345,8 +345,8 @@ export default {
       2: '[hl]{example}[/hl] - [b]below[/b] {amount}',
       3: '[hl]{example}[/hl] - [b]from[/b] {amount} [b]to[/b] {amount_2}'
     },
-    15: 'Unselect',
-    16: 'Remove file'
+    15: '取消选择',
+    16: '删除文件'
   },
   lists: {
     screens: {
@@ -366,7 +366,7 @@ export default {
       13: '跳过',
       14: '横幅',
       15: '结算画面（下半部分）',
-      16: 'Beginning image'
+      16: '标题图片'
     },
     cats: {
       0: 'NSFW',
@@ -391,21 +391,21 @@ export default {
     dislikes: '不喜欢',
     downloads: '下载',
     ratio: '选择宽高比',
-    sorting: 'Desc. | Asc.'
+    sorting: '降序 | 升序'
   },
   sorting: {
-    0: 'Most | Least',
-    1: 'Most | Least',
-    2: 'Highest | Lowest',
-    3: 'Largest | Smallest',
-    4: 'Newest | Oldest',
+    0: '最多 | 最少',
+    1: '最多 | 最少',
+    2: '最高 | 最低',
+    3: '最大 | 最小',
+    4: '最新 | 最旧',
     5: 'A-Z | Z-A'
   },
   placeholders: {
     0: '选择角色',
     1: '选择版本',
     2: '输入文本……',
-    3: 'Select size range',
+    3: '选择大小范围',
     4: '选择日期范围',
     5: '年',
     6: '月',
@@ -420,9 +420,9 @@ export default {
     15: '皮肤标题、作者或标签',
     16: '选择类别',
     17: '输入标签名称',
-    18: 'Type the name of the skin',
-    19: 'Type author name ',
-    20: 'Select file',
+    18: '输入皮肤名称',
+    19: '输入作者名称',
+    20: '选择文件',
     24: 'Type gameplay name...',
     25: 'Type range',
     26: 'Type text'
@@ -453,9 +453,9 @@ export default {
     8: '未找到视频的 ID，请尝试另一个链接（目前仅支持 YouTube）',
     9: '糟糕',
     10: '您的会话似乎已过期，请打开一个新页面并登录您的账户（不必担心，所有内容都已自动保存）',
-    11: 'Exists',
+    11: '存在',
     12: '此视频已添加',
-    13: 'Exists',
+    13: '存在',
     14: '此标签已添加',
     15: '未找到',
     16: '您不能删除一个已被删除的标签',
@@ -499,8 +499,8 @@ export default {
     54: '此皮肤目前正在进行审核。完成前请耐心等待',
     55: '成功',
     56: 'New ghost creator has been added',
-    57: 'Color copied',
-    58: `The RGB code "{color}" is now available through your clipboard!`
+    57: '已复制颜色',
+    58: `RGB 代码“{color}”已复制到剪贴板！`
   },
   header: {
     0: '通知',
@@ -518,6 +518,6 @@ export default {
     2: '要提交皮肤吗？',
     3: '是',
     4: '否',
-    5: 'Reset .ini?'
+    5: '要重置 .ini 吗？'
   }
 };
