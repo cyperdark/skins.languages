@@ -95,9 +95,9 @@ export default {
     22: 'Checklista',
     23: 'Lägg till minst en offentlig version',
     24: 'Lägg till minst en skapare till denna version',
-    25: 'Some creators don\'t have roles',
-    26: '{amount} screenshots doesn\'t have category',
-    28: 'Select gamemode for gameplay screenshots'
+    25: 'Vissa skapare har inte roller',
+    26: '{amount} skärmdumpar har inte en kategori',
+    28: 'Välj spelläge för spelskärmdumpar'
   },
   skins: {
     0: 'Skins',
@@ -114,7 +114,7 @@ export default {
     11: 'Sök efter',
     12: '{name} skins',
     13: 'Utforska Skins',
-    14: 'Popular skins'
+    14: 'Populära skins'
   },
   skin: {
     0: 'Redigera',
@@ -152,16 +152,16 @@ export default {
     33: 'Kommentera på osu! forumet',
     34: 'Fler skins från denna skapare | Fler skins från dessa skapare',
     35: 'Stötta skin',
-    36: 'Unavailable',
-    37: 'Unfortunately, this skin was deleted',
-    38: 'Welcome to the skin post editor!',
-    39: `New to the skin editor? Let us guide you through the interface and show you the editor's full potential!`,
-    40: '{current} of {max} completed',
-    41: 'Check out later',
-    42: `Let's get started`,
-    43: 'Congratulations!',
-    44: 'You have successfully finished the tutorial, have fun!',
-    45: 'uploader'
+    36: 'Otillgängligt',
+    37: 'Detta skin är borttaget',
+    38: 'Välkommen till skin inläggs redigeraren!',
+    39: `Ny till skin redigeraren? Vi guidar dig genom gränssnittet och visar dig redigerarens fulla potential!`,
+    40: '{current} av {max} färdigt',
+    41: 'Kolla in senare',
+    42: `Nu börjar vi`,
+    43: 'Gratis!',
+    44: 'Du är klar med guiden, ha det så roligt!',
+    45: 'uppladdare'
   },
   drag: {
     0: 'Klicka här',
@@ -170,8 +170,8 @@ export default {
   footer: {
     0: 'Gjord av Cyperdark',
     1: 'Medverkande',
-    2: 'Rules',
-    3: 'Contacts'
+    2: 'Regler',
+    3: 'Kontakter'
   },
   credits: {
     0: 'Chibi',
@@ -204,31 +204,31 @@ export default {
       3: 'Listor'
     },
     14: 'Sök:',
-    15: 'Size:',
-    16: 'Rating:',
-    17: 'Views:',
-    18: 'Downloads:'
+    15: 'Storlek:',
+    16: 'Betyg:',
+    17: 'Visningar:',
+    18: 'Nerladdningar:'
   },
   contests: {
-    0: 'Contests',
-    1: 'Official newspost',
-    2: 'Submission',
-    3: 'Preparing',
-    4: 'Voting',
-    5: 'Finished',
-    6: 'Contests',
-    7: 'Voting page'
+    0: 'Tävlingar',
+    1: 'Officiell kostnad',
+    2: 'Inlämning',
+    3: 'Förbereder',
+    4: 'Röstning',
+    5: 'Slutförd',
+    6: 'Tävlingar',
+    7: 'Röstsida'
   },
   rules: {
-    0: 'Last updated at',
-    1: 'Posting Skins Guidelines'
+    0: 'Uppdaterades senast',
+    1: 'Riktlinjer för inlägg av utseenden'
   },
   skinini: {
-    0: 'Welcome to skin.ini editor!',
-    1: `New to the skin.ini editor? Let us guide you through the interface and show you the editor's full potential!`,
-    2: '{current} of {max} completed',
-    3: 'No results',
-    4: 'Your query may contain typos'
+    0: 'Välkommen till skin.ini redigeraren!',
+    1: `Ny till skin.ini redigeraren? Då så ska vi lära dig gränssnittet och vissa dig redigerarens fulla potential!`,
+    2: '{current} av {max} färdigt',
+    3: 'Inga resultat',
+    4: 'Din fråga kan innehålla stavfel'
   },
   tabs: {
     0: 'Sök efter',
@@ -245,10 +245,10 @@ export default {
   },
   settings: {
     0: 'Inställningar',
-    1: 'Mouse scroll',
-    2: 'Enable mouse hover swipe for image carousel, allowing left-to-right or right-to-left navigation.',
-    3: 'Zoom in',
-    4: 'Enable image zoom on hover for larger skin preview.'
+    1: 'Musbläddring',
+    2: 'Aktivera musen svep för bildkarusell, vilket tillåter vänster till höger eller höger till vänster.',
+    3: 'Zooma in',
+    4: 'Aktivera bildzoom vid hovring för större skalförhandsgranskning.'
   },
   meta: {
     title: {
@@ -266,9 +266,9 @@ export default {
       11: 'Sök taggar',
       12: '{name} hittade taggar',
       13: 'Nytt skin',
-      14: 'Site rules',
-      15: 'osu! Contests',
-      16: 'osu! skinning tools'
+      14: 'Webbplats regler',
+      15: 'osu! Tävlingar',
+      16: 'osu! Skin verktyg'
     },
     description: {
       0: 'Få det bästa osu! skinnen på våran sida! Vårat stora urval innehåller skinn för alla spellägen, bildförhållanden, och även toppspelare. Plus, vi har även en special avdelning för anime fans. Förbättra ditt gameplay med det perfekta skinnet. #osuskins #osugame #anime',
@@ -282,8 +282,8 @@ export default {
       8: 'Alla osu skins skapade av {name}',
       9: 'Hitta inspiration för ditt nästa osu! skin på vår sida. Sök genom en varierad samling av skins och hitta nya tekniker och idéer. Bli inspirerad och skapa dina egna unika skins.',
       10: 'Sök efter taggar bland alla taggar på webbplatsen.',
-      11: 'List of all active/finished osu! contests',
-      12: '{amount} entries for {title} contest. {views} views'
+      11: 'Lista över alla aktiva/avslutade osu! tävlingar',
+      12: '{amount} tävlande för {title} tävlingen. {views} visningar'
     }
   },
   buttons: {
@@ -300,18 +300,18 @@ export default {
     reddit_link: 'Reddit',
     osu_forum_link: 'osu! Forum',
     skin_return: 'Tillbaka till skin',
-    source: 'Source',
-    contest_voting: 'Vote here',
-    rules_agree: 'I agree',
-    report_issue: 'Report issue',
-    ghost_creator: 'Ghost creator',
-    close: 'Close',
-    quick_select: 'Quick select'
+    source: 'Källa',
+    contest_voting: 'Rösta här',
+    rules_agree: 'Jag samtycker',
+    report_issue: 'Rapportera ett problem',
+    ghost_creator: 'Ghost skapare',
+    close: 'Stäng',
+    quick_select: 'Snabbval'
   },
   choose: {
-    0: 'Optional',
-    1: 'Required',
-    2: 'Pick at least one option'
+    0: 'Valfritt',
+    1: 'Obligatoriskt',
+    2: 'Välj minst ett alternativ'
   },
   user: {
     roles: {
@@ -335,18 +335,18 @@ export default {
     7: 'Ingen kort beskrivning',
     8: 'Ingen url',
     9: 'Nedladdningar: {amount}',
-    10: 'Reset everything',
-    11: 'Show guide',
-    12: 'Close guide',
-    13: 'To mark a rule as read, hover over it (Yellow indicates unread)',
+    10: 'Återställ allt',
+    11: 'Visa guide',
+    12: 'Stäng guide',
+    13: 'För att markera en regel som läst, sväva över den (Gul indikerar oläst)',
     14: {
-      0: '[hl]{example}[/hl] - [b]equal[/b] to {amount}',
-      1: '[hl]{example}[/hl] - [b]above[/b] {amount}',
-      2: '[hl]{example}[/hl] - [b]below[/b] {amount}',
-      3: '[hl]{example}[/hl] - [b]from[/b] {amount} [b]to[/b] {amount_2}'
+      0: '[hl]{example}[/hl] - [b]lika[/b] till {amount}',
+      1: '[hl]{example}[/hl] - [b]över[/b] {amount}',
+      2: '[hl]{example}[/hl] - [b]under[/b] {amount}',
+      3: '[hl]{example}[/hl] - [b]från[/b] {amount} [b]till[/b] {amount_2}'
     },
-    15: 'Unselect',
-    16: 'Remove file'
+    15: 'Avmarkera',
+    16: 'Ta bort fil'
   },
   lists: {
     screens: {
@@ -365,8 +365,8 @@ export default {
       12: 'Resultatskärm',
       13: 'Skippa',
       14: 'Banner',
-      15: 'Result screen (bottom)',
-      16: 'Beginning image'
+      15: 'Resultatskärm (nederst)',
+      16: 'Börjar bild'
     },
     cats: {
       0: 'NSFW',
@@ -385,7 +385,7 @@ export default {
     7: 'Skin element',
     8: 'Ljud/Sfx',
     9: 'Verktyg',
-    10: 'Image',
+    10: 'Bild',
     views: 'Visningar',
     likes: 'Gillar',
     dislikes: 'Ogillar',
@@ -394,18 +394,18 @@ export default {
     sorting: 'Desc. | Asc.'
   },
   sorting: {
-    0: 'Most | Least',
-    1: 'Most | Least',
-    2: 'Highest | Lowest',
-    3: 'Largest | Smallest',
-    4: 'Newest | Oldest',
+    0: 'Mest, minst',
+    1: 'Mest, minst',
+    2: 'Högsta, Lägsta',
+    3: 'Största, Minsta',
+    4: 'Nyaste, Äldsta',
     5: 'A-Z | Z-A'
   },
   placeholders: {
     0: 'Välj roller',
     1: 'Välj versioner',
     2: 'Skriv in text...',
-    3: 'Select size range',
+    3: 'Välj storleksområde',
     4: 'Välj datumspann',
     5: 'År',
     6: 'Månad',
@@ -420,9 +420,9 @@ export default {
     15: 'Skin titel, författare eller taggar',
     16: 'Välj kategori',
     17: 'Skriv namnet på taggen',
-    18: 'Type the name of the skin',
-    19: 'Type author name ',
-    20: 'Select file',
+    18: 'Skriv ett namn på skinnet',
+    19: 'Skriv författarens namn ',
+    20: 'Välj fil',
     24: 'Type gameplay name...',
     25: 'Type range',
     26: 'Type text'
