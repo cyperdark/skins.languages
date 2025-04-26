@@ -97,7 +97,7 @@ export default {
     24: 'このバージョンに少なくとも1人の作成者を追加してください',
     25: '一部のクリエイターにロールがありません',
     26: '{amount} つのスクリーンショットにはカテゴリがありません',
-    28: 'Select gamemode for gameplay screenshots'
+    28: 'スクリーンショット(ゲームプレイ)のゲームモードを選択してください'
   },
   skins: {
     0: 'スキン',
@@ -110,7 +110,7 @@ export default {
     7: 'アスペクト比',
     8: '全スキン | osu スキン',
     9: 'Skin | Skins | Skins',
-    10: '{name} によるosu スキン | から 全てのスキン',
+    10: '{name}によるスキン  | All skins from',
     11: '検索',
     12: '{name} スキン',
     13: 'スキンを探す',
@@ -225,7 +225,7 @@ export default {
   },
   skinini: {
     0: 'skin.iniエディタへようこそ！',
-    1: `New to the skin.ini editor? Let us guide you through the interface and show you the editor's full potential!`,
+    1: `新しいskin.ini エディターは初めてですか？インターフェースをご案内し、エディターの可能性を最大限にご紹介します！`,
     2: '{current} / {max} 完了',
     3: '一致する項目はありません',
     4: '検索ワードに誤りがあるようです'
@@ -246,7 +246,7 @@ export default {
   settings: {
     0: '設定',
     1: 'マウススクロール',
-    2: 'Enable mouse hover swipe for image carousel, allowing left-to-right or right-to-left navigation.',
+    2: '画像に対してマウスホバーのスワイプを有効にし、左から右へまたは右から左へのナビゲーションを可能にする。',
     3: '拡大',
     4: 'マウスを画像上にホバーさせることで画像を拡大します。'
   },
@@ -304,7 +304,7 @@ export default {
     contest_voting: '投票する',
     rules_agree: '同意します',
     report_issue: '問題を報告する',
-    ghost_creator: 'Ghost creator',
+    ghost_creator: 'Ghost Creator',
     close: '閉じる',
     quick_select: 'クイック選択'
   },
@@ -340,10 +340,10 @@ export default {
     12: 'ガイドを閉じる',
     13: 'ルールを既読としてマークするには、その上にカーソルを合わせます(黄色は未読を示します)',
     14: {
-      0: '[hl]{example}[/hl] - [b]equal[/b] to {amount}',
-      1: '[hl]{example}[/hl] - [b]above[/b] {amount}',
-      2: '[hl]{example}[/hl] - [b]below[/b] {amount}',
-      3: '[hl]{example}[/hl] - [b]from[/b] {amount} [b]to[/b] {amount_2}'
+      0: '[hl]{example}[/hl] - {amount}',
+      1: '[hl]{example}[/hl] - {amount} [b]以上[/b]',
+      2: '[hl]{example}[/hl] - {amount} [b]未満[/b]',
+      3: '[hl]{example}[/hl] - {amount} [b]から[/b] {amount_2} [b]まで[/b]'
     },
     15: '選択解除',
     16: 'ファイルを削除する\n'
@@ -394,11 +394,11 @@ export default {
     sorting: '降順 | 昇順'
   },
   sorting: {
-    0: 'Most | Least',
-    1: 'Most | Least',
-    2: 'Highest | Lowest',
-    3: 'Largest | Smallest',
-    4: 'Newest | Oldest',
+    0: '最も多い | 最も少ない',
+    1: '最も多い | 最も少ない',
+    2: '最も高い | 最も低い',
+    3: '最も大きい | 最も小さい',
+    4: '最も新しい | 最も古い',
     5: 'A-Z | Z-A'
   },
   placeholders: {
@@ -423,9 +423,9 @@ export default {
     18: 'スキンの名前を入力してください',
     19: '作成者の名前を入力してください',
     20: 'ファイルを選択してください',
-    24: 'Type gameplay name...',
-    25: 'Type range',
-    26: 'Type text'
+    24: 'ゲームプレイの名前を入力...',
+    25: '範囲を入力',
+    26: 'テキストを入力'
   },
   contribute: { 0: '貢献する' },
   nsfw: {
@@ -498,9 +498,9 @@ export default {
     53: 'アセットの種類を選択する必要があります',
     54: 'スキンは現在確認中です。処理が完了するまでしばらくお待ちください。',
     55: '成功',
-    56: 'New ghost creator has been added',
+    56: '新しいゴースト作成者が追加されました',
     57: 'カラーをコピーしました',
-    58: `The RGB code "{color}" is now available through your clipboard!`
+    58: `RGBコード"{color}"がクリップボードから利用できるようになりました！`
   },
   header: {
     0: '通知',
