@@ -366,7 +366,7 @@ export default {
       13: 'Überspringen',
       14: 'Banner',
       15: '"Ergebnis" Screen (unten)',
-      16: 'Startbild'
+      16: 'Angepinnte Bilder'
     },
     cats: {
       0: 'NSFW',
