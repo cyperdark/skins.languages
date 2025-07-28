@@ -6,7 +6,7 @@ export default {
     tags: {
       0: 'Tägit',
       1: '{amount} tägiä kategoriassa {name}',
-      2: 'Hae tagilla'
+      2: 'Hae tägejä'
     },
     ideas: {
       0: 'Inspiraatio',
@@ -17,13 +17,13 @@ export default {
     extend: { 0: 'Enemmän | Vähemmän' },
     skin: {
       0: 'Tässä skinissä on käytetty tiedostoja muista skineistä',
-      1: 'Klikkaa tästä saadaksesi lisää tietoa'
+      1: 'Napsauta tästä saadaksesi lisätietoja'
     },
     tools: 'Työkalut'
   },
   home: {
     0: 'Valmiina ladattavaksi',
-    1: 'Eniten: _name_ skins',
+    1: 'Eniten: _name_ skinit',
     2: 'Katsotut | Tykätyt | Ladatut',
     3: 'Julkaise uusi skini',
     4: 'Miten asentaa skini',
@@ -95,9 +95,9 @@ export default {
     22: 'Tarkistuslista',
     23: 'Lisää vähintään yksi julkinen versio',
     24: 'Lisää tähän versioon vähintään yksi tekijä',
-    25: 'Some creators don\'t have roles',
+    25: 'Joillakin tekijöillä ei ole rooleja',
     26: '{amount} kuvakaappauksella ei ole kategoriaa',
-    28: 'Select gamemode for gameplay screenshots'
+    28: 'Valitse pelimuoto nähdäksesi näyttökuvia pelistä'
   },
   skins: {
     0: 'Skinit',
@@ -114,7 +114,7 @@ export default {
     11: 'Haku',
     12: '{name} skinit',
     13: 'Tutki skinejä',
-    14: 'Popular skins'
+    14: 'Suositut skinit'
   },
   skin: {
     0: 'Muuta',
@@ -153,10 +153,10 @@ export default {
     34: 'Lisää skinejä tältä tekijältä | Lisää skinejä näiltä tekijöiltä',
     35: 'Tue skiniä',
     36: 'Ei saatavilla',
-    37: 'Unfortunately, this skin was deleted',
+    37: 'Valitettavasti tämä skini poistettiin',
     38: 'Tervetuloa skinin julkaisueditoriin!',
     39: `Oletko uusi skin editorin käyttäjä? Anna meidän opastaa sinut käyttöliittymän läpi ja näyttää sinulle editorin täyden potentiaalin!`,
-    40: '{current} of {max} completed',
+    40: '{current}/{max} valmiina',
     41: 'Katso myöhemmin',
     42: `Aloitetaan`,
     43: 'Onnittelut!',
@@ -204,10 +204,10 @@ export default {
       3: 'Luettelot'
     },
     14: 'Haku:',
-    15: 'Size:',
+    15: 'Koko:',
     16: 'Rating:',
-    17: 'Views:',
-    18: 'Downloads:'
+    17: 'Katselukerrat:',
+    18: 'Lataukset:'
   },
   contests: {
     0: 'Kilpailut',
@@ -217,17 +217,17 @@ export default {
     4: 'Äänestys',
     5: 'Valmis',
     6: 'Kilpailut',
-    7: 'Voting page'
+    7: 'Äänestys sivu'
   },
   rules: {
     0: 'Päivitetty viimeksi',
     1: 'Skinien Julkaisujen Ohjeet'
   },
   skinini: {
-    0: 'Welcome to skin.ini editor!',
-    1: `New to the skin.ini editor? Let us guide you through the interface and show you the editor's full potential!`,
-    2: '{current} of {max} completed',
-    3: 'No results',
+    0: 'Tervetuloa skin.ini editoriin!',
+    1: `Oletko uusi skin.ini editoriin? Anna meidän ohjata sinut käyttöliittymän läpi ja näyttää sinulle editorin täysi potentiaali!`,
+    2: '{current}/{max} valmiina',
+    3: 'Ei tuloksia',
     4: 'Your query may contain typos'
   },
   tabs: {
@@ -245,9 +245,9 @@ export default {
   },
   settings: {
     0: 'Asetukset',
-    1: 'Mouse scroll',
+    1: 'Hiiren vieritys',
     2: 'Enable mouse hover swipe for image carousel, allowing left-to-right or right-to-left navigation.',
-    3: 'Zoom in',
+    3: 'Lähennä',
     4: 'Enable image zoom on hover for larger skin preview.'
   },
   meta: {
@@ -263,12 +263,12 @@ export default {
       8: '{name} hae osu skinejä',
       9: 'Hanki inspiraatiota muista osu skineistä',
       10: '{name} tehtyjä osu skinejä',
-      11: 'Hae tagilla',
-      12: '{name} found tags',
+      11: 'Hae tägejä',
+      12: '{name} löydettyä tägiä',
       13: 'Uusi skini',
       14: 'Sivuston säännöt',
       15: 'osu! Kilpailut',
-      16: 'osu! skinning tools'
+      16: 'osu! skinning työkalut'
     },
     description: {
       0: 'Hanki parhaat osu skinit sivumme suuresta valikoimasta! Meillä on skinejä eri pelimodeille ja kuvasuhteille, sekä jopa top pelaajille. Lisäksi, meillä on erityinen osasto animefaneille. Paranna peliäsi täydellisellä skinillä. #osuskins #osugame #anime',
@@ -281,7 +281,7 @@ export default {
       7: 'Suuri määrä skinejä jotka {name} on tehnyt, lataa ilmaiseksi!',
       8: 'Kaikki skinit jotka {name} on tehnyt',
       9: 'Löydä inspiraatiota seuraavalle osu skinillesi nettisivultamme. Selaa meidän monipuolisen skini kokoelman läpi ja löydä uusia tapoja ja ideoita. Inspiroidu ja tee oma ainutlaatuinen skinisi.',
-      10: 'Search for tags among all the tags on the site.',
+      10: 'Etsi tägejä kaikkien sivuilla olevien tägien joukosta.',
       11: 'Luettelo kaikista aktiivisista/päättyneistä osu! -kilpailuista',
       12: '{amount} entries for {title} contest. {views} views'
     }
@@ -303,10 +303,10 @@ export default {
     source: 'Lähde',
     contest_voting: 'Äänestä tässä',
     rules_agree: 'Hyväksyn',
-    report_issue: 'Report issue',
+    report_issue: 'Ilmoita ongelmasta',
     ghost_creator: 'Ghost creator',
-    close: 'Close',
-    quick_select: 'Quick select'
+    close: 'Sulje',
+    quick_select: 'Pikavalinta'
   },
   choose: {
     0: 'Valinnainen',
@@ -345,8 +345,8 @@ export default {
       2: '[hl]{example}[/hl] - [b]below[/b] {amount}',
       3: '[hl]{example}[/hl] - [b]from[/b] {amount} [b]to[/b] {amount_2}'
     },
-    15: 'Unselect',
-    16: 'Remove file'
+    15: 'Poista valinta',
+    16: 'Poista tiedosto'
   },
   lists: {
     screens: {
@@ -366,7 +366,7 @@ export default {
       13: 'Ohitus',
       14: 'Banneri',
       15: 'Tulos näyttö (pohjalla)',
-      16: 'Beginning image'
+      16: 'Alku-kuva'
     },
     cats: {
       0: 'NSFW',
@@ -391,14 +391,14 @@ export default {
     dislikes: 'Disliket',
     downloads: 'Lataukset',
     ratio: 'Valitse kuvasuhde | suhde',
-    sorting: 'Desc. | Asc.'
+    sorting: 'Nous. | Lask.'
   },
   sorting: {
-    0: 'Most | Least',
-    1: 'Most | Least',
-    2: 'Highest | Lowest',
-    3: 'Largest | Smallest',
-    4: 'Newest | Oldest',
+    0: 'Eniten | Vähiten',
+    1: 'Eniten | Vähiten',
+    2: 'Korkein | Matalin',
+    3: 'Suurin | Pienin',
+    4: 'Uusin | Vanhin',
     5: 'A-Z | Z-A'
   },
   placeholders: {
@@ -420,12 +420,12 @@ export default {
     15: 'Skinin otsikko, tekijä, tai tunnisteet',
     16: 'Valitse kategoria',
     17: 'Kirjoita tunnisteen nimi',
-    18: 'Type the name of the skin',
-    19: 'Type author name ',
-    20: 'Select file',
+    18: 'Kirjoita skinin nimi',
+    19: 'Kirjoita tekijän nimi ',
+    20: 'Valitse tiedosto',
     24: 'Type gameplay name...',
     25: 'Type range',
-    26: 'Type text'
+    26: 'Kirjoita teksti'
   },
   contribute: { 0: 'Osallistu' },
   nsfw: {
@@ -449,7 +449,7 @@ export default {
     4: 'Banneria ei löytynyt (Tällä hetkellä ensimmäistä näyttökuvaa käytetään bannerina)',
     5: 'Ei muutoksia',
     6: 'Muutoksia ei löytynyt',
-    7: 'ID not found',
+    7: 'ID:tä ei löytynyt',
     8: 'Videon ID:tä ei löydy, kokeile toista linkkiä (tällä hetkellä vain YouTube on tuettu)',
     9: 'Hups',
     10: 'Näyttää siltä, että istuntosi on vanhentunut. Avaa uusi sivu ja kirjaudu tilillesi (Älä huoli, kaikki tallennettiin automaattisesti)',
@@ -481,7 +481,7 @@ export default {
     36: 'Versio «{name}» on poistettu',
     37: 'Virhe',
     38: 'Ilmeisesti palvelimen mielestä olet robotti.',
-    39: 'Your current login session has timed out. To proceed, please open a new page and log back into your account. Once you\'ve done that, return to this page and try again.',
+    39: 'Nykyinen kirjautumisistuntosi on aikakatkaistu. Jatkaaksesi, avaa uusi sivu ja kirjaudu takaisin tilillesi. Kun olet tehnyt sen, palaa tälle sivulle ja yritä uudelleen.',
     40: 'Ristiriitaiset kirjautumistiedot (kirjaudu sisään uudelleen. Älä huoli, kaikki tallennettiin automaattisesti)',
     41: 'Tuntematon virhe',
     42: 'Et voi muokata olematonta skiniä',
@@ -499,8 +499,8 @@ export default {
     54: 'The skin is currently under moderation. Please be patient while it is being processed',
     55: 'Onnistui',
     56: 'New ghost creator has been added',
-    57: 'Color copied',
-    58: `The RGB code "{color}" is now available through your clipboard!`
+    57: 'Väri kopioitu',
+    58: `RGB-koodi "{color}" on kopioitu leikepöydälle!`
   },
   header: {
     0: 'Ilmoitukset',
@@ -518,6 +518,6 @@ export default {
     2: 'Julkaise skini?',
     3: 'Kyllä',
     4: 'Ei',
-    5: 'Reset .ini?'
+    5: 'Nollaa .ini?'
   }
 };
