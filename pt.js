@@ -95,9 +95,9 @@ export default {
     22: 'Lista de verificação',
     23: 'Adicione no mínimo una versão pública',
     24: 'Adicione ao menos um criador para esta versão ',
-    25: 'Some creators don\'t have roles',
+    25: 'Alguns criadores não possuem "roles"',
     26: '{amount} capturas de tela não possuem uma categoria assimilada',
-    28: 'Select gamemode for gameplay screenshots'
+    28: 'Selecione o modo de jogo para captura de tela de gameplay'
   },
   skins: {
     0: 'Skins',
