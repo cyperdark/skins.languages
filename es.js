@@ -225,7 +225,7 @@ export default {
   },
   skinini: {
     0: '¡Bienvenido al editor skin.ini!',
-    1: `New to the skin.ini editor? Let us guide you through the interface and show you the editor's full potential!`,
+    1: `¿Eres nuevo en el editor skin.ini? ¡Déjanos guiarte por la interfaz y mostrarte todo el potencial del editor!`,
     2: '{current} de {max} completados',
     3: 'Sin resultados',
     4: 'Su consulta puede contener errores'
@@ -340,10 +340,10 @@ export default {
     12: 'Cerrar guía',
     13: 'Para marcar una regla como leída, pase el cursor sobre ella (amarillo indica no leído)',
     14: {
-      0: '[hl]{example}[/hl] - [b]equal[/b] to {amount}',
-      1: '[hl]{example}[/hl] - [b]above[/b] {amount}',
-      2: '[hl]{example}[/hl] - [b]below[/b] {amount}',
-      3: '[hl]{example}[/hl] - [b]from[/b] {amount} [b]to[/b] {amount_2}'
+      0: '[hl]{example}[/hl] - [b]igual[/b] a {amount}',
+      1: '[hl]{example}[/hl] - [b]por encima de[/b] {amount}',
+      2: '[hl]{example}[/hl] - [b]debajo de[/b] {amount}',
+      3: '[hl]{example}[/hl] - [b]desde[/b] {amount} [b]hasta[/b] {amount_2}'
     },
     15: 'Deseleccionar',
     16: 'Eliminar archivo'
