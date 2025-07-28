@@ -304,7 +304,7 @@ export default {
     contest_voting: 'Stimme hier ab',
     rules_agree: 'Ich stimme zu',
     report_issue: 'Problem melden',
-    ghost_creator: 'Ghost creator',
+    ghost_creator: 'Ghost-Creator',
     close: 'Schließen',
     quick_select: 'Schnellauswahl'
   },
@@ -366,7 +366,7 @@ export default {
       13: 'Überspringen',
       14: 'Banner',
       15: '"Ergebnis" Screen (unten)',
-      16: 'Beginning image'
+      16: 'Startbild'
     },
     cats: {
       0: 'NSFW',
@@ -391,21 +391,21 @@ export default {
     dislikes: 'Dislikes',
     downloads: 'Downloads',
     ratio: 'Wähle das Seitenverhältnis aus',
-    sorting: 'Desc. | Asc.'
+    sorting: 'Abst. | Aufst.'
   },
   sorting: {
-    0: 'Most | Least',
-    1: 'Most | Least',
-    2: 'Highest | Lowest',
-    3: 'Largest | Smallest',
-    4: 'Newest | Oldest',
+    0: 'Meiste | Wenigste',
+    1: 'Meiste | Wenigste',
+    2: 'Höchste | Niedrigste',
+    3: 'Größte | Kleinste',
+    4: 'Neueste | Älteste',
     5: 'A-Z | Z-A'
   },
   placeholders: {
     0: 'Rollen auswählen',
     1: 'Versionen auswählen',
     2: 'Schreibe etwas...',
-    3: 'Select size range',
+    3: 'Bereich der Größe festlegen',
     4: 'Zeitraum auswählen',
     5: 'Jahr',
     6: 'Monat',
@@ -420,12 +420,12 @@ export default {
     15: 'Skin Titel, Autor oder Tags',
     16: 'Wähle eine Kategorie aus',
     17: 'Gib den Tag ein',
-    18: 'Type the name of the skin',
-    19: 'Type author name ',
-    20: 'Select file',
-    24: 'Type gameplay name...',
-    25: 'Type range',
-    26: 'Type text'
+    18: 'Gebe den Namen des Skins ein',
+    19: 'Gebe den Namen des Autors ein ',
+    20: 'Datei auswählen',
+    24: 'Gebe den Namen des Gameplays ein...',
+    25: 'Gebe den Bereich ein',
+    26: 'Gebe Text ein'
   },
   contribute: { 0: 'Beitragen' },
   nsfw: {
@@ -498,9 +498,9 @@ export default {
     53: 'Du musst eine Art Asset auswählen',
     54: 'Dieser Skin steht gerade unter Überprüfung. Bitte warte, bis es erledigt ist.',
     55: 'Erfolg',
-    56: 'New ghost creator has been added',
-    57: 'Color copied',
-    58: `The RGB code "{color}" is now available through your clipboard!`
+    56: 'Neuer Ghost-Creator wurde hinzugefügt',
+    57: 'Farbe kopiert',
+    58: `Der RGB-Code "{color}" ist jetzt in deiner Zwischenablage verfügbar!`
   },
   header: {
     0: 'Benachrichtigungen',
@@ -518,6 +518,6 @@ export default {
     2: 'Skin einreichen?',
     3: 'Ja',
     4: 'Nein',
-    5: 'Reset .ini?'
+    5: '.ini zurücksetzen?'
   }
 };

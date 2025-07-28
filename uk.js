@@ -114,7 +114,7 @@ export default {
     11: 'Пошук',
     12: '{name} скіни',
     13: 'Дослідити скіни',
-    14: 'Popular skins'
+    14: 'Популярні скіни'
   },
   skin: {
     0: 'Редагувати',
@@ -247,8 +247,8 @@ export default {
     0: 'Налаштування',
     1: 'Mouse scroll',
     2: 'Enable mouse hover swipe for image carousel, allowing left-to-right or right-to-left navigation.',
-    3: 'Zoom in',
-    4: 'Enable image zoom on hover for larger skin preview.'
+    3: 'Збільшити',
+    4: 'Увімкнути збільшене зображення для попереднього перегляду скіна.'
   },
   meta: {
     title: {
@@ -303,10 +303,10 @@ export default {
     source: 'Джерело',
     contest_voting: 'Голосувати тут',
     rules_agree: 'Я погоджуюсь',
-    report_issue: 'Report issue',
+    report_issue: 'Повідомити про проблему',
     ghost_creator: 'Ghost creator',
-    close: 'Close',
-    quick_select: 'Quick select'
+    close: 'Закрити',
+    quick_select: 'Швидкий вибір'
   },
   choose: {
     0: 'За бажанням',
@@ -345,8 +345,8 @@ export default {
       2: '[hl]{example}[/hl] - [b]below[/b] {amount}',
       3: '[hl]{example}[/hl] - [b]from[/b] {amount} [b]to[/b] {amount_2}'
     },
-    15: 'Unselect',
-    16: 'Remove file'
+    15: 'Скасувати вибір',
+    16: 'Видалити файл'
   },
   lists: {
     screens: {
@@ -396,16 +396,16 @@ export default {
   sorting: {
     0: 'Most | Least',
     1: 'Most | Least',
-    2: 'Highest | Lowest',
-    3: 'Largest | Smallest',
-    4: 'Newest | Oldest',
-    5: 'A-Z | Z-A'
+    2: 'Найвищі | Найнижчі',
+    3: 'Найбільший | Найменший',
+    4: 'Найновіші | найстаріші',
+    5: 'А-Я | Я-А'
   },
   placeholders: {
     0: 'Виберіть ролі',
     1: 'Виберіть версії',
     2: 'Введіть текст...',
-    3: 'Select size range',
+    3: 'Виберіть діапазон розміру',
     4: 'Діапазон дат',
     5: 'Рік',
     6: 'Місяць',
@@ -420,12 +420,12 @@ export default {
     15: 'Назва скіна, автор або теги',
     16: 'Виберіть категорію',
     17: 'Введіть назву тега',
-    18: 'Type the name of the skin',
-    19: 'Type author name ',
-    20: 'Select file',
+    18: 'Введіть назву скіна',
+    19: 'Введіть ім\'я автора ',
+    20: 'Оберіть файл',
     24: 'Type gameplay name...',
-    25: 'Type range',
-    26: 'Type text'
+    25: 'Введіть діапазон',
+    26: 'Введіть текст'
   },
   contribute: { 0: 'Зробити свій внесок' },
   nsfw: {
@@ -498,8 +498,8 @@ export default {
     53: 'Необхідно обрати тип медіафайлу',
     54: 'Скін зараз модерується. Будь ласка, будьте терплячі, поки він оброблюється',
     55: 'Успішно',
-    56: 'New ghost creator has been added',
-    57: 'Color copied',
+    56: 'Додано нового творця',
+    57: 'Колір скопійовано',
     58: `The RGB code "{color}" is now available through your clipboard!`
   },
   header: {
