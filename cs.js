@@ -27,13 +27,13 @@ export default {
     2: 'Zobrazeno | Líbí se | Staženo',
     3: 'Publikovat nový skin',
     4: 'Jak nainstalovat skin',
-    5: '{amount} Skins | {amount} Skins | {amount} Skins'
+    5: '{amount} Skinů| {amount} Skinů | {amount} Skinů'
   },
   changelogs: {
     0: 'Seznam změn',
     1: 'Seznam všech revizí provedených v stávající verzi',
     2: 'Nic zde není',
-    3: 'But you can add the changes you\'ve made to this version of the skin',
+    3: 'Ale můžete přidat změny které jste udělali v této verzi skinu',
     4: 'Není seskupeno',
     5: 'Nové',
     6: 'Opravy',
@@ -58,7 +58,7 @@ export default {
     0: 'Označení',
     1: 'List všech značek souvisejících s tímto skinem',
     2: 'Zde to vypadá prázdně.',
-    3: 'Použijte pole nahoře pro nalezení nových značek',
+    3: 'Použijte pole nahoře pro nalezení nových označení',
     4: 'Označení nenalezeny',
     5: 'Zkus hledat něco jiného',
     6: 'Hledat'
@@ -72,7 +72,7 @@ export default {
   sources: {
     0: 'Atribuce',
     1: 'List všech použitých prvků a nástrojů v této verzi skinu',
-    2: 'Trochu prázdno zde',
+    2: 'Je tu celkem prázdno',
     3: 'Pokud jste použili prvky z jiných skinů nebo obrazů, přidejte je do boxu nahoře',
     4: 'Není seskupeno'
   },
@@ -80,24 +80,24 @@ export default {
     0: 'Všechno',
     1: 'Metadata',
     2: 'Zvýraznění',
-    3: 'Name of the skin not specified',
+    3: 'Jméno skinu nebylo specifikováno',
     4: 'Přidejte alespoň jednoho autora skinu',
-    5: 'Přidejte pár značek',
+    5: 'Přidejte nějaké označení',
     6: 'Velikost skinu není specifikována',
     // 7: 'Select at least one gamemode',
-    8: 'Vyberte typ složky (SD nebo HD)',
+    8: 'Vyberte rozlišení obrázku (SD nebo HD)',
     9: 'Vyberte nejméně jeden poměr stran',
-    10: 'Žádný snímek obrazovky',
+    10: 'Žádné snímky obrazovky',
     11: 'Přidejte alespoň jeden snímek obrazovky z hraní',
     12: 'Odkaz na skin není specifikován',
     20: 'Vypadá to dobře',
     21: 'Každý problém byl opraven. Dobrá práce!',
     22: 'Kontrolní listina',
     23: 'Přidejte alespoň jednu veřejnou verzi',
-    24: 'Přidat alespoň jednoho autora k této verzi',
-    25: 'Some creators don\'t have roles',
-    26: '{amount} screenshots doesn\'t have category',
-    28: 'Select gamemode for gameplay screenshots'
+    24: 'Přidejte alespoň jednoho autora k této verzi',
+    25: 'Někteří autoři nemají role',
+    26: '{amount} snímků obrazovky nemají kategorii',
+    28: 'Vyber herní mód pro snímky obrazovky ze hry'
   },
   skins: {
     0: 'Skiny',
@@ -114,7 +114,7 @@ export default {
     11: 'Hledat',
     12: '{name} skiny',
     13: 'Projiždět skiny',
-    14: 'Popular skins'
+    14: 'Populární skiny'
   },
   skin: {
     0: 'Upravit',
@@ -123,7 +123,7 @@ export default {
     3: 'FullHD',
     4: 'Animace',
     5: 'Snímky obrazovky',
-    6: 'Hraní',
+    6: 'Pouze hra',
     7: 'Stáhnout odkaz | Stáhnout skin',
     8: 'Příspěvek na fórech | osu! fóra',
     9: 'Příspěvek na Redditu',
@@ -131,7 +131,7 @@ export default {
     11: 'Označení',
     13: 'Videa',
     14: 'Nová verze | Spravovat verze',
-    15: 'Upravit | Zveřejnit',
+    15: 'Aktualizovat | Zveřejnit',
     16: 'Herní módy',
     17: 'Jméno skinu',
     18: 'Verze | Verze',
@@ -152,26 +152,26 @@ export default {
     33: 'Komentovat na osu! fóru',
     34: 'Více skinů od tohoto autora | Více skinů od těchto autorů',
     35: 'Podpořit skin',
-    36: 'Unavailable',
-    37: 'Unfortunately, this skin was deleted',
-    38: 'Welcome to the skin post editor!',
-    39: `New to the skin editor? Let us guide you through the interface and show you the editor's full potential!`,
-    40: '{current} of {max} completed',
-    41: 'Check out later',
-    42: `Let's get started`,
-    43: 'Congratulations!',
-    44: 'You have successfully finished the tutorial, have fun!',
-    45: 'uploader'
+    36: 'Není k dispozici',
+    37: 'Tento skin byl bohužel odstraněn',
+    38: 'Vítejte v editoru příspěvků skinu!',
+    39: `Jste v editoru skinu noví? Ukážeme vám jak pracovat s rozhraním a jak využít plný potenciál editoru!`,
+    40: '{current} z {max} dokončeno',
+    41: 'Podívejte se později',
+    42: `Pojďme na to`,
+    43: 'Gratulujeme!',
+    44: 'Úspěšně jste dokončil/a tutoriál, bavte se!',
+    45: 'nahrávač'
   },
   drag: {
     0: 'Klikněte zde',
-    1: 'nebo přetáhněte & vložte obrázky'
+    1: 'nebo přetáhněte & vložte obrázky zde'
   },
   footer: {
     0: 'Uděláno uživatelem cyperdark',
     1: 'Poděkování',
-    2: 'Rules',
-    3: 'Contacts'
+    2: 'Pravidla',
+    3: 'Kontakty'
   },
   credits: {
     0: 'Chibi',
@@ -179,7 +179,7 @@ export default {
     2: 'Ikony',
     3: 'Všechny ikony jsou od {name}',
     4: 'Vlajky',
-    5: 'Všechny vlajky jsou od {name}',
+    5: 'Všechny obrázky vlajek jsou z {name}',
     6: 'Lokalizace',
     7: 'Je tu někdo?{lang}',
     8: 'Vypadá to, že cpol je zapomněl přidat {text}'
@@ -192,9 +192,9 @@ export default {
     4: 'Velikost',
     5: 'Datum',
     7: 'Nic nebylo nalezeno',
-    8: 'Try using different search filters',
+    8: 'Zkuste použít jiné vyhledávací filtry',
     9: 'Čekání na dotaz',
-    10: 'Use the search filters or type the skin\'s title, author or tags',
+    10: 'Použijte vyhledávací filtry nebo zadejte název skinu, autora nebo označení skinu',
     11: 'Počet stáhnutí',
     12: 'Jméno',
     13: {
@@ -204,31 +204,31 @@ export default {
       3: 'Seznamy'
     },
     14: 'Hledat:',
-    15: 'Size:',
-    16: 'Rating:',
-    17: 'Views:',
-    18: 'Downloads:'
+    15: 'Velikost:',
+    16: 'Hodnocení:',
+    17: 'Zobrazení:',
+    18: 'Stažení:'
   },
   contests: {
-    0: 'Contests',
-    1: 'Official newspost',
-    2: 'Submission',
-    3: 'Preparing',
-    4: 'Voting',
-    5: 'Finished',
-    6: 'Contests',
-    7: 'Voting page'
+    0: 'Soutěže',
+    1: 'Oficiální novinky',
+    2: 'Podání',
+    3: 'Příprava',
+    4: 'Hlasování',
+    5: 'Ukončeno',
+    6: 'Soutěže',
+    7: 'Hlasovací stránka'
   },
   rules: {
-    0: 'Last updated at',
-    1: 'Posting Skins Guidelines'
+    0: 'Poslední aktualizace v',
+    1: 'Pokyny pro vkládání skinů'
   },
   skinini: {
-    0: 'Welcome to skin.ini editor!',
-    1: `New to the skin.ini editor? Let us guide you through the interface and show you the editor's full potential!`,
-    2: '{current} of {max} completed',
-    3: 'No results',
-    4: 'Your query may contain typos'
+    0: 'Vítejte v skin.ini editoru!',
+    1: `Jste v skin.ini editoru noví? Ukážeme vám jak pracovat s rozhraním a jak využít plný potenciál editoru!`,
+    2: '{current} z {max} dokončeno',
+    3: 'Žádné výsledky',
+    4: 'Váš dotaz může obsahovat překlepy'
   },
   tabs: {
     0: 'Hledat',
@@ -245,14 +245,14 @@ export default {
   },
   settings: {
     0: 'Nastavení',
-    1: 'Mouse scroll',
-    2: 'Enable mouse hover swipe for image carousel, allowing left-to-right or right-to-left navigation.',
-    3: 'Zoom in',
-    4: 'Enable image zoom on hover for larger skin preview.'
+    1: 'Posun kolečkem myši',
+    2: 'Povolte přejetí myší pro kolotoč obrázků, umožňující navigaci zleva doprava nebo zprava doleva.',
+    3: 'Zvětšit',
+    4: 'Povolit zvětšení obrázku při přejetí pro větší náhled skinu.'
   },
   meta: {
     title: {
-      0: 'Objevovat osu skiny',
+      0: 'Objevte osu skiny',
       1: 'Herní módy, poměry stran osu skinů',
       2: 'Populární osu skiny',
       3: 'Hledat osu skiny',
@@ -262,16 +262,16 @@ export default {
       7: 'osu skiny',
       8: '{name} hledat osu skiny',
       9: 'Získejte inspiraci z jiných osu skinů',
-      10: '{name} vyrobil osu skiny',
+      10: '{name} vytvořil osu skiny',
       11: 'Hledat Označení',
-      12: '{name} nalezl označení',
+      12: '{name} nalezená označení',
       13: 'Nový skin',
-      14: 'Site rules',
-      15: 'osu! Contests',
-      16: 'osu! skinning tools'
+      14: 'Pravidla stránky',
+      15: 'osu! soutěže',
+      16: 'osu! nástroje na skinování'
     },
     description: {
-      0: 'Stáhněte si osu! skiny na našich stránkách! Naše velká knihovna ma skiny pro všechny herní módy, poměry stran, a dokonce i skiny od nejlepších hráčů. Taky máme speciální sekci pro fanoušky anime. Zlepšete svoje hraní s perfektním skinem. #osuskins #osugame #anime',
+      0: 'Stáhněte si ty nejlepší osu! skiny na naší stránce! Naše velká knihovna má skiny pro všechny herní módy, poměry stran, a dokonce i skiny od nejlepších hráčů. Taky máme speciální sekci pro fanoušky anime. Zlepšete svoje hraní s perfektním skinem. #osuskins #osugame #anime',
       1: '{views} zobrazení. Osu! skin pro {modes}, velikost {size}, vytvořeno {creators}. Podporuje {ratios}',
       2: 'Najděte si perfektní osu! skin s naším pokročilým vyhledávacím systémem. Projděte si naší obrovskou knihovnou, rozdělené na herní módy, poměry stran, atd. Nebo můžete zkusit se podívat na skiny od nejlepších hráčů',
       3: 'Objevte na našem webu různé skiny pro různé herní režimy a poměry stran. Vyberte si ze standard, catch the beat, mánia a taiko. Najděte perfektní řešení pro vaše herní preference.',
@@ -282,8 +282,8 @@ export default {
       8: 'Všechny osu skiny vyrobeny od {name}',
       9: 'Najděte si inspirace pro vaše další osu! skiny na našich stránkách. Projděte naší rozmanitou kolekcí skinů a najděte nové techniky a nápady. Inspirujte se a udělejte si vlastní jedinečné skiny.',
       10: 'Hledjte označení mezi všema na tomto webu.',
-      11: 'List of all active/finished osu! contests',
-      12: '{amount} entries for {title} contest. {views} views'
+      11: 'Seznam všech aktivních / dokončených osu! soutěží',
+      12: '{amount} účastníků {title} soutěže. {views} zobrazení'
     }
   },
   buttons: {
@@ -300,18 +300,18 @@ export default {
     reddit_link: 'Reddit',
     osu_forum_link: 'osu! Fóra',
     skin_return: 'Zpátky ke skinu',
-    source: 'Source',
-    contest_voting: 'Vote here',
-    rules_agree: 'I agree',
-    report_issue: 'Report issue',
-    ghost_creator: 'Ghost creator',
-    close: 'Close',
-    quick_select: 'Quick select'
+    source: 'Zdroj',
+    contest_voting: 'Hlasujte zde',
+    rules_agree: 'Souhlasím',
+    report_issue: 'Nahlásit problém',
+    ghost_creator: 'Žádný autor',
+    close: 'Zavřít',
+    quick_select: 'Rychlý výběr'
   },
   choose: {
-    0: 'Optional',
-    1: 'Required',
-    2: 'Pick at least one option'
+    0: 'Volitelné',
+    1: 'Povinné',
+    2: 'Vyberte alespoň jednu možnost'
   },
   user: {
     roles: {
@@ -331,22 +331,22 @@ export default {
     3: 'Líbí se: {likes} / Nelíbí se: {dislikes}',
     4: 'Zmáčkněte ctrl+enter pro přidání označení',
     5: 'Upravit verzi',
-    6: '{s}Log in{p}, in order to rate this skin',
+    6: '{s}Přihlašte se{p}, abyste mohli ohodnotit tento skin',
     7: 'Žádný krátký popis ',
     8: 'Žádné URL',
     9: 'Stažení: {amount}',
-    10: 'Reset everything',
-    11: 'Show guide',
-    12: 'Close guide',
-    13: 'To mark a rule as read, hover over it (Yellow indicates unread)',
+    10: 'Obnovit vše',
+    11: 'Zobrazit návod',
+    12: 'Zavřít návod',
+    13: 'Chcete-li označit pravidlo jako přečtené, přejděte na něj (žlutá znamená že je pravidlo nepřečtené)',
     14: {
-      0: '[hl]{example}[/hl] - [b]equal[/b] to {amount}',
-      1: '[hl]{example}[/hl] - [b]above[/b] {amount}',
-      2: '[hl]{example}[/hl] - [b]below[/b] {amount}',
-      3: '[hl]{example}[/hl] - [b]from[/b] {amount} [b]to[/b] {amount_2}'
+      0: '[hl]{example}[/hl] - [b]rovno[/b] {amount}',
+      1: '[hl]{example}[/hl] - [b]větší než[/b] {amount}',
+      2: '[hl]{example}[/hl] - [b]menší než[/b] {amount}',
+      3: '[hl]{example}[/hl] - [b]od[/b] {amount} [b]do[/b] {amount_2}'
     },
-    15: 'Unselect',
-    16: 'Remove file'
+    15: 'Zrušit výběr',
+    16: 'Odstranit soubor'
   },
   lists: {
     screens: {
@@ -365,8 +365,8 @@ export default {
       12: 'Obrazovka výsledku',
       13: 'Přeskočení',
       14: 'Banner',
-      15: 'Result screen (bottom)',
-      16: 'Beginning image'
+      15: 'Obrazovka výsledku (dole)',
+      16: 'Počáteční obrázek'
     },
     cats: {
       0: 'NSFW',
@@ -385,27 +385,27 @@ export default {
     7: 'Prvky skinu',
     8: 'Zvuk/Sfx',
     9: 'Nástroje',
-    10: 'Image',
+    10: 'Obrázek',
     views: 'Zobrazení',
     likes: 'Oblíbené',
     dislikes: 'Neoblíbené',
     downloads: 'Počet stáhnutí',
     ratio: 'Vyber poměr stran | poměr',
-    sorting: 'Desc. | Asc.'
+    sorting: 'Klesající | Stoupající'
   },
   sorting: {
-    0: 'Most | Least',
-    1: 'Most | Least',
-    2: 'Highest | Lowest',
-    3: 'Largest | Smallest',
-    4: 'Newest | Oldest',
+    0: 'Nejvíce | Nejméně',
+    1: 'Nejvíce | Nejméně',
+    2: 'Nejvyšší | Nejnižší',
+    3: 'Největší | Nejmenší',
+    4: 'Nejnovější | Nejstarší',
     5: 'A-Z | Z-A'
   },
   placeholders: {
     0: 'Vyberte role',
     1: 'Vyberte Verze',
     2: 'Zadejte text...',
-    3: 'Select size range',
+    3: 'Vyberte velikost složky',
     4: 'Vyber časové období',
     5: 'Rok',
     6: 'Měsíc',
@@ -420,21 +420,21 @@ export default {
     15: 'Název skinu, autor, nebo označení',
     16: 'Vyberte kategorii',
     17: 'Zadejte název označení',
-    18: 'Type the name of the skin',
-    19: 'Type author name ',
-    20: 'Select file',
-    24: 'Type gameplay name...',
-    25: 'Type range',
-    26: 'Type text'
+    18: 'Zadejte název skinu',
+    19: 'Zadejte jméno autora ',
+    20: 'Vybrat soubor',
+    24: 'Zadejte typ hry...',
+    25: 'Rozsah',
+    26: 'Napište text'
   },
   contribute: { 0: 'Zapojte se' },
   nsfw: {
-    0: 'Warning, nsfw!',
+    0: 'Upozornění, nsfw!',
     1: 'Tento skin obshauje citlivý obsah nebo obsah pro dospělé',
     2: 'Tento skin obsahuje citlivý obsah nebo obsah pro dospělé, který může připadat některým uživatelům znepokojivě',
     3: 'Dobře',
     4: 'měj se o/',
-    5: 'Furry Warning!'
+    5: 'Pozor Furries!'
   },
   removed: {
     0: 'Verze není k dispozici',
@@ -452,14 +452,14 @@ export default {
     7: 'ID nebylo nalezeno',
     8: 'ID videa nebylo nalezeno, zkuste jiný odkaz (nyní je podporován pouze YouTube)',
     9: 'Chybička se vloudila',
-    10: 'Looks like your session expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
+    10: 'Vypadá to, že vaše uživatelská relace vypršela, otevřete novou stránku a přihlaste se k vašemu účtu (nebojte se, vše je automaticky uloženo)',
     11: 'Existuje',
     12: 'Toto video již bylo přidáno',
     13: 'Existuje',
     14: 'Toto označení již bylo přidáno',
     15: 'Nenalezeno',
     16: 'Smazaný štítek nelze odstranit',
-    17: 'Added',
+    17: 'Přidáno',
     18: 'Úspěšně jste přidali nové označení',
     19: 'Chybička se vloudila',
     20: 'Tento autor již byl přidán',
@@ -467,9 +467,9 @@ export default {
     22: 'New autor byl přidán',
     23: 'HUH',
     24: 'Nelze odstranit odstraněného autora',
-    25: 'Existuje',
+    25: 'Duplikát',
     26: 'Tato změna již byla přidána dříve.',
-    27: 'Existuje',
+    27: 'Duplikát',
     28: 'Tato adresa Url již byla přidána dříve.',
     29: 'Varování',
     30: 'Zapomněli jste přidat popis pro url. Příklad: Popis:url',
@@ -481,7 +481,7 @@ export default {
     36: 'Verze {name} byla odstraněna',
     37: 'Chyba',
     38: 'Server si zřejmě myslí, že jste robot.',
-    39: 'Your current login session has timed out. To proceed, please open a new page and log back into your account. Once you\'ve done that, return to this page and try again.',
+    39: 'Vaše aktuální relace přihlášení vypršela. Chcete-li pokračovat, otevřete prosím novou stránku a přihlaste se zpět do svého účtu. Jakmile to uděláte, vraťte se na tuto stránku a zkuste to znovu.',
     40: 'Nesrovnalé přihlašovací údaje (znovu se přihlásit do účtu. Nebojte se, vše bylo automaticky uloženo)',
     41: 'Neznámá chyba',
     42: 'Nemůžete upravovat neexistující skin',
@@ -495,12 +495,12 @@ export default {
     50: 'Tento odkaz nelze použít jako odkaz ke stažení',
     51: 'Odesláno k moderaci',
     52: 'Varování',
-    53: 'You need to choose type of asset',
-    54: 'The skin is currently under moderation. Please be patient while it is being processed',
+    53: 'Musíte vybrat typ prvku',
+    54: 'Tento skin je momentálně pod dohledem. Prosím buďtě trpěliví zatímco je zkoumán',
     55: 'Úspěšně dokončeno',
-    56: 'New ghost creator has been added',
-    57: 'Color copied',
-    58: `The RGB code "{color}" is now available through your clipboard!`
+    56: 'Nový neznámý autor byl přidán',
+    57: 'Barva zkopírována',
+    58: `RGB kód "{color}" je nyní k dispozici ve vaší schránce!`
   },
   header: {
     0: 'Notifikace',
@@ -513,11 +513,11 @@ export default {
     3: 'Tato stránka zatím není venku.'
   },
   confirm: {
-    0: 'Reset everything?',
-    1: 'Show guide?',
-    2: 'Submit skin?',
-    3: 'Yes',
-    4: 'No',
-    5: 'Reset .ini?'
+    0: 'Obnovit vše?',
+    1: 'Zobrazit návod?',
+    2: 'Odeslat skin?',
+    3: 'Ano',
+    4: 'Ne',
+    5: 'Resetovat .ini?'
   }
 };
