@@ -1,523 +1,581 @@
+/* renaming
+
+contests.0  =>  header.contests
+title.ideas.0  =>  header.ideas
+title.tools  =>  header.tools
+title.home  =>  header.home
+skins.14  =>  header.popular
+skins.6  =>  header.all_skins
+tags.0  =>  header.tags
+header.0  =>  notifications.0
+header.1  =>  notifications.1
+contribute.0  =>  header.contribute
+title.login  =>  header.login
+footer.1  =>  footer.0
+home.5  =>  plural.skins
+meta.title.17  =>  home.title.1
+meta.title.0  =>  home.title.0
+meta.description.0  =>  home.description
+home.5  =>  plural.skins
+credits.7  =>  credits.1
+credits.8  =>  credits.2
+credits.3  =>  credits.4
+sorting  =>  order
+meta.title.15  =>  contests.title
+meta.description.11  =>  contests.description
+  =>
+  =>
+  =>
+  =>
+  =>
+  =>
+  =>
+  =>
+  =>
+
+
+
+
+
+*/
 export default {
-  title: {
-    home: 'Startsida',
-    login: 'Logga in',
-    lists: { 0: 'Listor' },
-    tags: {
-      0: 'Taggar',
-      1: '{amount} taggar för kategorier {name}',
-      2: 'Sök taggar'
-    },
-    ideas: {
-      0: 'Inspiration',
-      1: '«{amount}»'
-    },
-    sounds: { 0: 'Ljud' },
-    leaderboard: { 0: 'Topplistor' },
-    extend: { 0: 'Mer | Mindre' },
-    skin: {
-      0: 'Det här skinnet innehåller element från andra skins',
-      1: 'Klicka här för mer information'
-    },
-    tools: 'Verktyg'
+  header: {
+    home: 'Home',
+    contests: 'Contests',
+    ideas: 'Inspiration',
+    tools: 'Tools',
+    popular: 'Popular skins',
+    all_skins: 'All skins',
+    tags: 'Tags',
+    new: 'New',
+    contribute: 'Contribute',
+    login: 'Log in',
+    0: 'Views',
+    1: 'Downloads',
+    2: 'Likes'
   },
-  home: {
-    0: 'Tillgänglig för nedladdning',
-    1: 'Mest: _name_skins',
-    2: 'Visningar | Gillade | Nedladdade',
-    3: 'Publicera nytt skin',
-    4: 'Hur man installerar skin',
-    5: '{amount} Skins | {amount} Skins | {amount} Skins'
+  notifications: {
+    0: 'Notifications',
+    1: 'Follow us on these platforms to receive notifications about new skins'
   },
-  changelogs: {
-    0: 'Ändringslogg',
-    1: 'Lista av alla revisioner gjorda i den nuvarande versionen',
-    2: 'Ingenting här',
-    3: 'Men du kan lägga till de ändringar som du har gjort i denna version av skinnet',
-    4: 'Inte grupperad',
-    5: 'Nytt',
-    6: 'Fixar',
-    7: 'Ändringar',
-    8: 'Borttagningar'
+  user_menu: {
+    0: 'profile',
+    1: 'my skin queue',
+    2: 'refresh token',
+    3: 'log out'
   },
-  ideas: {
-    0: 'Ingenting hittat',
-    1: 'Skärmdumpar av «{type}» laddades inte upp till webbsidan',
-    2: '«{amount}» {name}'
-  },
-  creators: {
-    0: 'Skapare',
-    1: 'Lista av alla skapare som var inblandade i att göra denna version',
-    2: 'Ingen är här',
-    3: 'Att söka efter en spelares namn kommer att visa en lista med profiler.',
-    4: 'Redigerare',
-    5: 'Roller',
-    6: 'Versioner'
-  },
-  tags: {
-    0: 'Taggar',
-    1: 'Lista av alla taggar relaterade till detta skin',
-    2: 'Det verkar ganska tomt här.',
-    3: 'Använd fältet ovan för att hitta nya taggar',
-    4: 'Taggar hittades inte',
-    5: 'Prova att söka efter något annat',
-    6: 'Sök efter'
-  },
-  videos: {
-    0: 'Videor',
-    1: 'Lista av alla video showcases för skinnet',
-    2: 'Inga showcases',
-    3: 'Sök efter några på YouTube eller skapa din egna showcase'
-  },
-  sources: {
-    0: 'Resurser',
-    1: 'Lista av alla resurser och verktyg använda i den här versionen av skinnet',
-    2: 'Ganska tomt här',
-    3: 'Om du har använt resurser från andra skins eller konstverk, var snäll att lägga till dem i fältet ovanför',
-    4: 'Inte grupperad'
-  },
-  checks: {
-    0: 'Alla',
-    1: 'Metadata',
-    2: 'Höjdpunkt',
-    3: 'Inget namn angivet på skinnet',
-    4: 'Lägg till åtminstone en skin skapare',
-    5: 'Lägg till ett par taggar',
-    6: 'Storleken av skinnet är inte specificerad',
-    // 7: 'Select at least one gamemode',
-    8: 'Välj bildupplösning (SD eller HD)',
-    9: 'Välj åtminstone ett bildförhållande',
-    10: 'Inga skärmbilder är uppladdade',
-    11: 'Lägg till minst en skärmdump av spelet',
-    12: 'Länk till skin ej angiven',
-    20: 'Ser ganska bra ut',
-    21: 'Varje problem har blivit fixat. Bra jobbat!',
-    22: 'Checklista',
-    23: 'Lägg till minst en offentlig version',
-    24: 'Lägg till minst en skapare till denna version',
-    25: 'Vissa skapare har inte roller',
-    26: '{amount} skärmdumpar har inte en kategori',
-    28: 'Välj spelläge för spelskärmdumpar'
-  },
-  skins: {
-    0: 'Skins',
-    1: 'Populärt',
-    2: 'std | ctb',
-    3: 'mania | taiko',
-    4: 'Senaste',
-    5: 'Slumpmässigt',
-    6: 'Alla skins',
-    7: 'Bildförhållande',
-    8: 'Alla skins | osu skins',
-    9: 'Skin | Skins | Skins',
-    10: 'osu Skins av {name} | Alla skins från',
-    11: 'Sök efter',
-    12: '{name} skins',
-    13: 'Utforska Skins',
-    14: 'Populära skins'
-  },
-  skin: {
-    0: 'Redigera',
-    1: 'Extra',
-    2: 'HD',
-    3: 'FullHD',
-    4: 'Animation',
-    5: 'Skärmbilder',
-    6: 'Enbart gameplay',
-    7: 'Nedladdningslänk | Ladda ner skinn',
-    8: 'Forum inlägg | osu! Forum',
-    9: 'Reddit inlägg',
-    10: 'Skapare',
-    11: 'Taggar',
-    13: 'Videor',
-    14: 'Ny Version | Hantera versioner',
-    15: 'Uppdatera | Lämna in',
-    16: 'Spellägen',
-    17: 'Skinnets namn',
-    18: 'Version | Versioner',
-    19: 'Storlek',
-    20: 'Metadata',
-    21: 'Betyg',
-    22: 'Nedladdningar',
-    23: 'Nedladdningen kommer vara tillgänglig snart',
-    24: '{amount} sekunder kvar',
-    25: 'Du är inte en av oss',
-    26: 'Verkar som om du inte är en skapare eller redaktör för detta skinn',
-    27: 'Skin av',
-    28: 'Inga taggar',
-    29: 'Inga videor',
-    30: 'Inga skapare',
-    31: 'Betygsätt skin',
-    32: 'Gilla & kommentera på reddit',
-    33: 'Kommentera på osu! forumet',
-    34: 'Fler skins från denna skapare | Fler skins från dessa skapare',
-    35: 'Stötta skin',
-    36: 'Otillgängligt',
-    37: 'Detta skin är borttaget',
-    38: 'Välkommen till skin inläggs redigeraren!',
-    39: `Ny till skin redigeraren? Vi guidar dig genom gränssnittet och visar dig redigerarens fulla potential!`,
-    40: '{current} av {max} färdigt',
-    41: 'Kolla in senare',
-    42: `Nu börjar vi`,
-    43: 'Gratis!',
-    44: 'Du är klar med guiden, ha det så roligt!',
-    45: 'uppladdare'
-  },
-  drag: {
-    0: 'Klicka här',
-    1: 'eller dra & släpp bilder här'
-  },
-  footer: {
-    0: 'Gjord av Cyperdark',
-    1: 'Medverkande',
-    2: 'Regler',
-    3: 'Kontakter'
-  },
-  credits: {
-    0: 'Chibi',
-    1: 'Konstverk',
-    2: 'Ikoner',
-    3: 'Alla ikoner är tagna från {name}',
-    4: 'Flaggor',
-    5: 'Alla flaggbilder är från {name}',
-    6: 'Språk',
-    7: 'Någon? [{lang}]',
-    8: 'Verkar som cyperdark glömde att lägga till dem. {text}'
-  },
-  search: {
-    0: 'Skin sökning',
-    1: 'Visningar',
-    2: 'Titel',
-    3: 'Betyg',
-    4: 'Storlek',
-    5: 'Datum',
-    7: 'Ingenting hittat',
-    8: 'Prova att använda olika sökfilter',
-    9: 'Väntar på en sökning',
-    10: 'Använd sökfiltren eller skriv in skinnets titel, skapare eller taggar',
-    11: 'Nedladdningar',
-    12: 'Namn',
-    13: {
-      0: 'Skins',
-      1: 'Taggar',
-      2: 'Användare',
-      3: 'Listor'
-    },
-    14: 'Sök:',
-    15: 'Storlek:',
-    16: 'Betyg:',
-    17: 'Visningar:',
-    18: 'Nerladdningar:'
-  },
-  contests: {
-    0: 'Tävlingar',
-    1: 'Officiell kostnad',
-    2: 'Inlämning',
-    3: 'Förbereder',
-    4: 'Röstning',
-    5: 'Slutförd',
-    6: 'Tävlingar',
-    7: 'Röstsida'
-  },
-  rules: {
-    0: 'Uppdaterades senast',
-    1: 'Riktlinjer för inlägg av utseenden'
-  },
-  skinini: {
-    0: 'Välkommen till skin.ini redigeraren!',
-    1: `Ny till skin.ini redigeraren? Då så ska vi lära dig gränssnittet och vissa dig redigerarens fulla potential!`,
-    2: '{current} av {max} färdigt',
-    3: 'Inga resultat',
-    4: 'Din fråga kan innehålla stavfel'
-  },
-  tabs: {
-    0: 'Sök efter',
-    1: 'Redigera',
-    2: 'Lista'
-  },
-  undefined: {
-    0: 'Tomt',
-    1: 'Tyvärr finns det inget här, men du kan ta en titt på de andra sidorna',
-    2: 'Tyvärr finns det inget här',
-    3: 'Obehörig',
-    4: 'Du måste vara inloggad för att kunna redigera detta skin.',
-    5: 'Du måste vara inloggad för att kunna lägga till ett nytt skin.'
+  status: {
+    0: 'Nothing was found',
+    1: 'Not found',
+    2: `Couldn't load image`,
+    3: 'No image to load'
   },
   settings: {
-    0: 'Inställningar',
+    0: 'Settings',
     1: 'Musbläddring',
-    2: 'Aktivera musen svep för bildkarusell, vilket tillåter vänster till höger eller höger till vänster.',
-    3: 'Zooma in',
-    4: 'Aktivera bildzoom vid hovring för större skalförhandsgranskning.'
+    2: 'Enables easy image navigation when hovering over a skin preview card.',
+    3: 'Card zoom in',
+    4: 'Enables automatic image zoom when hovering over a skin preview card..',
+    5: 'Automatic comment translation',
+    6: 'Enables automatic translation of comments to English.'
   },
-  meta: {
-    title: {
-      0: 'Utforska osu! skins',
-      1: 'Spellägen, bildförhållanden osu skins',
-      2: 'Populära osu skins',
-      3: 'Sök efter osu skins',
-      4: 'Lista över taggar, {name}',
-      5: '{name} v{version} osu skin',
-      6: 'Medverkande',
-      7: 'osu skins',
-      8: '{name} sök efter osu skins',
-      9: 'Få inspiration från andra osu! skins',
-      10: '{name} skapade osu skins',
-      11: 'Sök taggar',
-      12: '{name} hittade taggar',
-      13: 'Nytt skin',
-      14: 'Webbplats regler',
-      15: 'osu! Tävlingar',
-      16: 'osu! Skin verktyg'
+  footer: { 0: 'Credits' },
+  home: {
+    title: [
+      'Discover osu! skins',
+      'Random osu! skins'
+    ],
+    description: 'Find the best osu! skins on our site! Our huge library has skins for all gamemodes, aspect ratios and even top players. Plus, we have a special section for anime fans. Improve your gameplay with the perfect skin. #osuskins #osugame #anime',
+    0: 'Available for download',
+    1: 'Most [viewed], [liked], [downloaded] skins',
+    2: [
+      'viewed',
+      'liked',
+      'downloaded'
+    ],
+    3: [
+      'Recent',
+      'New releases',
+      'Random'
+    ],
+    4: 'aspect ratios',
+    5: 'more'
+  },
+  credits: {
+    title: [
+      'Artwork credits',
+      'Used assets',
+      'Localization helpers'
+    ],
+    0: 'Credits',
+    1: 'Anyone? [{lang}]',
+    2: 'Seems like cyperdark forgot to add them. {text}',
+    3: [
+      'Artworks',
+      'Localization',
+      'Assets'
+    ],
+    4: 'All icons are taken from {name}',
+    5: 'Alla flaggbilder är från {name}'
+  },
+  tools: {
+    title: 'Skinning tools for osu! (by me :) )',
+    description: 'Useful skinning tools for osu!, made by cyperdark',
+    0: 'More skinning tools'
+  },
+  skin_ini: {
+    title: 'Visual skin.ini editor - osu! tools',
+    description: '',
+    prepare: [
+      'loading beatmap',
+      'loading skin',
+      'preparing skin',
+      'loading viewer'
+    ],
+    0: 'Welcome to the visual skin.ini editor!',
+    1: 'Here you can preview your skin gameplay with changes in real-time, such as combo colors, slider colors, and font offsets. Standard mode only for now',
+    2: 'Beatmap:',
+    3: 'Paste beatmap link',
+    4: 'Import .osk / .zip',
+    5: 'Import skin folder',
+    6: '.osu file not found',
+    7: 'Incorrect gamemode, only osu beatmaps allowed',
+    8: 'Skin.ini not found',
+    9: 'Select at least 1 .osk / .zip file',
+    10: 'Viewer settings',
+    11: 'Reset skin.ini',
+    12: 'Export skin.ini',
+    13: 'Randomize colors (on current tab)',
+    14: 'Switch tab',
+    15: 'Rewind',
+    16: 'Forward',
+    17: 'Play/Pause viewer',
+    18: 'Move to previous settings section',
+    19: 'Move to next settings section',
+    20: 'Open menu',
+    21: 'Close menu',
+    22: 'Shortcut',
+    23: 'Description',
+    24: 'Specify via comma',
+    25: 'Randomize',
+    26: 'Revert to default element',
+    27: 'Reset to default',
+    28: 'Replace file',
+    29: 'issue',
+    30: 'Drag and drop files or skin',
+    31: 'loaded',
+    32: 'Gameplay speed',
+    33: 'Random beatmap',
+    34: 'Beatmap folder'
+  },
+  contests: {
+    title: 'Official osu! skinning contests',
+    description: 'List of all active/finished osu! contests',
+    submit: [
+      'Submissions closed...',
+      'Submissions in progress...',
+      'Submit your entry'
+    ],
+    0: 'Official skinning contests',
+    1: [
+      'Submission',
+      'Preparing',
+      'Voting',
+      'Finished'
+    ],
+    2: 'Announcement',
+    3: 'Submissions ended',
+    4: 'Voting started',
+    5: 'Voting ended',
+    6: 'Results out',
+    7: 'Submission phase...',
+    8: 'Preparing phase...',
+    9: 'Voting phase...',
+    10: 'Waiting results...',
+    11: 'Vote here',
+    12: 'announcement',
+    13: 'submissions',
+    14: 'contest page',
+    15: 'results',
+    16: 'wiki',
+    17: 'Ends in',
+    18: 'Skins not found for this contest',
+    19: 'Expand description | Close description'
+  },
+  ideas: {
+    title: 'Inspiration - osu! skins',
+    description: 'Find inspiration for your next osu! skin on our site. Browse through a diverse collection of skins and discover new techniques and ideas. Get inspired and create your own unique skins.',
+    0: 'Screenshots not found for this category'
+  },
+  search: {
+    title: 'Search osu skins',
+    description: 'Find the perfect osu! skin with our advanced search feature. Browse through our huge library, filtered by ruleset, aspect ratio, and more. Or check out skins used by top players.',
+    0: 'Skin title, author, or tags',
+    1: [
+      'name',
+      'tags',
+      'creators'
+    ],
+    2: 'Select date range',
+    3: 'Size range',
+    4: 'View count range',
+    5: 'Download count range',
+    6: 'Like count range',
+    7: 'Select cursor type',
+    8: 'Nothing was found',
+    9: 'Try using a different set of search filters',
+    10: 'Pending query',
+    11: 'Use the search filters or type the skin\'s title, author or tags',
+    12: 'Select mania key',
+    13: 'reset',
+    14: 'Cursor color',
+    15: 'Circle color',
+    16: 'Slider border color',
+    17: 'Slider track color',
+    18: 'experimental filters'
+  },
+  tags: {
+    title: 'Search tags',
+    description: '',
+    0: 'Nothing was found',
+    1: 'Try searching something else'
+  },
+  tag: {
+    title: '{name} osu skins',
+    description: '',
+    0: 'Nothing was found',
+    1: 'No skins were found for this tag',
+    2: 'Try changing gamemode'
+  },
+  users: {
+    title: [
+      'Profile - {name} uploads',
+      'Profile - {name} skins'
+    ],
+    description: [
+      'All osu! skins uploaded by {name}',
+      'All osu! skins created by {name}'
+    ],
+    0: [
+      'Created skins',
+      'Uploaded skins'
+    ],
+    1: 'Incorrect url',
+    2: 'Make sure link is correct. Example: {url}',
+    3: 'Unsupported format',
+    4: 'Link format incorrect, use {url} or {url_1}',
+    5: `Change at least one setting before updating`,
+    6: `Unable to update settings`,
+    7: `Settings updated`,
+    8: 'Unknown error',
+    9: 'Settings',
+    10: 'Discord username',
+    11: 'Discord server link',
+    12: 'Twitter profile link',
+    13: 'Reddit profile link',
+    14: 'YouTube channel link',
+    15: 'Link to blog',
+    16: 'Show your liked skins',
+    17: 'Update settings',
+    18: '{amount} uploads | {amount} upload | {amount} uploads',
+    19: 'Blog',
+    20: 'Skins Stats',
+    21: 'Expand «about me» | Close «about me»',
+    22: 'Nothing was found',
+    23: 'No skins were found for this creator'
+  },
+  skins: {
+    title: [
+      '{amount} osu! skins',
+      '{amount} {category} osu! skins',
+      '{amount} universal aspect ratio osu! skins',
+      '204 Most viewed {mode} osu! skins',
+      '204 Most downloaded {mode} osu! skins',
+      '204 Most liked {mode} osu! skins'
+    ],
+    description: ['{amount} skins for osu!, catch the beat, mania and taiko'],
+    0: 'All',
+    1: 'Populärt',
+    2: 'osu!',
+    3: 'ctb',
+    4: 'mania',
+    5: 'taiko',
+    6: 'universal ratio',
+    7: 'Nothing was found',
+    8: 'No skins were found for this category',
+    9: [
+      'downloads',
+      'views',
+      'likes'
+    ],
+    10: 'Submitted skins',
+    11: 'Skins currently in queue: {amount}',
+    12: 'No skins currently submitted for moderation'
+  },
+  skin: {
+    title: [
+      'Submit new skin',
+      '{name} osu skin'
+    ],
+    description: '{size}MB osu skin for {modes}, created by {creators}. Supports {ratios}',
+    rules: {
+      0: `**Do not** post nonsense.`,
+      1: `**Don't** post **low-quality** or **duplicate** submissions.`,
+      2: `Make sure your skin has **not** already been **published**.`,
+      3: `A skin is **protected from deletion** if it has been featured in a video by channels such as **cpol or osuck**, or if a **top player used** it in their public content. (twitch, youtube, twitter, tiktok, github, etc.)`,
+      4: `Screenshots must be **relevant** and **accurately represent** the skin.`,
+      5: `**Do not** upload skins that the original creator has set as **private** or does not wish to share. (Unless you have permission)`,
+      6: `If **your skin** is based on someone else's work or **uses assets** from other creators, **credit them** in your post.`,
+      7: `If your skin **includes** third-party assets (art, hitsounds, fonts, etc.), you **must** have permission and provide proper **credit** in the **Resources** tab of your submission.`,
+      8: `All submissions **must use English** as the primary language.\n- Titles containing **non-Latin** characters must also **include a Romanized** version.`,
+      9: `**Prohibited** content includes:\n- Religious or political content\n- Racism, hate speech, or harassment\n- Offensive or discriminatory imagery\n- Excessive gore or extreme violence\n- Explicit sexual content, including depictions of minors`,
+      10: `Suggestive or borderline content **must be clearly labeled** with the **NSFW** tag.`
     },
-    description: {
-      0: 'Få det bästa osu! skinnen på våran sida! Vårat stora urval innehåller skinn för alla spellägen, bildförhållanden, och även toppspelare. Plus, vi har även en special avdelning för anime fans. Förbättra ditt gameplay med det perfekta skinnet. #osuskins #osugame #anime',
-      1: '{views} visningar. Ett osu skin för {modes}, storleken är {size}, skapad av {creators}. Stödjer {ratios}',
-      2: 'Hitta det perfekta osu! skinnet med våran avancerade sökfunktion. Bläddra genom vårat enorma urval, filtrerat på spelläge, bildförhållande, och mer. Eller, titta på skins använda av toppspelare.',
-      3: 'Hitta en varierad mängd spellägen och bildförhållanden på våran sida. Välj mellan standard läge, catch the beat, mania, and taiko. Hitta den perfekta passningen för dina spel preferenser.',
-      4: 'Hitta det perfekta osu! skinnet från toppspelare på våran sida. Bläddra genom våran samling av populära skins och anpassa ditt gameplay. Hitta en varierad mängd av stilar and teman som passar dina preferenser.',
-      5: 'Lista av existerande tags för osu skins.',
-      6: '{name} osu skins samling!, gratis nedladdning',
-      7: 'En enorm mängd av osu skins för {name}, ladda ner gratis!',
-      8: 'Alla osu skins skapade av {name}',
-      9: 'Hitta inspiration för ditt nästa osu! skin på vår sida. Sök genom en varierad samling av skins och hitta nya tekniker och idéer. Bli inspirerad och skapa dina egna unika skins.',
-      10: 'Sök efter taggar bland alla taggar på webbplatsen.',
-      11: 'Lista över alla aktiva/avslutade osu! tävlingar',
-      12: '{amount} tävlande för {title} tävlingen. {views} visningar'
+    0: 'Clear everything?',
+    1: 'Submit',
+    2: 'Submission rules',
+    3: 'Agree & Submit',
+    4: 'Suggest changes',
+    5: 'Update skin',
+    6: 'Log in to rate skin',
+    7: 'Suggested changes',
+    8: 'Select which changes you want to be applied',
+    9: 'Apply',
+    10: 'Reject',
+    11: 'Apply changes',
+    12: [
+      'About',
+      'Screenshots',
+      'Resources',
+      'Downloads',
+      'Comments'
+    ],
+    13: 'Banner added',
+    14: 'Banner updated',
+    15: 'Total size of all screenshots must not exceed 100 MB (currently {amount})',
+    16: 'Variant: {name}',
+    17: 'A resource with this link has already been added',
+    18: `Link not supported. Only youtube links are allowed.`,
+    19: 'Video already added',
+    20: 'Tag already added',
+    21: 'Unauthorized',
+    22: 'Log in to an account',
+    23: `Link not supported. Only mega, gdrive and mediafire links are allowed.`,
+    24: 'Unsupported osu! forum link',
+    25: 'Unsupported reddit link',
+    26: 'Couldn\'t parse link',
+    27: 'Unsupported twitter link',
+    28: 'Unknown cloud service',
+    29: 'Manage versions',
+    30: 'new version',
+    31: 'Type skin name',
+    32: 'Has extras?',
+    33: 'Select aspect ratios',
+    34: '{amount} issues',
+    35: 'Edit',
+    36: 'Log in to report skin',
+    37: 'Exit editing',
+    38: 'Remove banner',
+    39: 'Description',
+    40: '**Animations** - has animated elements (back button / skip button / hp bar)',
+    41: '**Extras** - has files for customization / additional gameplay elements',
+    42: '**HD** - has files for resolutions **above** 1366x768',
+    43: '**SD** - has files for resolutions **below** 1366x768',
+    44: 'Released at {date}',
+    45: 'Uploaded at {date}',
+    46: 'Paste a YouTube video link',
+    47: 'Quick select',
+    48: 'Remove all screenshots?',
+    49: 'Type variant name...',
+    50: 'Select screenshot category',
+    51: 'Compare versions',
+    52: 'Show gameplay only',
+    53: 'Type a description and an url. Format description:url',
+    54: 'Description:',
+    55: 'Url:',
+    56: `Oops!`,
+    57: 'No `.osk` files are attached to this skin',
+    58: `Nothing was found`,
+    59: 'Change query or try searching something else',
+    60: 'Log in to report a file',
+    61: 'Versions',
+    62: 'Download link',
+    63: 'osu! forum link',
+    64: 'reddit link',
+    65: 'twitter link',
+    66: 'Creators',
+    67: 'If a creator wants to be anonymous or a collaborator does not have a bancho account, you can add them as a ghost creator.',
+    68: 'Creators not added',
+    69: 'Tags',
+    70: 'Tags not added',
+    71: 'start typing to get suggestions',
+    72: 'Show',
+    73: [
+      'Creator',
+      'Mixer',
+      'Animations',
+      'Arts',
+      'Collab',
+      'Sounds',
+      'Gameplay'
+    ],
+    74: 'All changes have been saved locally',
+    75: 'Changes restored from cache',
+    76: 'Released {date}',
+    77: 'Select roles',
+    checks: {
+      0: 'Skin name not specified',
+      1: 'Add at least one creator',
+      2: 'Select at least one aspect ratio',
+      3: 'No screenshots provided',
+      4: 'Add at least one gameplay screenshot',
+      5: 'Skin link not specified',
+      6: 'Some creators do not have roles',
+      7: 'Some creators do not have names',
+      8: 'Skin release date not specified',
+      9: 'Skin version not specified',
+      10: 'Content rating not selected'
     }
   },
-  buttons: {
-    0: 'Logga in',
-    1: 'Startsida',
-    profile_osu: 'osu! Profil',
-    new_skin: 'Nytt skin',
-    notifications: 'Notiser',
-    settings: 'Inställningar',
-    logout: 'Logga ut',
-    load_more: 'Läs in mer',
-    copy_short: 'Kopiera kortlänk',
-    copied: 'Kopierad',
-    reddit_link: 'Reddit',
-    osu_forum_link: 'osu! Forum',
-    skin_return: 'Tillbaka till skin',
-    source: 'Källa',
-    contest_voting: 'Rösta här',
-    rules_agree: 'Jag samtycker',
-    report_issue: 'Rapportera ett problem',
-    ghost_creator: 'Ghost skapare',
-    close: 'Stäng',
-    quick_select: 'Snabbval'
+  skin_block: {
+    0: 'Open skin page',
+    1: 'Open in fullscreen',
+    2: 'Switch to other gamemode',
+    3: 'Change image category',
+    4: 'Copy short link'
   },
-  choose: {
-    0: 'Valfritt',
-    1: 'Obligatoriskt',
-    2: 'Välj minst ett alternativ'
+  gallery: {
+    0: 'Open in fullscreen',
+    1: 'Exit fullscreen',
+    2: 'Reset zoom',
+    3: 'Close gallery'
   },
-  user: {
-    roles: {
-      0: 'Skapare',
-      1: 'Mixer',
-      2: 'Animationer',
-      3: 'Konstverk',
-      4: 'Samarbete',
-      5: 'Ljud',
-      6: 'Gameplay'
-    }
+  screenshots_select: {
+    0: 'Welcome',
+    1: 'Main menu',
+    2: 'Song select',
+    3: 'Mode menu',
+    4: 'Mods',
+    5: 'Countdown',
+    6: 'Gameplay',
+    7: 'Spinner',
+    8: 'Section Pass',
+    9: 'Section Fail',
+    10: 'Pause Screen',
+    11: 'Fail Screen',
+    12: 'Result screen (top)',
+    13: 'Skip',
+    14: 'Banner',
+    15: 'Result screen (bottom)',
+    16: 'Pinned image',
+    17: 'osu!',
+    18: 'catch the beat',
+    19: 'mania',
+    20: 'taiko'
   },
-  tooltips: {
-    0: 'Visningar: {amount}',
-    1: 'Uppdatera resultat',
-    2: 'Fallande | Stigande',
-    3: 'Gillar: {likes} / Ogillar: {dislikes}',
-    4: 'Tryck på ctrl+enter för att lägga till en tag',
-    5: 'Redigera version',
-    6: '{s}Logga in{p}, för att betygsätta detta skin',
-    7: 'Ingen kort beskrivning',
-    8: 'Ingen url',
-    9: 'Nedladdningar: {amount}',
-    10: 'Återställ allt',
-    11: 'Visa guide',
-    12: 'Stäng guide',
-    13: 'För att markera en regel som läst, sväva över den (Gul indikerar oläst)',
-    14: {
-      0: '[hl]{example}[/hl] - [b]lika[/b] till {amount}',
-      1: '[hl]{example}[/hl] - [b]över[/b] {amount}',
-      2: '[hl]{example}[/hl] - [b]under[/b] {amount}',
-      3: '[hl]{example}[/hl] - [b]från[/b] {amount} [b]till[/b] {amount_2}'
+  report: {
+    skin_ini: [
+      'Describe bug, preferably with reproduction steps',
+      'Describe what you want to see...'
+    ],
+    tag: {
+      0: 'Missing skin',
+      1: 'Link to a video of missing skin'
     },
-    15: 'Avmarkera',
-    16: 'Ta bort fil'
+    skin_file: [
+      'Download link is missing',
+      'Skin is broken',
+      'Describe what exactly broken'
+    ],
+    skin: [
+      'Wrong/Missing screenshots',
+      'Which screenshots are missing',
+      'Wrong/Missing creators',
+      'Type text...',
+      'Missing NSFW tag',
+      'Metadata',
+      'Describe what exactly wrong',
+      'Copyright/Missing credits',
+      'Type text...'
+    ],
+    0: 'Log in to report a issue',
+    1: 'Type is not selected',
+    2: `Id does not exist`,
+    3: 'Category not selected',
+    4: 'Report already submitted',
+    5: 'Report submitted',
+    6: 'Select report category',
+    7: 'Submit report'
   },
-  lists: {
-    screens: {
-      0: 'Välkommen',
-      1: 'Huvudmeny',
-      2: 'Välj låt',
-      3: 'Läge meny',
-      4: 'Mods',
-      5: 'Nedräkning',
-      6: 'Gameplay',
-      7: 'Spinner',
-      8: 'Avdelning Pass',
-      9: 'Avdelning Fail',
-      10: 'Pausskärm',
-      11: 'Failskärm',
-      12: 'Resultatskärm',
-      13: 'Skippa',
-      14: 'Banner',
-      15: 'Resultatskärm (nederst)',
-      16: 'Börjar bild'
-    },
-    cats: {
-      0: 'NSFW',
-      1: 'Furry',
-      2: 'Blandad'
-    }
+  plural: {
+    skins: '{amount} skins | {amount} skin | {amount} skins',
+    tags_skins: '«{name}» {amount} skins | «{name}» {amount} skin | «{name}» {amount} skins',
+    views: '{amount} views | {amount} view | {amount} views',
+    votes: '{amount} votes | {amount} vote | {amount} votes'
   },
-  select: {
-    0: 'Nytt',
-    1: 'Fixad',
-    2: 'Ändrad',
-    3: 'Borttagen',
-    4: 'Konst',
-    5: 'Font',
-    6: 'Artist',
-    7: 'Skin element',
-    8: 'Ljud/Sfx',
-    9: 'Verktyg',
-    10: 'Bild',
-    views: 'Visningar',
-    likes: 'Gillar',
-    dislikes: 'Ogillar',
-    downloads: 'Nedladdningar',
-    ratio: 'Välj bildförhållande | förhållande',
-    sorting: 'Desc. | Asc.'
+  placeholder: {
+    0: 'Type text..',
+    1: 'Type link..',
+    2: 'Type hex/rgb color..'
   },
   sorting: {
-    0: 'Mest, minst',
-    1: 'Mest, minst',
-    2: 'Högsta, Lägsta',
-    3: 'Största, Minsta',
-    4: 'Nyaste, Äldsta',
+    date: 'Date',
+    release_date: 'Release date',
+    upload_date: 'Upload date',
+    view: 'Views',
+    vote: 'Votes',
+    name: 'Name',
+    download: 'Downloads',
+    like: 'Likes',
+    size: 'Size',
+    total: 'Total'
+  },
+  order: {
+    0: 'Most | Least',
+    1: 'Most | Least',
+    2: 'Highest | Lowest',
+    3: 'Largest | Smallest',
+    4: 'Newest | Oldest',
     5: 'A-Z | Z-A'
   },
-  placeholders: {
-    0: 'Välj roller',
-    1: 'Välj versioner',
-    2: 'Skriv in text...',
-    3: 'Välj storleksområde',
-    4: 'Välj datumspann',
-    5: 'År',
-    6: 'Månad',
-    7: 'Välj bildförhållande',
-    8: 'Välj kategorier',
-    9: 'Spellägen',
-    10: 'Välj typ',
-    11: 'Klistra in en YouTube länk',
-    12: 'Skriv en beskrivning och en webbadress. Format description:url',
-    13: 'Välj extra',
-    14: 'Klistra in en länk',
-    15: 'Skin titel, författare eller taggar',
-    16: 'Välj kategori',
-    17: 'Skriv namnet på taggen',
-    18: 'Skriv ett namn på skinnet',
-    19: 'Skriv författarens namn ',
-    20: 'Välj fil',
-    24: 'Type gameplay name...',
-    25: 'Type range',
-    26: 'Type text'
+  tooltips: {
+    0: [
+      '[hl]{example}[/hl] - [b]equal[/b] to {amount}',
+      '[hl]{example}[/hl] - [b]greater than[/b] {amount}',
+      '[hl]{example}[/hl] - [b]less than[/b] {amount}',
+      '[hl]{example}[/hl] - [b]between[/b] {amount} [b]and[/b] {amount_2}'
+    ],
+    1: 'Usage examples:',
+    2: `Select screenshot category`,
+    3: '{amount} downloads',
+    4: '{amount} views',
+    5: '{likes} likes / {dislikes} dislikes',
+    6: '{amount} skins',
+    7: '{amount} votes'
   },
-  contribute: { 0: 'Bidra' },
   nsfw: {
-    0: 'Warning, nsfw!',
-    1: 'Denna skin innehåller känsligt eller vuxet innehåll',
-    2: 'Denna skin innehåller känslig eller vuxen innehåll som vissa användare kan hitta störande',
-    3: 'Okej',
-    4: 'Hejdå o/',
-    5: 'Furry Warning!'
+    0: 'NSFW Warning!',
+    1: 'This skin contains sensitive or adult content!',
+    3: 'Furry Warning!'
   },
-  removed: {
-    0: 'Version ej tillgänglig',
-    1: 'Skaparen av skinnet valde att ta bort denna version från sidan.',
-    2: 'Byt till en tillgänglig version'
+  drag: {
+    0: 'Click to add images',
+    1: 'or drag & drop here',
+    2: `drop images here`
   },
-  notify: {
-    0: 'Problemen har inte blivit fixat',
-    1: 'Alla obligatoriska fält har inte fyllts i',
-    2: 'Visa',
-    3: 'Hittades inte',
-    4: 'Banner hittades inte (För nu används den första skärmdumpen som banner)',
-    5: 'Inga ändringar',
-    6: 'Inga ändringar hittades',
-    7: 'ID hittades inte',
-    8: 'ID för videon hittades inte, prova en annan länk (Just nu stöds endast YouTube)',
-    9: 'Hoppsan',
-    10: 'Ser ut som din session har gått ut, öppna en ny sida och logga in på ditt konto (oroa dig inte, allting sparades automatiskt)',
-    11: 'Existerar',
-    12: 'Denna video har redan lagts till',
-    13: 'Existerar',
-    14: 'Denna tagg har redan lagts till',
-    15: 'Hittades inte',
-    16: 'Du kan inte ta bort en raderad tagg',
-    17: 'Tillagd',
-    18: 'Du har lagt till en ny tagg',
-    19: 'Hoppsan',
-    20: 'Skaparen har redan lagts till',
-    21: 'EZ',
-    22: 'Ny profil har lagts till',
-    23: 'VA',
-    24: 'Omöjligt att ta bort en raderad skapare',
-    25: 'Duplicera',
-    26: 'Denna ändring har redan lagts till tidigare.',
-    27: 'Duplicera',
-    28: 'Denna URL har redan lagts till tidigare.',
-    29: 'Varning',
-    30: 'Du glömde att lägga till en beskrivning för webbadressen. Exempel: Description:url',
-    31: 'Varning',
-    32: 'Du glömde att lägga till en URL för beskrivningen. Exempel: Description:url',
-    33: 'Återställt',
-    34: 'Version «{name}» har återställts',
-    35: 'Raderad',
-    36: 'Version «{name}» har raderats',
-    37: 'Error',
-    38: 'Uppenbarligen tror servern att du är en robot.',
-    39: 'Your current login session has timed out. To proceed, please open a new page and log back into your account. Once you\'ve done that, return to this page and try again.',
-    40: 'Inloggningsuppgifterna stämmer inte överens (logga in på ditt konto igen. Oroa dig inte, allt sparades automatiskt)',
-    41: 'Okänt fel',
-    42: 'Du kan inte redigera ett icke-existerande skin',
-    43: 'Det verkar som om du inte har behörighet att redigera detta skin',
-    44: 'Du kan inte skicka denna version eftersom det är samma som den föregående.',
-    45: 'Dessa ändringar har redan skickats för moderering',
-    46: 'Klart!',
-    47: 'Nya ändringar har lämnats in för moderering',
-    48: 'Ändringar har uppdaterats med moderering',
-    49: 'Konstig länk',
-    50: 'Denna länk kan inte användas som en nedladdningslänk',
-    51: 'Skickad till moderering',
-    52: 'Varning',
-    53: 'You need to choose type of asset',
-    54: 'The skin is currently under moderation. Please be patient while it is being processed',
-    55: 'Klart!',
-    56: 'New ghost creator has been added',
-    57: 'Color copied',
-    58: `The RGB code "{color}" is now available through your clipboard!`
+  buttons: {
+    source: 'Art Source',
+    load_more: 'Läs in mer',
+    close: 'Stäng',
+    choose: [
+      'Yes',
+      'No'
+    ],
+    expand_more: 'Show more | Show less'
   },
-  header: {
-    0: 'Notiser',
-    1: 'Följ oss på de här plattformar för att få notifikationer om nya skins'
-  },
-  restricted_view: {
-    0: 'Obehörig',
-    1: 'Vänligen logga in på ditt konto',
-    2: 'Begränsad visning',
-    3: 'Den här sidan är inte ute, än.'
-  },
-  confirm: {
-    0: 'Reset everything?',
-    1: 'Show guide?',
-    2: 'Submit skin?',
-    3: 'Yes',
-    4: 'No',
-    5: 'Reset .ini?'
+  error: {
+    0: 'home page',
+    1: 'log in',
+    2: 'Report issue'
   }
 };
