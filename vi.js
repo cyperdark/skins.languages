@@ -1,523 +1,581 @@
+/* renaming
+
+contests.0  =>  header.contests
+title.ideas.0  =>  header.ideas
+title.tools  =>  header.tools
+title.home  =>  header.home
+skins.14  =>  header.popular
+skins.6  =>  header.all_skins
+tags.0  =>  header.tags
+header.0  =>  notifications.0
+header.1  =>  notifications.1
+contribute.0  =>  header.contribute
+title.login  =>  header.login
+footer.1  =>  footer.0
+home.5  =>  plural.skins
+meta.title.17  =>  home.title.1
+meta.title.0  =>  home.title.0
+meta.description.0  =>  home.description
+home.5  =>  plural.skins
+credits.7  =>  credits.1
+credits.8  =>  credits.2
+credits.3  =>  credits.4
+sorting  =>  order
+meta.title.15  =>  contests.title
+meta.description.11  =>  contests.description
+  =>
+  =>
+  =>
+  =>
+  =>
+  =>
+  =>
+  =>
+  =>
+
+
+
+
+
+*/
 export default {
-  title: {
-    home: 'Trang chủ',
-    login: 'Đăng nhập',
-    lists: { 0: 'Danh sách' },
-    tags: {
-      0: 'Các Tag',
-      1: '{amount} tag của nhóm {name}',
-      2: 'Tìm tag'
-    },
-    ideas: {
-      0: 'Cảm Hứng',
-      1: '«{amount}»'
-    },
-    sounds: { 0: 'Âm thanh' },
-    leaderboard: { 0: 'Bảng xếp hạng' },
-    extend: { 0: 'Hiển thị thêm | Hiển thị ít hơn' },
-    skin: {
-      0: 'Skin này chứa yếu tố từ skin khác',
-      1: 'Nhấp vào đây để biết thêm thông tin'
-    },
-    tools: 'Công cụ'
+  header: {
+    home: 'Home',
+    contests: 'Contests',
+    ideas: 'Inspiration',
+    tools: 'Tools',
+    popular: 'Popular skins',
+    all_skins: 'All skins',
+    tags: 'Tags',
+    new: 'New',
+    contribute: 'Contribute',
+    login: 'Log in',
+    0: 'Views',
+    1: 'Downloads',
+    2: 'Likes'
   },
-  home: {
-    0: 'Có sẵn cho bạn tải xuống',
-    1: 'Những skin nhất về: _name_',
-    2: 'Lượt xem | Lượt thích | Lượt tải',
-    3: 'Đăng tải skin mới',
-    4: 'Cách cài đặt skin',
-    5: '{amount} Skins | {amount} Skins | {amount} Skins'
+  notifications: {
+    0: 'Notifications',
+    1: 'Follow us on these platforms to receive notifications about new skins'
   },
-  changelogs: {
-    0: 'Nhật ký thay đổi',
-    1: 'Danh sách tất cả những sửa đổi ở phiên bản hiện tại',
-    2: 'Không có gì ở đây',
-    3: 'Nhưng bạn có thể thêm vào những thay đổi đã hoàn thiện đối với phiên bản của skin này',
-    4: 'Chưa nhóm',
-    5: 'Mới',
-    6: 'Sửa lỗi',
-    7: 'Thay đổi',
-    8: 'Xoá'
+  user_menu: {
+    0: 'profile',
+    1: 'my skin queue',
+    2: 'refresh token',
+    3: 'log out'
   },
-  ideas: {
-    0: 'Không thấy gì cả',
-    1: 'Không có ảnh cho «{type}» được đăng trên trang này',
-    2: '«{amount}» {name}'
-  },
-  creators: {
-    0: 'Tác giả',
-    1: 'Liệt kê mọi tác giả có liên quan đến việc hoàn thành skin này',
-    2: 'Không có ai ở đây',
-    3: 'Tìm kiếm tên của người chơi sẽ hiển thị một danh sách các trang các nhân.',
-    4: 'Trình chỉnh sửa',
-    5: 'Vai trò',
-    6: 'Phiên bản'
-  },
-  tags: {
-    0: 'Các Tag',
-    1: 'Danh sách tất cả các tag liên quan đến skin này',
-    2: 'Có vẻ như không có gì ở đây.',
-    3: 'Sử dụng ô trống bên trên để tìm các tag mới',
-    4: 'Không tìm thấy tag',
-    5: 'Hãy thử tìm cái gì đó khác',
-    6: 'Tìm kiếm'
-  },
-  videos: {
-    0: 'Video',
-    1: 'Danh sách tất cả các video xem trước cho skin này',
-    2: 'Không có xem trước',
-    3: 'Tìm một vài video xem trước trên YouTube hoặc tự tạo'
-  },
-  sources: {
-    0: 'Góp ý',
-    1: 'Danh sách tất cả các asset hoặc tool trong phiên bản skin này',
-    2: 'Khá là trống ở đây',
-    3: 'Nếu bạn đã sử dụng asset hay tranh vẽ từ các skin khác, hãy nhớ thêm chúng vào hộp bên dưới',
-    4: 'Chưa nhóm'
-  },
-  checks: {
-    0: 'Tất cả',
-    1: 'Metadata',
-    2: 'Tâm điểm',
-    3: 'Tên skin không xác định',
-    4: 'Thêm vào ít nhất một tác giả tạo skin',
-    5: 'Thêm một số tag',
-    6: 'Kích thước skin không xác định',
-    // 7: 'Select at least one gamemode',
-    8: 'Chọn độ phân giải hình ảnh (SD hoặc HD)',
-    9: 'Chọn ít nhất một tỷ lệ khung hình',
-    10: 'Ảnh chụp màn hình không khả dụng',
-    11: 'Thêm vào ít nhất một ảnh chụp màn hình gameplay',
-    12: 'Liên kết skin không khả dụng',
-    20: 'Trông ổn đấy',
-    21: 'Mọi vấn đề đã được giải quyết. Tốt lắm!',
-    22: 'Danh mục',
-    23: 'Thêm ít nhất một phiên bản công khai',
-    24: 'Thêm ít nhất một tác giả cho phiên bản này',
-    25: 'Mốt số tác giả không có vai trò',
-    26: '{amount} bức ảnh chưa có danh mục',
-    28: 'Chọn chế độ chơi để xem ảnh chụp màn hình'
-  },
-  skins: {
-    0: 'Skin',
-    1: 'Phổ biến',
-    2: 'std | ctb',
-    3: 'mania | taiko',
-    4: 'Gần đây',
-    5: 'Ngẫu nhiên',
-    6: 'Tất cả skin',
-    7: 'Tỷ lệ khung hình',
-    8: 'Tất cả skin | skin',
-    9: 'Skin | Skin | Skin',
-    10: 'Skin osu! bởi {name} | Tất cả các skin từ',
-    11: 'Tìm kiếm',
-    12: 'skin {name}',
-    13: 'Khám phá các skin',
-    14: 'Skin osu phổ biến'
-  },
-  skin: {
-    0: 'Chỉnh sửa',
-    1: 'Bổ sung',
-    2: 'HD',
-    3: 'Full HD',
-    4: 'Hoạt ảnh',
-    5: 'Ảnh chụp màn hình',
-    6: 'Chỉ gameplay',
-    7: 'Tải skin | Tải skin',
-    8: 'Bài viết Forum | osu! Forum',
-    9: 'Bài viết Reddit',
-    10: 'Tác giả',
-    11: 'Các Tag',
-    13: 'Video',
-    14: 'Phiên bản mới | Quản lí phiên bản',
-    15: 'Cập nhật | Xác nhận',
-    16: 'Chế độ chơi',
-    17: 'Tên skin',
-    18: 'Phiên bản | Các phiên bản',
-    19: 'Kích thước',
-    20: 'Metadata',
-    21: 'Đánh giá',
-    22: 'Lượt tải xuống',
-    23: 'Tải xuống sẽ sớm khả dụng',
-    24: 'Còn {amount} giây',
-    25: 'Bạn không phải một trong số chúng tôi',
-    26: 'Có vẻ như bạn không phải là tác giả hay người chỉnh sửa skin này',
-    27: 'Skin tạo bởi',
-    28: 'Không có tag',
-    29: 'Không có video',
-    30: 'Không có tác giả',
-    31: 'Đánh giá skin',
-    32: 'Upvote và bình luận trên Reddit',
-    33: 'Bình luận trên osu! forum',
-    34: 'Nhiều skin hơn từ tác giả này | Nhiều skin hơn từ tác giả này',
-    35: 'Ủng hộ skin',
-    36: 'Không khả dụng',
-    37: 'Thật không may, skin này đã bị xoá',
-    38: 'Chào mừng đến với phần trình sửa bài đăng skin!',
-    39: `Mới làm quen với việc chỉnh sửa? Hãy để chúng tôi hướng dẫn bạn qua giao diện và cho bạn thấy tiềm năng của editor này!`,
-    40: '{current} trên {max} đã được hoàn thiện',
-    41: 'Hãy ghé lại sau',
-    42: `Hãy bắt đầu`,
-    43: 'Xin chúc mừng!',
-    44: 'Bạn đã hoàn thành hướng dẫn, chúc vui vẻ!',
-    45: 'người đăng'
-  },
-  drag: {
-    0: 'Nhấn vào đây',
-    1: 'hoặc kéo thả ảnh vào đây'
-  },
-  footer: {
-    0: 'Làm bởi ck',
-    1: 'Những người đóng góp',
-    2: 'Luật lệ',
-    3: 'Liên hệ'
-  },
-  credits: {
-    0: 'Chibi',
-    1: 'Tranh vẽ',
-    2: 'Icon',
-    3: 'Mọi icon được lấy từ {name}',
-    4: 'Cờ',
-    5: 'Mọi hình ảnh cờ được lấy từ {name}',
-    6: 'Localisation',
-    7: 'Có ai không? [{lang}]',
-    8: 'Hình như cyperdark quên thêm chúng vào. {text}'
-  },
-  search: {
-    0: 'Tìm kiếm skin',
-    1: 'Lượt xem',
-    2: 'Tiêu đề',
-    3: 'Đánh giá',
-    4: 'Kích thước',
-    5: 'Ngày tháng',
-    7: 'Không thấy gì cả',
-    8: 'Hãy thử dùng các filter tìm kiếm khác',
-    9: 'Đang chờ xử lý',
-    10: 'Hãy sử dụng những filter tìm kiếm hoặc gõ tên skin, tác giả hay tag.',
-    11: 'Lượt tải xuống',
-    12: 'Tên',
-    13: {
-      0: 'Skin',
-      1: 'Các Tag',
-      2: 'Người dùng',
-      3: 'Danh sách'
-    },
-    14: 'Tìm kiếm:',
-    15: 'Kích cỡ:',
-    16: 'Đánh giá:',
-    17: 'Lượt xem:',
-    18: 'Lượt tải xuống:'
-  },
-  contests: {
-    0: 'Các cuộc thi',
-    1: 'Bài đăng chính thức',
-    2: 'Bài nộp dự thi',
-    3: 'Đang chuẩn bị',
-    4: 'Đang bình chọn',
-    5: 'Đã hoàn thành',
-    6: 'Các cuộc thi',
-    7: 'Trang bầu chọn'
-  },
-  rules: {
-    0: 'Cập nhật lần cuối cùng vào',
-    1: 'Tiêu chuẩn về việc đăng tải Skin'
-  },
-  skinini: {
-    0: 'Chào mừng đến với phần chỉnh sửa skin.ini!',
-    1: `Lần đầu tiếp xúc với skin.ini? Hãy để chúng tôi giới thiệu qua giao diện và cho bạn thấy sức mạnh của trình chỉnh sửa!`,
-    2: '{current} trên {max} đã được hoàn thiện',
-    3: 'Không có kết quả',
-    4: 'Phần tìm kiếm của bạn có thể có lỗi sai'
-  },
-  tabs: {
-    0: 'Tìm kiếm',
-    1: 'Chỉnh sửa',
-    2: 'Danh sách'
-  },
-  undefined: {
-    0: 'Trống',
-    1: 'Thật đáng tiếc, không có gì ở đây cả, nhưng bạn có thể xem những trang khác',
-    2: 'Thật đáng tiếc, không có gì ở đây cả',
-    3: 'Không thể truy cập',
-    4: 'Bạn cần đăng nhập để chỉnh sửa skin này.',
-    5: 'Bạn cần đăng nhập để thêm skin mới.'
+  status: {
+    0: 'Nothing was found',
+    1: 'Not found',
+    2: `Couldn't load image`,
+    3: 'No image to load'
   },
   settings: {
-    0: 'Cài đặt',
+    0: 'Settings',
     1: 'Lướt bằng chuột',
-    2: 'Bật đổi ảnh bằng cách di chuột, giúp đổi ảnh xem trước từ trái sang phải hoặc phải sang trái.',
-    3: 'Phóng to',
-    4: 'Bật phóng to ảnh khi di chuột để khiến ánh xem trước lớn hơn.'
+    2: 'Enables easy image navigation when hovering over a skin preview card.',
+    3: 'Card zoom in',
+    4: 'Enables automatic image zoom when hovering over a skin preview card..',
+    5: 'Automatic comment translation',
+    6: 'Enables automatic translation of comments to English.'
   },
-  meta: {
-    title: {
-      0: 'Khám phá các skin osu',
-      1: 'Chế độ chơi, tỉ lệ của osu skin',
-      2: 'Skin osu phổ biến',
-      3: 'Tìm kiếm osu skin',
-      4: 'Danh sách tag, {name}',
-      5: '{name} v{version} osu skin',
-      6: 'Những người đóng góp',
-      7: 'skin osu',
-      8: '{name} tìm kiếm skin osu',
-      9: 'Lấy cảm hứng từ các skin osu khác',
-      10: '{name} đã tạo skin osu',
-      11: 'Tìm tag',
-      12: 'Các tag chứa {name}',
-      13: 'Skin mới',
-      14: 'Luật của trang chủ',
-      15: 'Những cuộc thi về osu!',
-      16: 'công cụ tạo skin osu!'
+  footer: { 0: 'Credits' },
+  home: {
+    title: [
+      'Discover osu! skins',
+      'Random osu! skins'
+    ],
+    description: 'Find the best osu! skins on our site! Our huge library has skins for all gamemodes, aspect ratios and even top players. Plus, we have a special section for anime fans. Improve your gameplay with the perfect skin. #osuskins #osugame #anime',
+    0: 'Available for download',
+    1: 'Most [viewed], [liked], [downloaded] skins',
+    2: [
+      'viewed',
+      'liked',
+      'downloaded'
+    ],
+    3: [
+      'Recent',
+      'New releases',
+      'Random'
+    ],
+    4: 'aspect ratios',
+    5: 'more'
+  },
+  credits: {
+    title: [
+      'Artwork credits',
+      'Used assets',
+      'Localization helpers'
+    ],
+    0: 'Credits',
+    1: 'Anyone? [{lang}]',
+    2: 'Seems like cyperdark forgot to add them. {text}',
+    3: [
+      'Artworks',
+      'Localization',
+      'Assets'
+    ],
+    4: 'All icons are taken from {name}',
+    5: 'Mọi hình ảnh cờ được lấy từ {name}'
+  },
+  tools: {
+    title: 'Skinning tools for osu! (by me :) )',
+    description: 'Useful skinning tools for osu!, made by cyperdark',
+    0: 'More skinning tools'
+  },
+  skin_ini: {
+    title: 'Visual skin.ini editor - osu! tools',
+    description: '',
+    prepare: [
+      'loading beatmap',
+      'loading skin',
+      'preparing skin',
+      'loading viewer'
+    ],
+    0: 'Welcome to the visual skin.ini editor!',
+    1: 'Here you can preview your skin gameplay with changes in real-time, such as combo colors, slider colors, and font offsets. Standard mode only for now',
+    2: 'Beatmap:',
+    3: 'Paste beatmap link',
+    4: 'Import .osk / .zip',
+    5: 'Import skin folder',
+    6: '.osu file not found',
+    7: 'Incorrect gamemode, only osu beatmaps allowed',
+    8: 'Skin.ini not found',
+    9: 'Select at least 1 .osk / .zip file',
+    10: 'Viewer settings',
+    11: 'Reset skin.ini',
+    12: 'Export skin.ini',
+    13: 'Randomize colors (on current tab)',
+    14: 'Switch tab',
+    15: 'Rewind',
+    16: 'Forward',
+    17: 'Play/Pause viewer',
+    18: 'Move to previous settings section',
+    19: 'Move to next settings section',
+    20: 'Open menu',
+    21: 'Close menu',
+    22: 'Shortcut',
+    23: 'Description',
+    24: 'Specify via comma',
+    25: 'Randomize',
+    26: 'Revert to default element',
+    27: 'Reset to default',
+    28: 'Replace file',
+    29: 'issue',
+    30: 'Drag and drop files or skin',
+    31: 'loaded',
+    32: 'Gameplay speed',
+    33: 'Random beatmap',
+    34: 'Beatmap folder'
+  },
+  contests: {
+    title: 'Official osu! skinning contests',
+    description: 'List of all active/finished osu! contests',
+    submit: [
+      'Submissions closed...',
+      'Submissions in progress...',
+      'Submit your entry'
+    ],
+    0: 'Official skinning contests',
+    1: [
+      'Submission',
+      'Preparing',
+      'Voting',
+      'Finished'
+    ],
+    2: 'Announcement',
+    3: 'Submissions ended',
+    4: 'Voting started',
+    5: 'Voting ended',
+    6: 'Results out',
+    7: 'Submission phase...',
+    8: 'Preparing phase...',
+    9: 'Voting phase...',
+    10: 'Waiting results...',
+    11: 'Vote here',
+    12: 'announcement',
+    13: 'submissions',
+    14: 'contest page',
+    15: 'results',
+    16: 'wiki',
+    17: 'Ends in',
+    18: 'Skins not found for this contest',
+    19: 'Expand description | Close description'
+  },
+  ideas: {
+    title: 'Inspiration - osu! skins',
+    description: 'Find inspiration for your next osu! skin on our site. Browse through a diverse collection of skins and discover new techniques and ideas. Get inspired and create your own unique skins.',
+    0: 'Screenshots not found for this category'
+  },
+  search: {
+    title: 'Search osu skins',
+    description: 'Find the perfect osu! skin with our advanced search feature. Browse through our huge library, filtered by ruleset, aspect ratio, and more. Or check out skins used by top players.',
+    0: 'Skin title, author, or tags',
+    1: [
+      'name',
+      'tags',
+      'creators'
+    ],
+    2: 'Select date range',
+    3: 'Size range',
+    4: 'View count range',
+    5: 'Download count range',
+    6: 'Like count range',
+    7: 'Select cursor type',
+    8: 'Nothing was found',
+    9: 'Try using a different set of search filters',
+    10: 'Pending query',
+    11: 'Use the search filters or type the skin\'s title, author or tags',
+    12: 'Select mania key',
+    13: 'reset',
+    14: 'Cursor color',
+    15: 'Circle color',
+    16: 'Slider border color',
+    17: 'Slider track color',
+    18: 'experimental filters'
+  },
+  tags: {
+    title: 'Search tags',
+    description: '',
+    0: 'Nothing was found',
+    1: 'Try searching something else'
+  },
+  tag: {
+    title: '{name} osu skins',
+    description: '',
+    0: 'Nothing was found',
+    1: 'No skins were found for this tag',
+    2: 'Try changing gamemode'
+  },
+  users: {
+    title: [
+      'Profile - {name} uploads',
+      'Profile - {name} skins'
+    ],
+    description: [
+      'All osu! skins uploaded by {name}',
+      'All osu! skins created by {name}'
+    ],
+    0: [
+      'Created skins',
+      'Uploaded skins'
+    ],
+    1: 'Incorrect url',
+    2: 'Make sure link is correct. Example: {url}',
+    3: 'Unsupported format',
+    4: 'Link format incorrect, use {url} or {url_1}',
+    5: `Change at least one setting before updating`,
+    6: `Unable to update settings`,
+    7: `Settings updated`,
+    8: 'Unknown error',
+    9: 'Settings',
+    10: 'Discord username',
+    11: 'Discord server link',
+    12: 'Twitter profile link',
+    13: 'Reddit profile link',
+    14: 'YouTube channel link',
+    15: 'Link to blog',
+    16: 'Show your liked skins',
+    17: 'Update settings',
+    18: '{amount} uploads | {amount} upload | {amount} uploads',
+    19: 'Blog',
+    20: 'Skins Stats',
+    21: 'Expand «about me» | Close «about me»',
+    22: 'Nothing was found',
+    23: 'No skins were found for this creator'
+  },
+  skins: {
+    title: [
+      '{amount} osu! skins',
+      '{amount} {category} osu! skins',
+      '{amount} universal aspect ratio osu! skins',
+      '204 Most viewed {mode} osu! skins',
+      '204 Most downloaded {mode} osu! skins',
+      '204 Most liked {mode} osu! skins'
+    ],
+    description: ['{amount} skins for osu!, catch the beat, mania and taiko'],
+    0: 'All',
+    1: 'Phổ biến',
+    2: 'osu!',
+    3: 'ctb',
+    4: 'mania',
+    5: 'taiko',
+    6: 'universal ratio',
+    7: 'Nothing was found',
+    8: 'No skins were found for this category',
+    9: [
+      'downloads',
+      'views',
+      'likes'
+    ],
+    10: 'Submitted skins',
+    11: 'Skins currently in queue: {amount}',
+    12: 'No skins currently submitted for moderation'
+  },
+  skin: {
+    title: [
+      'Submit new skin',
+      '{name} osu skin'
+    ],
+    description: '{size}MB osu skin for {modes}, created by {creators}. Supports {ratios}',
+    rules: {
+      0: `**Do not** post nonsense.`,
+      1: `**Don't** post **low-quality** or **duplicate** submissions.`,
+      2: `Make sure your skin has **not** already been **published**.`,
+      3: `A skin is **protected from deletion** if it has been featured in a video by channels such as **cpol or osuck**, or if a **top player used** it in their public content. (twitch, youtube, twitter, tiktok, github, etc.)`,
+      4: `Screenshots must be **relevant** and **accurately represent** the skin.`,
+      5: `**Do not** upload skins that the original creator has set as **private** or does not wish to share. (Unless you have permission)`,
+      6: `If **your skin** is based on someone else's work or **uses assets** from other creators, **credit them** in your post.`,
+      7: `If your skin **includes** third-party assets (art, hitsounds, fonts, etc.), you **must** have permission and provide proper **credit** in the **Resources** tab of your submission.`,
+      8: `All submissions **must use English** as the primary language.\n- Titles containing **non-Latin** characters must also **include a Romanized** version.`,
+      9: `**Prohibited** content includes:\n- Religious or political content\n- Racism, hate speech, or harassment\n- Offensive or discriminatory imagery\n- Excessive gore or extreme violence\n- Explicit sexual content, including depictions of minors`,
+      10: `Suggestive or borderline content **must be clearly labeled** with the **NSFW** tag.`
     },
-    description: {
-      0: 'Tảỉ về những skin osu! tốt nhất từ trang của chúng tôi! Thư viện to lớn của chúng tôi có skin cho mọi chế độ chơi, tỷ lệ khung hình và cả kể cả những top player. Thêm vào đó, chúng tôi có một khu đặc biệt dành cho các fan anime. Cả thiện gameplay với một skin hoàn hảo. #osuskins #osugame #anime',
-      1: '{views} lượt xem. Một skin osu cho {modes}, kích thước là {size}, được tạo bởi {creators}. Hỗ trợ {ratios}',
-      2: 'Tìm những skin osu! hoàn hảo với tính năng tìm kiếm đã được cải thiện của chúng tôi. Tìm qua cả thư viện khổng lồ, lọc qua chế độ chơi, tỷ lệ khung hình, và hơn thế nữa. Hoặc, ghé qua các skin được sử dụng bởi các top player.',
-      3: 'Khám phá các thể loại skin cho các chế độ khác nhau và các tỷ lệ khung hình trên trang của chúng tôi. Chọn từ standard, catch the beat, mania đến taiko. Tìm cho bản thân những gì phù hợp nhất với sở thích của bạn.',
-      4: 'Tìm skin osu hoàn hảo từ các top player trên trang của chúng tôi. Lướt qua bộ sưu tầm những skin nổi tiếng và tùy chỉnh gameplay của bạn. Khám phá một loạt các phong cách và chủ đề phù hợp với sở thích của bạn.',
-      5: 'Danh sách các tag tồn tại cho skin osu.',
-      6: 'Bộ sưu tầm skin {name}!, tải miễn phí',
-      7: 'Một lượng lớn skin osu cho {name}, tải miễn phí!',
-      8: 'Tất cả skin được tạo bởi {name}',
-      9: 'Tìm các nguồn cảm hứng cho skin osu! tiếp theo của bạn ở trang của chúng tôi. Điểm qua một bộ sưu tầm skin đa dạng và khám phá các kỹ thuật và ý tưởng mới. Lấy cảm hứng và tạo cho bản thân những skin độc đáo.',
-      10: 'Tìm các tag trong tất cả các tag trên trang.',
-      11: 'Danh sách mọi cuộc thi đang hoạt động/đã hoàn tất',
-      12: '{amount} bài dự cho cuộc thi {title}. {views} lượt xem'
+    0: 'Clear everything?',
+    1: 'Submit',
+    2: 'Submission rules',
+    3: 'Agree & Submit',
+    4: 'Suggest changes',
+    5: 'Update skin',
+    6: 'Log in to rate skin',
+    7: 'Suggested changes',
+    8: 'Select which changes you want to be applied',
+    9: 'Apply',
+    10: 'Reject',
+    11: 'Apply changes',
+    12: [
+      'About',
+      'Screenshots',
+      'Resources',
+      'Downloads',
+      'Comments'
+    ],
+    13: 'Banner added',
+    14: 'Banner updated',
+    15: 'Total size of all screenshots must not exceed 100 MB (currently {amount})',
+    16: 'Variant: {name}',
+    17: 'A resource with this link has already been added',
+    18: `Link not supported. Only youtube links are allowed.`,
+    19: 'Video already added',
+    20: 'Tag already added',
+    21: 'Unauthorized',
+    22: 'Log in to an account',
+    23: `Link not supported. Only mega, gdrive and mediafire links are allowed.`,
+    24: 'Unsupported osu! forum link',
+    25: 'Unsupported reddit link',
+    26: 'Couldn\'t parse link',
+    27: 'Unsupported twitter link',
+    28: 'Unknown cloud service',
+    29: 'Manage versions',
+    30: 'new version',
+    31: 'Type skin name',
+    32: 'Has extras?',
+    33: 'Select aspect ratios',
+    34: '{amount} issues',
+    35: 'Edit',
+    36: 'Log in to report skin',
+    37: 'Exit editing',
+    38: 'Remove banner',
+    39: 'Description',
+    40: '**Animations** - has animated elements (back button / skip button / hp bar)',
+    41: '**Extras** - has files for customization / additional gameplay elements',
+    42: '**HD** - has files for resolutions **above** 1366x768',
+    43: '**SD** - has files for resolutions **below** 1366x768',
+    44: 'Released at {date}',
+    45: 'Uploaded at {date}',
+    46: 'Paste a YouTube video link',
+    47: 'Quick select',
+    48: 'Remove all screenshots?',
+    49: 'Type variant name...',
+    50: 'Select screenshot category',
+    51: 'Compare versions',
+    52: 'Show gameplay only',
+    53: 'Type a description and an url. Format description:url',
+    54: 'Description:',
+    55: 'Url:',
+    56: `Oops!`,
+    57: 'No `.osk` files are attached to this skin',
+    58: `Nothing was found`,
+    59: 'Change query or try searching something else',
+    60: 'Log in to report a file',
+    61: 'Versions',
+    62: 'Download link',
+    63: 'osu! forum link',
+    64: 'reddit link',
+    65: 'twitter link',
+    66: 'Creators',
+    67: 'If a creator wants to be anonymous or a collaborator does not have a bancho account, you can add them as a ghost creator.',
+    68: 'Creators not added',
+    69: 'Tags',
+    70: 'Tags not added',
+    71: 'start typing to get suggestions',
+    72: 'Show',
+    73: [
+      'Creator',
+      'Mixer',
+      'Animations',
+      'Arts',
+      'Collab',
+      'Sounds',
+      'Gameplay'
+    ],
+    74: 'All changes have been saved locally',
+    75: 'Changes restored from cache',
+    76: 'Released {date}',
+    77: 'Select roles',
+    checks: {
+      0: 'Skin name not specified',
+      1: 'Add at least one creator',
+      2: 'Select at least one aspect ratio',
+      3: 'No screenshots provided',
+      4: 'Add at least one gameplay screenshot',
+      5: 'Skin link not specified',
+      6: 'Some creators do not have roles',
+      7: 'Some creators do not have names',
+      8: 'Skin release date not specified',
+      9: 'Skin version not specified',
+      10: 'Content rating not selected'
     }
   },
-  buttons: {
-    0: 'Đăng nhập',
-    1: 'Trang chủ',
-    profile_osu: 'Trang cá nhân osu!',
-    new_skin: 'Skin mới',
-    notifications: 'Thông báo',
-    settings: 'Cài đặt',
-    logout: 'Đăng xuất',
-    load_more: 'Tải thêm',
-    copy_short: 'Sao chép liên kết ngắn',
-    copied: 'Đã sao chép',
-    reddit_link: 'Reddit',
-    osu_forum_link: 'osu! Forum',
-    skin_return: 'Quay trở lại skin',
-    source: 'Nguồn',
-    contest_voting: 'Bình chọn tại đây',
-    rules_agree: 'Tôi đồng ý',
-    report_issue: 'Báo lỗi',
-    ghost_creator: 'Tác giả ẩn',
-    close: 'Đóng',
-    quick_select: 'Chọn nhanh'
+  skin_block: {
+    0: 'Open skin page',
+    1: 'Open in fullscreen',
+    2: 'Switch to other gamemode',
+    3: 'Change image category',
+    4: 'Copy short link'
   },
-  choose: {
-    0: 'Tuỳ chọn',
-    1: 'Bắt buộc',
-    2: 'Thêm ít nhất một lựa chọn'
+  gallery: {
+    0: 'Open in fullscreen',
+    1: 'Exit fullscreen',
+    2: 'Reset zoom',
+    3: 'Close gallery'
   },
-  user: {
-    roles: {
-      0: 'Tác giả',
-      1: 'Mixer',
-      2: 'Hoạt họa',
-      3: 'Tranh vẽ',
-      4: 'Collab',
-      5: 'Âm thanh',
-      6: 'Gameplay'
-    }
+  screenshots_select: {
+    0: 'Welcome',
+    1: 'Main menu',
+    2: 'Song select',
+    3: 'Mode menu',
+    4: 'Mods',
+    5: 'Countdown',
+    6: 'Gameplay',
+    7: 'Spinner',
+    8: 'Section Pass',
+    9: 'Section Fail',
+    10: 'Pause Screen',
+    11: 'Fail Screen',
+    12: 'Result screen (top)',
+    13: 'Skip',
+    14: 'Banner',
+    15: 'Result screen (bottom)',
+    16: 'Pinned image',
+    17: 'osu!',
+    18: 'catch the beat',
+    19: 'mania',
+    20: 'taiko'
   },
-  tooltips: {
-    0: 'Lượt xem: {amount}',
-    1: 'Đang tải lại kết quả',
-    2: 'Giảm | Tăng',
-    3: 'Lượt thích: {likes} / Không thích: {dislikes}',
-    4: 'Nhấn ctrl+enter để thêm tag',
-    5: 'Chỉnh sửa phiên bản',
-    6: '{s}Đăng nhập{p}, để đánh giá skin này',
-    7: 'Không có mô tả ngắn',
-    8: 'Không có url',
-    9: 'Lượt tải: {amount}',
-    10: 'Reset mọi thứ',
-    11: 'Hiện hướng dẫn',
-    12: 'Đóng hướng dẫn',
-    13: 'Để đánh dấu luật đã xem, hãy di chuột lên nó (Màu vàng nghĩa là chưa đọc)',
-    14: {
-      0: '[hl]{example}[/hl] - [b]bằng[/b] {amount}',
-      1: '[hl]{example}[/hl] - [b]trên[/b] {amount}',
-      2: '[hl]{example}[/hl] - [b]dưới[/b] {amount}',
-      3: '[hl]{example}[/hl] - [b]từ[/b] {amount} [b]đến[/b] {amount_2}'
+  report: {
+    skin_ini: [
+      'Describe bug, preferably with reproduction steps',
+      'Describe what you want to see...'
+    ],
+    tag: {
+      0: 'Missing skin',
+      1: 'Link to a video of missing skin'
     },
-    15: 'Bỏ chọn',
-    16: 'Xóa file'
+    skin_file: [
+      'Download link is missing',
+      'Skin is broken',
+      'Describe what exactly broken'
+    ],
+    skin: [
+      'Wrong/Missing screenshots',
+      'Which screenshots are missing',
+      'Wrong/Missing creators',
+      'Type text...',
+      'Missing NSFW tag',
+      'Metadata',
+      'Describe what exactly wrong',
+      'Copyright/Missing credits',
+      'Type text...'
+    ],
+    0: 'Log in to report a issue',
+    1: 'Type is not selected',
+    2: `Id does not exist`,
+    3: 'Category not selected',
+    4: 'Report already submitted',
+    5: 'Report submitted',
+    6: 'Select report category',
+    7: 'Submit report'
   },
-  lists: {
-    screens: {
-      0: 'Welcome',
-      1: 'Dao diện chính',
-      2: 'Chọn bài hát',
-      3: 'Dao diện mod',
-      4: 'Mod',
-      5: 'Đếm ngược',
-      6: 'Gameplay',
-      7: 'Spinner',
-      8: 'Secton Pass',
-      9: 'Section Fail',
-      10: 'Màn hình tạm dừng',
-      11: 'Màn hình Fail',
-      12: 'Màn hình kết quả (bên trên)',
-      13: 'Bỏ qua',
-      14: 'Banner',
-      15: 'Màn hình kết quả (bên dưới)',
-      16: 'Ảnh bắt đầu'
-    },
-    cats: {
-      0: 'NSFW',
-      1: 'Furry',
-      2: 'Mixed'
-    }
+  plural: {
+    skins: '{amount} skins | {amount} skin | {amount} skins',
+    tags_skins: '«{name}» {amount} skins | «{name}» {amount} skin | «{name}» {amount} skins',
+    views: '{amount} views | {amount} view | {amount} views',
+    votes: '{amount} votes | {amount} vote | {amount} votes'
   },
-  select: {
-    0: 'Mới',
-    1: 'Sửa đổi',
-    2: 'Thay đổi',
-    3: 'Xóa bỏ',
-    4: 'Tranh vẽ',
-    5: 'Phông chữ',
-    6: 'Họa sĩ',
-    7: 'Yếu tố skin',
-    8: 'Âm thanh/Sfx',
-    9: 'Công cụ',
-    10: 'Hình ảnh',
-    views: 'Lượt xem',
-    likes: 'Thích',
-    dislikes: 'Không thích',
-    downloads: 'Lượt tải xuống',
-    ratio: 'Chọn tỷ lệ khung hình | tỷ lệ',
-    sorting: 'Từ trên xuống | Từ dưới lên'
+  placeholder: {
+    0: 'Type text..',
+    1: 'Type link..',
+    2: 'Type hex/rgb color..'
   },
   sorting: {
-    0: 'Nhiều nhất | Ít nhất',
-    1: 'Nhiều nhất | Ít nhất',
-    2: 'Cao nhất | Thấp nhất',
-    3: 'Lớn nhất | Nhỏ nhất',
-    4: 'Mới nhất | Cũ nhất',
+    date: 'Date',
+    release_date: 'Release date',
+    upload_date: 'Upload date',
+    view: 'Views',
+    vote: 'Votes',
+    name: 'Name',
+    download: 'Downloads',
+    like: 'Likes',
+    size: 'Size',
+    total: 'Total'
+  },
+  order: {
+    0: 'Most | Least',
+    1: 'Most | Least',
+    2: 'Highest | Lowest',
+    3: 'Largest | Smallest',
+    4: 'Newest | Oldest',
     5: 'A-Z | Z-A'
   },
-  placeholders: {
-    0: 'Chọn vai trò',
-    1: 'Chọn phiên bản',
-    2: 'Hãy gõ gì đó...',
-    3: 'Chọn mốc kích cỡ',
-    4: 'Chọn mốc thời gian',
-    5: 'Năm',
-    6: 'Tháng',
-    7: 'Chọn tỷ lệ khung hình',
-    8: 'Chọn danh mục',
-    9: 'Chế độ chơi',
-    10: 'Chọn thể loại',
-    11: 'Dán một liên kết YouTube',
-    12: 'Hãy gõ một mô tả và url. Định dạng: mô tả:url',
-    13: 'Chọn thêm',
-    14: 'Dán một liên kết',
-    15: 'Tên skin, tác giả, hoặc tag',
-    16: 'Chọn nhóm',
-    17: 'Hãy gõ tên của tag',
-    18: 'Gõ tên skin',
-    19: 'Gõ tên tác giả ',
-    20: 'Chọn file',
-    24: 'Chọn tên gameplay...',
-    25: 'Chọn mốc',
-    26: 'Gõ văn bản'
+  tooltips: {
+    0: [
+      '[hl]{example}[/hl] - [b]equal[/b] to {amount}',
+      '[hl]{example}[/hl] - [b]greater than[/b] {amount}',
+      '[hl]{example}[/hl] - [b]less than[/b] {amount}',
+      '[hl]{example}[/hl] - [b]between[/b] {amount} [b]and[/b] {amount_2}'
+    ],
+    1: 'Usage examples:',
+    2: `Select screenshot category`,
+    3: '{amount} downloads',
+    4: '{amount} views',
+    5: '{likes} likes / {dislikes} dislikes',
+    6: '{amount} skins',
+    7: '{amount} votes'
   },
-  contribute: { 0: 'Đóng góp' },
   nsfw: {
-    0: 'Cảnh báo, nsfw!',
-    1: 'Skin có chứa các nội dung nhạy cảm hoặc người lớn',
-    2: 'Skin có chứa các nội dung nhạy cảm có thể gây khó chịu cho một số người dùng',
-    3: 'Được',
-    4: 'tạm biệt o/',
-    5: 'Cảnh báo furrry!'
+    0: 'NSFW Warning!',
+    1: 'This skin contains sensitive or adult content!',
+    3: 'Furry Warning!'
   },
-  removed: {
-    0: 'Phiên bản không khả dụng',
-    1: 'Tác giả của skin đã xoá phiên bản này khỏi trang web.',
-    2: 'Chuyển đến phiên bản khả dụng khác'
+  drag: {
+    0: 'Click to add images',
+    1: 'or drag & drop here',
+    2: `drop images here`
   },
-  notify: {
-    0: 'Vấn đề chưa được sửa',
-    1: 'Một số ô quan trọng chưa được điền',
-    2: 'Hiển thị',
-    3: 'Không tìm thấy',
-    4: 'Không tìm thấy banner (Hiện tại, ảnh chụp màn hình đầu tiên đang được dùng làm banner)',
-    5: 'Không có thay đổi',
-    6: 'Không tìm thấy thay đổi nào',
-    7: 'Không tìm thấy ID',
-    8: 'Không tìm thấy ID của video, hãy thử đường link khác (Hiện tại web chỉ hỗ trợ video YouTube)',
-    9: 'Úi',
-    10: 'Có vẻ như phiên đăng nhập của bạn đã hết hạn, hãy mở một trang mới và đăng nhập (Đừng lo, mọi thứ đã được tự động lưu lại)',
-    11: 'Tồn tại',
-    12: 'Video này đã được thêm vào',
-    13: 'Tồn tại',
-    14: 'Tag này đã được thêm vào',
-    15: 'Không tìm thấy',
-    16: 'Bạn không thể xoá tag đã bị xoá từ trước',
-    17: 'Đã thêm vào',
-    18: 'Bạn đã thành công thêm vào một tag',
-    19: 'Úi',
-    20: 'Người tạo đã được thêm vào từ trước',
-    21: 'EZ',
-    22: 'Người tạo mới đã được thêm vào',
-    23: 'HUH',
-    24: 'Không thể loại bỏ người tạo đã xoá',
-    25: 'Nhân bản',
-    26: 'Thay đổi này đã được thêm vào từ trước.',
-    27: 'Nhân bản',
-    28: 'Url này đã được thêm vào từ trước.',
-    29: 'Cảnh báo',
-    30: 'Bạn chưa thêm vào mô tả cho url. Ví dụ: mô tả:url',
-    31: 'Cảnh báo',
-    32: 'Bạn chưa thêm vào url cho mô tả. Ví dụ: mô tả:url',
-    33: 'Đã khôi phục',
-    34: 'Phiên bản «{name}» đã được khôi phục',
-    35: 'Đã xoá',
-    36: 'Phiên bản «{name}» đã được xoá',
-    37: 'Lỗi',
-    38: 'Dường như máy chủ nghĩ rằng bạn là bot.',
-    39: 'Phiên đăng nhập hiện tại đã hết hạn. Để tiếp tục, vui lòng mở một trang mới và đăng nhập lại vào tài khoản. Khi hoàn thành, hãy quay lại trang này và thử lại.',
-    40: 'Thông tin không khớp (hãy đăng nhập lại. Đừng lo, mọi thứ đã được tự động lưu lại)',
-    41: 'Lỗi không rõ',
-    42: 'Bạn không thể chỉnh sửa skin không tồn tại',
-    43: 'Dường như bạn không có quyền chỉnh sửa skin này',
-    44: 'Bạn không thể gửi phiên bản này vì nó tương tự phiên bản trước.',
-    45: 'Các thay đổi đã được gửi để kiểm duyệt',
-    46: 'Thành công',
-    47: 'Các thay đổi mới đã được gửi để kiểm duyệt',
-    48: 'Các thay đổi đã được cập nhật qua kiểm duyệt',
-    49: 'Đường link lạ',
-    50: 'Liên kết này không thể dùng làm link tải về',
-    51: 'Đã gửi cho kiểm duyệt',
-    52: 'Cảnh báo',
-    53: 'Bạn cần chọn loại asset',
-    54: 'Skin này hiện đang được kiểm duyệt. Xin hãy chờ một lúc skin đang được xử lý',
-    55: 'Thành công',
-    56: 'Tác giả ẩn mới đã được thêm',
-    57: 'Đã sao chép màu',
-    58: `Mã RGB "{color}" đã có thể được sử dụng qua clipboard!`
+  buttons: {
+    source: 'Art Source',
+    load_more: 'Tải thêm',
+    close: 'Đóng',
+    choose: [
+      'Yes',
+      'No'
+    ],
+    expand_more: 'Show more | Show less'
   },
-  header: {
-    0: 'Thông báo',
-    1: 'Hãy theo dõi chúng tôi trên các nền tảng này để nhận những thông báo về skin mới'
-  },
-  restricted_view: {
-    0: 'Không thể truy cập',
-    1: 'Hãy đăng nhập vào tài khoản của bạn',
-    2: 'Lượt xem bị giới hạn',
-    3: 'Trang này vẫn chưa được cập nhật.'
-  },
-  confirm: {
-    0: 'Reset tất cả mọi thứ?',
-    1: 'Hiện hướng dẫn?',
-    2: 'Nộp skin?',
-    3: 'Đúng',
-    4: 'Không',
-    5: 'Đặt lại .ini?'
+  error: {
+    0: 'home page',
+    1: 'log in',
+    2: 'Report issue'
   }
 };
