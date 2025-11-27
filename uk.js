@@ -1,523 +1,581 @@
+/* renaming
+
+contests.0  =>  header.contests
+title.ideas.0  =>  header.ideas
+title.tools  =>  header.tools
+title.home  =>  header.home
+skins.14  =>  header.popular
+skins.6  =>  header.all_skins
+tags.0  =>  header.tags
+header.0  =>  notifications.0
+header.1  =>  notifications.1
+contribute.0  =>  header.contribute
+title.login  =>  header.login
+footer.1  =>  footer.0
+home.5  =>  plural.skins
+meta.title.17  =>  home.title.1
+meta.title.0  =>  home.title.0
+meta.description.0  =>  home.description
+home.5  =>  plural.skins
+credits.7  =>  credits.1
+credits.8  =>  credits.2
+credits.3  =>  credits.4
+sorting  =>  order
+meta.title.15  =>  contests.title
+meta.description.11  =>  contests.description
+  =>
+  =>
+  =>
+  =>
+  =>
+  =>
+  =>
+  =>
+  =>
+
+
+
+
+
+*/
 export default {
-  title: {
-    home: 'Головна',
-    login: 'Увійти',
-    lists: { 0: 'Списки' },
-    tags: {
-      0: 'Теги',
-      1: 'В категорії {name} є {amount} тегів',
-      2: 'Пошук за тегами'
-    },
-    ideas: {
-      0: 'Натхнення',
-      1: '«{amount}»'
-    },
-    sounds: { 0: 'Звуки' },
-    leaderboard: { 0: 'Таблиці Лідерів' },
-    extend: { 0: 'Розгорнути | Згорнути' },
-    skin: {
-      0: 'Цей скін містить елементи з інших скінів',
-      1: 'Натисни для отримання інформації'
-    },
-    tools: 'Інструменти'
+  header: {
+    home: 'Home',
+    contests: 'Contests',
+    ideas: 'Inspiration',
+    tools: 'Tools',
+    popular: 'Popular skins',
+    all_skins: 'All skins',
+    tags: 'Tags',
+    new: 'New',
+    contribute: 'Contribute',
+    login: 'Log in',
+    0: 'Views',
+    1: 'Downloads',
+    2: 'Likes'
   },
-  home: {
-    0: 'Доступно для завантаження',
-    1: 'Найбільш: _name_ скіни',
-    2: 'Переглянуті | Вподобані | Завантажені',
-    3: 'Опублікувати новий скін',
-    4: 'Як встановити скін',
-    5: '{amount} Скінів | {amount} Скіни | {amount} Скін'
+  notifications: {
+    0: 'Notifications',
+    1: 'Follow us on these platforms to receive notifications about new skins'
   },
-  changelogs: {
-    0: 'Список змін',
-    1: 'Перелік усіх змін, зроблених у поточній версії',
-    2: 'Тут пусто',
-    3: 'Але ви можете додати зміни, внесені вами до цієї версії скіна',
-    4: 'Не згруповано',
-    5: 'Нове',
-    6: 'Виправлення',
-    7: 'Зміни',
-    8: 'Видалено'
+  user_menu: {
+    0: 'profile',
+    1: 'my skin queue',
+    2: 'refresh token',
+    3: 'log out'
   },
-  ideas: {
-    0: 'Нічого не знайдено',
-    1: 'Скріншоти «{type}» не були завантажені на сайт',
-    2: '«{amount}» {name}'
-  },
-  creators: {
-    0: 'Творці',
-    1: 'Перелічи всіх творців долучених до створення цієї версії',
-    2: 'Тут нікого',
-    3: 'Під час пошуку за іменем гравця відобразиться список профілів.',
-    4: 'Редактор',
-    5: 'Ролі',
-    6: 'Версії'
-  },
-  tags: {
-    0: 'Теги',
-    1: 'Список усіх тегів, пов’язаних із цим скіном',
-    2: 'Тут досить порожньо.',
-    3: 'Використовуй поле вище, щоб знайти нові теги',
-    4: 'Теги не знайдені',
-    5: 'Спробуйте знайти щось інше',
-    6: 'Пошук'
-  },
-  videos: {
-    0: 'Відео',
-    1: 'Список усіх відеооглядів цього скіна',
-    2: 'Оглядів нема',
-    3: 'Спробуй знайти щось на YouTube або створи власний огляд'
-  },
-  sources: {
-    0: 'Список ресурсів',
-    1: 'Список усіх використаних елементів або інструментів у версії скіна',
-    2: 'Тут якось порожньо',
-    3: 'Якщо ти використовуєш елементи з артів або інших скінів, обов’язково додай посилання на них у поле вище',
-    4: 'Не згруповано'
-  },
-  checks: {
-    0: 'Всі',
-    1: 'Метадані',
-    2: 'Показати',
-    3: 'Не вказано назву скіна',
-    4: 'Додай щонайменш одного творця',
-    5: 'Додай кілька тегів',
-    6: 'Не вказано вагу скіна',
-    // 7: 'Select at least one gamemode',
-    8: 'Обери тип файлів (SD або HD)',
-    9: 'Вибери принаймні одне співвідношення сторін',
-    10: 'Жодного знімку екрану не завантажено',
-    11: 'Додай принаймні один знімок геймплею',
-    12: 'Не вказано посилання на скін',
-    20: 'Виглядає доволі добре',
-    21: 'Кожна проблема була виправлена. Хороша робота!',
-    22: 'Контрольний перелік',
-    23: 'Додайте принаймні одну публічну версію',
-    24: 'Додайте до цієї версії принаймні одного автора',
-    25: 'Some creators don\'t have roles',
-    26: '{amount} скріншотів не мають категорії',
-    28: 'Select gamemode for gameplay screenshots'
-  },
-  skins: {
-    0: 'Скіни',
-    1: 'Популярні',
-    2: 'std | ctb',
-    3: 'mania | taiko',
-    4: 'Нові',
-    5: 'Випадкові',
-    6: 'Всі скіни',
-    7: 'Пропорції',
-    8: 'Всі скіни | osu skins',
-    9: 'Скін | Скіни | Скінів',
-    10: 'Скіни від {name} | Всі скіни від {name}',
-    11: 'Пошук',
-    12: '{name} скіни',
-    13: 'Дослідити скіни',
-    14: 'Популярні скіни'
-  },
-  skin: {
-    0: 'Редагувати',
-    1: 'Додатково',
-    2: 'HD',
-    3: 'FullHD',
-    4: 'Анімація',
-    5: 'Знімки екрану',
-    6: 'Тільки геймплей',
-    7: 'Посилання для завантаження | Завантажити скін',
-    8: 'Пост на форумі | Форум osu!',
-    9: 'Пост на Reddit',
-    10: 'Творці',
-    11: 'Теги',
-    13: 'Відео',
-    14: 'Нова версія | Керувати версіями',
-    15: 'Оновити | Надіслати',
-    16: 'Режими гри',
-    17: 'Назва скіна',
-    18: 'Версія | Версії',
-    19: 'Розмір',
-    20: 'Метадані',
-    21: 'Рейтинг',
-    22: 'Завантаження',
-    23: 'Завантаження буде доступне найближчим часом',
-    24: 'Залишилось {amount} секунд',
-    25: 'Ти не один з нас',
-    26: 'Схоже, ви не є автором або редактором цього скіна',
-    27: 'Скін від',
-    28: 'Немає тегів',
-    29: 'Немає відео',
-    30: 'Немає авторів',
-    31: 'Оцінити скін',
-    32: 'Оцінити та прокоментувати на реддіті',
-    33: 'Коментувати на osu! форумі',
-    34: 'Більше скінів від цього автора | Більше скінів від цих авторів',
-    35: 'Підтримати скін',
-    36: 'Недоступно',
-    37: 'Unfortunately, this skin was deleted',
-    38: 'Ласкаво просимо до режиму редагування!',
-    39: `Вперше в редакторі? Давайте пройдемося по інтерфейсу та покажемо вам повний потенціал редактора!`,
-    40: '{current} з {max} завершено',
-    41: 'Спробуйте пізніше',
-    42: `Розпочнімо`,
-    43: 'Вітаємо!',
-    44: 'Ви успішно завершили навчальний посібник, насолоджуйтеся!',
-    45: 'завантажувач'
-  },
-  drag: {
-    0: 'Натисніть тут',
-    1: 'або перетягніть зображення сюди'
-  },
-  footer: {
-    0: 'Зроблено cyperdark',
-    1: 'Титри',
-    2: 'Правила',
-    3: 'Контакти'
-  },
-  credits: {
-    0: 'Chibi',
-    1: 'Малюнки',
-    2: 'Іконки',
-    3: 'Всі іконки беруться з {name}',
-    4: 'Прапори',
-    5: 'Всі зображення прапорів беруться з {name}',
-    6: 'Локалізація',
-    7: 'Хтось? [{lang}]',
-    8: 'Здається, що cyperdark забув їх додати. {text}'
-  },
-  search: {
-    0: 'Пошук скіну',
-    1: 'Перегляди',
-    2: 'Назва',
-    3: 'Рейтинг',
-    4: 'Розмір',
-    5: 'Дата',
-    7: 'Нічого не знайдено',
-    8: 'Спробуйте скористатися іншими фільтрами пошуку',
-    9: 'Очікується запит',
-    10: 'Використовуйте пошукові фільтри або введіть заголовок скіна, автора або теги',
-    11: 'Завантаження',
-    12: 'Назва',
-    13: {
-      0: 'Скіни',
-      1: 'Теги',
-      2: 'Користувачі',
-      3: 'Списки'
-    },
-    14: 'Пошук:',
-    15: 'Size:',
-    16: 'Rating:',
-    17: 'Views:',
-    18: 'Downloads:'
-  },
-  contests: {
-    0: 'Конкурси',
-    1: 'Офіційні новини',
-    2: 'Подання',
-    3: 'Підготовка',
-    4: 'Голосування',
-    5: 'Завершено',
-    6: 'Конкурси',
-    7: 'Voting page'
-  },
-  rules: {
-    0: 'Останнє оновлення о',
-    1: 'Посібник з розміщення скінів'
-  },
-  skinini: {
-    0: 'Welcome to skin.ini editor!',
-    1: `New to the skin.ini editor? Let us guide you through the interface and show you the editor's full potential!`,
-    2: '{current} з {max} завершено',
-    3: 'No results',
-    4: 'Your query may contain typos'
-  },
-  tabs: {
-    0: 'Пошук',
-    1: 'Редагувати',
-    2: 'Перелік'
-  },
-  undefined: {
-    0: 'Порожньо',
-    1: 'На жаль, тут нічого немає, але ви можете подивитися інші сторінки',
-    2: 'На жаль, тут нічого немає',
-    3: 'Неавторизовано',
-    4: 'Ви повинні увійти для того, щоб редагувати цей скін.',
-    5: 'Ви повинні увійти для того, щоб додати новий скін.'
+  status: {
+    0: 'Nothing was found',
+    1: 'Not found',
+    2: `Couldn't load image`,
+    3: 'No image to load'
   },
   settings: {
-    0: 'Налаштування',
+    0: 'Settings',
     1: 'Mouse scroll',
-    2: 'Enable mouse hover swipe for image carousel, allowing left-to-right or right-to-left navigation.',
-    3: 'Збільшити',
-    4: 'Увімкнути збільшене зображення для попереднього перегляду скіна.'
+    2: 'Enables easy image navigation when hovering over a skin preview card.',
+    3: 'Card zoom in',
+    4: 'Enables automatic image zoom when hovering over a skin preview card..',
+    5: 'Automatic comment translation',
+    6: 'Enables automatic translation of comments to English.'
   },
-  meta: {
-    title: {
-      0: 'Відкрийте osu! скіни',
-      1: 'Ігрові режими, співвідношення сторін osu, скіни',
-      2: 'Популярні скіни osu',
-      3: 'Пошук скінів osu',
-      4: 'Список тегів, {name}',
-      5: 'Скін {name} v{version} osu',
-      6: 'Титри',
-      7: 'Скіни osu',
-      8: '{name} пошук скінів osu',
-      9: 'Отримайте натхнення з інших osu! скінів',
-      10: '{name} створив скіни osu',
-      11: 'Пошук за тегами',
-      12: '{name} знайдені теги',
-      13: 'Новий скін',
-      14: 'Правила сайту',
-      15: 'osu! Конкурси',
-      16: 'osu! skinning tools'
+  footer: { 0: 'Credits' },
+  home: {
+    title: [
+      'Discover osu! skins',
+      'Random osu! skins'
+    ],
+    description: 'Find the best osu! skins on our site! Our huge library has skins for all gamemodes, aspect ratios and even top players. Plus, we have a special section for anime fans. Improve your gameplay with the perfect skin. #osuskins #osugame #anime',
+    0: 'Available for download',
+    1: 'Most [viewed], [liked], [downloaded] skins',
+    2: [
+      'viewed',
+      'liked',
+      'downloaded'
+    ],
+    3: [
+      'Recent',
+      'New releases',
+      'Random'
+    ],
+    4: 'aspect ratios',
+    5: 'more'
+  },
+  credits: {
+    title: [
+      'Artwork credits',
+      'Used assets',
+      'Localization helpers'
+    ],
+    0: 'Credits',
+    1: 'Anyone? [{lang}]',
+    2: 'Seems like cyperdark forgot to add them. {text}',
+    3: [
+      'Artworks',
+      'Localization',
+      'Assets'
+    ],
+    4: 'All icons are taken from {name}',
+    5: 'Всі зображення прапорів беруться з {name}'
+  },
+  tools: {
+    title: 'Skinning tools for osu! (by me :) )',
+    description: 'Useful skinning tools for osu!, made by cyperdark',
+    0: 'More skinning tools'
+  },
+  skin_ini: {
+    title: 'Visual skin.ini editor - osu! tools',
+    description: '',
+    prepare: [
+      'loading beatmap',
+      'loading skin',
+      'preparing skin',
+      'loading viewer'
+    ],
+    0: 'Welcome to the visual skin.ini editor!',
+    1: 'Here you can preview your skin gameplay with changes in real-time, such as combo colors, slider colors, and font offsets. Standard mode only for now',
+    2: 'Beatmap:',
+    3: 'Paste beatmap link',
+    4: 'Import .osk / .zip',
+    5: 'Import skin folder',
+    6: '.osu file not found',
+    7: 'Incorrect gamemode, only osu beatmaps allowed',
+    8: 'Skin.ini not found',
+    9: 'Select at least 1 .osk / .zip file',
+    10: 'Viewer settings',
+    11: 'Reset skin.ini',
+    12: 'Export skin.ini',
+    13: 'Randomize colors (on current tab)',
+    14: 'Switch tab',
+    15: 'Rewind',
+    16: 'Forward',
+    17: 'Play/Pause viewer',
+    18: 'Move to previous settings section',
+    19: 'Move to next settings section',
+    20: 'Open menu',
+    21: 'Close menu',
+    22: 'Shortcut',
+    23: 'Description',
+    24: 'Specify via comma',
+    25: 'Randomize',
+    26: 'Revert to default element',
+    27: 'Reset to default',
+    28: 'Replace file',
+    29: 'issue',
+    30: 'Drag and drop files or skin',
+    31: 'loaded',
+    32: 'Gameplay speed',
+    33: 'Random beatmap',
+    34: 'Beatmap folder'
+  },
+  contests: {
+    title: 'Official osu! skinning contests',
+    description: 'List of all active/finished osu! contests',
+    submit: [
+      'Submissions closed...',
+      'Submissions in progress...',
+      'Submit your entry'
+    ],
+    0: 'Official skinning contests',
+    1: [
+      'Submission',
+      'Preparing',
+      'Voting',
+      'Finished'
+    ],
+    2: 'Announcement',
+    3: 'Submissions ended',
+    4: 'Voting started',
+    5: 'Voting ended',
+    6: 'Results out',
+    7: 'Submission phase...',
+    8: 'Preparing phase...',
+    9: 'Voting phase...',
+    10: 'Waiting results...',
+    11: 'Vote here',
+    12: 'announcement',
+    13: 'submissions',
+    14: 'contest page',
+    15: 'results',
+    16: 'wiki',
+    17: 'Ends in',
+    18: 'Skins not found for this contest',
+    19: 'Expand description | Close description'
+  },
+  ideas: {
+    title: 'Inspiration - osu! skins',
+    description: 'Find inspiration for your next osu! skin on our site. Browse through a diverse collection of skins and discover new techniques and ideas. Get inspired and create your own unique skins.',
+    0: 'Screenshots not found for this category'
+  },
+  search: {
+    title: 'Search osu skins',
+    description: 'Find the perfect osu! skin with our advanced search feature. Browse through our huge library, filtered by ruleset, aspect ratio, and more. Or check out skins used by top players.',
+    0: 'Skin title, author, or tags',
+    1: [
+      'name',
+      'tags',
+      'creators'
+    ],
+    2: 'Select date range',
+    3: 'Size range',
+    4: 'View count range',
+    5: 'Download count range',
+    6: 'Like count range',
+    7: 'Select cursor type',
+    8: 'Nothing was found',
+    9: 'Try using a different set of search filters',
+    10: 'Pending query',
+    11: 'Use the search filters or type the skin\'s title, author or tags',
+    12: 'Select mania key',
+    13: 'reset',
+    14: 'Cursor color',
+    15: 'Circle color',
+    16: 'Slider border color',
+    17: 'Slider track color',
+    18: 'experimental filters'
+  },
+  tags: {
+    title: 'Search tags',
+    description: '',
+    0: 'Nothing was found',
+    1: 'Try searching something else'
+  },
+  tag: {
+    title: '{name} osu skins',
+    description: '',
+    0: 'Nothing was found',
+    1: 'No skins were found for this tag',
+    2: 'Try changing gamemode'
+  },
+  users: {
+    title: [
+      'Profile - {name} uploads',
+      'Profile - {name} skins'
+    ],
+    description: [
+      'All osu! skins uploaded by {name}',
+      'All osu! skins created by {name}'
+    ],
+    0: [
+      'Created skins',
+      'Uploaded skins'
+    ],
+    1: 'Incorrect url',
+    2: 'Make sure link is correct. Example: {url}',
+    3: 'Unsupported format',
+    4: 'Link format incorrect, use {url} or {url_1}',
+    5: `Change at least one setting before updating`,
+    6: `Unable to update settings`,
+    7: `Settings updated`,
+    8: 'Unknown error',
+    9: 'Settings',
+    10: 'Discord username',
+    11: 'Discord server link',
+    12: 'Twitter profile link',
+    13: 'Reddit profile link',
+    14: 'YouTube channel link',
+    15: 'Link to blog',
+    16: 'Show your liked skins',
+    17: 'Update settings',
+    18: '{amount} uploads | {amount} upload | {amount} uploads',
+    19: 'Blog',
+    20: 'Skins Stats',
+    21: 'Expand «about me» | Close «about me»',
+    22: 'Nothing was found',
+    23: 'No skins were found for this creator'
+  },
+  skins: {
+    title: [
+      '{amount} osu! skins',
+      '{amount} {category} osu! skins',
+      '{amount} universal aspect ratio osu! skins',
+      '204 Most viewed {mode} osu! skins',
+      '204 Most downloaded {mode} osu! skins',
+      '204 Most liked {mode} osu! skins'
+    ],
+    description: ['{amount} skins for osu!, catch the beat, mania and taiko'],
+    0: 'All',
+    1: 'Популярні',
+    2: 'osu!',
+    3: 'ctb',
+    4: 'mania',
+    5: 'taiko',
+    6: 'universal ratio',
+    7: 'Nothing was found',
+    8: 'No skins were found for this category',
+    9: [
+      'downloads',
+      'views',
+      'likes'
+    ],
+    10: 'Submitted skins',
+    11: 'Skins currently in queue: {amount}',
+    12: 'No skins currently submitted for moderation'
+  },
+  skin: {
+    title: [
+      'Submit new skin',
+      '{name} osu skin'
+    ],
+    description: '{size}MB osu skin for {modes}, created by {creators}. Supports {ratios}',
+    rules: {
+      0: `**Do not** post nonsense.`,
+      1: `**Don't** post **low-quality** or **duplicate** submissions.`,
+      2: `Make sure your skin has **not** already been **published**.`,
+      3: `A skin is **protected from deletion** if it has been featured in a video by channels such as **cpol or osuck**, or if a **top player used** it in their public content. (twitch, youtube, twitter, tiktok, github, etc.)`,
+      4: `Screenshots must be **relevant** and **accurately represent** the skin.`,
+      5: `**Do not** upload skins that the original creator has set as **private** or does not wish to share. (Unless you have permission)`,
+      6: `If **your skin** is based on someone else's work or **uses assets** from other creators, **credit them** in your post.`,
+      7: `If your skin **includes** third-party assets (art, hitsounds, fonts, etc.), you **must** have permission and provide proper **credit** in the **Resources** tab of your submission.`,
+      8: `All submissions **must use English** as the primary language.\n- Titles containing **non-Latin** characters must also **include a Romanized** version.`,
+      9: `**Prohibited** content includes:\n- Religious or political content\n- Racism, hate speech, or harassment\n- Offensive or discriminatory imagery\n- Excessive gore or extreme violence\n- Explicit sexual content, including depictions of minors`,
+      10: `Suggestive or borderline content **must be clearly labeled** with the **NSFW** tag.`
     },
-    description: {
-      0: 'Отримайте найкращі osu! скіни на нашому сайті! У нашій величезній бібліотеці є скіни для усіх режимів гри, співвідношення сторін і навіть кращих гравців. До того ж, у нас є спеціальний розділ для аніме шанувальників. Покращуйте свою гру з ідеальним скіном. #osuskins #osugame #anime',
-      1: '{views} Переглядів. Розмір скіну для {modes} дорівнює\n {size} створений {creators}. Підтримує {ratios}',
-      2: 'Знайдіть ідеальний osu! скін з нашою розширеною функцією пошуку. Переглядайте нашу величезну бібліотеку, відфільтровану через режими гри, співвідношення сторін і багато іншого. Або перегляньте скіни, які використовуються найкращими гравцями.',
-      3: 'Відкрийте для себе різноманітні скіни для різних режимів гри та співвідношень сторін на нашому сайті. Вибирайте зі стандарту, ctb, mania та taiko режимів. Знайдіть ідеальний скін для вашого стилю гри.',
-      4: 'Віднайди ідеальний osu! скін серед найкращих гравців на цьому сайті. Перегляньте нашу колекцію популярних скінів і прикрасьте свій геймплей. Відкрийте для себе широкий спектр стилів та тем відповідно до ваших уподобань.',
-      5: 'Список наявних тегів для скінів osu.',
-      6: '{name} колекція osu! скінів, завантажити безкоштовно',
-      7: 'Величезна кількість osu скінів для {name}, завантажте безкоштовно!',
-      8: 'Усі osu! скіни, створені {name}',
-      9: 'Знайдіть натхнення для наступної теми на нашому сайті. Переглядайте різноманітну колекцію скінів і відкривайте нові техніки та ідеї. Отримуйте натхнення та створюйте свої унікальні скіни.',
-      10: 'Пошук тегів серед усіх інших тегів на сайті.',
-      11: 'Список всіх активних/завершених osu! конкурсів',
-      12: '{amount} записів на конкурс {title}. {views} переглядів'
+    0: 'Clear everything?',
+    1: 'Submit',
+    2: 'Submission rules',
+    3: 'Agree & Submit',
+    4: 'Suggest changes',
+    5: 'Update skin',
+    6: 'Log in to rate skin',
+    7: 'Suggested changes',
+    8: 'Select which changes you want to be applied',
+    9: 'Apply',
+    10: 'Reject',
+    11: 'Apply changes',
+    12: [
+      'About',
+      'Screenshots',
+      'Resources',
+      'Downloads',
+      'Comments'
+    ],
+    13: 'Banner added',
+    14: 'Banner updated',
+    15: 'Total size of all screenshots must not exceed 100 MB (currently {amount})',
+    16: 'Variant: {name}',
+    17: 'A resource with this link has already been added',
+    18: `Link not supported. Only youtube links are allowed.`,
+    19: 'Video already added',
+    20: 'Tag already added',
+    21: 'Unauthorized',
+    22: 'Log in to an account',
+    23: `Link not supported. Only mega, gdrive and mediafire links are allowed.`,
+    24: 'Unsupported osu! forum link',
+    25: 'Unsupported reddit link',
+    26: 'Couldn\'t parse link',
+    27: 'Unsupported twitter link',
+    28: 'Unknown cloud service',
+    29: 'Manage versions',
+    30: 'new version',
+    31: 'Type skin name',
+    32: 'Has extras?',
+    33: 'Select aspect ratios',
+    34: '{amount} issues',
+    35: 'Edit',
+    36: 'Log in to report skin',
+    37: 'Exit editing',
+    38: 'Remove banner',
+    39: 'Description',
+    40: '**Animations** - has animated elements (back button / skip button / hp bar)',
+    41: '**Extras** - has files for customization / additional gameplay elements',
+    42: '**HD** - has files for resolutions **above** 1366x768',
+    43: '**SD** - has files for resolutions **below** 1366x768',
+    44: 'Released at {date}',
+    45: 'Uploaded at {date}',
+    46: 'Paste a YouTube video link',
+    47: 'Quick select',
+    48: 'Remove all screenshots?',
+    49: 'Type variant name...',
+    50: 'Select screenshot category',
+    51: 'Compare versions',
+    52: 'Show gameplay only',
+    53: 'Type a description and an url. Format description:url',
+    54: 'Description:',
+    55: 'Url:',
+    56: `Oops!`,
+    57: 'No `.osk` files are attached to this skin',
+    58: `Nothing was found`,
+    59: 'Change query or try searching something else',
+    60: 'Log in to report a file',
+    61: 'Versions',
+    62: 'Download link',
+    63: 'osu! forum link',
+    64: 'reddit link',
+    65: 'twitter link',
+    66: 'Creators',
+    67: 'If a creator wants to be anonymous or a collaborator does not have a bancho account, you can add them as a ghost creator.',
+    68: 'Creators not added',
+    69: 'Tags',
+    70: 'Tags not added',
+    71: 'start typing to get suggestions',
+    72: 'Show',
+    73: [
+      'Creator',
+      'Mixer',
+      'Animations',
+      'Arts',
+      'Collab',
+      'Sounds',
+      'Gameplay'
+    ],
+    74: 'All changes have been saved locally',
+    75: 'Changes restored from cache',
+    76: 'Released {date}',
+    77: 'Select roles',
+    checks: {
+      0: 'Skin name not specified',
+      1: 'Add at least one creator',
+      2: 'Select at least one aspect ratio',
+      3: 'No screenshots provided',
+      4: 'Add at least one gameplay screenshot',
+      5: 'Skin link not specified',
+      6: 'Some creators do not have roles',
+      7: 'Some creators do not have names',
+      8: 'Skin release date not specified',
+      9: 'Skin version not specified',
+      10: 'Content rating not selected'
     }
   },
-  buttons: {
-    0: 'Увійти',
-    1: 'Домашня сторінка',
-    profile_osu: 'Профіль osu!',
-    new_skin: 'Новий скін',
-    notifications: 'Сповіщення',
-    settings: 'Налаштування',
-    logout: 'Вийти',
-    load_more: 'Завантажити більше',
-    copy_short: 'Копіювати посилання',
-    copied: 'Скопійовано',
-    reddit_link: 'Reddit',
-    osu_forum_link: 'Форум osu!',
-    skin_return: 'Назад до скіна',
-    source: 'Джерело',
-    contest_voting: 'Голосувати тут',
-    rules_agree: 'Я погоджуюсь',
-    report_issue: 'Повідомити про проблему',
-    ghost_creator: 'Ghost creator',
-    close: 'Закрити',
-    quick_select: 'Швидкий вибір'
+  skin_block: {
+    0: 'Open skin page',
+    1: 'Open in fullscreen',
+    2: 'Switch to other gamemode',
+    3: 'Change image category',
+    4: 'Copy short link'
   },
-  choose: {
-    0: 'За бажанням',
-    1: 'Обов’язково',
-    2: 'Виберіть принаймні один варіант'
+  gallery: {
+    0: 'Open in fullscreen',
+    1: 'Exit fullscreen',
+    2: 'Reset zoom',
+    3: 'Close gallery'
   },
-  user: {
-    roles: {
-      0: 'Розробник',
-      1: 'Міксер',
-      2: 'Анімації',
-      3: 'Малюнки',
-      4: 'Колаб',
-      5: 'Звуки',
-      6: 'Ігролад'
-    }
+  screenshots_select: {
+    0: 'Welcome',
+    1: 'Main menu',
+    2: 'Song select',
+    3: 'Mode menu',
+    4: 'Mods',
+    5: 'Countdown',
+    6: 'Gameplay',
+    7: 'Spinner',
+    8: 'Section Pass',
+    9: 'Section Fail',
+    10: 'Pause Screen',
+    11: 'Fail Screen',
+    12: 'Result screen (top)',
+    13: 'Skip',
+    14: 'Banner',
+    15: 'Result screen (bottom)',
+    16: 'Pinned image',
+    17: 'osu!',
+    18: 'catch the beat',
+    19: 'mania',
+    20: 'taiko'
   },
-  tooltips: {
-    0: 'Переглядів: {amount}',
-    1: 'Оновити результати',
-    2: 'За спаданням | За зростанням',
-    3: 'Вподобайки: {likes} / Дизлайки: {dislikes}',
-    4: 'Натисніть ctrl+enter, щоб додати тег',
-    5: 'Редагувати версію',
-    6: '{s}Увійдіть{p}, щоб оцінити цей скін',
-    7: 'Немає опису',
-    8: 'Немає URL',
-    9: 'Завантажень: {amount}',
-    10: 'Скинути все',
-    11: 'Показати посібник',
-    12: 'Закрити посібник',
-    13: 'Щоб позначити правило як прочитане, наведіть на нього (Жовтий означає непрочитане)',
-    14: {
-      0: '[hl]{example}[/hl] - [b]equal[/b] to {amount}',
-      1: '[hl]{example}[/hl] - [b]above[/b] {amount}',
-      2: '[hl]{example}[/hl] - [b]below[/b] {amount}',
-      3: '[hl]{example}[/hl] - [b]from[/b] {amount} [b]to[/b] {amount_2}'
+  report: {
+    skin_ini: [
+      'Describe bug, preferably with reproduction steps',
+      'Describe what you want to see...'
+    ],
+    tag: {
+      0: 'Missing skin',
+      1: 'Link to a video of missing skin'
     },
-    15: 'Скасувати вибір',
-    16: 'Видалити файл'
+    skin_file: [
+      'Download link is missing',
+      'Skin is broken',
+      'Describe what exactly broken'
+    ],
+    skin: [
+      'Wrong/Missing screenshots',
+      'Which screenshots are missing',
+      'Wrong/Missing creators',
+      'Type text...',
+      'Missing NSFW tag',
+      'Metadata',
+      'Describe what exactly wrong',
+      'Copyright/Missing credits',
+      'Type text...'
+    ],
+    0: 'Log in to report a issue',
+    1: 'Type is not selected',
+    2: `Id does not exist`,
+    3: 'Category not selected',
+    4: 'Report already submitted',
+    5: 'Report submitted',
+    6: 'Select report category',
+    7: 'Submit report'
   },
-  lists: {
-    screens: {
-      0: 'Екран привітання',
-      1: 'Головне меню',
-      2: 'Екран вибору мап',
-      3: 'Меню режимів',
-      4: 'Модифікації',
-      5: 'Меню зворотного відліку',
-      6: 'Ігролад',
-      7: 'Спінер',
-      8: 'Section Pass',
-      9: 'Section Fail',
-      10: 'Екран паузи',
-      11: 'Екран поразки',
-      12: 'Екран результату',
-      13: 'Екран пропуску',
-      14: 'Банер',
-      15: 'Екран результату (знизу)',
-      16: 'Beginning image'
-    },
-    cats: {
-      0: 'NSFW',
-      1: 'Furry',
-      2: 'Mixed'
-    }
+  plural: {
+    skins: '{amount} skins | {amount} skin | {amount} skins',
+    tags_skins: '«{name}» {amount} skins | «{name}» {amount} skin | «{name}» {amount} skins',
+    views: '{amount} views | {amount} view | {amount} views',
+    votes: '{amount} votes | {amount} vote | {amount} votes'
   },
-  select: {
-    0: 'Нове',
-    1: 'Виправлено',
-    2: 'Змінено',
-    3: 'Видалено',
-    4: 'Арт',
-    5: 'Шрифт',
-    6: 'Автор',
-    7: 'Елемент скіна',
-    8: 'Аудіо/Ефекти',
-    9: 'Інструменти',
-    10: 'Зображення',
-    views: 'Перегляди',
-    likes: 'Вподобайки',
-    dislikes: 'Дизлайки',
-    downloads: 'Завантаження',
-    ratio: 'Співвідношення сторін | співвідношення',
-    sorting: 'Desc. | Asc.'
+  placeholder: {
+    0: 'Type text..',
+    1: 'Type link..',
+    2: 'Type hex/rgb color..'
   },
   sorting: {
+    date: 'Date',
+    release_date: 'Release date',
+    upload_date: 'Upload date',
+    view: 'Views',
+    vote: 'Votes',
+    name: 'Name',
+    download: 'Downloads',
+    like: 'Likes',
+    size: 'Size',
+    total: 'Total'
+  },
+  order: {
     0: 'Most | Least',
     1: 'Most | Least',
-    2: 'Найвищі | Найнижчі',
-    3: 'Найбільший | Найменший',
-    4: 'Найновіші | найстаріші',
-    5: 'А-Я | Я-А'
+    2: 'Highest | Lowest',
+    3: 'Largest | Smallest',
+    4: 'Newest | Oldest',
+    5: 'A-Z | Z-A'
   },
-  placeholders: {
-    0: 'Виберіть ролі',
-    1: 'Виберіть версії',
-    2: 'Введіть текст...',
-    3: 'Виберіть діапазон розміру',
-    4: 'Діапазон дат',
-    5: 'Рік',
-    6: 'Місяць',
-    7: 'Виберіть співвідношення сторін',
-    8: 'Вибрати категорії',
-    9: 'Режими гри',
-    10: 'Виберіть тип',
-    11: 'Вставте посилання на YouTube',
-    12: 'Введіть опис і url. Опис формату опис:url',
-    13: 'Вибрати додатково',
-    14: 'Вставити посилання',
-    15: 'Назва скіна, автор або теги',
-    16: 'Виберіть категорію',
-    17: 'Введіть назву тега',
-    18: 'Введіть назву скіна',
-    19: 'Введіть ім\'я автора ',
-    20: 'Оберіть файл',
-    24: 'Type gameplay name...',
-    25: 'Введіть діапазон',
-    26: 'Введіть текст'
+  tooltips: {
+    0: [
+      '[hl]{example}[/hl] - [b]equal[/b] to {amount}',
+      '[hl]{example}[/hl] - [b]greater than[/b] {amount}',
+      '[hl]{example}[/hl] - [b]less than[/b] {amount}',
+      '[hl]{example}[/hl] - [b]between[/b] {amount} [b]and[/b] {amount_2}'
+    ],
+    1: 'Usage examples:',
+    2: `Select screenshot category`,
+    3: '{amount} downloads',
+    4: '{amount} views',
+    5: '{likes} likes / {dislikes} dislikes',
+    6: '{amount} skins',
+    7: '{amount} votes'
   },
-  contribute: { 0: 'Зробити свій внесок' },
   nsfw: {
-    0: 'Увага, нецензурний вміст!',
-    1: 'Цей скін містить делікатний або дорослий контент',
-    2: 'Цей скін містить делікатний або дорослий контент, який деякі користувачі можуть вважати тривожним',
-    3: 'Гаразд',
-    4: 'Бувай o/',
-    5: 'Увага, фурі!'
+    0: 'NSFW Warning!',
+    1: 'This skin contains sensitive or adult content!',
+    3: 'Furry Warning!'
   },
-  removed: {
-    0: 'Версія недоступна',
-    1: 'Автор скіна вирішив видалити цю версію з сайту.',
-    2: 'Перейти на наявну версію'
+  drag: {
+    0: 'Click to add images',
+    1: 'or drag & drop here',
+    2: `drop images here`
   },
-  notify: {
-    0: 'Проблеми не були виправлені',
-    1: 'Не всі обов\'язкові поля були заповнені',
-    2: 'Показати',
-    3: 'Не знайдено',
-    4: 'Банер не знайдено (на цю мить, перший скріншот використовується як банер)',
-    5: 'Без змін',
-    6: 'Змін не знайдено',
-    7: 'ID не знайдено',
-    8: 'ID відео не знайдено, спробуйте інше посилання (на даний момент підтримується лише YouTube)',
-    9: 'Отакої',
-    10: 'Схоже, що термін дії вашої сесії закінчився, відкрийте нову сторінку та увійдіть до облікового запису (Не хвилюйтеся, все було збережено автоматично)',
-    11: 'Існує',
-    12: 'Це відео вже було додано',
-    13: 'Існує',
-    14: 'Цей тег вже був доданий',
-    15: 'Не знайдено',
-    16: 'Ви не можете видалити видалений тег',
-    17: 'Додано',
-    18: 'Ви успішно додали новий тег',
-    19: 'Упс',
-    20: 'Цього автора вже додано',
-    21: 'EZ',
-    22: 'Додано нового творця',
-    23: 'HUH',
-    24: 'Неможливо видалити вже видаленого творця',
-    25: 'Дублікат',
-    26: 'Ця зміна вже додана раніше.',
-    27: 'Дублікат',
-    28: 'Ця url-адреса вже була додана раніше.',
-    29: 'Попередження',
-    30: 'Ви забули додати опис для url-адреси. Приклад: Опис:url',
-    31: 'Попередження',
-    32: 'Ви забули додати url-адресу для опису. Приклад: Опис:url',
-    33: 'Відновлено',
-    34: 'Версія «{name}» була відновлена',
-    35: 'Видалено',
-    36: 'Версія {name} була видалена',
-    37: 'Помилка',
-    38: 'Схоже, сервер думає, що ви бот.',
-    39: 'Час вашої поточної сесії входу минув. Щоб продовжити, будь ласка, відкрийте нову сторінку та увійдіть назад до свого облікового запису. Після того, як ви це зробили, поверніться на цю сторінку та спробуйте знову.',
-    40: 'Неправильні облікові дані (Повторно ввійдіть в обліковий запис. Не хвилюйтесь, все збережено автоматично)',
-    41: 'Невідома помилка',
-    42: 'Ви не можете редагувати неіснуючий скін',
-    43: 'Здається, у вас немає прав для редагування цього скіна',
-    44: 'Ви не можете відправити цю версію, тому що вона така ж, як і попередня.',
-    45: 'Ці зміни вже були відправлені на перевірку',
-    46: 'Успішно',
-    47: 'Нові зміни були відправлені на модерацію',
-    48: 'Зміни були оновлені на модерації',
-    49: 'Дивне посилання',
-    50: 'Це посилання не може бути використане як посилання для завантаження',
-    51: 'Відправлено на модерацію',
-    52: 'Попередження',
-    53: 'Необхідно обрати тип медіафайлу',
-    54: 'Скін зараз модерується. Будь ласка, будьте терплячі, поки він оброблюється',
-    55: 'Успішно',
-    56: 'Додано нового творця',
-    57: 'Колір скопійовано',
-    58: `The RGB code "{color}" is now available through your clipboard!`
+  buttons: {
+    source: 'Art Source',
+    load_more: 'Завантажити більше',
+    close: 'Закрити',
+    choose: [
+      'Yes',
+      'No'
+    ],
+    expand_more: 'Show more | Show less'
   },
-  header: {
-    0: 'Сповіщення',
-    1: 'Слідкуйте за нами на цих платформах, щоб отримувати сповіщення про нові скіни'
-  },
-  restricted_view: {
-    0: 'Неавторизовано',
-    1: 'Будь ласка, увійдіть до вашого облікового запису',
-    2: 'Обмежений перегляд',
-    3: 'Ця сторінка поки що не існує.'
-  },
-  confirm: {
-    0: 'Скинути все?',
-    1: 'Показати посібник?',
-    2: 'Надіслати скін?',
-    3: 'Так',
-    4: 'Ні',
-    5: 'Reset .ini?'
+  error: {
+    0: 'home page',
+    1: 'log in',
+    2: 'Report issue'
   }
 };
