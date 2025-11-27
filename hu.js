@@ -1,399 +1,536 @@
+/* renaming
+
+contests.0  =>  header.contests
+title.ideas.0  =>  header.ideas
+title.tools  =>  header.tools
+title.home  =>  header.home
+skins.14  =>  header.popular
+skins.6  =>  header.all_skins
+tags.0  =>  header.tags
+header.0  =>  notifications.0
+header.1  =>  notifications.1
+contribute.0  =>  header.contribute
+title.login  =>  header.login
+footer.1  =>  footer.0
+home.5  =>  plural.skins
+meta.title.17  =>  home.title.1
+meta.title.0  =>  home.title.0
+meta.description.0  =>  home.description
+home.5  =>  plural.skins
+credits.7  =>  credits.1
+credits.8  =>  credits.2
+credits.3  =>  credits.4
+sorting  =>  order
+meta.title.15  =>  contests.title
+meta.description.11  =>  contests.description
+  =>
+  =>
+  =>
+  =>
+  =>
+  =>
+  =>
+  =>
+  =>
+
+
+
+
+
+*/
 export default {
-  title: {
-    home: 'Főoldal',
-    login: 'Bejelentkezés',
-    lists: { 0: 'Listák' },
-    tags: {
-      0: 'Címkék',
-      1: '{amount} címke ehhez a kategóriához: {name}',
-      2: 'Címkék keresése'
-    },
-    ideas: {
-      0: 'Inspiráció',
-      1: '{amount}'
-    },
-    sounds: { 0: 'Hangok' },
-    leaderboard: { 0: 'Ranglista' },
-    extend: { 0: 'Több | Kevesebb' },
-    skin: {
-      0: 'Ez a skin más skinekből is tartalmaz elemeket',
-      1: 'További információért kattints ide'
-    },
-    tools: 'Eszközök'
+  header: {
+    home: 'Home',
+    contests: 'Contests',
+    ideas: 'Inspiration',
+    tools: 'Tools',
+    popular: 'Popular skins',
+    all_skins: 'All skins',
+    tags: 'Tags',
+    new: 'New',
+    contribute: 'Contribute',
+    login: 'Log in',
+    0: 'Views',
+    1: 'Downloads',
+    2: 'Likes'
   },
-  home: {
-    0: 'Elérhető letöltésre',
-    1: 'Legtöbbet: _name_ skinek',
-    2: 'Megnézett | Likeolt | Letöltött',
-    3: 'Új skin közlése',
-    4: 'Hogyan telepíts fel egy skint',
-    5: '{amount} Skinek | {amount} Skinek | {amount} Skinek '
+  notifications: {
+    0: 'Notifications',
+    1: 'Follow us on these platforms to receive notifications about new skins'
   },
-  changelogs: {
-    0: 'Változi napló',
-    1: 'Módosítások listája, amik a jelenlegi verzión történtek',
-    2: 'Nincs it semmi',
-    3: 'De hozzá adhatod a változtatásokat, amit ehhez a skin verzióhoz csináltál',
-    4: 'Nem csoportosított',
-    5: 'Új',
-    6: 'Javítások',
-    7: 'Változtatások',
-    8: 'Eltávolítások'
+  user_menu: {
+    0: 'profile',
+    1: 'my skin queue',
+    2: 'refresh token',
+    3: 'log out'
   },
-  ideas: {
-    0: 'Nincs találat',
-    1: 'Screenshots of «{type}» were not uploaded to the site',
-    2: '«{amount}» {name}'
-  },
-  creators: {
-    0: 'Készítők',
-    1: 'Készítők listája, akik részt vettek ennek a verziónak az elkészítésében',
-    2: 'Senki sincs itt',
-    3: 'Játékosra való keresés egy profil listát jelenít meg.',
-    4: 'Szerkesztő',
-    5: 'Szerepek',
-    6: 'Verziók'
-  },
-  tags: {
-    0: 'Címkék',
-    1: 'Az összes címke ami ehhez a skinhez kötődik',
-    2: 'Eléggé üresnek tűnik ez a hely.',
-    3: 'Új címkék kereséséhez használd a felső mezőt',
-    4: 'Címkék nem találhatóak',
-    5: 'Próbálj másra keresni',
-    6: 'Keresés'
-  },
-  videos: {
-    0: 'Videók',
-    1: 'Összes bemutató videó ehhez a skin-hez',
-    2: 'Nincs bemutató',
-    3: 'Keressél YouTube-on, vagy hozzál létre saját bemutatót'
-  },
-  sources: {
-    0: 'Attribúció',
-    1: 'Összes használt adat vagy eszköz a skin-nek ebben a változatában',
-    2: 'Kissé üres ez a hely',
-    3: 'Ha más skin-ekből vagy műből származó elemeket használtál fel, akkor add hozzá a fenti mezőbe',
-    4: 'Nem csoportosított'
-  },
-  checks: {
-    0: 'Összes',
-    1: 'Metaadatok',
-    2: 'Highlightok',
-    3: 'A skin neve nincs megadva',
-    4: 'Adjál hozzá legalább egy skin készítőt',
-    5: 'Adjál hozzá néhány címkét',
-    6: 'Skin fájl mérete nincs megadva',
-    // 7: 'Select at least one gamemode',
-    8: 'Válasszál felbontást (SD vagy HD)',
-    9: 'Válasszál ki legalább egy képarányt',
-    10: 'Nincs képernyőkép megadva',
-    11: 'Adjál hozzá legalább egy gameplay képernyőképet',
-    12: 'Link a skin-hez nincs megadva',
-    20: 'Egész jól néz ki',
-    21: 'Minden probléma meg lett oldva, szép munka!',
-    22: 'Ellenőrző lista',
-    23: 'Adjon hozzá legalább egy publikus verziót',
-    24: 'Adjon hozzá legalább egy készítőt ehhez a verzióhoz',
-    25: 'Some creators don\'t have roles',
-    26: '{amount} screenshots doesn\'t have category',
-    28: 'Select gamemode for gameplay screenshots'
-  },
-  skins: {
-    0: 'Skin-ek',
-    1: 'Népszerű',
-    2: 'std | ctb',
-    3: 'mania | taiko',
-    4: 'Legutóbbiak',
-    5: 'Vélentlenszerű',
-    6: 'Minden skin',
-    7: 'Képarány',
-    8: 'Minden skin | osu skin-ek',
-    9: 'Skin | Skin-ek | Skin-ek',
-    10: 'osu skin-ek {name} által',
-    11: 'Keresés',
-    12: '{name} skinek',
-    13: 'Skinek felfedezése',
-    14: 'Népszerű skinek'
-  },
-  skin: {
-    0: 'Szerkesztés',
-    1: 'Extra',
-    2: 'HD',
-    3: 'FullHD',
-    4: 'Animáció',
-    5: 'Képernyőképek',
-    6: 'Csak gameplay',
-    7: 'Letöltési link | Skin letöltése',
-    8: 'Fórum bejegyzés | osu! Fórum',
-    9: 'Reddit bejegyzés',
-    10: 'Készítők',
-    11: 'Címkék',
-    13: 'Videók',
-    14: 'Új verzió | Verziók kezelése',
-    15: 'Frissítés | Beküldesz',
-    16: 'Játékmódok',
-    17: 'Skin neve',
-    18: 'Verzió | Verziók',
-    19: 'Méret',
-    20: 'Metaadatok',
-    21: 'Értékelés',
-    22: 'Letöltések',
-    23: 'A letöltés elérhető lesz késöbb',
-    24: '{amount} másodperc maradt',
-    25: 'Te nem vagy egyikünk sem',
-    26: 'Úgy látszik nem te vagy a készítője vagy szerkesztője ennek a skinnek',
-    27: 'Skint készítette',
-    28: 'Nincs címke',
-    29: 'Nincsenek videók',
-    30: 'Nincsenek készítők',
-    31: 'Skin értékelése',
-    32: 'Upvote & comment on reddit',
-    33: 'Kommentelj az osu! fórumon',
-    34: 'Még több skin a készítőtöl | Még több skin a készítőktől',
-    35: 'Skin támogatása',
-    36: 'Nem elérhető',
-    37: 'Sajnos, ezt a skint letörölték',
-    38: 'Welcome to the skin post editor!',
-    39: `Új vagy a skin editorhoz? Engedd meg hogy körülvezessünk az interfacen, és megmutassuk az editor teljes potenciálját!`,
-    40: '{current} of {max} completed',
-    41: 'Nézz rá később',
-    42: `Kezdjünk bele`,
-    43: 'Gratulálunk!',
-    44: 'Sikeresen befejezted a tutorial-t, jó szórakozást!',
-    45: 'feltöltő'
-  },
-  drag: {
-    0: 'Kattints ide',
-    1: 'vagy húzza és ejtse a képeket ide'
-  },
-  footer: {
-    0: 'cyperdark készítette',
-    1: 'Készítők',
-    2: 'Szabályok',
-    3: 'Contacts'
-  },
-  credits: {
-    0: 'Chibi',
-    1: 'Rajzok',
-    2: 'Ikonok',
-    3: 'Összes ikon {name} által',
-    4: 'Zászlók',
-    5: 'Összes zászló kép {name} által',
-    6: 'Lokalizáció',
-    7: 'Akárki? [{lang}]',
-    8: 'Úgy tűnik cyperdark elfelejtette hozzá adni. {text}'
-  },
-  search: {
-    0: 'Skin keresés',
-    1: 'Megtekintés',
-    2: 'Cím',
-    3: 'Értékelés',
-    4: 'Méret',
-    5: 'Dátum',
-    7: 'Nincs találat',
-    8: 'Próbálj meg más kereső filtert használni',
-    9: 'Lekérdezés függőben',
-    10: 'Használja a kereső filtereket vagy írja be a skin nevét, készítőjét, címkéjét',
-    11: 'Letöltések',
-    12: 'Név',
-    13: {
-      0: 'Skin-ek',
-      1: 'Címkék',
-      2: 'Felhasználók',
-      3: 'Listák'
-    },
-    14: 'Keresés:',
-    15: 'Méret:',
-    16: 'Értékelés:',
-    17: 'Megtekintések:',
-    18: 'Letöltések:'
-  },
-  contests: {
-    0: 'Versenyek',
-    1: 'Official newspost',
-    2: 'Submission',
-    3: 'Előkészülés',
-    4: 'Szavazás',
-    5: 'Kész',
-    6: 'Versenyek',
-    7: 'Szavazó oldal'
-  },
-  rules: {
-    0: 'Utoljára frissítve',
-    1: 'Posting Skins Guidelines'
-  },
-  skinini: {
-    0: 'Köszöntelek a skin.ini editorban!',
-    1: `Új vagy a skin.ini editorjához? Engedd meg hogy körülvezessünk az interfacen, és megmutassuk az editor teljes potenciálját!`,
-    2: '{current} of {max} completed',
-    3: 'Nincs találat',
-    4: 'Your query may contain typos'
-  },
-  tabs: {
-    0: 'Keresés',
-    1: 'Szerkesztés',
-    2: 'Lista'
-  },
-  undefined: {
-    0: 'Üres',
-    1: 'Sajnos itt nincs semmi, de megnézhetsz más oldalakat is',
-    2: 'Sajnos itt nincs semmi',
-    3: 'Jogosulatlan',
-    4: 'Be kell legyél jelentkezve, hogy szerkeszteni tudjad ezt a skint.',
-    5: 'Be kell legyél jelentkezve, hogy új skint adjál hozzá.'
+  status: {
+    0: 'Nothing was found',
+    1: 'Not found',
+    2: `Couldn't load image`,
+    3: 'No image to load'
   },
   settings: {
-    0: 'Beállítások',
+    0: 'Settings',
     1: 'Egér görgetés',
-    2: 'Enable mouse hover swipe for image carousel, allowing left-to-right or right-to-left navigation.',
-    3: 'Nagyítás',
-    4: 'Enable image zoom on hover for larger skin preview.'
+    2: 'Enables easy image navigation when hovering over a skin preview card.',
+    3: 'Card zoom in',
+    4: 'Enables automatic image zoom when hovering over a skin preview card..',
+    5: 'Automatic comment translation',
+    6: 'Enables automatic translation of comments to English.'
   },
-  meta: {
-    title: {
-      0: 'Osu skinek felfedezése',
-      1: 'Játékmódok, osu skin képarányai',
-      2: 'Népszerű osu skin-ek',
-      3: 'Keressél osu skin-eket',
-      4: 'Címkék listája, {name}',
-      5: '{name} v{version} osu skin',
-      6: 'Készítők',
-      7: 'osu skin-ek',
-      8: '{name} keress osu skin-eket',
-      9: 'Inspiráld magad más osu skin-ekkel',
-      10: '{name} létre hozott osu skin-eket',
-      11: 'Címkék keresése',
-      12: '{name} talált címkék',
-      13: 'Új skin',
-      14: 'Oldal szabályok',
-      15: 'osu! Versenyek',
-      16: 'osu! skinning eszközök'
+  footer: { 0: 'Credits' },
+  home: {
+    title: [
+      'Discover osu! skins',
+      'Random osu! skins'
+    ],
+    description: 'Find the best osu! skins on our site! Our huge library has skins for all gamemodes, aspect ratios and even top players. Plus, we have a special section for anime fans. Improve your gameplay with the perfect skin. #osuskins #osugame #anime',
+    0: 'Available for download',
+    1: 'Most [viewed], [liked], [downloaded] skins',
+    2: [
+      'viewed',
+      'liked',
+      'downloaded'
+    ],
+    3: [
+      'Recent',
+      'New releases',
+      'Random'
+    ],
+    4: 'aspect ratios',
+    5: 'more'
+  },
+  credits: {
+    title: [
+      'Artwork credits',
+      'Used assets',
+      'Localization helpers'
+    ],
+    0: 'Credits',
+    1: 'Anyone? [{lang}]',
+    2: 'Seems like cyperdark forgot to add them. {text}',
+    3: [
+      'Artworks',
+      'Localization',
+      'Assets'
+    ],
+    4: 'All icons are taken from {name}',
+    5: 'Összes zászló kép {name} által'
+  },
+  tools: {
+    title: 'Skinning tools for osu! (by me :) )',
+    description: 'Useful skinning tools for osu!, made by cyperdark',
+    0: 'More skinning tools'
+  },
+  skin_ini: {
+    title: 'Visual skin.ini editor - osu! tools',
+    description: '',
+    prepare: [
+      'loading beatmap',
+      'loading skin',
+      'preparing skin',
+      'loading viewer'
+    ],
+    0: 'Welcome to the visual skin.ini editor!',
+    1: 'Here you can preview your skin gameplay with changes in real-time, such as combo colors, slider colors, and font offsets. Standard mode only for now',
+    2: 'Beatmap:',
+    3: 'Paste beatmap link',
+    4: 'Import .osk / .zip',
+    5: 'Import skin folder',
+    6: '.osu file not found',
+    7: 'Incorrect gamemode, only osu beatmaps allowed',
+    8: 'Skin.ini not found',
+    9: 'Select at least 1 .osk / .zip file',
+    10: 'Viewer settings',
+    11: 'Reset skin.ini',
+    12: 'Export skin.ini',
+    13: 'Randomize colors (on current tab)',
+    14: 'Switch tab',
+    15: 'Rewind',
+    16: 'Forward',
+    17: 'Play/Pause viewer',
+    18: 'Move to previous settings section',
+    19: 'Move to next settings section',
+    20: 'Open menu',
+    21: 'Close menu',
+    22: 'Shortcut',
+    23: 'Description',
+    24: 'Specify via comma',
+    25: 'Randomize',
+    26: 'Revert to default element',
+    27: 'Reset to default',
+    28: 'Replace file',
+    29: 'issue',
+    30: 'Drag and drop files or skin',
+    31: 'loaded',
+    32: 'Gameplay speed',
+    33: 'Random beatmap',
+    34: 'Beatmap folder'
+  },
+  contests: {
+    title: 'Official osu! skinning contests',
+    description: 'List of all active/finished osu! contests',
+    submit: [
+      'Submissions closed...',
+      'Submissions in progress...',
+      'Submit your entry'
+    ],
+    0: 'Official skinning contests',
+    1: [
+      'Submission',
+      'Preparing',
+      'Voting',
+      'Finished'
+    ],
+    2: 'Announcement',
+    3: 'Submissions ended',
+    4: 'Voting started',
+    5: 'Voting ended',
+    6: 'Results out',
+    7: 'Submission phase...',
+    8: 'Preparing phase...',
+    9: 'Voting phase...',
+    10: 'Waiting results...',
+    11: 'Vote here',
+    12: 'announcement',
+    13: 'submissions',
+    14: 'contest page',
+    15: 'results',
+    16: 'wiki',
+    17: 'Ends in',
+    18: 'Skins not found for this contest',
+    19: 'Expand description | Close description'
+  },
+  ideas: {
+    title: 'Inspiration - osu! skins',
+    description: 'Find inspiration for your next osu! skin on our site. Browse through a diverse collection of skins and discover new techniques and ideas. Get inspired and create your own unique skins.',
+    0: 'Screenshots not found for this category'
+  },
+  search: {
+    title: 'Search osu skins',
+    description: 'Find the perfect osu! skin with our advanced search feature. Browse through our huge library, filtered by ruleset, aspect ratio, and more. Or check out skins used by top players.',
+    0: 'Skin title, author, or tags',
+    1: [
+      'name',
+      'tags',
+      'creators'
+    ],
+    2: 'Select date range',
+    3: 'Size range',
+    4: 'View count range',
+    5: 'Download count range',
+    6: 'Like count range',
+    7: 'Select cursor type',
+    8: 'Nothing was found',
+    9: 'Try using a different set of search filters',
+    10: 'Pending query',
+    11: 'Use the search filters or type the skin\'s title, author or tags',
+    12: 'Select mania key',
+    13: 'reset',
+    14: 'Cursor color',
+    15: 'Circle color',
+    16: 'Slider border color',
+    17: 'Slider track color',
+    18: 'experimental filters'
+  },
+  tags: {
+    title: 'Search tags',
+    description: '',
+    0: 'Nothing was found',
+    1: 'Try searching something else'
+  },
+  tag: {
+    title: '{name} osu skins',
+    description: '',
+    0: 'Nothing was found',
+    1: 'No skins were found for this tag',
+    2: 'Try changing gamemode'
+  },
+  users: {
+    title: [
+      'Profile - {name} uploads',
+      'Profile - {name} skins'
+    ],
+    description: [
+      'All osu! skins uploaded by {name}',
+      'All osu! skins created by {name}'
+    ],
+    0: [
+      'Created skins',
+      'Uploaded skins'
+    ],
+    1: 'Incorrect url',
+    2: 'Make sure link is correct. Example: {url}',
+    3: 'Unsupported format',
+    4: 'Link format incorrect, use {url} or {url_1}',
+    5: `Change at least one setting before updating`,
+    6: `Unable to update settings`,
+    7: `Settings updated`,
+    8: 'Unknown error',
+    9: 'Settings',
+    10: 'Discord username',
+    11: 'Discord server link',
+    12: 'Twitter profile link',
+    13: 'Reddit profile link',
+    14: 'YouTube channel link',
+    15: 'Link to blog',
+    16: 'Show your liked skins',
+    17: 'Update settings',
+    18: '{amount} uploads | {amount} upload | {amount} uploads',
+    19: 'Blog',
+    20: 'Skins Stats',
+    21: 'Expand «about me» | Close «about me»',
+    22: 'Nothing was found',
+    23: 'No skins were found for this creator'
+  },
+  skins: {
+    title: [
+      '{amount} osu! skins',
+      '{amount} {category} osu! skins',
+      '{amount} universal aspect ratio osu! skins',
+      '204 Most viewed {mode} osu! skins',
+      '204 Most downloaded {mode} osu! skins',
+      '204 Most liked {mode} osu! skins'
+    ],
+    description: ['{amount} skins for osu!, catch the beat, mania and taiko'],
+    0: 'All',
+    1: 'Népszerű',
+    2: 'osu!',
+    3: 'ctb',
+    4: 'mania',
+    5: 'taiko',
+    6: 'universal ratio',
+    7: 'Nothing was found',
+    8: 'No skins were found for this category',
+    9: [
+      'downloads',
+      'views',
+      'likes'
+    ],
+    10: 'Submitted skins',
+    11: 'Skins currently in queue: {amount}',
+    12: 'No skins currently submitted for moderation'
+  },
+  skin: {
+    title: [
+      'Submit new skin',
+      '{name} osu skin'
+    ],
+    description: '{size}MB osu skin for {modes}, created by {creators}. Supports {ratios}',
+    rules: {
+      0: `**Do not** post nonsense.`,
+      1: `**Don't** post **low-quality** or **duplicate** submissions.`,
+      2: `Make sure your skin has **not** already been **published**.`,
+      3: `A skin is **protected from deletion** if it has been featured in a video by channels such as **cpol or osuck**, or if a **top player used** it in their public content. (twitch, youtube, twitter, tiktok, github, etc.)`,
+      4: `Screenshots must be **relevant** and **accurately represent** the skin.`,
+      5: `**Do not** upload skins that the original creator has set as **private** or does not wish to share. (Unless you have permission)`,
+      6: `If **your skin** is based on someone else's work or **uses assets** from other creators, **credit them** in your post.`,
+      7: `If your skin **includes** third-party assets (art, hitsounds, fonts, etc.), you **must** have permission and provide proper **credit** in the **Resources** tab of your submission.`,
+      8: `All submissions **must use English** as the primary language.\n- Titles containing **non-Latin** characters must also **include a Romanized** version.`,
+      9: `**Prohibited** content includes:\n- Religious or political content\n- Racism, hate speech, or harassment\n- Offensive or discriminatory imagery\n- Excessive gore or extreme violence\n- Explicit sexual content, including depictions of minors`,
+      10: `Suggestive or borderline content **must be clearly labeled** with the **NSFW** tag.`
     },
-    description: {
-      0: 'Szerezd meg a legjobb osu! skineket az oldalunkon! A hatalmas választékunkban találhatsz skin-eket minden játékmódhoz és képarányhoz, emellett a legjobb játékosok skin-jeit is letöltheted. Továbbá van egy külön részünk anime rajongók számára. Emeld új szintre a játék elményedet a neked tökéletes skin-nel. #osuskins #osugame #anime',
-      1: '{views} Megtekintések. {modes} módhoz egy osu! skin, a fájl mérete {size}, {creators} által készített. Támogatja {ratios}',
-      2: 'Találd meg a tökéletes osu! skin-t a legújabb keresési funkcióinkkal. Böngésszél hatalmas választékkal bíró könyvtárunkban játékmód, képarány és egyebek szerint szűrve. Vagy nézd meg a legjobb játékosok által használt skin-eket.',
-      3: 'Fedezd fel a különböző játékmódokat és képarányokat oldalunkon. Válasszál standard, catch the beat, mania és taiko módok közül. Találd meg a te játékstílusodhoz megfelelő skin-t.',
-      4: 'Találd meg oldalunkon a tökéletes osu skin-t a legjobb játékosoktól. Böngésszél népszerű skin-gyűjteményünkben, és szabd testre gameplay-ed. Fedezd fel a stílusok és témák széles skáláját a te preferenciádnak megfelelően.',
-      5: 'Létező osu skin címkék listája.',
-      6: '{name} osu skin kollekció!, ingyenes letöltés',
-      7: '{name} számára hatalmas mennyiégű osu! skin, töltsed le őket ingyen!',
-      8: '{name} által létrehozott összes skin',
-      9: 'Merítsél ihletet a következő osu skin-edhez oldalunkon. Böngésszél a skin-ek változatos gyűjteményében, és fedezzél fel új technikákat és ötleteket. Merítsél ihletet, és készítsd el saját egyedi skin-edet.',
-      10: 'Search for tags among all the tags on the site.',
-      11: 'Lista az aktív/befejezett osu! versenyekről',
-      12: '{amount} entries for {title} contest. {views} views'
+    0: 'Clear everything?',
+    1: 'Submit',
+    2: 'Submission rules',
+    3: 'Agree & Submit',
+    4: 'Suggest changes',
+    5: 'Update skin',
+    6: 'Log in to rate skin',
+    7: 'Suggested changes',
+    8: 'Select which changes you want to be applied',
+    9: 'Apply',
+    10: 'Reject',
+    11: 'Apply changes',
+    12: [
+      'About',
+      'Screenshots',
+      'Resources',
+      'Downloads',
+      'Comments'
+    ],
+    13: 'Banner added',
+    14: 'Banner updated',
+    15: 'Total size of all screenshots must not exceed 100 MB (currently {amount})',
+    16: 'Variant: {name}',
+    17: 'A resource with this link has already been added',
+    18: `Link not supported. Only youtube links are allowed.`,
+    19: 'Video already added',
+    20: 'Tag already added',
+    21: 'Unauthorized',
+    22: 'Log in to an account',
+    23: `Link not supported. Only mega, gdrive and mediafire links are allowed.`,
+    24: 'Unsupported osu! forum link',
+    25: 'Unsupported reddit link',
+    26: 'Couldn\'t parse link',
+    27: 'Unsupported twitter link',
+    28: 'Unknown cloud service',
+    29: 'Manage versions',
+    30: 'new version',
+    31: 'Type skin name',
+    32: 'Has extras?',
+    33: 'Select aspect ratios',
+    34: '{amount} issues',
+    35: 'Edit',
+    36: 'Log in to report skin',
+    37: 'Exit editing',
+    38: 'Remove banner',
+    39: 'Description',
+    40: '**Animations** - has animated elements (back button / skip button / hp bar)',
+    41: '**Extras** - has files for customization / additional gameplay elements',
+    42: '**HD** - has files for resolutions **above** 1366x768',
+    43: '**SD** - has files for resolutions **below** 1366x768',
+    44: 'Released at {date}',
+    45: 'Uploaded at {date}',
+    46: 'Paste a YouTube video link',
+    47: 'Quick select',
+    48: 'Remove all screenshots?',
+    49: 'Type variant name...',
+    50: 'Select screenshot category',
+    51: 'Compare versions',
+    52: 'Show gameplay only',
+    53: 'Type a description and an url. Format description:url',
+    54: 'Description:',
+    55: 'Url:',
+    56: `Oops!`,
+    57: 'No `.osk` files are attached to this skin',
+    58: `Nothing was found`,
+    59: 'Change query or try searching something else',
+    60: 'Log in to report a file',
+    61: 'Versions',
+    62: 'Download link',
+    63: 'osu! forum link',
+    64: 'reddit link',
+    65: 'twitter link',
+    66: 'Creators',
+    67: 'If a creator wants to be anonymous or a collaborator does not have a bancho account, you can add them as a ghost creator.',
+    68: 'Creators not added',
+    69: 'Tags',
+    70: 'Tags not added',
+    71: 'start typing to get suggestions',
+    72: 'Show',
+    73: [
+      'Creator',
+      'Mixer',
+      'Animations',
+      'Arts',
+      'Collab',
+      'Sounds',
+      'Gameplay'
+    ],
+    74: 'All changes have been saved locally',
+    75: 'Changes restored from cache',
+    76: 'Released {date}',
+    77: 'Select roles',
+    checks: {
+      0: 'Skin name not specified',
+      1: 'Add at least one creator',
+      2: 'Select at least one aspect ratio',
+      3: 'No screenshots provided',
+      4: 'Add at least one gameplay screenshot',
+      5: 'Skin link not specified',
+      6: 'Some creators do not have roles',
+      7: 'Some creators do not have names',
+      8: 'Skin release date not specified',
+      9: 'Skin version not specified',
+      10: 'Content rating not selected'
     }
   },
-  buttons: {
-    0: 'Bejelntkezés',
-    1: 'Főoldal',
-    profile_osu: 'osu! Profil',
-    new_skin: 'Új skin',
-    notifications: 'Értesítések',
-    settings: 'Beállítások',
-    logout: 'Kijelentkezés',
-    load_more: 'Továbbiak betöltése',
-    copy_short: 'Rövid link másolása',
-    copied: 'Másolva',
-    reddit_link: 'Reddit',
-    osu_forum_link: 'osu! Fórum',
-    skin_return: 'Vissza a skin-hez',
-    source: 'Forrás',
-    contest_voting: 'Itt szavazz',
-    rules_agree: 'Elfogadom',
-    report_issue: 'Report issue',
-    ghost_creator: 'Ghost creator',
-    close: 'Close',
-    quick_select: 'Quick select'
+  skin_block: {
+    0: 'Open skin page',
+    1: 'Open in fullscreen',
+    2: 'Switch to other gamemode',
+    3: 'Change image category',
+    4: 'Copy short link'
   },
-  choose: {
-    0: 'Optional',
-    1: 'Required',
-    2: 'Pick at least one option'
+  gallery: {
+    0: 'Open in fullscreen',
+    1: 'Exit fullscreen',
+    2: 'Reset zoom',
+    3: 'Close gallery'
   },
-  user: {
-    roles: {
-      0: 'Készítő',
-      1: 'Mixelő',
-      2: 'Animációk',
-      3: 'Rajzok',
-      4: 'Együttműködés',
-      5: 'Hangok',
-      6: 'Gameplay'
-    }
+  screenshots_select: {
+    0: 'Welcome',
+    1: 'Main menu',
+    2: 'Song select',
+    3: 'Mode menu',
+    4: 'Mods',
+    5: 'Countdown',
+    6: 'Gameplay',
+    7: 'Spinner',
+    8: 'Section Pass',
+    9: 'Section Fail',
+    10: 'Pause Screen',
+    11: 'Fail Screen',
+    12: 'Result screen (top)',
+    13: 'Skip',
+    14: 'Banner',
+    15: 'Result screen (bottom)',
+    16: 'Pinned image',
+    17: 'osu!',
+    18: 'catch the beat',
+    19: 'mania',
+    20: 'taiko'
   },
-  tooltips: {
-    0: 'Megtekintések száma: {amount}',
-    1: 'Találatok frissítése',
-    2: 'Csökkenő | Növekvő',
-    3: 'Kedvelések száma: {likes} / Nem kedvelések száma: {dislikes}',
-    4: 'Nyomj ctrl+enter-t egy címke hozzáadásához',
-    5: 'Verzió szerkesztése',
-    6: '{s}Jelentkezz be{p} a skin értékeléséhez',
-    7: 'Nincs rövid leírás',
-    8: 'Nincs url',
-    9: 'Letöltések száma: {amount}',
-    10: 'Reset everything',
-    11: 'Show guide',
-    12: 'Close guide',
-    13: 'To mark a rule as read, hover over it (Yellow indicates unread)',
-    14: {
-      0: '[hl]{example}[/hl] - [b]equal[/b] to {amount}',
-      1: '[hl]{example}[/hl] - [b]above[/b] {amount}',
-      2: '[hl]{example}[/hl] - [b]below[/b] {amount}',
-      3: '[hl]{example}[/hl] - [b]from[/b] {amount} [b]to[/b] {amount_2}'
+  report: {
+    skin_ini: [
+      'Describe bug, preferably with reproduction steps',
+      'Describe what you want to see...'
+    ],
+    tag: {
+      0: 'Missing skin',
+      1: 'Link to a video of missing skin'
     },
-    15: 'Unselect',
-    16: 'Remove file'
+    skin_file: [
+      'Download link is missing',
+      'Skin is broken',
+      'Describe what exactly broken'
+    ],
+    skin: [
+      'Wrong/Missing screenshots',
+      'Which screenshots are missing',
+      'Wrong/Missing creators',
+      'Type text...',
+      'Missing NSFW tag',
+      'Metadata',
+      'Describe what exactly wrong',
+      'Copyright/Missing credits',
+      'Type text...'
+    ],
+    0: 'Log in to report a issue',
+    1: 'Type is not selected',
+    2: `Id does not exist`,
+    3: 'Category not selected',
+    4: 'Report already submitted',
+    5: 'Report submitted',
+    6: 'Select report category',
+    7: 'Submit report'
   },
-  lists: {
-    screens: {
-      0: 'Köszöntünk',
-      1: 'Főmenü',
-      2: 'Zene választás',
-      3: 'Játékmódok menüje',
-      4: 'Módok',
-      5: 'Visszaszámlálás',
-      6: 'Gameplay',
-      7: 'Spinner',
-      8: 'Sikeres szakasz',
-      9: 'Sikertelen szakasz',
-      10: 'Szünet',
-      11: 'Fail Screen',
-      12: 'Eredmény',
-      13: 'Átugrás',
-      14: 'Banner',
-      15: 'Result screen (bottom)',
-      16: 'Beginning image'
-    },
-    cats: {
-      0: 'NSFW',
-      1: 'Furry',
-      2: 'Vegyes'
-    }
+  plural: {
+    skins: '{amount} skins | {amount} skin | {amount} skins',
+    tags_skins: '«{name}» {amount} skins | «{name}» {amount} skin | «{name}» {amount} skins',
+    views: '{amount} views | {amount} view | {amount} views',
+    votes: '{amount} votes | {amount} vote | {amount} votes'
   },
-  select: {
-    0: 'Új',
-    1: 'Kijavított',
-    2: 'Valtoztatott',
-    3: 'Eltávolított',
-    4: 'Rajzok',
-    5: 'Betűtípus',
-    6: 'Művész',
-    7: 'Skin elem',
-    8: 'Hangeffektek',
-    9: 'Eszközök',
-    10: 'Image',
-    views: 'Megtekintés',
-    likes: 'Kedvelés',
-    dislikes: 'Nem kedvelés',
-    downloads: 'Letöltések',
-    ratio: 'Válasszál képarányt | arány',
-    sorting: 'Desc. | Asc.'
+  placeholder: {
+    0: 'Type text..',
+    1: 'Type link..',
+    2: 'Type hex/rgb color..'
   },
   sorting: {
+    date: 'Date',
+    release_date: 'Release date',
+    upload_date: 'Upload date',
+    view: 'Views',
+    vote: 'Votes',
+    name: 'Name',
+    download: 'Downloads',
+    like: 'Likes',
+    size: 'Size',
+    total: 'Total'
+  },
+  order: {
     0: 'Most | Least',
     1: 'Most | Least',
     2: 'Highest | Lowest',
@@ -401,123 +538,44 @@ export default {
     4: 'Newest | Oldest',
     5: 'A-Z | Z-A'
   },
-  placeholders: {
-    0: 'Válassz szerepet',
-    1: 'Válassz verziót',
-    2: 'Írj valamit...',
-    3: 'Select size range',
-    4: 'Dátumtartományt választása',
-    5: 'Év',
-    6: 'Hónap',
-    7: 'Képarány választása',
-    8: 'Kategóriák választása',
-    9: 'Játékmódok',
-    10: 'Típus kiválasztása',
-    11: 'Illesszél be egy YouTube linket',
-    12: 'Type a description and an url. Format description:url',
-    13: 'Extra választása',
-    14: 'Link beillesztése',
-    15: 'Skin title, author, or tags',
-    16: 'Select category',
-    17: 'Type the name of the tag',
-    18: 'Type the name of the skin',
-    19: 'Type author name ',
-    20: 'Select file',
-    24: 'Type gameplay name...',
-    25: 'Type range',
-    26: 'Type text'
+  tooltips: {
+    0: [
+      '[hl]{example}[/hl] - [b]equal[/b] to {amount}',
+      '[hl]{example}[/hl] - [b]greater than[/b] {amount}',
+      '[hl]{example}[/hl] - [b]less than[/b] {amount}',
+      '[hl]{example}[/hl] - [b]between[/b] {amount} [b]and[/b] {amount_2}'
+    ],
+    1: 'Usage examples:',
+    2: `Select screenshot category`,
+    3: '{amount} downloads',
+    4: '{amount} views',
+    5: '{likes} likes / {dislikes} dislikes',
+    6: '{amount} skins',
+    7: '{amount} votes'
   },
-  contribute: { 0: 'Contribute' },
   nsfw: {
-    0: 'Warning, nsfw!',
-    1: 'This skin contains sensitive or adult content',
-    2: 'This skin contains sensitive or adult content that some users may find disturbing',
-    3: 'Alright',
-    4: 'bye o/',
-    5: 'Furry Warning!'
+    0: 'NSFW Warning!',
+    1: 'This skin contains sensitive or adult content!',
+    3: 'Furry Warning!'
   },
-  removed: {
-    0: 'Version unavailable',
-    1: 'The author of the skin decided to remove this version from the site.',
-    2: 'Switch to an available version'
+  drag: {
+    0: 'Click to add images',
+    1: 'or drag & drop here',
+    2: `drop images here`
   },
-  notify: {
-    0: 'Issues were not fixed',
-    1: 'Not all required fields were filled',
-    2: 'Show',
-    3: 'Not found',
-    4: 'Banner not found (Currently, the first screenshot is being used as the banner)',
-    5: 'No changes',
-    6: 'No changes were found',
-    7: 'ID not found',
-    8: 'ID of the video not found, try another link (At the moment only YouTube is supported)',
-    9: 'Oops',
-    10: 'Looks like your session expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
-    11: 'Exists',
-    12: 'This video has already been added',
-    13: 'Exists',
-    14: 'This tag has already been added',
-    15: 'Not found',
-    16: 'You cannot delete a deleted tag',
-    17: 'Added',
-    18: 'You have successfully added a new tag',
-    19: 'OOps',
-    20: 'This creator was already added',
-    21: 'EZ',
-    22: 'New creator has been added',
-    23: 'HUH',
-    24: 'Impossible to remove a deleted creator',
-    25: 'Duplicate',
-    26: 'This change has already been added earlier.',
-    27: 'Duplicate',
-    28: 'This url has already been added earlier.',
-    29: 'Warning',
-    30: 'You forgot to add a description for the url. Example: Description:url',
-    31: 'Warning',
-    32: 'You forgot to add an url for the description. Example: Description:url',
-    33: 'Restored',
-    34: 'Version «{name}» has been restored',
-    35: 'Deleted',
-    36: 'Version «{name}» has been deleted',
-    37: 'Error',
-    38: 'Apparently the server thinks you\'re a robot.',
-    39: 'Your current login session has timed out. To proceed, please open a new page and log back into your account. Once you\'ve done that, return to this page and try again.',
-    40: 'Mismatched credentials (relogin in account. Don\'t worry, everything was saved automatically)',
-    41: 'Unknown error',
-    42: 'You cannot edit a nonexistent skin',
-    43: 'Seems like you don\'t have permission to edit this skin',
-    44: 'You cannot send this version because it is the same as the previous one.',
-    45: 'These changes have already been sent for moderation',
-    46: 'Success',
-    47: 'New changes have been submitted for moderation',
-    48: 'Changes have been updated in moderation',
-    49: 'Odd link',
-    50: 'This link cannot be used as a download link',
-    51: 'Submitted for moderation',
-    52: 'Warning',
-    53: 'You need to choose type of asset',
-    54: 'The skin is currently under moderation. Please be patient while it is being processed',
-    55: 'Success',
-    56: 'New ghost creator has been added',
-    57: 'Color copied',
-    58: `The RGB code "{color}" is now available through your clipboard!`
+  buttons: {
+    source: 'Art Source',
+    load_more: 'Továbbiak betöltése',
+    close: 'Close',
+    choose: [
+      'Yes',
+      'No'
+    ],
+    expand_more: 'Show more | Show less'
   },
-  header: {
-    0: 'Értesítések',
-    1: 'Follow us on these platforms to receive notifications about new skins'
-  },
-  restricted_view: {
-    0: 'Jogosulatlan',
-    1: 'Kérlek jelentkezz be a fiókodba',
-    2: 'Restricted view',
-    3: 'This page is not out, yet.'
-  },
-  confirm: {
-    0: 'Reset everything?',
-    1: 'Show guide?',
-    2: 'Submit skin?',
-    3: 'Yes',
-    4: 'No',
-    5: 'Reset .ini?'
+  error: {
+    0: 'home page',
+    1: 'log in',
+    2: 'Report issue'
   }
 };
