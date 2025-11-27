@@ -1,6 +1,6 @@
 export default {
   header: {
-    home: 'Home',
+    home: 'Laman Utama',
     contests: 'Contests',
     ideas: 'Inspiration',
     tools: 'Tools',
@@ -20,8 +20,8 @@ export default {
   },
   user_menu: {
     0: 'profile',
-    1: 'my skin queue',
-    2: 'refresh token',
+    1: 'my skins queue',
+    2: 'relogin',
     3: 'log out'
   },
   status: {
@@ -33,11 +33,9 @@ export default {
   settings: {
     0: 'Settings',
     1: 'Skroi tetikus',
-    2: 'Enables easy image navigation when hovering over a skin preview card.',
-    3: 'Card zoom in',
-    4: 'Enables automatic image zoom when hovering over a skin preview card..',
-    5: 'Automatic comment translation',
-    6: 'Enables automatic translation of comments to English.'
+    2: 'Enables easy image navigation when hovering over a skin block.',
+    3: 'Zoom in',
+    4: 'Enables automatic image zoom when hovering over a skin block.'
   },
   footer: { 0: 'Credits' },
   home: {
@@ -65,7 +63,7 @@ export default {
     title: [
       'Artwork credits',
       'Used assets',
-      'Localization helpers'
+      'Penolong Penyetempatan'
     ],
     0: 'Credits',
     1: 'Anyone? [{lang}]',
@@ -79,8 +77,8 @@ export default {
     5: 'Semua gambar bendera diambil dari {name}'
   },
   tools: {
-    title: 'Skinning tools for osu! (by me :) )',
-    description: 'Useful skinning tools for osu!, made by cyperdark',
+    title: 'Alatan skinning untuk osu! (daripada saya :) )',
+    description: 'Alat skinning yang berguna untuk osu!, buat daripada cpol',
     0: 'More skinning tools'
   },
   skin_ini: {
@@ -96,7 +94,7 @@ export default {
     1: 'Here you can preview your skin gameplay with changes in real-time, such as combo colors, slider colors, and font offsets. Standard mode only for now',
     2: 'Beatmap:',
     3: 'Paste beatmap link',
-    4: 'Import .osk / .zip',
+    4: 'Import .osk/ .zip',
     5: 'Import skin folder',
     6: '.osu file not found',
     7: 'Incorrect gamemode, only osu beatmaps allowed',
@@ -249,9 +247,9 @@ export default {
       '{amount} osu! skins',
       '{amount} {category} osu! skins',
       '{amount} universal aspect ratio osu! skins',
-      '204 Most viewed {mode} osu! skins',
-      '204 Most downloaded {mode} osu! skins',
-      '204 Most liked {mode} osu! skins'
+      '204 Most viewed {mode} skins',
+      '204 Most downloaded {mode} skins',
+      '204 Most liked {mode} skins'
     ],
     description: ['{amount} skins for osu!, catch the beat, mania and taiko'],
     0: 'All',
@@ -282,13 +280,13 @@ export default {
       0: `**Do not** post nonsense.`,
       1: `**Don't** post **low-quality** or **duplicate** submissions.`,
       2: `Make sure your skin has **not** already been **published**.`,
-      3: `A skin is **protected from deletion** if it has been featured in a video by channels such as **cpol or osuck**, or if a **top player used** it in their public content. (twitch, youtube, twitter, tiktok, github, etc.)`,
+      3: `A skin is **protected from deletion** if it has been featured in a video by channels such as **cpol or osuck**, or if a **top player used** it in their public content. (Twitch, YouTube, Twitter, TikTok, GitHub, etc.)`,
       4: `Screenshots must be **relevant** and **accurately represent** the skin.`,
       5: `**Do not** upload skins that the original creator has set as **private** or does not wish to share. (Unless you have permission)`,
       6: `If **your skin** is based on someone else's work or **uses assets** from other creators, **credit them** in your post.`,
       7: `If your skin **includes** third-party assets (art, hitsounds, fonts, etc.), you **must** have permission and provide proper **credit** in the **Resources** tab of your submission.`,
       8: `All submissions **must use English** as the primary language.\n- Titles containing **non-Latin** characters must also **include a Romanized** version.`,
-      9: `**Prohibited** content includes:\n- Religious or political content\n- Racism, hate speech, or harassment\n- Offensive or discriminatory imagery\n- Excessive gore or extreme violence\n- Explicit sexual content, including depictions of minors`,
+      9: `**Prohibited** content includes:\n- Religious or political content\n- Racism, hate speech, or harassment\n- Offensive or discriminatory imagery\n- Excessive gore or extreme violence\n- Explicit sexual content, including depictions of minors.`,
       10: `Suggestive or borderline content **must be clearly labeled** with the **NSFW** tag.`
     },
     0: 'Clear everything?',
@@ -315,16 +313,16 @@ export default {
     15: 'Total size of all screenshots must not exceed 100 MB (currently {amount})',
     16: 'Variant: {name}',
     17: 'A resource with this link has already been added',
-    18: `Link not supported. Only youtube links are allowed.`,
+    18: `Link not supported. Only YouTube links are allowed.`,
     19: 'Video already added',
     20: 'Tag already added',
     21: 'Unauthorized',
     22: 'Log in to an account',
-    23: `Link not supported. Only mega, gdrive and mediafire links are allowed.`,
+    23: `Link not supported. Only MEGA, Google Drive and MediaFire links are allowed.`,
     24: 'Unsupported osu! forum link',
     25: 'Unsupported reddit link',
     26: 'Couldn\'t parse link',
-    27: 'Unsupported twitter link',
+    27: 'Unsupported Twitter link',
     28: 'Unknown cloud service',
     29: 'Manage versions',
     30: 'new version',
@@ -361,10 +359,10 @@ export default {
     61: 'Versions',
     62: 'Download link',
     63: 'osu! forum link',
-    64: 'reddit link',
-    65: 'twitter link',
+    64: 'Reddit link',
+    65: 'Twitter link',
     66: 'Creators',
-    67: 'If a creator wants to be anonymous or a collaborator does not have a bancho account, you can add them as a ghost creator.',
+    67: 'If a creator wants to be anonymous or a collaborator does not have a Bancho account, you can add them as a ghost creator.',
     68: 'Creators not added',
     69: 'Tags',
     70: 'Tags not added',
