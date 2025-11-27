@@ -1,45 +1,43 @@
 export default {
   header: {
-    home: 'Home',
-    contests: 'Contests',
-    ideas: 'Inspiration',
-    tools: 'Tools',
-    popular: 'Popular skins',
-    all_skins: 'All skins',
-    tags: 'Tags',
-    new: 'New',
-    contribute: 'Contribute',
-    login: 'Log in',
-    0: 'Views',
-    1: 'Downloads',
-    2: 'Likes'
+    home: 'בית',
+    contests: 'תחרויות',
+    ideas: 'השראה',
+    tools: 'כלים',
+    popular: 'סקינים אוסו פופולריים',
+    all_skins: 'כל הסקינים',
+    tags: 'תגים',
+    new: 'חדש',
+    contribute: 'לתרום',
+    login: 'התחבר',
+    0: 'צפיות',
+    1: 'הורדות',
+    2: 'לייקים'
   },
   notifications: {
-    0: 'Notifications',
-    1: 'Follow us on these platforms to receive notifications about new skins'
+    0: 'התראות',
+    1: 'עקוב אחרינו בפלטפורמות האלה כדי לקבל התראות על סקינים חדשים'
   },
   user_menu: {
-    0: 'profile',
-    1: 'my skin queue',
-    2: 'refresh token',
-    3: 'log out'
+    0: 'פרופיל',
+    1: 'תור סקינים שלי',
+    2: 'התחבר מחדש',
+    3: 'התנתק'
   },
   status: {
-    0: 'Nothing was found',
-    1: 'Not found',
-    2: `Couldn't load image`,
-    3: 'No image to load'
+    0: 'לא נמצא כלום',
+    1: 'לא נמצא',
+    2: `לא ניתן היה לטעון את התמונה`,
+    3: 'אין תמונה לטעינה'
   },
   settings: {
     0: 'Settings',
     1: 'גלגלת העכבר',
-    2: 'Enables easy image navigation when hovering over a skin preview card.',
-    3: 'Card zoom in',
-    4: 'Enables automatic image zoom when hovering over a skin preview card..',
-    5: 'Automatic comment translation',
-    6: 'Enables automatic translation of comments to English.'
+    2: 'Enables easy image navigation when hovering over a skin block.',
+    3: 'Zoom in',
+    4: 'Enables automatic image zoom when hovering over a skin block.'
   },
-  footer: { 0: 'Credits' },
+  footer: { 0: 'זיכויים' },
   home: {
     title: [
       'Discover osu! skins',
@@ -50,8 +48,8 @@ export default {
     1: 'Most [viewed], [liked], [downloaded] skins',
     2: [
       'viewed',
-      'liked',
-      'downloaded'
+      'לייקים',
+      'הורדות'
     ],
     3: [
       'Recent',
@@ -67,7 +65,7 @@ export default {
       'Used assets',
       'Localization helpers'
     ],
-    0: 'Credits',
+    0: 'זיכויים',
     1: 'Anyone? [{lang}]',
     2: 'Seems like cyperdark forgot to add them. {text}',
     3: [
@@ -173,7 +171,7 @@ export default {
     0: 'Skin title, author, or tags',
     1: [
       'name',
-      'tags',
+      'תגים',
       'creators'
     ],
     2: 'Select date range',
@@ -182,7 +180,7 @@ export default {
     5: 'Download count range',
     6: 'Like count range',
     7: 'Select cursor type',
-    8: 'Nothing was found',
+    8: 'לא נמצא כלום',
     9: 'Try using a different set of search filters',
     10: 'Pending query',
     11: 'Use the search filters or type the skin\'s title, author or tags',
@@ -195,15 +193,15 @@ export default {
     18: 'experimental filters'
   },
   tags: {
-    title: 'Search tags',
+    title: 'חפש תגים',
     description: '',
-    0: 'Nothing was found',
-    1: 'Try searching something else'
+    0: 'לא נמצא כלום',
+    1: 'נסה לחפש משהו אחר'
   },
   tag: {
     title: '{name} osu skins',
     description: '',
-    0: 'Nothing was found',
+    0: 'לא נמצא כלום',
     1: 'No skins were found for this tag',
     2: 'Try changing gamemode'
   },
@@ -241,7 +239,7 @@ export default {
     19: 'Blog',
     20: 'Skins Stats',
     21: 'Expand «about me» | Close «about me»',
-    22: 'Nothing was found',
+    22: 'לא נמצא כלום',
     23: 'No skins were found for this creator'
   },
   skins: {
@@ -249,9 +247,9 @@ export default {
       '{amount} osu! skins',
       '{amount} {category} osu! skins',
       '{amount} universal aspect ratio osu! skins',
-      '204 Most viewed {mode} osu! skins',
-      '204 Most downloaded {mode} osu! skins',
-      '204 Most liked {mode} osu! skins'
+      '204 Most viewed {mode} skins',
+      '204 Most downloaded {mode} skins',
+      '204 Most liked {mode} skins'
     ],
     description: ['{amount} skins for osu!, catch the beat, mania and taiko'],
     0: 'All',
@@ -261,7 +259,7 @@ export default {
     4: 'mania',
     5: 'taiko',
     6: 'universal ratio',
-    7: 'Nothing was found',
+    7: 'לא נמצא כלום',
     8: 'No skins were found for this category',
     9: [
       'downloads',
@@ -282,13 +280,13 @@ export default {
       0: `**Do not** post nonsense.`,
       1: `**Don't** post **low-quality** or **duplicate** submissions.`,
       2: `Make sure your skin has **not** already been **published**.`,
-      3: `A skin is **protected from deletion** if it has been featured in a video by channels such as **cpol or osuck**, or if a **top player used** it in their public content. (twitch, youtube, twitter, tiktok, github, etc.)`,
+      3: `A skin is **protected from deletion** if it has been featured in a video by channels such as **cpol or osuck**, or if a **top player used** it in their public content. (Twitch, YouTube, Twitter, TikTok, GitHub, etc.)`,
       4: `Screenshots must be **relevant** and **accurately represent** the skin.`,
       5: `**Do not** upload skins that the original creator has set as **private** or does not wish to share. (Unless you have permission)`,
       6: `If **your skin** is based on someone else's work or **uses assets** from other creators, **credit them** in your post.`,
       7: `If your skin **includes** third-party assets (art, hitsounds, fonts, etc.), you **must** have permission and provide proper **credit** in the **Resources** tab of your submission.`,
       8: `All submissions **must use English** as the primary language.\n- Titles containing **non-Latin** characters must also **include a Romanized** version.`,
-      9: `**Prohibited** content includes:\n- Religious or political content\n- Racism, hate speech, or harassment\n- Offensive or discriminatory imagery\n- Excessive gore or extreme violence\n- Explicit sexual content, including depictions of minors`,
+      9: `**Prohibited** content includes:\n- Religious or political content\n- Racism, hate speech, or harassment\n- Offensive or discriminatory imagery\n- Excessive gore or extreme violence\n- Explicit sexual content, including depictions of minors.`,
       10: `Suggestive or borderline content **must be clearly labeled** with the **NSFW** tag.`
     },
     0: 'Clear everything?',
@@ -307,7 +305,7 @@ export default {
       'About',
       'Screenshots',
       'Resources',
-      'Downloads',
+      'הורדות',
       'Comments'
     ],
     13: 'Banner added',
@@ -315,16 +313,16 @@ export default {
     15: 'Total size of all screenshots must not exceed 100 MB (currently {amount})',
     16: 'Variant: {name}',
     17: 'A resource with this link has already been added',
-    18: `Link not supported. Only youtube links are allowed.`,
+    18: `Link not supported. Only YouTube links are allowed.`,
     19: 'Video already added',
     20: 'Tag already added',
     21: 'Unauthorized',
     22: 'Log in to an account',
-    23: `Link not supported. Only mega, gdrive and mediafire links are allowed.`,
+    23: `Link not supported. Only MEGA, Google Drive and MediaFire links are allowed.`,
     24: 'Unsupported osu! forum link',
     25: 'Unsupported reddit link',
     26: 'Couldn\'t parse link',
-    27: 'Unsupported twitter link',
+    27: 'Unsupported Twitter link',
     28: 'Unknown cloud service',
     29: 'Manage versions',
     30: 'new version',
@@ -355,18 +353,18 @@ export default {
     55: 'Url:',
     56: `Oops!`,
     57: 'No `.osk` files are attached to this skin',
-    58: `Nothing was found`,
+    58: `לא נמצא כלום`,
     59: 'Change query or try searching something else',
     60: 'Log in to report a file',
     61: 'Versions',
     62: 'Download link',
     63: 'osu! forum link',
-    64: 'reddit link',
-    65: 'twitter link',
+    64: 'Reddit link',
+    65: 'Twitter link',
     66: 'Creators',
-    67: 'If a creator wants to be anonymous or a collaborator does not have a bancho account, you can add them as a ghost creator.',
+    67: 'If a creator wants to be anonymous or a collaborator does not have a Bancho account, you can add them as a ghost creator.',
     68: 'Creators not added',
-    69: 'Tags',
+    69: 'תגים',
     70: 'Tags not added',
     71: 'start typing to get suggestions',
     72: 'Show',
@@ -423,10 +421,10 @@ export default {
     9: 'Section Fail',
     10: 'Pause Screen',
     11: 'Fail Screen',
-    12: 'Result screen (top)',
-    13: 'Skip',
-    14: 'Banner',
-    15: 'Result screen (bottom)',
+    12: 'מסך תוצאות (עליון)',
+    13: 'דלג',
+    14: 'באנר',
+    15: 'מסך תוצאות (תחתית)',
     16: 'Pinned image',
     17: 'osu!',
     18: 'catch the beat',
@@ -439,7 +437,7 @@ export default {
       'Describe what you want to see...'
     ],
     tag: {
-      0: 'Missing skin',
+      0: 'סקין חסר',
       1: 'Link to a video of missing skin'
     },
     skin_file: [
@@ -451,12 +449,12 @@ export default {
       'Wrong/Missing screenshots',
       'Which screenshots are missing',
       'Wrong/Missing creators',
-      'Type text...',
+      'הקלדת טקסט...',
       'Missing NSFW tag',
-      'Metadata',
+      'מטא-דאטה',
       'Describe what exactly wrong',
       'Copyright/Missing credits',
-      'Type text...'
+      'הקלדת טקסט...'
     ],
     0: 'Log in to report a issue',
     1: 'Type is not selected',
@@ -465,10 +463,10 @@ export default {
     4: 'Report already submitted',
     5: 'Report submitted',
     6: 'Select report category',
-    7: 'Submit report'
+    7: 'שלח דוח'
   },
   plural: {
-    skins: '{amount} skins | {amount} skin | {amount} skins',
+    skins: '{amount} סקינים | {amount} סקין | {amount} סקינים',
     tags_skins: '«{name}» {amount} skins | «{name}» {amount} skin | «{name}» {amount} skins',
     views: '{amount} views | {amount} view | {amount} views',
     votes: '{amount} votes | {amount} vote | {amount} votes'
@@ -482,11 +480,11 @@ export default {
     date: 'Date',
     release_date: 'Release date',
     upload_date: 'Upload date',
-    view: 'Views',
+    view: 'צפיות',
     vote: 'Votes',
     name: 'Name',
-    download: 'Downloads',
-    like: 'Likes',
+    download: 'הורדות',
+    like: 'לייקים',
     size: 'Size',
     total: 'Total'
   },
@@ -528,14 +526,14 @@ export default {
     load_more: 'טען עוד',
     close: 'סגירה',
     choose: [
-      'Yes',
-      'No'
+      'כן',
+      'לא'
     ],
-    expand_more: 'Show more | Show less'
+    expand_more: 'הצג יותר | הצג פחות'
   },
   error: {
-    0: 'home page',
-    1: 'log in',
-    2: 'Report issue'
+    0: 'דף הבית',
+    1: 'התחבר',
+    2: 'דווח על בעיה'
   }
 };
