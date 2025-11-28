@@ -45,7 +45,7 @@ export default {
     ],
     description: '¡Consigue los mejores aspectos de osu! en nuestra página! Nuestra amplia librería cuenta con aspectos para todos los modos de juego, relaciones de aspecto e incluso con aquellas usadas por los mejores jugadores. Además, tenemos una sección especial para los fans del anime. Mejora tu gameplay con la skin perfecta. #osuskins #osugame #anime',
     0: 'Disponible para descargar',
-    1: 'La mayoría de aspectos [vistas], [me gusta], [descargados]',
+    1: 'La mayoría de aspectos [viewed], [liked], [downloaded]',
     2: [
       'visto',
       'le gustó',
