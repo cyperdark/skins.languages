@@ -318,7 +318,7 @@ export default {
     20: '该标签已添加',
     21: '未授权',
     22: '登录到账号',
-    23: `Link not supported. Only MEGA, Google Drive and MediaFire links are allowed.`,
+    23: `不支持的链接。仅允许MEGA、Google Drive和Media Fire链接。`,
     24: '不支持的osu!论坛链接',
     25: '不支持的reddit链接',
     26: '无法解析链接',
