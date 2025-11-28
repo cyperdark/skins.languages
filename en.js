@@ -1,419 +1,563 @@
 export default {
-  title: {
+  header: {
     home: 'Home',
-    login: 'Log in',
-    lists: { 0: 'Lists' },
-    tags: {
-      0: 'Tags',
-      1: '{amount} tags for category {name}',
-      2: 'Search tags',
-    },
-    ideas: {
-      0: 'Inspiration',
-      1: '«{amount}»'
-    },
-    sounds: { 0: 'Sounds' },
-    leaderboard: { 0: 'Leaderboards' },
-    extend: { 0: 'More | Less' },
-    skin: {
-      0: 'This skin contains elements from other skins',
-      1: 'Click here for more information'
-    },
+    contests: 'Contests',
+    ideas: 'Inspiration',
     tools: 'Tools',
-  },
-  home: {
-    0: 'Available to download',
-    1: 'Most: _name_ skins',
-    2: 'Viewed | Liked | Downloaded',
-    3: 'Publish new skin',
-    4: 'How to install skin',
-    5: '{amount} Skins | {amount} Skins | {amount} Skins',
-  },
-  changelogs: {
-    0: 'Changelog',
-    1: 'List of all the revisions done in the current version',
-    2: 'Nothing here',
-    3: 'But you can add the changes you\'ve made to this version of the skin',
-    4: 'Not grouped',
-    5: 'New',
-    6: 'Fix',
-    7: 'Change',
-    8: 'Removal'
-  },
-  ideas: {
-    0: 'Nothing found',
-    1: 'Screenshots of «{type}» were not uploaded to the site',
-    2: '«{amount}» {name}'
-  },
-  creators: {
-    0: 'Creators',
-    1: 'List all creators who were involved in making this version',
-    2: 'No one is here',
-    3: 'Searching for a player\'s name will display a list of profiles.',
-    4: 'Editor',
-    5: 'Roles',
-    6: 'Versions'
-  },
-  tags: {
-    0: 'Tags',
-    1: 'List of all the tags related to this skin',
-    2: 'It seems pretty empty here.',
-    3: 'Use the field above to find new tags',
-    4: 'Tags not found',
-    5: 'Try searching for something else',
-    6: 'Search',
-  },
-  videos: {
-    0: 'Videos',
-    1: 'List of all the video showcases for this skin',
-    2: 'No showcases',
-    3: 'Search for some on YouTube or create your own showcase'
-  },
-  sources: {
-    0: 'Assets',
-    1: 'List of all used assets or tools in this version of the skin',
-    2: 'Kinda empty here',
-    3: 'If you have used assets from other skins, or arts, be sure to add them in the box above',
-    4: 'Not grouped'
-  },
-  checks: {
-    0: 'All',
-    1: 'Metadata',
-    2: 'Highlight',
-    3: 'Name of the skin not specified',
-    4: 'Add at least one skin creator',
-    5: 'Add a couple of tags',
-    6: 'Size of the skin not specified',
-    // 7: 'Select at least one gamemode',
-    8: 'Select image resolution (SD or HD)',
-    9: 'Select at least one aspect ratio',
-    10: 'No screenshots provided',
-    11: 'Add at least one gameplay screenshot',
-    12: 'Link to the skin not specified',
-    20: 'Looks pretty good',
-    21: 'Every issue was fixed. Good job!',
-    22: 'Checklist',
-    23: 'Add at least one public version',
-    24: 'Add at least one creator to this version',
-    25: 'Some creators don\'t have roles',
-    26: '{amount} screenshots doesn\'t have category',
-    28: 'Select gamemode for gameplay screenshots',
-  },
-  skins: {
-    0: 'Skins',
-    1: 'Popular',
-    2: 'std | ctb',
-    3: 'mania | taiko',
-    4: 'Recent',
-    5: 'Random',
-    6: 'All skins',
-    7: 'Aspect ratio',
-    8: 'All skins | osu skins',
-    9: 'Skin | Skins | Skins',
-    10: 'osu Skins by {name} | All skins from',
-    11: 'Search',
+    popular: 'Popular skins',
+    all_skins: 'All skins',
+    tags: 'Tags',
+    new: 'New',
+    contribute: 'Contribute',
+    login: 'Log in',
 
-    12: '{name} skins',
-    13: 'Explore skins',
-    14: 'Popular skins',
-  },
-  skin: {
-    0: 'Edit',
-    1: 'Extra',
-    2: 'HD',
-    3: 'FullHD',
-    4: 'Animation',
-    5: 'Screenshots',
-    6: 'Gameplay only',
-    7: 'Download link | Download skin',
-    8: 'Forum post | osu! Forum',
-    9: 'Reddit post',
-    10: 'Creators',
-    11: 'Tags',
-    13: 'Videos',
-    14: 'New Version | Manage versions',
-    15: 'Update | Submit',
-    16: 'Gamemodes',
-    17: 'Name of the skin',
-    18: 'Version | Versions',
-    19: 'Size',
-    20: 'Metadata',
-    21: 'Rating',
-    22: 'Downloads',
-    23: 'Download will be available soon',
-    24: '{amount} seconds left',
-    25: 'You\'re not one of us',
-    26: 'Seems like you\'re not an author or editor of this skin',
-    27: 'Skin by',
-
-    28: 'No tags',
-    29: 'No videos',
-    30: 'No creators',
-
-    31: 'Rate skin',
-    32: 'Upvote & comment on reddit',
-    33: 'Comment on osu! forum',
-    34: 'More skins from this author | More skins from this authors',
-    35: 'Support the skin',
-
-    36: 'Unavailable',
-    37: 'Unfortunately, this skin was deleted',
-
-    38: 'Welcome to the skin post editor!',
-    39: `New to the skin editor? Let us guide you through the interface and show you the editor's full potential!`,
-    40: '{current} of {max} completed',
-
-    41: 'Check out later',
-    42: `Let's get started`,
-
-    43: 'Congratulations!',
-    44: 'You have successfully finished the tutorial, have fun!',
-
-    45: 'uploader',
-  },
-  drag: {
-    0: 'Click here',
-    1: 'or drag & drop images here'
-  },
-  footer: {
-    0: 'Made by cyperdark',
-    1: 'Credits',
-    2: 'Rules',
-    3: 'Contacts',
-  },
-  credits: {
-    0: 'Chibi',
-    1: 'Arts',
-    2: 'Icons',
-    3: 'All icons are taken from {name}',
-    4: 'Flags',
-    5: 'All flag images are from {name}',
-    6: 'Localisation',
-    7: 'Anyone? [{lang}]',
-    8: 'Seems like cyperdark forgot to add them. {text}'
-  },
-  search: {
-    0: 'Skin search',
-    1: 'Views',
-    2: 'Title',
-    3: 'Rating',
-    4: 'Size',
-    5: 'Date',
-    7: 'Nothing found',
-    8: 'Try using different search filters',
-    9: 'Pending a query',
-    10: 'Use the search filters or type the skin\'s title, author or tags',
-    11: 'Downloads',
-    12: 'Name',
-
-    13: {
-      0: 'Skins',
-      1: 'Tags',
-      2: 'Users',
-      3: 'Lists',
-    },
-
-    14: 'Search:',
-
-    15: 'Size:',
-    16: 'Rating:',
-    17: 'Views:',
-    18: 'Downloads:',
-  },
-  contests: {
-    0: 'Contests',
-    1: 'Official newspost',
-    2: 'Submission',
-    3: 'Preparing',
-    4: 'Voting',
-    5: 'Finished',
-    6: 'Contests',
-    7: 'Voting page',
-  },
-  rules: {
-    0: 'Last updated at',
-    1: 'Posting Skins Guidelines',
+    0: 'Views',
+    1: 'Downloads',
+    2: 'Likes',
   },
 
-  skinini: {
-    0: 'Welcome to skin.ini editor!',
-    1: `New to the skin.ini editor? Let us guide you through the interface and show you the editor's full potential!`,
-    2: '{current} of {max} completed',
-
-    3: 'No results',
-    4: 'Your query may contain typos',
+  notifications: {
+    0: 'Notifications',
+    1: 'Follow us on these platforms to receive notifications about new skins',
   },
 
-  tabs: {
-    0: 'Search',
-    1: 'Edit',
-    2: 'List'
+  user_menu: {
+    0: 'profile',
+    1: 'my skins queue',
+    2: 'relogin',
+    3: 'log out'
   },
-  undefined: {
-    0: 'Empty',
-    1: 'Unfortunately, there\'s nothing here, but you can take a look at the other pages',
-    2: 'Unfortunately, there\'s nothing here',
-    3: 'Unauthorized',
-    4: 'You need to be logged in order to edit this skin.',
-    5: 'You need to be logged in order to add a new skin.'
+
+  status: {
+    0: 'Nothing was found',
+    1: 'Not found',
+
+    2: `Couldn't load image`,
+    3: 'No image to load',
   },
+
   settings: {
     0: 'Settings',
     1: 'Mouse scroll',
-    2: 'Enable mouse hover swipe for image carousel, allowing left-to-right or right-to-left navigation.',
+    2: 'Enables easy image navigation when hovering over a skin block.',
     3: 'Zoom in',
-    4: 'Enable image zoom on hover for larger skin preview.',
+    4: 'Enables automatic image zoom when hovering over a skin block.',
   },
-  meta: {
-    title: {
-      0: 'Discover osu skins',
-      1: 'Gamemodes, aspect ratios osu skins',
-      2: 'Popular osu skins',
-      3: 'Search osu skins',
-      4: 'List of tags, {name}',
-      5: '{name} v{version} osu skin',
-      6: 'Credits',
-      7: 'osu skins',
-      8: '{name} search osu skins',
-      9: 'Get inspiration from other osu skins',
-      10: '{name} created osu skins',
-      11: 'Search tags',
-      12: '{name} found tags',
-      13: 'New skin',
-      14: 'Site rules',
-      15: 'osu! Contests',
-      16: 'osu! skinning tools',
+
+  footer: {
+    0: 'Credits',
+  },
+
+  home: {
+    title: ['Discover osu! skins', 'Random osu! skins'],
+    description: 'Find the best osu! skins on our site! Our huge library has skins for all gamemodes, aspect ratios and even top players. Plus, we have a special section for anime fans. Improve your gameplay with the perfect skin. #osuskins #osugame #anime',
+
+    0: 'Available for download',
+    1: 'Most [viewed], [liked], [downloaded] skins',
+    2: ['viewed', 'liked', 'downloaded'],
+    3: ['Recent', 'New releases', 'Random'],
+    4: 'aspect ratios',
+    5: 'more',
+  },
+
+  credits: {
+    title: ['Artwork credits', 'Used assets', 'Localization helpers'],
+
+    0: 'Credits',
+    1: 'Anyone? [{lang}]',
+    2: 'Seems like cyperdark forgot to add them. {text}',
+
+    3: ['Artworks', 'Localization', 'Assets'],
+    4: 'All icons are taken from {name}',
+    5: 'All flag images are from {name}',
+  },
+
+  tools: {
+    title: 'Skinning tools for osu! (by me :) )',
+    description: 'Useful skinning tools for osu!, made by cyperdark',
+
+    0: 'More skinning tools',
+  },
+
+  skin_ini: {
+    title: 'Visual skin.ini editor - osu! tools',
+    description: '',
+
+
+    prepare: [
+      'loading beatmap',
+      'loading skin',
+      'preparing skin',
+      'loading viewer',
+    ],
+
+    0: 'Welcome to the visual skin.ini editor!',
+    1: 'Here you can preview your skin gameplay with changes in real-time, such as combo colors, slider colors, and font offsets. Standard mode only for now',
+    2: 'Beatmap:',
+    3: 'Paste beatmap link',
+
+    4: 'Import .osk / .zip',
+    5: 'Import skin folder',
+    6: '.osu file not found',
+    7: 'Incorrect gamemode, only osu beatmaps allowed',
+    8: 'Skin.ini not found',
+    9: 'Select at least 1 .osk / .zip file',
+
+    10: 'Viewer settings',
+    11: 'Reset skin.ini',
+    12: 'Export skin.ini',
+    13: 'Randomize colors (on current tab)',
+    14: 'Switch tab',
+    15: 'Rewind',
+    16: 'Forward',
+    17: 'Play/Pause viewer',
+    18: 'Move to previous settings section',
+    19: 'Move to next settings section',
+    20: 'Open menu',
+    21: 'Close menu',
+
+    22: 'Shortcut',
+    23: 'Description',
+    24: 'Specify via comma',
+    25: 'Randomize',
+    26: 'Revert to default element',
+    27: 'Reset to default',
+    28: 'Replace file',
+
+    29: 'issue',
+    30: 'Drag and drop files or skin',
+
+    31: 'loaded',
+    32: 'Gameplay speed',
+
+    33: 'Random beatmap',
+    34: 'Beatmap folder'
+  },
+
+  contests: {
+    title: 'Official osu! skinning contests',
+    description: 'List of all active/finished osu! contests',
+
+    submit: ['Submissions closed...', 'Submissions in progress...', 'Submit your entry'],
+
+    0: 'Official skinning contests',
+    1: ['Submission', 'Preparing', 'Voting', 'Finished'],
+
+    2: 'Announcement',
+    3: 'Submissions ended',
+    4: 'Voting started',
+    5: 'Voting ended',
+    6: 'Results out',
+
+    7: 'Submission phase...',
+    8: 'Preparing phase...',
+    9: 'Voting phase...',
+    10: 'Waiting results...',
+
+
+    11: 'Vote here',
+    12: 'announcement',
+    13: 'submissions',
+    14: 'contest page',
+    15: 'results',
+    16: 'wiki',
+
+    17: 'Ends in',
+    18: 'Skins not found for this contest',
+
+    19: 'Expand description | Close description',
+  },
+
+  ideas: {
+    title: 'Inspiration - osu! skins',
+    description: 'Find inspiration for your next osu! skin on our site. Browse through a diverse collection of skins and discover new techniques and ideas. Get inspired and create your own unique skins.',
+
+    0: 'Screenshots not found for this category',
+  },
+
+  search: {
+    title: 'Search osu skins',
+    description: 'Find the perfect osu! skin with our advanced search feature. Browse through our huge library, filtered by ruleset, aspect ratio, and more. Or check out skins used by top players.',
+
+    0: 'Skin title, author, or tags',
+    1: ['name', 'tags', 'creators'],
+    2: 'Select date range',
+    3: 'Size range',
+    4: 'View count range',
+    5: 'Download count range',
+    6: 'Like count range',
+    7: 'Select cursor type',
+    8: 'Nothing was found',
+    9: 'Try using a different set of search filters',
+    10: 'Pending query',
+    11: 'Use the search filters or type the skin\'s title, author or tags',
+    12: 'Select mania key',
+    13: 'reset',
+
+    14: 'Cursor color',
+    15: 'Circle color',
+    16: 'Slider border color',
+    17: 'Slider track color',
+
+    18: 'experimental filters',
+  },
+
+  tags: {
+    title: 'Search tags',
+    description: '',
+
+    0: 'Nothing was found',
+    1: 'Try searching something else',
+  },
+
+  tag: {
+    title: '{name} osu skins',
+    description: '',
+
+    0: 'Nothing was found',
+    1: 'No skins were found for this tag',
+    2: 'Try changing gamemode'
+  },
+
+  users: {
+    title: [
+      'Profile - {name} uploads',
+      'Profile - {name} skins',
+    ],
+    description: [
+      'All osu! skins uploaded by {name}',
+      'All osu! skins created by {name}',
+    ],
+
+    0: [
+      'Created skins',
+      'Uploaded skins',
+    ],
+    1: 'Incorrect url',
+    2: 'Make sure link is correct. Example: {url}',
+
+    3: 'Unsupported format',
+    4: 'Link format incorrect, use {url} or {url_1}',
+
+    5: `Change at least one setting before updating`,
+    6: `Unable to update settings`,
+    7: `Settings updated`,
+    8: 'Unknown error',
+
+    9: 'Settings',
+
+    10: 'Discord username',
+    11: 'Discord server link',
+    12: 'Twitter profile link',
+    13: 'Reddit profile link',
+    14: 'YouTube channel link',
+    15: 'Link to blog',
+    16: 'Show your liked skins',
+    17: 'Update settings',
+
+    18: '{amount} uploads | {amount} upload | {amount} uploads',
+    19: 'Blog',
+    20: 'Skins Stats',
+
+    21: 'Expand «about me» | Close «about me»',
+
+
+    22: 'Nothing was found',
+    23: 'No skins were found for this creator',
+  },
+
+  skins: {
+    title: [
+      '{amount} osu! skins',
+      '{amount} {category} osu! skins',
+      '{amount} universal aspect ratio osu! skins',
+      '204 Most viewed {mode} skins',
+      '204 Most downloaded {mode} skins',
+      '204 Most liked {mode} skins',
+    ],
+    description: [
+      '{amount} skins for osu!, catch the beat, mania and taiko',
+    ],
+
+    0: 'All',
+    1: 'Popular',
+    2: 'osu!',
+    3: 'ctb',
+    4: 'mania',
+    5: 'taiko',
+    6: 'universal ratio',
+
+    7: 'Nothing was found',
+    8: 'No skins were found for this category',
+
+    9: ['downloads', 'views', 'likes'],
+
+    10: 'Submitted skins',
+    11: 'Skins currently in queue: {amount}',
+
+    12: 'No skins currently submitted for moderation',
+  },
+
+  skin: {
+    title: ['Submit new skin', '{name} osu skin'],
+    description: '{size}MB osu skin for {modes}, created by {creators}. Supports {ratios}',
+
+    rules: {
+      0: `**Do not** post nonsense.`,
+      1: `**Don't** post **low-quality** or **duplicate** submissions.`,
+      2: `Make sure your skin has **not** already been **published**.`,
+      3: `A skin is **protected from deletion** if it has been featured in a video by channels such as **cpol or osuck**, or if a **top player used** it in their public content. (Twitch, YouTube, Twitter, TikTok, GitHub, etc.)`,
+      4: `Screenshots must be **relevant** and **accurately represent** the skin.`,
+      5: `**Do not** upload skins that the original creator has set as **private** or does not wish to share. (Unless you have permission)`,
+      6: `If **your skin** is based on someone else's work or **uses assets** from other creators, **credit them** in your post.`,
+      7: `If your skin **includes** third-party assets (art, hitsounds, fonts, etc.), you **must** have permission and provide proper **credit** in the **Resources** tab of your submission.`,
+      8: `All submissions **must use English** as the primary language.\n- Titles containing **non-Latin** characters must also **include a Romanized** version.`,
+      9: `**Prohibited** content includes:\n- Religious or political content\n- Racism, hate speech, or harassment\n- Offensive or discriminatory imagery\n- Excessive gore or extreme violence\n- Explicit sexual content, including depictions of minors.`,
+      10: `Suggestive or borderline content **must be clearly labeled** with the **NSFW** tag.`,
     },
-    description: {
-      0: 'Get the best osu! skins at our site! Our huge library has skins for all gamemodes, aspect ratios and even top players. Plus, we have a special section for anime fans. Improve your gameplay with the perfect skin. #osuskins #osugame #anime',
-      1: '{views} views. An osu skin for {modes}, the size is {size}, created by {creators}. Supports {ratios}',
-      2: 'Find the perfect osu! skin with our advanced search feature. Browse through our huge library, filtered by gamemode, aspect ratio, and more. Or, check out skins used by top players.',
-      3: 'Discover a variety of skins for different game modes and aspect ratios on our site. Choose from standard, catch the beat, mania, and taiko modes. Find the perfect fit for your gaming preferences.',
-      4: 'Find the perfect osu skin from top players on our site. Browse our collection of popular skins and customize your gameplay. Discover a wide range of styles and themes to suit your preferences.',
-      5: 'List of existing tags for osu skins.',
-      6: '{name} osu skins collection!, free downloading',
-      7: 'A huge amount of osu skins for {name}, download for free!',
-      8: 'All osu skins created by {name}',
-      9: 'Find inspiration for your next osu! skin at our site. Browse through a diverse collection of skins and discover new techniques and ideas. Get inspired and create your own unique skins.',
-      10: 'Search for tags among all the tags on the site.',
 
-      11: 'List of all active/finished osu! contests',
-      12: '{amount} entries for {title} contest. {views} views',
+    0: 'Clear everything?',
+    1: 'Submit',
+    2: 'Submission rules',
+    3: 'Agree & Submit',
+    4: 'Suggest changes',
+    5: 'Update skin',
+
+    6: 'Log in to rate skin',
+
+    7: 'Suggested changes',
+    8: 'Select which changes you want to be applied',
+
+    9: 'Apply',
+    10: 'Reject',
+    11: 'Apply changes',
+
+    12: [
+      'About',
+      'Screenshots',
+      'Resources',
+      'Downloads',
+      'Comments',
+    ],
+
+    13: 'Banner added',
+    14: 'Banner updated',
+
+    15: 'Total size of all screenshots must not exceed 100 MB (currently {amount})',
+    16: 'Variant: {name}',
+    17: 'A resource with this link has already been added',
+    18: `Link not supported. Only YouTube links are allowed.`,
+
+    19: 'Video already added',
+    20: 'Tag already added',
+
+    21: 'Unauthorized',
+    22: 'Log in to an account',
+    23: `Link not supported. Only MEGA, Google Drive and MediaFire links are allowed.`,
+
+    24: 'Unsupported osu! forum link',
+    25: 'Unsupported reddit link',
+    26: 'Couldn\'t parse link',
+    27: 'Unsupported Twitter link',
+
+    28: 'Unknown cloud service',
+
+    29: 'Manage versions',
+    30: 'new version',
+    31: 'Type skin name',
+    32: 'Has extras?',
+
+    33: 'Select aspect ratios',
+    34: '{amount} issues',
+    35: 'Edit',
+
+    36: 'Log in to report skin',
+    37: 'Exit editing',
+    38: 'Remove banner',
+
+    39: 'Description',
+
+    40: '**Animations** - has animated elements (back button / skip button / hp bar)',
+    41: '**Extras** - has files for customization / additional gameplay elements',
+    42: '**HD** - has files for resolutions **above** 1366x768',
+    43: '**SD** - has files for resolutions **below** 1366x768',
+
+    44: 'Released at {date}',
+    45: 'Uploaded at {date}',
+
+    46: 'Paste a YouTube video link',
+    47: 'Quick select',
+    48: 'Remove all screenshots?',
+
+    49: 'Type variant name...',
+    50: 'Select screenshot category',
+    51: 'Compare versions',
+    52: 'Show gameplay only',
+    53: 'Type a description and an url. Format description:url',
+
+    54: 'Description:',
+    55: 'Url:',
+
+    56: `Oops!`,
+    57: 'No `.osk` files are attached to this skin',
+    58: `Nothing was found`,
+    59: 'Change query or try searching something else',
+
+    60: 'Log in to report a file',
+    61: 'Versions',
+    62: 'Download link',
+    63: 'osu! forum link',
+    64: 'Reddit link',
+    65: 'Twitter link',
+
+    66: 'Creators',
+    67: 'If a creator wants to be anonymous or a collaborator does not have a Bancho account, you can add them as a ghost creator.',
+    68: 'Creators not added',
+
+    69: 'Tags',
+    70: 'Tags not added',
+    71: 'start typing to get suggestions',
+
+    72: 'Show',
+
+    73: [
+      'Creator',
+      'Mixer',
+      'Animations',
+      'Arts',
+      'Collab',
+      'Sounds',
+      'Gameplay',
+    ],
+
+    74: 'All changes have been saved locally',
+    75: 'Changes restored from cache',
+
+    76: 'Released {date}',
+    77: 'Select roles',
+
+
+    checks: {
+      0: 'Skin name not specified',
+      1: 'Add at least one creator',
+      2: 'Select at least one aspect ratio',
+      3: 'No screenshots provided',
+      4: 'Add at least one gameplay screenshot',
+      5: 'Skin link not specified',
+      6: 'Some creators do not have roles',
+      7: 'Some creators do not have names',
+      8: 'Skin release date not specified',
+      9: 'Skin version not specified',
+      10: 'Content rating not selected',
     },
   },
-  buttons: {
-    0: 'Login',
-    1: 'Home page',
-    profile_osu: 'osu! Profile',
-    new_skin: 'New skin',
-    notifications: 'Notifications',
-    settings: 'Settings',
-    logout: 'Log out',
-    load_more: 'Load more',
-    copy_short: 'Copy short link',
-    copied: 'Copied',
-    reddit_link: 'Reddit',
-    osu_forum_link: 'osu! Forum',
-    skin_return: 'Back to skin',
-    source: 'Source',
-    contest_voting: 'Vote here',
-    rules_agree: 'I agree',
-    report_issue: 'Report issue',
-    ghost_creator: 'Ghost creator',
-    close: 'Close',
-    quick_select: 'Quick select',
+
+  skin_block: {
+    0: 'Open skin page',
+    1: 'Open in fullscreen',
+    2: 'Switch to other gamemode',
+    3: 'Change image category',
+    4: 'Copy short link',
   },
 
-  choose: {
-    0: 'Optional',
-    1: 'Required',
-    2: 'Pick at least one option',
+
+  gallery: {
+    0: 'Open in fullscreen',
+    1: 'Exit fullscreen',
+    2: 'Reset zoom',
+    3: 'Close gallery'
   },
 
-  user: {
-    roles: {
-      0: 'Creator',
-      1: 'Mixer',
-      2: 'Animations',
-      3: 'Arts',
-      4: 'Collab',
-      5: 'Sounds',
-      6: 'Gameplay',
-    }
+  screenshots_select: {
+    0: 'Welcome',
+    1: 'Main menu',
+    2: 'Song select',
+    3: 'Mode menu',
+    4: 'Mods',
+    5: 'Countdown',
+    6: 'Gameplay',
+    7: 'Spinner',
+    8: 'Section Pass',
+    9: 'Section Fail',
+    10: 'Pause Screen',
+    11: 'Fail Screen',
+    12: 'Result screen (top)',
+    13: 'Skip',
+    14: 'Banner',
+    15: 'Result screen (bottom)',
+    16: 'Pinned image',
+    17: 'osu!',
+    18: 'catch the beat',
+    19: 'mania',
+    20: 'taiko',
   },
-  tooltips: {
-    0: 'Views: {amount}',
-    1: 'Refresh results',
-    2: 'Descending | Ascending',
-    3: 'Likes: {likes} / Dislikes: {dislikes}',
-    4: 'Press ctrl+enter to add a tag',
-    5: 'Edit version',
-    6: '{s}Log in{p}, in order to rate this skin',
-    7: 'No short description',
-    8: 'No url',
-    9: 'Downloads: {amount}',
-    10: 'Reset everything',
-    11: 'Show guide',
-    12: 'Close guide',
-    13: 'To mark a rule as read, hover over it (Yellow indicates unread)',
 
-    14: {
-      0: '[hl]{example}[/hl] - [b]equal[/b] to {amount}',
-      1: '[hl]{example}[/hl] - [b]above[/b] {amount}',
-      2: '[hl]{example}[/hl] - [b]below[/b] {amount}',
-      3: '[hl]{example}[/hl] - [b]from[/b] {amount} [b]to[/b] {amount_2}',
+
+  report: {
+    skin_ini: ['Describe bug, preferably with reproduction steps', 'Describe what you want to see...'],
+    tag: {
+      0: 'Missing skin',
+      1: 'Link to a video of missing skin'
     },
 
+    skin_file: [
+      'Download link is missing',
+      'Skin is broken',
+      'Describe what exactly broken',
+    ],
 
-    15: 'Unselect',
-    16: 'Remove file',
+    skin: [
+      'Wrong/Missing screenshots',
+      'Which screenshots are missing',
+      'Wrong/Missing creators',
+      'Type text...',
+      'Missing NSFW tag',
+      'Metadata',
+      'Describe what exactly wrong',
+      'Copyright/Missing credits',
+      'Type text...',
+    ],
+
+    0: 'Log in to report a issue',
+
+    1: 'Type is not selected',
+    2: `Id does not exist`,
+    3: 'Category not selected',
+    4: 'Report already submitted',
+    5: 'Report submitted',
+
+    6: 'Select report category',
+    7: 'Submit report',
+
   },
-  lists: {
-    screens: {
-      0: 'Welcome',
-      1: 'Main menu',
-      2: 'Song select',
-      3: 'Mode menu',
-      4: 'Mods',
-      5: 'Countdown',
-      6: 'Gameplay',
-      7: 'Spinner',
-      8: 'Section Pass',
-      9: 'Section Fail',
-      10: 'Pause Screen',
-      11: 'Fail Screen',
-      12: 'Result screen (top)',
-      13: 'Skip',
-      14: 'Banner',
-      15: 'Result screen (bottom)',
-      16: 'Beginning image',
-    },
-    cats: {
-      0: 'NSFW',
-      1: 'Furry',
-      2: 'Mixed'
-    },
+
+  plural: {
+    skins: '{amount} skins | {amount} skin | {amount} skins',
+    tags_skins: '«{name}» {amount} skins | «{name}» {amount} skin | «{name}» {amount} skins',
+    views: '{amount} views | {amount} view | {amount} views',
+    votes: '{amount} votes | {amount} vote | {amount} votes',
   },
-  select: {
-    0: 'New',
-    1: 'Fixed',
-    2: 'Changed',
-    3: 'Removed',
-    4: 'Art',
-    5: 'Font',
-    6: 'Artist',
-    7: 'Skin element',
-    8: 'Audio/Sfx',
-    9: 'Tools',
-    10: 'Image',
-    views: 'Views',
-    likes: 'Likes',
-    dislikes: 'Dislikes',
-    downloads: 'Downloads',
-    ratio: 'Select aspect ratio | ratio',
-    sorting: 'Desc. | Asc.',
+
+  placeholder: {
+    0: 'Type text..',
+    1: 'Type link..',
+    2: 'Type hex/rgb color..',
   },
+
   sorting: {
+    date: 'Date',
+    release_date: 'Release date',
+    upload_date: 'Upload date',
+    view: 'Views',
+    vote: 'Votes',
+    name: 'Name',
+    download: 'Downloads',
+    like: 'Likes',
+    size: 'Size',
+    total: 'Total',
+  },
+
+  order: {
     0: 'Most | Least',
     1: 'Most | Least',
     2: 'Highest | Lowest',
@@ -421,160 +565,47 @@ export default {
     4: 'Newest | Oldest',
     5: 'A-Z | Z-A',
   },
-  placeholders: {
-    0: 'Select roles',
-    1: 'Select versions',
-    2: 'Type some text...',
-    3: 'Select size range',
-    4: 'Select date range',
-    5: 'Year',
-    6: 'Month',
-    7: 'Select aspect ratio',
-    8: 'Select categories',
-    9: 'Gamemodes',
-    10: 'Select type',
-    11: 'Paste a YouTube link',
-    12: 'Type a description and an url. Format description:url',
-    13: 'Select extra',
-    14: 'Paste a link',
-    15: 'Skin title, author, or tags',
-    16: 'Select category',
-    17: 'Type the name of the tag',
-    18: 'Type the name of the skin',
-    19: 'Type author name ',
-    20: 'Select file',
-    24: 'Type gameplay name...',
-    25: 'Type range',
-    26: 'Type text',
+
+  tooltips: {
+    0: [
+      '[hl]{example}[/hl] - [b]equal[/b] to {amount}',
+      '[hl]{example}[/hl] - [b]greater than[/b] {amount}',
+      '[hl]{example}[/hl] - [b]less than[/b] {amount}',
+      '[hl]{example}[/hl] - [b]between[/b] {amount} [b]and[/b] {amount_2}',
+    ],
+    1: 'Usage examples:',
+    2: `Select screenshot category`,
+
+    3: '{amount} downloads',
+    4: '{amount} views',
+    5: '{likes} likes / {dislikes} dislikes',
+    6: '{amount} skins',
+    7: '{amount} votes',
   },
-  contribute: {
-    0: 'Contribute'
-  },
+
   nsfw: {
-    0: 'Warning, nsfw!',
-    1: 'This skin contains sensitive or adult content',
-    2: 'This skin contains sensitive or adult content that some users may find disturbing',
-    3: 'Alright',
-    4: 'bye o/',
-    5: 'Furry Warning!',
+    0: 'NSFW Warning!',
+    1: 'This skin contains sensitive or adult content!',
+    3: 'Furry Warning!',
   },
 
-  removed: {
-    0: 'Version unavailable',
-    1: 'The author of the skin decided to remove this version from the site.',
-    2: 'Switch to an available version'
+  drag: {
+    0: 'Click to add images',
+    1: 'or drag & drop here',
+    2: `drop images here`,
   },
 
-  notify: {
-    0: 'Issues were not fixed',
-    1: 'Not all required fields were filled',
-    2: 'Show',
-
-    3: 'Not found',
-    4: 'Banner not found (Currently, the first screenshot is being used as the banner)',
-
-    5: 'No changes',
-    6: 'No changes were found',
-
-    7: 'ID not found',
-    8: 'ID of the video not found, try another link (At the moment only YouTube is supported)',
-
-    9: 'Oops',
-    10: 'Looks like your session expired, open a new page and log into your account (Don\'t worry, everything was saved automatically)',
-
-    11: 'Exists',
-    12: 'This video has already been added',
-
-    13: 'Exists',
-    14: 'This tag has already been added',
-
-    15: 'Not found',
-    16: 'You cannot delete a deleted tag',
-
-    17: 'Added',
-    18: 'You have successfully added a new tag',
-
-    19: 'OOps',
-    20: 'This creator was already added',
-
-    21: 'EZ',
-    22: 'New creator has been added',
-
-    23: 'HUH',
-    24: 'Impossible to remove a deleted creator',
-
-    25: 'Duplicate',
-    26: 'This change has already been added earlier.',
-
-    27: 'Duplicate',
-    28: 'This url has already been added earlier.',
-
-    29: 'Warning',
-    30: 'You forgot to add a description for the url. Example: Description:url',
-
-    31: 'Warning',
-    32: 'You forgot to add an url for the description. Example: Description:url',
-
-    33: 'Restored',
-    34: 'Version «{name}» has been restored',
-
-    35: 'Deleted',
-    36: 'Version «{name}» has been deleted',
-
-    37: 'Error',
-    38: 'Apparently the server thinks you\'re a robot.',
-    39: 'Your current login session has timed out. To proceed, please open a new page and log back into your account. Once you\'ve done that, return to this page and try again.',
-
-    40: 'Mismatched credentials (relogin in account. Don\'t worry, everything was saved automatically)',
-    41: 'Unknown error',
-    42: 'You cannot edit a nonexistent skin',
-    43: 'Seems like you don\'t have permission to edit this skin',
-    44: 'You cannot send this version because it is the same as the previous one.',
-    45: 'These changes have already been sent for moderation',
-
-    46: 'Success',
-    47: 'New changes have been submitted for moderation',
-    48: 'Changes have been updated in moderation',
-
-    49: 'Odd link',
-    50: 'This link cannot be used as a download link',
-
-    51: 'Submitted for moderation',
-
-    52: 'Warning',
-    53: 'You need to choose type of asset',
-
-    54: 'The skin is currently under moderation. Please be patient while it is being processed',
-
-    55: 'Success',
-    56: 'New ghost creator has been added',
-
-
-    57: 'Color copied',
-    58: `The RGB code "{color}" is now available through your clipboard!`
+  buttons: {
+    source: 'Art Source',
+    load_more: 'Load more',
+    close: 'Close',
+    choose: ['Yes', 'No'],
+    expand_more: 'Show more | Show less',
   },
 
-  header: {
-    0: 'Notifications',
-    1: 'Follow us on these platforms to receive notifications about new skins',
+  error: {
+    0: 'home page',
+    1: 'log in',
+    2: 'Report issue',
   },
-
-  restricted_view: {
-    0: 'Unauthorized',
-    1: 'Please log into your account',
-
-    2: 'Restricted view',
-    3: 'This page is not out, yet.',
-  },
-
-  confirm: {
-    0: 'Reset everything?',
-    1: 'Show guide?',
-    2: 'Submit skin?',
-
-    3: 'Yes',
-    4: 'No',
-
-    5: 'Reset .ini?',
-  }
 };
