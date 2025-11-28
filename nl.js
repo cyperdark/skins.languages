@@ -1,43 +1,43 @@
 export default {
   header: {
-    home: 'Home',
-    contests: 'Contests',
+    home: 'Hoofdpagina',
+    contests: 'Wedstrijden',
     ideas: 'Inspiratie',
-    tools: 'Tools',
+    tools: 'Hulpmiddelen',
     popular: 'Populaire skins',
     all_skins: 'Alle skins',
-    tags: 'Tags',
+    tags: 'Categorieën',
     new: 'Nieuw',
     contribute: 'Bijdragen',
     login: 'Inloggen',
-    0: 'Views',
+    0: 'Weergaven',
     1: 'Downloads',
-    2: 'Likes'
+    2: 'Duimpies'
   },
   notifications: {
-    0: 'Notifications',
-    1: 'Follow us on these platforms to receive notifications about new skins'
+    0: 'Notificaties',
+    1: 'Volg ons op deze plekken om notificaties te ontvangen over nieuwe skins'
   },
   user_menu: {
     0: 'profiel',
     1: 'mijn skins wachtrij',
-    2: 'relogin',
+    2: 'opnieuw inloggen',
     3: 'uitloggen'
   },
   status: {
-    0: 'Nothing was found',
-    1: 'Not found',
-    2: `Couldn't load image`,
+    0: 'Niets gevonden',
+    1: 'Niets gevonden',
+    2: `Kon afbeelding niet laden`,
     3: 'Geen afbeelding om te laden'
   },
   settings: {
     0: 'Settings',
     1: 'Muis scrol',
-    2: 'Enables easy image navigation when hovering over a skin block.',
+    2: 'Schakel makkelijke afbeelding navigatie in als je cursor over een skin blok zweeft',
     3: 'Inzoomen',
-    4: 'Enables automatic image zoom when hovering over a skin block.'
+    4: 'Schakel automatische afbeelding zoom in als je cursor over een skin blok zweeft.'
   },
-  footer: { 0: 'Credits' },
+  footer: { 0: 'Dank aan' },
   home: {
     title: [
       'Ontdek osu! skins',
@@ -45,90 +45,90 @@ export default {
     ],
     description: 'Krijg de beste osu! skins van onze website! Ons grote aanbod heeft skins voor alle gamemodes, aspect ratio\'s en zelfs skins van top spelers. We hebben ook nog een speciale sectie voor de anime fans. Speel beter met onze perfecte skins van hoge kwaliteit. #osuskins #osugame #anime',
     0: 'Beschikbaar voor download',
-    1: 'Most [viewed], [liked], [downloaded] skins',
+    1: 'Meest [viewed], [liked], [downloaded] skins',
     2: [
-      'viewed',
-      'liked',
-      'downloaded'
+      'bekeken',
+      'geliked',
+      'gedownload'
     ],
     3: [
       'Recent',
-      'New releases',
-      'Random'
+      'Nieuwe Releases',
+      'Willekeurig'
     ],
-    4: 'aspect ratios',
-    5: 'more'
+    4: 'aspect ratio\'s',
+    5: 'meer'
   },
   credits: {
     title: [
-      'Artwork credits',
-      'Used assets',
-      'Localization helpers'
+      'Kunstwerk credits',
+      'Gebruikte assets',
+      'Vertaling helpers'
     ],
-    0: 'Credits',
-    1: 'Anyone? [{lang}]',
-    2: 'Seems like cyperdark forgot to add them. {text}',
+    0: 'Dank aan',
+    1: 'Iemand? [{lang}]',
+    2: 'Het ziet ernaar uit dat cyperdark ze is vergeten toe te voegen. {text}',
     3: [
-      'Artworks',
-      'Localization',
+      'Kunstwerken',
+      'Lokalisatie',
       'Assets'
     ],
-    4: 'All icons are taken from {name}',
+    4: 'Alle icoontjes zijn genomen van {name}',
     5: 'Alle vlaggen zijn genomen van {name}'
   },
   tools: {
-    title: 'Skinning tools for osu! (by me :) )',
-    description: 'Useful skinning tools for osu!, made by cyperdark',
-    0: 'More skinning tools'
+    title: 'Skinning hulpmiddelen voor osu! (door mij :) )',
+    description: 'Handige gereedschappen voor osu!, gemaakt door cyperdark',
+    0: 'Meer osu! skinning hulpmiddelen'
   },
   skin_ini: {
-    title: 'Visual skin.ini editor - osu! tools',
+    title: 'Visuele skin.ini editor - osu! hulpmiddelen',
     description: '',
     prepare: [
-      'loading beatmap',
-      'loading skin',
-      'preparing skin',
-      'loading viewer'
+      'beatmap aan het laden',
+      'skin aan het laden',
+      'skin aan het voorbereiden',
+      'viewer aan het laden'
     ],
-    0: 'Welcome to the visual skin.ini editor!',
+    0: 'Welkom bij de skin.ini bewerker!',
     1: 'Here you can preview your skin gameplay with changes in real-time, such as combo colors, slider colors, and font offsets. Standard mode only for now',
     2: 'Beatmap:',
-    3: 'Paste beatmap link',
-    4: 'Import .osk / .zip',
-    5: 'Import skin folder',
-    6: '.osu file not found',
-    7: 'Incorrect gamemode, only osu beatmaps allowed',
-    8: 'Skin.ini not found',
-    9: 'Select at least 1 .osk / .zip file',
-    10: 'Viewer settings',
+    3: 'Plak beatmap link',
+    4: 'Importeer .osk / .zip',
+    5: 'Importeer skin folder',
+    6: '.osu bestand niet gevonden',
+    7: 'Onjuiste gamemode, alleen osu! beatmaps zijn toegestaan',
+    8: 'Skin.ini niet gevonden',
+    9: 'Selecteer ten minste 1 .osk / .zip bestand',
+    10: 'Viewer instellingen',
     11: 'Reset skin.ini',
-    12: 'Export skin.ini',
-    13: 'Randomize colors (on current tab)',
-    14: 'Switch tab',
-    15: 'Rewind',
-    16: 'Forward',
-    17: 'Play/Pause viewer',
+    12: 'Exporteer skin.ini',
+    13: 'Maak kleuren willekeurige (op huidige tab)',
+    14: 'Tab wisselen',
+    15: 'Spoel terug',
+    16: 'Vooruit',
+    17: 'Speel af/pauzeer viewer',
     18: 'Move to previous settings section',
     19: 'Move to next settings section',
     20: 'Open menu',
-    21: 'Close menu',
+    21: 'Sluit menu',
     22: 'Shortcut',
-    23: 'Description',
+    23: 'Beschrijving',
     24: 'Specify via comma',
     25: 'Randomize',
     26: 'Revert to default element',
     27: 'Reset to default',
     28: 'Replace file',
     29: 'issue',
-    30: 'Drag and drop files or skin',
-    31: 'loaded',
-    32: 'Gameplay speed',
-    33: 'Random beatmap',
+    30: 'Sleep bestanden of skin hiernaartoe',
+    31: 'geladen',
+    32: 'Gameplay snelheid',
+    33: 'Willekeurig beatmap',
     34: 'Beatmap folder'
   },
   contests: {
-    title: 'Official osu! skinning contests',
-    description: 'List of all active/finished osu! contests',
+    title: 'Officiële osu! skinning wedstrijden',
+    description: 'Lijst van alle actieve/voltooide osu! wedstrijden',
     submit: [
       'Submissions closed...',
       'Submissions in progress...',
@@ -180,7 +180,7 @@ export default {
     5: 'Download count range',
     6: 'Like count range',
     7: 'Select cursor type',
-    8: 'Nothing was found',
+    8: 'Niets gevonden',
     9: 'Try using a different set of search filters',
     10: 'Pending query',
     11: 'Use the search filters or type the skin\'s title, author or tags',
@@ -195,13 +195,13 @@ export default {
   tags: {
     title: 'Search tags',
     description: '',
-    0: 'Nothing was found',
+    0: 'Niets gevonden',
     1: 'Try searching something else'
   },
   tag: {
     title: '{name} osu skins',
     description: '',
-    0: 'Nothing was found',
+    0: 'Niets gevonden',
     1: 'No skins were found for this tag',
     2: 'Try changing gamemode'
   },
@@ -239,7 +239,7 @@ export default {
     19: 'Blog',
     20: 'Skins Stats',
     21: 'Expand «about me» | Close «about me»',
-    22: 'Nothing was found',
+    22: 'Niets gevonden',
     23: 'No skins were found for this creator'
   },
   skins: {
@@ -259,7 +259,7 @@ export default {
     4: 'mania',
     5: 'taiko',
     6: 'universal ratio',
-    7: 'Nothing was found',
+    7: 'Niets gevonden',
     8: 'No skins were found for this category',
     9: [
       'downloads',
@@ -334,7 +334,7 @@ export default {
     36: 'Log in to report skin',
     37: 'Exit editing',
     38: 'Remove banner',
-    39: 'Description',
+    39: 'Beschrijving',
     40: '**Animations** - has animated elements (back button / skip button / hp bar)',
     41: '**Extras** - has files for customization / additional gameplay elements',
     42: '**HD** - has files for resolutions **above** 1366x768',
@@ -353,7 +353,7 @@ export default {
     55: 'Url:',
     56: `Oops!`,
     57: 'No `.osk` files are attached to this skin',
-    58: `Nothing was found`,
+    58: `Niets gevonden`,
     59: 'Change query or try searching something else',
     60: 'Log in to report a file',
     61: 'Versions',
@@ -364,7 +364,7 @@ export default {
     66: 'Creators',
     67: 'If a creator wants to be anonymous or a collaborator does not have a Bancho account, you can add them as a ghost creator.',
     68: 'Creators not added',
-    69: 'Tags',
+    69: 'Categorieën',
     70: 'Tags not added',
     71: 'start typing to get suggestions',
     72: 'Show',
@@ -480,11 +480,11 @@ export default {
     date: 'Date',
     release_date: 'Release date',
     upload_date: 'Upload date',
-    view: 'Views',
+    view: 'Weergaven',
     vote: 'Votes',
     name: 'Name',
     download: 'Downloads',
-    like: 'Likes',
+    like: 'Duimpies',
     size: 'Size',
     total: 'Total'
   },
