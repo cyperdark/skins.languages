@@ -1,9 +1,9 @@
 export default {
   header: {
-    home: 'Home',
-    contests: 'Contests',
+    home: '홈',
+    contests: '콘테스트',
     ideas: 'Inspiration',
-    tools: 'Tools',
+    tools: '도구',
     popular: 'Popular skins',
     all_skins: 'All skins',
     tags: 'Tags',
