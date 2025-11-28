@@ -40,7 +40,7 @@ export default {
   footer: { 0: 'זיכויים' },
   home: {
     title: [
-      'Discover osu! skins',
+      'גלה סקיני אוסו',
       'Random osu! skins'
     ],
     description: 'Find the best osu! skins on our site! Our huge library has skins for all gamemodes, aspect ratios and even top players. Plus, we have a special section for anime fans. Improve your gameplay with the perfect skin. #osuskins #osugame #anime',
@@ -57,7 +57,7 @@ export default {
       'Random'
     ],
     4: 'aspect ratios',
-    5: 'more'
+    5: 'עוד'
   },
   credits: {
     title: [
@@ -170,7 +170,7 @@ export default {
     description: 'Find the perfect osu! skin with our advanced search feature. Browse through our huge library, filtered by ruleset, aspect ratio, and more. Or check out skins used by top players.',
     0: 'Skin title, author, or tags',
     1: [
-      'name',
+      'שם',
       'תגים',
       'creators'
     ],
@@ -472,12 +472,12 @@ export default {
     votes: '{amount} votes | {amount} vote | {amount} votes'
   },
   placeholder: {
-    0: 'Type text..',
+    0: 'הקלדת טקסט...',
     1: 'Type link..',
     2: 'Type hex/rgb color..'
   },
   sorting: {
-    date: 'Date',
+    date: 'תאריך',
     release_date: 'Release date',
     upload_date: 'Upload date',
     view: 'צפיות',
