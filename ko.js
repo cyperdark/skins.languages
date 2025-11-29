@@ -21,7 +21,7 @@ export default {
   user_menu: {
     0: '프로필',
     1: '내 스킨 대기열',
-    2: '다시 로그인',
+    2: '재로그인',
     3: '로그아웃'
   },
   status: {
@@ -43,7 +43,7 @@ export default {
       'osu! 스킨 찾기',
       '랜덤 osu! 스킨'
     ],
-    description: '저희 사이트에서 최고의 osu! 스킨을 찾으세요! 모든 해상도, 모든 게임모드, 그리고 탑 플레이어들을 위한 스킨까지, 저희의 방대한 라이브러리에서 찾을 수 있습니다. 추가로, 우리는 애니메이션 팬을 위한 특별 섹션도 가지고 있습니다. 완벽한 스킨으로 당신의 게임 실력을 향상시키세요. #osuskins #osugame #anime',
+    description: '저희 사이트에서 최고의 osu! 스킨을 찾으세요! 저희의 방대한 라이브러리에서 모든 해상도와 게임모드를 지원하고 탑 플레이어들을 위한 스킨들까지 찾을 수 있습니다. 추가로, 우리는 애니메이션 팬을 위한 특별 섹션도 가지고 있습니다. 완벽한 스킨으로 당신의 게임 실력을 향상시키세요. #osuskins #osugame #anime',
     0: '다운로드 가능',
     1: '최다 [viewed], [liked], [downloaded] 스킨',
     2: [
@@ -63,17 +63,17 @@ export default {
     title: [
       '일러스트 제작자',
       '사용된 에셋',
-      '번역 도와주신 분'
+      '번역을 도와주신 분들'
     ],
     0: '크레딧',
     1: '[{lang}] 언어 번역 지원자 있나요?',
-    2: 'cyperdark가 추가하는 것을 잊은 것 같아요. {text}',
+    2: 'cyperdark가 추가하는 것을 잊은 것 같네요. {text}',
     3: [
       '일러스트',
       '현지화',
       '에셋'
     ],
-    4: '모든 아이콘의 출처는 {name}입니다.',
+    4: '모든 아이콘의 출처는 {name}입니다',
     5: '모든 플래그 이미지의 출처: {name}'
   },
   tools: {
@@ -170,9 +170,9 @@ export default {
     description: 'Find the perfect osu! skin with our advanced search feature. Browse through our huge library, filtered by ruleset, aspect ratio, and more. Or check out skins used by top players.',
     0: 'Skin title, author, or tags',
     1: [
-      'name',
-      'tags',
-      'creators'
+      '이름',
+      '태그',
+      '제작자'
     ],
     2: 'Select date range',
     3: 'Size range',
