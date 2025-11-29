@@ -469,7 +469,7 @@ export default {
     skins: '{amount} скин | {amount} скина | {amount} скинов',
     tags_skins: '«{name}» {amount} скин | «{name}» {amount} скина | «{name}» {amount} скинов',
     views: '{amount} просмотр | {amount} просмотра | {amount} просмотров',
-    votes: '{amount} голоса | {amount} голос | {amount} голосов'
+    votes: '{amount} голос | {amount} голоса | {amount} голосов'
   },
   placeholder: {
     0: 'Введите текст..',

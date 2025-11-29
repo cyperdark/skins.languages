@@ -1,113 +1,113 @@
 export default {
   header: {
-    home: 'Home',
-    contests: 'Contests',
-    ideas: 'Inspiration',
-    tools: 'Tools',
-    popular: 'Popular skins',
-    all_skins: 'All skins',
-    tags: 'Tags',
-    new: 'New',
-    contribute: 'Contribute',
-    login: 'Log in',
-    0: 'Views',
-    1: 'Downloads',
-    2: 'Likes'
+    home: 'Acasă',
+    contests: 'Concursuri',
+    ideas: 'Inspirație',
+    tools: 'Instrumente',
+    popular: 'Skin-uri populare',
+    all_skins: 'Toate skin-urile',
+    tags: 'Etichete',
+    new: 'Nou',
+    contribute: 'Contribuie',
+    login: 'Conectează-te',
+    0: 'Vizualizări',
+    1: 'Descărcări',
+    2: 'Like-uri'
   },
   notifications: {
-    0: 'Notifications',
-    1: 'Follow us on these platforms to receive notifications about new skins'
+    0: 'Notificări',
+    1: 'Urmărește-ne pe aceste platforme pentru a primi notificări despre skin-uri noi'
   },
   user_menu: {
-    0: 'profile',
-    1: 'my skins queue',
-    2: 'relogin',
-    3: 'log out'
+    0: 'profil',
+    1: 'listă de așteptare',
+    2: 'reconectează-te',
+    3: 'deconectează-te'
   },
   status: {
-    0: 'Nothing was found',
-    1: 'Not found',
-    2: `Couldn't load image`,
-    3: 'No image to load'
+    0: 'Nu am găsit nimic',
+    1: 'Nu a fost găsit',
+    2: `Nu s-a putut încărca imaginea`,
+    3: 'Nicio imagine de încărcat'
   },
   settings: {
     0: 'Settings',
-    1: 'Mouse scroll',
-    2: 'Enables easy image navigation when hovering over a skin block.',
-    3: 'Zoom in',
-    4: 'Enables automatic image zoom when hovering over a skin block.'
+    1: 'Derulare cu mouse-ul',
+    2: 'Permite navigarea mai ușoară a imaginilor atunci când cursor-ul planează deasupra lor.',
+    3: 'Mărire',
+    4: 'Permite mărirea automată a imaginilor atunci când cursor-ul planează deasupra lor.'
   },
-  footer: { 0: 'Credits' },
+  footer: { 0: 'Credite' },
   home: {
     title: [
-      'Discover osu! skins',
-      'Random osu! skins'
+      'Descoperă skin-uri osu!',
+      'Skin-uri osu! aleatorii'
     ],
-    description: 'Find the best osu! skins on our site! Our huge library has skins for all gamemodes, aspect ratios and even top players. Plus, we have a special section for anime fans. Improve your gameplay with the perfect skin. #osuskins #osugame #anime',
-    0: 'Available for download',
-    1: 'Most [viewed], [liked], [downloaded] skins',
+    description: 'Găsește cele mai bune skin-uri de osu! pe site-ul nostru! Librăria noastră imensă conține skin-uri pentru toate modurile de joc, raporturile de aspect, chiar și skin-uri ale jucătorilor de top. În plus, avem o secțiune specială pentru fanii anime. Îmbunătăţeşte-ți gameplay-ul cu skin-ul perfect. #osuskins #osugame #anime',
+    0: 'Disponibile de descărcat',
+    1: 'Cele mai [viewed], [liked], [downloaded] skin-uri',
     2: [
-      'viewed',
-      'liked',
-      'downloaded'
+      'vizualizate',
+      'apreciate',
+      'descărcate'
     ],
     3: [
-      'Recent',
-      'New releases',
-      'Random'
+      'Recente',
+      'Lansări noi',
+      'Aleatoriu'
     ],
-    4: 'aspect ratios',
-    5: 'more'
+    4: 'rapoarte de aspect',
+    5: 'mai mult'
   },
   credits: {
     title: [
-      'Artwork credits',
-      'Used assets',
-      'Localization helpers'
+      'Credite ilustrații',
+      'Resurse folosite',
+      'Traducători'
     ],
-    0: 'Credits',
-    1: 'Anyone? [{lang}]',
-    2: 'Seems like cyperdark forgot to add them. {text}',
+    0: 'Credite',
+    1: 'Careva? [{lang}]',
+    2: 'Se pare că cyperdark a uitat să-i adauge. {text}',
     3: [
-      'Artworks',
-      'Localization',
-      'Assets'
+      'Ilustrații',
+      'Limbi',
+      'Resurse'
     ],
-    4: 'All icons are taken from {name}',
+    4: 'Toate pictogramele au fost luate de pe {name}',
     5: 'Toate steagurile sunt luate de pe {name}'
   },
   tools: {
-    title: 'Skinning tools for osu! (by me :) )',
-    description: 'Useful skinning tools for osu!, made by cyperdark',
-    0: 'More skinning tools'
+    title: 'Instrumente de skinning pentru osu! (create de mine :) )',
+    description: 'Instrumente de skinning utile pentru osu!, făcute de cyperdark',
+    0: 'Descoperă mai multe instrumente de skinning'
   },
   skin_ini: {
-    title: 'Visual skin.ini editor - osu! tools',
+    title: 'Editor vizual skin.ini - instrumente pentru osu!',
     description: '',
     prepare: [
-      'loading beatmap',
-      'loading skin',
-      'preparing skin',
-      'loading viewer'
+      'se încarcă beatmap-ul',
+      'se încarcă skin-ul',
+      'se pregătește skin-ul',
+      'se încarcă editorul vizual'
     ],
-    0: 'Welcome to the visual skin.ini editor!',
-    1: 'Here you can preview your skin gameplay with changes in real-time, such as combo colors, slider colors, and font offsets. Standard mode only for now',
+    0: 'Bine ai venit la editorul vizual skin.ini!',
+    1: 'Aici puteți previzualiza skin-ul în gameplay cu modificări în timp real, cum ar fi culorile pentru combo, culorile pentru slidere și offset-urile fontului. Este valabil doar pentru modul standard',
     2: 'Beatmap:',
-    3: 'Paste beatmap link',
-    4: 'Import .osk / .zip',
-    5: 'Import skin folder',
-    6: '.osu file not found',
-    7: 'Incorrect gamemode, only osu beatmaps allowed',
-    8: 'Skin.ini not found',
-    9: 'Select at least 1 .osk / .zip file',
-    10: 'Viewer settings',
+    3: 'Lipește link-ul beatmap-ului',
+    4: 'Importă .osk / .zip',
+    5: 'Importă folderul skin-ului',
+    6: 'Fișierul .osu nu a fost găsit',
+    7: 'Beatmap incorect, sunt permise doar beatmap-uri de osu!',
+    8: 'Fișierul skin.ini nu a fost găsit',
+    9: 'Selectează cel puțin 1 fișier .osk / .zip',
+    10: 'Setări vizualizator',
     11: 'Reset skin.ini',
-    12: 'Export skin.ini',
-    13: 'Randomize colors (on current tab)',
-    14: 'Switch tab',
-    15: 'Rewind',
-    16: 'Forward',
-    17: 'Play/Pause viewer',
+    12: 'Exportă skin.ini',
+    13: 'Culori aleatoare (pe fila curentă)',
+    14: 'Schimbă fila',
+    15: 'Înapoi',
+    16: 'Înainte',
+    17: 'Redă/Întrerupe vizualizator',
     18: 'Move to previous settings section',
     19: 'Move to next settings section',
     20: 'Open menu',
@@ -180,7 +180,7 @@ export default {
     5: 'Download count range',
     6: 'Like count range',
     7: 'Select cursor type',
-    8: 'Nothing was found',
+    8: 'Nu am găsit nimic',
     9: 'Try using a different set of search filters',
     10: 'Pending query',
     11: 'Use the search filters or type the skin\'s title, author or tags',
@@ -195,13 +195,13 @@ export default {
   tags: {
     title: 'Search tags',
     description: '',
-    0: 'Nothing was found',
+    0: 'Nu am găsit nimic',
     1: 'Try searching something else'
   },
   tag: {
     title: '{name} osu skins',
     description: '',
-    0: 'Nothing was found',
+    0: 'Nu am găsit nimic',
     1: 'No skins were found for this tag',
     2: 'Try changing gamemode'
   },
@@ -239,7 +239,7 @@ export default {
     19: 'Blog',
     20: 'Skins Stats',
     21: 'Expand «about me» | Close «about me»',
-    22: 'Nothing was found',
+    22: 'Nu am găsit nimic',
     23: 'No skins were found for this creator'
   },
   skins: {
@@ -259,7 +259,7 @@ export default {
     4: 'mania',
     5: 'taiko',
     6: 'universal ratio',
-    7: 'Nothing was found',
+    7: 'Nu am găsit nimic',
     8: 'No skins were found for this category',
     9: [
       'downloads',
@@ -305,7 +305,7 @@ export default {
       'About',
       'Screenshots',
       'Resources',
-      'Downloads',
+      'Descărcări',
       'Comments'
     ],
     13: 'Banner added',
@@ -353,7 +353,7 @@ export default {
     55: 'Url:',
     56: `Oops!`,
     57: 'No `.osk` files are attached to this skin',
-    58: `Nothing was found`,
+    58: `Nu am găsit nimic`,
     59: 'Change query or try searching something else',
     60: 'Log in to report a file',
     61: 'Versions',
@@ -364,7 +364,7 @@ export default {
     66: 'Creators',
     67: 'If a creator wants to be anonymous or a collaborator does not have a Bancho account, you can add them as a ghost creator.',
     68: 'Creators not added',
-    69: 'Tags',
+    69: 'Etichete',
     70: 'Tags not added',
     71: 'start typing to get suggestions',
     72: 'Show',
@@ -480,11 +480,11 @@ export default {
     date: 'Date',
     release_date: 'Release date',
     upload_date: 'Upload date',
-    view: 'Views',
+    view: 'Vizualizări',
     vote: 'Votes',
     name: 'Name',
-    download: 'Downloads',
-    like: 'Likes',
+    download: 'Descărcări',
+    like: 'Like-uri',
     size: 'Size',
     total: 'Total'
   },
