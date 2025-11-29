@@ -45,7 +45,7 @@ export default {
     ],
     description: 'Encontre as melhores skins para o osu! em nosso site! Nossa enorme biblioteca contém skins para todos os modos de jogo, resoluções e até mesmo dos melhores jogadores. Além disso, temos uma seção especial para os fãs de anime. Melhore a sua gameplay com a skin ideal. #osuskins #osugame #anime',
     0: 'Disponível para baixar',
-    1: 'Skins mais [vistas], [curtidas], [baixadas] ',
+    1: 'Skins mais [viewed], [liked], [downloaded]\n',
     2: [
       'visto',
       'curtido',
