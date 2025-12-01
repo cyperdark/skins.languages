@@ -203,7 +203,8 @@ export default {
     description: '',
     0: 'Sonuç bulunamadı',
     1: 'Bu etikete uygun skin bulunamadı',
-    2: 'Oyun modunu değiştirmeyi deneyin'
+    2: 'Oyun modunu değiştirmeyi deneyin',
+    3: 'missing skin'
   },
   users: {
     title: [
@@ -382,6 +383,10 @@ export default {
     75: ' Değişiklikler önbellekten geri yüklendi',
     76: 'Yayınlandı {date}',
     77: 'Rol seç',
+    78: 'report issue',
+    79: 'Version without hp bar, back button and skip animations',
+    80: 'Gameplay only version',
+    81: 'Files for customization / additional gameplay elements (and unused files)',
     checks: {
       0: 'Skin adı belirtilmedi',
       1: 'En az 1 yaratıcı ekleyin',

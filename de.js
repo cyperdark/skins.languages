@@ -203,7 +203,8 @@ export default {
     description: '',
     0: 'Keine Ergebnisse gefunden',
     1: 'Keine Skins für diesen Tag gefunden',
-    2: 'Versuche den Spielmodus zu ändern'
+    2: 'Versuche den Spielmodus zu ändern',
+    3: 'missing skin'
   },
   users: {
     title: [
@@ -381,6 +382,10 @@ export default {
     75: 'Änderungen aus dem Cache wiederhergestellt',
     76: 'Veröffentlicht am {date}',
     77: 'Rollen auswählen',
+    78: 'report issue',
+    79: 'Version without hp bar, back button and skip animations',
+    80: 'Gameplay only version',
+    81: 'Files for customization / additional gameplay elements (and unused files)',
     checks: {
       0: 'Skin Name nicht angegeben',
       1: 'Füge mindestens einen Skin-Ersteller hinzu',

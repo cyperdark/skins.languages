@@ -203,7 +203,8 @@ export default {
     description: '',
     0: 'Нічого не знайдено',
     1: 'Не знайдено жодного скіна з цим тегом',
-    2: 'Спробуйте змінити режим гри'
+    2: 'Спробуйте змінити режим гри',
+    3: 'missing skin'
   },
   users: {
     title: [
@@ -382,6 +383,10 @@ export default {
     75: 'Зміни відновлено з кешу',
     76: 'Випущений {date}',
     77: 'Виберіть ролі',
+    78: 'report issue',
+    79: 'Version without hp bar, back button and skip animations',
+    80: 'Gameplay only version',
+    81: 'Files for customization / additional gameplay elements (and unused files)',
     checks: {
       0: 'Назву скіна не вказано',
       1: 'Додайте хоча б одного автора',
