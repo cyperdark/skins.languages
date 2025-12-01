@@ -203,7 +203,8 @@ export default {
     description: '',
     0: '何も見つかりませんでした',
     1: 'このタグのスキンは見つかりませんでした',
-    2: 'ゲームモードを変えて試してみてください'
+    2: 'ゲームモードを変えて試してみてください',
+    3: 'missing skin'
   },
   users: {
     title: [
@@ -281,8 +282,8 @@ export default {
       1: `**著しくクオリティが低かったり**、**重複したスキン**の投稿はお控えください`,
       2: `投稿するスキンが**すでに公開されているものでないこと**をご確認ください`,
       3: `**cpol**および**osuck**に投稿された動画内で使用されている、もしくは**トップランカーが使用していること**が確認できるスキンは**削除から保護されます**。`,
-      4: `Screenshots must be **relevant** and **accurately represent** the skin.`,
-      5: `**Do not** upload skins that the original creator has set as **private** or does not wish to share. (Unless you have permission)`,
+      4: `スクリーンショットはスキンに関連するものであり、なおかつ正確に描画されているものを使用してください。`,
+      5: `元の作成者が**非公開にしたもの**や、**共有されることを望まない**スキンを、許可なくアップロードしないでください。`,
       6: `If **your skin** is based on someone else's work or **uses assets** from other creators, **credit them** in your post.`,
       7: `If your skin **includes** third-party assets (art, hitsounds, fonts, etc.), you **must** have permission and provide proper **credit** in the **Resources** tab of your submission.`,
       8: `All submissions **must use English** as the primary language.\n- Titles containing **non-Latin** characters must also **include a Romanized** version.`,
@@ -381,6 +382,10 @@ export default {
     75: 'キャッシュから変更を復元しました',
     76: 'リリース日：{date}',
     77: 'ロールを選択',
+    78: 'report issue',
+    79: 'Version without hp bar, back button and skip animations',
+    80: 'Gameplay only version',
+    81: 'Files for customization / additional gameplay elements (and unused files)',
     checks: {
       0: 'スキン名が指定されていません',
       1: '最低でも1人は作成者を追加してください',
