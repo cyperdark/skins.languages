@@ -44,7 +44,7 @@ export default {
       'Skin de osu! aleatória'
     ],
     description: 'Encontre as melhores skins para o osu! em nosso site! Nossa enorme biblioteca contém skins para todos os modos de jogo, resoluções e até mesmo dos melhores jogadores. Além disso, temos uma seção especial para os fãs de anime. Melhore a sua gameplay com a skin ideal. #osuskins #osugame #anime',
-    0: 'Disponível para baixar',
+    0: 'disponíveis para baixar',
     1: 'Skins mais [viewed], [liked], [downloaded]\n',
     2: [
       'visto',
@@ -204,7 +204,7 @@ export default {
     0: 'Nada foi encontrado',
     1: 'Nenhuma skin foi encontrada para essa tag',
     2: 'Tente mudar o modo de jogo',
-    3: 'missing skin'
+    3: 'skin ausente'
   },
   users: {
     title: [
@@ -382,10 +382,10 @@ export default {
     75: 'Alterações restauradas do cache',
     76: 'Lançado em {date}',
     77: 'Selecionar funções',
-    78: 'report issue',
-    79: 'Version without hp bar, back button and skip animations',
-    80: 'Gameplay only version',
-    81: 'Files for customization / additional gameplay elements (and unused files)',
+    78: 'reportar problema',
+    79: 'Versão sem barra de vida, botão de "back" e animações de "skip"',
+    80: 'Somente gameplay',
+    81: 'Arquivos para customização / elementos de gameplay adicionais (e arquivos inutilizados)',
     checks: {
       0: 'Nome da skin não especificado',
       1: 'Adicione ao menos um criador',
