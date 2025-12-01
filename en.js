@@ -49,25 +49,44 @@ export default {
   },
 
   home: {
-    title: ['Discover osu! skins', 'Random osu! skins'],
+    title: [
+      'Discover osu! skins',
+      'Random osu! skins'
+    ],
     description: 'Find the best osu! skins on our site! Our huge library has skins for all gamemodes, aspect ratios and even top players. Plus, we have a special section for anime fans. Improve your gameplay with the perfect skin. #osuskins #osugame #anime',
 
     0: 'Available for download',
     1: 'Most [viewed], [liked], [downloaded] skins',
-    2: ['viewed', 'liked', 'downloaded'],
-    3: ['Recent', 'New releases', 'Random'],
+    2: [
+      'viewed',
+      'liked',
+      'downloaded'
+    ],
+    3: [
+      'Recent',
+      'New releases',
+      'Random'
+    ],
     4: 'aspect ratios',
     5: 'more',
   },
 
   credits: {
-    title: ['Artwork credits', 'Used assets', 'Localization helpers'],
+    title: [
+      'Artwork credits',
+      'Used assets',
+      'Localization helpers'
+    ],
 
     0: 'Credits',
     1: 'Anyone? [{lang}]',
     2: 'Seems like cyperdark forgot to add them. {text}',
 
-    3: ['Artworks', 'Localization', 'Assets'],
+    3: [
+      'Artworks',
+      'Localization',
+      'Assets'
+    ],
     4: 'All icons are taken from {name}',
     5: 'All flag images are from {name}',
   },
@@ -138,10 +157,19 @@ export default {
     title: 'Official osu! skinning contests',
     description: 'List of all active/finished osu! contests',
 
-    submit: ['Submissions closed...', 'Submissions in progress...', 'Submit your entry'],
+    submit: [
+      'Submissions closed...',
+      'Submissions in progress...',
+      'Submit your entry'
+    ],
 
     0: 'Official skinning contests',
-    1: ['Submission', 'Preparing', 'Voting', 'Finished'],
+    1: [
+      'Submission',
+      'Preparing',
+      'Voting',
+      'Finished'
+    ],
 
     2: 'Announcement',
     3: 'Submissions ended',
@@ -180,7 +208,11 @@ export default {
     description: 'Find the perfect osu! skin with our advanced search feature. Browse through our huge library, filtered by ruleset, aspect ratio, and more. Or check out skins used by top players.',
 
     0: 'Skin title, author, or tags',
-    1: ['name', 'tags', 'creators'],
+    1: [
+      'name',
+      'tags',
+      'creators'
+    ],
     2: 'Select date range',
     3: 'Size range',
     4: 'View count range',
@@ -216,7 +248,9 @@ export default {
 
     0: 'Nothing was found',
     1: 'No skins were found for this tag',
-    2: 'Try changing gamemode'
+    2: 'Try changing gamemode',
+
+    3: 'missing skin',
   },
 
   users: {
@@ -255,7 +289,7 @@ export default {
     16: 'Show your liked skins',
     17: 'Update settings',
 
-    18: '{amount} uploads | {amount} upload | {amount} uploads',
+    18: '{amount} upload | {amount} uploads | {amount} uploads',
     19: 'Blog',
     20: 'Skins Stats',
 
@@ -290,7 +324,11 @@ export default {
     7: 'Nothing was found',
     8: 'No skins were found for this category',
 
-    9: ['downloads', 'views', 'likes'],
+    9: [
+      'downloads',
+      'views',
+      'likes'
+    ],
 
     10: 'Submitted skins',
     11: 'Skins currently in queue: {amount}',
@@ -299,7 +337,10 @@ export default {
   },
 
   skin: {
-    title: ['Submit new skin', '{name} osu skin'],
+    title: [
+      'Submit new skin',
+      '{name} osu skin'
+    ],
     description: '{size}MB osu skin for {modes}, created by {creators}. Supports {ratios}',
 
     rules: {
@@ -436,6 +477,11 @@ export default {
     76: 'Released {date}',
     77: 'Select roles',
 
+    78: 'report issue',
+    79: 'Version without hp bar, back button and skip animations',
+    80: 'Gameplay only version',
+    81: 'Files for customization / additional gameplay elements (and unused files)',
+
 
     checks: {
       0: 'Skin name not specified',
@@ -494,7 +540,10 @@ export default {
 
 
   report: {
-    skin_ini: ['Describe bug, preferably with reproduction steps', 'Describe what you want to see...'],
+    skin_ini: [
+      'Describe bug, preferably with reproduction steps',
+      'Describe what you want to see...'
+    ],
     tag: {
       0: 'Missing skin',
       1: 'Link to a video of missing skin'
@@ -599,7 +648,10 @@ export default {
     source: 'Art Source',
     load_more: 'Load more',
     close: 'Close',
-    choose: ['Yes', 'No'],
+    choose: [
+      'Yes',
+      'No'
+    ],
     expand_more: 'Show more | Show less',
   },
 
