@@ -118,7 +118,7 @@ export default {
     4: 'Import .osk / .zip',
     5: 'Import skin folder',
     6: '.osu file not found',
-    7: 'Incorrect gamemode, only osu beatmaps allowed',
+    7: 'Incorrect gamemode, only standard beatmaps are allowed',
     8: 'Skin.ini not found',
     9: 'Select at least 1 .osk / .zip file',
 
