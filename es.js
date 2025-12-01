@@ -204,7 +204,7 @@ export default {
     0: 'No se encontraron resultados',
     1: 'Ningún aspecto fue encontrada para esta etiqueta',
     2: 'Intenta cambiar de modo de juego',
-    3: 'missing skin'
+    3: 'aspecto ausente'
   },
   users: {
     title: [
@@ -382,7 +382,7 @@ export default {
     75: 'Cambios del caché restaurados',
     76: 'Lanzado en {date}',
     77: 'Selecciona roles',
-    78: 'report issue',
+    78: 'Informar de un problema',
     79: 'Version without hp bar, back button and skip animations',
     80: 'Gameplay only version',
     81: 'Files for customization / additional gameplay elements (and unused files)',
