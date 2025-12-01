@@ -204,7 +204,7 @@ export default {
     0: 'Aucun résultat',
     1: 'Aucun skin n\'a été trouvé pour cette étiquette',
     2: 'Essayez de changer de mode de jeu',
-    3: 'missing skin'
+    3: 'skin manquant'
   },
   users: {
     title: [
@@ -382,10 +382,10 @@ export default {
     75: 'Changements restaurés depuis le cache',
     76: 'Publié le {date}',
     77: 'Sélectionner des rôles',
-    78: 'report issue',
-    79: 'Version without hp bar, back button and skip animations',
-    80: 'Gameplay only version',
-    81: 'Files for customization / additional gameplay elements (and unused files)',
+    78: 'signaler un problème',
+    79: 'Version sans barre de vie, bouton retour et animations de skip',
+    80: 'Version uniquement avec gameplay',
+    81: 'Fichiers pour la personnalisation / éléments de gameplay supplémentaires (et fichiers non utilisés)',
     checks: {
       0: 'Nom du skin non spécifié',
       1: 'Ajoutez au moins un créateur',
