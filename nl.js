@@ -203,7 +203,8 @@ export default {
     description: '',
     0: 'Niets gevonden',
     1: 'Geen skins zijn gevonden voor deze categorie',
-    2: 'Probeer de gamemode te veranderen'
+    2: 'Probeer de gamemode te veranderen',
+    3: 'missing skin'
   },
   users: {
     title: [
@@ -381,6 +382,10 @@ export default {
     75: 'Veranderingen hersteld van cache',
     76: 'Releasedatum {date}',
     77: 'Selecteer rollen',
+    78: 'report issue',
+    79: 'Version without hp bar, back button and skip animations',
+    80: 'Gameplay only version',
+    81: 'Files for customization / additional gameplay elements (and unused files)',
     checks: {
       0: 'Skin naam niet gespecifieerd',
       1: 'Voeg minstens één auteur toe',
