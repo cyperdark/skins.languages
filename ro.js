@@ -203,7 +203,8 @@ export default {
     description: '',
     0: 'Nu am găsit nimic',
     1: 'No skins were found for this tag',
-    2: 'Try changing gamemode'
+    2: 'Try changing gamemode',
+    3: 'missing skin'
   },
   users: {
     title: [
@@ -235,7 +236,7 @@ export default {
     15: 'Link to blog',
     16: 'Show your liked skins',
     17: 'Update settings',
-    18: '{amount} uploads | {amount} upload | {amount} uploads',
+    18: '{amount} upload | {amount} uploads | {amount} uploads',
     19: 'Blog',
     20: 'Skins Stats',
     21: 'Expand «about me» | Close «about me»',
@@ -381,6 +382,10 @@ export default {
     75: 'Changes restored from cache',
     76: 'Released {date}',
     77: 'Select roles',
+    78: 'report issue',
+    79: 'Version without hp bar, back button and skip animations',
+    80: 'Gameplay only version',
+    81: 'Files for customization / additional gameplay elements (and unused files)',
     checks: {
       0: 'Skin name not specified',
       1: 'Add at least one creator',
