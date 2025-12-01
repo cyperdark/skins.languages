@@ -203,7 +203,8 @@ export default {
     description: '',
     0: 'Ingenting hittades',
     1: 'Inga skins hittades för denna tagg',
-    2: 'Försök att ändra gamemode'
+    2: 'Försök att ändra gamemode',
+    3: 'missing skin'
   },
   users: {
     title: [
@@ -381,6 +382,10 @@ export default {
     75: 'Ändringar återställda från cache',
     76: 'Släppt {date}',
     77: 'Välj roller',
+    78: 'report issue',
+    79: 'Version without hp bar, back button and skip animations',
+    80: 'Gameplay only version',
+    81: 'Files for customization / additional gameplay elements (and unused files)',
     checks: {
       0: 'Skinnets namn är inte specificerat',
       1: 'Lägg till minst en skapare',
