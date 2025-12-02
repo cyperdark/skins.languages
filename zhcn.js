@@ -204,7 +204,7 @@ export default {
     0: '未找到结果',
     1: '没有找到该标签下的皮肤',
     2: '试试换个游戏模式吧',
-    3: 'missing skin'
+    3: '缺失皮肤'
   },
   users: {
     title: [
@@ -382,10 +382,10 @@ export default {
     75: '已从缓存中加载更改',
     76: '{date}发布',
     77: '选择分工',
-    78: 'report issue',
-    79: 'Version without hp bar, back button and skip animations',
-    80: 'Gameplay only version',
-    81: 'Files for customization / additional gameplay elements (and unused files)',
+    78: '报告问题',
+    79: '无血条、返回和跳过按钮的版本',
+    80: '纯净版',
+    81: '用于自定义样式、增加额外游戏内元素和未使用的文件',
     checks: {
       0: '未标明皮肤名称',
       1: '添加至少一个作者',

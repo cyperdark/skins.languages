@@ -382,9 +382,9 @@ export default {
     75: 'キャッシュから変更を復元しました',
     76: 'リリース日：{date}',
     77: 'ロールを選択',
-    78: 'report issue',
-    79: 'Version without hp bar, back button and skip animations',
-    80: 'Gameplay only version',
+    78: '問題を報告する',
+    79: 'HPバー/戻るボタン/スキップアニメーションが無いバージョン',
+    80: 'プレイ画面のみのバージョン',
     81: 'Files for customization / additional gameplay elements (and unused files)',
     checks: {
       0: 'スキン名が指定されていません',

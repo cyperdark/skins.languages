@@ -1,50 +1,50 @@
 export default {
   header: {
-    home: 'Home',
-    contests: 'Contests',
-    ideas: 'Inspiration',
-    tools: 'Tools',
-    popular: 'Popular skins',
-    all_skins: 'All skins',
-    tags: 'Tags',
-    new: 'New',
-    contribute: 'Contribute',
-    login: 'Log in',
-    0: 'Views',
-    1: 'Downloads',
-    2: 'Likes'
+    home: 'Koti',
+    contests: 'Kilpailut',
+    ideas: 'Inspiraatio',
+    tools: 'Työkalut',
+    popular: 'Suositut skinit',
+    all_skins: 'Kaikki skinit',
+    tags: 'Tägit',
+    new: 'Uutta',
+    contribute: 'Osallistu',
+    login: 'Kirjaudu',
+    0: 'Katselukerrat',
+    1: 'Lataukset',
+    2: 'Tykkäykset'
   },
   notifications: {
-    0: 'Notifications',
-    1: 'Follow us on these platforms to receive notifications about new skins'
+    0: 'Ilmoitukset',
+    1: 'Seuraa meitä näillä alustoilla saadaksesi ilmoituksia uusista skineistä'
   },
   user_menu: {
-    0: 'profile',
-    1: 'my skins queue',
-    2: 'relogin',
-    3: 'log out'
+    0: 'Käyttäjä',
+    1: 'Julkaisujono',
+    2: 'Uudelleenkirjautuminen',
+    3: 'Kirjaudu ulos'
   },
   status: {
-    0: 'Nothing was found',
-    1: 'Not found',
-    2: `Couldn't load image`,
-    3: 'No image to load'
+    0: 'Mitään ei löytynyt',
+    1: 'Ei löydy',
+    2: `Kuvan lataaminen epäonnistui`,
+    3: 'Ei kuvaa, jonka voisi ladata'
   },
   settings: {
     0: 'Settings',
     1: 'Hiiren vieritys',
     2: 'Enables easy image navigation when hovering over a skin block.',
-    3: 'Zoom in',
+    3: 'Lähennä',
     4: 'Enables automatic image zoom when hovering over a skin block.'
   },
   footer: { 0: 'Credits' },
   home: {
     title: [
-      'Discover osu! skins',
+      'Löydä osu! skinejä',
       'Random osu! skins'
     ],
     description: 'Find the best osu! skins on our site! Our huge library has skins for all gamemodes, aspect ratios and even top players. Plus, we have a special section for anime fans. Improve your gameplay with the perfect skin. #osuskins #osugame #anime',
-    0: 'Available for download',
+    0: 'Valmiina ladattavaksi',
     1: 'Most [viewed], [liked], [downloaded] skins',
     2: [
       'viewed',
@@ -52,12 +52,12 @@ export default {
       'downloaded'
     ],
     3: [
-      'Recent',
-      'New releases',
-      'Random'
+      'Uusimmat',
+      'Uudet julkaisut',
+      'Satunnainen'
     ],
-    4: 'aspect ratios',
-    5: 'more'
+    4: 'kuvasuhteet',
+    5: 'lisää'
   },
   credits: {
     title: [
@@ -97,7 +97,7 @@ export default {
     4: 'Import .osk / .zip',
     5: 'Import skin folder',
     6: '.osu file not found',
-    7: 'Incorrect gamemode, only osu beatmaps allowed',
+    7: 'Incorrect gamemode, only standard beatmaps are allowed',
     8: 'Skin.ini not found',
     9: 'Select at least 1 .osk / .zip file',
     10: 'Viewer settings',
@@ -180,7 +180,7 @@ export default {
     5: 'Download count range',
     6: 'Like count range',
     7: 'Select cursor type',
-    8: 'Nothing was found',
+    8: 'Mitään ei löytynyt',
     9: 'Try using a different set of search filters',
     10: 'Pending query',
     11: 'Use the search filters or type the skin\'s title, author or tags',
@@ -195,13 +195,13 @@ export default {
   tags: {
     title: 'Search tags',
     description: '',
-    0: 'Nothing was found',
+    0: 'Mitään ei löytynyt',
     1: 'Try searching something else'
   },
   tag: {
     title: '{name} osu skins',
     description: '',
-    0: 'Nothing was found',
+    0: 'Mitään ei löytynyt',
     1: 'No skins were found for this tag',
     2: 'Try changing gamemode',
     3: 'missing skin'
@@ -240,7 +240,7 @@ export default {
     19: 'Blog',
     20: 'Skins Stats',
     21: 'Expand «about me» | Close «about me»',
-    22: 'Nothing was found',
+    22: 'Mitään ei löytynyt',
     23: 'No skins were found for this creator'
   },
   skins: {
@@ -260,7 +260,7 @@ export default {
     4: 'mania',
     5: 'taiko',
     6: 'universal ratio',
-    7: 'Nothing was found',
+    7: 'Mitään ei löytynyt',
     8: 'No skins were found for this category',
     9: [
       'downloads',
@@ -306,7 +306,7 @@ export default {
       'About',
       'Screenshots',
       'Resources',
-      'Downloads',
+      'Lataukset',
       'Comments'
     ],
     13: 'Banner added',
@@ -354,7 +354,7 @@ export default {
     55: 'Url:',
     56: `Oops!`,
     57: 'No `.osk` files are attached to this skin',
-    58: `Nothing was found`,
+    58: `Mitään ei löytynyt`,
     59: 'Change query or try searching something else',
     60: 'Log in to report a file',
     61: 'Versions',
@@ -365,7 +365,7 @@ export default {
     66: 'Creators',
     67: 'If a creator wants to be anonymous or a collaborator does not have a Bancho account, you can add them as a ghost creator.',
     68: 'Creators not added',
-    69: 'Tags',
+    69: 'Tägit',
     70: 'Tags not added',
     71: 'start typing to get suggestions',
     72: 'Show',
@@ -485,11 +485,11 @@ export default {
     date: 'Date',
     release_date: 'Release date',
     upload_date: 'Upload date',
-    view: 'Views',
+    view: 'Katselukerrat',
     vote: 'Votes',
     name: 'Name',
-    download: 'Downloads',
-    like: 'Likes',
+    download: 'Lataukset',
+    like: 'Tykkäykset',
     size: 'Size',
     total: 'Total'
   },
