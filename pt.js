@@ -33,9 +33,9 @@ export default {
   settings: {
     0: 'Configurações',
     1: 'Scroll do mouse',
-    2: 'Isso habilita a navegação fácil ao passar o cursor sobre o quadro da skin',
+    2: 'Habilita a navegação fácil ao passar o cursor sobre o quadro da skin',
     3: 'Aproximar',
-    4: 'Isso habilita o zoom automático ao passar o mouse sobre o quadro da skin'
+    4: 'Habilita o zoom automático ao passar o mouse sobre o quadro da skin'
   },
   footer: { 0: 'Créditos' },
   home: {
