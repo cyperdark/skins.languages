@@ -60,7 +60,9 @@ export default {
       'Aléatoire'
     ],
     4: 'Format d\'écrans',
-    5: 'plus'
+    5: 'plus',
+    6: 'Recently uploaded/updated skins',
+    7: 'Newly released skins'
   },
   credits: {
     title: [
@@ -331,7 +333,6 @@ export default {
     29: 'Gérer les versions',
     30: 'nouvelle version',
     31: 'Entrez le nom du skin',
-    32: 'Contient des extras ?',
     33: 'Sélectionnez des formats d\'écrans',
     34: '{amount} problèmes',
     35: 'Modifier',
@@ -390,6 +391,7 @@ export default {
     80: 'Version uniquement avec gameplay',
     81: 'Fichiers pour la personnalisation / éléments de gameplay supplémentaires (et fichiers non utilisés)',
     82: 'Select rating',
+    83: 'Released at:',
     checks: {
       0: 'Nom du skin non spécifié',
       1: 'Ajoutez au moins un créateur',
@@ -475,10 +477,10 @@ export default {
     7: 'Envoyer le signalement'
   },
   plural: {
-    skins: '{amount} skins | {amount} skins | {amount} skins',
-    tags_skins: '« {name} » {amount} skins | « {name} » {amount} skin | « {name} » {amount} skins',
-    views: '{amount} vues |  {amount} vue | {amount} vues',
-    votes: '{amount} votes | {amount} vote | {amount} votes'
+    skins: '{amount} skin | {amount} skins | {amount} skins',
+    tags_skins: '«{name}» {amount} skin | «{name}» {amount} skins | «{name}» {amount} skins',
+    views: '{amount} view | {amount} views | {amount} views',
+    votes: '{amount} vote | {amount} votes | {amount} votes'
   },
   placeholder: {
     0: 'Taper du texte..',
