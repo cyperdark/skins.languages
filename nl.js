@@ -37,7 +37,10 @@ export default {
     3: 'Inzoomen',
     4: 'Schakel automatische afbeelding zoom in als je cursor over een skin blok zweeft.'
   },
-  footer: { 0: 'Dank aan' },
+  footer: {
+    0: 'Dank aan',
+    1: 'Meldt een probleem'
+  },
   home: {
     title: [
       'Ontdek osu! skins',
@@ -386,6 +389,7 @@ export default {
     79: 'Versie zonder hp balk, terug knop en animaties overslaan',
     80: 'Versie met alleen maar gameplay',
     81: 'Bestanden voor aanpassingen en extra gameplay elementen (en ongebruikte bestanden)',
+    82: 'Selecteer beoordeling',
     checks: {
       0: 'Skin naam niet gespecifieerd',
       1: 'Voeg minstens één auteur toe',
@@ -519,6 +523,7 @@ export default {
   nsfw: {
     0: 'NSFW-waarschuwing!',
     1: 'Deze skin bevat gevoelige of volwassen content!',
+    2: 'Pas op!',
     3: 'Furry Waarschuwing! :3'
   },
   drag: {
