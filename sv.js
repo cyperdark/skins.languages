@@ -37,7 +37,10 @@ export default {
     3: 'Zooma in',
     4: 'Aktiverar automatisk bildzoom när du håller musen över ett skin block.'
   },
-  footer: { 0: 'Medverkande' },
+  footer: {
+    0: 'Medverkande',
+    1: 'Rapportera ett problem'
+  },
   home: {
     title: [
       'Utforska osu! skins',
@@ -386,6 +389,7 @@ export default {
     79: 'Version without hp bar, back button and skip animations',
     80: 'Gameplay only version',
     81: 'Files for customization / additional gameplay elements (and unused files)',
+    82: 'Select rating',
     checks: {
       0: 'Skinnets namn är inte specificerat',
       1: 'Lägg till minst en skapare',
@@ -519,6 +523,7 @@ export default {
   nsfw: {
     0: 'NSFW varning!',
     1: 'Detta skin innehåller känsligt eller barnförbjudet innehåll!',
+    2: 'Warning!',
     3: 'Furry Varning! :3'
   },
   drag: {
