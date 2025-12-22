@@ -46,6 +46,7 @@ export default {
 
   footer: {
     0: 'Credits',
+    1: 'Report issue',
   },
 
   home: {
@@ -205,7 +206,7 @@ export default {
 
   search: {
     title: 'Search osu skins',
-    description: 'Find the perfect osu! skin with our advanced search feature. Browse through our huge library, filtered by ruleset, aspect ratio, and more. Or check out skins used by top players.',
+    description: 'Find the perfect osu! skin with our advanced search feature. Browse through our huge library, filtered by gamemode, aspect ratio, and more. Or check out skins used by top players.',
 
     0: 'Skin title, author, or tags',
     1: [
@@ -302,9 +303,9 @@ export default {
 
   skins: {
     title: [
-      '{amount} osu! skins',
-      '{amount} {category} osu! skins',
-      '{amount} universal aspect ratio osu! skins',
+      'osu! skins',
+      '{category} osu! skins',
+      'universal aspect ratio osu! skins',
       '204 Most viewed {mode} skins',
       '204 Most downloaded {mode} skins',
       '204 Most liked {mode} skins',
@@ -397,7 +398,7 @@ export default {
     23: `Link not supported. Only MEGA, Google Drive and MediaFire links are allowed.`,
 
     24: 'Unsupported osu! forum link',
-    25: 'Unsupported reddit link',
+    25: 'Unsupported Reddit link',
     26: 'Couldn\'t parse link',
     27: 'Unsupported Twitter link',
 
@@ -481,6 +482,8 @@ export default {
     79: 'Version without hp bar, back button and skip animations',
     80: 'Gameplay only version',
     81: 'Files for customization / additional gameplay elements (and unused files)',
+
+    82: 'Select rating',
 
 
     checks: {
@@ -635,6 +638,7 @@ export default {
   nsfw: {
     0: 'NSFW Warning!',
     1: 'This skin contains sensitive or adult content!',
+    2: 'Warning!',
     3: 'Furry Warning!',
   },
 
