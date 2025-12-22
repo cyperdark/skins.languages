@@ -37,7 +37,10 @@ export default {
     3: 'Reinzoomen',
     4: 'Ermöglicht automatisches Hineinzoomen in Bilder beim Hovern über einen Skin-Block.'
   },
-  footer: { 0: 'Credits' },
+  footer: {
+    0: 'Credits',
+    1: 'Problem Melden'
+  },
   home: {
     title: [
       'Entdecke osu! Skins',
@@ -386,6 +389,7 @@ export default {
     79: 'Version without hp bar, back button and skip animations',
     80: 'Gameplay only version',
     81: 'Files for customization / additional gameplay elements (and unused files)',
+    82: 'Select rating',
     checks: {
       0: 'Skin Name nicht angegeben',
       1: 'Füge mindestens einen Skin-Ersteller hinzu',
@@ -519,6 +523,7 @@ export default {
   nsfw: {
     0: 'NSFW Warnung!',
     1: 'Dieser Skin enthält empfindliche oder Inhalte für Erwachsene.',
+    2: 'Warning!',
     3: 'Achtung Furry! :3'
   },
   drag: {
