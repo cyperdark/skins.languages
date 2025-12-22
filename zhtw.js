@@ -1,32 +1,32 @@
 export default {
   header: {
-    home: 'Home',
-    contests: 'Contests',
-    ideas: 'Inspiration',
-    tools: 'Tools',
-    popular: 'Popular skins',
-    all_skins: 'All skins',
-    tags: 'Tags',
+    home: '首頁',
+    contests: '比賽',
+    ideas: '靈感',
+    tools: '工具',
+    popular: '熱門外觀',
+    all_skins: '所有外觀',
+    tags: '標籤',
     new: 'New',
-    contribute: 'Contribute',
-    login: 'Log in',
-    0: 'Views',
-    1: 'Downloads',
-    2: 'Likes'
+    contribute: '貢獻',
+    login: '登入',
+    0: '觀看次數',
+    1: '下載次數',
+    2: '喜歡數'
   },
   notifications: {
-    0: 'Notifications',
-    1: 'Follow us on these platforms to receive notifications about new skins'
+    0: '通知',
+    1: '追蹤我們的社群平台，即時掌握新外觀發布通知'
   },
   user_menu: {
-    0: 'profile',
-    1: 'my skins queue',
-    2: 'relogin',
-    3: 'log out'
+    0: '個人檔案',
+    1: '我的外觀序列',
+    2: '重新登入',
+    3: '登出'
   },
   status: {
-    0: 'Nothing was found',
-    1: 'Not found',
+    0: '未找到結果',
+    1: '未找到',
     2: `Couldn't load image`,
     3: 'No image to load'
   },
@@ -37,7 +37,10 @@ export default {
     3: 'Zoom in',
     4: 'Enables automatic image zoom when hovering over a skin block.'
   },
-  footer: { 0: 'Credits' },
+  footer: {
+    0: 'Credits',
+    1: 'Report issue'
+  },
   home: {
     title: [
       'Discover osu! skins',
@@ -167,7 +170,7 @@ export default {
   },
   search: {
     title: 'Search osu skins',
-    description: 'Find the perfect osu! skin with our advanced search feature. Browse through our huge library, filtered by ruleset, aspect ratio, and more. Or check out skins used by top players.',
+    description: 'Find the perfect osu! skin with our advanced search feature. Browse through our huge library, filtered by gamemode, aspect ratio, and more. Or check out skins used by top players.',
     0: 'Skin title, author, or tags',
     1: [
       'name',
@@ -180,7 +183,7 @@ export default {
     5: 'Download count range',
     6: 'Like count range',
     7: 'Select cursor type',
-    8: 'Nothing was found',
+    8: '未找到結果',
     9: 'Try using a different set of search filters',
     10: 'Pending query',
     11: 'Use the search filters or type the skin\'s title, author or tags',
@@ -195,13 +198,13 @@ export default {
   tags: {
     title: 'Search tags',
     description: '',
-    0: 'Nothing was found',
+    0: '未找到結果',
     1: 'Try searching something else'
   },
   tag: {
     title: '{name} osu skins',
     description: '',
-    0: 'Nothing was found',
+    0: '未找到結果',
     1: 'No skins were found for this tag',
     2: 'Try changing gamemode',
     3: 'missing skin'
@@ -240,14 +243,14 @@ export default {
     19: 'Blog',
     20: 'Skins Stats',
     21: 'Expand «about me» | Close «about me»',
-    22: 'Nothing was found',
+    22: '未找到結果',
     23: 'No skins were found for this creator'
   },
   skins: {
     title: [
-      '{amount} osu! skins',
-      '{amount} {category} osu! skins',
-      '{amount} universal aspect ratio osu! skins',
+      'osu! skins',
+      '{category} osu! skins',
+      'universal aspect ratio osu! skins',
       '204 Most viewed {mode} skins',
       '204 Most downloaded {mode} skins',
       '204 Most liked {mode} skins'
@@ -260,7 +263,7 @@ export default {
     4: 'mania',
     5: 'taiko',
     6: 'universal ratio',
-    7: 'Nothing was found',
+    7: '未找到結果',
     8: 'No skins were found for this category',
     9: [
       'downloads',
@@ -306,7 +309,7 @@ export default {
       'About',
       'Screenshots',
       'Resources',
-      'Downloads',
+      '下載次數',
       'Comments'
     ],
     13: 'Banner added',
@@ -321,7 +324,7 @@ export default {
     22: 'Log in to an account',
     23: `Link not supported. Only MEGA, Google Drive and MediaFire links are allowed.`,
     24: 'Unsupported osu! forum link',
-    25: 'Unsupported reddit link',
+    25: 'Unsupported Reddit link',
     26: 'Couldn\'t parse link',
     27: 'Unsupported Twitter link',
     28: 'Unknown cloud service',
@@ -354,7 +357,7 @@ export default {
     55: 'Url:',
     56: `Oops!`,
     57: 'No `.osk` files are attached to this skin',
-    58: `Nothing was found`,
+    58: `未找到結果`,
     59: 'Change query or try searching something else',
     60: 'Log in to report a file',
     61: 'Versions',
@@ -365,7 +368,7 @@ export default {
     66: 'Creators',
     67: 'If a creator wants to be anonymous or a collaborator does not have a Bancho account, you can add them as a ghost creator.',
     68: 'Creators not added',
-    69: 'Tags',
+    69: '標籤',
     70: 'Tags not added',
     71: 'start typing to get suggestions',
     72: 'Show',
@@ -386,6 +389,7 @@ export default {
     79: 'Version without hp bar, back button and skip animations',
     80: 'Gameplay only version',
     81: 'Files for customization / additional gameplay elements (and unused files)',
+    82: 'Select rating',
     checks: {
       0: 'Skin name not specified',
       1: 'Add at least one creator',
@@ -485,11 +489,11 @@ export default {
     date: 'Date',
     release_date: 'Release date',
     upload_date: 'Upload date',
-    view: 'Views',
+    view: '觀看次數',
     vote: 'Votes',
     name: 'Name',
-    download: 'Downloads',
-    like: 'Likes',
+    download: '下載次數',
+    like: '喜歡數',
     size: 'Size',
     total: 'Total'
   },
@@ -519,6 +523,7 @@ export default {
   nsfw: {
     0: 'NSFW Warning!',
     1: 'This skin contains sensitive or adult content!',
+    2: 'Warning!',
     3: 'Furry Warning!'
   },
   drag: {
