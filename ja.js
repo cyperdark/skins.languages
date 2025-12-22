@@ -60,7 +60,9 @@ export default {
       'ランダム'
     ],
     4: 'アスペクト比',
-    5: 'もっと見る'
+    5: 'もっと見る',
+    6: 'Recently uploaded/updated skins',
+    7: 'Newly released skins'
   },
   credits: {
     title: [
@@ -331,7 +333,6 @@ export default {
     29: 'バージョンを管理',
     30: '新しいバージョン',
     31: 'スキン名を入力',
-    32: 'エクストラあり？',
     33: 'アスペクト比を選択',
     34: '{amount} 件の問題',
     35: '編集',
@@ -390,6 +391,7 @@ export default {
     80: 'プレイ画面のみのバージョン',
     81: 'Files for customization / additional gameplay elements (and unused files)',
     82: 'Select rating',
+    83: 'Released at:',
     checks: {
       0: 'スキン名が指定されていません',
       1: '最低でも1人は作成者を追加してください',
@@ -475,10 +477,10 @@ export default {
     7: '報告を送信'
   },
   plural: {
-    skins: '{amount} 個のスキン | {amount} 個のスキン | {amount} 個のスキン',
-    tags_skins: '「{name}」 {amount} 個のスキン | 「{name}」 {amount} 個のスキン | 「{name}」 {amount} 個のスキン',
-    views: '{amount} 回の閲覧 | {amount} 回の閲覧 | {amount} 回の閲覧',
-    votes: '{amount} 票 | {amount} 票 | {amount} 票'
+    skins: '{amount} skin | {amount} skins | {amount} skins',
+    tags_skins: '«{name}» {amount} skin | «{name}» {amount} skins | «{name}» {amount} skins',
+    views: '{amount} view | {amount} views | {amount} views',
+    votes: '{amount} vote | {amount} votes | {amount} votes'
   },
   placeholder: {
     0: 'テキストを入力..',
