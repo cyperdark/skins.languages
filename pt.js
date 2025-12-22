@@ -37,7 +37,10 @@ export default {
     3: 'Aproximar',
     4: 'Habilita o zoom automático ao passar o mouse sobre o quadro da skin'
   },
-  footer: { 0: 'Créditos' },
+  footer: {
+    0: 'Créditos',
+    1: 'Reportar problema'
+  },
   home: {
     title: [
       'Descubra novas skins para o osu!',
@@ -386,6 +389,7 @@ export default {
     79: 'Versão sem barra de vida, botão de "back" e animações de "skip"',
     80: 'Somente gameplay',
     81: 'Arquivos para customização / elementos de gameplay adicionais (e arquivos inutilizados)',
+    82: 'Select rating',
     checks: {
       0: 'Nome da skin não especificado',
       1: 'Adicione ao menos um criador',
@@ -519,6 +523,7 @@ export default {
   nsfw: {
     0: 'Alerta de conteúdo +18 (NSFW)!',
     1: 'Essa skin contém conteúdo sensível ou adulto!',
+    2: 'Warning!',
     3: 'Alerta, conteúdo furry!'
   },
   drag: {
