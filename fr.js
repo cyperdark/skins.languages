@@ -37,7 +37,10 @@ export default {
     3: 'Zoom +',
     4: 'Zoom automatique des images lors du survol d\'un skin'
   },
-  footer: { 0: 'Crédits' },
+  footer: {
+    0: 'Crédits',
+    1: 'Signaler un problème'
+  },
   home: {
     title: [
       'Découvrir des skins',
@@ -386,6 +389,7 @@ export default {
     79: 'Version sans barre de vie, bouton retour et animations de skip',
     80: 'Version uniquement avec gameplay',
     81: 'Fichiers pour la personnalisation / éléments de gameplay supplémentaires (et fichiers non utilisés)',
+    82: 'Select rating',
     checks: {
       0: 'Nom du skin non spécifié',
       1: 'Ajoutez au moins un créateur',
@@ -519,6 +523,7 @@ export default {
   nsfw: {
     0: 'Attention, NSFW !',
     1: 'Ce skin contient du contenu sensible ou adulte !',
+    2: 'Warning!',
     3: 'Attention, Furry !'
   },
   drag: {
