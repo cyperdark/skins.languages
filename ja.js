@@ -37,7 +37,10 @@ export default {
     3: '拡大',
     4: 'スキンブロックにカーソルを合わせた際、自動で画像を拡大します。'
   },
-  footer: { 0: 'クレジット' },
+  footer: {
+    0: 'クレジット',
+    1: '問題を報告'
+  },
   home: {
     title: [
       'osu! のスキンを見つける',
@@ -386,6 +389,7 @@ export default {
     79: 'HPバー/戻るボタン/スキップアニメーションが無いバージョン',
     80: 'プレイ画面のみのバージョン',
     81: 'Files for customization / additional gameplay elements (and unused files)',
+    82: 'Select rating',
     checks: {
       0: 'スキン名が指定されていません',
       1: '最低でも1人は作成者を追加してください',
@@ -519,6 +523,7 @@ export default {
   nsfw: {
     0: 'NSFW 警告！',
     1: 'このスキンにはセンシティブまたは成人向けの内容が含まれます！',
+    2: 'Warning!',
     3: 'ケモノ注意！'
   },
   drag: {

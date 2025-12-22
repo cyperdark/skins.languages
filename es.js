@@ -37,7 +37,10 @@ export default {
     3: 'Ampliar',
     4: 'Permite una fácil navegación por las imágenes al pasar el cursor sobre un bloque de skin.'
   },
-  footer: { 0: 'Créditos' },
+  footer: {
+    0: 'Créditos',
+    1: 'Reportar problema'
+  },
   home: {
     title: [
       'Descubre aspectos de osu!',
@@ -386,6 +389,7 @@ export default {
     79: 'Version without hp bar, back button and skip animations',
     80: 'Gameplay only version',
     81: 'Archivos para personalización / elementos adicionales de gameplay (y archivos sin uso)',
+    82: 'Select rating',
     checks: {
       0: 'El nombre del aspecto no ha sido especificado',
       1: 'Añade al menos un creador',
@@ -519,6 +523,7 @@ export default {
   nsfw: {
     0: '¡Advertencia NSFW!',
     1: '¡Este aspecto contiene elementos sensibles o contenido adulto!',
+    2: 'Warning!',
     3: '¡Advertencia de Furry!'
   },
   drag: {

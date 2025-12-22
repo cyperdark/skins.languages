@@ -37,7 +37,10 @@ export default {
     3: 'Zoom in',
     4: 'Consente lo zoom automatico dell\'immagine al passaggio del mouse sopra un riquadro di una skin.'
   },
-  footer: { 0: 'Crediti' },
+  footer: {
+    0: 'Crediti',
+    1: 'Segnala un problema'
+  },
   home: {
     title: [
       'Scopri skin di osu!',
@@ -167,7 +170,7 @@ export default {
   },
   search: {
     title: 'Cerca - skins di osu!',
-    description: 'Find the perfect osu! skin with our advanced search feature. Browse through our huge library, filtered by ruleset, aspect ratio, and more. Or check out skins used by top players.',
+    description: 'Find the perfect osu! skin with our advanced search feature. Browse through our huge library, filtered by gamemode, aspect ratio, and more. Or check out skins used by top players.',
     0: 'Skin title, author, or tags',
     1: [
       'name',
@@ -246,8 +249,8 @@ export default {
   skins: {
     title: [
       '{amount} skin di osu!',
-      '{amount} {category} osu! skins',
-      '{amount} universal aspect ratio osu! skins',
+      '{category} osu! skins',
+      'universal aspect ratio osu! skins',
       '204 Most viewed {mode} skins',
       '204 Most downloaded {mode} skins',
       '204 Most liked {mode} skins'
@@ -386,6 +389,7 @@ export default {
     79: 'Version without hp bar, back button and skip animations',
     80: 'Gameplay only version',
     81: 'Files for customization / additional gameplay elements (and unused files)',
+    82: 'Select rating',
     checks: {
       0: 'Nome della skin non specificata',
       1: 'Add at least one creator',
@@ -519,6 +523,7 @@ export default {
   nsfw: {
     0: 'Avviso NSFW!',
     1: 'Questa skin contiene contenuti sensibili o per adulti!',
+    2: 'Warning!',
     3: 'Avviso Furry!'
   },
   drag: {

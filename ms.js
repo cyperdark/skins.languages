@@ -37,7 +37,10 @@ export default {
     3: 'Zoom masuk',
     4: 'Membolehkan zoom imej secara automatik apabila tetikus berada di atas blok skin.'
   },
-  footer: { 0: 'Penghargaan' },
+  footer: {
+    0: 'Penghargaan',
+    1: 'Report issue'
+  },
   home: {
     title: [
       'Meneroka skin-skin osu!',
@@ -97,7 +100,7 @@ export default {
     4: 'Import .osk/ .zip',
     5: 'Import folder skin',
     6: 'fail .osu tidak dapat dijumpa',
-    7: 'Incorrect gamemode, only standard beatmaps are allowed',
+    7: 'Mod permainan salah, hanya beatmap standard yang dibenarkan',
     8: 'Skin.ini tidak dapat dijumpai',
     9: 'Pilih sekurang-kurangnya 1 fail .osk / .zip',
     10: 'Tetapan penonton',
@@ -231,54 +234,54 @@ export default {
     10: 'Username Discord',
     11: 'Pautan server Discord',
     12: 'Pautan profil Twitter',
-    13: 'Reddit profile link',
-    14: 'YouTube channel link',
-    15: 'Link to blog',
-    16: 'Show your liked skins',
-    17: 'Update settings',
-    18: '{amount} upload | {amount} uploads | {amount} uploads',
+    13: 'Pautan profil Reddit',
+    14: 'Pautan saluran YouTube',
+    15: 'Pautan ke blog',
+    16: 'Tunjuk skin yang anda sukai',
+    17: 'Kemaskini tetapan',
+    18: '{amount} muat naik | {amount} muat naik | {amount} muat naik',
     19: 'Blog',
-    20: 'Skins Stats',
-    21: 'Expand «about me» | Close «about me»',
+    20: 'Statistik Skin',
+    21: 'Kembangkan «tentang saya» | Tutup «tentang saya»',
     22: 'Tiada apa-apa dijumpai',
-    23: 'No skins were found for this creator'
+    23: 'Tiada skin yang dijumpa untuk pencipta ini'
   },
   skins: {
     title: [
-      '{amount} osu! skins',
-      '{amount} {category} osu! skins',
-      '{amount} universal aspect ratio osu! skins',
-      '204 Most viewed {mode} skins',
-      '204 Most downloaded {mode} skins',
-      '204 Most liked {mode} skins'
+      '{amount} skin osu!',
+      '{amount} {category} skin osu!',
+      '{amount} aspek nisbah universal skin osu!',
+      '204 Paling banyak dilihat {mode} skin',
+      '204 Paling banyak dimuat turun {mode} skin',
+      '204 Paling disukai {mode} skin'
     ],
-    description: ['{amount} skins for osu!, catch the beat, mania and taiko'],
-    0: 'All',
+    description: ['{amount} skin untuk osu!, catch the beat, mania dan taiko'],
+    0: 'Semua',
     1: 'Popular',
     2: 'osu!',
     3: 'ctb',
     4: 'mania',
     5: 'taiko',
-    6: 'universal ratio',
+    6: 'nisbah universal',
     7: 'Tiada apa-apa dijumpai',
-    8: 'No skins were found for this category',
+    8: 'Tiada skin yang dijumpa untuk kategori ini',
     9: [
-      'downloads',
-      'views',
-      'likes'
+      'muat turun',
+      'tontonan',
+      'suka'
     ],
-    10: 'Submitted skins',
-    11: 'Skins currently in queue: {amount}',
-    12: 'No skins currently submitted for moderation'
+    10: 'Skin dihantar',
+    11: 'Skin berada di dalam giliran: {amount}',
+    12: 'Tiada skin yang dihantar sementara ini untuk moderasi'
   },
   skin: {
     title: [
-      'Submit new skin',
+      'Hantar skin baharu',
       '{name} osu skin'
     ],
-    description: '{size}MB osu skin for {modes}, created by {creators}. Supports {ratios}',
+    description: '{size}MB osu skin untuk {modes}, dicipta oleh {creators}. Menyokong {ratios}',
     rules: {
-      0: `**Do not** post nonsense.`,
+      0: `**Jangan** pos benda mengarut.`,
       1: `**Don't** post **low-quality** or **duplicate** submissions.`,
       2: `Make sure your skin has **not** already been **published**.`,
       3: `A skin is **protected from deletion** if it has been featured in a video by channels such as **cpol or osuck**, or if a **top player used** it in their public content. (Twitch, YouTube, Twitter, TikTok, GitHub, etc.)`,
@@ -321,7 +324,7 @@ export default {
     22: 'Log in to an account',
     23: `Link not supported. Only MEGA, Google Drive and MediaFire links are allowed.`,
     24: 'Unsupported osu! forum link',
-    25: 'Unsupported reddit link',
+    25: 'Unsupported Reddit link',
     26: 'Couldn\'t parse link',
     27: 'Unsupported Twitter link',
     28: 'Unknown cloud service',
@@ -386,6 +389,7 @@ export default {
     79: 'Version without hp bar, back button and skip animations',
     80: 'Gameplay only version',
     81: 'Files for customization / additional gameplay elements (and unused files)',
+    82: 'Select rating',
     checks: {
       0: 'Skin name not specified',
       1: 'Add at least one creator',
@@ -519,6 +523,7 @@ export default {
   nsfw: {
     0: 'NSFW Warning!',
     1: 'This skin contains sensitive or adult content!',
+    2: 'Warning!',
     3: 'Furry Warning!'
   },
   drag: {
