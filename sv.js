@@ -60,7 +60,9 @@ export default {
       'Random'
     ],
     4: 'bildformat',
-    5: 'mer'
+    5: 'mer',
+    6: 'Recently uploaded/updated skins',
+    7: 'Newly released skins'
   },
   credits: {
     title: [
@@ -331,7 +333,6 @@ export default {
     29: 'Hantera versioner',
     30: 'ny version',
     31: 'Skriv in namnet på skinnet',
-    32: 'Har extras?',
     33: 'Välj bildformat',
     34: '{amount} problem',
     35: 'Redigera',
@@ -390,6 +391,7 @@ export default {
     80: 'Gameplay only version',
     81: 'Files for customization / additional gameplay elements (and unused files)',
     82: 'Select rating',
+    83: 'Released at:',
     checks: {
       0: 'Skinnets namn är inte specificerat',
       1: 'Lägg till minst en skapare',
@@ -475,10 +477,10 @@ export default {
     7: 'Skicka in rapporten'
   },
   plural: {
-    skins: '{amount} skins | {amount} skin | {amount} skins',
-    tags_skins: '«{name}» {amount} skins | «{name}» {amount} skin | «{name}» {amount} skins',
-    views: '{amount} visningar | {amount} visning | {amount} visningar',
-    votes: '{amount} röstningar | {amount} röstning | {amount} röstningar'
+    skins: '{amount} skin | {amount} skins | {amount} skins',
+    tags_skins: '«{name}» {amount} skin | «{name}» {amount} skins | «{name}» {amount} skins',
+    views: '{amount} view | {amount} views | {amount} views',
+    votes: '{amount} vote | {amount} votes | {amount} votes'
   },
   placeholder: {
     0: 'Skriv text..',
