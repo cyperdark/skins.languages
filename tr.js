@@ -37,7 +37,10 @@ export default {
     3: 'Yakınlaştır',
     4: 'Bir skin bloğunun üzerine fareyi getirdiğinizde otomatik görüntü yakınlaştırma özelliğini etkinleştirir.'
   },
-  footer: { 0: 'Katkıda Bulunanlar' },
+  footer: {
+    0: 'Katkıda Bulunanlar',
+    1: 'Sorun bildir'
+  },
   home: {
     title: [
       'osu! skinlerini keşfet',
@@ -387,6 +390,7 @@ export default {
     79: 'Version without hp bar, back button and skip animations',
     80: 'Gameplay only version',
     81: 'Files for customization / additional gameplay elements (and unused files)',
+    82: 'Select rating',
     checks: {
       0: 'Skin adı belirtilmedi',
       1: 'En az 1 yaratıcı ekleyin',
@@ -520,6 +524,7 @@ export default {
   nsfw: {
     0: 'NSFW Uyarısı!',
     1: 'Bu skin hassas veya yetişkinlere yönelik içerik barındırıyor!',
+    2: 'Warning!',
     3: 'Furry Uyarısı!'
   },
   drag: {
