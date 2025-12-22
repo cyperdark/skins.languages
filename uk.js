@@ -37,7 +37,10 @@ export default {
     3: 'Приблизити',
     4: 'Дозволяє автоматичне масштабування зображень при наведенні курсором на блок скіна.'
   },
-  footer: { 0: 'Внески' },
+  footer: {
+    0: 'Внески',
+    1: 'Повідомити про проблему'
+  },
   home: {
     title: [
       'Осу скіни',
@@ -387,6 +390,7 @@ export default {
     79: 'Version without hp bar, back button and skip animations',
     80: 'Gameplay only version',
     81: 'Files for customization / additional gameplay elements (and unused files)',
+    82: 'Select rating',
     checks: {
       0: 'Назву скіна не вказано',
       1: 'Додайте хоча б одного автора',
@@ -520,6 +524,7 @@ export default {
   nsfw: {
     0: 'Обережно попереду NSFW!',
     1: 'Цей скін містить делікатний контент або контент для дорослих!',
+    2: 'Warning!',
     3: 'Обережно попереду Фурі!'
   },
   drag: {
