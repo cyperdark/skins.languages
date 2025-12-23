@@ -60,7 +60,9 @@ export default {
       'Willekeurig'
     ],
     4: 'aspect ratio\'s',
-    5: 'meer'
+    5: 'meer',
+    6: 'Recently uploaded/updated skins',
+    7: 'Newly released skins'
   },
   credits: {
     title: [
@@ -331,7 +333,6 @@ export default {
     29: 'Versies beheren',
     30: 'nieuwe versie',
     31: 'Typ skin naam',
-    32: 'Heeft extras?',
     33: 'Selecteer aspect ratio',
     34: '{amount} problemen',
     35: 'Bewerk',
@@ -390,6 +391,7 @@ export default {
     80: 'Versie met alleen maar gameplay',
     81: 'Bestanden voor aanpassingen en extra gameplay elementen (en ongebruikte bestanden)',
     82: 'Selecteer beoordeling',
+    83: 'Released at:',
     checks: {
       0: 'Skin naam niet gespecifieerd',
       1: 'Voeg minstens één auteur toe',
@@ -475,10 +477,10 @@ export default {
     7: 'Rapport indienen'
   },
   plural: {
-    skins: '{amount} skins | {amount}skin | {amount} skins',
-    tags_skins: '«{name}» {amount} skins | «{name}» {amount} skin | «{name}» {amount} skins',
-    views: '{amount} weergaven | {amount} weergave | {amount} weergaven',
-    votes: '{amount} stemmen | {amount} stem | {amount} stemmen'
+    skins: '{amount} skin | {amount} skins | {amount} skins',
+    tags_skins: '«{name}» {amount} skin | «{name}» {amount} skins | «{name}» {amount} skins',
+    views: '{amount} view | {amount} views | {amount} views',
+    votes: '{amount} vote | {amount} votes | {amount} votes'
   },
   placeholder: {
     0: 'Typ tekst..',

@@ -60,7 +60,9 @@ export default {
       'Випадкові'
     ],
     4: 'Співвідношення сторін екрану',
-    5: 'Більше'
+    5: 'Більше',
+    6: 'Recently uploaded/updated skins',
+    7: 'Newly released skins'
   },
   credits: {
     title: [
@@ -332,7 +334,6 @@ export default {
     29: 'Керування версіями',
     30: 'Нова версія',
     31: 'Введіть назву скіна',
-    32: 'Містить додаткові елементи?',
     33: 'Виберіть співвідношення сторін екрану',
     34: '{amount} проблем',
     35: 'Редагувати',
@@ -391,6 +392,7 @@ export default {
     80: 'Gameplay only version',
     81: 'Files for customization / additional gameplay elements (and unused files)',
     82: 'Select rating',
+    83: 'Released at:',
     checks: {
       0: 'Назву скіна не вказано',
       1: 'Додайте хоча б одного автора',
@@ -476,10 +478,10 @@ export default {
     7: 'Надіслати скаргу'
   },
   plural: {
-    skins: '{amount} скін | {amount} скіна | {amount} скінів',
-    tags_skins: '«{name}» {amount} скін | «{name}» {amount} скіна | «{name}» {amount} скінів',
-    views: '{amount} перегляд | {amount} перегляди | {amount} переглядів',
-    votes: '{amount} голос | {amount} голоси | {amount} голосів'
+    skins: '{amount} skin | {amount} skins | {amount} skins',
+    tags_skins: '«{name}» {amount} skin | «{name}» {amount} skins | «{name}» {amount} skins',
+    views: '{amount} view | {amount} views | {amount} views',
+    votes: '{amount} vote | {amount} votes | {amount} votes'
   },
   placeholder: {
     0: 'Введіть текст..',

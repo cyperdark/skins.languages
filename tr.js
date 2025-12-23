@@ -60,7 +60,9 @@ export default {
       'Rastgele'
     ],
     4: 'en boy oranları',
-    5: 'daha fazla'
+    5: 'daha fazla',
+    6: 'Recently uploaded/updated skins',
+    7: 'Newly released skins'
   },
   credits: {
     title: [
@@ -332,7 +334,6 @@ export default {
     29: 'Versiyonları yönet',
     30: 'yeni versiyon',
     31: 'Skin adını yazın',
-    32: 'Ekstralara sahip mi?',
     33: 'En boy oranlarını seçin',
     34: '{amount} tane sorun',
     35: 'Düzenle',
@@ -391,6 +392,7 @@ export default {
     80: 'Gameplay only version',
     81: 'Files for customization / additional gameplay elements (and unused files)',
     82: 'Select rating',
+    83: 'Released at:',
     checks: {
       0: 'Skin adı belirtilmedi',
       1: 'En az 1 yaratıcı ekleyin',
@@ -476,10 +478,10 @@ export default {
     7: 'Rapor gönder'
   },
   plural: {
-    skins: '{amount} skin | {amount} skin | {amount} skin',
-    tags_skins: '«{name}» {amount} skin | «{name}» {amount} skin | «{name}» {amount} skin',
-    views: '{amount} görüntülenme | {amount} görüntülenme | {amount} görüntülenme',
-    votes: '{amount} oy | {amount} oy | {amount} oy'
+    skins: '{amount} skin | {amount} skins | {amount} skins',
+    tags_skins: '«{name}» {amount} skin | «{name}» {amount} skins | «{name}» {amount} skins',
+    views: '{amount} view | {amount} views | {amount} views',
+    votes: '{amount} vote | {amount} votes | {amount} votes'
   },
   placeholder: {
     0: 'Metin yazın..',

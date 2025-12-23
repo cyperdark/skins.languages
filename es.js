@@ -60,7 +60,9 @@ export default {
       'Aleatorio'
     ],
     4: 'relación de aspecto',
-    5: 'más'
+    5: 'más',
+    6: 'Recently uploaded/updated skins',
+    7: 'Newly released skins'
   },
   credits: {
     title: [
@@ -331,7 +333,6 @@ export default {
     29: 'Administrar versiones',
     30: 'nueva versión',
     31: 'Escriba el nombre del aspecto',
-    32: '¿Tiene extras?',
     33: 'Seleccionar relación de aspecto',
     34: '{amount} problemas',
     35: 'Editar',
@@ -390,6 +391,7 @@ export default {
     80: 'Gameplay only version',
     81: 'Archivos para personalización / elementos adicionales de gameplay (y archivos sin uso)',
     82: 'Select rating',
+    83: 'Released at:',
     checks: {
       0: 'El nombre del aspecto no ha sido especificado',
       1: 'Añade al menos un creador',
@@ -475,10 +477,10 @@ export default {
     7: 'Enviar informe'
   },
   plural: {
-    skins: '{amount} skins | {amount} skin | {amount} skins',
-    tags_skins: '«{name}» {amount} skins | «{name}» {amount} skin | «{name}» {amount} skins',
-    views: '{amount} views | {amount} view | {amount} views',
-    votes: '{amount} votos | {amount} votar | {amount} votos'
+    skins: '{amount} skin | {amount} skins | {amount} skins',
+    tags_skins: '«{name}» {amount} skin | «{name}» {amount} skins | «{name}» {amount} skins',
+    views: '{amount} view | {amount} views | {amount} views',
+    votes: '{amount} vote | {amount} votes | {amount} votes'
   },
   placeholder: {
     0: 'Escribir...',

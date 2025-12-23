@@ -60,7 +60,9 @@ export default {
       '随机'
     ],
     4: '宽高比',
-    5: '更多'
+    5: '更多',
+    6: 'Recently uploaded/updated skins',
+    7: 'Newly released skins'
   },
   credits: {
     title: [
@@ -331,7 +333,6 @@ export default {
     29: '管理版本',
     30: '新建版本',
     31: '输入皮肤名称',
-    32: '是否有额外组件?',
     33: '选择宽高比',
     34: '{amount} 个问题',
     35: '编辑',
@@ -390,6 +391,7 @@ export default {
     80: '纯净版',
     81: '用于自定义样式、增加额外游戏内元素和未使用的文件',
     82: 'Select rating',
+    83: 'Released at:',
     checks: {
       0: '未标明皮肤名称',
       1: '添加至少一个作者',
@@ -475,10 +477,10 @@ export default {
     7: '提交举报'
   },
   plural: {
-    skins: '{amount} 个皮肤 | {amount} 个皮肤 | {amount} 个皮肤',
-    tags_skins: '«{name}» {amount} 个皮肤 | «{name}» {amount} 个皮肤 | «{name}» {amount} 个皮肤',
-    views: '{amount} 次浏览 | {amount} 次浏览 | {amount} 次浏览',
-    votes: '{amount} 次投票 | {amount} 次投票 | {amount} 次投票'
+    skins: '{amount} skin | {amount} skins | {amount} skins',
+    tags_skins: '«{name}» {amount} skin | «{name}» {amount} skins | «{name}» {amount} skins',
+    views: '{amount} view | {amount} views | {amount} views',
+    votes: '{amount} vote | {amount} votes | {amount} votes'
   },
   placeholder: {
     0: '输入文本..',

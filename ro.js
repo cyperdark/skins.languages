@@ -60,7 +60,9 @@ export default {
       'Aleatoriu'
     ],
     4: 'rapoarte de aspect',
-    5: 'mai mult'
+    5: 'mai mult',
+    6: 'Recently uploaded/updated skins',
+    7: 'Newly released skins'
   },
   credits: {
     title: [
@@ -331,7 +333,6 @@ export default {
     29: 'Gestionează versiunile',
     30: 'versiune nouă',
     31: 'Tastează numele skin-ului',
-    32: 'Are fișiere extra?',
     33: 'Selectează rapoartele de aspect',
     34: '{amount} probleme',
     35: 'Editează',
@@ -390,6 +391,7 @@ export default {
     80: 'Versiune doar cu elemente de gameplay',
     81: 'Fișiere pentru personalizare / elemente adiționale de gameplay (și fișiere neutilizate)',
     82: 'Select rating',
+    83: 'Released at:',
     checks: {
       0: 'Numele skin-ului nu a fost specificat',
       1: 'Adaugă cel puțin un creator',
@@ -475,10 +477,10 @@ export default {
     7: 'Trimite sesizarea'
   },
   plural: {
-    skins: '{amount} skin-uri | {amount} skin | {amount} skin-uri',
-    tags_skins: '{amount} skin-uri «{name}» | {amount} skin «{name}» | {amount} skin-uri «{name}»',
-    views: '{amount} vizualizări | {amount} vizualizare | {amount} vizualizări',
-    votes: '{amount} voturi | {amount} vot | {amount} voturi'
+    skins: '{amount} skin | {amount} skins | {amount} skins',
+    tags_skins: '«{name}» {amount} skin | «{name}» {amount} skins | «{name}» {amount} skins',
+    views: '{amount} view | {amount} views | {amount} views',
+    votes: '{amount} vote | {amount} votes | {amount} votes'
   },
   placeholder: {
     0: 'Tastează text..',

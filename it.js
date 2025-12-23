@@ -60,7 +60,9 @@ export default {
       'Casuale'
     ],
     4: 'proporzioni',
-    5: 'altro'
+    5: 'altro',
+    6: 'Recently uploaded/updated skins',
+    7: 'Newly released skins'
   },
   credits: {
     title: [
@@ -331,7 +333,6 @@ export default {
     29: 'Gestisci versioni',
     30: 'nuova versione',
     31: 'Scrivi il nome della skin',
-    32: 'Contiene degli extra?',
     33: 'Seleziona proporzioni',
     34: '{amount} problemi',
     35: 'Modifica',
@@ -390,6 +391,7 @@ export default {
     80: 'Gameplay only version',
     81: 'Files for customization / additional gameplay elements (and unused files)',
     82: 'Select rating',
+    83: 'Released at:',
     checks: {
       0: 'Nome della skin non specificata',
       1: 'Add at least one creator',
@@ -475,10 +477,10 @@ export default {
     7: 'Invia segnalazione'
   },
   plural: {
-    skins: '{amount} skins | {amount} skin | {amount} skins',
-    tags_skins: '«{name}» {amount} skins | «{name}» {amount} skin | «{name}» {amount} skins',
-    views: '{amount} views | {amount} view | {amount} views',
-    votes: '{amount} votes | {amount} vote | {amount} votes'
+    skins: '{amount} skin | {amount} skins | {amount} skins',
+    tags_skins: '«{name}» {amount} skin | «{name}» {amount} skins | «{name}» {amount} skins',
+    views: '{amount} view | {amount} views | {amount} views',
+    votes: '{amount} vote | {amount} votes | {amount} votes'
   },
   placeholder: {
     0: 'Scrivi testo..',

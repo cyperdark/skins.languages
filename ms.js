@@ -60,7 +60,9 @@ export default {
       'Rawak'
     ],
     4: 'nisbah aspek',
-    5: 'lebih banyak'
+    5: 'lebih banyak',
+    6: 'Recently uploaded/updated skins',
+    7: 'Newly released skins'
   },
   credits: {
     title: [
@@ -331,7 +333,6 @@ export default {
     29: 'Manage versions',
     30: 'new version',
     31: 'Type skin name',
-    32: 'Has extras?',
     33: 'Select aspect ratios',
     34: '{amount} issues',
     35: 'Edit',
@@ -390,6 +391,7 @@ export default {
     80: 'Gameplay only version',
     81: 'Files for customization / additional gameplay elements (and unused files)',
     82: 'Select rating',
+    83: 'Released at:',
     checks: {
       0: 'Skin name not specified',
       1: 'Add at least one creator',
@@ -475,10 +477,10 @@ export default {
     7: 'Submit report'
   },
   plural: {
-    skins: '{amount} skins | {amount} skin | {amount} skins',
-    tags_skins: '«{name}» {amount} skins | «{name}» {amount} skin | «{name}» {amount} skins',
-    views: '{amount} views | {amount} view | {amount} views',
-    votes: '{amount} votes | {amount} vote | {amount} votes'
+    skins: '{amount} skin | {amount} skins | {amount} skins',
+    tags_skins: '«{name}» {amount} skin | «{name}» {amount} skins | «{name}» {amount} skins',
+    views: '{amount} view | {amount} views | {amount} views',
+    votes: '{amount} vote | {amount} votes | {amount} votes'
   },
   placeholder: {
     0: 'Type text..',
