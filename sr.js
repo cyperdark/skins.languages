@@ -51,13 +51,13 @@ export default {
     1: 'Most [viewed], [liked], [downloaded] skins',
     2: [
       'viewed',
-      'liked',
+      'свиђања',
       'downloaded'
     ],
     3: [
-      'Recent',
+      'Скорашње',
       'New releases',
-      'Random'
+      'Насумично'
     ],
     4: 'aspect ratios',
     5: 'more',

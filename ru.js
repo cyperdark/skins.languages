@@ -279,7 +279,7 @@ export default {
   skin: {
     title: [
       'Добавить новый скин',
-      '{name} osu! скины'
+      '{name} osu! скин'
     ],
     description: '{size}MB osu скин для {modes}, созданный {creators}. Поддерживает {ratios}',
     rules: {
@@ -477,10 +477,10 @@ export default {
     7: 'Отправить репорт'
   },
   plural: {
-    skins: '{amount} скин | {amount} скина | {amount} скинов',
-    tags_skins: '«{name}» {amount} скин | «{name}» {amount} скина | «{name}» {amount} скинов',
-    views: '{amount} просмотр | {amount} просмотра | {amount} просмотров',
-    votes: '{amount} голос | {amount} голоса | {amount} голосов'
+    skins: '{amount} skin | {amount} skins | {amount} skins',
+    tags_skins: '«{name}» {amount} skin | «{name}» {amount} skins | «{name}» {amount} skins',
+    views: '{amount} view | {amount} views | {amount} views',
+    votes: '{amount} vote | {amount} votes | {amount} votes'
   },
   placeholder: {
     0: 'Введите текст..',
