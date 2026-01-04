@@ -61,14 +61,14 @@ export default {
     ],
     4: 'proporzioni',
     5: 'altro',
-    6: 'Recently uploaded/updated skins',
-    7: 'Newly released skins'
+    6: 'Skin caricate/aggiornate di recente',
+    7: 'Skin appena rilasciate'
   },
   credits: {
     title: [
       'Crediti delle opere d\'arte',
       'Used assets',
-      'Localization helpers'
+      'Assistenti alla traduzione'
     ],
     0: 'Crediti',
     1: 'C\'è qualcuno? [{lang}]',
@@ -108,20 +108,20 @@ export default {
     10: 'Impostazioni visualizzatore',
     11: 'Reimposta skin.ini',
     12: 'Esporta skin.ini',
-    13: 'Randomize colors (on current tab)',
-    14: 'Switch tab',
-    15: 'Rewind',
-    16: 'Forward',
+    13: 'Randomizza colori (sulla scheda attuale)',
+    14: 'Cambia scheda',
+    15: 'Riavvolgi',
+    16: 'Vai Avanti',
     17: 'Play/Pause viewer',
-    18: 'Move to previous settings section',
-    19: 'Move to next settings section',
-    20: 'Open menu',
-    21: 'Close menu',
-    22: 'Shortcut',
+    18: 'Vai alla sezione precedente delle impostazioni',
+    19: 'Vai alla sezione successiva delle impostazioni',
+    20: 'Apri menù',
+    21: 'Chiudi menù',
+    22: 'Scorciatoia',
     23: 'Descrizione',
     24: 'Specify via comma',
     25: 'Randomizza',
-    26: 'Revert to default element',
+    26: 'Ripristina all\'elemento predefinito',
     27: 'Ripristina predefiniti',
     28: 'Sostituisci file',
     29: 'segnala un problema',
@@ -132,7 +132,7 @@ export default {
     34: 'Cartella beatmap'
   },
   contests: {
-    title: 'Official osu! skinning contests',
+    title: 'Concorsi ufficiali di skinning di osu!',
     description: 'Lista di tutti i concorsi di osu! attivi e terminati',
     submit: [
       'Submissions closed...',
@@ -187,7 +187,7 @@ export default {
     7: 'Seleziona un tipo di cursore',
     8: 'Non è stato trovato niente',
     9: 'Try using a different set of search filters',
-    10: 'Pending query',
+    10: 'In attesa di query',
     11: 'Usa i filtri di ricerca o scrivi il titolo, l\'autore o i tag della skin',
     12: 'Seleziona il numero di tasti (mania)',
     13: 'reimposta',
@@ -208,7 +208,7 @@ export default {
     description: '',
     0: 'Non è stato trovato niente',
     1: 'Non sono state trovare skin per questo tag',
-    2: 'Try changing gamemode',
+    2: 'Prova a cambiare modalità di gioco',
     3: 'skin mancante'
   },
   users: {
@@ -227,7 +227,7 @@ export default {
     1: 'URL non corretto',
     2: 'Assicurati che il link sia corretto. Ad esempio: {url}',
     3: 'Formato non supportato',
-    4: 'Link format incorrect, use {url} or {url_1}',
+    4: 'Formato del link non corretto, usa {url} or {url_1}',
     5: `Cambia almeno un impostazione prima di aggiornarle`,
     6: `Impossibile aggiornare le impostazioni`,
     7: `Impostazioni aggiornate`,
@@ -290,7 +290,7 @@ export default {
       4: `Gli screenshots devono essere **pertinenti** e devono **rappresentare esattamente** la skin.`,
       5: `**Non** caricare skin che il creatore originale ha impostato come **privato** o che non desidera condividere. (A meno ché tu non abbia il permesso.)`,
       6: `Se la **tua skin** è basata sul lavoro di qualcun altro oppure **utilizza delle risorse** di altri creatori, **citali** nel tuo post.`,
-      7: `If your skin **includes** third-party assets (art, hitsounds, fonts, etc.), you **must** have permission and provide proper **credit** in the **Resources** tab of your submission.`,
+      7: `Se la tua skin **include** risorse di terze parti (arte, hitsounds, fonts, etc.), **devi** avere il permesso e **devi** fornire i propri **crediti** nella scheda **Risorse** del tuo caricamento.`,
       8: `Tutti i caricamenti **devono utilizzare Inglese** come lingua principale.\n- I titoli che contengono caratteri **non latini** devono anche includere una versione **romanizzata**.`,
       9: `I contenuti **proibiti** includono:\n- Contenuti religiosi o politici\n- Razzismo, incitamento all'odio o molestie\n- Immagini offensive o discriminatiorie\n- Gore eccessivo o violenza estrema\n- Contenuti sessuali espliciti, compreso le rappresentazioni di minorenni.`,
       10: `Contenuti suggestivi o verso il limite **devono essere etichettati** con il tag **NSFW**.`
@@ -359,8 +359,8 @@ export default {
     56: `Oops!`,
     57: 'Nessun file ".osk" è allegato a questa skin',
     58: `Non è stato trovato niente`,
-    59: 'Change query or try searching something else',
-    60: 'Log in to report a file',
+    59: 'Cambia query o prova a cercare qualcos\'altro',
+    60: 'Accedi per segnalare un file',
     61: 'Versioni',
     62: 'Link di download',
     63: 'Link del forum di osu!',
@@ -385,22 +385,22 @@ export default {
     74: 'Tutte le modifiche sono state salvate localmente',
     75: 'Modifiche ripristinate dalla cache',
     76: 'Rilasciato {date}',
-    77: 'Select roles',
-    78: 'report issue',
-    79: 'Version without hp bar, back button and skip animations',
+    77: 'Seleziona ruoli',
+    78: 'segnala un problema',
+    79: 'Versione senza animazioni di barra hp, pulsante indietro e pulsante salta',
     80: 'Gameplay only version',
     81: 'Files for customization / additional gameplay elements (and unused files)',
     82: 'Select rating',
     83: 'Released at:',
     checks: {
       0: 'Nome della skin non specificata',
-      1: 'Add at least one creator',
-      2: 'Select at least one aspect ratio',
-      3: 'No screenshots provided',
-      4: 'Add at least one gameplay screenshot',
+      1: 'Aggiungi almeno un creatore',
+      2: 'Seleziona almeno una proporzione',
+      3: 'Nessuno screenshot fornito',
+      4: 'Aggiungi almeno uno screenshot del gameplay',
       5: 'Link della skin non specificata',
-      6: 'Some creators do not have roles',
-      7: 'Some creators do not have names',
+      6: 'Alcuni creatori non hanno ruoli',
+      7: 'Alcuni creatori non hanno nomi',
       8: 'Data di rilascio della skin non specificata',
       9: 'Versione della skin non specificata',
       10: 'Content rating not selected'
@@ -411,13 +411,13 @@ export default {
     1: 'Apri a schermo intero',
     2: 'Switch to other gamemode',
     3: 'Cambia la categoria dell\'immagine',
-    4: 'Copy short link'
+    4: 'Copia link breve'
   },
   gallery: {
     0: 'Apri a schermo intero',
-    1: 'Exit fullscreen',
+    1: 'Esci dallo schermo intero',
     2: 'Reset zoom',
-    3: 'Close gallery'
+    3: 'Chiudi galleria'
   },
   screenshots_select: {
     0: 'Benvenuto',
@@ -433,10 +433,10 @@ export default {
     10: 'Schermata di Pausa',
     11: 'Schermata di Fallimento',
     12: 'Schermata dei risultati (sopra)',
-    13: 'Skip',
+    13: 'Salta',
     14: 'Banner',
     15: 'Schermata dei risultati (sotto)',
-    16: 'Pinned image',
+    16: 'Immagine fissata',
     17: 'osu!',
     18: 'catch the beat',
     19: 'mania',
@@ -453,8 +453,8 @@ export default {
     },
     skin_file: [
       'Il Link di download è mancante',
-      'Skin is broken',
-      'Describe what exactly broken'
+      'La skin è rotta',
+      'Descrivi cosa esattamente è rotto'
     ],
     skin: [
       'Screenshot sbagliati/mancanti',
@@ -479,8 +479,8 @@ export default {
   plural: {
     skins: '{amount} skin | {amount} skins | {amount} skins',
     tags_skins: '«{name}» {amount} skin | «{name}» {amount} skins | «{name}» {amount} skins',
-    views: '{amount} view | {amount} views | {amount} views',
-    votes: '{amount} vote | {amount} votes | {amount} votes'
+    views: '{amount} visualizzazione | {amount} visualizzazioni | {amount} visualizzazioni',
+    votes: '{amount} voto | {amount} voti | {amount} voti'
   },
   placeholder: {
     0: 'Scrivi testo..',
@@ -525,7 +525,7 @@ export default {
   nsfw: {
     0: 'Avviso NSFW!',
     1: 'Questa skin contiene contenuti sensibili o per adulti!',
-    2: 'Warning!',
+    2: 'Attenzione!',
     3: 'Avviso Furry!'
   },
   drag: {
