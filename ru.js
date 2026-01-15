@@ -171,7 +171,7 @@ export default {
     0: 'Скриншоты для этой категории не найдены'
   },
   search: {
-    title: 'Поиск osu! скинов',
+    title: 'Расширенный поиск osu! скинов',
     description: 'Найдите идеальный osu! скин с помощью нашей функции расширенного поиска. Просмотрите нашу огромную библиотеку, отфильтрованную по игровому режиму, соотношению сторон и т. д. Или посмотрите скины, используемые лучшими игроками.',
     0: 'Название скина, имя автора или тег',
     1: [
@@ -477,10 +477,10 @@ export default {
     7: 'Отправить репорт'
   },
   plural: {
-    skins: '{amount} skin | {amount} skins | {amount} skins',
-    tags_skins: '«{name}» {amount} skin | «{name}» {amount} skins | «{name}» {amount} skins',
-    views: '{amount} view | {amount} views | {amount} views',
-    votes: '{amount} vote | {amount} votes | {amount} votes'
+    skins: '{amount} скин | {amount} скина | {amount} скинов',
+    tags_skins: '«{name}» {amount} скин | «{name}» {amount} скина | «{name}» {amount} скинов',
+    views: '{amount} просмотр | {amount} просмотра | {amount} просмотров',
+    votes: '{amount} голос | {amount} голоса | {amount} голосов'
   },
   placeholder: {
     0: 'Введите текст..',
