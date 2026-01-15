@@ -171,7 +171,7 @@ export default {
     0: 'Nu există capturi de ecran pentru această categorie'
   },
   search: {
-    title: 'Caută skin-uri de osu!',
+    title: 'Advanced search for osu! skins',
     description: 'Găsește skin-ul osu! perfect folosind funcția noastră de căutare avansată. Răsfoiește biblioteca noastră uriașă, filtrată după modul de joc, raportul de aspect și multe altele. Sau verifică skin-urile folosite de jucătorii de top.',
     0: 'Titlul, autorul sau etichetele skin-ului',
     1: [
