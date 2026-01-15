@@ -171,7 +171,7 @@ export default {
     0: 'Screenshots für diese Kategorie nicht gefunden'
   },
   search: {
-    title: 'Suche osu! Skins',
+    title: 'Advanced search for osu! skins',
     description: 'Finde den perfekten osu! Skin mit unserer erweiterten Suchfunktion. Durchsuche unsere riesige Bibliothek, filtere nach Spielmodus, Seitenverhältnis und mehr. Oder schaue dir Skins an, die von den besten osu! Spielern verwendet werden.',
     0: 'Skin Titel, Autor oder Tags',
     1: [
