@@ -171,7 +171,7 @@ export default {
     0: 'Tangkapan layar tidak dapat dijumpa untuk kategori ini'
   },
   search: {
-    title: 'Cari skin-skin osu',
+    title: 'Advanced search for osu! skins',
     description: 'Cari skin osu! yang sempurna dengan ciri carian kami yang hebat. Semak melalui koleksi kami yang luas, ditapis dengan mod permainan, aspek nisbah, dan banyak lagi. Atau lihat skin yang digunakan oleh pemain-pemain terbaik.',
     0: 'Tajuk skin, pencipta atau tag',
     1: [

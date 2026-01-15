@@ -171,7 +171,7 @@ export default {
     0: 'Bu kategori için ekran görüntüsü bulunamadı'
   },
   search: {
-    title: 'osu! skinleri arayın',
+    title: 'Advanced search for osu! skins',
     description: 'Gelişmiş arama özelliğimizle mükemmel osu! skin\'ini bul. Ruleset\'ler, en boy oranı ve daha fazlasına göre filtrelenmiş devasa kütüphanemizi incele. Ya da en iyi oyuncuların kullandığı skin\'lere göz at.',
     0: 'Skin başlığı, yazar veya etiketler',
     1: [

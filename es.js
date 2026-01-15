@@ -171,7 +171,7 @@ export default {
     0: 'Capturas no encontradas para esta categoría'
   },
   search: {
-    title: 'Buscar skins de osu',
+    title: 'Advanced search for osu! skins',
     description: 'Encuentra la skin de osu! perfecta con nuestra función de búsqueda avanzada. Busca entre nuestra amplia librería, filtrada por modo de juego, relación de aspecto, y más. O mira las skins usadas por los mejores jugadores.',
     0: 'Título de la skin, autor o etiquetas',
     1: [

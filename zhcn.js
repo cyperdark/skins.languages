@@ -61,8 +61,8 @@ export default {
     ],
     4: '宽高比',
     5: '更多',
-    6: 'Recently uploaded/updated skins',
-    7: 'Newly released skins'
+    6: '最近上传/更新的皮肤',
+    7: '最新发布的皮肤'
   },
   credits: {
     title: [
@@ -171,7 +171,7 @@ export default {
     0: '找不到此分类下的截图'
   },
   search: {
-    title: '搜索 osu 皮肤',
+    title: 'Advanced search for osu! skins',
     description: '使用我们高级的搜索功能找到完美的 osu! 皮肤。浏览我们庞大的库，按游戏模式，画面比例等进行筛选。或者，查看顶尖玩家使用的皮肤。',
     0: '皮肤标题、作者或标签',
     1: [
@@ -390,8 +390,8 @@ export default {
     79: '无血条、返回和跳过按钮的版本',
     80: '纯净版',
     81: '用于自定义样式、增加额外游戏内元素和未使用的文件',
-    82: 'Select rating',
-    83: 'Released at:',
+    82: '选择内容分级',
+    83: '发布日期:',
     checks: {
       0: '未标明皮肤名称',
       1: '添加至少一个作者',
@@ -477,10 +477,10 @@ export default {
     7: '提交举报'
   },
   plural: {
-    skins: '{amount} skin | {amount} skins | {amount} skins',
-    tags_skins: '«{name}» {amount} skin | «{name}» {amount} skins | «{name}» {amount} skins',
-    views: '{amount} view | {amount} views | {amount} views',
-    votes: '{amount} vote | {amount} votes | {amount} votes'
+    skins: '{amount} 个皮肤 | {amount} 个皮肤 | {amount} 个皮肤',
+    tags_skins: '«{name}» {amount} 个皮肤 | «{name}» {amount} 个皮肤 | «{name}» {amount} 个皮肤',
+    views: '{amount} 次浏览 | {amount} 次浏览 | {amount} 次浏览',
+    votes: '{amount} 次投票 | {amount} 次投票 | {amount} 次投票'
   },
   placeholder: {
     0: '输入文本..',
@@ -525,7 +525,7 @@ export default {
   nsfw: {
     0: 'NSFW 警告！',
     1: '此皮肤包含敏感或成人内容！',
-    2: 'Warning!',
+    2: '注意!',
     3: '福瑞警告！'
   },
   drag: {
