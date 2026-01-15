@@ -214,7 +214,7 @@ export default {
   users: {
     title: [
       'Profile - {name} uploads',
-      'Profile - {name}'
+      'Profile - {name} skins'
     ],
     description: [
       'All osu! skins uploaded by {name}',
