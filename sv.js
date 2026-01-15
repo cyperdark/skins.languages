@@ -171,7 +171,7 @@ export default {
     0: 'Skärmdumpar hittades inte för denna kategori'
   },
   search: {
-    title: 'Sök efter osu skins',
+    title: 'Advanced search for osu! skins',
     description: 'Hitta det perfekta osu! skinnet med våran avancerade sökfunktion. Bläddra genom vårat massiva urval, filtrera med regeluppsättning, bildformat, och mer. Du kan även kolla in skins som osu! proffs brukar använda.',
     0: 'Skin titel, skapare eller taggar',
     1: [
