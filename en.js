@@ -208,7 +208,7 @@ export default {
   },
 
   search: {
-    title: 'Search osu skins',
+    title: 'Advanced search for osu! skins',
     description: 'Find the perfect osu! skin with our advanced search feature. Browse through our huge library, filtered by gamemode, aspect ratio, and more. Or check out skins used by top players.',
 
     0: 'Skin title, author, or tags',
@@ -260,7 +260,7 @@ export default {
   users: {
     title: [
       'Profile - {name} uploads',
-      'Profile - {name} skins',
+      'Profile - {name}',
     ],
     description: [
       'All osu! skins uploaded by {name}',
