@@ -171,7 +171,7 @@ export default {
     0: '找不到此分类下的截图'
   },
   search: {
-    title: 'Advanced search for osu! skins',
+    title: 'osu! 皮肤高级搜索',
     description: '使用我们高级的搜索功能找到完美的 osu! 皮肤。浏览我们庞大的库，按游戏模式，画面比例等进行筛选。或者，查看顶尖玩家使用的皮肤。',
     0: '皮肤标题、作者或标签',
     1: [
