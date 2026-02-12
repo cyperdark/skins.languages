@@ -96,7 +96,7 @@ export default {
       'caricamento visualizzatore'
     ],
     0: 'Benvenuto nell\'editor visuale di skin.ini!',
-    1: 'Here you can preview your skin gameplay with changes in real-time, such as combo colors, slider colors, and font offsets. Standard mode only for now',
+    1: 'Qui puoi visualizzare in anteprima il gameplay con la tua skin con modifiche in tempo reale, come i colori combo, colori degli slider, e gli offset dei caratteri. Per ora funziona solo per standard',
     2: 'Beatmap:',
     3: 'Incolla il link della beatmap',
     4: 'Importa .osk / .zip',
@@ -119,7 +119,7 @@ export default {
     21: 'Chiudi menù',
     22: 'Scorciatoia',
     23: 'Descrizione',
-    24: 'Specify via comma',
+    24: 'Specifica tramite virgola',
     25: 'Randomizza',
     26: 'Ripristina all\'elemento predefinito',
     27: 'Ripristina predefiniti',
@@ -143,22 +143,22 @@ export default {
     1: [
       'Submission',
       'Preparing',
-      'Voting',
-      'Finished'
+      'Votazione',
+      'Concluso'
     ],
     2: 'Announcement',
     3: 'Submissions ended',
-    4: 'Voting started',
-    5: 'Voting ended',
-    6: 'Results out',
+    4: 'Votazioni iniziate',
+    5: 'Votazioni concluse',
+    6: 'Risultati pubblicati',
     7: 'Submission phase...',
     8: 'Preparing phase...',
     9: 'Voting phase...',
-    10: 'Waiting results...',
+    10: 'In attesa di risultati...',
     11: 'Vota qui',
     12: 'announcement',
     13: 'submissions',
-    14: 'contest page',
+    14: 'pagina concorso',
     15: 'risultati',
     16: 'wiki',
     17: 'Ends in',
@@ -171,13 +171,13 @@ export default {
     0: 'Screenshots non trovati per questa categoria'
   },
   search: {
-    title: 'Advanced search for osu! skins',
+    title: 'Ricerca avanzata per skin di osu!',
     description: 'Find the perfect osu! skin with our advanced search feature. Browse through our huge library, filtered by gamemode, aspect ratio, and more. Or check out skins used by top players.',
     0: 'Skin title, author, or tags',
     1: [
       'name',
       'tags',
-      'creators'
+      'creatori'
     ],
     2: 'Seleziona un Intervallo di date',
     3: 'Intervallo Dimensioni',
@@ -241,9 +241,9 @@ export default {
     15: 'Link del blog',
     16: 'Mostra le skin a cui hai messo "mi piace"',
     17: 'Aggiorna impostazioni',
-    18: '{amount} upload | {amount} uploads | {amount} uploads',
+    18: '{amount} caricato | {amount} caricati | {amount} caricati',
     19: 'Blog',
-    20: 'Skins Stats',
+    20: 'Statistiche Skin',
     21: 'Expand «about me» | Close «about me»',
     22: 'Non è stato trovato niente',
     23: 'Non sono state trovate skin per questo creatore'
@@ -279,9 +279,9 @@ export default {
   skin: {
     title: [
       'Invia nuova skin',
-      '{name} osu skin'
+      '{name} skin di osu!'
     ],
-    description: '{size}MB osu skin for {modes}, created by {creators}. Supports {ratios}',
+    description: 'skin di osu! di {size}MB per {modes}, creata da {creators}. Supporta {ratios}',
     rules: {
       0: `**Non** postare cose senza senso.`,
       1: `**Non** postare contenuti di **bassa qualità** o **duplicati**.`,
@@ -305,7 +305,7 @@ export default {
     7: 'Suggested changes',
     8: 'Select which changes you want to be applied',
     9: 'Applica',
-    10: 'Reject',
+    10: 'Rifiuta',
     11: 'Apply changes',
     12: [
       'About',
@@ -407,16 +407,16 @@ export default {
     }
   },
   skin_block: {
-    0: 'Open skin page',
+    0: 'Apri pagina skin',
     1: 'Apri a schermo intero',
-    2: 'Switch to other gamemode',
+    2: 'Cambia ad un\'altra modalità di gioco',
     3: 'Cambia la categoria dell\'immagine',
     4: 'Copia link breve'
   },
   gallery: {
     0: 'Apri a schermo intero',
     1: 'Esci dallo schermo intero',
-    2: 'Reset zoom',
+    2: 'Resetta zoom',
     3: 'Chiudi galleria'
   },
   screenshots_select: {
@@ -449,7 +449,7 @@ export default {
     ],
     tag: {
       0: 'Skin mancante',
-      1: 'Link to a video of missing skin'
+      1: 'Link al video della skin mancante'
     },
     skin_file: [
       'Il Link di download è mancante',
@@ -516,7 +516,7 @@ export default {
     ],
     1: 'Esempi di utilizzo:',
     2: `Seleziona la categoria dello screenshot`,
-    3: '{amount} downloads',
+    3: '{amount} scaricati',
     4: '{amount} visualizzazioni',
     5: '{likes} mi piace / {dislikes} non mi piace',
     6: '{amount} skins',

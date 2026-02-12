@@ -171,7 +171,7 @@ export default {
     0: 'Schermopnames niet gevonden voor deze categorie'
   },
   search: {
-    title: 'Advanced search for osu! skins',
+    title: 'Geavanceerd zoeken naar osu! skins',
     description: 'Vind de perfecte osu! skin met onze geavanceerd zoek mechanisme. Verdwaal in onze gigantische bibliotheek, gefilterd op gamemode, aspect ratio en meer, of neem een kijkje bij skins die de beste spelers gebruiken.',
     0: 'Skin titel, auteur of categorieën',
     1: [
