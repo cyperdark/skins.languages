@@ -88,7 +88,7 @@ export default {
   },
   skin_ini: {
     title: 'Editor visual para skin.ini - osu! tools',
-    description: '',
+    description: 'Preview your skin gameplay with in real-time changes such as combo colors, slider colors, and font offsets. Standard mode only for now',
     prepare: [
       'cargando mapa',
       'cargando skin',
@@ -212,14 +212,8 @@ export default {
     3: 'aspecto ausente'
   },
   users: {
-    title: [
-      'Perfil - Subidas de {name}',
-      'Perfil - Aspectos de {name}'
-    ],
-    description: [
-      'Todos los aspectos de osu! subidos por {name}',
-      'Todos los aspectos de osu! creadas por {name}'
-    ],
+    title: ['Profile - {name} skins'],
+    description: ['All osu! skins created by {name}'],
     0: [
       'Aspectos creados',
       'Aspectos subidos'
@@ -246,7 +240,8 @@ export default {
     20: 'Estadísticas de Skin',
     21: 'Expandir «sobre mí» | Cerrar «sobre mí»',
     22: 'No se encontraron resultados',
-    23: 'Ninguna skin fue encontrada para este creador'
+    23: 'Ninguna skin fue encontrada para este creador',
+    24: 'copied'
   },
   skins: {
     title: [
@@ -257,7 +252,12 @@ export default {
       '204 aspectos más descargados de {mode}',
       '204 aspectos de {mode} más queridos'
     ],
-    description: ['{amount} aspectos para osu!, catch the beat, mania y taiko'],
+    description: [
+      '{amount} aspectos para osu!, catch the beat, mania y taiko',
+      'List of most viewed {mode} skins featuring rich image gallery for all osu! screens and quick switching functionality between them',
+      'List of most downloaded {mode} skins featuring rich image gallery for all osu! screens and quick switching functionality between them',
+      'List of most liked {mode} skins featuring rich image gallery for all osu! screens and quick switching functionality between them'
+    ],
     0: 'Todo',
     1: 'Popular',
     2: 'osu!',
@@ -281,7 +281,7 @@ export default {
       'Sube un nuevo aspecto',
       '{name} aspecto de osu!'
     ],
-    description: 'aspectos de {size}MB para {modes}, creador por {creators}. Soporta {ratios}',
+    description: 'Download {size}MB {modes} skin made by {creators}, featuring {images} high-quality screenshots, compatible with {ratios} and released at {date}',
     rules: {
       0: `**No** publiques cosas sin sentido.`,
       1: `**No** publiques cosas de **baja calidad** o **duplicados**.`,
@@ -386,12 +386,15 @@ export default {
     75: 'Cambios del caché restaurados',
     76: 'Lanzado en {date}',
     77: 'Selecciona roles',
-    78: 'Informar de un problema',
+    78: 'report',
     79: 'Version without hp bar, back button and skip animations',
     80: 'Gameplay only version',
     81: 'Archivos para personalización / elementos adicionales de gameplay (y archivos sin uso)',
     82: 'Select rating',
     83: 'Released at:',
+    84: 'Select screenshot variant',
+    85: 'try disabling «Quick select»',
+    86: 'Submit again',
     checks: {
       0: 'El nombre del aspecto no ha sido especificado',
       1: 'Añade al menos un creador',
@@ -403,7 +406,8 @@ export default {
       7: 'Algunos creadores no tienen nombres',
       8: 'Fecha de lanzamiento no especificada',
       9: 'Versión del aspecto no especificada',
-      10: 'Calificación de contenido no seleccionada'
+      10: 'Calificación de contenido no seleccionada',
+      11: `Release date can't be in future`
     }
   },
   skin_block: {
@@ -452,7 +456,7 @@ export default {
       1: 'Enlace a un video de la piel ausente'
     },
     skin_file: [
-      'Falta el enlace de descarga',
+      'Download link broken',
       'El aspecto está roto',
       'Describe qué está exactamente roto'
     ],
@@ -544,8 +548,9 @@ export default {
     expand_more: 'Mostrar más | Mostrar menos'
   },
   error: {
-    0: 'página de inicio',
-    1: 'inicia sesión',
-    2: 'Reportar problema'
+    0: 'Home page',
+    1: 'Iniciar sesión',
+    2: 'Reportar problema',
+    3: 'Go back'
   }
 };
