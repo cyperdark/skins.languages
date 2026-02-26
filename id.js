@@ -1,40 +1,40 @@
 export default {
   header: {
-    home: 'Home',
-    contests: 'Contests',
-    ideas: 'Inspiration',
-    tools: 'Tools',
-    popular: 'Popular skins',
-    all_skins: 'All skins',
-    tags: 'Tags',
-    new: 'New',
-    contribute: 'Contribute',
-    login: 'Log in',
-    0: 'Views',
-    1: 'Downloads',
-    2: 'Likes'
+    home: 'Beranda',
+    contests: 'Kontes',
+    ideas: 'Inspirasi',
+    tools: 'Alat',
+    popular: 'Skin populer',
+    all_skins: 'Semua Skin',
+    tags: 'Label',
+    new: 'Baru',
+    contribute: 'Kontribusi',
+    login: 'Masuk',
+    0: 'Dilihat',
+    1: 'Diunduh',
+    2: 'Suka'
   },
   notifications: {
-    0: 'Notifications',
-    1: 'Follow us on these platforms to receive notifications about new skins'
+    0: 'Notifikasi',
+    1: 'Ikuti kami di platform ini untuk menerima notifikasi tentang skin baru'
   },
   user_menu: {
-    0: 'profile',
+    0: 'profil',
     1: 'my skins queue',
     2: 'relogin',
     3: 'log out'
   },
   status: {
-    0: 'Nothing was found',
-    1: 'Not found',
-    2: `Couldn't load image`,
-    3: 'No image to load'
+    0: 'Tidak ada yang ditemukan',
+    1: 'Tidak ditemukan',
+    2: `Gagal memuat gambar`,
+    3: 'Tidak ada gambar untuk dimuat'
   },
   settings: {
     0: 'Settings',
     1: 'Mouse scroll',
     2: 'Enables easy image navigation when hovering over a skin block.',
-    3: 'Zoom in',
+    3: 'Perbesar',
     4: 'Enables automatic image zoom when hovering over a skin block.'
   },
   footer: {
@@ -43,11 +43,11 @@ export default {
   },
   home: {
     title: [
-      'Discover osu! skins',
-      'Random osu! skins'
+      'Temukan skin osu!',
+      'Skin osu! acak'
     ],
-    description: 'Find the best osu! skins on our site! Our huge library has skins for all gamemodes, aspect ratios and even top players. Plus, we have a special section for anime fans. Improve your gameplay with the perfect skin. #osuskins #osugame #anime',
-    0: 'Available for download',
+    description: 'Temukan skin osu! terbaik di situs kami! Koleksi skin kami yang besar mencakup semua mode permainan, rasio aspek, dan bahkan pemain top. Selain itu, kami memiliki bagian khusus untuk penggemar anime. Tingkatkan gameplay Anda dengan skin yang sempurna. #osuskins #osugame #anime',
+    0: 'Tersedia untuk didownload',
     1: 'Most [viewed], [liked], [downloaded] skins',
     2: [
       'viewed',
@@ -55,13 +55,13 @@ export default {
       'downloaded'
     ],
     3: [
-      'Recent',
-      'New releases',
-      'Random'
+      'Terbaru',
+      'Rilisan terbaru',
+      'Acak'
     ],
-    4: 'aspect ratios',
-    5: 'more',
-    6: 'Recently uploaded/updated skins',
+    4: 'aspek rasio',
+    5: 'selengkapnya',
+    6: 'Skin yang baru saja diunggah/diperbarui',
     7: 'Newly released skins'
   },
   credits: {
@@ -71,121 +71,121 @@ export default {
       'Localization helpers'
     ],
     0: 'Credits',
-    1: 'Anyone? [{lang}]',
-    2: 'Seems like cyperdark forgot to add them. {text}',
+    1: 'Siapapun? [{lang}]',
+    2: 'Sepertinya, cyperdark lupa menambahkannya. {text}',
     3: [
       'Artworks',
       'Localization',
       'Assets'
     ],
-    4: 'All icons are taken from {name}',
+    4: 'Semua ikon diambil dari {name}',
     5: 'Semua gambar bendera diambil dari {name}'
   },
   tools: {
-    title: 'Skinning tools for osu! (by me :) )',
-    description: 'Useful skinning tools for osu!, made by cyperdark',
-    0: 'More skinning tools'
+    title: 'Alat untuk membuat skin osu! (oleh aku :) )',
+    description: 'Alat pembuatan skin yang berguna untuk osu!, dibuat oleh cyperdark',
+    0: 'Alat pembuatan skin lainnya'
   },
   skin_ini: {
     title: 'Visual skin.ini editor - osu! tools',
     description: '',
     prepare: [
-      'loading beatmap',
-      'loading skin',
-      'preparing skin',
+      'memuat beatmap',
+      'memuat skin',
+      'menyiapkan skin',
       'loading viewer'
     ],
-    0: 'Welcome to the visual skin.ini editor!',
-    1: 'Here you can preview your skin gameplay with changes in real-time, such as combo colors, slider colors, and font offsets. Standard mode only for now',
+    0: 'Selamat datang di editor visual skin.ini!',
+    1: 'Di sini Anda dapat melihat pratinjau tampilan gameplay skin Anda dengan perubahan secara real-time, seperti warna kombo, warna slider, dan offset font. Saat ini hanya untuk mode standar',
     2: 'Beatmap:',
-    3: 'Paste beatmap link',
-    4: 'Import .osk / .zip',
-    5: 'Import skin folder',
-    6: '.osu file not found',
+    3: 'Tempel tautan beatmap',
+    4: 'Impor .osk/.zip',
+    5: 'Impor folder skin',
+    6: 'file .osu tidak ditemukan',
     7: 'Incorrect gamemode, only standard beatmaps are allowed',
-    8: 'Skin.ini not found',
-    9: 'Select at least 1 .osk / .zip file',
+    8: 'Skin.ini tidak ditemukan',
+    9: 'Pilih minimal 1 file .osk/ .zip',
     10: 'Viewer settings',
-    11: 'Reset skin.ini',
-    12: 'Export skin.ini',
-    13: 'Randomize colors (on current tab)',
-    14: 'Switch tab',
+    11: 'Atur ulang skin.ini',
+    12: 'Ekspor skin.ini',
+    13: 'Acak warna (pada tab saat ini)',
+    14: 'Ganti tab',
     15: 'Rewind',
     16: 'Forward',
     17: 'Play/Pause viewer',
     18: 'Move to previous settings section',
     19: 'Move to next settings section',
-    20: 'Open menu',
-    21: 'Close menu',
-    22: 'Shortcut',
-    23: 'Description',
-    24: 'Specify via comma',
-    25: 'Randomize',
-    26: 'Revert to default element',
-    27: 'Reset to default',
-    28: 'Replace file',
-    29: 'issue',
-    30: 'Drag and drop files or skin',
-    31: 'loaded',
-    32: 'Gameplay speed',
-    33: 'Random beatmap',
-    34: 'Beatmap folder'
+    20: 'Buka menu',
+    21: 'Tutup menu',
+    22: 'Pintasan',
+    23: 'Deskripsi',
+    24: 'Tentukan dengan koma',
+    25: 'Acak',
+    26: 'Kembali ke elemen bawaan',
+    27: 'Setel ulang ke bawaan',
+    28: 'Ganti file',
+    29: 'masalah',
+    30: 'Seret dan lepas file atau skin',
+    31: 'termuat',
+    32: 'Kecepatan gameplay',
+    33: 'Beatmap acak',
+    34: 'Folder beatmap'
   },
   contests: {
-    title: 'Official osu! skinning contests',
-    description: 'List of all active/finished osu! contests',
+    title: 'Kontes resmi pembuatan skin osu!',
+    description: 'Daftar semua kontes osu! yang aktif/selesai',
     submit: [
-      'Submissions closed...',
-      'Submissions in progress...',
-      'Submit your entry'
+      'Pengajuan ditutup...',
+      'Pengajuan sedang diproses...',
+      'Kirimkan entri anda'
     ],
-    0: 'Official skinning contests',
+    0: 'Kontes resmi pembuatan skin',
     1: [
-      'Submission',
-      'Preparing',
-      'Voting',
-      'Finished'
+      'Pengajuan',
+      'Persiapan',
+      'Pemungutan suara',
+      'Selesai'
     ],
-    2: 'Announcement',
-    3: 'Submissions ended',
-    4: 'Voting started',
-    5: 'Voting ended',
-    6: 'Results out',
-    7: 'Submission phase...',
-    8: 'Preparing phase...',
-    9: 'Voting phase...',
-    10: 'Waiting results...',
+    2: 'Pengumuman',
+    3: 'Pengajuan berakhir',
+    4: 'Pemungutan suara dimulai',
+    5: 'Pemungutan suara selesai',
+    6: 'Keputusan keluar',
+    7: 'Fase pengajuan...',
+    8: 'Fase persiapan...',
+    9: 'Fase pemungutan suara...',
+    10: 'Menunggu hasil...',
     11: 'Vote here',
-    12: 'announcement',
-    13: 'submissions',
-    14: 'contest page',
-    15: 'results',
+    12: 'pengumuman',
+    13: 'pengajuan',
+    14: 'halaman kontes',
+    15: 'hasil',
     16: 'wiki',
-    17: 'Ends in',
-    18: 'Skins not found for this contest',
-    19: 'Expand description | Close description'
+    17: 'Berakhir dalam',
+    18: 'Skin tidak ditemukan untuk kontes ini',
+    19: 'Perluas deskripsi | Tutup deskripsi'
   },
   ideas: {
-    title: 'Inspiration - osu! skins',
-    description: 'Find inspiration for your next osu! skin on our site. Browse through a diverse collection of skins and discover new techniques and ideas. Get inspired and create your own unique skins.',
-    0: 'Screenshots not found for this category'
+    title: 'Inspirasi - osu! skin',
+    description: 'Temukan inspirasi untuk skin osu! Anda selanjutnya di situs kami. Jelajahi koleksi skin yang beragam dan temukan teknik serta ide baru. Dapatkan inspirasi dan ciptakan skin unik Anda sendiri.',
+    0: 'Tangkapan layar tidak ditemukan untuk kategori ini'
   },
   search: {
-    title: 'Advanced search for osu! skins',
-    description: 'Find the perfect osu! skin with our advanced search feature. Browse through our huge library, filtered by gamemode, aspect ratio, and more. Or check out skins used by top players.',
-    0: 'Skin title, author, or tags',
+    title: 'Pencarian lanjutan untuk skin osu!',
+    description: 'Temukan skin osu! yang sempurna dengan fitur pencarian lanjutan kami. Jelajahi koleksi besar kami, yang difilter berdasarkan mode permainan, rasio aspek, dan banyak lagi. Atau lihat skin yang digunakan oleh pemain top.',
+    0: 'Judul, pembuat, atau label skin',
     1: [
-      'name',
-      'tags',
-      'creators'
+      'nama',
+      'label',
+      'pembuat'
     ],
-    2: 'Select date range',
-    3: 'Size range',
-    4: 'View count range',
-    5: 'Download count range',
-    6: 'Like count range',
-    7: 'Select cursor type',
-    8: 'Nothing was found',
+    2: 'Pilih rentang tanggal',
+    3: 'Ukuran rentang',
+    4: 'Rentang jumlah tayangan',
+    5: 'Rentang jumlah unduhan',
+    6: 'Rentang jumlah suka',
+    7: 'Pilih jenis kursor',
+    8: 'Tidak ada yang ditemukan',
     9: 'Try using a different set of search filters',
     10: 'Pending query',
     11: 'Use the search filters or type the skin\'s title, author or tags',
@@ -200,13 +200,13 @@ export default {
   tags: {
     title: 'Search tags',
     description: '',
-    0: 'Nothing was found',
+    0: 'Tidak ada yang ditemukan',
     1: 'Try searching something else'
   },
   tag: {
     title: '{name} osu skins',
     description: '',
-    0: 'Nothing was found',
+    0: 'Tidak ada yang ditemukan',
     1: 'No skins were found for this tag',
     2: 'Try changing gamemode',
     3: 'missing skin'
@@ -245,7 +245,7 @@ export default {
     19: 'Blog',
     20: 'Skins Stats',
     21: 'Expand «about me» | Close «about me»',
-    22: 'Nothing was found',
+    22: 'Tidak ada yang ditemukan',
     23: 'No skins were found for this creator'
   },
   skins: {
@@ -265,7 +265,7 @@ export default {
     4: 'mania',
     5: 'taiko',
     6: 'universal ratio',
-    7: 'Nothing was found',
+    7: 'Tidak ada yang ditemukan',
     8: 'No skins were found for this category',
     9: [
       'downloads',
@@ -311,7 +311,7 @@ export default {
       'About',
       'Screenshots',
       'Resources',
-      'Downloads',
+      'Diunduh',
       'Comments'
     ],
     13: 'Banner added',
@@ -339,7 +339,7 @@ export default {
     36: 'Log in to report skin',
     37: 'Exit editing',
     38: 'Remove banner',
-    39: 'Description',
+    39: 'Deskripsi',
     40: '**Animations** - has animated elements (back button / skip button / hp bar)',
     41: '**Extras** - has files for customization / additional gameplay elements',
     42: '**HD** - has files for resolutions **above** 1366x768',
@@ -358,7 +358,7 @@ export default {
     55: 'Url:',
     56: `Oops!`,
     57: 'No `.osk` files are attached to this skin',
-    58: `Nothing was found`,
+    58: `Tidak ada yang ditemukan`,
     59: 'Change query or try searching something else',
     60: 'Log in to report a file',
     61: 'Versions',
@@ -369,7 +369,7 @@ export default {
     66: 'Creators',
     67: 'If a creator wants to be anonymous or a collaborator does not have a Bancho account, you can add them as a ghost creator.',
     68: 'Creators not added',
-    69: 'Tags',
+    69: 'Label',
     70: 'Tags not added',
     71: 'start typing to get suggestions',
     72: 'Show',
@@ -491,11 +491,11 @@ export default {
     date: 'Date',
     release_date: 'Release date',
     upload_date: 'Upload date',
-    view: 'Views',
+    view: 'Dilihat',
     vote: 'Votes',
     name: 'Name',
-    download: 'Downloads',
-    like: 'Likes',
+    download: 'Diunduh',
+    like: 'Suka',
     size: 'Size',
     total: 'Total'
   },
@@ -538,8 +538,8 @@ export default {
     load_more: 'Muat lebih',
     close: 'Tutup',
     choose: [
-      'Yes',
-      'No'
+      'Ya',
+      'Tidak'
     ],
     expand_more: 'Show more | Show less'
   },
