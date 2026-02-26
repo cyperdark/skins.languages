@@ -88,7 +88,7 @@ export default {
   },
   skin_ini: {
     title: 'Editor vizual skin.ini - instrumente pentru osu!',
-    description: '',
+    description: 'Preview your skin gameplay with in real-time changes such as combo colors, slider colors, and font offsets. Standard mode only for now',
     prepare: [
       'se încarcă beatmap-ul',
       'se încarcă skin-ul',
@@ -212,14 +212,8 @@ export default {
     3: 'skin lipsă'
   },
   users: {
-    title: [
-      'Profil - {name} încărcări',
-      'Profil - {name} skin-uri'
-    ],
-    description: [
-      'Toate skin-urile de osu încărcate de {name}',
-      'Toate skin-urile de osu create de {name}'
-    ],
+    title: ['Profile - {name} skins'],
+    description: ['All osu! skins created by {name}'],
     0: [
       'Skin-uri create',
       'Skin-uri încărcate'
@@ -246,7 +240,8 @@ export default {
     20: 'Statistici Skin-uri',
     21: 'Extinde «despre mine» | Închide «despre mine»',
     22: 'Nu am găsit nimic',
-    23: 'Nu au fost găsite skin-uri pentru acest creator'
+    23: 'Nu au fost găsite skin-uri pentru acest creator',
+    24: 'copied'
   },
   skins: {
     title: [
@@ -257,7 +252,12 @@ export default {
       '204 Cele mai descărcate skin-uri de {mode}',
       '204 Cele mai apreciate skin-uri de {mode}'
     ],
-    description: ['{amount} skin-uri de osu!, catch the beat, mania și taiko'],
+    description: [
+      '{amount} skin-uri de osu!, catch the beat, mania și taiko',
+      'List of most viewed {mode} skins featuring rich image gallery for all osu! screens and quick switching functionality between them',
+      'List of most downloaded {mode} skins featuring rich image gallery for all osu! screens and quick switching functionality between them',
+      'List of most liked {mode} skins featuring rich image gallery for all osu! screens and quick switching functionality between them'
+    ],
     0: 'Toate',
     1: 'Populare',
     2: 'osu!',
@@ -281,7 +281,7 @@ export default {
       'Încarcă un skin nou',
       'skin osu! {name}'
     ],
-    description: 'Skin osu! de {size}MB pentru {modes}, creat de {creators}. Pentru {ratios}',
+    description: 'Download {size}MB {modes} skin made by {creators}, featuring {images} high-quality screenshots, compatible with {ratios} and released at {date}',
     rules: {
       0: `**Nu** posta conținut fără sens.`,
       1: `**Nu** posta skin-uri cu **calitate slabă** sau **duplicate**.`,
@@ -386,12 +386,15 @@ export default {
     75: 'Modificările au fost restaurate din memorie',
     76: 'Lansat {date}',
     77: 'Selectează rolurile',
-    78: 'raportează o problemă',
+    78: 'report',
     79: 'Versiune fără hp bar, back button și skip animations',
     80: 'Versiune doar cu elemente de gameplay',
     81: 'Fișiere pentru personalizare / elemente adiționale de gameplay (și fișiere neutilizate)',
     82: 'Select rating',
     83: 'Released at:',
+    84: 'Select screenshot variant',
+    85: 'try disabling «Quick select»',
+    86: 'Submit again',
     checks: {
       0: 'Numele skin-ului nu a fost specificat',
       1: 'Adaugă cel puțin un creator',
@@ -403,7 +406,8 @@ export default {
       7: 'Unii creatori nu au nume',
       8: 'Data de lansare a skin-ului nespecificată',
       9: 'Versiunea skin-ului nespecificată',
-      10: 'Clasificarea conținutului nespecificată'
+      10: 'Clasificarea conținutului nespecificată',
+      11: `Release date can't be in future`
     }
   },
   skin_block: {
@@ -452,7 +456,7 @@ export default {
       1: 'Link către un video a skin-ului lipsă'
     },
     skin_file: [
-      'Link-ul de descărcare lipsește',
+      'Download link broken',
       'Skin corupt',
       'Descrie ce anume este defect'
     ],
@@ -544,8 +548,9 @@ export default {
     expand_more: 'Afișează mai mult | Afișează mai puțin'
   },
   error: {
-    0: 'pagină principală',
-    1: 'conectează-te',
-    2: 'Sesizează o problemă'
+    0: 'Home page',
+    1: 'Conectează-te',
+    2: 'Sesizează o problemă',
+    3: 'Go back'
   }
 };
