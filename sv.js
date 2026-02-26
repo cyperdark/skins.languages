@@ -88,7 +88,7 @@ export default {
   },
   skin_ini: {
     title: 'Visuell skin.ini redigerare - osu! verktyg',
-    description: '',
+    description: 'Preview your skin gameplay with in real-time changes such as combo colors, slider colors, and font offsets. Standard mode only for now',
     prepare: [
       'laddar beatmap',
       'laddar skin',
@@ -212,14 +212,8 @@ export default {
     3: 'missing skin'
   },
   users: {
-    title: [
-      'Profil - {name} uppladningar',
-      'Profil - {name} skins'
-    ],
-    description: [
-      'Alla osu! skins uppladdade av {name}',
-      'Alla osu! skins skapade av {name}'
-    ],
+    title: ['Profile - {name} skins'],
+    description: ['All osu! skins created by {name}'],
     0: [
       'Skapade skins',
       'Uppladdade skins'
@@ -246,7 +240,8 @@ export default {
     20: 'Statistik för skins',
     21: 'Expandera «om mig» | Stäng «om mig»',
     22: 'Ingenting hittades',
-    23: 'Vi hittade inga skins gjort av denna skapare.'
+    23: 'Vi hittade inga skins gjort av denna skapare.',
+    24: 'copied'
   },
   skins: {
     title: [
@@ -257,7 +252,12 @@ export default {
       '204 Mest nedladdade {mode} skins',
       '204 Mest gillade {mode} skins'
     ],
-    description: ['{amount} skins för osu!, catch the beat, mania och taiko'],
+    description: [
+      '{amount} skins för osu!, catch the beat, mania och taiko',
+      'List of most viewed {mode} skins featuring rich image gallery for all osu! screens and quick switching functionality between them',
+      'List of most downloaded {mode} skins featuring rich image gallery for all osu! screens and quick switching functionality between them',
+      'List of most liked {mode} skins featuring rich image gallery for all osu! screens and quick switching functionality between them'
+    ],
     0: 'Alla',
     1: 'Populärt',
     2: 'osu!',
@@ -281,7 +281,7 @@ export default {
       'Skicka in nytt skin',
       '{name} osu! skin'
     ],
-    description: '{size}MB osu skin för {modes}, skapat av {creators}. Stödjer {ratios}',
+    description: 'Download {size}MB {modes} skin made by {creators}, featuring {images} high-quality screenshots, compatible with {ratios} and released at {date}',
     rules: {
       0: `Posta **INTE** nonsens.`,
       1: `Posta **INTE** inlämningar med **låg kvalitet** eller som redan har **identiska** poster.`,
@@ -386,12 +386,15 @@ export default {
     75: 'Ändringar återställda från cache',
     76: 'Släppt {date}',
     77: 'Välj roller',
-    78: 'report issue',
+    78: 'report',
     79: 'Version without hp bar, back button and skip animations',
     80: 'Gameplay only version',
     81: 'Files for customization / additional gameplay elements (and unused files)',
     82: 'Select rating',
     83: 'Released at:',
+    84: 'Select screenshot variant',
+    85: 'try disabling «Quick select»',
+    86: 'Submit again',
     checks: {
       0: 'Skinnets namn är inte specificerat',
       1: 'Lägg till minst en skapare',
@@ -403,7 +406,8 @@ export default {
       7: 'Vissa skapare har inte namn',
       8: 'Skinnets utsläppningsdatum är inte specificerat',
       9: 'Skinversion är inte specifierat',
-      10: 'Innehållsklassificering är inte markerad'
+      10: 'Innehållsklassificering är inte markerad',
+      11: `Release date can't be in future`
     }
   },
   skin_block: {
@@ -452,7 +456,7 @@ export default {
       1: 'Länka till en video av ett skin som saknas'
     },
     skin_file: [
-      'Nedladdningslänken saknas',
+      'Download link broken',
       'Skinnet funkar inte',
       'Beskriv vad som inte funkar'
     ],
@@ -544,8 +548,9 @@ export default {
     expand_more: 'Visa mer | Visa mindre'
   },
   error: {
-    0: 'startsida',
-    1: 'logga in',
-    2: 'Rapportera ett problem'
+    0: 'Home page',
+    1: 'Logga in',
+    2: 'Rapportera ett problem',
+    3: 'Go back'
   }
 };
