@@ -88,7 +88,7 @@ export default {
   },
   skin_ini: {
     title: 'Visueller skin.ini-Editor - osu! Tools',
-    description: '',
+    description: 'Preview your skin gameplay with in real-time changes such as combo colors, slider colors, and font offsets. Standard mode only for now',
     prepare: [
       'Beatmap wird geladen...',
       'Skin wird geladen...',
@@ -212,14 +212,8 @@ export default {
     3: 'missing skin'
   },
   users: {
-    title: [
-      'Profil - {name} Uploads',
-      'Profil - {name} Skins'
-    ],
-    description: [
-      'Alle osu! Skins hochgeladen von {name}',
-      'Alle osu! Skins erstellt von {name}'
-    ],
+    title: ['Profile - {name} skins'],
+    description: ['All osu! skins created by {name}'],
     0: [
       'Erstellte Skins',
       'Hochgeladene Skins'
@@ -246,7 +240,8 @@ export default {
     20: 'Skins Statistiken',
     21: '«Über mich» erweitern | Schließen «über mich»',
     22: 'Keine Ergebnisse gefunden',
-    23: 'Keine Skins für diesen Ersteller gefunden'
+    23: 'Keine Skins für diesen Ersteller gefunden',
+    24: 'copied'
   },
   skins: {
     title: [
@@ -257,7 +252,12 @@ export default {
       '204 meist heruntergeladene {mode}-Skins',
       '204 meistgelikte {mode}-Skins'
     ],
-    description: ['{amount} Skins für osu!, catch the beat, mania und taiko'],
+    description: [
+      '{amount} Skins für osu!, catch the beat, mania und taiko',
+      'List of most viewed {mode} skins featuring rich image gallery for all osu! screens and quick switching functionality between them',
+      'List of most downloaded {mode} skins featuring rich image gallery for all osu! screens and quick switching functionality between them',
+      'List of most liked {mode} skins featuring rich image gallery for all osu! screens and quick switching functionality between them'
+    ],
     0: 'Alle',
     1: 'Beliebt',
     2: 'osu!',
@@ -281,7 +281,7 @@ export default {
       'Neuen Skin einreichen',
       '{name} osu! Skin'
     ],
-    description: '{size}MB osu! Skin für {modes}, erstellt von {creators}. Unterstützt {ratios}',
+    description: 'Download {size}MB {modes} skin made by {creators}, featuring {images} high-quality screenshots, compatible with {ratios} and released at {date}',
     rules: {
       0: `**Poste keinen** Unsinn.`,
       1: `**Keine** Beiträge von **geringer Qualität** oder **Duplikate** einreichen.`,
@@ -386,12 +386,15 @@ export default {
     75: 'Änderungen aus dem Cache wiederhergestellt',
     76: 'Veröffentlicht am {date}',
     77: 'Rollen auswählen',
-    78: 'report issue',
+    78: 'report',
     79: 'Version without hp bar, back button and skip animations',
     80: 'Gameplay only version',
     81: 'Files for customization / additional gameplay elements (and unused files)',
     82: 'Select rating',
     83: 'Released at:',
+    84: 'Select screenshot variant',
+    85: 'try disabling «Quick select»',
+    86: 'Submit again',
     checks: {
       0: 'Skin Name nicht angegeben',
       1: 'Füge mindestens einen Skin-Ersteller hinzu',
@@ -403,7 +406,8 @@ export default {
       7: 'Einige Ersteller haben keine Namen ',
       8: 'Skin Veröffentlichungsdatum nicht angegeben',
       9: 'Skin Version nicht angegeben',
-      10: 'Inhaltsbewertung nicht ausgewählt'
+      10: 'Inhaltsbewertung nicht ausgewählt',
+      11: `Release date can't be in future`
     }
   },
   skin_block: {
@@ -452,7 +456,7 @@ export default {
       1: 'Link zum Video des fehlenden Skins'
     },
     skin_file: [
-      'Download Link fehlt',
+      'Download link broken',
       'Skin ist defekt',
       'Beschreiben Sie was genau kaputt ist'
     ],
@@ -544,8 +548,9 @@ export default {
     expand_more: 'Mehr anzeigen | Weniger anzeigen'
   },
   error: {
-    0: 'Startseite',
+    0: 'Home page',
     1: 'Anmelden',
-    2: 'Problem Melden'
+    2: 'Problem Melden',
+    3: 'Go back'
   }
 };

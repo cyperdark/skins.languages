@@ -88,7 +88,7 @@ export default {
   },
   skin_ini: {
     title: 'Éditeur visuel skin.ini - osu! tools',
-    description: '',
+    description: 'Preview your skin gameplay with in real-time changes such as combo colors, slider colors, and font offsets. Standard mode only for now',
     prepare: [
       'Charger beatmap',
       'Charger skin',
@@ -212,14 +212,8 @@ export default {
     3: 'skin manquant'
   },
   users: {
-    title: [
-      'Profil - téléchargements de {name}',
-      'Profil - skins de {name}'
-    ],
-    description: [
-      'Tous les skins osu! mises en ligne par {name}',
-      'Tous les skins osu! créés par {name}'
-    ],
+    title: ['Profile - {name} skins'],
+    description: ['All osu! skins created by {name}'],
     0: [
       'Skins créés',
       'Skins téléchargés'
@@ -246,7 +240,8 @@ export default {
     20: 'Statistiques des skins',
     21: 'Étendre « À propos de moi » | Fermer « À propos de moi »',
     22: 'Aucun résultat',
-    23: 'Aucun skin n\'a été trouvé pour ce créateur'
+    23: 'Aucun skin n\'a été trouvé pour ce créateur',
+    24: 'copied'
   },
   skins: {
     title: [
@@ -257,7 +252,12 @@ export default {
       '204 skins {mode} les plus téléchargés',
       '204 skins {mode} les plus aimés'
     ],
-    description: ['{amount} skins pour osu!, catch the beat, mania et taiko'],
+    description: [
+      '{amount} skins pour osu!, catch the beat, mania et taiko',
+      'List of most viewed {mode} skins featuring rich image gallery for all osu! screens and quick switching functionality between them',
+      'List of most downloaded {mode} skins featuring rich image gallery for all osu! screens and quick switching functionality between them',
+      'List of most liked {mode} skins featuring rich image gallery for all osu! screens and quick switching functionality between them'
+    ],
     0: 'Tous',
     1: 'Populaire',
     2: 'osu!',
@@ -281,7 +281,7 @@ export default {
       'Soumettre un nouveau skin',
       '{name} skin osu!'
     ],
-    description: '{size}Mo skin osu! pour {modes}, créé par {creators}. Supporte {ratios}',
+    description: 'Download {size}MB {modes} skin made by {creators}, featuring {images} high-quality screenshots, compatible with {ratios} and released at {date}',
     rules: {
       0: `**Ne publiez pas** d'absurdités.`,
       1: `**Ne publiez pas** des soumissions de **faible qualité** ou **dupliquées**.`,
@@ -386,12 +386,15 @@ export default {
     75: 'Changements restaurés depuis le cache',
     76: 'Publié le {date}',
     77: 'Sélectionner des rôles',
-    78: 'signaler un problème',
+    78: 'report',
     79: 'Version sans barre de vie, bouton retour et animations de skip',
     80: 'Version uniquement avec gameplay',
     81: 'Fichiers pour la personnalisation / éléments de gameplay supplémentaires (et fichiers non utilisés)',
     82: 'Select rating',
     83: 'Released at:',
+    84: 'Select screenshot variant',
+    85: 'try disabling «Quick select»',
+    86: 'Submit again',
     checks: {
       0: 'Nom du skin non spécifié',
       1: 'Ajoutez au moins un créateur',
@@ -403,7 +406,8 @@ export default {
       7: 'Certains auteurs n\'ont pas de noms',
       8: 'Date de sortie du skin non spécifiée',
       9: 'Version du skin non spécifiée',
-      10: 'Notation de contenu non sélectionnée'
+      10: 'Notation de contenu non sélectionnée',
+      11: `Release date can't be in future`
     }
   },
   skin_block: {
@@ -452,7 +456,7 @@ export default {
       1: 'Lien vers une vidéo du skin manquant'
     },
     skin_file: [
-      'Lien de téléchargement manquant',
+      'Download link broken',
       'Le skin est cassé',
       'Décrivez exactement ce qui est cassé'
     ],
@@ -544,8 +548,9 @@ export default {
     expand_more: 'Afficher plus | Afficher moins'
   },
   error: {
-    0: 'page d\'accueil',
-    1: 'se connecter',
-    2: 'Signaler un problème'
+    0: 'Home page',
+    1: 'Se connecter',
+    2: 'Signaler un problème',
+    3: 'Go back'
   }
 };

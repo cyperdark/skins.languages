@@ -88,7 +88,7 @@ export default {
   },
   skin_ini: {
     title: 'Visuele skin.ini editor - osu! hulpmiddelen',
-    description: '',
+    description: 'Preview your skin gameplay with in real-time changes such as combo colors, slider colors, and font offsets. Standard mode only for now',
     prepare: [
       'beatmap aan het laden',
       'skin aan het laden',
@@ -212,14 +212,8 @@ export default {
     3: 'ontbrekende skin'
   },
   users: {
-    title: [
-      'Profiel - {name} uploads',
-      'Profiel - {name} skins'
-    ],
-    description: [
-      'Alle osu! skins geüpload door {name}',
-      'Alle osu! skins gemaakt door {name}'
-    ],
+    title: ['Profile - {name} skins'],
+    description: ['All osu! skins created by {name}'],
     0: [
       'Maakte skins',
       'Geüploade skins'
@@ -246,7 +240,8 @@ export default {
     20: 'Skins statistieken',
     21: 'Vouw «about me» open | Klap «about me» in',
     22: 'Niets gevonden',
-    23: 'Geen skins zijn gevonden voor deze auteur'
+    23: 'Geen skins zijn gevonden voor deze auteur',
+    24: 'copied'
   },
   skins: {
     title: [
@@ -257,7 +252,12 @@ export default {
       '204 Meest gedownloade {mode} skins',
       '204 Meest gelikete {mode} skins'
     ],
-    description: ['{amount} skins voor osu!, catch the beat, mania and taiko'],
+    description: [
+      '{amount} skins voor osu!, catch the beat, mania and taiko',
+      'List of most viewed {mode} skins featuring rich image gallery for all osu! screens and quick switching functionality between them',
+      'List of most downloaded {mode} skins featuring rich image gallery for all osu! screens and quick switching functionality between them',
+      'List of most liked {mode} skins featuring rich image gallery for all osu! screens and quick switching functionality between them'
+    ],
     0: 'Alles',
     1: 'Populair',
     2: 'osu!',
@@ -281,7 +281,7 @@ export default {
       'Publiceer een nieuwe skin',
       '{name} osu skin'
     ],
-    description: '{size}MB osu skin voor {modes}, gemaakt door {creators}. Ondersteunt {ratios}',
+    description: 'Download {size}MB {modes} skin made by {creators}, featuring {images} high-quality screenshots, compatible with {ratios} and released at {date}',
     rules: {
       0: `Upload **geen** onzin`,
       1: `Upload **geen** **lage kwaliteit** of **dubbele** inzendingen`,
@@ -386,12 +386,15 @@ export default {
     75: 'Veranderingen hersteld van cache',
     76: 'Releasedatum {date}',
     77: 'Selecteer rollen',
-    78: 'meldt probleem',
+    78: 'report',
     79: 'Versie zonder hp balk, terug knop en animaties overslaan',
     80: 'Versie met alleen maar gameplay',
     81: 'Bestanden voor aanpassingen en extra gameplay elementen (en ongebruikte bestanden)',
     82: 'Selecteer beoordeling',
     83: 'Uitgebracht op:',
+    84: 'Select screenshot variant',
+    85: 'try disabling «Quick select»',
+    86: 'Submit again',
     checks: {
       0: 'Skin naam niet gespecifieerd',
       1: 'Voeg minstens één auteur toe',
@@ -403,7 +406,8 @@ export default {
       7: 'Sommige auteurs hebben geen naam',
       8: 'Skin releasedatum niet gespecifieerd',
       9: 'Skin versie niet gespecifieerd',
-      10: 'Content rating niet geselecteerd'
+      10: 'Content rating niet geselecteerd',
+      11: `Release date can't be in future`
     }
   },
   skin_block: {
@@ -452,7 +456,7 @@ export default {
       1: 'Link naar een video van ontbrekende skin'
     },
     skin_file: [
-      'Download link ontbreekt',
+      'Download link broken',
       'Skin is kapot',
       'Omschrijf wat precies kapot is'
     ],
@@ -544,8 +548,9 @@ export default {
     expand_more: 'Laat meer zien | Laat minder zien'
   },
   error: {
-    0: 'hoofdpagina',
-    1: 'inloggen',
-    2: 'Meldt een probleem'
+    0: 'Home page',
+    1: 'Inloggen',
+    2: 'Meldt een probleem',
+    3: 'Go back'
   }
 };

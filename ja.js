@@ -88,7 +88,7 @@ export default {
   },
   skin_ini: {
     title: 'ビジュアル skin.ini エディター - osu! ツール',
-    description: '',
+    description: 'Preview your skin gameplay with in real-time changes such as combo colors, slider colors, and font offsets. Standard mode only for now',
     prepare: [
       'ビートマップを読み込み中',
       'スキンを読み込み中',
@@ -212,14 +212,8 @@ export default {
     3: 'missing skin'
   },
   users: {
-    title: [
-      'プロフィール - {name} のアップロード',
-      'プロフィール - {name} のスキン'
-    ],
-    description: [
-      '{name} がアップロードした osu! スキン一覧',
-      '{name} が作成した osu! スキン一覧'
-    ],
+    title: ['Profile - {name} skins'],
+    description: ['All osu! skins created by {name}'],
     0: [
       '作成したスキン',
       'アップロードしたスキン'
@@ -246,7 +240,8 @@ export default {
     20: 'スキン統計',
     21: '「自己紹介」を開く | 「自己紹介」を閉じる',
     22: '何も見つかりませんでした',
-    23: 'この制作者のスキンは見つかりませんでした'
+    23: 'この制作者のスキンは見つかりませんでした',
+    24: 'copied'
   },
   skins: {
     title: [
@@ -257,7 +252,12 @@ export default {
       'ダウンロード数トップ {mode} スキン 204 件',
       'いいね数トップ {mode} スキン 204 件'
     ],
-    description: ['osu!・catch the beat・mania・taiko 用スキンが {amount} 件見つかりました'],
+    description: [
+      'osu!・catch the beat・mania・taiko 用スキンが {amount} 件見つかりました',
+      'List of most viewed {mode} skins featuring rich image gallery for all osu! screens and quick switching functionality between them',
+      'List of most downloaded {mode} skins featuring rich image gallery for all osu! screens and quick switching functionality between them',
+      'List of most liked {mode} skins featuring rich image gallery for all osu! screens and quick switching functionality between them'
+    ],
     0: 'すべて',
     1: '一番人気',
     2: 'osu!',
@@ -281,7 +281,7 @@ export default {
       '新しいスキンを投稿',
       '{name} の osu スキン'
     ],
-    description: '{modes} 用の {size}MB の osu スキン。制作者：{creators}。対応アスペクト比：{ratios}',
+    description: 'Download {size}MB {modes} skin made by {creators}, featuring {images} high-quality screenshots, compatible with {ratios} and released at {date}',
     rules: {
       0: `無意味な投稿を**しないでください**`,
       1: `**著しくクオリティが低かったり**、**重複したスキン**の投稿はお控えください`,
@@ -386,12 +386,15 @@ export default {
     75: 'キャッシュから変更を復元しました',
     76: 'リリース日：{date}',
     77: 'ロールを選択',
-    78: '問題を報告する',
+    78: 'report',
     79: 'HPバー/戻るボタン/スキップアニメーションが無いバージョン',
     80: 'プレイ画面のみのバージョン',
     81: 'Files for customization / additional gameplay elements (and unused files)',
     82: 'Select rating',
     83: 'Released at:',
+    84: 'Select screenshot variant',
+    85: 'try disabling «Quick select»',
+    86: 'Submit again',
     checks: {
       0: 'スキン名が指定されていません',
       1: '最低でも1人は作成者を追加してください',
@@ -403,7 +406,8 @@ export default {
       7: '一部の作成者に名前がありません',
       8: 'スキンのリリース日が指定されていません',
       9: 'スキンのバージョンが指定されていません',
-      10: 'コンテンツレーティングが選択されていません'
+      10: 'コンテンツレーティングが選択されていません',
+      11: `Release date can't be in future`
     }
   },
   skin_block: {
@@ -452,7 +456,7 @@ export default {
       1: '足りないスキンの動画リンク'
     },
     skin_file: [
-      'ダウンロードリンクがありません',
+      'Download link broken',
       'スキンが壊れています',
       'どのように壊れているか詳しく教えてください'
     ],
@@ -544,8 +548,9 @@ export default {
     expand_more: 'もっと見る | 閉じる'
   },
   error: {
-    0: 'ホームページ',
+    0: 'Home page',
     1: 'ログイン',
-    2: '問題を報告'
+    2: '問題を報告',
+    3: 'Go back'
   }
 };

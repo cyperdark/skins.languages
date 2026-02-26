@@ -88,7 +88,7 @@ export default {
   },
   skin_ini: {
     title: 'Візуальний редактор skin.ini - osu! tools',
-    description: '',
+    description: 'Preview your skin gameplay with in real-time changes such as combo colors, slider colors, and font offsets. Standard mode only for now',
     prepare: [
       'Завантаження карти',
       'Завантаження скіна',
@@ -212,14 +212,8 @@ export default {
     3: 'missing skin'
   },
   users: {
-    title: [
-      'Профіль - {name} публікації',
-      'Профіль - {name} скіни'
-    ],
-    description: [
-      'Усі osu! скіни, завантажені {name}',
-      'Усі osu! скіни, створені {name}'
-    ],
+    title: ['Profile - {name} skins'],
+    description: ['All osu! skins created by {name}'],
     0: [
       'Створені скіни',
       'Завантажені скіни'
@@ -246,7 +240,8 @@ export default {
     20: 'Статистика скінів',
     21: 'Розгорнути «про мене» | Згорнути «про мене»',
     22: 'Нічого не знайдено',
-    23: 'Не знайдено жодного скіна цього автора'
+    23: 'Не знайдено жодного скіна цього автора',
+    24: 'copied'
   },
   skins: {
     title: [
@@ -257,7 +252,12 @@ export default {
       '204 найбльш завантажених {mode} скінів ',
       '204 найбльш вподобаних {mode} скінів '
     ],
-    description: ['{amount} скінів для osu!, catch the beat, mania і taiko'],
+    description: [
+      '{amount} скінів для osu!, catch the beat, mania і taiko',
+      'List of most viewed {mode} skins featuring rich image gallery for all osu! screens and quick switching functionality between them',
+      'List of most downloaded {mode} skins featuring rich image gallery for all osu! screens and quick switching functionality between them',
+      'List of most liked {mode} skins featuring rich image gallery for all osu! screens and quick switching functionality between them'
+    ],
     0: 'Всі',
     1: 'Популярні',
     2: 'osu!',
@@ -281,7 +281,7 @@ export default {
       'Опублікувати новий скін',
       '{name} osu! скіни'
     ],
-    description: '{size}MB osu! скін для {modes}, створений {creators}. Підтримує {ratios}',
+    description: 'Download {size}MB {modes} skin made by {creators}, featuring {images} high-quality screenshots, compatible with {ratios} and released at {date}',
     rules: {
       0: `**Не** постіть нісенітниці.`,
       1: `**Не** публікуйте **низькоякісних** постів та дублікатів.`,
@@ -387,12 +387,15 @@ export default {
     75: 'Зміни відновлено з кешу',
     76: 'Випущений {date}',
     77: 'Виберіть ролі',
-    78: 'report issue',
+    78: 'report',
     79: 'Version without hp bar, back button and skip animations',
     80: 'Gameplay only version',
     81: 'Files for customization / additional gameplay elements (and unused files)',
     82: 'Select rating',
     83: 'Released at:',
+    84: 'Select screenshot variant',
+    85: 'try disabling «Quick select»',
+    86: 'Submit again',
     checks: {
       0: 'Назву скіна не вказано',
       1: 'Додайте хоча б одного автора',
@@ -404,7 +407,8 @@ export default {
       7: 'Деякі автори не мають імен',
       8: 'Дата випуску скіна не вказана',
       9: 'Версію скіна не вказано ',
-      10: 'Рейтинг контенту не вибрано'
+      10: 'Рейтинг контенту не вибрано',
+      11: `Release date can't be in future`
     }
   },
   skin_block: {
@@ -453,7 +457,7 @@ export default {
       1: 'Посилання веде на відео про скін якого немає'
     },
     skin_file: [
-      'Посилання для завантаження відсутнє',
+      'Download link broken',
       'Скін поламаний ',
       'Опишіть, що саме не працює'
     ],
@@ -545,8 +549,9 @@ export default {
     expand_more: 'Показати більше | Показати менше'
   },
   error: {
-    0: 'Головна сторінка',
-    1: 'увійти',
-    2: 'Повідомити про проблему'
+    0: 'Home page',
+    1: 'Увійти',
+    2: 'Повідомити про проблему',
+    3: 'Go back'
   }
 };
