@@ -88,7 +88,7 @@ export default {
   },
   skin_ini: {
     title: 'Görsel skin.ini düzenleyici - osu! araçları',
-    description: '',
+    description: 'Preview your skin gameplay with in real-time changes such as combo colors, slider colors, and font offsets. Standard mode only for now',
     prepare: [
       'beatmap yükleniyor',
       'skin yükleniyor',
@@ -212,14 +212,8 @@ export default {
     3: 'missing skin'
   },
   users: {
-    title: [
-      'Profil - {name} yüklenenler',
-      'Profil - {name} skinler'
-    ],
-    description: [
-      'Tüm osu! skinleri {name} tarafından yüklendi',
-      'Tüm osu! skinleri {name} tarafından oluşturuldu'
-    ],
+    title: ['Profile - {name} skins'],
+    description: ['All osu! skins created by {name}'],
     0: [
       'Oluşturulan skinler',
       'Yüklenen skinler'
@@ -246,7 +240,8 @@ export default {
     20: 'Skinin istatistikleri',
     21: ' «benim hakkımda» yı genişlet |  «benim hakkımda» yı kapat',
     22: 'Sonuç bulunamadı',
-    23: 'Bu içerik oluşturucu için hiçbir skin bulunamadı.'
+    23: 'Bu içerik oluşturucu için hiçbir skin bulunamadı.',
+    24: 'copied'
   },
   skins: {
     title: [
@@ -257,7 +252,12 @@ export default {
       ' En çok indirilen 204 {mode} skini',
       ' En çok beğenilen 204 {mode} skini'
     ],
-    description: ['{amount} osu!, catch the beat, mania ve taiko skini'],
+    description: [
+      '{amount} osu!, catch the beat, mania ve taiko skini',
+      'List of most viewed {mode} skins featuring rich image gallery for all osu! screens and quick switching functionality between them',
+      'List of most downloaded {mode} skins featuring rich image gallery for all osu! screens and quick switching functionality between them',
+      'List of most liked {mode} skins featuring rich image gallery for all osu! screens and quick switching functionality between them'
+    ],
     0: 'Tümü',
     1: 'Popüler',
     2: 'osu!',
@@ -281,7 +281,7 @@ export default {
       'Yeni skin gönder',
       '{name} osu! skin'
     ],
-    description: '{size}MB {modes} için osu! skini,  {creators} tarafından yaratıldı. {ratios} oranlarını destekler',
+    description: 'Download {size}MB {modes} skin made by {creators}, featuring {images} high-quality screenshots, compatible with {ratios} and released at {date}',
     rules: {
       0: `Saçma sapan şeyler **postlamayın**.`,
       1: `**Düşük kaliteli** veya **kopya** gönderiler **paylaşmayın**.`,
@@ -387,12 +387,15 @@ export default {
     75: ' Değişiklikler önbellekten geri yüklendi',
     76: 'Yayınlandı {date}',
     77: 'Rol seç',
-    78: 'report issue',
+    78: 'report',
     79: 'Version without hp bar, back button and skip animations',
     80: 'Gameplay only version',
     81: 'Files for customization / additional gameplay elements (and unused files)',
     82: 'Select rating',
     83: 'Released at:',
+    84: 'Select screenshot variant',
+    85: 'try disabling «Quick select»',
+    86: 'Submit again',
     checks: {
       0: 'Skin adı belirtilmedi',
       1: 'En az 1 yaratıcı ekleyin',
@@ -404,7 +407,8 @@ export default {
       7: 'Bazı yaratıcıların isimleri yok',
       8: 'Skin çıkış tarihi belirtilmemiş',
       9: 'Skin versiyonu belirtilmemiş',
-      10: 'İçerik derecelendirmesi seçilmedi'
+      10: 'İçerik derecelendirmesi seçilmedi',
+      11: `Release date can't be in future`
     }
   },
   skin_block: {
@@ -453,7 +457,7 @@ export default {
       1: 'Kayıp skin videosuna bağlantı'
     },
     skin_file: [
-      'İndirme linki kayıp',
+      'Download link broken',
       'Skin bozuk',
       'Tam olarak neyin bozuk olduğunu açıklayın'
     ],
@@ -545,8 +549,9 @@ export default {
     expand_more: 'Daha fazla göster | Daha az göster'
   },
   error: {
-    0: 'ana sayfa',
-    1: 'giriş yap',
-    2: 'Sorun bildir'
+    0: 'Home page',
+    1: 'Oturum aç',
+    2: 'Sorun bildir',
+    3: 'Go back'
   }
 };
