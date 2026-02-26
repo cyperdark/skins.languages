@@ -88,7 +88,7 @@ export default {
   },
   skin_ini: {
     title: 'Visual skin.ini editor - osu! tools',
-    description: '',
+    description: 'Preview your skin gameplay with in real-time changes such as combo colors, slider colors, and font offsets. Standard mode only for now',
     prepare: [
       'loading beatmap',
       'loading skin',
@@ -212,14 +212,8 @@ export default {
     3: 'missing skin'
   },
   users: {
-    title: [
-      'Profile - {name} uploads',
-      'Profile - {name} skins'
-    ],
-    description: [
-      'All osu! skins uploaded by {name}',
-      'All osu! skins created by {name}'
-    ],
+    title: ['Profile - {name} skins'],
+    description: ['All osu! skins created by {name}'],
     0: [
       'Created skins',
       'Uploaded skins'
@@ -246,7 +240,8 @@ export default {
     20: 'Skins Stats',
     21: 'Expand «about me» | Close «about me»',
     22: 'Mitään ei löytynyt',
-    23: 'No skins were found for this creator'
+    23: 'No skins were found for this creator',
+    24: 'copied'
   },
   skins: {
     title: [
@@ -257,7 +252,12 @@ export default {
       '204 Most downloaded {mode} skins',
       '204 Most liked {mode} skins'
     ],
-    description: ['{amount} skins for osu!, catch the beat, mania and taiko'],
+    description: [
+      '{amount} skins for osu!, catch the beat, mania and taiko',
+      'List of most viewed {mode} skins featuring rich image gallery for all osu! screens and quick switching functionality between them',
+      'List of most downloaded {mode} skins featuring rich image gallery for all osu! screens and quick switching functionality between them',
+      'List of most liked {mode} skins featuring rich image gallery for all osu! screens and quick switching functionality between them'
+    ],
     0: 'All',
     1: 'Suositut',
     2: 'osu!',
@@ -281,7 +281,7 @@ export default {
       'Submit new skin',
       '{name} osu skin'
     ],
-    description: '{size}MB osu skin for {modes}, created by {creators}. Supports {ratios}',
+    description: 'Download {size}MB {modes} skin made by {creators}, featuring {images} high-quality screenshots, compatible with {ratios} and released at {date}',
     rules: {
       0: `**Do not** post nonsense.`,
       1: `**Don't** post **low-quality** or **duplicate** submissions.`,
@@ -386,12 +386,15 @@ export default {
     75: 'Changes restored from cache',
     76: 'Released {date}',
     77: 'Select roles',
-    78: 'report issue',
+    78: 'report',
     79: 'Version without hp bar, back button and skip animations',
     80: 'Gameplay only version',
     81: 'Files for customization / additional gameplay elements (and unused files)',
     82: 'Select rating',
     83: 'Released at:',
+    84: 'Select screenshot variant',
+    85: 'try disabling «Quick select»',
+    86: 'Submit again',
     checks: {
       0: 'Skin name not specified',
       1: 'Add at least one creator',
@@ -403,7 +406,8 @@ export default {
       7: 'Some creators do not have names',
       8: 'Skin release date not specified',
       9: 'Skin version not specified',
-      10: 'Content rating not selected'
+      10: 'Content rating not selected',
+      11: `Release date can't be in future`
     }
   },
   skin_block: {
@@ -452,7 +456,7 @@ export default {
       1: 'Link to a video of missing skin'
     },
     skin_file: [
-      'Download link is missing',
+      'Download link broken',
       'Skin is broken',
       'Describe what exactly broken'
     ],
@@ -544,8 +548,9 @@ export default {
     expand_more: 'Show more | Show less'
   },
   error: {
-    0: 'home page',
-    1: 'log in',
-    2: 'Report issue'
+    0: 'Home page',
+    1: 'Kirjaudu',
+    2: 'Report issue',
+    3: 'Go back'
   }
 };
