@@ -88,7 +88,7 @@ export default {
   },
   skin_ini: {
     title: '可视化 skin.ini 编辑器 - osu! 工具',
-    description: '',
+    description: 'Preview your skin gameplay with in real-time changes such as combo colors, slider colors, and font offsets. Standard mode only for now',
     prepare: [
       '正在加载谱面',
       '正在加载皮肤',
@@ -212,14 +212,8 @@ export default {
     3: '缺失皮肤'
   },
   users: {
-    title: [
-      '个人资料 - {name} 上传的',
-      '个人资料 - {name} 创作的'
-    ],
-    description: [
-      '{name} 上传的所有 osu! 皮肤',
-      '{name} 创作的所有 osu! 皮肤'
-    ],
+    title: ['Profile - {name} skins'],
+    description: ['All osu! skins created by {name}'],
     0: [
       '创作的皮肤',
       '上传的皮肤'
@@ -246,7 +240,8 @@ export default {
     20: '皮肤统计',
     21: '展开个人简介 | 折叠个人简介',
     22: '未找到结果',
-    23: '没有找到该作者创作的皮肤'
+    23: '没有找到该作者创作的皮肤',
+    24: 'copied'
   },
   skins: {
     title: [
@@ -257,7 +252,12 @@ export default {
       '204 最多下载的 {mode} 皮肤',
       '204 最多点赞的 {mode} 皮肤'
     ],
-    description: ['{amount}个全模式皮肤'],
+    description: [
+      '{amount}个全模式皮肤',
+      'List of most viewed {mode} skins featuring rich image gallery for all osu! screens and quick switching functionality between them',
+      'List of most downloaded {mode} skins featuring rich image gallery for all osu! screens and quick switching functionality between them',
+      'List of most liked {mode} skins featuring rich image gallery for all osu! screens and quick switching functionality between them'
+    ],
     0: '所有模式',
     1: '热门',
     2: 'osu!',
@@ -281,7 +281,7 @@ export default {
       '投稿新皮肤',
       '“{name}” osu 皮肤'
     ],
-    description: '{size}MB的 {modes} osu皮肤，作者 {creators}。支持 {ratios}',
+    description: 'Download {size}MB {modes} skin made by {creators}, featuring {images} high-quality screenshots, compatible with {ratios} and released at {date}',
     rules: {
       0: `**禁止**发布无意义内容。`,
       1: `**禁止**提交**低创**或**重复**投稿。`,
@@ -386,12 +386,15 @@ export default {
     75: '已从缓存中加载更改',
     76: '{date}发布',
     77: '选择分工',
-    78: '报告问题',
+    78: 'report',
     79: '无血条、返回和跳过按钮的版本',
     80: '纯净版',
     81: '用于自定义样式、增加额外游戏内元素和未使用的文件',
     82: '选择内容分级',
     83: '发布日期:',
+    84: 'Select screenshot variant',
+    85: 'try disabling «Quick select»',
+    86: 'Submit again',
     checks: {
       0: '未标明皮肤名称',
       1: '添加至少一个作者',
@@ -403,7 +406,8 @@ export default {
       7: '未注明部分作者名称',
       8: '未注明皮肤发布日期',
       9: '未注明皮肤版本',
-      10: '未选择内容分级'
+      10: '未选择内容分级',
+      11: `Release date can't be in future`
     }
   },
   skin_block: {
@@ -452,7 +456,7 @@ export default {
       1: '缺失皮肤的视频链接'
     },
     skin_file: [
-      '缺少下载链接',
+      'Download link broken',
       '皮肤损坏',
       '描述具体出错的地方'
     ],
@@ -544,8 +548,9 @@ export default {
     expand_more: '展开 | 折叠'
   },
   error: {
-    0: '主页',
+    0: 'Home page',
     1: '登录',
-    2: '报告问题'
+    2: '报告问题',
+    3: 'Go back'
   }
 };
