@@ -177,7 +177,8 @@ export default {
     1: [
       'namn',
       'taggar',
-      'skapare'
+      'skapare',
+      'files name'
     ],
     2: 'Välj datumintervall',
     3: 'Storleksintervall',
@@ -415,7 +416,8 @@ export default {
     1: 'Öppna i helskärm',
     2: 'Byt till ett annat gamemode',
     3: 'Ändra bildkategori',
-    4: 'Kopiera kortlänk'
+    4: 'Kopiera kortlänk',
+    5: '{mode}: {amount} variants'
   },
   gallery: {
     0: 'Öppna i helskärm',
