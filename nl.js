@@ -177,7 +177,8 @@ export default {
     1: [
       'naam',
       'categorieën',
-      'auteurs'
+      'auteurs',
+      'files name'
     ],
     2: 'Selecteer tijdsperiode',
     3: 'Typ bereik',
@@ -415,7 +416,8 @@ export default {
     1: 'Open in fullscreen',
     2: 'Naar andere gamemode schakelen',
     3: 'Verander categorie van afbeelding',
-    4: 'Kopieer de korte link'
+    4: 'Kopieer de korte link',
+    5: '{mode}: {amount} variants'
   },
   gallery: {
     0: 'Open in fullscreen',

@@ -177,7 +177,8 @@ export default {
     1: [
       'nume',
       'etichete',
-      'creatori'
+      'creatori',
+      'files name'
     ],
     2: 'Selectează intervalul de timp',
     3: 'Interval de mărime',
@@ -415,7 +416,8 @@ export default {
     1: 'Deschide în fullscreen',
     2: 'Treci la alt mod de joc',
     3: 'Schimbă categoria imaginii',
-    4: 'Copiază link prescurtat'
+    4: 'Copiază link prescurtat',
+    5: '{mode}: {amount} variants'
   },
   gallery: {
     0: 'Deschide în fullscreen',

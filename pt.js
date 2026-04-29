@@ -61,8 +61,8 @@ export default {
     ],
     4: 'resoluções de tela',
     5: 'mais',
-    6: 'Recently uploaded/updated skins',
-    7: 'Newly released skins'
+    6: 'Skins recentemente publicadas/atualizadas',
+    7: 'Novas skins lançadas'
   },
   credits: {
     title: [
@@ -88,7 +88,7 @@ export default {
   },
   skin_ini: {
     title: 'Editor visual de skin.ini - ferramentas para osu!',
-    description: 'Preview your skin gameplay with in real-time changes such as combo colors, slider colors, and font offsets. Standard mode only for now',
+    description: 'Veja sua skin com mudanças em tempo real como cor de combo, sliders e offsets de font. Por enquanto apenas disponível para Standard',
     prepare: [
       'carregando mapa',
       'carregando skin',
@@ -171,13 +171,14 @@ export default {
     0: 'Capturas de tela não encontradas para esta categoria'
   },
   search: {
-    title: 'Advanced search for osu! skins',
+    title: 'Busca avançada para skins de osu!',
     description: 'Encontre a skin perfeita para o osu! com a nossa feramenta de pesquisa avançada. Navegue pela nossa imensa coleção, filtrada por modo de jogo, proporção e muito mais. Você também pode conferir as skins utilizadas pelos melhores jogadores',
     0: 'Título da skin, autor, ou tags',
     1: [
       'nome',
       'tags',
-      'criadores'
+      'criadores',
+      'files name'
     ],
     2: 'Selecionar período',
     3: 'Intervalo de tamanho',
@@ -212,8 +213,8 @@ export default {
     3: 'skin ausente'
   },
   users: {
-    title: ['Profile - {name} skins'],
-    description: ['All osu! skins created by {name}'],
+    title: ['Perfil -{name} skins'],
+    description: ['Todas as skins de osu! feitas por {name}'],
     0: [
       'Skins criadas',
       'Skins postadas'
@@ -241,7 +242,7 @@ export default {
     21: 'Expandir «about me» | Fechar «about me»',
     22: 'Nada foi encontrado',
     23: 'Nenhuma skin deste autor foi encontrada',
-    24: 'copied'
+    24: 'copiado'
   },
   skins: {
     title: [
@@ -254,9 +255,9 @@ export default {
     ],
     description: [
       '{amount} skins para osu!, catch the beat, mania e taiko',
-      'List of most viewed {mode} skins featuring rich image gallery for all osu! screens and quick switching functionality between them',
-      'List of most downloaded {mode} skins featuring rich image gallery for all osu! screens and quick switching functionality between them',
-      'List of most liked {mode} skins featuring rich image gallery for all osu! screens and quick switching functionality between them'
+      'Lista das skins mais vistas do {mode} contendo uma rica galeria de imagens para todas as telas de osu! e mudança rápida de funcionalidade entre elas',
+      'Lista das skins mais baixadas do {mode} contendo uma rica galeria de imagens para todas as telas de osu! e mudança rápida de funcionalidade entre elas',
+      'Lista das skins mais curtidas do {mode} contendo uma rica galeria de imagens para todas as telas de osu! e mudança rápida de funcionalidade entre elas'
     ],
     0: 'Tudo',
     1: 'Em alta',
@@ -281,7 +282,7 @@ export default {
       'Publique uma nova skin',
       '{name} skin de osu'
     ],
-    description: 'Download {size}MB {modes} skin made by {creators}, featuring {images} high-quality screenshots, compatible with {ratios} and released at {date}',
+    description: 'Download {size}MB {modes} skin feita por {creators}, contendo {images} capturas de tela de alta qualidade, compatível com {ratios} e lançada em {date}',
     rules: {
       0: `**Não** poste bobagem.`,
       1: `**Não** ingresse com postagens **duplicadas** ou de **baixa qualidade**`,
@@ -386,15 +387,15 @@ export default {
     75: 'Alterações restauradas do cache',
     76: 'Lançado em {date}',
     77: 'Selecionar funções',
-    78: 'report',
+    78: 'denuncie',
     79: 'Versão sem barra de vida, botão de "back" e animações de "skip"',
     80: 'Somente gameplay',
     81: 'Arquivos para customização / elementos de gameplay adicionais (e arquivos inutilizados)',
-    82: 'Select rating',
-    83: 'Released at:',
-    84: 'Select screenshot variant',
-    85: 'try disabling «Quick select»',
-    86: 'Submit again',
+    82: 'Selecione uma avaliação',
+    83: 'Lançado em:',
+    84: 'Selecione a variação da captura de tela',
+    85: 'tente desabilitar «Quick select»',
+    86: 'Envie novamente',
     checks: {
       0: 'Nome da skin não especificado',
       1: 'Adicione ao menos um criador',
@@ -407,7 +408,7 @@ export default {
       8: 'Data de lançamento da skin não especificada',
       9: 'Versão da skin não especificada',
       10: 'Classificação indicativa não foi selecionada',
-      11: `Release date can't be in future`
+      11: `A data de lançamento não pode estar no futuro`
     }
   },
   skin_block: {
@@ -415,7 +416,8 @@ export default {
     1: 'Abrir em tela cheia',
     2: 'Mudar para outro modo de jogo',
     3: 'Mudar a categoria da imagem',
-    4: 'Copiar link encurtado'
+    4: 'Copiar link encurtado',
+    5: '{mode}: {amount} variants'
   },
   gallery: {
     0: 'Abrir em tela cheia',
@@ -456,7 +458,7 @@ export default {
       1: 'Link para o video da skin ausente'
     },
     skin_file: [
-      'Download link broken',
+      'O link de download está quebrado',
       'A skin está quebrada',
       'Descreva o que exatamente está quebrado'
     ],
@@ -484,7 +486,7 @@ export default {
     skins: '{amount} skin | {amount} skins | {amount} skins',
     tags_skins: '«{name}» {amount} skin | «{name}» {amount} skins | «{name}» {amount} skins',
     views: '{amount} view | {amount} views | {amount} views',
-    votes: '{amount} vote | {amount} votes | {amount} votes'
+    votes: '{amount} votos | {amount} votos | {amount} votos'
   },
   placeholder: {
     0: 'Digite o texto..',
@@ -529,7 +531,7 @@ export default {
   nsfw: {
     0: 'Alerta de conteúdo +18 (NSFW)!',
     1: 'Essa skin contém conteúdo sensível ou adulto!',
-    2: 'Warning!',
+    2: 'Cuidado!',
     3: 'Alerta, conteúdo furry!'
   },
   drag: {
@@ -548,9 +550,9 @@ export default {
     expand_more: 'Mostrar mais | Mostrar menos'
   },
   error: {
-    0: 'Home page',
+    0: 'Página Inicial',
     1: 'Entrar',
     2: 'Reportar problema',
-    3: 'Go back'
+    3: 'Volte'
   }
 };

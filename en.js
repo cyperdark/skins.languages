@@ -215,7 +215,8 @@ export default {
     1: [
       'name',
       'tags',
-      'creators'
+      'creators',
+      'files name',
     ],
     2: 'Select date range',
     3: 'Size range',
@@ -519,6 +520,8 @@ export default {
     2: 'Switch to other gamemode',
     3: 'Change image category',
     4: 'Copy short link',
+
+    5: '{mode}: {amount} variants'
   },
 
 

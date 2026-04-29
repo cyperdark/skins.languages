@@ -177,7 +177,8 @@ export default {
     1: [
       'Name',
       'Tags',
-      'Ersteller'
+      'Ersteller',
+      'files name'
     ],
     2: 'Wähle Zeitraum aus',
     3: 'Größenbereich',
@@ -415,7 +416,8 @@ export default {
     1: 'Im Vollbild öffnen',
     2: 'Zum anderen Spielmodus wechseln',
     3: 'Bildkategorie ändern',
-    4: 'Kurzlink kopieren'
+    4: 'Kurzlink kopieren',
+    5: '{mode}: {amount} variants'
   },
   gallery: {
     0: 'Im Vollbild öffnen',

@@ -177,7 +177,8 @@ export default {
     1: [
       'name',
       'tags',
-      'creatori'
+      'creatori',
+      'files name'
     ],
     2: 'Seleziona un Intervallo di date',
     3: 'Intervallo Dimensioni',
@@ -415,7 +416,8 @@ export default {
     1: 'Apri a schermo intero',
     2: 'Cambia ad un\'altra modalità di gioco',
     3: 'Cambia la categoria dell\'immagine',
-    4: 'Copia link breve'
+    4: 'Copia link breve',
+    5: '{mode}: {amount} variants'
   },
   gallery: {
     0: 'Apri a schermo intero',

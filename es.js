@@ -177,7 +177,8 @@ export default {
     1: [
       'nombre',
       'etiquetas',
-      'creadores'
+      'creadores',
+      'files name'
     ],
     2: 'Selecciona un intervalo de fechas',
     3: 'Rango de tamaño',
@@ -415,7 +416,8 @@ export default {
     1: 'Abrir en pantalla completa',
     2: 'Cambiar a otro modo de juego',
     3: 'Cambiar categoría de imagen',
-    4: 'Copiar enlace corto'
+    4: 'Copiar enlace corto',
+    5: '{mode}: {amount} variants'
   },
   gallery: {
     0: 'Abrir en pantalla completa',

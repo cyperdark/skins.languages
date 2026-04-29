@@ -177,7 +177,8 @@ export default {
     1: [
       'i̇sim',
       'etiketler',
-      'yaratıcılar'
+      'yaratıcılar',
+      'files name'
     ],
     2: 'Tarih aralığı seçin',
     3: 'Boyut aralığı',
@@ -416,7 +417,8 @@ export default {
     1: 'Tam ekranda aç',
     2: 'Diğer oyun moduna geç',
     3: 'Resim kategorisini değiştir',
-    4: 'Kısa linki kopyala'
+    4: 'Kısa linki kopyala',
+    5: '{mode}: {amount} variants'
   },
   gallery: {
     0: 'Tam ekranda aç',
