@@ -61,8 +61,8 @@ export default {
     ],
     4: 'アスペクト比',
     5: 'もっと見る',
-    6: 'Recently uploaded/updated skins',
-    7: 'Newly released skins'
+    6: '最近投稿/更新されたスキン',
+    7: '新しくリリースされたスキン'
   },
   credits: {
     title: [
@@ -88,7 +88,7 @@ export default {
   },
   skin_ini: {
     title: 'ビジュアル skin.ini エディター - osu! ツール',
-    description: 'Preview your skin gameplay with in real-time changes such as combo colors, slider colors, and font offsets. Standard mode only for now',
+    description: 'コンボカラーやスライダーカラー、フォント位置などの変更を、プレイ画面でリアルタイムに確認できます。現在はスタンダードモードのみをサポートしています。',
     prepare: [
       'ビートマップを読み込み中',
       'スキンを読み込み中',
@@ -171,13 +171,14 @@ export default {
     0: 'このカテゴリのスクリーンショットは見つかりませんでした'
   },
   search: {
-    title: 'Advanced search for osu! skins',
+    title: '高度な検索',
     description: '高度な検索機能で、自分に合った osu! スキンを探しましょう。ルールセットやアスペクト比などで絞り込んだり、トッププレイヤーが使っているスキンをチェックしたりできます。',
     0: 'スキン名・作者名・タグ',
     1: [
       '名前',
       'タグ',
-      '制作者'
+      '制作者',
+      'files name'
     ],
     2: '日付範囲を選択',
     3: 'サイズの範囲',
@@ -209,11 +210,11 @@ export default {
     0: '何も見つかりませんでした',
     1: 'このタグのスキンは見つかりませんでした',
     2: 'ゲームモードを変えて試してみてください',
-    3: 'missing skin'
+    3: 'スキンが不明です'
   },
   users: {
-    title: ['Profile - {name} skins'],
-    description: ['All osu! skins created by {name}'],
+    title: ['プロフィール - {name}のスキン'],
+    description: ['{name}が作成したosu!スキン一覧'],
     0: [
       '作成したスキン',
       'アップロードしたスキン'
@@ -241,7 +242,7 @@ export default {
     21: '「自己紹介」を開く | 「自己紹介」を閉じる',
     22: '何も見つかりませんでした',
     23: 'この制作者のスキンは見つかりませんでした',
-    24: 'copied'
+    24: 'コピーしました'
   },
   skins: {
     title: [
@@ -289,7 +290,7 @@ export default {
       3: `**cpol**および**osuck**に投稿された動画内で使用されている、もしくは**トップランカーが使用していること**が確認できるスキンは**削除から保護されます**。`,
       4: `スクリーンショットはスキンに関連するものであり、なおかつ正確に描画されているものを使用してください。`,
       5: `元の作成者が**非公開にしたもの**や、**共有されることを望まない**スキンを、許可なくアップロードしないでください。`,
-      6: `If **your skin** is based on someone else's work or **uses assets** from other creators, **credit them** in your post.`,
+      6: `他のスキンを基に作成されたか、他のクリエイターが作成したアセットがスキンに含まれている際は、原作者の名前を投稿に記載してください。`,
       7: `If your skin **includes** third-party assets (art, hitsounds, fonts, etc.), you **must** have permission and provide proper **credit** in the **Resources** tab of your submission.`,
       8: `All submissions **must use English** as the primary language.\n- Titles containing **non-Latin** characters must also **include a Romanized** version.`,
       9: `**Prohibited** content includes:\n- Religious or political content\n- Racism, hate speech, or harassment\n- Offensive or discriminatory imagery\n- Excessive gore or extreme violence\n- Explicit sexual content, including depictions of minors.`,
@@ -391,10 +392,10 @@ export default {
     80: 'プレイ画面のみのバージョン',
     81: 'Files for customization / additional gameplay elements (and unused files)',
     82: 'Select rating',
-    83: 'Released at:',
-    84: 'Select screenshot variant',
+    83: 'リリース日：',
+    84: 'スクリーンショットカテゴリを選択',
     85: 'try disabling «Quick select»',
-    86: 'Submit again',
+    86: '再送信',
     checks: {
       0: 'スキン名が指定されていません',
       1: '最低でも1人は作成者を追加してください',
@@ -407,7 +408,7 @@ export default {
       8: 'スキンのリリース日が指定されていません',
       9: 'スキンのバージョンが指定されていません',
       10: 'コンテンツレーティングが選択されていません',
-      11: `Release date can't be in future`
+      11: `リリース日は未来の日付に設定できません`
     }
   },
   skin_block: {
@@ -415,7 +416,8 @@ export default {
     1: 'フルスクリーンで開く',
     2: '別のゲームモードに切り替え',
     3: '画像カテゴリを変更',
-    4: '短縮リンクをコピー'
+    4: '短縮リンクをコピー',
+    5: '{mode}: {amount} variants'
   },
   gallery: {
     0: 'フルスクリーンで開く',
@@ -456,7 +458,7 @@ export default {
       1: '足りないスキンの動画リンク'
     },
     skin_file: [
-      'Download link broken',
+      'ダウンロードリンクが壊れています',
       'スキンが壊れています',
       'どのように壊れているか詳しく教えてください'
     ],
@@ -529,7 +531,7 @@ export default {
   nsfw: {
     0: 'NSFW 警告！',
     1: 'このスキンにはセンシティブまたは成人向けの内容が含まれます！',
-    2: 'Warning!',
+    2: '注意！',
     3: 'ケモノ注意！'
   },
   drag: {
@@ -548,9 +550,9 @@ export default {
     expand_more: 'もっと見る | 閉じる'
   },
   error: {
-    0: 'Home page',
+    0: 'ホームページ',
     1: 'ログイン',
     2: '問題を報告',
-    3: 'Go back'
+    3: '戻る'
   }
 };
