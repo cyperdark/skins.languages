@@ -417,7 +417,7 @@ export default {
     2: 'Zum anderen Spielmodus wechseln',
     3: 'Bildkategorie ändern',
     4: 'Kurzlink kopieren',
-    5: '{mode}: {amount} variants'
+    5: '{mode}: {amount} variant | {mode}: {amount} variants | {mode}: {amount} variants'
   },
   gallery: {
     0: 'Im Vollbild öffnen',
