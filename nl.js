@@ -417,7 +417,7 @@ export default {
     2: 'Naar andere gamemode schakelen',
     3: 'Verander categorie van afbeelding',
     4: 'Kopieer de korte link',
-    5: '{mode}: {amount} variants'
+    5: '{mode}: {amount} variant | {mode}: {amount} variants | {mode}: {amount} variants'
   },
   gallery: {
     0: 'Open in fullscreen',
