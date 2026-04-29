@@ -418,7 +418,7 @@ export default {
     2: 'Diğer oyun moduna geç',
     3: 'Resim kategorisini değiştir',
     4: 'Kısa linki kopyala',
-    5: '{mode}: {amount} variants'
+    5: '{mode}: {amount} variant | {mode}: {amount} variants | {mode}: {amount} variants'
   },
   gallery: {
     0: 'Tam ekranda aç',
