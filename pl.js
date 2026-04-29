@@ -417,7 +417,7 @@ export default {
     2: 'Zmień na inny tryb',
     3: 'Zmień kategorię obrazu',
     4: 'Skopiuj skrócony link',
-    5: '{mode}: {amount} variants'
+    5: '{mode}: {amount} variant | {mode}: {amount} variants | {mode}: {amount} variants'
   },
   gallery: {
     0: 'Otwórz w trybie pełnoekranowym',
