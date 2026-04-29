@@ -177,7 +177,8 @@ export default {
     1: [
       'nazwa',
       'tagi',
-      'twórcy'
+      'twórcy',
+      'files name'
     ],
     2: 'Wybierz zakres dat',
     3: 'Zakres rozmiaru',
@@ -212,7 +213,7 @@ export default {
     3: 'brakujące skiny'
   },
   users: {
-    title: ['Profile - {name} skins'],
+    title: ['Profil - {name} skiny'],
     description: ['All osu! skins created by {name}'],
     0: [
       'Utworzone skiny',
@@ -415,7 +416,8 @@ export default {
     1: 'Otwórz w trybie pełnoekranowym',
     2: 'Zmień na inny tryb',
     3: 'Zmień kategorię obrazu',
-    4: 'Skopiuj skrócony link'
+    4: 'Skopiuj skrócony link',
+    5: '{mode}: {amount} variants'
   },
   gallery: {
     0: 'Otwórz w trybie pełnoekranowym',
