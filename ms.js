@@ -177,7 +177,8 @@ export default {
     1: [
       'nama',
       'penanda',
-      'pencipta'
+      'pencipta',
+      'files name'
     ],
     2: 'Pilih julat tarikh',
     3: 'Julat saiz',
@@ -415,7 +416,8 @@ export default {
     1: 'Open in fullscreen',
     2: 'Switch to other gamemode',
     3: 'Change image category',
-    4: 'Copy short link'
+    4: 'Copy short link',
+    5: '{mode}: {amount} variants'
   },
   gallery: {
     0: 'Open in fullscreen',
