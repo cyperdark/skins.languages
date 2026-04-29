@@ -417,7 +417,7 @@ export default {
     2: 'Treci la alt mod de joc',
     3: 'Schimbă categoria imaginii',
     4: 'Copiază link prescurtat',
-    5: '{mode}: {amount} variants'
+    5: '{mode}: {amount} variant | {mode}: {amount} variants | {mode}: {amount} variants'
   },
   gallery: {
     0: 'Deschide în fullscreen',
