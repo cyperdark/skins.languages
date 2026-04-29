@@ -417,7 +417,7 @@ export default {
     2: 'Mudar para outro modo de jogo',
     3: 'Mudar a categoria da imagem',
     4: 'Copiar link encurtado',
-    5: '{mode}: {amount} variants'
+    5: '{mode}: {amount} variant | {mode}: {amount} variants | {mode}: {amount} variants'
   },
   gallery: {
     0: 'Abrir em tela cheia',

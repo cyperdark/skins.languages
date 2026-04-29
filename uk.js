@@ -418,7 +418,7 @@ export default {
     2: 'Перейти на інший ігровий режим',
     3: 'Змінити категорію зображень',
     4: 'Копіювати коротке посилання',
-    5: '{mode}: {amount} variants'
+    5: '{mode}: {amount} variant | {mode}: {amount} variants | {mode}: {amount} variants'
   },
   gallery: {
     0: 'Відкрити у повноекранному режимі',

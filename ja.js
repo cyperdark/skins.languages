@@ -417,7 +417,7 @@ export default {
     2: '別のゲームモードに切り替え',
     3: '画像カテゴリを変更',
     4: '短縮リンクをコピー',
-    5: '{mode}: {amount} variants'
+    5: '{mode}: {amount} variant | {mode}: {amount} variants | {mode}: {amount} variants'
   },
   gallery: {
     0: 'フルスクリーンで開く',

@@ -417,7 +417,7 @@ export default {
     2: 'Byt till ett annat gamemode',
     3: 'Ändra bildkategori',
     4: 'Kopiera kortlänk',
-    5: '{mode}: {amount} variants'
+    5: '{mode}: {amount} variant | {mode}: {amount} variants | {mode}: {amount} variants'
   },
   gallery: {
     0: 'Öppna i helskärm',
