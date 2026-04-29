@@ -177,7 +177,8 @@ export default {
     1: [
       'nom',
       'étiquettes',
-      'auteurs'
+      'auteurs',
+      'files name'
     ],
     2: 'Sélectionner plage de temps',
     3: 'Plage de taille',
@@ -415,7 +416,8 @@ export default {
     1: 'Ouvrir en plein écran',
     2: 'Basculer vers un autre mode de jeu',
     3: 'Changer la catégorie des images',
-    4: 'Copier le lien raccourci'
+    4: 'Copier le lien raccourci',
+    5: '{mode}: {amount} variants'
   },
   gallery: {
     0: 'Ouvrir en plein écran',
