@@ -417,7 +417,7 @@ export default {
     2: '切换到其他游戏模式',
     3: '更改图片类别',
     4: '复制短链接',
-    5: '{mode}: {amount} variants'
+    5: '{mode}: {amount} variant | {mode}: {amount} variants | {mode}: {amount} variants'
   },
   gallery: {
     0: '全屏显示',
