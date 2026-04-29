@@ -417,7 +417,7 @@ export default {
     2: 'Switch to other gamemode',
     3: 'Change image category',
     4: 'Copy short link',
-    5: '{mode}: {amount} variants'
+    5: '{mode}: {amount} variant | {mode}: {amount} variants | {mode}: {amount} variants'
   },
   gallery: {
     0: 'Open in fullscreen',
