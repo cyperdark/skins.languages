@@ -20,9 +20,9 @@ export default {
   },
   user_menu: {
     0: 'profil',
-    1: 'my skins queue',
-    2: 'relogin',
-    3: 'log out'
+    1: 'antrean skin saya',
+    2: 'login ulang',
+    3: 'keluar'
   },
   status: {
     0: 'Tidak ada yang ditemukan',
@@ -177,7 +177,8 @@ export default {
     1: [
       'nama',
       'label',
-      'pembuat'
+      'pembuat',
+      'files name'
     ],
     2: 'Pilih rentang tanggal',
     3: 'Ukuran rentang',
@@ -415,7 +416,8 @@ export default {
     1: 'Open in fullscreen',
     2: 'Switch to other gamemode',
     3: 'Change image category',
-    4: 'Copy short link'
+    4: 'Copy short link',
+    5: '{mode}: {amount} variants'
   },
   gallery: {
     0: 'Open in fullscreen',
