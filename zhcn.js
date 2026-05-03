@@ -529,10 +529,8 @@ export default {
     7: '{amount} 次投票'
   },
   nsfw: {
-    0: 'NSFW 警告！',
-    1: '此皮肤包含敏感或成人内容！',
-    2: '注意!',
-    3: '福瑞警告！'
+    0: 'Warning!',
+    1: 'This skin contains {type} content. Proceed?'
   },
   drag: {
     0: '点击添加图片',

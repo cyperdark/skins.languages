@@ -529,10 +529,8 @@ export default {
     7: '{amount} gillningar'
   },
   nsfw: {
-    0: 'NSFW varning!',
-    1: 'Detta skin innehåller känsligt eller barnförbjudet innehåll!',
-    2: 'Warning!',
-    3: 'Furry Varning! :3'
+    0: 'Warning!',
+    1: 'This skin contains {type} content. Proceed?'
   },
   drag: {
     0: 'Klicka för att lägga till bilder',

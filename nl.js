@@ -529,10 +529,8 @@ export default {
     7: '{amount} stemmen'
   },
   nsfw: {
-    0: 'NSFW-waarschuwing!',
-    1: 'Deze skin bevat gevoelige of volwassen content!',
-    2: 'Pas op!',
-    3: 'Furry Waarschuwing! :3'
+    0: 'Warning!',
+    1: 'This skin contains {type} content. Proceed?'
   },
   drag: {
     0: 'Klik om afbeeldingen toe te voegen',

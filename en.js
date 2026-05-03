@@ -651,10 +651,8 @@ export default {
   },
 
   nsfw: {
-    0: 'NSFW Warning!',
-    1: 'This skin contains sensitive or adult content!',
-    2: 'Warning!',
-    3: 'Furry Warning!',
+    0: 'Warning!',
+    1: 'This skin contains {type} content. Proceed?',
   },
 
   drag: {
