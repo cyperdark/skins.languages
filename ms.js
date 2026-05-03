@@ -529,10 +529,8 @@ export default {
     7: '{amount} undian'
   },
   nsfw: {
-    0: 'Amaran NSFW!',
-    1: 'Skin ini mengandungi kandungan sensitif ataupun kandungan dewasa!',
-    2: 'Amaran!',
-    3: 'Amaran Furry!'
+    0: 'Warning!',
+    1: 'This skin contains {type} content. Proceed?'
   },
   drag: {
     0: 'Click to add images',
