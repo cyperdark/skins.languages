@@ -529,10 +529,8 @@ export default {
     7: '{amount} 票'
   },
   nsfw: {
-    0: 'NSFW 警告！',
-    1: 'このスキンにはセンシティブまたは成人向けの内容が含まれます！',
-    2: '注意！',
-    3: 'ケモノ注意！'
+    0: 'Warning!',
+    1: 'This skin contains {type} content. Proceed?'
   },
   drag: {
     0: 'クリックして画像を追加',
