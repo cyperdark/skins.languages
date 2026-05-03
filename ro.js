@@ -529,10 +529,8 @@ export default {
     7: '{amount} voturi'
   },
   nsfw: {
-    0: 'Avertisment NSFW!',
-    1: 'Acest skin conține conținut sensibil sau pentru adulți!',
-    2: 'Warning!',
-    3: 'Avertisment Furry!'
+    0: 'Warning!',
+    1: 'This skin contains {type} content. Proceed?'
   },
   drag: {
     0: 'Apasă aici ca să adaugi imagini',
