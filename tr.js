@@ -530,10 +530,8 @@ export default {
     7: '{amount} tane oy'
   },
   nsfw: {
-    0: 'NSFW Uyarısı!',
-    1: 'Bu skin hassas veya yetişkinlere yönelik içerik barındırıyor!',
-    2: 'Warning!',
-    3: 'Furry Uyarısı!'
+    0: 'Warning!',
+    1: 'This skin contains {type} content. Proceed?'
   },
   drag: {
     0: 'Resimleri eklemek için tıklayın',
