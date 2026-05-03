@@ -529,10 +529,8 @@ export default {
     7: '{amount} Stimmen'
   },
   nsfw: {
-    0: 'NSFW Warnung!',
-    1: 'Dieser Skin enthält empfindliche oder Inhalte für Erwachsene.',
-    2: 'Warning!',
-    3: 'Achtung Furry! :3'
+    0: 'Warning!',
+    1: 'This skin contains {type} content. Proceed?'
   },
   drag: {
     0: 'Klicken, um Bilder hinzuzufügen',
