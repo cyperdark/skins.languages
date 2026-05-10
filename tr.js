@@ -35,7 +35,10 @@ export default {
     1: 'Mouse scroll',
     2: 'Bir skin bloğunun üzerine fareyi getirdiğinizde kolay görüntü gezinimi sağlar.',
     3: 'Yakınlaştır',
-    4: 'Bir skin bloğunun üzerine fareyi getirdiğinizde otomatik görüntü yakınlaştırma özelliğini etkinleştirir.'
+    4: 'Bir skin bloğunun üzerine fareyi getirdiğinizde otomatik görüntü yakınlaştırma özelliğini etkinleştirir.',
+    5: 'Tint visited skins',
+    6: 'option to tint skins you\'ve already visited',
+    7: 'Log in to tint visited skins'
   },
   footer: {
     0: 'Katkıda Bulunanlar',
@@ -418,7 +421,9 @@ export default {
     2: 'Diğer oyun moduna geç',
     3: 'Resim kategorisini değiştir',
     4: 'Kısa linki kopyala',
-    5: '{mode}: {amount} variant | {mode}: {amount} variants | {mode}: {amount} variants'
+    5: '{mode}: {amount} variant | {mode}: {amount} variants | {mode}: {amount} variants',
+    6: 'Visited',
+    7: 'Can be disabled in settings (next to your pfp)'
   },
   gallery: {
     0: 'Tam ekranda aç',
