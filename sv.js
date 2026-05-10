@@ -35,7 +35,10 @@ export default {
     1: 'Musbläddring',
     2: 'Aktiverar enkel bildnavigation när du håller musen över ett skin block.',
     3: 'Zooma in',
-    4: 'Aktiverar automatisk bildzoom när du håller musen över ett skin block.'
+    4: 'Aktiverar automatisk bildzoom när du håller musen över ett skin block.',
+    5: 'Tint visited skins',
+    6: 'option to tint skins you\'ve already visited',
+    7: 'Log in to tint visited skins'
   },
   footer: {
     0: 'Medverkande',
@@ -417,7 +420,9 @@ export default {
     2: 'Byt till ett annat gamemode',
     3: 'Ändra bildkategori',
     4: 'Kopiera kortlänk',
-    5: '{mode}: {amount} variant | {mode}: {amount} variants | {mode}: {amount} variants'
+    5: '{mode}: {amount} variant | {mode}: {amount} variants | {mode}: {amount} variants',
+    6: 'Visited',
+    7: 'Can be disabled in settings (next to your pfp)'
   },
   gallery: {
     0: 'Öppna i helskärm',
