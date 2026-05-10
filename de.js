@@ -35,7 +35,10 @@ export default {
     1: 'Mausscroll',
     2: 'Ermöglicht einfache Navigation durch Bilder beim Hovern über einen Skin-Block.',
     3: 'Reinzoomen',
-    4: 'Ermöglicht automatisches Hineinzoomen in Bilder beim Hovern über einen Skin-Block.'
+    4: 'Ermöglicht automatisches Hineinzoomen in Bilder beim Hovern über einen Skin-Block.',
+    5: 'Tint visited skins',
+    6: 'option to tint skins you\'ve already visited',
+    7: 'Log in to tint visited skins'
   },
   footer: {
     0: 'Credits',
@@ -417,7 +420,9 @@ export default {
     2: 'Zum anderen Spielmodus wechseln',
     3: 'Bildkategorie ändern',
     4: 'Kurzlink kopieren',
-    5: '{mode}: {amount} variant | {mode}: {amount} variants | {mode}: {amount} variants'
+    5: '{mode}: {amount} variant | {mode}: {amount} variants | {mode}: {amount} variants',
+    6: 'Visited',
+    7: 'Can be disabled in settings (next to your pfp)'
   },
   gallery: {
     0: 'Im Vollbild öffnen',

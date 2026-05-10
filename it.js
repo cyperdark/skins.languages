@@ -35,7 +35,10 @@ export default {
     1: 'Scorrimento con mouse',
     2: 'Consente la navigazione facile al passaggio del mouse sopra un riquadro di una skin.',
     3: 'Zoom in',
-    4: 'Consente lo zoom automatico dell\'immagine al passaggio del mouse sopra un riquadro di una skin.'
+    4: 'Consente lo zoom automatico dell\'immagine al passaggio del mouse sopra un riquadro di una skin.',
+    5: 'Tint visited skins',
+    6: 'option to tint skins you\'ve already visited',
+    7: 'Log in to tint visited skins'
   },
   footer: {
     0: 'Crediti',
@@ -417,7 +420,9 @@ export default {
     2: 'Cambia ad un\'altra modalità di gioco',
     3: 'Cambia la categoria dell\'immagine',
     4: 'Copia link breve',
-    5: '{mode}: {amount} variant | {mode}: {amount} variants | {mode}: {amount} variants'
+    5: '{mode}: {amount} variant | {mode}: {amount} variants | {mode}: {amount} variants',
+    6: 'Visited',
+    7: 'Can be disabled in settings (next to your pfp)'
   },
   gallery: {
     0: 'Apri a schermo intero',

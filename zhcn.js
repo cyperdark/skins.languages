@@ -35,7 +35,10 @@ export default {
     1: '鼠标滚轮操作',
     2: '当鼠标悬浮在皮肤封面上时启用便捷的图片翻页。',
     3: '放大',
-    4: '当鼠标悬浮在皮肤封面上时自动缩放图片。'
+    4: '当鼠标悬浮在皮肤封面上时自动缩放图片。',
+    5: 'Tint visited skins',
+    6: 'option to tint skins you\'ve already visited',
+    7: 'Log in to tint visited skins'
   },
   footer: {
     0: '致谢',
@@ -417,7 +420,9 @@ export default {
     2: '切换到其他游戏模式',
     3: '更改图片类别',
     4: '复制短链接',
-    5: '{mode}: {amount} variant | {mode}: {amount} variants | {mode}: {amount} variants'
+    5: '{mode}: {amount} variant | {mode}: {amount} variants | {mode}: {amount} variants',
+    6: 'Visited',
+    7: 'Can be disabled in settings (next to your pfp)'
   },
   gallery: {
     0: '全屏显示',

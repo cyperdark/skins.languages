@@ -35,7 +35,10 @@ export default {
     1: 'Scroll do mouse',
     2: 'Habilita a navegação fácil ao passar o cursor sobre o quadro da skin',
     3: 'Aproximar',
-    4: 'Habilita o zoom automático ao passar o mouse sobre o quadro da skin'
+    4: 'Habilita o zoom automático ao passar o mouse sobre o quadro da skin',
+    5: 'Tint visited skins',
+    6: 'option to tint skins you\'ve already visited',
+    7: 'Log in to tint visited skins'
   },
   footer: {
     0: 'Créditos',
@@ -178,7 +181,7 @@ export default {
       'nome',
       'tags',
       'criadores',
-      'files name'
+      'nome dos arquivos'
     ],
     2: 'Selecionar período',
     3: 'Intervalo de tamanho',
@@ -417,7 +420,9 @@ export default {
     2: 'Mudar para outro modo de jogo',
     3: 'Mudar a categoria da imagem',
     4: 'Copiar link encurtado',
-    5: '{mode}: {amount} variant | {mode}: {amount} variants | {mode}: {amount} variants'
+    5: '{mode}: {amount} variante | {mode}: {amount} variantes | {mode}: {amount} variantes',
+    6: 'Visited',
+    7: 'Can be disabled in settings (next to your pfp)'
   },
   gallery: {
     0: 'Abrir em tela cheia',
@@ -529,8 +534,8 @@ export default {
     7: '{amount} votes'
   },
   nsfw: {
-    0: 'Warning!',
-    1: 'This skin contains {type} content. Proceed?'
+    0: 'Atenção!',
+    1: 'Esta skin contém conteúdo {type}. Prosseguir?'
   },
   drag: {
     0: 'Clique para adicionar imagens',

@@ -35,7 +35,10 @@ export default {
     1: 'Navigation à la molette',
     2: 'Naviguer facilement sur les images lors du survol d\'un skin',
     3: 'Zoom +',
-    4: 'Zoom automatique des images lors du survol d\'un skin'
+    4: 'Zoom automatique des images lors du survol d\'un skin',
+    5: 'Tint visited skins',
+    6: 'option to tint skins you\'ve already visited',
+    7: 'Log in to tint visited skins'
   },
   footer: {
     0: 'Crédits',
@@ -417,7 +420,9 @@ export default {
     2: 'Basculer vers un autre mode de jeu',
     3: 'Changer la catégorie des images',
     4: 'Copier le lien raccourci',
-    5: '{mode}: {amount} variant | {mode}: {amount} variants | {mode}: {amount} variants'
+    5: '{mode}: {amount} variant | {mode}: {amount} variants | {mode}: {amount} variants',
+    6: 'Visited',
+    7: 'Can be disabled in settings (next to your pfp)'
   },
   gallery: {
     0: 'Ouvrir en plein écran',

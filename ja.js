@@ -35,7 +35,10 @@ export default {
     1: 'マウススクロール',
     2: 'スキンブロックにカーソルを合わせたとき、画像を簡単に切り替えられるようにします。',
     3: '拡大',
-    4: 'スキンブロックにカーソルを合わせた際、自動で画像を拡大します。'
+    4: 'スキンブロックにカーソルを合わせた際、自動で画像を拡大します。',
+    5: 'Tint visited skins',
+    6: 'option to tint skins you\'ve already visited',
+    7: 'Log in to tint visited skins'
   },
   footer: {
     0: 'クレジット',
@@ -178,7 +181,7 @@ export default {
       '名前',
       'タグ',
       '制作者',
-      'files name'
+      'ファイル名'
     ],
     2: '日付範囲を選択',
     3: 'サイズの範囲',
@@ -291,10 +294,10 @@ export default {
       4: `スクリーンショットはスキンに関連するものであり、なおかつ正確に描画されているものを使用してください。`,
       5: `元の作成者が**非公開にしたもの**や、**共有されることを望まない**スキンを、許可なくアップロードしないでください。`,
       6: `他のスキンを基に作成されたか、他のクリエイターが作成したアセットがスキンに含まれている際は、原作者の名前を投稿に記載してください。`,
-      7: `If your skin **includes** third-party assets (art, hitsounds, fonts, etc.), you **must** have permission and provide proper **credit** in the **Resources** tab of your submission.`,
-      8: `All submissions **must use English** as the primary language.\n- Titles containing **non-Latin** characters must also **include a Romanized** version.`,
-      9: `**Prohibited** content includes:\n- Religious or political content\n- Racism, hate speech, or harassment\n- Offensive or discriminatory imagery\n- Excessive gore or extreme violence\n- Explicit sexual content, including depictions of minors.`,
-      10: `Suggestive or borderline content **must be clearly labeled** with the **NSFW** tag.`
+      7: `投稿するスキンに第三者が所有するアセット (画像や効果音、フォントなど) が含まれる場合、必ず所有者の許可を得たうえで、**リソース**タブに所有者の名前を**記載**してください。`,
+      8: `投稿の際は必ず一次言語として**英語で記載**してください。\n- タイトルに**ラテン文字以外**が含まれる場合は、それらは**ローマ字表記**にしてください。`,
+      9: `**禁止された**コンテンツ：\n- 宗教的または政治的なコンテンツ\n- 人種差別やヘイトスピーチ、嫌がらせを目的としたコンテンツ\n- 攻撃的、もしくは差別的な画像\n- 過度なグロ・暴力表現\n- 未成年者の描写を含む露骨な性的コンテンツ`,
+      10: `示唆的または際どいコンテンツが含まれる場合、必ず**NSFWタグ**を付けて、**明確にラベル付け**しなければいけません。`
     },
     0: 'すべてクリアしますか？',
     1: '投稿する',
@@ -387,14 +390,14 @@ export default {
     75: 'キャッシュから変更を復元しました',
     76: 'リリース日：{date}',
     77: 'ロールを選択',
-    78: 'report',
+    78: '報告',
     79: 'HPバー/戻るボタン/スキップアニメーションが無いバージョン',
     80: 'プレイ画面のみのバージョン',
-    81: 'Files for customization / additional gameplay elements (and unused files)',
+    81: 'カスタマイズするためのファイル / ゲームプレイの追加要素 (および未使用ファイル)',
     82: 'Select rating',
     83: 'リリース日：',
     84: 'スクリーンショットカテゴリを選択',
-    85: 'try disabling «Quick select»',
+    85: '«クイック選択»を無効にしてお試しください',
     86: '再送信',
     checks: {
       0: 'スキン名が指定されていません',
@@ -417,7 +420,9 @@ export default {
     2: '別のゲームモードに切り替え',
     3: '画像カテゴリを変更',
     4: '短縮リンクをコピー',
-    5: '{mode}: {amount} variant | {mode}: {amount} variants | {mode}: {amount} variants'
+    5: '{mode}: {amount} variant | {mode}: {amount} variants | {mode}: {amount} variants',
+    6: 'Visited',
+    7: 'Can be disabled in settings (next to your pfp)'
   },
   gallery: {
     0: 'フルスクリーンで開く',
@@ -483,10 +488,10 @@ export default {
     7: '報告を送信'
   },
   plural: {
-    skins: '{amount} skin | {amount} skins | {amount} skins',
-    tags_skins: '«{name}» {amount} skin | «{name}» {amount} skins | «{name}» {amount} skins',
-    views: '{amount} view | {amount} views | {amount} views',
-    votes: '{amount} vote | {amount} votes | {amount} votes'
+    skins: '{amount} 個のスキン | {amount} 個のスキン | {amount} 個のスキン',
+    tags_skins: '«{name}» {amount} 個のスキン | «{name}» {amount} 個のスキン | «{name}» {amount} 個のスキン',
+    views: '{amount} 回の閲覧 | {amount} 回の閲覧 | {amount} 回の閲覧',
+    votes: '{amount} 票 | {amount} 票 | {amount} 票'
   },
   placeholder: {
     0: 'テキストを入力..',
@@ -529,8 +534,8 @@ export default {
     7: '{amount} 票'
   },
   nsfw: {
-    0: 'Warning!',
-    1: 'This skin contains {type} content. Proceed?'
+    0: '注意！',
+    1: 'このスキンには以下の要素が含まれます。よろしいですか？\\n{type}'
   },
   drag: {
     0: 'クリックして画像を追加',

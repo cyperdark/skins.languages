@@ -35,7 +35,10 @@ export default {
     1: '마우스 스크롤',
     2: '스킨 블록에 마우스를 올렸을 때, 이미지를 쉽게 전환할 수 있습니다.',
     3: '확대',
-    4: '스킨 블록에 마우스를 올렸을 때, 자동으로 이미지를 확대합니다.'
+    4: '스킨 블록에 마우스를 올렸을 때, 자동으로 이미지를 확대합니다.',
+    5: 'Tint visited skins',
+    6: 'option to tint skins you\'ve already visited',
+    7: 'Log in to tint visited skins'
   },
   footer: {
     0: '크레딧',
@@ -417,7 +420,9 @@ export default {
     2: 'Switch to other gamemode',
     3: 'Change image category',
     4: 'Copy short link',
-    5: '{mode}: {amount} variant | {mode}: {amount} variants | {mode}: {amount} variants'
+    5: '{mode}: {amount} variant | {mode}: {amount} variants | {mode}: {amount} variants',
+    6: 'Visited',
+    7: 'Can be disabled in settings (next to your pfp)'
   },
   gallery: {
     0: 'Open in fullscreen',

@@ -35,7 +35,10 @@ export default {
     1: 'Rueda del ratón',
     2: 'Permite una fácil navegación por las imágenes al pasar el cursor sobre un aspecto.',
     3: 'Ampliar',
-    4: 'Permite una fácil navegación por las imágenes al pasar el cursor sobre un bloque de skin.'
+    4: 'Permite una fácil navegación por las imágenes al pasar el cursor sobre un bloque de skin.',
+    5: 'Tint visited skins',
+    6: 'option to tint skins you\'ve already visited',
+    7: 'Log in to tint visited skins'
   },
   footer: {
     0: 'Créditos',
@@ -417,7 +420,9 @@ export default {
     2: 'Cambiar a otro modo de juego',
     3: 'Cambiar categoría de imagen',
     4: 'Copiar enlace corto',
-    5: '{mode}: {amount} variant | {mode}: {amount} variants | {mode}: {amount} variants'
+    5: '{mode}: {amount} variant | {mode}: {amount} variants | {mode}: {amount} variants',
+    6: 'Visited',
+    7: 'Can be disabled in settings (next to your pfp)'
   },
   gallery: {
     0: 'Abrir en pantalla completa',

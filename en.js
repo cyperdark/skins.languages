@@ -38,10 +38,17 @@ export default {
 
   settings: {
     0: 'Settings',
+
     1: 'Mouse scroll',
     2: 'Enables easy image navigation when hovering over a skin block.',
+
     3: 'Zoom in',
     4: 'Enables automatic image zoom when hovering over a skin block.',
+
+    5: 'Tint visited skins',
+    6: 'option to tint skins you\'ve already visited',
+
+    7: 'Log in to tint visited skins'
   },
 
   footer: {
@@ -521,7 +528,10 @@ export default {
     3: 'Change image category',
     4: 'Copy short link',
 
-    5: '{mode}: {amount} variant | {mode}: {amount} variants | {mode}: {amount} variants'
+    5: '{mode}: {amount} variant | {mode}: {amount} variants | {mode}: {amount} variants',
+
+    6: 'Visited',
+    7: 'Can be disabled in settings (next to your pfp)'
   },
 
 

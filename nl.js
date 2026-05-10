@@ -35,7 +35,10 @@ export default {
     1: 'Muis scrol',
     2: 'Schakel makkelijke afbeelding navigatie in als je cursor over een skin blok zweeft',
     3: 'Inzoomen',
-    4: 'Schakel automatische afbeelding zoom in als je cursor over een skin blok zweeft.'
+    4: 'Schakel automatische afbeelding zoom in als je cursor over een skin blok zweeft.',
+    5: 'Tint visited skins',
+    6: 'option to tint skins you\'ve already visited',
+    7: 'Log in to tint visited skins'
   },
   footer: {
     0: 'Dank aan',
@@ -417,7 +420,9 @@ export default {
     2: 'Naar andere gamemode schakelen',
     3: 'Verander categorie van afbeelding',
     4: 'Kopieer de korte link',
-    5: '{mode}: {amount} variant | {mode}: {amount} variants | {mode}: {amount} variants'
+    5: '{mode}: {amount} variant | {mode}: {amount} variants | {mode}: {amount} variants',
+    6: 'Visited',
+    7: 'Can be disabled in settings (next to your pfp)'
   },
   gallery: {
     0: 'Open in fullscreen',
