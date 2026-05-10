@@ -35,7 +35,10 @@ export default {
     1: 'Derulare cu mouse-ul',
     2: 'Permite navigarea mai ușoară a imaginilor atunci când cursor-ul planează deasupra lor.',
     3: 'Mărire',
-    4: 'Permite mărirea automată a imaginilor atunci când cursor-ul planează deasupra lor.'
+    4: 'Permite mărirea automată a imaginilor atunci când cursor-ul planează deasupra lor.',
+    5: 'Tint visited skins',
+    6: 'option to tint skins you\'ve already visited',
+    7: 'Log in to tint visited skins'
   },
   footer: {
     0: 'Credite',
@@ -61,8 +64,8 @@ export default {
     ],
     4: 'rapoarte de aspect',
     5: 'mai mult',
-    6: 'Recently uploaded/updated skins',
-    7: 'Newly released skins'
+    6: 'Skin-uri încărcate/actualizate recent',
+    7: 'Skin-uri lansate recent'
   },
   credits: {
     title: [
@@ -88,7 +91,7 @@ export default {
   },
   skin_ini: {
     title: 'Editor vizual skin.ini - instrumente pentru osu!',
-    description: 'Preview your skin gameplay with in real-time changes such as combo colors, slider colors, and font offsets. Standard mode only for now',
+    description: 'Previzualizează gameplay-ul skin-ului tău cu modificări în timp real, precum culorile combo, culorile slider-elor și offset-urile fontului. Doar modul Standard',
     prepare: [
       'se încarcă beatmap-ul',
       'se încarcă skin-ul',
@@ -242,7 +245,7 @@ export default {
     21: 'Extinde «despre mine» | Închide «despre mine»',
     22: 'Nu am găsit nimic',
     23: 'Nu au fost găsite skin-uri pentru acest creator',
-    24: 'copied'
+    24: 'copiat'
   },
   skins: {
     title: [
@@ -417,7 +420,9 @@ export default {
     2: 'Treci la alt mod de joc',
     3: 'Schimbă categoria imaginii',
     4: 'Copiază link prescurtat',
-    5: '{mode}: {amount} variant | {mode}: {amount} variants | {mode}: {amount} variants'
+    5: '{mode}: {amount} variant | {mode}: {amount} variants | {mode}: {amount} variants',
+    6: 'Visited',
+    7: 'Can be disabled in settings (next to your pfp)'
   },
   gallery: {
     0: 'Deschide în fullscreen',
