@@ -35,7 +35,10 @@ export default {
     1: 'Kółko myszy',
     2: 'Pozwól na łatwą nawigację po obrazie przy najeżdżaniu na okno skina.',
     3: 'Powiększ',
-    4: 'Pozwól na automatyczne zbliżenie przy najeżdżaniu na okno skina.'
+    4: 'Pozwól na automatyczne zbliżenie przy najeżdżaniu na okno skina.',
+    5: 'Tint visited skins',
+    6: 'option to tint skins you\'ve already visited',
+    7: 'Log in to tint visited skins'
   },
   footer: {
     0: 'Autorzy',
@@ -417,7 +420,9 @@ export default {
     2: 'Zmień na inny tryb',
     3: 'Zmień kategorię obrazu',
     4: 'Skopiuj skrócony link',
-    5: '{mode}: {amount} variant | {mode}: {amount} variants | {mode}: {amount} variants'
+    5: '{mode}: {amount} variant | {mode}: {amount} variants | {mode}: {amount} variants',
+    6: 'Visited',
+    7: 'Can be disabled in settings (next to your pfp)'
   },
   gallery: {
     0: 'Otwórz w trybie pełnoekranowym',
