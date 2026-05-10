@@ -35,7 +35,10 @@ export default {
     1: 'Прокрутка мишею',
     2: 'Дозволяє легку навігацію зображеннями при наведенні на блок скіна.',
     3: 'Приблизити',
-    4: 'Дозволяє автоматичне масштабування зображень при наведенні курсором на блок скіна.'
+    4: 'Дозволяє автоматичне масштабування зображень при наведенні курсором на блок скіна.',
+    5: 'Tint visited skins',
+    6: 'option to tint skins you\'ve already visited',
+    7: 'Log in to tint visited skins'
   },
   footer: {
     0: 'Внески',
@@ -418,7 +421,9 @@ export default {
     2: 'Перейти на інший ігровий режим',
     3: 'Змінити категорію зображень',
     4: 'Копіювати коротке посилання',
-    5: '{mode}: {amount} variant | {mode}: {amount} variants | {mode}: {amount} variants'
+    5: '{mode}: {amount} variant | {mode}: {amount} variants | {mode}: {amount} variants',
+    6: 'Visited',
+    7: 'Can be disabled in settings (next to your pfp)'
   },
   gallery: {
     0: 'Відкрити у повноекранному режимі',
