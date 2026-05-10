@@ -35,11 +35,14 @@ export default {
     1: 'Mouse scroll',
     2: 'Enables easy image navigation when hovering over a skin block.',
     3: 'Perbesar',
-    4: 'Enables automatic image zoom when hovering over a skin block.'
+    4: 'Enables automatic image zoom when hovering over a skin block.',
+    5: 'Tint visited skins',
+    6: 'option to tint skins you\'ve already visited',
+    7: 'Log in to tint visited skins'
   },
   footer: {
-    0: 'Credits',
-    1: 'Report issue'
+    0: 'Kredit',
+    1: 'Laporkan masalah'
   },
   home: {
     title: [
@@ -48,11 +51,11 @@ export default {
     ],
     description: 'Temukan skin osu! terbaik di situs kami! Koleksi skin kami yang besar mencakup semua mode permainan, rasio aspek, dan bahkan pemain top. Selain itu, kami memiliki bagian khusus untuk penggemar anime. Tingkatkan gameplay Anda dengan skin yang sempurna. #osuskins #osugame #anime',
     0: 'Tersedia untuk didownload',
-    1: 'Most [viewed], [liked], [downloaded] skins',
+    1: 'Skin yang paling banyak [viewed], [liked], dan [downloaded]',
     2: [
-      'viewed',
-      'liked',
-      'downloaded'
+      'dilihat',
+      'disukai',
+      'diunduh'
     ],
     3: [
       'Terbaru',
@@ -62,15 +65,15 @@ export default {
     4: 'aspek rasio',
     5: 'selengkapnya',
     6: 'Skin yang baru saja diunggah/diperbarui',
-    7: 'Newly released skins'
+    7: 'Skin yang baru dirilis'
   },
   credits: {
     title: [
-      'Artwork credits',
-      'Used assets',
-      'Localization helpers'
+      'Kredit karya seni',
+      'Aset yang digunakan',
+      'Pembantu lokalisasi'
     ],
-    0: 'Credits',
+    0: 'Kredit',
     1: 'Siapapun? [{lang}]',
     2: 'Sepertinya, cyperdark lupa menambahkannya. {text}',
     3: [
@@ -87,13 +90,13 @@ export default {
     0: 'Alat pembuatan skin lainnya'
   },
   skin_ini: {
-    title: 'Visual skin.ini editor - osu! tools',
-    description: 'Preview your skin gameplay with in real-time changes such as combo colors, slider colors, and font offsets. Standard mode only for now',
+    title: 'Editor visual skin.ini - alat osu!',
+    description: 'Pratinjau gameplay skin Anda dengan perubahan real-time seperti warna combo, warna slider, dan offset font. Hanya mendukung mode Standard untuk saat ini',
     prepare: [
       'memuat beatmap',
       'memuat skin',
       'menyiapkan skin',
-      'loading viewer'
+      'memuat penampil'
     ],
     0: 'Selamat datang di editor visual skin.ini!',
     1: 'Di sini Anda dapat melihat pratinjau tampilan gameplay skin Anda dengan perubahan secara real-time, seperti warna kombo, warna slider, dan offset font. Saat ini hanya untuk mode standar',
@@ -102,19 +105,19 @@ export default {
     4: 'Impor .osk/.zip',
     5: 'Impor folder skin',
     6: 'file .osu tidak ditemukan',
-    7: 'Incorrect gamemode, only standard beatmaps are allowed',
+    7: 'Mode permainan tidak sesuai, hanya beatmap Standar yang diperbolehkan',
     8: 'Skin.ini tidak ditemukan',
     9: 'Pilih minimal 1 file .osk/ .zip',
-    10: 'Viewer settings',
+    10: 'Setelan penampil',
     11: 'Atur ulang skin.ini',
     12: 'Ekspor skin.ini',
     13: 'Acak warna (pada tab saat ini)',
     14: 'Ganti tab',
-    15: 'Rewind',
-    16: 'Forward',
-    17: 'Play/Pause viewer',
-    18: 'Move to previous settings section',
-    19: 'Move to next settings section',
+    15: 'Mundur',
+    16: 'Maju',
+    17: 'Putar/Jeda penampil',
+    18: 'Pindah ke setelan aksi sebelumnya',
+    19: 'Pindah ke setelan aksi setelahnya',
     20: 'Buka menu',
     21: 'Tutup menu',
     22: 'Pintasan',
@@ -155,7 +158,7 @@ export default {
     8: 'Fase persiapan...',
     9: 'Fase pemungutan suara...',
     10: 'Menunggu hasil...',
-    11: 'Vote here',
+    11: 'Vote di sini',
     12: 'pengumuman',
     13: 'pengajuan',
     14: 'halaman kontes',
@@ -178,7 +181,7 @@ export default {
       'nama',
       'label',
       'pembuat',
-      'files name'
+      'nama berkas'
     ],
     2: 'Pilih rentang tanggal',
     3: 'Ukuran rentang',
@@ -397,52 +400,54 @@ export default {
     85: 'try disabling «Quick select»',
     86: 'Submit again',
     checks: {
-      0: 'Skin name not specified',
-      1: 'Add at least one creator',
-      2: 'Select at least one aspect ratio',
-      3: 'No screenshots provided',
-      4: 'Add at least one gameplay screenshot',
-      5: 'Skin link not specified',
-      6: 'Some creators do not have roles',
-      7: 'Some creators do not have names',
-      8: 'Skin release date not specified',
-      9: 'Skin version not specified',
-      10: 'Content rating not selected',
-      11: `Release date can't be in future`
+      0: 'Nama skin belum diisi',
+      1: 'Tambahkan setidaknya satu pembuat',
+      2: 'Pilih setidaknya satu aspek rasio',
+      3: 'Tidak ada tangkapan gambar yang diberikan',
+      4: 'Tambahkan setidaknya satu tangkapan gambar gameplay',
+      5: 'Tautan skin belum diisi',
+      6: 'Beberapa pembuat tidak memiliki peran',
+      7: 'Beberapa pembuat tidak memiliki nama',
+      8: 'Tanggal rilis skin belum diisi',
+      9: 'Versi skin belum diisi',
+      10: 'Rating konten belum dipilih',
+      11: `Tanggal rilis tidak boleh di masa depan`
     }
   },
   skin_block: {
-    0: 'Open skin page',
-    1: 'Open in fullscreen',
-    2: 'Switch to other gamemode',
-    3: 'Change image category',
-    4: 'Copy short link',
-    5: '{mode}: {amount} variant | {mode}: {amount} variants | {mode}: {amount} variants'
+    0: 'Buka halaman skin',
+    1: 'Buka di layar penuh',
+    2: 'Beralih ke mode permainan lain',
+    3: 'Ubah kategori gambar',
+    4: 'Salin tautan pendek',
+    5: '{mode}: {amount} varian | {mode}: {amount} varian | {mode}: {amount} varian',
+    6: 'Visited',
+    7: 'Can be disabled in settings (next to your pfp)'
   },
   gallery: {
-    0: 'Open in fullscreen',
-    1: 'Exit fullscreen',
-    2: 'Reset zoom',
-    3: 'Close gallery'
+    0: 'Buka di layar penuh',
+    1: 'Keluar dari layar penuh',
+    2: 'Ukuran semula',
+    3: 'Tutup galeri'
   },
   screenshots_select: {
-    0: 'Welcome',
-    1: 'Main menu',
-    2: 'Song select',
-    3: 'Mode menu',
-    4: 'Mods',
-    5: 'Countdown',
+    0: 'Selamat datang',
+    1: 'Menu utama',
+    2: 'Pilihan lagu',
+    3: 'Menu mode',
+    4: 'Mod',
+    5: 'Hitung mundur',
     6: 'Gameplay',
     7: 'Spinner',
     8: 'Section Pass',
     9: 'Section Fail',
-    10: 'Pause Screen',
-    11: 'Fail Screen',
-    12: 'Result screen (top)',
+    10: 'Layar Jeda',
+    11: 'Layar Gagal',
+    12: 'Layar hasil (bagian atas)',
     13: 'Skip',
     14: 'Banner',
-    15: 'Result screen (bottom)',
-    16: 'Pinned image',
+    15: 'Layar hasil (bagian bawah)',
+    16: 'Gambar yang disematkan',
     17: 'osu!',
     18: 'catch the beat',
     19: 'mania',
@@ -450,107 +455,107 @@ export default {
   },
   report: {
     skin_ini: [
-      'Describe bug, preferably with reproduction steps',
-      'Describe what you want to see...'
+      'Jelaskan bug, sertakan langkah-langkah untuk mereproduksinya',
+      'Jelaskan apa yang mau Anda lihat...'
     ],
     tag: {
-      0: 'Missing skin',
-      1: 'Link to a video of missing skin'
+      0: 'Skin hilang',
+      1: 'Tautan ke video skin yang hilang'
     },
     skin_file: [
-      'Download link broken',
-      'Skin is broken',
-      'Describe what exactly broken'
+      'Tautan unduhan rusak',
+      'Skin rusak',
+      'Jelaskan apa yang rusak'
     ],
     skin: [
-      'Wrong/Missing screenshots',
-      'Which screenshots are missing',
-      'Wrong/Missing creators',
-      'Type text...',
-      'Missing NSFW tag',
+      'Tangkapan gambar Salah/Hilang',
+      'Tangkapan gambar mana yang hilang',
+      'Kreator Salah/Hilang',
+      'Masukkan teks...',
+      'Tag NSFW tidak ada',
       'Metadata',
-      'Describe what exactly wrong',
-      'Copyright/Missing credits',
-      'Type text...'
+      'Jelaskan apa yang salah',
+      'Hak cipta/Kredit hilang',
+      'Masukkan teks...'
     ],
-    0: 'Log in to report a issue',
-    1: 'Type is not selected',
-    2: `Id does not exist`,
-    3: 'Category not selected',
-    4: 'Report already submitted',
-    5: 'Report submitted',
-    6: 'Select report category',
-    7: 'Submit report'
+    0: 'Masuk untuk melaporkan masalah',
+    1: 'Tipe tidak dipilih',
+    2: `Id tidak ditemukan`,
+    3: 'Kategori tidak dipilih',
+    4: 'Laporan telah dikirim',
+    5: 'Laporan terkirim',
+    6: 'Pilih kategori laporan',
+    7: 'Kirim laporan'
   },
   plural: {
-    skins: '{amount} skin | {amount} skins | {amount} skins',
-    tags_skins: '«{name}» {amount} skin | «{name}» {amount} skins | «{name}» {amount} skins',
-    views: '{amount} view | {amount} views | {amount} views',
-    votes: '{amount} vote | {amount} votes | {amount} votes'
+    skins: '{amount} skin | {amount} skin | {amount} skin',
+    tags_skins: '«{name}» {amount} skin | «{name}» {amount} skin | «{name}» {amount} skin',
+    views: '{amount} dilihat | {amount} dilihat | {amount} dilihat',
+    votes: '{amount} suara | {amount} suara | {amount} suara'
   },
   placeholder: {
-    0: 'Type text..',
-    1: 'Type link..',
-    2: 'Type hex/rgb color..'
+    0: 'Masukkan teks..',
+    1: 'Masukkan tautan..',
+    2: 'Masukkan warna hex/rgb..'
   },
   sorting: {
-    date: 'Date',
-    release_date: 'Release date',
-    upload_date: 'Upload date',
+    date: 'Tanggal',
+    release_date: 'Tanggal rilis',
+    upload_date: 'Tanggal diunggah',
     view: 'Dilihat',
-    vote: 'Votes',
-    name: 'Name',
+    vote: 'Suara',
+    name: 'Nama',
     download: 'Diunduh',
     like: 'Suka',
-    size: 'Size',
-    total: 'Total'
+    size: 'Ukuran',
+    total: 'Jumlah'
   },
   order: {
-    0: 'Most | Least',
-    1: 'Most | Least',
-    2: 'Highest | Lowest',
-    3: 'Largest | Smallest',
-    4: 'Newest | Oldest',
+    0: 'Paling banyak | Paling sedikit',
+    1: 'Paling banyak | Paling sedikit',
+    2: 'Tertinggi | Terendah',
+    3: 'Terbesar | Terkecil',
+    4: 'Terbaru | Terlama',
     5: 'A-Z | Z-A'
   },
   tooltips: {
     0: [
-      '[hl]{example}[/hl] - [b]equal[/b] to {amount}',
-      '[hl]{example}[/hl] - [b]greater than[/b] {amount}',
-      '[hl]{example}[/hl] - [b]less than[/b] {amount}',
-      '[hl]{example}[/hl] - [b]between[/b] {amount} [b]and[/b] {amount_2}'
+      '[hl]{example}[/hl] - [b]sama[/b] dengan {amount}',
+      '[hl]{example}[/hl] - [b]lebih besar dari[/b] {amount}',
+      '[hl]{example}[/hl] - [b]lebih kecil dari[/b] {amount}',
+      '[hl]{example}[/hl] - [b]diantara[/b] {amount} [b]dan[/b] {amount_2}'
     ],
-    1: 'Usage examples:',
+    1: 'Contoh penggunaan:',
     2: `Select screenshot category`,
-    3: '{amount} downloads',
-    4: '{amount} views',
-    5: '{likes} likes / {dislikes} dislikes',
-    6: '{amount} skins',
-    7: '{amount} votes'
+    3: '{amount} kali diunduh',
+    4: '{amount} kali dilihat',
+    5: '{likes} suka / {dislikes} tidak suka',
+    6: '{amount} skin',
+    7: '{amount} suara'
   },
   nsfw: {
-    0: 'Warning!',
-    1: 'This skin contains {type} content. Proceed?'
+    0: 'Peringatan!',
+    1: 'Skin ini mengandung konten {type}. Lanjutkan?'
   },
   drag: {
-    0: 'Click to add images',
-    1: 'or drag & drop here',
-    2: `drop images here`
+    0: 'Klik untuk menambahkan gambar',
+    1: 'atau seret & lepas di sini',
+    2: `lepas gambar di sini`
   },
   buttons: {
-    source: 'Art Source',
+    source: 'Sumber karya',
     load_more: 'Muat lebih',
     close: 'Tutup',
     choose: [
       'Ya',
       'Tidak'
     ],
-    expand_more: 'Show more | Show less'
+    expand_more: 'Selengkapnya | Sembunyikan'
   },
   error: {
-    0: 'Home page',
+    0: 'Halaman utama',
     1: 'Masuk',
-    2: 'Report issue',
-    3: 'Go back'
+    2: 'Laporkan masalah',
+    3: 'Kembali'
   }
 };
