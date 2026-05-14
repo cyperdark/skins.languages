@@ -36,9 +36,9 @@ export default {
     2: 'スキンブロックにカーソルを合わせたとき、画像を簡単に切り替えられるようにします。',
     3: '拡大',
     4: 'スキンブロックにカーソルを合わせた際、自動で画像を拡大します。',
-    5: 'Tint visited skins',
-    6: 'option to tint skins you\'ve already visited',
-    7: 'Log in to tint visited skins'
+    5: '見たことのあるスキンに印を付ける',
+    6: 'すでに見たことのあるスキンを分かりやすくするために印付けするオプションです',
+    7: 'ログインして開放する'
   },
   footer: {
     0: 'クレジット',
@@ -399,6 +399,7 @@ export default {
     84: 'スクリーンショットカテゴリを選択',
     85: '«クイック選択»を無効にしてお試しください',
     86: '再送信',
+    87: 'Use this one if you have multiple gameplay variants that appear visually different',
     checks: {
       0: 'スキン名が指定されていません',
       1: '最低でも1人は作成者を追加してください',
@@ -411,7 +412,8 @@ export default {
       8: 'スキンのリリース日が指定されていません',
       9: 'スキンのバージョンが指定されていません',
       10: 'コンテンツレーティングが選択されていません',
-      11: `リリース日は未来の日付に設定できません`
+      11: `リリース日は未来の日付に設定できません`,
+      12: `Variant name should NOT be used for mania keys «{name}»`
     }
   },
   skin_block: {
@@ -420,9 +422,9 @@ export default {
     2: '別のゲームモードに切り替え',
     3: '画像カテゴリを変更',
     4: '短縮リンクをコピー',
-    5: '{mode}: {amount} variant | {mode}: {amount} variants | {mode}: {amount} variants',
-    6: 'Visited',
-    7: 'Can be disabled in settings (next to your pfp)'
+    5: '{mode}: {amount} バージョン | {mode}: {amount} バージョン | {mode}: {amount} バージョン',
+    6: '訪問済み',
+    7: 'プロフィールアイコンの右側にある設定から無効にできます'
   },
   gallery: {
     0: 'フルスクリーンで開く',
