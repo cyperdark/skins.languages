@@ -399,6 +399,7 @@ export default {
     84: 'Select screenshot variant',
     85: 'try disabling «Quick select»',
     86: 'Submit again',
+    87: 'Use this one if you have multiple gameplay variants that appear visually different',
     checks: {
       0: 'Nama skin belum diisi',
       1: 'Tambahkan setidaknya satu pembuat',
@@ -411,7 +412,8 @@ export default {
       8: 'Tanggal rilis skin belum diisi',
       9: 'Versi skin belum diisi',
       10: 'Rating konten belum dipilih',
-      11: `Tanggal rilis tidak boleh di masa depan`
+      11: `Tanggal rilis tidak boleh di masa depan`,
+      12: `Variant name should NOT be used for mania keys «{name}»`
     }
   },
   skin_block: {
