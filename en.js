@@ -504,6 +504,7 @@ export default {
     85: 'try disabling «Quick select»',
     86: 'Submit again',
 
+    87: 'Use this one if you have multiple gameplay variants that appear visually different',
 
     checks: {
       0: 'Skin name not specified',
@@ -517,7 +518,8 @@ export default {
       8: 'Skin release date not specified',
       9: 'Skin version not specified',
       10: 'Content rating not selected',
-      11: `Release date can't be in future`
+      11: `Release date can't be in future`,
+      12: `Variant name should NOT be used for mania keys «{name}»`,
     },
   },
 

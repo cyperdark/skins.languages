@@ -399,6 +399,7 @@ export default {
     84: 'Select screenshot variant',
     85: 'try disabling «Quick select»',
     86: 'Submit again',
+    87: 'Use this one if you have multiple gameplay variants that appear visually different',
     checks: {
       0: 'Nie określono nazwy skina',
       1: 'Dodaj przynajmniej jednego twórcę',
@@ -411,7 +412,8 @@ export default {
       8: 'Nie określono daty wydania',
       9: 'Nie określono wersji skina',
       10: 'Nie wybrano oceny treści',
-      11: `Release date can't be in future`
+      11: `Release date can't be in future`,
+      12: `Variant name should NOT be used for mania keys «{name}»`
     }
   },
   skin_block: {

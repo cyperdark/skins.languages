@@ -399,6 +399,7 @@ export default {
     84: '选择截图变种',
     85: '试试关掉“快速选择”吧',
     86: '重新提交',
+    87: 'Use this one if you have multiple gameplay variants that appear visually different',
     checks: {
       0: '未标明皮肤名称',
       1: '添加至少一个作者',
@@ -411,7 +412,8 @@ export default {
       8: '未注明皮肤发布日期',
       9: '未注明皮肤版本',
       10: '未选择内容分级',
-      11: `发布日期不能是未来日期`
+      11: `发布日期不能是未来日期`,
+      12: `Variant name should NOT be used for mania keys «{name}»`
     }
   },
   skin_block: {

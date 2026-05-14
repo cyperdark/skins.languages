@@ -36,9 +36,9 @@ export default {
     2: 'Habilita a navegação fácil ao passar o cursor sobre o quadro da skin',
     3: 'Aproximar',
     4: 'Habilita o zoom automático ao passar o mouse sobre o quadro da skin',
-    5: 'Tint visited skins',
-    6: 'option to tint skins you\'ve already visited',
-    7: 'Log in to tint visited skins'
+    5: 'Clarear skins visitadas',
+    6: 'opção para clear skins que você já visitou',
+    7: 'Faça login para clarear as skins visitadas'
   },
   footer: {
     0: 'Créditos',
@@ -399,6 +399,7 @@ export default {
     84: 'Selecione a variação da captura de tela',
     85: 'tente desabilitar «Quick select»',
     86: 'Envie novamente',
+    87: 'Use this one if you have multiple gameplay variants that appear visually different',
     checks: {
       0: 'Nome da skin não especificado',
       1: 'Adicione ao menos um criador',
@@ -411,7 +412,8 @@ export default {
       8: 'Data de lançamento da skin não especificada',
       9: 'Versão da skin não especificada',
       10: 'Classificação indicativa não foi selecionada',
-      11: `A data de lançamento não pode estar no futuro`
+      11: `A data de lançamento não pode estar no futuro`,
+      12: `Variant name should NOT be used for mania keys «{name}»`
     }
   },
   skin_block: {
@@ -421,8 +423,8 @@ export default {
     3: 'Mudar a categoria da imagem',
     4: 'Copiar link encurtado',
     5: '{mode}: {amount} variante | {mode}: {amount} variantes | {mode}: {amount} variantes',
-    6: 'Visited',
-    7: 'Can be disabled in settings (next to your pfp)'
+    6: 'Visitado',
+    7: 'Pode ser desabilitado nas configurações (perto da sua foto de perfil)'
   },
   gallery: {
     0: 'Abrir em tela cheia',
