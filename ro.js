@@ -399,6 +399,7 @@ export default {
     84: 'Select screenshot variant',
     85: 'try disabling «Quick select»',
     86: 'Submit again',
+    87: 'Use this one if you have multiple gameplay variants that appear visually different',
     checks: {
       0: 'Numele skin-ului nu a fost specificat',
       1: 'Adaugă cel puțin un creator',
@@ -411,7 +412,8 @@ export default {
       8: 'Data de lansare a skin-ului nespecificată',
       9: 'Versiunea skin-ului nespecificată',
       10: 'Clasificarea conținutului nespecificată',
-      11: `Release date can't be in future`
+      11: `Release date can't be in future`,
+      12: `Variant name should NOT be used for mania keys «{name}»`
     }
   },
   skin_block: {
