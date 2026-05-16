@@ -490,10 +490,10 @@ export default {
     7: 'Отправить репорт'
   },
   plural: {
-    skins: '{amount} скин | {amount} скина | {amount} скинов',
-    tags_skins: '«{name}» {amount} скин | «{name}» {amount} скина | «{name}» {amount} скинов',
-    views: '{amount} просмотр | {amount} просмотра | {amount} просмотров',
-    votes: '{amount} голос | {amount} голоса | {amount} голосов'
+    skins: '{amount} скин | {amount} скина | {amount} скинов | {amount} скин',
+    tags_skins: '«{name}» {amount} скин | «{name}» {amount} скина | «{name}» {amount} скинов | «{name}» {amount} скин',
+    views: '{amount} просмотр | {amount} просмотра | {amount} просмотров | {amount} просмотр',
+    votes: '{amount} голос | {amount} голоса | {amount} голосов | {amount} голос'
   },
   placeholder: {
     0: 'Введите текст..',
