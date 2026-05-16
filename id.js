@@ -490,10 +490,10 @@ export default {
     7: 'Kirim laporan'
   },
   plural: {
-    skins: '{amount} skin | {amount} skin | {amount} skin',
-    tags_skins: '«{name}» {amount} skin | «{name}» {amount} skin | «{name}» {amount} skin',
-    views: '{amount} dilihat | {amount} dilihat | {amount} dilihat',
-    votes: '{amount} suara | {amount} suara | {amount} suara'
+    skins: '{amount} skin | {amount} skins',
+    tags_skins: '«{name}» {amount} skin | «{name}» {amount} skins',
+    views: '{amount} view | {amount} views',
+    votes: '{amount} vote | {amount} votes'
   },
   placeholder: {
     0: 'Masukkan teks..',
