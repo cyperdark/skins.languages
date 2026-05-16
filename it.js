@@ -490,10 +490,10 @@ export default {
     7: 'Invia segnalazione'
   },
   plural: {
-    skins: '{amount} skin | {amount} skins | {amount} skins',
-    tags_skins: '«{name}» {amount} skin | «{name}» {amount} skins | «{name}» {amount} skins',
-    views: '{amount} visualizzazione | {amount} visualizzazioni | {amount} visualizzazioni',
-    votes: '{amount} voto | {amount} voti | {amount} voti'
+    skins: '{amount} skin | {amount} skins',
+    tags_skins: '«{name}» {amount} skin | «{name}» {amount} skins',
+    views: '{amount} view | {amount} views',
+    votes: '{amount} vote | {amount} votes'
   },
   placeholder: {
     0: 'Scrivi testo..',
