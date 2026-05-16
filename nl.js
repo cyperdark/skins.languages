@@ -490,10 +490,10 @@ export default {
     7: 'Rapport indienen'
   },
   plural: {
-    skins: '{amount} skin | {amount} skins | {amount} skins',
-    tags_skins: '«{name}» {amount} skin | «{name}» {amount} skins | «{name}» {amount} skins',
-    views: '{amount} weergave | {amount} weergaven | {amount} weergaven',
-    votes: '{amount} stem | {amount} stemmen | {amount} stemmen'
+    skins: '{amount} skin | {amount} skins',
+    tags_skins: '«{name}» {amount} skin | «{name}» {amount} skins',
+    views: '{amount} view | {amount} views',
+    votes: '{amount} vote | {amount} votes'
   },
   placeholder: {
     0: 'Typ tekst..',
