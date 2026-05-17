@@ -36,9 +36,9 @@ export default {
     2: 'Permite navigarea mai ușoară a imaginilor atunci când cursor-ul planează deasupra lor.',
     3: 'Mărire',
     4: 'Permite mărirea automată a imaginilor atunci când cursor-ul planează deasupra lor.',
-    5: 'Tint visited skins',
-    6: 'option to tint skins you\'ve already visited',
-    7: 'Log in to tint visited skins'
+    5: 'Nuanțare skin-uri vizitate',
+    6: 'opțiune pentru a nuanța skin-urile pe care le-ai vizitat deja',
+    7: 'Autentifică-te pentru a nuanța skin-urile vizitate'
   },
   footer: {
     0: 'Credite',
@@ -174,14 +174,14 @@ export default {
     0: 'Nu există capturi de ecran pentru această categorie'
   },
   search: {
-    title: 'Advanced search for osu! skins',
+    title: 'Căutare avansată pentru skin-uri de osu!',
     description: 'Găsește skin-ul osu! perfect folosind funcția noastră de căutare avansată. Răsfoiește biblioteca noastră uriașă, filtrată după modul de joc, raportul de aspect și multe altele. Sau verifică skin-urile folosite de jucătorii de top.',
     0: 'Titlul, autorul sau etichetele skin-ului',
     1: [
       'nume',
       'etichete',
       'creatori',
-      'files name'
+      'numele fișierelor'
     ],
     2: 'Selectează intervalul de timp',
     3: 'Interval de mărime',
@@ -216,8 +216,8 @@ export default {
     3: 'skin lipsă'
   },
   users: {
-    title: ['Profile - {name} skins'],
-    description: ['All osu! skins created by {name}'],
+    title: ['Profil - skin-uri {name}'],
+    description: ['Toate skin-urile de osu! create de {name}'],
     0: [
       'Skin-uri create',
       'Skin-uri încărcate'
@@ -258,9 +258,9 @@ export default {
     ],
     description: [
       '{amount} skin-uri de osu!, catch the beat, mania și taiko',
-      'List of most viewed {mode} skins featuring rich image gallery for all osu! screens and quick switching functionality between them',
-      'List of most downloaded {mode} skins featuring rich image gallery for all osu! screens and quick switching functionality between them',
-      'List of most liked {mode} skins featuring rich image gallery for all osu! screens and quick switching functionality between them'
+      'Lista celor mai vizualizate skin-uri de {mode}, cu o galerie de imagini bogată pentru toate ecranele din osu! și funcționalitate de comutare rapidă între ele',
+      'Listă cu cele mai descărcate skin-uri pentru {mode}, cu o galerie de imagini bogată pentru toate ecranele din osu! și funcționalitate de comutare rapidă între ele',
+      'Listă cu cele mai apreciate skin-uri pentru {mode}, cu o galerie de imagini bogată pentru toate ecranele din osu! și funcționalitate de comutare rapidă între ele'
     ],
     0: 'Toate',
     1: 'Populare',
@@ -285,7 +285,7 @@ export default {
       'Încarcă un skin nou',
       'skin osu! {name}'
     ],
-    description: 'Download {size}MB {modes} skin made by {creators}, featuring {images} high-quality screenshots, compatible with {ratios} and released at {date}',
+    description: 'Descarcă skin-ul {modes} de {size}MB, creat de {creators}, care conține {images} capturi de ecran de înaltă calitate, compatibil cu rapoarte de aspect {ratios} și lansat la data de {date}',
     rules: {
       0: `**Nu** posta conținut fără sens.`,
       1: `**Nu** posta skin-uri cu **calitate slabă** sau **duplicate**.`,
@@ -390,16 +390,16 @@ export default {
     75: 'Modificările au fost restaurate din memorie',
     76: 'Lansat {date}',
     77: 'Selectează rolurile',
-    78: 'report',
+    78: 'raportează',
     79: 'Versiune fără hp bar, back button și skip animations',
     80: 'Versiune doar cu elemente de gameplay',
     81: 'Fișiere pentru personalizare / elemente adiționale de gameplay (și fișiere neutilizate)',
-    82: 'Select rating',
-    83: 'Released at:',
-    84: 'Select screenshot variant',
-    85: 'try disabling «Quick select»',
-    86: 'Submit again',
-    87: 'Use this one if you have multiple gameplay variants that appear visually different',
+    82: 'Selectează rating',
+    83: 'Lansat la data de:',
+    84: 'Selectează varianta de captură de ecran',
+    85: 'încearcă să dezactivezi „Selectare rapidă”',
+    86: 'Trimite din nou',
+    87: 'Folosește-o pe aceasta dacă ai mai multe variante de gameplay care arată diferit din punct de vedere vizual',
     checks: {
       0: 'Numele skin-ului nu a fost specificat',
       1: 'Adaugă cel puțin un creator',
@@ -412,8 +412,8 @@ export default {
       8: 'Data de lansare a skin-ului nespecificată',
       9: 'Versiunea skin-ului nespecificată',
       10: 'Clasificarea conținutului nespecificată',
-      11: `Release date can't be in future`,
-      12: `Variant name should NOT be used for mania keys «{name}»`
+      11: `Data lansării nu poate fi în viitor`,
+      12: `Numele variantei NU ar trebui folosit pentru tastele mania «{name}»`
     }
   },
   skin_block: {
@@ -422,9 +422,9 @@ export default {
     2: 'Treci la alt mod de joc',
     3: 'Schimbă categoria imaginii',
     4: 'Copiază link prescurtat',
-    5: '{mode}: {amount} variant | {mode}: {amount} variants | {mode}: {amount} variants',
-    6: 'Visited',
-    7: 'Can be disabled in settings (next to your pfp)'
+    5: '{mode}: {amount} variantă | {mode}: {amount} variante | {mode}: {amount} variante',
+    6: 'Vizitat',
+    7: 'Se poate dezactiva din setări (lângă poza de profil)'
   },
   gallery: {
     0: 'Deschide în fullscreen',
@@ -465,7 +465,7 @@ export default {
       1: 'Link către un video a skin-ului lipsă'
     },
     skin_file: [
-      'Download link broken',
+      'Linkul de descărcare nu funcționează',
       'Skin corupt',
       'Descrie ce anume este defect'
     ],
@@ -490,10 +490,10 @@ export default {
     7: 'Trimite sesizarea'
   },
   plural: {
-    skins: '{amount} skin | {amount} skins | {amount} skins',
-    tags_skins: '«{name}» {amount} skin | «{name}» {amount} skins | «{name}» {amount} skins',
-    views: '{amount} view | {amount} views | {amount} views',
-    votes: '{amount} vote | {amount} votes | {amount} votes'
+    skins: '{amount} skin | {amount} skins',
+    tags_skins: '«{name}» {amount} skin | «{name}» {amount} skins',
+    views: '{amount} view | {amount} views',
+    votes: '{amount} vote | {amount} votes'
   },
   placeholder: {
     0: 'Tastează text..',
@@ -536,8 +536,8 @@ export default {
     7: '{amount} voturi'
   },
   nsfw: {
-    0: 'Warning!',
-    1: 'This skin contains {type} content. Proceed?'
+    0: 'Atenție!',
+    1: 'Acest skin conține conținut de tip {type}. Continuați?'
   },
   drag: {
     0: 'Apasă aici ca să adaugi imagini',
@@ -555,9 +555,9 @@ export default {
     expand_more: 'Afișează mai mult | Afișează mai puțin'
   },
   error: {
-    0: 'Home page',
+    0: 'Pagina principală',
     1: 'Conectează-te',
     2: 'Sesizează o problemă',
-    3: 'Go back'
+    3: 'Înapoi'
   }
 };

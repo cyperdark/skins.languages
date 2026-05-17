@@ -490,10 +490,10 @@ export default {
     7: '報告を送信'
   },
   plural: {
-    skins: '{amount} 個のスキン | {amount} 個のスキン | {amount} 個のスキン',
-    tags_skins: '«{name}» {amount} 個のスキン | «{name}» {amount} 個のスキン | «{name}» {amount} 個のスキン',
-    views: '{amount} 回の閲覧 | {amount} 回の閲覧 | {amount} 回の閲覧',
-    votes: '{amount} 票 | {amount} 票 | {amount} 票'
+    skins: '{amount} skin | {amount} skins',
+    tags_skins: '«{name}» {amount} skin | «{name}» {amount} skins',
+    views: '{amount} view | {amount} views',
+    votes: '{amount} vote | {amount} votes'
   },
   placeholder: {
     0: 'テキストを入力..',

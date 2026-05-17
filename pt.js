@@ -37,7 +37,7 @@ export default {
     3: 'Aproximar',
     4: 'Habilita o zoom automático ao passar o mouse sobre o quadro da skin',
     5: 'Clarear skins visitadas',
-    6: 'opção para clear skins que você já visitou',
+    6: 'opção para clarear skins que você já visitou',
     7: 'Faça login para clarear as skins visitadas'
   },
   footer: {
@@ -399,7 +399,7 @@ export default {
     84: 'Selecione a variação da captura de tela',
     85: 'tente desabilitar «Quick select»',
     86: 'Envie novamente',
-    87: 'Use this one if you have multiple gameplay variants that appear visually different',
+    87: 'Use isto aqui se você tiver múltiplas variantes de gameplay que aparecem visualmente diferentes',
     checks: {
       0: 'Nome da skin não especificado',
       1: 'Adicione ao menos um criador',
@@ -413,7 +413,7 @@ export default {
       9: 'Versão da skin não especificada',
       10: 'Classificação indicativa não foi selecionada',
       11: `A data de lançamento não pode estar no futuro`,
-      12: `Variant name should NOT be used for mania keys «{name}»`
+      12: `Nome da variante NÃO pode ser usada em teclas do mania «{name}»`
     }
   },
   skin_block: {
@@ -490,10 +490,10 @@ export default {
     7: 'Enviar uma denúncia'
   },
   plural: {
-    skins: '{amount} skin | {amount} skins | {amount} skins',
-    tags_skins: '«{name}» {amount} skin | «{name}» {amount} skins | «{name}» {amount} skins',
-    views: '{amount} view | {amount} views | {amount} views',
-    votes: '{amount} votos | {amount} votos | {amount} votos'
+    skins: '{amount} skin(s) | {amount} skins | {amount} skins',
+    tags_skins: '«{name}» {amount} skin(s) | «{name}» {amount} skins | «{name}» {amount} skins',
+    views: '{amount} visualização(ões) | {amount} visualizações | {amount} visualizações',
+    votes: '{amount} voto(s) | {amount} votos | {amount} votos'
   },
   placeholder: {
     0: 'Digite o texto..',

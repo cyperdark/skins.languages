@@ -490,10 +490,10 @@ export default {
     7: 'Prześlij zgłoszenie'
   },
   plural: {
-    skins: '{amount} skinów | {amount} skinów | {amount} skinów',
-    tags_skins: '«{name}» {amount} skin | «{name}» {amount} skinów | «{name}» {amount} skinów',
-    views: '{amount} wyświetlenie | {amount} wyświetleń | {amount} wyświetleń',
-    votes: '{amount} głos | {amount} głosy | {amount} głosów'
+    skins: '{amount} skin | {amount} skins',
+    tags_skins: '«{name}» {amount} skin | «{name}» {amount} skins',
+    views: '{amount} view | {amount} views',
+    votes: '{amount} vote | {amount} votes'
   },
   placeholder: {
     0: 'Wprowadź tekst..',

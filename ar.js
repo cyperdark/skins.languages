@@ -490,10 +490,10 @@ export default {
     7: 'Submit report'
   },
   plural: {
-    skins: '{amount} skin | {amount} skins | {amount} skins',
-    tags_skins: '«{name}» {amount} skin | «{name}» {amount} skins | «{name}» {amount} skins',
-    views: '{amount} view | {amount} views | {amount} views',
-    votes: '{amount} vote | {amount} votes | {amount} votes'
+    skins: '{amount} skin | {amount} skins',
+    tags_skins: '«{name}» {amount} skin | «{name}» {amount} skins',
+    views: '{amount} view | {amount} views',
+    votes: '{amount} vote | {amount} votes'
   },
   placeholder: {
     0: 'Type text..',

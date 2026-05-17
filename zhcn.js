@@ -490,10 +490,10 @@ export default {
     7: '提交举报'
   },
   plural: {
-    skins: '{amount} 个皮肤 | {amount} 个皮肤 | {amount} 个皮肤',
-    tags_skins: '«{name}» {amount} 个皮肤 | «{name}» {amount} 个皮肤 | «{name}» {amount} 个皮肤',
-    views: '{amount} 次浏览 | {amount} 次浏览 | {amount} 次浏览',
-    votes: '{amount} 次投票 | {amount} 次投票 | {amount} 次投票'
+    skins: '{amount} skin | {amount} skins',
+    tags_skins: '«{name}» {amount} skin | «{name}» {amount} skins',
+    views: '{amount} view | {amount} views',
+    votes: '{amount} vote | {amount} votes'
   },
   placeholder: {
     0: '输入文本..',
