@@ -36,9 +36,9 @@ export default {
     2: 'Schakel makkelijke afbeelding navigatie in als je cursor over een skin blok zweeft',
     3: 'Inzoomen',
     4: 'Schakel automatische afbeelding zoom in als je cursor over een skin blok zweeft.',
-    5: 'Tint visited skins',
-    6: 'option to tint skins you\'ve already visited',
-    7: 'Log in to tint visited skins'
+    5: 'Tint bekeken skins',
+    6: 'mogelijkheid om bekeken skins te tinten',
+    7: 'Log in om bekeken skins te tinten'
   },
   footer: {
     0: 'Dank aan',
@@ -91,7 +91,7 @@ export default {
   },
   skin_ini: {
     title: 'Visuele skin.ini editor - osu! hulpmiddelen',
-    description: 'Preview your skin gameplay with in real-time changes such as combo colors, slider colors, and font offsets. Standard mode only for now',
+    description: 'Zie je skin gameplay met real-time veranderingen, zoals combo kleuren, slider kleuren en font offset. Voor nu alleen standaard modus',
     prepare: [
       'beatmap aan het laden',
       'skin aan het laden',
@@ -181,7 +181,7 @@ export default {
       'naam',
       'categorieën',
       'auteurs',
-      'files name'
+      'bestandsnamen'
     ],
     2: 'Selecteer tijdsperiode',
     3: 'Typ bereik',
@@ -216,8 +216,8 @@ export default {
     3: 'ontbrekende skin'
   },
   users: {
-    title: ['Profile - {name} skins'],
-    description: ['All osu! skins created by {name}'],
+    title: ['Profiel - {name} skins'],
+    description: ['Alle osu! skins gemaakt door {name}'],
     0: [
       'Maakte skins',
       'Geüploade skins'
@@ -245,7 +245,7 @@ export default {
     21: 'Vouw «about me» open | Klap «about me» in',
     22: 'Niets gevonden',
     23: 'Geen skins zijn gevonden voor deze auteur',
-    24: 'copied'
+    24: 'gekopieerd'
   },
   skins: {
     title: [
@@ -258,9 +258,9 @@ export default {
     ],
     description: [
       '{amount} skins voor osu!, catch the beat, mania and taiko',
-      'List of most viewed {mode} skins featuring rich image gallery for all osu! screens and quick switching functionality between them',
-      'List of most downloaded {mode} skins featuring rich image gallery for all osu! screens and quick switching functionality between them',
-      'List of most liked {mode} skins featuring rich image gallery for all osu! screens and quick switching functionality between them'
+      'Lijst van meest bekeken {mode} skins met grote foto galerijen voor alle osu! schermen en makkelijk veranderen van functionaliteit tussen ze',
+      'Lijst van meest gedownloade {mode} skins met grote foto galerijen voor alle osu! schermen en makkelijk veranderen van functionaliteit tussen ze',
+      'Lijst van meest gelikete {mode} skins met grote foto galerijen voor alle osu! schermen en makkelijk veranderen van functionaliteit tussen ze'
     ],
     0: 'Alles',
     1: 'Populair',
@@ -285,7 +285,7 @@ export default {
       'Publiceer een nieuwe skin',
       '{name} osu skin'
     ],
-    description: 'Download {size}MB {modes} skin made by {creators}, featuring {images} high-quality screenshots, compatible with {ratios} and released at {date}',
+    description: 'Download {size}MB {modes} skin gemaakt door {creators}, met {images} screenshots van hoge kwaliteit, bruikbaar met {ratios} en gepubliceerd op {date}',
     rules: {
       0: `Upload **geen** onzin`,
       1: `Upload **geen** **lage kwaliteit** of **dubbele** inzendingen`,
@@ -390,16 +390,16 @@ export default {
     75: 'Veranderingen hersteld van cache',
     76: 'Releasedatum {date}',
     77: 'Selecteer rollen',
-    78: 'report',
+    78: 'rapporteer',
     79: 'Versie zonder hp balk, terug knop en animaties overslaan',
     80: 'Versie met alleen maar gameplay',
     81: 'Bestanden voor aanpassingen en extra gameplay elementen (en ongebruikte bestanden)',
     82: 'Selecteer beoordeling',
     83: 'Uitgebracht op:',
-    84: 'Select screenshot variant',
-    85: 'try disabling «Quick select»',
-    86: 'Submit again',
-    87: 'Use this one if you have multiple gameplay variants that appear visually different',
+    84: 'Selecteer screenshot variant',
+    85: 'probeer «Snel selecteren» uit te zetten',
+    86: 'Opnieuw indienen',
+    87: 'Gebruik deze als je meerdere gameplay varianten hebt die er verschillend uit zien',
     checks: {
       0: 'Skin naam niet gespecifieerd',
       1: 'Voeg minstens één auteur toe',
@@ -412,8 +412,8 @@ export default {
       8: 'Skin releasedatum niet gespecifieerd',
       9: 'Skin versie niet gespecifieerd',
       10: 'Content rating niet geselecteerd',
-      11: `Release date can't be in future`,
-      12: `Variant name should NOT be used for mania keys «{name}»`
+      11: `Publiceerdatum kan niet in de toekomst zijn`,
+      12: `Naam van de variant moet NIET gebruikt worden voor mania toetsen «{name}»`
     }
   },
   skin_block: {
@@ -422,9 +422,9 @@ export default {
     2: 'Naar andere gamemode schakelen',
     3: 'Verander categorie van afbeelding',
     4: 'Kopieer de korte link',
-    5: '{mode}: {amount} variant | {mode}: {amount} variants | {mode}: {amount} variants',
-    6: 'Visited',
-    7: 'Can be disabled in settings (next to your pfp)'
+    5: '{mode}: {amount} variant | {mode}: {amount} varianten | {mode}: {amount} varianten',
+    6: 'Bezocht',
+    7: 'Kan uitgezet worden in instelling (naast je profielfoto)'
   },
   gallery: {
     0: 'Open in fullscreen',
@@ -465,7 +465,7 @@ export default {
       1: 'Link naar een video van ontbrekende skin'
     },
     skin_file: [
-      'Download link broken',
+      'Download link is verlopen',
       'Skin is kapot',
       'Omschrijf wat precies kapot is'
     ],
@@ -492,8 +492,8 @@ export default {
   plural: {
     skins: '{amount} skin | {amount} skins',
     tags_skins: '«{name}» {amount} skin | «{name}» {amount} skins',
-    views: '{amount} view | {amount} views',
-    votes: '{amount} vote | {amount} votes'
+    views: '{amount} weergave | {amount} weergaven',
+    votes: '{amount} stem | {amount} stemmen'
   },
   placeholder: {
     0: 'Typ tekst..',
@@ -536,8 +536,8 @@ export default {
     7: '{amount} stemmen'
   },
   nsfw: {
-    0: 'Warning!',
-    1: 'This skin contains {type} content. Proceed?'
+    0: 'Waarschuwing!',
+    1: 'Deze skin heeft {type} content. Doorgaan?'
   },
   drag: {
     0: 'Klik om afbeeldingen toe te voegen',
@@ -555,9 +555,9 @@ export default {
     expand_more: 'Laat meer zien | Laat minder zien'
   },
   error: {
-    0: 'Home page',
+    0: 'Hoofdpagina',
     1: 'Inloggen',
     2: 'Meldt een probleem',
-    3: 'Go back'
+    3: 'Ga terug'
   }
 };
