@@ -37,7 +37,7 @@ export default {
     3: 'Aproximar',
     4: 'Habilita o zoom automático ao passar o mouse sobre o quadro da skin',
     5: 'Clarear skins visitadas',
-    6: 'opção para clear skins que você já visitou',
+    6: 'opção para clarear skins que você já visitou',
     7: 'Faça login para clarear as skins visitadas'
   },
   footer: {
@@ -490,10 +490,10 @@ export default {
     7: 'Enviar uma denúncia'
   },
   plural: {
-    skins: '{amount} skin | {amount} skins',
-    tags_skins: '«{name}» {amount} skin | «{name}» {amount} skins',
-    views: '{amount} view | {amount} views',
-    votes: '{amount} vote | {amount} votes'
+    skins: '{amount} skin(s) | {amount} skins | {amount} skins',
+    tags_skins: '«{name}» {amount} skin(s) | «{name}» {amount} skins | «{name}» {amount} skins',
+    views: '{amount} visualização(ões) | {amount} visualizações | {amount} visualizações',
+    votes: '{amount} voto(s) | {amount} votos | {amount} votos'
   },
   placeholder: {
     0: 'Digite o texto..',
