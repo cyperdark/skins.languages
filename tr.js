@@ -8,7 +8,7 @@ export default {
     all_skins: 'Tüm skinler',
     tags: 'Etiketler',
     new: 'Yeni',
-    contribute: 'Katkıda bulunun',
+    contribute: 'Help with translation',
     login: 'Oturum aç',
     0: 'Görüntülenme',
     1: 'İndirmeler',
