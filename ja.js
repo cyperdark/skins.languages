@@ -8,7 +8,7 @@ export default {
     all_skins: 'すべてのスキン',
     tags: 'タグ',
     new: '新着',
-    contribute: '投稿する',
+    contribute: 'Help with translation',
     login: 'ログイン',
     0: '閲覧数',
     1: 'ダウンロード数',
