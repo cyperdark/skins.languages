@@ -8,7 +8,7 @@ export default {
     all_skins: '所有皮肤',
     tags: '标签',
     new: '最新',
-    contribute: '贡献',
+    contribute: 'Help with translation',
     login: '登录',
     0: '浏览',
     1: '下载',

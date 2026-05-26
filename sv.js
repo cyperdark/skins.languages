@@ -8,7 +8,7 @@ export default {
     all_skins: 'Alla skins',
     tags: 'Taggar',
     new: 'Nytt',
-    contribute: 'Bidra',
+    contribute: 'Help with translation',
     login: 'Logga in',
     0: 'Visningar',
     1: 'Nedladdningar',

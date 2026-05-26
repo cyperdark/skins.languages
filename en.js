@@ -8,7 +8,7 @@ export default {
     all_skins: 'All skins',
     tags: 'Tags',
     new: 'New',
-    contribute: 'Contribute',
+    contribute: 'Help with translation',
     login: 'Log in',
 
     0: 'Views',

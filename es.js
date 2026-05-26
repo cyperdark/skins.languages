@@ -8,7 +8,7 @@ export default {
     all_skins: 'Todos los aspectos',
     tags: 'Etiquetas',
     new: 'Nuevo',
-    contribute: 'Contribuir',
+    contribute: 'Help with translation',
     login: 'Iniciar sesión',
     0: 'Vistas',
     1: 'Descargas',

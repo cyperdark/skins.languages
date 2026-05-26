@@ -8,7 +8,7 @@ export default {
     all_skins: 'Kaikki skinit',
     tags: 'Tägit',
     new: 'Uutta',
-    contribute: 'Osallistu',
+    contribute: 'Help with translation',
     login: 'Kirjaudu',
     0: 'Katselukerrat',
     1: 'Lataukset',

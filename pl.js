@@ -8,7 +8,7 @@ export default {
     all_skins: 'Wszystkie skiny',
     tags: 'Tagi',
     new: 'Nowa',
-    contribute: 'Współtwórz',
+    contribute: 'Help with translation',
     login: 'Zaloguj się',
     0: 'Wyświetlenia',
     1: 'Pobrania',

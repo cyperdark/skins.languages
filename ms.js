@@ -8,7 +8,7 @@ export default {
     all_skins: 'Semua skin',
     tags: 'Penanda',
     new: 'Baharu',
-    contribute: 'Sumbangan',
+    contribute: 'Help with translation',
     login: 'Log masuk',
     0: 'Tontonan',
     1: 'Muat turun',

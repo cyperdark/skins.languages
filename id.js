@@ -8,7 +8,7 @@ export default {
     all_skins: 'Semua Skin',
     tags: 'Label',
     new: 'Baru',
-    contribute: 'Kontribusi',
+    contribute: 'Help with translation',
     login: 'Masuk',
     0: 'Dilihat',
     1: 'Diunduh',
