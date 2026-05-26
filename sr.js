@@ -8,7 +8,7 @@ export default {
     all_skins: 'Сви скинови',
     tags: 'Ознаке',
     new: 'Ново',
-    contribute: 'Помозите',
+    contribute: 'Help with translation',
     login: 'Пријави се',
     0: 'Прегледи',
     1: 'Преузимања',
