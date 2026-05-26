@@ -8,7 +8,7 @@ export default {
     all_skins: 'Всі скіни',
     tags: 'Теги',
     new: 'Новий',
-    contribute: 'Зробити свій внесок',
+    contribute: 'Help with translation',
     login: 'Увійти',
     0: 'Перегляди',
     1: 'Завантажень',
