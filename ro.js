@@ -8,7 +8,7 @@ export default {
     all_skins: 'Toate skin-urile',
     tags: 'Etichete',
     new: 'Nou',
-    contribute: 'Contribuie',
+    contribute: 'Help with translation',
     login: 'Conectează-te',
     0: 'Vizualizări',
     1: 'Descărcări',
