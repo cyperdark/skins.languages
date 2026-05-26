@@ -8,7 +8,7 @@ export default {
     all_skins: '所有外觀',
     tags: '標籤',
     new: 'New',
-    contribute: '貢獻',
+    contribute: 'Help with translation',
     login: '登入',
     0: '觀看次數',
     1: '下載次數',
