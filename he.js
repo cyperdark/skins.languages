@@ -8,7 +8,7 @@ export default {
     all_skins: 'כל הסקינים',
     tags: 'תגים',
     new: 'חדש',
-    contribute: 'לתרום',
+    contribute: 'Help with translation',
     login: 'התחבר',
     0: 'צפיות',
     1: 'הורדות',
