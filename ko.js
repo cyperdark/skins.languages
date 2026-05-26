@@ -8,7 +8,7 @@ export default {
     all_skins: '모든 스킨',
     tags: '태그',
     new: '신규',
-    contribute: '기여하기',
+    contribute: 'Help with translation',
     login: '로그인',
     0: '조회수',
     1: '다운로드 수',
