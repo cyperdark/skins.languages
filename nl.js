@@ -8,7 +8,7 @@ export default {
     all_skins: 'Alle skins',
     tags: 'Categorieën',
     new: 'Nieuw',
-    contribute: 'Bijdragen',
+    contribute: 'Help with translation',
     login: 'Inloggen',
     0: 'Weergaven',
     1: 'Downloads',
