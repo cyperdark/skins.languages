@@ -1,40 +1,40 @@
 export default {
   header: {
-    home: 'Home',
-    contests: 'Contests',
-    ideas: 'Inspiration',
-    tools: 'Tools',
-    popular: 'Popular skins',
-    all_skins: 'All skins',
-    tags: 'Tags',
-    new: 'New',
-    contribute: 'Help with translation',
-    login: 'Log in',
-    0: 'Views',
-    1: 'Downloads',
-    2: 'Likes'
+    home: 'Domovská stránka',
+    contests: 'Súťaže',
+    ideas: 'Inšpirácie',
+    tools: 'Nástroje',
+    popular: 'Populárne osu skiny',
+    all_skins: 'Všetke skiny',
+    tags: 'Štítky',
+    new: 'Nové',
+    contribute: 'Pomoc s prekladom',
+    login: 'Prihlásiť sa tu',
+    0: 'Pozretia',
+    1: 'Stiahnutia',
+    2: 'Obľúbene'
   },
   notifications: {
-    0: 'Notifications',
-    1: 'Follow us on these platforms to receive notifications about new skins'
+    0: 'Oznámenia',
+    1: 'Sledujte nás na týchto platformách na dostávanie notifikácií ohľadom nových skinov'
   },
   user_menu: {
-    0: 'profile',
-    1: 'my skins queue',
-    2: 'relogin',
-    3: 'log out'
+    0: 'profil',
+    1: 'rada na moje skiny',
+    2: 'prihlásiť odznova',
+    3: 'odhlásiť sa'
   },
   status: {
-    0: 'Nothing was found',
-    1: 'Not found',
-    2: `Couldn't load image`,
-    3: 'No image to load'
+    0: 'Nič sa nenašlo',
+    1: 'Nenájdené',
+    2: `Obrázok sa nepodarilo načítať`,
+    3: 'Žiaden obrázok na načítanie'
   },
   settings: {
     0: 'Settings',
     1: 'Mouse scroll',
-    2: 'Enables easy image navigation when hovering over a skin block.',
-    3: 'Zoom in',
+    2: 'Povoľuje ľahkú obrázkovú navigáciu keď nahliadnem nad blok skinu.',
+    3: 'Priblíženie',
     4: 'Enables automatic image zoom when hovering over a skin block.',
     5: 'Tint visited skins',
     6: 'option to tint skins you\'ve already visited',
@@ -42,7 +42,7 @@ export default {
   },
   footer: {
     0: 'Credits',
-    1: 'Report issue'
+    1: 'Nahlásiť problém'
   },
   home: {
     title: [
@@ -189,7 +189,7 @@ export default {
     5: 'Download count range',
     6: 'Like count range',
     7: 'Select cursor type',
-    8: 'Nothing was found',
+    8: 'Nič sa nenašlo',
     9: 'Try using a different set of search filters',
     10: 'Pending query',
     11: 'Use the search filters or type the skin\'s title, author or tags',
@@ -204,13 +204,13 @@ export default {
   tags: {
     title: 'Search tags',
     description: '',
-    0: 'Nothing was found',
+    0: 'Nič sa nenašlo',
     1: 'Try searching something else'
   },
   tag: {
     title: '{name} osu skins',
     description: '',
-    0: 'Nothing was found',
+    0: 'Nič sa nenašlo',
     1: 'No skins were found for this tag',
     2: 'Try changing gamemode',
     3: 'missing skin'
@@ -243,7 +243,7 @@ export default {
     19: 'Blog',
     20: 'Skins Stats',
     21: 'Expand «about me» | Close «about me»',
-    22: 'Nothing was found',
+    22: 'Nič sa nenašlo',
     23: 'No skins were found for this creator',
     24: 'copied'
   },
@@ -269,7 +269,7 @@ export default {
     4: 'mania',
     5: 'taiko',
     6: 'universal ratio',
-    7: 'Nothing was found',
+    7: 'Nič sa nenašlo',
     8: 'No skins were found for this category',
     9: [
       'downloads',
@@ -315,7 +315,7 @@ export default {
       'About',
       'Screenshots',
       'Resources',
-      'Downloads',
+      'Stiahnutia',
       'Comments'
     ],
     13: 'Banner added',
@@ -362,7 +362,7 @@ export default {
     55: 'Url:',
     56: `Oops!`,
     57: 'No `.osk` files are attached to this skin',
-    58: `Nothing was found`,
+    58: `Nič sa nenašlo`,
     59: 'Change query or try searching something else',
     60: 'Log in to report a file',
     61: 'Versions',
@@ -373,7 +373,7 @@ export default {
     66: 'Creators',
     67: 'If a creator wants to be anonymous or a collaborator does not have a Bancho account, you can add them as a ghost creator.',
     68: 'Creators not added',
-    69: 'Tags',
+    69: 'Štítky',
     70: 'Tags not added',
     71: 'start typing to get suggestions',
     72: 'Show',
@@ -504,11 +504,11 @@ export default {
     date: 'Date',
     release_date: 'Release date',
     upload_date: 'Upload date',
-    view: 'Views',
+    view: 'Pozretia',
     vote: 'Votes',
     name: 'Name',
-    download: 'Downloads',
-    like: 'Likes',
+    download: 'Stiahnutia',
+    like: 'Obľúbene',
     size: 'Size',
     total: 'Total'
   },
@@ -540,24 +540,24 @@ export default {
     1: 'This skin contains {type} content. Proceed?'
   },
   drag: {
-    0: 'Click to add images',
-    1: 'or drag & drop here',
-    2: `drop images here`
+    0: 'Klikni pre pridanie obrázka',
+    1: 'Alebo sem presuňte obrázky',
+    2: `Presuňte obrázky sem`
   },
   buttons: {
-    source: 'Art Source',
+    source: 'Zdroj umenia',
     load_more: 'Načítať viac',
-    close: 'Close',
+    close: 'Zavrieť',
     choose: [
-      'Yes',
-      'No'
+      'Áno',
+      'Nie'
     ],
-    expand_more: 'Show more | Show less'
+    expand_more: 'Zobraziť viac | Zobraziť menej'
   },
   error: {
-    0: 'Home page',
-    1: 'Log in',
-    2: 'Report issue',
-    3: 'Go back'
+    0: 'Domovská stránka',
+    1: 'Prihlásiť sa tu',
+    2: 'Nahlásiť problém',
+    3: 'Naspäť'
   }
 };
