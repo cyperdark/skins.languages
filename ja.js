@@ -8,7 +8,7 @@ export default {
     all_skins: 'すべてのスキン',
     tags: 'タグ',
     new: '新着',
-    contribute: 'Help with translation',
+    contribute: '翻訳に協力する',
     login: 'ログイン',
     0: '閲覧数',
     1: 'ダウンロード数',
@@ -258,9 +258,9 @@ export default {
     ],
     description: [
       'osu!・catch the beat・mania・taiko 用スキンが {amount} 件見つかりました',
-      'List of most viewed {mode} skins featuring rich image gallery for all osu! screens and quick switching functionality between them',
-      'List of most downloaded {mode} skins featuring rich image gallery for all osu! screens and quick switching functionality between them',
-      'List of most liked {mode} skins featuring rich image gallery for all osu! screens and quick switching functionality between them'
+      '閲覧数の多い{mode}スキンの一覧です。すべてのosu!画面に対応した画像ギャラリーと、画面間のすばやい切り替え機能を備えています',
+      'ダウンロード数の多い{mode}スキンの一覧です。すべてのosu!画面に対応した画像ギャラリーと、画面間のすばやい切り替え機能を備えています',
+      'いいねの多い{mode}スキンの一覧です。すべてのosu!画面に対応した画像ギャラリーと、画面間のすばやい切り替え機能を備えています'
     ],
     0: 'すべて',
     1: '一番人気',
@@ -285,7 +285,7 @@ export default {
       '新しいスキンを投稿',
       '{name} の osu スキン'
     ],
-    description: 'Download {size}MB {modes} skin made by {creators}, featuring {images} high-quality screenshots, compatible with {ratios} and released at {date}',
+    description: '{creators}制作の{size}MBの{modes}スキンをダウンロード。高画質スクリーンショット{images}枚付き、{ratios}に対応、{date}に公開',
     rules: {
       0: `無意味な投稿を**しないでください**`,
       1: `**著しくクオリティが低かったり**、**重複したスキン**の投稿はお控えください`,
@@ -394,12 +394,12 @@ export default {
     79: 'HPバー/戻るボタン/スキップアニメーションが無いバージョン',
     80: 'プレイ画面のみのバージョン',
     81: 'カスタマイズするためのファイル / ゲームプレイの追加要素 (および未使用ファイル)',
-    82: 'Select rating',
+    82: '評価を選択',
     83: 'リリース日：',
     84: 'スクリーンショットカテゴリを選択',
     85: '«クイック選択»を無効にしてお試しください',
     86: '再送信',
-    87: 'Use this one if you have multiple gameplay variants that appear visually different',
+    87: 'ゲームプレイのバリアントが複数あり、それぞれ見た目が異なる場合に使用してください',
     checks: {
       0: 'スキン名が指定されていません',
       1: '最低でも1人は作成者を追加してください',
@@ -413,7 +413,7 @@ export default {
       9: 'スキンのバージョンが指定されていません',
       10: 'コンテンツレーティングが選択されていません',
       11: `リリース日は未来の日付に設定できません`,
-      12: `Variant name should NOT be used for mania keys «{name}»`
+      12: `«{name}» はバリアント名としてmaniaのキー設定に使用できません`
     }
   },
   skin_block: {
@@ -490,10 +490,10 @@ export default {
     7: '報告を送信'
   },
   plural: {
-    skins: '{amount} skin | {amount} skins',
-    tags_skins: '«{name}» {amount} skin | «{name}» {amount} skins',
-    views: '{amount} view | {amount} views',
-    votes: '{amount} vote | {amount} votes'
+    skins: '{amount} スキン | {amount} スキン',
+    tags_skins: '«{name}» {amount} スキン | «{name}» {amount} スキン',
+    views: '{amount} 回表示 | {amount} 回表示',
+    votes: '{amount} 票 | {amount} 票'
   },
   placeholder: {
     0: 'テキストを入力..',
