@@ -8,7 +8,7 @@ export default {
     all_skins: '所有皮肤',
     tags: '标签',
     new: '最新',
-    contribute: 'Help with translation',
+    contribute: '协助翻译',
     login: '登录',
     0: '浏览',
     1: '下载',
@@ -36,9 +36,9 @@ export default {
     2: '当鼠标悬浮在皮肤封面上时启用便捷的图片翻页。',
     3: '放大',
     4: '当鼠标悬浮在皮肤封面上时自动缩放图片。',
-    5: 'Tint visited skins',
-    6: 'option to tint skins you\'ve already visited',
-    7: 'Log in to tint visited skins'
+    5: '着色已访问的皮肤',
+    6: '对已访问的皮肤进行着色处理的选项',
+    7: '请登录以着色已访问的皮肤'
   },
   footer: {
     0: '致谢',
@@ -181,7 +181,7 @@ export default {
       '名称',
       '标签',
       '创作者',
-      'files name'
+      '文件名'
     ],
     2: '选择日期范围',
     3: '文件大小范围',
@@ -399,7 +399,7 @@ export default {
     84: '选择截图变种',
     85: '试试关掉“快速选择”吧',
     86: '重新提交',
-    87: 'Use this one if you have multiple gameplay variants that appear visually different',
+    87: '如果您有多种在视觉上不同的游戏变种，请使用此选项',
     checks: {
       0: '未标明皮肤名称',
       1: '添加至少一个作者',
@@ -413,7 +413,7 @@ export default {
       9: '未注明皮肤版本',
       10: '未选择内容分级',
       11: `发布日期不能是未来日期`,
-      12: `Variant name should NOT be used for mania keys «{name}»`
+      12: `变种名称不应用于 mania 按键 «{name}»`
     }
   },
   skin_block: {
@@ -422,9 +422,9 @@ export default {
     2: '切换到其他游戏模式',
     3: '更改图片类别',
     4: '复制短链接',
-    5: '{mode}: {amount} variant | {mode}: {amount} variants | {mode}: {amount} variants',
-    6: 'Visited',
-    7: 'Can be disabled in settings (next to your pfp)'
+    5: '{mode}：{amount} 个变种 | {mode}：{amount} 个变种 | {mode}：{amount} 个变种',
+    6: '已访问',
+    7: '可在设置中禁用（位于您的个人资料图片旁）'
   },
   gallery: {
     0: '全屏显示',
@@ -490,10 +490,10 @@ export default {
     7: '提交举报'
   },
   plural: {
-    skins: '{amount} skin | {amount} skins',
-    tags_skins: '«{name}» {amount} skin | «{name}» {amount} skins',
-    views: '{amount} view | {amount} views',
-    votes: '{amount} vote | {amount} votes'
+    skins: '{amount} 个皮肤 | {amount} 个皮肤',
+    tags_skins: '«{name}» {amount} 个皮肤 | «{name}» {amount} 个皮肤',
+    views: '{amount} 次浏览 | {amount} 次浏览',
+    votes: '{amount} 票 | {amount} 票'
   },
   placeholder: {
     0: '输入文本..',
@@ -536,8 +536,8 @@ export default {
     7: '{amount} 次投票'
   },
   nsfw: {
-    0: 'Warning!',
-    1: 'This skin contains {type} content. Proceed?'
+    0: '警告！',
+    1: '此皮肤包含 {type} 内容。要继续吗？'
   },
   drag: {
     0: '点击添加图片',
