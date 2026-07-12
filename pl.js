@@ -216,7 +216,7 @@ export default {
     3: 'brakujące skiny'
   },
   users: {
-    title: ['Profil - {name} skiny'],
+    title: ['Profil - skórki użytkownika {name}'],
     description: ['All osu! skins created by {name}'],
     0: [
       'Utworzone skiny',
@@ -245,7 +245,7 @@ export default {
     21: 'Rozszerz «o mnie» | Zamknij «o mnie»',
     22: 'Nic nie znaleziono',
     23: 'Nie znaleziono skinów dla tej kategorii',
-    24: 'copied'
+    24: 'skopiowano'
   },
   skins: {
     title: [
@@ -390,7 +390,7 @@ export default {
     75: 'Zmiany przywrócono z cache',
     76: 'Data wydania: {date}',
     77: 'Wybierz role',
-    78: 'report',
+    78: 'zgłoś',
     79: 'Wersja bez animacji paska hp, przycisku wstecz i pominięcia',
     80: 'Wersja samej rozgrywki',
     81: 'Pliki do personalizacji / dodatkowe elementy (i nieużyte pliki)',
@@ -536,7 +536,7 @@ export default {
     7: '{amount} głosów'
   },
   nsfw: {
-    0: 'Warning!',
+    0: 'Uwaga!',
     1: 'This skin contains {type} content. Proceed?'
   },
   drag: {
@@ -558,6 +558,6 @@ export default {
     0: 'Home page',
     1: 'Zaloguj się',
     2: 'Zgłoś problem',
-    3: 'Go back'
+    3: 'Wróć'
   }
 };
