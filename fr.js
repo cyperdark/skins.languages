@@ -8,7 +8,7 @@ export default {
     all_skins: 'Tous les skins',
     tags: 'Étiquettes',
     new: 'Nouveau',
-    contribute: 'Help with translation',
+    contribute: 'Contribue à la traduction',
     login: 'Se connecter',
     0: 'Vues',
     1: 'Téléchargements',
@@ -64,8 +64,8 @@ export default {
     ],
     4: 'Format d\'écrans',
     5: 'plus',
-    6: 'Recently uploaded/updated skins',
-    7: 'Newly released skins'
+    6: 'Skins récemment ajoutés/mis à jour',
+    7: 'Nouveaux skins'
   },
   credits: {
     title: [
