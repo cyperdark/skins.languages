@@ -36,9 +36,9 @@ export default {
     2: 'Naviguer facilement sur les images lors du survol d\'un skin',
     3: 'Zoom +',
     4: 'Zoom automatique des images lors du survol d\'un skin',
-    5: 'Tint visited skins',
-    6: 'option to tint skins you\'ve already visited',
-    7: 'Log in to tint visited skins'
+    5: 'Teinter les skins visités',
+    6: 'option pour teinter les skins que vous avez déjà visité',
+    7: 'Connectez-vous pour teinter les skins visités'
   },
   footer: {
     0: 'Crédits',
@@ -91,7 +91,7 @@ export default {
   },
   skin_ini: {
     title: 'Éditeur visuel skin.ini - osu! tools',
-    description: 'Preview your skin gameplay with in real-time changes such as combo colors, slider colors, and font offsets. Standard mode only for now',
+    description: 'Prévisualisez le gameplay de votre skin avec des changements en temps réel, tels que les couleurs de combo, les couleurs de slider, et les décalages de fontes. Seul le mode standard est supporté pour l\'instant',
     prepare: [
       'Charger beatmap',
       'Charger skin',
@@ -174,14 +174,14 @@ export default {
     0: 'Captures d\'écran non trouvées pour cette catégorie'
   },
   search: {
-    title: 'Advanced search for osu! skins',
+    title: 'Recherche avancée pour les skins osu!',
     description: 'Trouvez le skin osu! parfait avec notre fonctionnalité de recherche avancée. Naviguez dans notre gigantesque bibliothèque, filtrée par modes de jeu, format d\'écran et autres. Ou regardez nos skins utilisés par les meilleurs joueurs.',
     0: 'Titre, auteur ou étiquettes du skin',
     1: [
       'nom',
       'étiquettes',
       'auteurs',
-      'files name'
+      'noms de fichiers'
     ],
     2: 'Sélectionner plage de temps',
     3: 'Plage de taille',
@@ -216,8 +216,8 @@ export default {
     3: 'skin manquant'
   },
   users: {
-    title: ['Profile - {name} skins'],
-    description: ['All osu! skins created by {name}'],
+    title: ['Profil – skins de {name}'],
+    description: ['Tous les skins osu! créés par {name}'],
     0: [
       'Skins créés',
       'Skins téléchargés'
@@ -245,7 +245,7 @@ export default {
     21: 'Étendre « À propos de moi » | Fermer « À propos de moi »',
     22: 'Aucun résultat',
     23: 'Aucun skin n\'a été trouvé pour ce créateur',
-    24: 'copied'
+    24: 'copié'
   },
   skins: {
     title: [
