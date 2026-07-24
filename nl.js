@@ -400,6 +400,7 @@ export default {
     85: 'probeer «Snel selecteren» uit te zetten',
     86: 'Opnieuw indienen',
     87: 'Gebruik deze als je meerdere gameplay varianten hebt die er verschillend uit zien',
+    88: 'Clear changes?',
     checks: {
       0: 'Skin naam niet gespecifieerd',
       1: 'Voeg minstens één auteur toe',
