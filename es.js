@@ -400,6 +400,7 @@ export default {
     85: 'try disabling «Quick select»',
     86: 'Submit again',
     87: 'Use this one if you have multiple gameplay variants that appear visually different',
+    88: 'Clear changes?',
     checks: {
       0: 'El nombre del aspecto no ha sido especificado',
       1: 'Añade al menos un creador',
