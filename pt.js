@@ -400,6 +400,7 @@ export default {
     85: 'tente desabilitar «Quick select»',
     86: 'Envie novamente',
     87: 'Use isto aqui se você tiver múltiplas variantes de gameplay que aparecem visualmente diferentes',
+    88: 'Clear changes?',
     checks: {
       0: 'Nome da skin não especificado',
       1: 'Adicione ao menos um criador',
