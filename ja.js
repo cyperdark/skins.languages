@@ -400,7 +400,12 @@ export default {
     85: '«クイック選択»を無効にしてお試しください',
     86: '再送信',
     87: 'ゲームプレイのバリアントが複数あり、それぞれ見た目が異なる場合に使用してください',
-    88: 'Clear changes?',
+    88: '変更を取り消しますか？',
+    89: 'osu! forum',
+    90: 'reddit',
+    91: 'twitter',
+    92: 'Newer version available: {version}',
+    93: '{amount} new version available | {amount} new versions available',
     checks: {
       0: 'スキン名が指定されていません',
       1: '最低でも1人は作成者を追加してください',
