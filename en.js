@@ -508,6 +508,13 @@ export default {
 
     88: 'Clear changes?',
 
+    89: 'osu! forum',
+    90: 'reddit',
+    91: 'twitter',
+
+    92: 'Newer version available: {version}',
+    93: '{amount} new version available | {amount} new versions available',
+
 
     checks: {
       0: 'Skin name not specified',
