@@ -8,7 +8,7 @@ export default {
     all_skins: 'Tutte le Skin',
     tags: 'Tags',
     new: 'Nuovo',
-    contribute: 'Help with translation',
+    contribute: 'Aiuta a tradurre',
     login: 'Accedi',
     0: 'Visualizzazioni',
     1: 'Scaricati',
@@ -36,9 +36,9 @@ export default {
     2: 'Consente la navigazione facile al passaggio del mouse sopra un riquadro di una skin.',
     3: 'Zoom in',
     4: 'Consente lo zoom automatico dell\'immagine al passaggio del mouse sopra un riquadro di una skin.',
-    5: 'Tint visited skins',
-    6: 'option to tint skins you\'ve already visited',
-    7: 'Log in to tint visited skins'
+    5: 'Schiarisci skin visualizzate',
+    6: 'opzione per schiarire le skin già visualizzate',
+    7: 'Accedi per schiarire le skin visualizzate'
   },
   footer: {
     0: 'Crediti',
@@ -70,7 +70,7 @@ export default {
   credits: {
     title: [
       'Crediti delle opere d\'arte',
-      'Used assets',
+      'Risorse utilizzate',
       'Assistenti alla traduzione'
     ],
     0: 'Crediti',
@@ -79,7 +79,7 @@ export default {
     3: [
       'Opere d\'arte',
       'Traduzioni',
-      'Assets'
+      'Risorse'
     ],
     4: 'Tutte le icone sono prese da {name}',
     5: 'Tutte le immagini delle bandiere sono prese da {name}'
@@ -91,7 +91,7 @@ export default {
   },
   skin_ini: {
     title: 'Editor visuale di skin.ini - strumenti osu!',
-    description: 'Preview your skin gameplay with in real-time changes such as combo colors, slider colors, and font offsets. Standard mode only for now',
+    description: 'Visualizza in anteprima il gameplay con la skin con cambiamenti in tempo reale come colori delle combo, colori degli slider e offset dei font. Funzionante solo in modalità Standard per ora',
     prepare: [
       'caricamento beatmap',
       'caricamento skin',
@@ -115,7 +115,7 @@ export default {
     14: 'Cambia scheda',
     15: 'Riavvolgi',
     16: 'Vai Avanti',
-    17: 'Play/Pause viewer',
+    17: 'Riproduci/Metti in pausa il visualizzatore',
     18: 'Vai alla sezione precedente delle impostazioni',
     19: 'Vai alla sezione successiva delle impostazioni',
     20: 'Apri menù',
@@ -149,17 +149,17 @@ export default {
       'Votazione',
       'Concluso'
     ],
-    2: 'Announcement',
+    2: 'Annuncio',
     3: 'Submissions ended',
     4: 'Votazioni iniziate',
     5: 'Votazioni concluse',
     6: 'Risultati pubblicati',
-    7: 'Submission phase...',
+    7: 'Fase di invio...',
     8: 'Fase di preparazione...',
     9: 'Fase di votazione...',
     10: 'In attesa di risultati...',
     11: 'Vota qui',
-    12: 'announcement',
+    12: 'annuncio',
     13: 'submissions',
     14: 'pagina concorso',
     15: 'risultati',
@@ -178,10 +178,10 @@ export default {
     description: 'Find the perfect osu! skin with our advanced search feature. Browse through our huge library, filtered by gamemode, aspect ratio, and more. Or check out skins used by top players.',
     0: 'Skin title, author, or tags',
     1: [
-      'name',
+      'nome',
       'tags',
       'creatori',
-      'files name'
+      'nome dei file'
     ],
     2: 'Seleziona un Intervallo di date',
     3: 'Intervallo Dimensioni',
@@ -217,7 +217,7 @@ export default {
   },
   users: {
     title: ['Profile - {name} skins'],
-    description: ['All osu! skins created by {name}'],
+    description: ['Tutte le skin di osu! create da {name}'],
     0: [
       'Skin create',
       'Skin caricate'
@@ -245,12 +245,12 @@ export default {
     21: 'Expand «about me» | Close «about me»',
     22: 'Non è stato trovato niente',
     23: 'Non sono state trovate skin per questo creatore',
-    24: 'copied'
+    24: 'copiato'
   },
   skins: {
     title: [
       '{amount} skin di osu!',
-      '{category} osu! skins',
+      'skin {category} di osu!',
       'universal aspect ratio osu! skins',
       '204 Most viewed {mode} skins',
       '204 Most downloaded {mode} skins',
@@ -310,7 +310,7 @@ export default {
     8: 'Select which changes you want to be applied',
     9: 'Applica',
     10: 'Rifiuta',
-    11: 'Apply changes',
+    11: 'Applica modifiche',
     12: [
       'About',
       'Screenshots',
@@ -341,7 +341,7 @@ export default {
     34: '{amount} problemi',
     35: 'Modifica',
     36: 'Accedi per segnalare la skin',
-    37: 'Exit editing',
+    37: 'Esci dall\'editing',
     38: 'Rimuovi banner',
     39: 'Descrizione',
     40: '**Animazioni** - contiene elementi animati (pulsante indietro / pulsante salta / barra hp)',
@@ -393,14 +393,19 @@ export default {
     78: 'report',
     79: 'Versione senza animazioni di barra hp, pulsante indietro e pulsante salta',
     80: 'Versione solo gameplay',
-    81: 'Files for customization / additional gameplay elements (and unused files)',
+    81: 'File per personalizzazione / elementi aggiuntivi di gameplay (e file inutilizzati)',
     82: 'Select rating',
     83: 'Released at:',
     84: 'Select screenshot variant',
     85: 'try disabling «Quick select»',
-    86: 'Submit again',
+    86: 'Invia di nuovo',
     87: 'Use this one if you have multiple gameplay variants that appear visually different',
-    88: 'Clear changes?',
+    88: 'Annullare le modifiche?',
+    89: 'osu! forum',
+    90: 'reddit',
+    91: 'twitter',
+    92: 'Newer version available: {version}',
+    93: '{amount} new version available | {amount} new versions available',
     checks: {
       0: 'Nome della skin non specificata',
       1: 'Aggiungi almeno un creatore',
@@ -425,7 +430,7 @@ export default {
     4: 'Copia link breve',
     5: '{mode}: {amount} variant | {mode}: {amount} variants | {mode}: {amount} variants',
     6: 'Visited',
-    7: 'Can be disabled in settings (next to your pfp)'
+    7: 'Può essere disattivato nelle impostazioni (Accanto all tua foto profilo)'
   },
   gallery: {
     0: 'Apri a schermo intero',
@@ -466,7 +471,7 @@ export default {
       1: 'Link al video della skin mancante'
     },
     skin_file: [
-      'Download link broken',
+      'Link di download danneggiato',
       'La skin è rotta',
       'Descrivi cosa esattamente è rotto'
     ],
@@ -537,8 +542,8 @@ export default {
     7: '{amount} voti'
   },
   nsfw: {
-    0: 'Warning!',
-    1: 'This skin contains {type} content. Proceed?'
+    0: 'Attenzione!',
+    1: 'Questa skin contiene contenuto {type}. Procedere?'
   },
   drag: {
     0: 'Clicca per aggiungere immagini',
@@ -556,9 +561,9 @@ export default {
     expand_more: 'Mostra di più | Mostra di meno'
   },
   error: {
-    0: 'Home page',
+    0: 'Pagina Iniziale',
     1: 'Accedi',
     2: 'Segnala un problema',
-    3: 'Go back'
+    3: 'Torna indietro'
   }
 };
