@@ -401,6 +401,11 @@ export default {
     86: 'Trimite din nou',
     87: 'Folosește-o pe aceasta dacă ai mai multe variante de gameplay care arată diferit din punct de vedere vizual',
     88: 'Clear changes?',
+    89: 'osu! forum',
+    90: 'reddit',
+    91: 'twitter',
+    92: 'Newer version available: {version}',
+    93: '{amount} new version available | {amount} new versions available',
     checks: {
       0: 'Numele skin-ului nu a fost specificat',
       1: 'Adaugă cel puțin un creator',
