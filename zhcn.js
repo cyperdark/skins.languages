@@ -401,6 +401,11 @@ export default {
     86: '重新提交',
     87: '如果您有多种在视觉上不同的游戏变种，请使用此选项',
     88: 'Clear changes?',
+    89: 'osu! forum',
+    90: 'reddit',
+    91: 'twitter',
+    92: 'Newer version available: {version}',
+    93: '{amount} new version available | {amount} new versions available',
     checks: {
       0: '未标明皮肤名称',
       1: '添加至少一个作者',

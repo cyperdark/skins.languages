@@ -400,7 +400,12 @@ export default {
     85: 'probeer «Snel selecteren» uit te zetten',
     86: 'Opnieuw indienen',
     87: 'Gebruik deze als je meerdere gameplay varianten hebt die er verschillend uit zien',
-    88: 'Clear changes?',
+    88: 'Verwijder veranderingen?',
+    89: 'osu! forum',
+    90: 'reddit',
+    91: 'twitter',
+    92: 'Newer version available: {version}',
+    93: '{amount} new version available | {amount} new versions available',
     checks: {
       0: 'Skin naam niet gespecifieerd',
       1: 'Voeg minstens één auteur toe',

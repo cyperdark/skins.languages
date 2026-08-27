@@ -401,6 +401,11 @@ export default {
     86: 'Submit again',
     87: 'Use this one if you have multiple gameplay variants that appear visually different',
     88: 'Clear changes?',
+    89: 'osu! forum',
+    90: 'reddit',
+    91: 'twitter',
+    92: 'Newer version available: {version}',
+    93: '{amount} new version available | {amount} new versions available',
     checks: {
       0: 'Skinnets namn är inte specificerat',
       1: 'Lägg till minst en skapare',
