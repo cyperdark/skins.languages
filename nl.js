@@ -404,8 +404,8 @@ export default {
     89: 'osu! forum',
     90: 'reddit',
     91: 'twitter',
-    92: 'Newer version available: {version}',
-    93: '{amount} new version available | {amount} new versions available',
+    92: 'Nieuwe versie beschikbaar: {version}',
+    93: '{amount} nieuwe versie beschikbaar | {amount} nieuwe versies beschikbaar',
     checks: {
       0: 'Skin naam niet gespecifieerd',
       1: 'Voeg minstens één auteur toe',
