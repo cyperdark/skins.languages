@@ -16,7 +16,9 @@ export default {
   },
   notifications: {
     0: '通知',
-    1: '追蹤我們的社群平台，即時掌握新外觀發布通知'
+    1: '追蹤我們的社群平台，即時掌握新外觀發布通知',
+    2: 'Pasting {name} not supported',
+    3: 'Pasted {amount} image | Pasted {amount} images'
   },
   user_menu: {
     0: '個人檔案',
@@ -181,7 +183,7 @@ export default {
       'name',
       'tags',
       'creators',
-      'files name'
+      'filename'
     ],
     2: 'Select date range',
     3: 'Size range',
@@ -406,6 +408,9 @@ export default {
     91: 'twitter',
     92: '有新版本可用：{version}',
     93: '{amount} 個新版本可用 | {amount} 個新版本可用',
+    94: 'Unsupported osu profile link',
+    95: 'Creator already exists',
+    96: 'New creator «{name}»',
     checks: {
       0: 'Skin name not specified',
       1: 'Add at least one creator',
@@ -510,6 +515,7 @@ export default {
     date: 'Date',
     release_date: 'Release date',
     upload_date: 'Upload date',
+    updated_date: 'Updated date',
     view: '觀看次數',
     vote: 'Votes',
     name: 'Name',
