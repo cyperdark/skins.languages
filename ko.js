@@ -16,7 +16,9 @@ export default {
   },
   notifications: {
     0: '알림',
-    1: '새로운 스킨들에 대한 알림을 받으시려면 다음 플랫폼에서 저희를 팔로우 하세요.'
+    1: '새로운 스킨들에 대한 알림을 받으시려면 다음 플랫폼에서 저희를 팔로우 하세요.',
+    2: 'Pasting {name} not supported',
+    3: 'Pasted {amount} image | Pasted {amount} images'
   },
   user_menu: {
     0: '프로필',
@@ -181,7 +183,7 @@ export default {
       '이름',
       '태그',
       '제작자',
-      'files name'
+      'filename'
     ],
     2: 'Select date range',
     3: 'Size range',
@@ -406,6 +408,9 @@ export default {
     91: 'twitter',
     92: 'Newer version available: {version}',
     93: '{amount} new version available | {amount} new versions available',
+    94: 'Unsupported osu profile link',
+    95: 'Creator already exists',
+    96: 'New creator «{name}»',
     checks: {
       0: 'Skin name not specified',
       1: 'Add at least one creator',
@@ -510,6 +515,7 @@ export default {
     date: 'Date',
     release_date: 'Release date',
     upload_date: 'Upload date',
+    updated_date: 'Updated date',
     view: '조회수',
     vote: 'Votes',
     name: 'Name',

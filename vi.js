@@ -16,7 +16,9 @@ export default {
   },
   notifications: {
     0: 'Thông báo',
-    1: 'Hãy theo dõi chúng tôi trên các nền tảng này để nhận những thông báo về những skin mới'
+    1: 'Hãy theo dõi chúng tôi trên các nền tảng này để nhận những thông báo về những skin mới',
+    2: 'Pasting {name} not supported',
+    3: 'Pasted {amount} image | Pasted {amount} images'
   },
   user_menu: {
     0: 'hồ sơ',
@@ -181,7 +183,7 @@ export default {
       'tên',
       'thẻ',
       'tác giả',
-      'tên file'
+      'filename'
     ],
     2: 'Chọn khoảng thời gian',
     3: 'Kích cỡ file',
@@ -405,8 +407,11 @@ hình ảnh mang tính phân biệt đối xử\n- Máu me quá mức hoặc b�
     89: 'diễn đàn osu',
     90: 'reddit',
     91: 'twitter',
-    92: 'Phiên bản mới hơn khả dụng: {phiên bản}',
+    92: 'Phiên bản mới hơn khả dụng: {version}',
     93: '{amount} phiên bản mới khả dụng | {amount} các phiên bản mới khả dụng',
+    94: 'Unsupported osu profile link',
+    95: 'Creator already exists',
+    96: 'New creator «{name}»',
     checks: {
       0: 'Tên skin chưa được định rõ',
       1: 'Hãy thêm vào ít nhất nhất một tác giả',
@@ -511,6 +516,7 @@ hình ảnh mang tính phân biệt đối xử\n- Máu me quá mức hoặc b�
     date: 'Thời gian',
     release_date: 'Thời gian phát hành',
     upload_date: 'Thời gian đăng',
+    updated_date: 'Updated date',
     view: 'Lượt xem',
     vote: 'Bình chọn',
     name: 'Tên',

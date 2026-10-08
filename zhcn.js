@@ -16,7 +16,9 @@ export default {
   },
   notifications: {
     0: '通知',
-    1: '在这些平台上关注我们来接收关于新皮肤的通知'
+    1: '在这些平台上关注我们来接收关于新皮肤的通知',
+    2: 'Pasting {name} not supported',
+    3: 'Pasted {amount} image | Pasted {amount} images'
   },
   user_menu: {
     0: '个人资料',
@@ -181,7 +183,7 @@ export default {
       '名称',
       '标签',
       '创作者',
-      '文件名'
+      'filename'
     ],
     2: '选择日期范围',
     3: '文件大小范围',
@@ -406,6 +408,9 @@ export default {
     91: 'twitter',
     92: 'Newer version available: {version}',
     93: '{amount} new version available | {amount} new versions available',
+    94: 'Unsupported osu profile link',
+    95: 'Creator already exists',
+    96: 'New creator «{name}»',
     checks: {
       0: '未标明皮肤名称',
       1: '添加至少一个作者',
@@ -510,6 +515,7 @@ export default {
     date: '日期',
     release_date: '发布日期',
     upload_date: '上传日期',
+    updated_date: 'Updated date',
     view: '浏览',
     vote: '投票数',
     name: '名称',

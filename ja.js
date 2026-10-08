@@ -16,7 +16,9 @@ export default {
   },
   notifications: {
     0: '通知',
-    1: '新しいスキンの通知を受け取るには、こちらのプラットフォームでフォローしてください。'
+    1: '新しいスキンの通知を受け取るには、こちらのプラットフォームでフォローしてください。',
+    2: 'Pasting {name} not supported',
+    3: 'Pasted {amount} image | Pasted {amount} images'
   },
   user_menu: {
     0: 'プロフィール',
@@ -181,7 +183,7 @@ export default {
       '名前',
       'タグ',
       '制作者',
-      'ファイル名'
+      'filename'
     ],
     2: '日付範囲を選択',
     3: 'サイズの範囲',
@@ -406,6 +408,9 @@ export default {
     91: 'twitter',
     92: '新しいバージョンが利用可能です: {version}',
     93: '{amount}つの新しいバージョンが利用可能です | {amount}つの新しいバージョンが利用可能です',
+    94: 'Unsupported osu profile link',
+    95: 'Creator already exists',
+    96: 'New creator «{name}»',
     checks: {
       0: 'スキン名が指定されていません',
       1: '最低でも1人は作成者を追加してください',
@@ -510,6 +515,7 @@ export default {
     date: '日付',
     release_date: 'リリース日',
     upload_date: 'アップロード日',
+    updated_date: 'Updated date',
     view: '閲覧数',
     vote: '投票数',
     name: '名前',

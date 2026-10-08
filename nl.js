@@ -16,7 +16,9 @@ export default {
   },
   notifications: {
     0: 'Notificaties',
-    1: 'Volg ons op deze plekken om notificaties te ontvangen over nieuwe skins'
+    1: 'Volg ons op deze plekken om notificaties te ontvangen over nieuwe skins',
+    2: 'Pasting {name} not supported',
+    3: 'Pasted {amount} image | Pasted {amount} images'
   },
   user_menu: {
     0: 'profiel',
@@ -181,7 +183,7 @@ export default {
       'naam',
       'categorieën',
       'auteurs',
-      'bestandsnamen'
+      'filename'
     ],
     2: 'Selecteer tijdsperiode',
     3: 'Typ bereik',
@@ -406,6 +408,9 @@ export default {
     91: 'twitter',
     92: 'Nieuwe versie beschikbaar: {version}',
     93: '{amount} nieuwe versie beschikbaar | {amount} nieuwe versies beschikbaar',
+    94: 'Unsupported osu profile link',
+    95: 'Creator already exists',
+    96: 'New creator «{name}»',
     checks: {
       0: 'Skin naam niet gespecifieerd',
       1: 'Voeg minstens één auteur toe',
@@ -510,6 +515,7 @@ export default {
     date: 'Datum',
     release_date: 'Releasedatum',
     upload_date: 'Uploaddatum',
+    updated_date: 'Updated date',
     view: 'Weergaven',
     vote: 'Stemmen',
     name: 'Naam',

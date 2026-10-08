@@ -16,7 +16,9 @@ export default {
   },
   notifications: {
     0: 'Bildirimler',
-    1: 'Yeni skinler hakkında bildirim almak için bu platformlarda bizi takip edin'
+    1: 'Yeni skinler hakkında bildirim almak için bu platformlarda bizi takip edin',
+    2: 'Pasting {name} not supported',
+    3: 'Pasted {amount} image | Pasted {amount} images'
   },
   user_menu: {
     0: 'profil',
@@ -181,7 +183,7 @@ export default {
       'i̇sim',
       'etiketler',
       'yaratıcılar',
-      'files name'
+      'filename'
     ],
     2: 'Tarih aralığı seçin',
     3: 'Boyut aralığı',
@@ -407,6 +409,9 @@ export default {
     91: 'twitter',
     92: 'Newer version available: {version}',
     93: '{amount} new version available | {amount} new versions available',
+    94: 'Unsupported osu profile link',
+    95: 'Creator already exists',
+    96: 'New creator «{name}»',
     checks: {
       0: 'Skin adı belirtilmedi',
       1: 'En az 1 yaratıcı ekleyin',
@@ -511,6 +516,7 @@ export default {
     date: 'Tarih',
     release_date: 'Yayınlanma tarihi',
     upload_date: 'Yükleme tarihi',
+    updated_date: 'Updated date',
     view: 'Görüntülenme',
     vote: 'Oylar',
     name: 'İsim',

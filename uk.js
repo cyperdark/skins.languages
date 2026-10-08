@@ -16,7 +16,9 @@ export default {
   },
   notifications: {
     0: 'Сповіщення',
-    1: 'Слідкуйте за нами на цих платформах, щоб отримувати сповіщення про нові скіни'
+    1: 'Слідкуйте за нами на цих платформах, щоб отримувати сповіщення про нові скіни',
+    2: 'Pasting {name} not supported',
+    3: 'Pasted {amount} image | Pasted {amount} images'
   },
   user_menu: {
     0: 'профіль',
@@ -181,7 +183,7 @@ export default {
       'назва',
       'Теги',
       'автори',
-      'files name'
+      'filename'
     ],
     2: 'Виберіть діапазон дат',
     3: 'Діапазон розмірів',
@@ -407,6 +409,9 @@ export default {
     91: 'twitter',
     92: 'Newer version available: {version}',
     93: '{amount} new version available | {amount} new versions available',
+    94: 'Unsupported osu profile link',
+    95: 'Creator already exists',
+    96: 'New creator «{name}»',
     checks: {
       0: 'Назву скіна не вказано',
       1: 'Додайте хоча б одного автора',
@@ -511,6 +516,7 @@ export default {
     date: 'Дата',
     release_date: 'Дата випуску',
     upload_date: 'Дата завантаження',
+    updated_date: 'Updated date',
     view: 'Перегляди',
     vote: 'Голосів',
     name: 'Назва',
