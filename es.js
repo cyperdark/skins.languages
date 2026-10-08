@@ -16,7 +16,9 @@ export default {
   },
   notifications: {
     0: 'Notificaciones',
-    1: 'Síguenos en estas plataformas para recibir notificaciones sobre nuevos aspectos'
+    1: 'Síguenos en estas plataformas para recibir notificaciones sobre nuevos aspectos',
+    2: 'Pasting {name} not supported',
+    3: 'Pasted {amount} image | Pasted {amount} images'
   },
   user_menu: {
     0: 'perfil',
@@ -181,7 +183,7 @@ export default {
       'nombre',
       'etiquetas',
       'creadores',
-      'files name'
+      'filename'
     ],
     2: 'Selecciona un intervalo de fechas',
     3: 'Rango de tamaño',
@@ -406,6 +408,9 @@ export default {
     91: 'twitter',
     92: 'Newer version available: {version}',
     93: '{amount} new version available | {amount} new versions available',
+    94: 'Unsupported osu profile link',
+    95: 'Creator already exists',
+    96: 'New creator «{name}»',
     checks: {
       0: 'El nombre del aspecto no ha sido especificado',
       1: 'Añade al menos un creador',
@@ -510,6 +515,7 @@ export default {
     date: 'Fecha',
     release_date: 'Fecha de lanzamiento',
     upload_date: 'Fecha de subida',
+    updated_date: 'Updated date',
     view: 'Vistas',
     vote: 'Votos',
     name: 'Nombre',
