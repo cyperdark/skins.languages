@@ -16,7 +16,9 @@ export default {
   },
   notifications: {
     0: 'Notifikationer',
-    1: 'Följ oss på dessa plattformar för att bli notifierad över nya skins'
+    1: 'Följ oss på dessa plattformar för att bli notifierad över nya skins',
+    2: 'Pasting {name} not supported',
+    3: 'Pasted {amount} image | Pasted {amount} images'
   },
   user_menu: {
     0: 'profil',
@@ -181,7 +183,7 @@ export default {
       'namn',
       'taggar',
       'skapare',
-      'files name'
+      'filename'
     ],
     2: 'Välj datumintervall',
     3: 'Storleksintervall',
@@ -406,6 +408,9 @@ export default {
     91: 'twitter',
     92: 'Newer version available: {version}',
     93: '{amount} new version available | {amount} new versions available',
+    94: 'Unsupported osu profile link',
+    95: 'Creator already exists',
+    96: 'New creator «{name}»',
     checks: {
       0: 'Skinnets namn är inte specificerat',
       1: 'Lägg till minst en skapare',
@@ -510,6 +515,7 @@ export default {
     date: 'Datum',
     release_date: 'Publiceringsdatum',
     upload_date: 'Uppladdningsdatum',
+    updated_date: 'Updated date',
     view: 'Visningar',
     vote: 'Röster',
     name: 'Namn',
