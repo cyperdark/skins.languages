@@ -16,7 +16,9 @@ export default {
   },
   notifications: {
     0: 'Notifications',
-    1: 'Suivez-nous sur ces plateformes pour recevoir des notifications sur les nouveautés'
+    1: 'Suivez-nous sur ces plateformes pour recevoir des notifications sur les nouveautés',
+    2: 'Pasting {name} not supported',
+    3: 'Pasted {amount} image | Pasted {amount} images'
   },
   user_menu: {
     0: 'profil',
@@ -181,7 +183,7 @@ export default {
       'nom',
       'étiquettes',
       'auteurs',
-      'noms de fichiers'
+      'filename'
     ],
     2: 'Sélectionner plage de temps',
     3: 'Plage de taille',
@@ -406,6 +408,9 @@ export default {
     91: 'twitter',
     92: 'Newer version available: {version}',
     93: '{amount} new version available | {amount} new versions available',
+    94: 'Unsupported osu profile link',
+    95: 'Creator already exists',
+    96: 'New creator «{name}»',
     checks: {
       0: 'Nom du skin non spécifié',
       1: 'Ajoutez au moins un créateur',
@@ -510,6 +515,7 @@ export default {
     date: 'Date',
     release_date: 'Date de sortie',
     upload_date: 'Date de téléchargement',
+    updated_date: 'Updated date',
     view: 'Vues',
     vote: 'Votes ',
     name: 'Nom',
