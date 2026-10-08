@@ -16,7 +16,9 @@ export default {
   },
   notifications: {
     0: 'Notifikasi',
-    1: 'Ikuti kami di platform ini untuk menerima notifikasi tentang skin baru'
+    1: 'Ikuti kami di platform ini untuk menerima notifikasi tentang skin baru',
+    2: 'Pasting {name} not supported',
+    3: 'Pasted {amount} image | Pasted {amount} images'
   },
   user_menu: {
     0: 'profil',
@@ -181,7 +183,7 @@ export default {
       'nama',
       'label',
       'pembuat',
-      'nama berkas'
+      'filename'
     ],
     2: 'Pilih rentang tanggal',
     3: 'Ukuran rentang',
@@ -406,6 +408,9 @@ export default {
     91: 'twitter',
     92: 'Newer version available: {version}',
     93: '{amount} new version available | {amount} new versions available',
+    94: 'Unsupported osu profile link',
+    95: 'Creator already exists',
+    96: 'New creator «{name}»',
     checks: {
       0: 'Nama skin belum diisi',
       1: 'Tambahkan setidaknya satu pembuat',
@@ -510,6 +515,7 @@ export default {
     date: 'Tanggal',
     release_date: 'Tanggal rilis',
     upload_date: 'Tanggal diunggah',
+    updated_date: 'Updated date',
     view: 'Dilihat',
     vote: 'Suara',
     name: 'Nama',
