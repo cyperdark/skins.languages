@@ -16,7 +16,9 @@ export default {
   },
   notifications: {
     0: 'Notificări',
-    1: 'Urmărește-ne pe aceste platforme pentru a primi notificări despre skin-uri noi'
+    1: 'Urmărește-ne pe aceste platforme pentru a primi notificări despre skin-uri noi',
+    2: 'Pasting {name} not supported',
+    3: 'Pasted {amount} image | Pasted {amount} images'
   },
   user_menu: {
     0: 'profil',
@@ -181,7 +183,7 @@ export default {
       'nume',
       'etichete',
       'creatori',
-      'numele fișierelor'
+      'filename'
     ],
     2: 'Selectează intervalul de timp',
     3: 'Interval de mărime',
@@ -406,6 +408,9 @@ export default {
     91: 'twitter',
     92: 'Newer version available: {version}',
     93: '{amount} new version available | {amount} new versions available',
+    94: 'Unsupported osu profile link',
+    95: 'Creator already exists',
+    96: 'New creator «{name}»',
     checks: {
       0: 'Numele skin-ului nu a fost specificat',
       1: 'Adaugă cel puțin un creator',
@@ -510,6 +515,7 @@ export default {
     date: 'Dată',
     release_date: 'Data lansării',
     upload_date: 'Data încărcării',
+    updated_date: 'Updated date',
     view: 'Vizualizări',
     vote: 'Voturi',
     name: 'Nume',
