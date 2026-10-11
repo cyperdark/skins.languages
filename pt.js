@@ -17,8 +17,8 @@ export default {
   notifications: {
     0: 'Notificações',
     1: 'Siga-nos nestas plataformas para receber notificações sobre novas skins',
-    2: 'Pasting {name} not supported',
-    3: 'Pasted {amount} image | Pasted {amount} images'
+    2: 'Colar {name} não é suportado',
+    3: 'Colado {amount} de imagens | Colado {amount} de imagens'
   },
   user_menu: {
     0: 'perfil',
@@ -183,7 +183,7 @@ export default {
       'nome',
       'tags',
       'criadores',
-      'filename'
+      'nome do arquivo'
     ],
     2: 'Selecionar período',
     3: 'Intervalo de tamanho',
@@ -408,9 +408,9 @@ export default {
     91: 'twitter',
     92: 'Nova versão disponível: {version}',
     93: '{amount} nova versão disponíveis | {amount} novas versões disponíveis',
-    94: 'Unsupported osu profile link',
-    95: 'Creator already exists',
-    96: 'New creator «{name}»',
+    94: 'Link do perfil de osu não suportado',
+    95: 'Um criador já existe',
+    96: 'Novo criador «{name}»',
     checks: {
       0: 'Nome da skin não especificado',
       1: 'Adicione ao menos um criador',
@@ -515,7 +515,7 @@ export default {
     date: 'Data',
     release_date: 'Data de lançamento',
     upload_date: 'Data de envio',
-    updated_date: 'Updated date',
+    updated_date: 'Data de atualização',
     view: 'Visualizações',
     vote: 'Votos',
     name: 'Nome',
