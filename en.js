@@ -253,7 +253,7 @@ export default {
     description: '',
 
     0: 'Nothing was found',
-    1: 'Try searching something else',
+    1: 'Try searching for something else',
   },
 
   tag: {
@@ -262,7 +262,7 @@ export default {
 
     0: 'Nothing was found',
     1: 'No skins were found for this tag',
-    2: 'Try changing gamemode',
+    2: 'Try changing the gamemode',
 
     3: 'missing skin',
   },
@@ -280,10 +280,10 @@ export default {
       'Uploaded skins',
     ],
     1: 'Incorrect url',
-    2: 'Make sure link is correct. Example: {url}',
+    2: 'Make sure the link is correct. Example: {url}',
 
     3: 'Unsupported format',
-    4: 'Link format incorrect, use {url} or {url_1}',
+    4: 'Link format is incorrect, use {url} or {url_1}',
 
     5: `Change at least one setting before updating`,
     6: `Unable to update settings`,
@@ -381,7 +381,7 @@ export default {
     4: 'Suggest changes',
     5: 'Update skin',
 
-    6: 'Log in to rate skin',
+    6: 'Log in to rate skins',
 
     7: 'Suggested changes',
     8: 'Select which changes you want to be applied',
@@ -415,20 +415,20 @@ export default {
 
     24: 'Unsupported osu! forum link',
     25: 'Unsupported Reddit link',
-    26: 'Couldn\'t parse link',
+    26: 'Couldn\'t parse the link',
     27: 'Unsupported Twitter link',
 
     28: 'Unknown cloud service',
 
     29: 'Manage versions',
     30: 'new version',
-    31: 'Type skin name',
+    31: 'Enter the skin name',
 
     33: 'Select aspect ratios',
     34: '{amount} issues',
     35: 'Edit',
 
-    36: 'Log in to report skin',
+    36: 'Log in to report an issue with the skin',
     37: 'Exit editing',
     38: 'Remove banner',
 
@@ -460,7 +460,7 @@ export default {
     58: `Nothing was found`,
     59: 'Change query or try searching something else',
 
-    60: 'Log in to report a file',
+    60: 'Log in to report this file',
     61: 'Versions',
     62: 'Download link',
     63: 'osu! forum link',
@@ -586,18 +586,18 @@ export default {
 
   report: {
     skin_ini: [
-      'Describe bug, preferably with reproduction steps',
+      'Describe a bug, preferably with reproduction steps',
       'Describe what you want to see...'
     ],
     tag: {
       0: 'Missing skin',
-      1: 'Link to a video of missing skin'
+      1: 'Link to a video of the missing skin'
     },
 
     skin_file: [
-      'Download link broken',
+      'Download link is broken',
       'Skin is broken',
-      'Describe what exactly broken',
+      'Describe what exactly is broken',
     ],
 
     skin: [
@@ -607,12 +607,12 @@ export default {
       'Type text...',
       'Missing NSFW tag',
       'Metadata',
-      'Describe what exactly wrong',
+      'Describe what exactly is wrong',
       'Copyright/Missing credits',
       'Type text...',
     ],
 
-    0: 'Log in to report a issue',
+    0: 'Log in to report an issue',
 
     1: 'Type is not selected',
     2: `Id does not exist`,
